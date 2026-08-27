@@ -81,7 +81,7 @@ complex 内の文化財点群の凸包に `complex_buffer_m` のバッファを�
 Python 3.10 以上。
 
 ```bash
-cd cultural_plateau_extractor
+cd PLATEAU_heritage #ディレクトリ名は一例です。リポジトリを展開したディレクトリを指定してください
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
