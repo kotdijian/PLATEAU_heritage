@@ -1,0 +1,44 @@
+cultural:
+  recursive: false
+  input_crs: "EPSG:4326"
+  columns: {}
+  file_overrides: {}
+  movable_keywords:
+    - "絵画"
+    - "彫刻"
+    - "工芸"
+    - "書跡"
+    - "典籍"
+    - "古文書"
+    - "考古資料"
+    - "歴史資料"
+    - "美術工芸"
+  geometry_columns: ["geometry", "geom", "wkt", "WKT", "範囲", "ポリゴン"]
+
+plateau:
+  api_base: "https://api.plateauview.mlit.go.jp"
+  timeout_s: 120
+  cache_dir: ".cache/plateau"
+  local_dir: null
+  catalog_file: null
+  use_geocoding_condition_for_unlocated: false
+
+matching:
+  name_match: true
+  address_match: true
+  usage_match: true
+  allow_address_expansion: true
+  minimum_semantic_name_chars: 2
+  religious_usage_codes:
+    shrine: ["422701"]
+    temple: ["422702"]
+    generic: ["4227", "422"]
+
+output:
+  dir: "output"
+  subset_gml_name: "heritage_buildings.gml"
+  heritage_json_name: "heritage_complexes.json"
+  heritage_xml_name: "heritage_complexes.xml"
+  gpkg_name: "heritage.gpkg"
+  write_geojson: true
+  embed_generic_attributes: true

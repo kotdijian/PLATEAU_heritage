@@ -1,182 +1,292 @@
-# Cultural PLATEAU Extractor
+# PLATEAU Heritage-GML Extractor v0.2.0
 
-指定・登録文化財の位置情報を、Project PLATEAU の建築物 CityGML と突合し、
-**「文化財を含む建造物 complex」に属する PLATEAU 建物だけを抽出した CityGML**
-を生成する Python CLI です。
+Project PLATEAU の建築物 CityGML と、事前取得済みの文化財 CSV/JSON/GeoJSON を照合し、
+文化財に関係する `bldg:Building` を抽出する汎用 Python CLI です。
 
-## 目的
+コード内に特定の都道府県名・自治体名・自治体コードは固定していません。
 
-個々の文化財アイテムと PLATEAU `bldg:Building` を厳密に1対1同定するのではなく、
+## 1. 入力文化財データ
 
-- 寺院・神社
-- 邸宅・屋敷
-- 博物館・史跡施設
-- その他、複数の建造物を含む文化財所在施設
+文化財データは実行前に取得済みで、`--data-dir` に置かれていることを前提とします。
 
-を **文化財 complex** として扱い、その complex に対応する PLATEAU 建物群を抽出します。
+対応形式:
 
-## 入力
+- CSV
+- JSON
+- GeoJSON
+- CSV/JSON中のWKT geometry
 
-### 文化財データ
+本プログラムは文化財データ取得APIを呼びません。
+データが最新版かどうかも検証しません。
 
-自治体標準オープンデータセット「文化財一覧」を基本形とします。
+一般的な列名は自動認識します。独自列名は `config.example.yml` の `cultural.columns`
+または `file_overrides` で対応づけできます。
 
-自動認識する主な列:
+## 2. PLATEAU入力
 
-- `NO` / `ID`
-- `名称`
-- `場所名称`
-- `住所`
-- `緯度`
-- `経度`
-- `文化財分類`
-- `種類`
-- `所有者等`
-- `文化財指定日`
+基本はPLATEAU配信サービスAPIです。
 
-CSV のほか、設定により HTTP GET/POST の CSV/JSON API も入力可能です。
-列名が独自の場合は YAML の `cultural.columns` で対応づけます。
+- `/datacatalog/plateau-datasets` から公開自治体を列挙
+- 文化財の点・指定範囲bboxを `r:` 条件として使用
+- `types=bldg` で建築物CityGMLだけ取得
 
-### PLATEAU
+文化財位置に任意の距離バッファは加えません。
 
-通常は PLATEAU 配信サービス API を利用し、
+`--plateau-source local` は次の用途の任意フォールバックです。
 
-1. 文化財位置から必要な3次メッシュを算定
-2. 自治体コードで建築物 CityGML のファイル一覧を取得
-3. 必要メッシュの `bldg` GML のみダウンロード
+- 特定年度の固定
+- API障害時
+- 加工済みCityGMLの再利用
+- 同一CityGMLを大量反復処理する場合
 
-します。
+5桁コードならローカルGMLだけで処理できます。
+2桁コードを完全オフラインで一括処理する場合は、PLATEAU
+`/datacatalog/plateau-datasets` のJSONを保存し、
+設定の `plateau.catalog_file` に指定してください。
 
-自治体全体の巨大な CityGML ZIP を取得する必要はありません。
+## 3. 地域コード
 
-## complex の作り方
-
-標準では文化財レコードを次の優先順位でグループ化します。
-
-1. `場所名称`
-2. `所有者等 + 住所`
-3. `住所`
-4. 上記がない場合のみ位置クラスタ
-
-このため、たとえば同じ浅草寺所在地にある建造物・美術工芸品・史跡等は
-「浅草寺 complex」としてまとめて PLATEAU と照合できます。
-
-## PLATEAU 建物との照合
-
-complex 内の文化財点群の凸包に `complex_buffer_m` のバッファを付与し、
-交差する PLATEAU 建物を候補とします。
-
-寺社と推定できる complex では、`uro:detailedUsage` の
-
-- `422701`: 神社
-- `422702`: 寺院
-
-を優先します。ただし属性欠落による取りこぼしを避けるため、
-各文化財点の最近傍建物はアンカーとして保持します。
-
-この処理は「自動確定」ではなく、**機械的な候補抽出 + QA** を意図しています。
-
-## インストール
-
-Python 3.10 以上。
+以下では `PREF_CODE` に2桁、`MUNICIPALITY_CODE` に5桁のコードを設定して使用します。
 
 ```bash
-cd PLATEAU_heritage #ディレクトリ名は一例です。リポジトリを展開したディレクトリを指定してください
+heritage-gml --area-code "$PREF_CODE" --data-dir ./cultural_data
+heritage-gml --area-code "$MUNICIPALITY_CODE" --data-dir ./cultural_data
+```
+
+- 2桁: 都道府県コード。PLATEAUで `bldg` が公開されている都道府県内自治体を一括処理
+- 5桁: 市区町村コード。当該自治体だけ処理
+- チェックディジットは含めない
+- 2桁は `01`〜`47`
+
+## 4. 2桁一括処理時の文化財ファイル振り分け
+
+判定優先順位:
+
+1. レコード中の5桁自治体コード
+2. ファイル名先頭の5桁自治体コード
+3. 市区町村名列
+4. 住所中の市区町村名
+
+都道府県全域CSVと自治体別CSVを同じディレクトリに置けます。
+
+## 5. Heritage Complex
+
+レコードのグループ化は以下の優先順位です。
+
+1. 場所名称
+2. 所有者 + 住所
+3. 住所
+4. 空間的位置
+
+第4段階は固定距離を導入せず、同一点または交差するgeometryのみを同一complexとします。
+不確実な「近傍だから同一施設」という推測は外部QAに委ねます。
+
+## 6. Building照合
+
+Buildingは次の根拠で抽出します。
+
+1. 指定範囲polygonとPLATEAU Building footprintが交差
+2. 文化財pointがBuilding footprint内または境界上
+3. Heritage Complex名とPLATEAU建物名称・住所が一致
+4. 住所一致
+5. 寺社の場合、すでに同一住所でアンカーされたBuilding群の用途属性を補助利用
+
+固定半径、最近傍建物への強制割当は行いません。
+
+位置が代表点で建物外、PLATEAU側に名称・住所もない場合は
+`unresolved` として残します。
+
+## 7. 動産文化財
+
+絵画、彫刻、工芸品、書跡、典籍、古文書、考古資料、歴史資料など、明確に動産と判定できる類型は
+Building抽出の主判定には使用しません。
+
+同一所在地・同一Heritage Complexとして一覧化し、そのcomplexにBuildingが
+抽出されていれば次に参照を記録します。
+
+- `heritage_movable_items.csv`
+- `heritage_complexes.json`
+- `heritage_complexes.xml`
+- `heritage.gpkg` の `movable_items`
+
+複数Building complexの場合、プロトタイプではcomplexの全Building `gml:id` を参照します。
+個々の動産を特定Buildingへ絞る作業は外部チェック対象です。
+
+## 8. 出力
+
+自治体ごとに次を生成します。
+
+```text
+output/
+  <5桁自治体コード>/
+    heritage_buildings.gml
+    heritage_complexes.json
+    heritage_complexes.xml
+    heritage.gpkg
+    heritage_building_links.csv
+    heritage_complex_summary.csv
+    heritage_movable_items.csv
+    heritage_unresolved_complexes.csv
+    cultural_records_normalized.csv
+    input_issues.csv
+    plateau_files.csv
+    plateau_query_issues.csv
+    heritage_buildings.geojson
+    heritage_records.geojson
+    heritage_complexes.geojson
+    run_summary.json
+```
+
+2桁一括処理ではさらに:
+
+```text
+area_<2桁コード>_summary.csv
+area_<2桁コード>_summary.json
+```
+
+を生成します。
+
+## 9. `heritage_buildings.gml`
+
+本体GMLは新規geometryを再構築せず、元PLATEAUの
+`cityObjectMember` / `bldg:Building` をコピーします。
+
+したがって元データに存在する範囲で:
+
+- LOD0
+- LOD1
+- LOD2
+- 建築物属性
+
+を保持します。
+
+付加属性:
+
+- `heritageComplexId`
+- `heritageComplexName`
+- `heritageMatchMethod`
+
+CityGML 2.0/3.0 の generics namespace は元CityModelのnamespaceから切り替えます。
+
+### 元PLATEAUとの重ね合わせ
+
+LOD2を保持すること自体は問題ありません。
+ただし元PLATEAU Buildingとsubset Buildingは同一座標・同一面なので、
+両者を3Dで同時に塗りつぶすと **Z-fighting** が起こり得ます。
+
+用途を分けます。
+
+- `heritage_buildings.gml`: 保存・交換・LOD保持
+- `heritage.gpkg` / `heritage_buildings.geojson`: PLATEAU全体への重畳・ハイライト・QA
+
+## 10. Companion Heritage-GML
+
+`heritage_complexes.xml/json` は `HeritageComplex` と文化財アイテム、
+PLATEAU Buildingへの参照を表す別モデルです。
+
+XML namespace:
+
+```text
+urn:heritage-gml:prototype:0.2
+```
+
+これは公式CityGML ADEではありません。
+本体はPLATEAU互換subset GMLとし、complex構造を別XML/JSONに分離しています。
+
+## 11. GeoPackage
+
+`heritage.gpkg` のspatial layers:
+
+- `heritage_records`
+- `heritage_buildings`
+- `heritage_complexes`
+
+relational tables:
+
+- `building_links`
+- `complex_summary`
+- `movable_items`
+- `unresolved_complexes`
+
+QGIS等で元PLATEAUと比較する場合は `heritage_buildings` をハイライト表示してください。
+
+## 12. インストール
+
+Python 3.10以上。
+
+```bash
+cd plateau_heritage_gml
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
 pip install -e .
 ```
 
+## 13. 実行
 
-## ダウンロード前の plan
-
-文化財入力の読込・complex 化・必要メッシュ算出だけを先に確認できます。
-
-```bash
-cultural-plateau plan --config configs/taito_tokyo_designated.yml
-```
-
-`core_point_meshes.txt` は文化財座標そのものが属するメッシュ、
-`required_meshes.txt` は complex バッファがメッシュ境界を跨ぐ場合の取りこぼしを防ぐため
-安全マージンを加えた取得対象です。
-
-## 東京都オープンデータAPIを直接使う例
-
-台東区「文化財一覧」の東京都APIを直接入力する設定例を同梱しています。
+### 市区町村単独
 
 ```bash
-cultural-plateau plan --config configs/taito_ward_tokyo_api.yml
-cultural-plateau run  --config configs/taito_ward_tokyo_api.yml
+heritage-gml \
+  --area-code "$MUNICIPALITY_CODE" \
+  --data-dir ./cultural_data
 ```
 
-API が JSON 配列または `data` / `results` / `records` 等の一般的なラッパーを返す場合は
-自動認識します。独自のネストの場合は `cultural.json_path` を指定してください。
-
-## 実行
+### 都道府県一括
 
 ```bash
-cultural-plateau run --config config.example.yml
+heritage-gml \
+  --area-code "$PREF_CODE" \
+  --data-dir ./cultural_data
 ```
 
-台東区・東京都指定文化財 CSV の例:
+### 入力文化財データだけ確認
 
-1. `130001_cultural_property.csv` をプロジェクト直下へ置く
-2. 実行
+PLATEAU Buildingをダウンロードしません。
 
 ```bash
-cultural-plateau run --config configs/taito_tokyo_designated.yml
+heritage-gml \
+  --area-code "$PREF_CODE" \
+  --data-dir ./cultural_data \
+  --dry-run
 ```
 
-## 出力
+### ローカルPLATEAU
 
-`output.dir` 以下に生成します。
-
-- `cultural_property_buildings.gml`
-  - 選択された元 PLATEAU `cityObjectMember` を保持した subset CityGML
-  - 任意で `gen:stringAttribute` に complex ID・名称を追記
-- `cultural_complex_building_linkage.csv`
-  - 文化財 complex ↔ PLATEAU `gml:id` の対応表
-- `cultural_complex_summary.csv`
-  - complex ごとの候補数・採択数・照合方法
-- `cultural_records_normalized.csv`
-  - 正規化した文化財入力
-- `required_meshes.txt`
-  - 必要な3次メッシュ
-- `plateau_gml_manifest.csv`
-  - 実際に使用した PLATEAU GML
-- `cultural_points.geojson`
-  - QA 用文化財位置
-- `selected_building_footprints.geojson`
-  - QA 用抽出建物平面形
-- `run_summary.json`
-
-## CityGMLについて
-
-出力は、元の `bldg:Building` を新たに再構築するのではなく、
-元 CityGML の `cityObjectMember` をコピーします。LOD1/2 等の幾何と PLATEAU 属性を
-できる限りそのまま保持します。
-
-テクスチャ用 `appearanceMember` は subset の軽量化と不要参照の回避のため出力しません。
-したがって **幾何・意味属性を利用する分析用 GML** を目的とします。
-
-## 正確な過年度 PLATEAU を使う場合
-
-PLATEAU の個別ファイル一覧 API は最新版を利用する運用を基本としています。
-過年度を固定したい場合は、その年度の `udx/bldg/*.gml` を用意して:
-
-```yaml
-plateau:
-  source: local
-  year: "2024"
-  local_gml_dir: "/path/to/udx/bldg"
+```bash
+heritage-gml \
+  --area-code "$MUNICIPALITY_CODE" \
+  --data-dir ./cultural_data \
+  --plateau-source local \
+  --plateau-local-dir /path/to/plateau
 ```
 
-としてください。
+### 独自列マッピング
 
-## 注意
+```bash
+heritage-gml \
+  --area-code "$PREF_CODE" \
+  --data-dir ./cultural_data \
+  --config config.yml
+```
 
-- 文化財座標が境内・敷地代表点であり、指定建造物そのものの位置ではない場合があります。
-- 高密度市街地ではバッファ内の隣接建物が混入し得ます。
-- PLATEAU の用途属性収録状況は自治体・整備年度で異なります。
-- したがって `cultural_complex_building_linkage.csv` と GeoJSON を QA に使用してください。
+## 14. 外部チェック
+
+採否修正UIや手動除外機能は本プログラムには含めません。
+
+チェック用成果物:
+
+- `heritage_building_links.csv`
+- `heritage_unresolved_complexes.csv`
+- `heritage.gpkg`
+- GeoJSON
+
+これらを別プログラムまたは人力で確認する構成です。
+
+## 15. 注意
+
+- PLATEAUの建物名称・住所・用途属性は自治体・年度で収録状況が異なります。
+- 文化財の代表点が対象Building上にない場合があります。
+- 固定距離を使わないため、不確実なケースは意図的に未解決として残ります。
+- 指定範囲polygonが存在する場合、pointより確度の高い照合ができます。
+- 文化財CSV/JSONの鮮度はユーザー側で管理してください。
