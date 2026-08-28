@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plateau-heritage-gml"
+version = "0.4.0"
+description = "Generate Heritage-GML subsets from Project PLATEAU CityGML and local cultural-property datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "requests>=2.31",
+  "lxml>=5.0",
+  "shapely>=2.0",
+  "pyproj>=3.6",
+  "PyYAML>=6.0",
+  "geopandas>=0.14",
+  "pyogrio>=0.7"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+heritage-gml = "heritage_gml.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["heritage_gml*"]

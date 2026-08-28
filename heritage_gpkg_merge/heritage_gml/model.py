@@ -1,0 +1,73 @@
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Any
+
+
+@dataclass
+class CulturalRecord:
+    source_file: str
+    record_id: str
+    name: str
+    place_name: str = ""
+    address_detail: str = ""
+    owner: str = ""
+    address: str = ""
+    municipality: str = ""
+    municipality_code: str = ""
+    category: str = ""
+    type: str = ""
+    designation: str = ""
+    designation_date: str = ""
+    geometry: Any = None
+    # Semantic processing class. v0.5 keeps movable as a semantic class only;
+    # it follows the same spatial matching/output path as ordinary point records.
+    entity_class: str = "point"
+    geometry_role: str = "representative_point"
+    movable: bool = False
+    complex_id: str = ""
+    complex_name: str = ""
+    complex_grouping_method: str = ""
+    complex_record_count: int = 1
+    # record_coordinate / shared_complex_coordinate / missing
+    source_location_role: str = "record_coordinate"
+    # building_matched / complex_only / point_unmatched / unlocated
+    spatial_match_status: str = ""
+    matched_building_ids: list[str] = field(default_factory=list)
+    match_methods: list[str] = field(default_factory=list)
+
+
+@dataclass
+class PlateauCity:
+    pref_code: str
+    pref: str
+    city_code: str
+    city: str
+    year: str | int
+    feature_types: list[str] = field(default_factory=list)
+    url: str = ""
+
+
+@dataclass
+class PlateauFile:
+    city_code: str
+    city_name: str
+    code: str
+    url: str
+    max_lod: int | None = None
+    file_size: int | None = None
+    features: int | None = None
+    local_path: str | None = None
+
+
+@dataclass
+class BuildingRecord:
+    gml_id: str
+    source_file: str
+    city_code: str
+    file_code: str
+    geometry: Any
+    name: str = ""
+    address: str = ""
+    usage: str = ""
+    detailed_usage: str = ""
+    building_id: str = ""

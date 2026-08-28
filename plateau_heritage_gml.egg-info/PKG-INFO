@@ -1,0 +1,299 @@
+Metadata-Version: 2.4
+Name: plateau-heritage-gml
+Version: 0.4.0
+Summary: Generate Heritage-GML subsets from Project PLATEAU CityGML and local cultural-property datasets.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.0
+Requires-Dist: requests>=2.31
+Requires-Dist: lxml>=5.0
+Requires-Dist: shapely>=2.0
+Requires-Dist: pyproj>=3.6
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: geopandas>=0.14
+Requires-Dist: pyogrio>=0.7
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Dynamic: license-file
+
+# PLATEAU Heritage-GML Extractor v0.4.0
+
+事前取得済みの文化財 CSV / JSON / GeoJSON と Project PLATEAU の `bldg:Building` CityGML を照合し、
+Building に一致した文化財と、Building に一致しない文化財 Point を同時に生成する汎用 Python CLI です。
+
+コード内に特定の都道府県名・自治体名・自治体コードは固定していません。
+
+## v0.4 の基本方針
+
+文化財レコードは元の `種類` を保持したまま、処理用 `entity_class` を付加します。
+
+- `building_direct`: 建造物そのものとして Building 照合するレコード
+- `point`: 代表点として保持し、Point が Building footprint に一致した場合だけ Building と関連付けるレコード
+- `movable`: 同一住所単位でリスト化し、Building に一致すれば Building の付属リスト、そうでなければ Point の付属リストとするレコード
+
+**バッファ、検索半径、最近傍 Building、文化財範囲 polygon の推定は行いません。**
+
+入力に polygon 等が存在する場合も、文化財側は `representative_point()` に正規化して Point として扱います。
+
+## デフォルト分類
+
+`config.example.yml` では次だけを明示分類し、それ以外はすべて `point` とします。
+
+| 種類 | entity_class |
+|---|---|
+| 建造物 | building_direct |
+| 美術工芸品 | movable |
+| 考古資料 | movable |
+| 古文書 | movable |
+| 典籍 | movable |
+| 美術工芸品・考古資料 | movable |
+| その他 | point |
+
+したがって、史跡・旧跡・名勝・天然記念物等は、デフォルトではすべて代表点として保持されます。
+分類は YAML の `cultural.type_class_map` で変更できます。
+
+## 照合規則
+
+### building_direct
+
+1. Point が Building footprint の内部または境界上 → `point_in_building`
+2. 任意で、PLATEAU Building 名称との**完全正規化一致** → `exact_name`
+3. 任意で、PLATEAU Building 住所との**完全正規化一致** → `exact_address`
+
+名称・住所条件は `building_direct` だけに適用します。
+
+### point
+
+Point が Building footprint の内部または境界上にある場合だけ Building と関連付けます。
+
+```text
+Point ∈ Building footprint -> Building relation
+Point ∉ Building footprint -> Heritage Point output
+```
+
+距離による補完はしません。
+
+Point が Building に一致した場合でも、元Pointは `heritage_records` に保持されます。
+Buildingに一致しないPointは GPKG `heritage_points` レイヤに分離して保持します。
+
+### movable
+
+1. 文化財データの同一住所で movable レコードをグループ化
+2. 同じ文化財住所の `building_direct` / `point` レコードが既に Building と一致している場合、その Building に movable リストを付属
+3. それがなければ movable グループのPointを `point_in_building` 判定
+4. Building に一致すれば Building の付属リスト
+5. 一致しなければ住所単位で1つの Heritage Point を生成し、その Point に movable リストを付属
+
+同一住所の movable に複数の異なる座標が存在する場合、最初の有効Pointを表示Pointとし、`coordinate_count` に座標数を記録します。座標の推定・平均化は行いません。
+
+## 住所正規化
+
+v0.2 の `1-2 -> 12` となる問題を修正しています。
+
+例えば以下は同じキーになります。
+
+```text
+X1-2
+X1丁目2番
+```
+
+一方、`X12` とは区別します。
+
+この正規化は同一住所グループ化および building_direct の exact address 用であり、住所ジオコーディングや近似検索ではありません。
+
+## 地域コード
+
+```bash
+heritage-gml --area-code "$PREF_CODE" --data-dir ./cultural_data
+heritage-gml --area-code "$MUNICIPALITY_CODE" --data-dir ./cultural_data
+```
+
+- 2桁: 都道府県コード。PLATEAUで `bldg` が公開されている都道府県内自治体を一括処理
+- 5桁: 市区町村コード。指定自治体のみ処理
+- チェックディジットは含めない
+
+## 文化財データ
+
+文化財データは実行前に取得済みで `--data-dir` に置くものとします。
+本プログラムは文化財オープンデータAPIを呼びません。また入力データの鮮度検証もしません。
+
+対応形式:
+
+- CSV
+- JSON
+- GeoJSON
+- CSV/JSON 中の WKT geometry
+
+APIカタログや取得先マニフェストは文化財レコード本体ではありません。
+認識可能な名称列を持たないファイルは `<自治体コード>_input_issues.csv` に記録して無視します。
+全対象自治体で文化財レコードが0件ならエラー終了します。
+
+## PLATEAU取得
+
+デフォルトでは PLATEAU 配信サービスから `bldg` CityGML を取得します。
+文化財の全Point（movableを含む）を取得条件として利用しますが、バッファは加えません。
+
+ローカルの CityGML を使う場合:
+
+```bash
+heritage-gml \
+  --area-code "$MUNICIPALITY_CODE" \
+  --data-dir ./cultural_data \
+  --plateau-source local \
+  --plateau-local-dir /path/to/plateau
+```
+
+## 出力
+
+主要な地理空間成果物は **GML + GPKG** とします。GeoJSONは標準出力しません。
+自治体ディレクトリ内のすべての出力ファイルには5桁自治体コードをプリフィックスとして付与します。
+
+例（台東区 `13106`）:
+
+```text
+output/13106/
+  13106_heritage_buildings.gml
+  13106_heritage.gpkg
+  13106_heritage_entities.json
+  13106_heritage_entities.xml
+
+  13106_cultural_records_normalized.csv
+  13106_heritage_building_links.csv
+  13106_heritage_complex_summary.csv
+  13106_heritage_complex_members.csv
+  13106_heritage_point_features.csv
+  13106_heritage_movable_items.csv
+  13106_heritage_movable_groups.csv
+  13106_heritage_unresolved_entities.csv
+
+  13106_plateau_files.csv
+  13106_plateau_query_issues.csv
+  13106_plateau_download_issues.csv
+  13106_input_issues.csv
+  13106_run_summary.json
+```
+
+### `<code>_heritage_buildings.gml`
+
+選択された PLATEAU `cityObjectMember / bldg:Building` を元GMLからコピーします。
+元データに存在する LOD0 / LOD1 / LOD2 と属性を保持します。
+
+Generic Attributeとして主に以下を追加します。
+
+- `heritageComplexId`
+- `heritageComplexName`
+- `heritageRecordIds`
+- `heritageRecordNames`
+- `heritageRecordTypes`
+- `heritageEntityClasses`
+- `heritageMatchMethod`
+- `heritageMovableItemsJson`（movable付属リストがある場合）
+
+### `<code>_heritage.gpkg`
+
+QGISでのレンダリング・分析用のマスターGIS成果物です。
+
+Spatial layers:
+
+- `heritage_records`: 全文化財Point。Buildingに一致したPointも保持
+- `heritage_buildings_footprint`: 選択Buildingの2D footprint。GML Building本体の分析用派生レイヤ
+- `heritage_building_complexes`: Complexに所属すると認定されたBuilding群。1 Complex = 1 MultiPolygon
+- `heritage_points`: Buildingに一致しなかった文化財Point / movable住所グループPoint
+
+`heritage_building_complexes` は、所属Buildingのfootprint Polygonを**そのままMultiPolygonの各partとして保持**します。
+以下は行いません。
+
+- dissolve / unary unionによる外形統合
+- buffer
+- convex hull
+- 建物間空地の補完
+- representative Point化
+
+したがって、複数棟からなる寺院・邸宅等のComplexでも、各PLATEAU Buildingとの1対1対応を維持したままQGISでComplex単位に選択・表示・分析できます。
+
+Relational tables:
+
+- `heritage_building_links`: 文化財レコード ↔ Building
+- `heritage_complex_summary`: Complex集計。Building未確定Complexも残す
+- `heritage_complex_members`: Complex ↔ Building の正式なメンバー関係
+- `heritage_movable_items`
+- `heritage_movable_groups`
+- `heritage_unresolved_entities`
+
+Buildingが1棟も確定しないComplexは `heritage_building_complexes` に推定polygonを作らず、`heritage_complex_summary` と文化財Point側に残します。
+
+## インストール
+
+Python 3.10以上。
+
+```bash
+cd PLATEAU_heritage
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip
+python -m pip install .
+```
+
+ソースを変更した場合は再インストールします。
+
+```bash
+python -m pip install . --force-reinstall
+```
+
+## 実行
+
+都道府県一括:
+
+```bash
+heritage-gml \
+  --area-code "$PREF_CODE" \
+  --data-dir ./cultural_data
+```
+
+市区町村単独:
+
+```bash
+heritage-gml \
+  --area-code "$MUNICIPALITY_CODE" \
+  --data-dir ./cultural_data
+```
+
+分類だけ先に確認:
+
+```bash
+heritage-gml \
+  --area-code "$PREF_CODE" \
+  --data-dir ./cultural_data \
+  --dry-run
+```
+
+`--dry-run` では `<自治体コード>_cultural_records_normalized.csv` に `entity_class` と `geometry_role` が出るので、PLATEAU照合前にtidy分類を確認できます。
+
+## Companion XML/JSON
+
+`heritage_entities.xml/json` は公式CityGML ADEではなく、Heritage Complex、Building参照、Point、movableグループを明示するプロトタイプ補助モデルです。
+
+XML namespace:
+
+```text
+urn:heritage-gml:prototype:0.4
+```
+
+本体のBuilding形状交換は `<code>_heritage_buildings.gml`、QGIS/GIS分析は `<code>_heritage.gpkg`、全体関係モデルは companion XML/JSON と役割分担します。
+
+
+## Batch download resilience (v0.3.1)
+
+Large PLATEAU GML downloads may temporarily time out. The downloader now:\n
+- retries each failed GML download (default 3 attempts),
+- removes incomplete `.part` files,
+- reuses already downloaded cache files,
+- records failures in `<自治体コード>_plateau_download_issues.csv`, and
+- in a 2-digit prefecture batch, defers the failed municipality instead of treating it as a heritage non-match.
+
+To continue a partially completed prefecture run without reprocessing completed municipalities:\n\n```bash
+heritage-gml --area-code "$PREF_CODE" --data-dir ./cultural_data --resume
+```
+
+A municipality with an incomplete PLATEAU acquisition has `status=plateau_download_failed` or `plateau_query_failed` in `<自治体コード>_run_summary.json`; it is retried on a later `--resume` run.
