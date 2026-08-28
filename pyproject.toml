@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "plateau-heritage-gml"
-version = "0.4.0"
+version = "0.5.1"
 description = "Generate Heritage-GML subsets from Project PLATEAU CityGML and local cultural-property datasets."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -24,6 +24,7 @@ dev = ["pytest>=8.0"]
 
 [project.scripts]
 heritage-gml = "heritage_gml.cli:main"
+heritage-gpkg-merge = "heritage_gml.gpkg_merge:main"
 
 [tool.setuptools.packages.find]
 include = ["heritage_gml*"]

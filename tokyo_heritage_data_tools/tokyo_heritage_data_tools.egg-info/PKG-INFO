@@ -1,0 +1,407 @@
+Metadata-Version: 2.4
+Name: tokyo-heritage-data-tools
+Version: 0.1.0
+Summary: Collection and normalization tools for national and municipal cultural-property data in Tokyo.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0
+Requires-Dist: requests>=2.31
+Requires-Dist: PyYAML>=6.0
+Requires-Dist: beautifulsoup4>=4.12
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+
+# Tokyo Heritage Data Tools v0.1.0
+
+東京都内の文化財データについて、**国指定等**と**区市町村指定**の取得・正規化を行う
+前処理ツールです。
+
+東京都教育庁の `130001_cultural_property.csv` は対象外です。
+すでに `plateau-heritage-gml` で利用している東京都指定文化財CSVを再取得・再正規化しません。
+
+## 設計
+
+利用者向けコマンドは2本です。
+
+```text
+heritage-collect
+heritage-normalize
+```
+
+ただし国と自治体では取得方法が大きく異なるため、内部モジュールを分離しています。
+
+```text
+heritage_data_tools/
+├── collectors/
+│   ├── national.py
+│   └── municipal.py
+└── normalizers/
+    ├── national.py
+    ├── municipal.py
+    └── common.py
+```
+
+国用・自治体用にCLIアプリそのものを4本へ分裂させてはいません。
+
+---
+
+## 推奨ディレクトリ
+
+```text
+13Tokyo/
+├── prefectural/
+│   └── 130001_cultural_property.csv   # 既存。変更しない
+│
+├── raw/
+│   ├── national/
+│   └── municipal/
+│
+└── tidy/
+    ├── national.csv
+    ├── municipal.csv
+    └── ...
+```
+
+---
+
+# 1. 区市町村データの取得
+
+このパッケージには、先に調査した東京都内自治体の取得先を
+
+```text
+manifests/tokyo_municipal_sources_2026-08-27.yml
+```
+
+として収録しています。
+
+manifestには自治体ごとに、
+
+- 5桁自治体コード
+- 組織名
+- データセット名
+- CSV URL
+- 東京都Open Data API JSON endpoint
+- HTTP method
+- 調査時の注記
+
+を保持します。
+
+### 実行
+
+```bash
+heritage-collect municipal \
+  --manifest manifests/tokyo_municipal_sources_2026-08-27.yml \
+  --area-code 13 \
+  --output ./13Tokyo/raw/municipal
+```
+
+特定自治体だけ:
+
+```bash
+heritage-collect municipal \
+  --manifest manifests/tokyo_municipal_sources_2026-08-27.yml \
+  --area-code 13 \
+  --codes 13102 13106 \
+  --output ./13Tokyo/raw/municipal
+```
+
+### 取得方針
+
+1. `source_csv_url` があれば公式/直接CSVを優先
+2. CSVがなく `json_endpoint` があれば東京都APIへPOST
+3. どちらもなければ `no_downloadable_source`
+4. 東京都教育庁 `13000` は意図的に除外
+
+出力:
+
+```text
+raw/municipal/
+├── 13102/
+│   ├── data.csv
+│   └── source.json
+├── 13116/
+│   ├── data.json
+│   └── source.json
+└── collection_manifest.json
+```
+
+既存 `data.csv/json` はデフォルトで再取得しません。再取得する場合のみ `--overwrite`。
+
+---
+
+# 2. 区市町村データの正規化
+
+```bash
+heritage-normalize municipal \
+  --input ./13Tokyo/raw/municipal \
+  --output ./13Tokyo/tidy
+```
+
+自治体データには国・都・区市町村指定が混在する可能性があるため、
+**「自治体から取得したデータ = 自治体指定」にはしません。**
+
+明示的な語彙から
+
+```text
+municipal
+prefectural
+national
+ambiguous
+```
+
+を判定します。
+
+出力:
+
+```text
+tidy/
+├── municipal.csv
+├── municipal_all_normalized.csv
+├── municipal_excluded_cross_level.csv
+├── municipal_needs_review.csv
+├── municipal_normalization_report.csv
+└── municipal_normalization_summary.json
+```
+
+- `municipal.csv`: 自治体指定と明示的に判定できたもの
+- `excluded_cross_level`: 国・都指定と判定したもの
+- `needs_review`: 指定主体を安全に確定できなかったもの
+
+曖昧なレコードを自動的に自治体指定へ昇格させない設計です。
+
+必要なら `config/municipal_normalization.example.yml` をコピーして、
+個別自治体の既知の意味論を追加できます。
+
+---
+
+# 3. 国データの取得 — 文化遺産オンライン
+
+東京都の国指定等データは、文化遺産オンラインの
+
+```text
+museum = 国指定文化財等データベース
+prefecture_cd = 13
+```
+
+の検索結果を収集します。
+
+```bash
+heritage-collect national online \
+  --pref-code 13 \
+  --output ./13Tokyo/raw/national
+```
+
+処理:
+
+```text
+検索結果ページ
+    ↓
+detail URL一覧
+    ↓
+各文化財detail page
+    ↓
+records.jsonl
+```
+
+出力:
+
+```text
+raw/national/
+├── records.jsonl
+├── collection_manifest.json
+├── search_pages/*.html.gz
+└── detail_pages/*.html.gz
+```
+
+HTMLはprovenance確認用rawとしてgzip保存します。
+
+長時間処理の再実行時は `records.jsonl` を読み、取得済みdetail URLをスキップします。
+デフォルトでresume有効です。
+
+テスト実行:
+
+```bash
+heritage-collect national online \
+  --pref-code 13 \
+  --output ./13Tokyo/raw/national_test \
+  --max-pages 1 \
+  --max-details 10
+```
+
+### 注意
+
+文化遺産オンラインのHTML構造に依存するため、サイト変更時にはparser修正が必要です。
+そのため、次の公式CSV ingest経路も用意しています。
+
+---
+
+# 4. 国指定文化財等DBのCSV exportをrawとして取り込む
+
+国指定文化財等データベースからブラウザでCSV出力した場合:
+
+```bash
+heritage-collect national ingest \
+  --input ./downloads/buildings.csv ./downloads/sites.csv \
+  --output ./13Tokyo/raw/national
+```
+
+元CSVは内容を変更せず
+
+```text
+official_export_001.csv
+official_export_002.csv
+```
+
+として保存します。
+
+文化遺産オンライン収集と公式CSV ingestは同じ `raw/national/` に共存できます。
+正規化時に重複IDを抑制します。
+
+---
+
+# 5. 国データの正規化
+
+```bash
+heritage-normalize national \
+  --input ./13Tokyo/raw/national \
+  --output ./13Tokyo/tidy
+```
+
+出力:
+
+```text
+national.csv
+national_all_normalized.csv
+national_needs_review.csv
+national_normalization_report.csv
+national_normalization_summary.json
+```
+
+`national.csv` は5桁自治体コードまで解決できたGML処理可能レコードです。
+所在地から東京都62自治体名を検出して自治体コードを付与します。
+
+所在地が非公開・不明などで自治体コードを決定できないものは
+`national_needs_review.csv` に残します。
+
+---
+
+# 6. GML互換canonical schema
+
+`national.csv` と `municipal.csv` は同じ列構造です。
+
+主要列:
+
+```text
+source_level
+source_authority
+source_dataset
+source_record_id
+source_url
+source_file
+name
+name_kana
+place_name
+owner
+address
+municipality
+municipality_code
+category
+type
+designation
+designation_date
+latitude
+longitude
+entity_class
+geometry_role
+designation_level
+raw_category
+raw_type
+raw_designation
+```
+
+このうち、
+
+```text
+name
+place_name
+owner
+address
+municipality
+municipality_code
+category
+type
+designation
+designation_date
+latitude
+longitude
+```
+
+は `plateau-heritage-gml v0.3.x` が認識できる論理列名です。
+
+### `type` の正規化
+
+既存の東京都CSVとGML分類ロジックに合わせます。
+
+```text
+建造物系 → 建造物
+絵画・彫刻・工芸 → 美術工芸品
+考古 → 考古資料
+古文書 → 古文書
+書跡・典籍 → 典籍
+歴史資料 → 歴史資料
+史跡 → 史跡
+名勝 → 名勝
+天然記念物 → 天然記念物
+```
+
+そこから:
+
+```text
+建造物      → building_direct
+動産系      → movable
+その他      → point
+```
+
+とします。
+
+バッファ、エリア推定、最近傍はこの前処理ツールでも生成しません。
+
+---
+
+# 7. 東京都CSVとの統合
+
+東京都指定文化財CSVは再正規化しません。
+
+GML処理時には、例えば入力ディレクトリを
+
+```text
+13Tokyo/gml_input/
+├── 130001_cultural_property.csv
+├── national.csv
+└── municipal.csv
+```
+
+とすれば3系統を同時に処理できます。
+
+ただし、国・都・自治体に同一対象が重複するケースの
+entity-level deduplicationはこのv0.1.0では自動統合しません。
+指定制度・出典の違いを消さないためです。
+
+---
+
+# インストール
+
+```bash
+cd tokyo_heritage_data_tools
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip
+python -m pip install .
+```
+
+確認:
+
+```bash
+heritage-collect --help
+heritage-normalize --help
+```

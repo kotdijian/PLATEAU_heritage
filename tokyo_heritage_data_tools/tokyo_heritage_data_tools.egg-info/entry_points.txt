@@ -1,0 +1,3 @@
+[console_scripts]
+heritage-collect = heritage_data_tools.collect_cli:main
+heritage-normalize = heritage_data_tools.normalize_cli:main

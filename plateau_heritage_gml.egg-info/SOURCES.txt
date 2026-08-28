@@ -7,6 +7,7 @@ heritage_gml/citygml.py
 heritage_gml/cli.py
 heritage_gml/config.py
 heritage_gml/cultural.py
+heritage_gml/gpkg_merge.py
 heritage_gml/heritage.py
 heritage_gml/matching.py
 heritage_gml/model.py
@@ -25,6 +26,7 @@ tests/test_catalog.py
 tests/test_classification.py
 tests/test_complex.py
 tests/test_download_resilience.py
+tests/test_gpkg_merge.py
 tests/test_matching.py
 tests/test_output_empty.py
 tests/test_output_prefix.py
