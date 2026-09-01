@@ -38,6 +38,23 @@ def test_address_detail_is_preserved_and_can_name_complex():
     assert rs[0].source_location_role == "shared_complex_coordinate"
 
 
+
+def test_address_detail_suffix_normalization_preserves_facility_name():
+    cases = [
+        ("浅草寺境内", "浅草寺"),
+        ("浅草寺内", "浅草寺"),
+        ("小石川後楽園内", "小石川後楽園"),
+        ("日枝神社内", "日枝神社"),
+        ("東京国立博物館内", "東京国立博物館"),
+        ("聖徳寺墓地内", "聖徳寺"),
+        ("清泉女子大学内", "清泉女子大学"),
+    ]
+    for n, (detail, expected) in enumerate(cases, 1):
+        r = rec(n, detail=detail, owner="", address="")
+        assign_complexes([r])
+        assert r.complex_name == expected
+
+
 def test_spatial_fallback_without_buffer():
     rs = [rec(1,x=139.1,y=35.1),rec(2,x=139.1,y=35.1),rec(3,x=139.1001,y=35.1001)]
     assign_complexes(rs)

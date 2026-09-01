@@ -18,6 +18,16 @@ class CulturalRecord:
     type: str = ""
     designation: str = ""
     designation_date: str = ""
+    # Optional classification attributes supplied by heritage-classify.
+    # They are pass-through output attributes only and never affect matching.
+    designation_level_code: str = ""
+    designation_level_ja: str = ""
+    designation_status_code: str = ""
+    designation_status_ja: str = ""
+    heritage_type_major_code: str = ""
+    heritage_type_major_ja: str = ""
+    heritage_type_detail: str = ""
+    classification_confidence: str = ""
     geometry: Any = None
     # Semantic processing class. v0.5 keeps movable as a semantic class only;
     # it follows the same spatial matching/output path as ordinary point records.
@@ -60,6 +70,44 @@ class PlateauFile:
 
 
 @dataclass
+class DisasterRiskRecord:
+    """One PLATEAU uro:*RiskAttribute attached to a Building.
+
+    Raw code values and codeSpace references are preserved. Human-readable
+    labels are resolved only when the referenced codelist is available locally;
+    no network lookup is required. Normalized numeric fields are provided for
+    GIS analysis while the original value/uom are also retained.
+    """
+    risk_type: str
+    risk_attribute_type: str
+    risk_type_ja: str = ""
+    description_code: str = ""
+    description_label: str = ""
+    description_codespace: str = ""
+    rank_code: str = ""
+    rank_label: str = ""
+    rank_codespace: str = ""
+    rank_org_code: str = ""
+    rank_org_label: str = ""
+    rank_org_codespace: str = ""
+    depth_value: float | None = None
+    depth_uom: str = ""
+    depth_m: float | None = None
+    admin_type_code: str = ""
+    admin_type_label: str = ""
+    admin_type_codespace: str = ""
+    scale_code: str = ""
+    scale_label: str = ""
+    scale_codespace: str = ""
+    duration_value: float | None = None
+    duration_uom: str = ""
+    duration_h: float | None = None
+    area_type_code: str = ""
+    area_type_label: str = ""
+    area_type_codespace: str = ""
+
+
+@dataclass
 class BuildingRecord:
     gml_id: str
     source_file: str
@@ -71,3 +119,4 @@ class BuildingRecord:
     usage: str = ""
     detailed_usage: str = ""
     building_id: str = ""
+    disaster_risks: list[DisasterRiskRecord] = field(default_factory=list)

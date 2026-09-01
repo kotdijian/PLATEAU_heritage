@@ -1,9 +1,45 @@
-# PLATEAU Heritage-GML Extractor v0.5.3
+# PLATEAU Heritage-GML Extractor v0.5.4
 
 事前取得済みの文化財 CSV / JSON / GeoJSON と Project PLATEAU の `bldg:Building` CityGML を照合し、
 文化財 Building、Building Complex、文化財レコードの位置情報を **GML + GeoPackage** として出力する Python CLI です。
 
 コード内に特定の都道府県名・自治体名・自治体コードは固定していません。
+
+
+## v0.5.4 の修正: PLATEAUキャッシュ復旧と実行可視化
+
+v0.5.4 は、v0.5.2 の文化財分類属性対応と v0.5.3 の災害リスク属性対応を維持したまま、PLATEAU CityGML の取得・キャッシュ・読み込み周辺を修正します。**Building matching、Complex grouping、geometry生成の規則は変更しません。**
+
+主な変更:
+
+- APIモードでキャッシュ済みCityGMLの読み込みに `TimeoutError` / `OSError` / XML読込エラーが発生した場合、**当該自治体のPLATEAUキャッシュを一括破棄し、必要なGML全件を再取得して1回だけ再試行**します。個別ファイルだけを推測的に修復・再利用しません。
+- 再取得の発生理由、失敗ファイル、段階、再取得結果を `<code>_run_summary.json` の `cache_recovery_events` に記録します。
+- `--refresh-plateau-cache` を追加。APIモードで対象自治体のキャッシュを処理前に明示的に破棄し、クリーン再取得できます。
+- `scan_buildings()` とsubset GML書き出し時に、現在処理しているGMLファイル名と `[n/total]` を表示します。長時間無表示になる状態を減らします。
+- APIカタログ取得前にも進捗メッセージを表示します。
+- `--plateau-source local` は**完全オフライン**になり、自治体コード確認のためにPLATEAU API/catalogへアクセスしません。ローカルGMLが読めない場合も自動削除しません。
+- localモードのファイル一覧は `<code>_plateau_files_local.csv` に出力し、以前のAPIモードで生成した `<code>_plateau_files.csv` を上書きしません。
+- `heritage-gml --version` を追加しました。
+
+通常実行:
+
+```bash
+heritage-gml --area-code 13101 --data-dir ./13Tokyo/gml_input
+```
+
+キャッシュを明示的に破棄して再取得:
+
+```bash
+heritage-gml --area-code 13101 --data-dir ./13Tokyo/gml_input --refresh-plateau-cache
+```
+
+ローカルPLATEAUを完全オフラインで使用:
+
+```bash
+heritage-gml --area-code 13101 --data-dir ./13Tokyo/gml_input \
+  --plateau-source local \
+  --plateau-local-dir /path/to/plateau
+```
 
 ## v0.5.3 の追加機能: PLATEAU Building 災害リスク属性
 
@@ -198,8 +234,8 @@ Complex -> Building 1    （Complex memberとして保持）
 ## 地域コード
 
 ```bash
-heritage-gml --area-code 13 --data-dir ./13Tokyo
-heritage-gml --area-code 13106 --data-dir ./13Tokyo
+heritage-gml --area-code 13 --data-dir ./13Tokyo/gml_input
+heritage-gml --area-code 13106 --data-dir ./13Tokyo/gml_input
 ```
 
 - 2桁: 都道府県コード
@@ -226,7 +262,7 @@ heritage-gml --area-code 13106 --data-dir ./13Tokyo
 ```bash
 heritage-gml \
   --area-code 13106 \
-  --data-dir ./13Tokyo \
+  --data-dir ./13Tokyo/gml_input \
   --plateau-source local \
   --plateau-local-dir /path/to/plateau
 ```
@@ -250,7 +286,8 @@ output/13106/
   13106_heritage_point_features.csv
   13106_heritage_unresolved_entities.csv
 
-  13106_plateau_files.csv
+  13106_plateau_files.csv          # API mode
+  13106_plateau_files_local.csv    # local mode
   13106_plateau_query_issues.csv
   13106_plateau_download_issues.csv
   13106_input_issues.csv
@@ -394,16 +431,16 @@ heritage-gpkg-merge --help
 ## 実行
 
 ```bash
-heritage-gml --area-code 13 --data-dir ./13Tokyo
+heritage-gml --area-code 13 --data-dir ./13Tokyo/gml_input
 ```
 
 途中再開:
 
 ```bash
-heritage-gml --area-code 13 --data-dir ./13Tokyo --resume
+heritage-gml --area-code 13 --data-dir ./13Tokyo/gml_input --resume
 ```
 
-PLATEAUダウンロード失敗は自治体別に記録し、2桁一括処理では他自治体を継続します。
+PLATEAUダウンロード失敗は自治体別に記録し、2桁一括処理では他自治体を継続します。APIキャッシュ読込失敗時は自治体単位でキャッシュを一括再取得し、1回だけ再試行します。
 
 ## Companion XML/JSON
 

@@ -14,7 +14,7 @@ from .util import norm_text, norm_key, compact_address
 
 
 ALIASES = {
-    "id": ["NO", "No", "no", "ID", "id", "文化財ID", "管理番号", "番号"],
+    "id": ["source_record_id", "NO", "No", "no", "ID", "id", "文化財ID", "管理番号", "番号"],
     "name": ["名称", "文化財名称", "文化財名", "name", "title"],
     "place_name": ["場所名称", "施設名称", "所在地名称", "所在名称", "place_name", "site_name"],
     "address_detail": ["方書", "住所詳細", "所在地詳細", "所在詳細", "address_detail", "address_note"],
@@ -28,6 +28,14 @@ ALIASES = {
     "type": ["種類", "種別", "文化財種類", "type"],
     "designation": ["指定等", "指定登録区分", "designation"],
     "designation_date": ["文化財指定日", "指定年月日", "指定日", "designation_date"],
+    "designation_level_code": ["designation_level_code"],
+    "designation_level_ja": ["designation_level_ja"],
+    "designation_status_code": ["designation_status_code"],
+    "designation_status_ja": ["designation_status_ja"],
+    "heritage_type_major_code": ["heritage_type_major_code"],
+    "heritage_type_major_ja": ["heritage_type_major_ja"],
+    "heritage_type_detail": ["heritage_type_detail"],
+    "classification_confidence": ["classification_confidence"],
 }
 
 
@@ -263,6 +271,14 @@ def load_records_for_city(files: list[Path], city: PlateauCity, cultural_cfg: di
                 type=typ,
                 designation=val("designation"),
                 designation_date=val("designation_date"),
+                designation_level_code=val("designation_level_code"),
+                designation_level_ja=val("designation_level_ja"),
+                designation_status_code=val("designation_status_code"),
+                designation_status_ja=val("designation_status_ja"),
+                heritage_type_major_code=val("heritage_type_major_code"),
+                heritage_type_major_ja=val("heritage_type_major_ja"),
+                heritage_type_detail=val("heritage_type_detail"),
+                classification_confidence=val("classification_confidence"),
                 geometry=geom,
                 entity_class=entity_class,
                 geometry_role=geometry_role_for(entity_class),
@@ -292,8 +308,15 @@ def _normalized_site_label(value: str) -> str:
     text = norm_text(value)
     if not text:
         return ""
-    # Longest/specific suffixes first.
-    text = re.sub(r"(?:墓地内|境内地|敷地内|構内|境域内|境内|寺内|社内|園内|館内|内)$", "", text).strip()
+    # Longest/specific locative suffixes first.  Do not remove the facility
+    # classifier itself (寺/社/園/館 etc.).  For example:
+    #   小石川後楽園内 -> 小石川後楽園
+    #   浅草寺内       -> 浅草寺
+    #   日枝神社内     -> 日枝神社
+    # A generic trailing 「内」 is then removed only as the locative marker.
+    text = re.sub(r"(?:墓地内|境内地|敷地内|構内|境域内|境内)$", "", text).strip()
+    if text.endswith("内"):
+        text = text[:-1].strip()
     return text
 
 

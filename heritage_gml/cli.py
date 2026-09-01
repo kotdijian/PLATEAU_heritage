@@ -5,6 +5,7 @@ import sys
 from .config import load_config
 from .pipeline import run_area
 from .util import validate_area_code
+from . import __version__
 
 def main():
     p = argparse.ArgumentParser(
@@ -18,6 +19,9 @@ def main():
     p.add_argument("--config", default=None, help="Optional YAML configuration.")
     p.add_argument("--plateau-source", choices=["api","local"], default="api")
     p.add_argument("--plateau-local-dir", default=None)
+    p.add_argument("--refresh-plateau-cache", action="store_true",
+                   help="API mode only: discard each target municipality PLATEAU cache before acquisition.")
+    p.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     p.add_argument("--dry-run", action="store_true",
                    help="Only discover/filter cultural datasets and enumerate PLATEAU municipalities.")
     p.add_argument("--resume", action="store_true",
@@ -30,7 +34,8 @@ def main():
         run_area(args.area_code, args.data_dir, cfg,
                  plateau_source=args.plateau_source,
                  plateau_local_dir=args.plateau_local_dir,
-                 dry_run=args.dry_run, resume=args.resume)
+                 dry_run=args.dry_run, resume=args.resume,
+                 refresh_plateau_cache=args.refresh_plateau_cache)
     except KeyboardInterrupt:
         print("Interrupted.", file=sys.stderr)
         raise SystemExit(130)

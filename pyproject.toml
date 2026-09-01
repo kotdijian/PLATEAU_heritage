@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "plateau-heritage-gml"
-version = "0.5.3"
+version = "0.5.4"
 description = "Generate Heritage-GML subsets from Project PLATEAU CityGML and local cultural-property datasets."
 readme = "README.md"
 requires-python = ">=3.10"

@@ -1,4 +1,5 @@
 from __future__ import annotations
+from dataclasses import asdict
 from lxml import etree
 from shapely.geometry import mapping
 
@@ -25,6 +26,14 @@ def _record_dict(r):
         "type": r.type,
         "designation": r.designation,
         "designation_date": r.designation_date,
+        "designation_level_code": r.designation_level_code,
+        "designation_level_ja": r.designation_level_ja,
+        "designation_status_code": r.designation_status_code,
+        "designation_status_ja": r.designation_status_ja,
+        "heritage_type_major_code": r.heritage_type_major_code,
+        "heritage_type_major_ja": r.heritage_type_major_ja,
+        "heritage_type_detail": r.heritage_type_detail,
+        "classification_confidence": r.classification_confidence,
         "entity_class": r.entity_class,
         "geometry_role": r.geometry_role,
         "source_location_role": r.source_location_role,
@@ -57,8 +66,13 @@ def build_heritage_document(city_code, city_name, records, buildings, match_resu
             "record_names": meta.get("record_names", []),
             "record_types": meta.get("record_types", []),
             "entity_classes": meta.get("entity_classes", []),
+            "designation_levels": meta.get("designation_level_codes", []),
+            "designation_statuses": meta.get("designation_status_codes", []),
+            "heritage_type_majors": meta.get("heritage_type_major_codes", []),
+            "heritage_type_details": meta.get("heritage_type_details", []),
             "complex_ids": meta.get("complex_ids", []),
             "match_methods": meta.get("methods", []),
+            "disaster_risks": [asdict(r) for r in (b.disaster_risks if b else [])],
         })
 
     point_entities = []
@@ -69,7 +83,7 @@ def build_heritage_document(city_code, city_name, records, buildings, match_resu
 
     return {
         "type": "HeritageGMLPrototype",
-        "version": "0.5",
+        "version": "0.5.3",
         "namespace": HG_NS,
         "note": "Prototype companion model; not an official CityGML ADE.",
         "municipality_code": city_code,

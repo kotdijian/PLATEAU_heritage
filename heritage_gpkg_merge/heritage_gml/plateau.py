@@ -1,10 +1,11 @@
 from __future__ import annotations
 from pathlib import Path
-import hashlib, re, time
+import hashlib, re, shutil, time
 import requests
 from .catalog import fetch_citygml_files_for_condition
 from .model import CulturalRecord, PlateauCity, PlateauFile
 from .util import unique_keep_order, safe_filename
+
 
 def _conditions_for_record(r: CulturalRecord, use_geocode: bool) -> list[str]:
     g = r.geometry
@@ -20,17 +21,24 @@ def _conditions_for_record(r: CulturalRecord, use_geocode: bool) -> list[str]:
         return [f"g:{r.address}"]
     return []
 
+
 def resolve_remote_files(api_base: str, city: PlateauCity, records: list[CulturalRecord],
-                         timeout_s: int, use_geocode: bool = False):
-    # Every cultural point may establish an exact Building relation, including
-    # movable address groups.  Query all supplied point locations; no buffer is
-    # added and no point is omitted merely because of its cultural-property type.
+                         timeout_s: int, use_geocode: bool = False,
+                         progress: bool = False):
+    """Resolve the exact PLATEAU bldg mesh files needed for the records.
+
+    No buffer, nearest-neighbour lookup, or inferred cultural-property polygon is
+    introduced here.  ``progress`` only changes logging, never query semantics.
+    """
     conditions = []
     for r in records:
         conditions.extend(_conditions_for_record(r, use_geocode))
     conditions = unique_keep_order(conditions)
     file_map, issues = {}, []
-    for cond in conditions:
+    total = len(conditions)
+    for i, cond in enumerate(conditions, 1):
+        if progress:
+            print(f"  PLATEAU query [{i}/{total}]", flush=True)
         try:
             rows = fetch_citygml_files_for_condition(api_base, cond, city.city_code, timeout_s)
         except Exception as e:
@@ -49,12 +57,27 @@ def resolve_remote_files(api_base: str, city: PlateauCity, records: list[Cultura
             )
     return list(file_map.values()), issues
 
+
 def _download_name(pf: PlateauFile) -> str:
     tail = pf.url.split("?")[0].rstrip("/").split("/")[-1]
     if tail.lower().endswith(".gml"):
         return safe_filename(tail)
     h = hashlib.sha1(pf.url.encode("utf-8")).hexdigest()[:12]
     return f"{pf.city_code}_{safe_filename(pf.code or 'bldg')}_{h}.gml"
+
+
+def purge_city_cache(cache_dir: str | Path, city_code: str) -> Path:
+    """Delete the complete PLATEAU cache for one municipality.
+
+    This is intentionally municipality-wide rather than file-by-file.  A read
+    failure means the cache is no longer trusted as a set, so the whole set is
+    reacquired on the single automatic recovery attempt.
+    """
+    target = Path(cache_dir).resolve() / str(city_code)
+    if target.exists():
+        shutil.rmtree(target)
+    return target
+
 
 def download_files(
     files: list[PlateauFile],
@@ -65,13 +88,15 @@ def download_files(
     read_timeout_s: int | float | None = None,
     retries: int = 3,
     backoff_s: float = 2.0,
+    progress: bool = False,
 ):
     """Download PLATEAU GML files with cache and bounded retries.
 
     Returns ``(files, issues)``. Failed downloads keep ``local_path=None`` and
     are reported in ``issues``; they do not raise after the final retry.
-    Existing non-empty cached files are reused. A stale ``.part`` file is
-    removed before each retry and after terminal failure.
+    Existing non-empty cached files are reused. Content-level cache failures are
+    handled later by the CityGML reader, which can trigger municipality-wide
+    cache purge and reacquisition in API mode.
     """
     base = Path(cache_dir)
     base.mkdir(parents=True, exist_ok=True)
@@ -83,14 +108,22 @@ def download_files(
         read_timeout_s = timeout_s or 120
     request_timeout = (float(connect_timeout_s), float(read_timeout_s))
     attempts = max(1, int(retries))
+    total = len(files)
 
-    for pf in files:
+    for i, pf in enumerate(files, 1):
         city_dir = base / pf.city_code
         city_dir.mkdir(parents=True, exist_ok=True)
         dest = city_dir / _download_name(pf)
         if dest.exists() and dest.stat().st_size > 0:
             pf.local_path = str(dest)
+            if progress:
+                print(f"  PLATEAU cache [{i}/{total}]: {dest.name}", flush=True)
             continue
+
+        # Do not retain a stale path if the file was just purged or is absent.
+        pf.local_path = None
+        if progress:
+            print(f"  PLATEAU download [{i}/{total}]: {dest.name}", flush=True)
 
         part = dest.with_suffix(dest.suffix + ".part")
         last_error = None
@@ -124,7 +157,8 @@ def download_files(
                     delay = float(backoff_s) * (2 ** (attempt - 1))
                     print(
                         f"  download retry {attempt}/{attempts - 1}: "
-                        f"{pf.code or pf.url} ({type(e).__name__}: {e})"
+                        f"{pf.code or pf.url} ({type(e).__name__}: {e})",
+                        flush=True,
                     )
                     time.sleep(delay)
 
@@ -139,6 +173,7 @@ def download_files(
             })
 
     return files, issues
+
 
 def local_files(local_dir: str | Path, city: PlateauCity):
     base = Path(local_dir).resolve()

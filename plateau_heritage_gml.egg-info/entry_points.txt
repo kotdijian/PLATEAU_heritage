@@ -1,3 +1,0 @@
-[console_scripts]
-heritage-gml = heritage_gml.cli:main
-heritage-gpkg-merge = heritage_gml.gpkg_merge:main
