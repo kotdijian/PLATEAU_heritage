@@ -78,8 +78,8 @@ sources:
     api_id: t131156d0000000199-fbbe3e80e246a13a832f1fdaa5c0dd3f-0
     method: POST
     json_endpoint: https://service.api.metro.tokyo.lg.jp/api/t131156d0000000199-fbbe3e80e246a13a832f1fdaa5c0dd3f-0/json
-    source_csv_url: https://www.city.suginami.tokyo.jp/documents/7581/131156_cultural_property.csv
-    notes: null
+    source_csv_url: https://www.city.suginami.tokyo.jp/documents/7581/r8-bunkazai-csv.csv
+    notes: 2026-04-27更新ページの『文化財一覧_令和8年4月時点』CSVへ更新。CSV取得失敗時はAPIへfallback。
   '13116':
     organization: 豊島区
     dataset_title: 文化財一覧（国もしくは地方公共団体が指定、登録、選定等行った文化財の一覧）

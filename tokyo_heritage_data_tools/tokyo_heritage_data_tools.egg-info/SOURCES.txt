@@ -14,9 +14,11 @@ heritage_data_tools/normalizers/common.py
 heritage_data_tools/normalizers/municipal.py
 heritage_data_tools/normalizers/national.py
 tests/test_canonical.py
+tests/test_codes.py
 tests/test_common.py
 tests/test_json_records.py
 tests/test_municipal.py
+tests/test_municipal_collector.py
 tests/test_national_parser.py
 tokyo_heritage_data_tools.egg-info/PKG-INFO
 tokyo_heritage_data_tools.egg-info/SOURCES.txt

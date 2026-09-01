@@ -101,7 +101,7 @@ def safe_name(s: str) -> str:
 
 def validate_pref_code(code: str) -> str:
     s = str(code).strip()
-    if not re.fullmatch(r"\\d{2}", s):
+    if not re.fullmatch(r"\d{2}", s):
         raise ValueError("prefecture code must be exactly 2 digits")
     if not (1 <= int(s) <= 47):
         raise ValueError("prefecture code must be 01..47")
@@ -110,7 +110,7 @@ def validate_pref_code(code: str) -> str:
 
 def validate_municipal_code(code: str) -> str:
     s = str(code).strip()
-    if not re.fullmatch(r"\\d{5}", s):
+    if not re.fullmatch(r"\d{5}", s):
         raise ValueError("municipality code must be exactly 5 digits without check digit")
     if not (1 <= int(s[:2]) <= 47):
         raise ValueError("invalid prefecture prefix")

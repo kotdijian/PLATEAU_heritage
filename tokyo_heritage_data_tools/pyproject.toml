@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tokyo-heritage-data-tools"
-version = "0.1.0"
-description = "Collection and normalization tools for national and municipal cultural-property data in Tokyo."
+version = "0.2.2"
+description = "Collection and normalization tools for national and municipal cultural-property data in Tokyo, aligned with PLATEAU Heritage-GML Extractor v0.5.x."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

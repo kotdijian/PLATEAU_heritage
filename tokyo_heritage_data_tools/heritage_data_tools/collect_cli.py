@@ -23,6 +23,7 @@ def main():
     m.add_argument("--read-timeout", type=int, default=120)
     m.add_argument("--retries", type=int, default=3)
     m.add_argument("--overwrite", action="store_true")
+    m.add_argument("--api-page-size", type=int, default=1000, help="Tokyo Open Data API records per request (default: 1000).")
 
     n = sub.add_parser("national", help="Collect national cultural-property source data.")
     nsub = n.add_subparsers(dest="national_mode", required=True)
@@ -61,6 +62,7 @@ def main():
                 timeout=(args.connect_timeout, args.read_timeout),
                 retries=args.retries,
                 overwrite=args.overwrite,
+                api_page_size=args.api_page_size,
             )
         elif args.national_mode == "online":
             collect_online(

@@ -6,7 +6,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 
-DEFAULT_UA = "TokyoHeritageDataTools/0.1 (+local research workflow)"
+DEFAULT_UA = "TokyoHeritageDataTools/0.2.2 (+local research workflow)"
 
 
 def session(retries: int = 3, backoff: float = 1.0, user_agent: str = DEFAULT_UA) -> requests.Session:

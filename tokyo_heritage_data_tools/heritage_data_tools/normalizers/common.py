@@ -21,6 +21,7 @@ CANONICAL_COLUMNS = [
     "name",
     "name_kana",
     "place_name",
+    "address_detail",
     "owner",
     "address",
     "municipality",
@@ -44,6 +45,7 @@ ALIASES = {
     "name": ["名称", "文化財名称", "文化財名", "name", "title", "名称（日本語）"],
     "name_kana": ["ふりがな", "フリガナ", "名称かな", "名称カナ", "name_kana"],
     "place_name": ["場所名称", "施設名称", "所在地名称", "所在名称", "保管施設", "place_name", "site_name"],
+    "address_detail": ["方書", "住所詳細", "所在地詳細", "所在詳細", "address_detail", "address_note"],
     "owner": ["所有者等", "所有者", "管理者", "管理団体", "owner"],
     "address": ["住所", "所在地", "所在", "所在地住所", "address"],
     "municipality": ["市区町村名", "自治体名", "市町村", "municipality", "city"],
@@ -96,6 +98,8 @@ def normalize_type(raw_type: str, raw_category: str = "") -> str:
     )):
         return "建造物"
 
+    if "美術工芸品・考古資料" in s or "美術工芸・考古" in s:
+        return "美術工芸品・考古資料"
     if "考古" in s:
         return "考古資料"
     if "古文書" in s:
@@ -121,7 +125,7 @@ def entity_class(normalized_type: str) -> str:
     if normalized_type == "建造物":
         return "building_direct"
     if normalized_type in {
-        "美術工芸品", "考古資料", "古文書", "典籍", "歴史資料",
+        "美術工芸品", "考古資料", "古文書", "典籍",
         "美術工芸品・考古資料",
     }:
         return "movable"
@@ -129,15 +133,18 @@ def entity_class(normalized_type: str) -> str:
 
 
 def geometry_role(cls: str) -> str:
+    """Geometry role aligned with PLATEAU Heritage-GML Extractor v0.5.x.
+
+    `movable` is a semantic class only. It follows the same per-record spatial
+    path as ordinary point records and is not collapsed into address groups.
+    """
     if cls == "building_direct":
         return "building_candidate_point"
-    if cls == "movable":
-        return "address_group_point"
     return "representative_point"
 
 
 def municipality_from_values(code_value: str, municipality_value: str, address: str):
-    digits = re.sub(r"\\D", "", text(code_value))
+    digits = re.sub(r"\D", "", text(code_value))
     if len(digits) >= 5:
         code = digits[:5]
         return code, TOKYO_MUNICIPALITIES.get(code, text(municipality_value))

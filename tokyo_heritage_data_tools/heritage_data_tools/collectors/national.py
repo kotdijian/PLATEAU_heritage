@@ -150,6 +150,7 @@ def parse_detail_page(url: str, html: str) -> dict:
         "prefecture_raw": _first(pairs, "所在都道府県", "都道府県"),
         "owner": _first(pairs, "所有者"),
         "place_name": _first(pairs, "保管施設", "公開契約館"),
+        "address_detail": _first(pairs, "方書", "所在地詳細", "所在詳細"),
         "designation_date": _first(pairs, "指定年月日", "登録年月日", "選定年月日"),
         "period": _first(pairs, "時代"),
         "latitude": lat,

@@ -38,6 +38,7 @@ def _from_online_jsonl(path: Path) -> list[dict]:
             "name": text(obj.get("name")),
             "name_kana": text(obj.get("name_kana")),
             "place_name": text(obj.get("place_name")),
+            "address_detail": text(obj.get("address_detail")),
             "owner": text(obj.get("owner")),
             "address": address,
             "municipality": name,
@@ -61,7 +62,7 @@ def _from_online_jsonl(path: Path) -> list[dict]:
 def _from_official_csv(path: Path) -> list[dict]:
     df = read_csv_file(path)
     cols = {k: resolve(df.columns, k) for k in (
-        "id", "name", "name_kana", "place_name", "owner", "address",
+        "id", "name", "name_kana", "place_name", "address_detail", "owner", "address",
         "municipality", "municipality_code", "latitude", "longitude",
         "category", "type", "designation", "designation_date",
     )}
@@ -95,6 +96,7 @@ def _from_official_csv(path: Path) -> list[dict]:
             "name": name,
             "name_kana": row_value(row, cols["name_kana"]),
             "place_name": row_value(row, cols["place_name"]),
+            "address_detail": row_value(row, cols["address_detail"]),
             "owner": row_value(row, cols["owner"]),
             "address": address,
             "municipality": mname,

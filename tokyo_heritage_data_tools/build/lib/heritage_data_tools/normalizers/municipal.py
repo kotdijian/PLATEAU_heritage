@@ -125,7 +125,7 @@ def normalize(
             continue
 
         cols = {k: resolve(df.columns, k) for k in (
-            "id", "name", "name_kana", "place_name", "owner", "address",
+            "id", "name", "name_kana", "place_name", "address_detail", "owner", "address",
             "municipality", "municipality_code", "latitude", "longitude",
             "category", "type", "designation", "designation_date",
         )}
@@ -177,6 +177,7 @@ def normalize(
                 "name": name,
                 "name_kana": row_value(row, cols["name_kana"]),
                 "place_name": row_value(row, cols["place_name"]),
+                "address_detail": row_value(row, cols["address_detail"]),
                 "owner": row_value(row, cols["owner"]),
                 "address": address,
                 "municipality": mname,

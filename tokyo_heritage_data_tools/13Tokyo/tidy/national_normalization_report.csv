@@ -1,0 +1,5 @@
+﻿source_file,format,status,rows,error
+13Tokyo/raw/national/records.jsonl,cultural_heritage_online_jsonl,normalized,1853,
+13Tokyo/raw/national/official_export_001.csv,kunishitei_csv,normalized,198,
+13Tokyo/raw/national/official_export_002.csv,kunishitei_csv,normalized,485,
+13Tokyo/raw/national/official_export_003.csv,kunishitei_csv,normalized,77,
