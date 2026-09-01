@@ -1,4 +1,0 @@
-[console_scripts]
-heritage-classify = heritage_data_tools.classify_cli:main
-heritage-collect = heritage_data_tools.collect_cli:main
-heritage-normalize = heritage_data_tools.normalize_cli:main
