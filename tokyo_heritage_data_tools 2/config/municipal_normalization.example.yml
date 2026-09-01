@@ -1,0 +1,37 @@
+# Explicit designation-level keywords. More specific municipality-name
+# expressions are automatically added at runtime.
+municipal:
+  - "区指定"
+  - "市指定"
+  - "町指定"
+  - "村指定"
+  - "区登録"
+  - "市登録"
+  - "町登録"
+  - "村登録"
+
+prefectural:
+  - "東京都指定"
+  - "都指定"
+  - "東京都登録"
+  - "都登録"
+  - "東京都選定"
+  - "都選定"
+
+national:
+  - "国指定"
+  - "国登録"
+  - "国選定"
+  - "国宝"
+  - "重要文化財"
+  - "登録有形文化財"
+  - "登録記念物"
+  - "重要有形民俗文化財"
+  - "重要無形民俗文化財"
+  - "重要文化的景観"
+  - "重要伝統的建造物群保存地区"
+
+# Use only after inspecting an individual municipality's source semantics.
+# Ambiguous records are safer than silently assigning the wrong authority.
+default_by_municipality: {}
+# "131xx": municipal
