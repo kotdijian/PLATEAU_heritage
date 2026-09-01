@@ -32,3 +32,15 @@
 - `heritage-normalize municipal`: canonical normalization plus national/prefectural/ambiguous segregation.
 - `heritage-normalize national`: canonical normalization from Cultural Heritage Online JSONL and official CSV exports.
 - Canonical `type` vocabulary aligned with `plateau-heritage-gml v0.3.x`.
+
+## 0.2.3
+- Added `heritage-classify` for appending cultural-property classification attributes to already-normalized CSVs.
+- Added batch mode to produce `municipal_classified.csv`, `national_classified.csv`, and `130001_cultural_property_classified.csv` without re-fetching source data.
+- Bundled Heritage Classification Glossary v0.2.0 and the Arakawa (13118) record-level override table.
+- Classification preserves all existing source/canonical columns and appends eight classification columns only.
+- No PLATEAU download, Building matching, geometry creation, or GML/GPKG generation is performed by the classifier.
+- v0.2.3 classifier now recommends `municipal_all_normalized.csv`, then splits `municipal_classified.csv`, cross-level duplicates, and unresolved-level review rows.
+- Municipal designation-level inference no longer uses `raw_type` or dataset title as authority evidence; this prevents false national classification such as local `市重宝` records whose `種類` contains `重要文化財`.
+- Municipal unknown authority can be resolved in batch mode only by exact normalized name + municipality-code matches against the supplied national/Tokyo datasets. No fuzzy or spatial matching is used.
+- Bundled Heritage Classification Glossary updated to v0.2.1.
+- Added `カテゴリ` and `ジャンル` aliases so Shinjuku-style municipal datasets retain category/type during normalization.

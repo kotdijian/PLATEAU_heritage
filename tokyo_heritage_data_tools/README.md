@@ -536,3 +536,52 @@ Content-Type: application/json
 公式のレスポンス例で用いられる `total` / `subtotal` / `limit` / `offset` / `hits` を基準に全件取得を確認します。
 
 manifestのURLは外部サイト更新により将来変更される可能性があります。直接CSVが失効してもAPI endpointが有効ならfallbackしますが、CSV・API双方が失効した場合は `FAILED` として `source.json` に記録し、他自治体の処理は継続します。
+
+## Classification pass before Heritage-GML generation (v0.2.3)
+
+After `heritage-normalize`, classify the already-existing CSVs. This step does not re-fetch municipal/national data and does not touch PLATEAU.
+
+```bash
+heritage-classify batch \
+  --tokyo ./13Tokyo/prefectural/130001_cultural_property.csv \
+  --municipal ./13Tokyo/tidy/municipal.csv \
+  --national ./13Tokyo/tidy/national.csv \
+  --output-dir ./13Tokyo/gml_input
+```
+
+Outputs:
+
+```text
+13Tokyo/gml_input/
+├── 130001_cultural_property_classified.csv
+├── municipal_classified.csv
+└── national_classified.csv
+```
+
+The classifier preserves every existing column and appends:
+`designation_level_code`, `designation_level_ja`, `designation_status_code`, `designation_status_ja`, `heritage_type_major_code`, `heritage_type_major_ja`, `heritage_type_detail`, `classification_confidence`.
+
+Use only these classified CSVs as the Extractor input if both classified and unclassified copies exist, to avoid loading the same cultural records twice.
+
+### Important municipal input change
+
+For classification, prefer **`municipal_all_normalized.csv`** rather than the legacy prefiltered `municipal.csv`. Many municipal open datasets omit `区指定` / `市指定` from their category labels, so the older normalizer intentionally placed them in `ambiguous`; using only `municipal.csv` can therefore omit valid local records.
+
+```bash
+heritage-classify batch \
+  --tokyo ./13Tokyo/prefectural/130001_cultural_property.csv \
+  --municipal ./13Tokyo/tidy/municipal_all_normalized.csv \
+  --national ./13Tokyo/tidy/national.csv \
+  --output-dir ./13Tokyo/gml_input
+```
+
+The municipal source is split into:
+
+```text
+municipal_all_classified.csv
+municipal_classified.csv                 # only municipal-level; use for heritage-gml
+municipal_classified_cross_level.csv     # national/prefectural duplicates; do not feed again
+municipal_classified_needs_review.csv    # authority still unresolved
+```
+
+For ambiguous municipal-source labels, cross-source resolution uses **exact normalized name + municipality code only** against the already-acquired national/Tokyo datasets. It does not use fuzzy names, buffers, nearest neighbours, or inferred geometry.

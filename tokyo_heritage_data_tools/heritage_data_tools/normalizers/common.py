@@ -52,8 +52,8 @@ ALIASES = {
     "municipality_code": ["全国地方公共団体コード", "自治体コード", "市区町村コード", "municipality_code", "city_code"],
     "latitude": ["緯度", "lat", "latitude", "Latitude"],
     "longitude": ["経度", "lon", "lng", "longitude", "Longitude"],
-    "category": ["文化財分類", "指定区分", "分類", "category", "文化財種類"],
-    "type": ["種類", "種別", "文化財種類", "type"],
+    "category": ["文化財分類", "カテゴリ", "指定区分", "分類", "category", "文化財種類"],
+    "type": ["種類", "ジャンル", "種別", "文化財種類", "type"],
     "designation": ["指定等", "指定登録区分", "designation", "指定・登録区分", "指定種別"],
     "designation_date": ["文化財指定日", "指定年月日", "指定日", "登録年月日", "選定年月日", "designation_date"],
 }

@@ -1,10 +1,13 @@
 # PLATEAU Heritage Data Pipeline — Integrated README
 
+> **v0.2.3 / v0.5.2 workflow change:** classification is applied after normalization and before the first Heritage-GML/GPKG generation. For municipal data, use `municipal_all_normalized.csv`; `heritage-classify` separates municipal-ready records from national/prefectural duplicates and unresolved rows. Existing Tokyo GPKG/GML can be updated with `heritage-classification-patch` without rerunning PLATEAU matching or geometry generation.
+
+
 **対象バージョン**
 
-- `PLATEAU Heritage-GML Extractor` v0.5.1
-- `Tokyo Heritage Data Tools` v0.2.2
-- `merge_heritage_gpkg.py` v0.5.1（Extractor に同梱）
+- `PLATEAU Heritage-GML Extractor` v0.5.2
+- `Tokyo Heritage Data Tools` v0.2.3
+- `merge_heritage_gpkg.py` v0.5.2（Extractor に同梱）
 
 このREADMEは、文化財オープンデータの取得・正規化から、Project PLATEAU の `bldg:Building` との照合、Building Complex の生成、自治体別 GML / GeoPackage 出力、都道府県単位 GeoPackage 統合までを一つのワークフローとして説明します。
 
@@ -320,14 +323,11 @@ national_normalization_summary.json
 ```bash
 mkdir -p ./13Tokyo/gml_input
 
-cp ./13Tokyo/prefectural/130001_cultural_property.csv \
-   ./13Tokyo/gml_input/
-
-cp ./13Tokyo/tidy/national.csv \
-   ./13Tokyo/gml_input/
-
-cp ./13Tokyo/tidy/municipal.csv \
-   ./13Tokyo/gml_input/
+heritage-classify batch \
+  --tokyo ./13Tokyo/prefectural/130001_cultural_property.csv \
+  --municipal ./13Tokyo/tidy/municipal_all_normalized.csv \
+  --national ./13Tokyo/tidy/national.csv \
+  --output-dir ./13Tokyo/gml_input
 ```
 
 コピーの代わりにシンボリックリンクを使用しても構いません。
@@ -336,9 +336,9 @@ cp ./13Tokyo/tidy/municipal.csv \
 
 ```text
 13Tokyo/gml_input/
-├── 130001_cultural_property.csv
-├── national.csv
-└── municipal.csv
+├── 130001_cultural_property_classified.csv
+├── national_classified.csv
+└── municipal_classified.csv
 ```
 
 となれば、3系統を同時にExtractorへ渡せます。
@@ -400,9 +400,9 @@ v0.5.1では `movable` を特別な空間処理ルートとして扱いません
 
 Data Tools v0.2.xでは `方書` 等を `address_detail` として保持します。これはComplex判定の補助情報になりますが、Data Tools側ではBuildingや範囲を推定しません。
 
-### Tokyo Heritage Data Tools v0.2.2との整合
+### Tokyo Heritage Data Tools v0.2.3との整合
 
-Data Tools v0.2.2 は Extractor v0.5.x に合わせて更新されています。
+Data Tools v0.2.3 は Extractor v0.5.x に合わせて更新されています。
 
 - `address_detail` をcanonical schemaに追加し、`方書`等を保持
 - `movable` は意味分類のみで、`geometry_role=representative_point`
@@ -844,7 +844,7 @@ GPKGのfootprintは3D Buildingの代替ではなく、QGIS分析用の派生2D g
 
 ## 22. `方書` と `address_detail`
 
-Extractor v0.5.x と Tokyo Heritage Data Tools v0.2.2 は、次の所在地詳細列を `address_detail` として扱えるよう整合しています。
+Extractor v0.5.x と Tokyo Heritage Data Tools v0.2.3 は、次の所在地詳細列を `address_detail` として扱えるよう整合しています。
 
 ```text
 方書
@@ -866,7 +866,7 @@ address_note
 
 ## 23. `entity_class` の扱い
 
-Tokyo Heritage Data Tools v0.2.2 はcanonical CSVに:
+Tokyo Heritage Data Tools v0.2.3 はcanonical CSVに:
 
 ```text
 entity_class
@@ -875,7 +875,7 @@ geometry_role
 
 を出力します。
 
-ただしExtractor v0.5.1では、現在の `type_class_map` に基づき `type` から再分類します。
+ただしExtractor v0.5.2では、現在の `type_class_map` に基づき `type` から再分類します。
 
 そのため前処理側の `entity_class` は出典・確認用情報として扱い、最終空間処理はExtractor側のv0.5.1ルールを基準とします。
 
@@ -968,9 +968,11 @@ heritage-normalize national \
 
 # 5. GML入力をまとめる
 mkdir -p ./13Tokyo/gml_input
-cp ./13Tokyo/prefectural/130001_cultural_property.csv ./13Tokyo/gml_input/
-cp ./13Tokyo/tidy/national.csv ./13Tokyo/gml_input/
-cp ./13Tokyo/tidy/municipal.csv ./13Tokyo/gml_input/
+heritage-classify batch \
+  --tokyo ./13Tokyo/prefectural/130001_cultural_property.csv \
+  --municipal ./13Tokyo/tidy/municipal_all_normalized.csv \
+  --national ./13Tokyo/tidy/national.csv \
+  --output-dir ./13Tokyo/gml_input
 
 # 6. PLATEAU照合・自治体別 GML + GPKG生成
 heritage-gml \
@@ -1025,7 +1027,56 @@ QGIS / analysis / future export
 ## 29. 現在のスコープ
 
 - `PLATEAU Heritage-GML Extractor` は特定自治体をコード内に固定しない汎用設計。
-- `Tokyo Heritage Data Tools v0.2.2` は東京都向けプロトタイプであり、東京都内自治体ソースmanifest・東京都自治体コード判定を含む。
+- `Tokyo Heritage Data Tools v0.2.3` は東京都向けプロトタイプであり、東京都内自治体ソースmanifest・東京都自治体コード判定を含む。
 - 全国展開時は `Tokyo Heritage Data Tools` を汎用 `Heritage Data Tools` へ拡張することを想定する。
 - PLATEAU VIEW対応は本READMEの対象外とし、現時点ではQGISでのレンダリング・分析を優先する。
 
+
+
+---
+
+## 30. 文化財類型属性の適用（v0.2.3 / v0.5.2）
+
+### 新規GML/GPKGをまだ生成していない municipal / national
+
+再取得は不要です。rawから正規化した後、Glossaryを適用してからExtractorへ渡します。
+
+```bash
+heritage-normalize municipal \
+  --input ./13Tokyo/raw/municipal \
+  --output ./13Tokyo/tidy
+
+heritage-normalize national \
+  --input ./13Tokyo/raw/national \
+  --output ./13Tokyo/tidy
+
+heritage-classify batch \
+  --tokyo ./13Tokyo/prefectural/130001_cultural_property.csv \
+  --municipal ./13Tokyo/tidy/municipal_all_normalized.csv \
+  --national ./13Tokyo/tidy/national.csv \
+  --output-dir ./13Tokyo/gml_input
+```
+
+GML入力は次の3ファイルです。
+
+```text
+130001_cultural_property_classified.csv
+municipal_classified.csv
+national_classified.csv
+```
+
+`municipal_classified_cross_level.csv` は国・都レベルの重複候補、`municipal_classified_needs_review.csv` は指定主体を確定できない行なので、Extractor入力には含めません。曖昧なmunicipal行の国/都判定は、取得済みnational/Tokyoデータとの **名称正規化完全一致 + 5桁自治体コード一致** のみで行い、曖昧一致・距離・bufferは使用しません。
+
+### 既に生成済みの東京都GPKG/GML
+
+PLATEAU取得・Building照合・Complex生成をやり直さず、属性だけ追加できます。
+
+```bash
+heritage-classification-patch \
+  --gpkg ./output/13106/13106_heritage.gpkg \
+  --gml ./output/13106/13106_heritage_buildings.gml \
+  --classified ./13Tokyo/gml_input/130001_cultural_property_classified.csv \
+  --in-place
+```
+
+`--in-place` を省略すると `_classified.gpkg` / `_classified.gml` を作成します。GPKGはSQLite属性列の追加・更新のみ、GMLは既存Buildingへのgeneric attribute追加のみで、形状・LOD・Building対応関係は再計算しません。

@@ -38,3 +38,20 @@
 - `方書` は `address_detail` として失わず保持します。Complex判定は Extractor 側で実施します。
 - `shared_complex_coordinate`、`complex_id`、`complex_name`、Building照合結果は Extractor が導出するため、この前処理schemaでは生成しません。
 - buffer / nearest neighbour / 推定範囲は生成しません。
+
+## Classification extension — v0.2.3
+
+`heritage-classify` preserves the canonical/source columns and appends:
+
+| column | meaning |
+|---|---|
+| designation_level_code | `national` / `prefectural` / `municipal` / `unknown` |
+| designation_level_ja | `国` / `都` / `区市町村` / `不明` |
+| designation_status_code | `designated` / `registered` / `selected` / `record_selected` / `local_other` / `unknown` |
+| designation_status_ja | 指定 / 登録 / 選定 / 記録選択 / 独自制度 / 不明 |
+| heritage_type_major_code | `tangible` / `intangible` / `folk` / `monument` / `cultural_landscape` / `preservation_technique` / `other` / `unknown` |
+| heritage_type_major_ja | 有形文化財 / 無形文化財 / 民俗文化財 / 記念物 / 文化的景観 / 文化財保存技術 / その他 / 未判定 |
+| heritage_type_detail | 建造物、考古資料、史跡、天然記念物等の詳細類型 |
+| classification_confidence | `high` / `medium` / `low` |
+
+For municipal sources, classification should normally start from `municipal_all_normalized.csv`. The classifier, not the legacy prefilter, creates the final `municipal_classified.csv` used by Heritage-GML.

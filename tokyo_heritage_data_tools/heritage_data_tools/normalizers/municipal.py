@@ -160,7 +160,7 @@ def normalize(
             raw_category = row_value(row, cols["category"])
             raw_type = row_value(row, cols["type"])
             raw_designation = row_value(row, cols["designation"])
-            blob = " ".join([raw_category, raw_type, raw_designation, dataset_title])
+            blob = " ".join([raw_category, raw_designation])
             level, level_reason = infer_designation_level(blob, mname, mcode, cfg)
             local_count[level] += 1
 

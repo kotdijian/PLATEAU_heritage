@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tokyo-heritage-data-tools"
-version = "0.2.2"
+version = "0.2.3"
 description = "Collection and normalization tools for national and municipal cultural-property data in Tokyo, aligned with PLATEAU Heritage-GML Extractor v0.5.x."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -21,6 +21,10 @@ dev = ["pytest>=8.0"]
 [project.scripts]
 heritage-collect = "heritage_data_tools.collect_cli:main"
 heritage-normalize = "heritage_data_tools.normalize_cli:main"
+heritage-classify = "heritage_data_tools.classify_cli:main"
 
 [tool.setuptools.packages.find]
 include = ["heritage_data_tools*"]
+
+[tool.setuptools.package-data]
+heritage_data_tools = ["data/classification/*.csv", "data/classification/*.yml"]
