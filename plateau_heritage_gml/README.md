@@ -1,52 +1,9 @@
-# PLATEAU Heritage-GML Extractor v0.5.3
+# PLATEAU Heritage-GML Extractor v0.5.1
 
 事前取得済みの文化財 CSV / JSON / GeoJSON と Project PLATEAU の `bldg:Building` CityGML を照合し、
 文化財 Building、Building Complex、文化財レコードの位置情報を **GML + GeoPackage** として出力する Python CLI です。
 
 コード内に特定の都道府県名・自治体名・自治体コードは固定していません。
-
-## v0.5.3 の追加機能: PLATEAU Building 災害リスク属性
-
-PLATEAU CityGML の `bldg:Building` に含まれる `uro:bldgDisasterRiskAttribute` を Building 読み込み時に取得し、文化財照合とは独立した Building 属性として保持します。Data Tools 側の修正は不要です。
-
-対応する6類型:
-
-- `uro:RiverFloodingRiskAttribute` → `river_flooding`
-- `uro:TsunamiRiskAttribute` → `tsunami`
-- `uro:HighTideRiskAttribute` → `high_tide`
-- `uro:InlandFloodingRiskAttribute` → `inland_flooding`
-- `uro:ReservoirFloodingRiskAttribute` → `reservoir_flooding`
-- `uro:LandSlideRiskAttribute` → `landslide`
-
-元CityGMLに含まれる `description`, `rank`, `rankOrg`, `depth`, `adminType`, `scale`, `duration`, `areaType` を必要に応じて取得します。コード値と `codeSpace` は常に保持し、ローカルPLATEAUパッケージ内に参照コードリストが存在する場合はラベルも解決します。API等からGML単体だけを取得してコードリストが手元にない場合は、外部ネットワーク取得をせず、コード値と `codeSpace` のみ保持します。
-
-`heritage_buildings_footprint` にはGIS分析用の集約列を追加します。例:
-
-```text
-disaster_risk_count
-disaster_risk_types
-river_flood_count
-river_flood_max_depth_m
-river_flood_max_duration_h
-river_flood_descriptions
-river_flood_ranks
-river_flood_admin_types
-river_flood_scales
-tsunami_max_depth_m
-high_tide_max_depth_m
-inland_flood_max_depth_m
-reservoir_flood_max_depth_m
-landslide_count
-landslide_descriptions
-landslide_area_types
-disaster_risks_json
-```
-
-さらに、Building : risk = 1:N を保持する正規化テーブル `plateau_disaster_risk` をGPKGに追加します。Building Polygon上の集約値は分析用派生属性で、正本はこの1:Nテーブルと元CityGMLです。
-
-この災害リスク属性は、Building matching、Complex grouping、文化財類型判定には使用しません。既存の照合ロジックは変更しません。
-
-元の `bldg:Building` をsubset GMLへ丸ごとコピーするため、`uro:bldgDisasterRiskAttribute` は `<code>_heritage_buildings.gml` にも元のまま保持されます。
 
 ## v0.5.1 の修正
 
@@ -272,8 +229,6 @@ Generic Attributeとして主に以下を付与します。
 - `heritageEntityClasses`
 - `heritageMatchMethod`
 
-PLATEAU由来の `uro:bldgDisasterRiskAttribute` はGeneric Attributeへ複製せず、元Building要素内の正式な属性をそのまま保持します。
-
 ## `<code>_heritage.gpkg`
 
 QGISでのレンダリング・分析用マスターGIS成果物です。
@@ -286,8 +241,6 @@ QGISでのレンダリング・分析用マスターGIS成果物です。
   - `source_location_role` / `spatial_match_status` を保持
 - `heritage_buildings_footprint`
   - 直接選択されたPLATEAU Buildingの2D footprint
-  - PLATEAU災害リスクの件数・最大浸水深・カテゴリ等の集約属性を保持
-  - `disaster_risks_json` に当該Buildingの全リスク属性を保持
 - `heritage_building_complexes`
   - Buildingが1棟以上確定したComplex
   - 1 Complex = 1 MultiPolygon
@@ -297,9 +250,6 @@ QGISでのレンダリング・分析用マスターGIS成果物です。
 
 ### Attribute tables
 
-- `plateau_disaster_risk`
-  - selected Building ↔ PLATEAU災害リスク属性の1:Nテーブル
-  - raw code / label / codeSpace / depth / duration / areaType 等を保持
 - `heritage_building_links`
   - 文化財レコード ↔ 直接一致Building
 - `heritage_complex_summary`
