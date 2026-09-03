@@ -1,5 +1,138 @@
 # PLATEAU Heritage-GML Extractor v0.5.5
 
+<!-- PUBLIC-DATA-START -->
+
+## 公開データ
+
+本リポジトリでは、東京都の文化財オープンデータと Project PLATEAU の
+CityGML 建築物データを対応付け、文化財の位置・建築物形状・災害リスク情報を
+統合した公開用GISデータを提供します。
+
+大容量の解析用データをそのまま配布するのではなく、一般的なGISやWeb GISで
+利用しやすい派生データを公開対象としています。
+
+### 公開ファイル
+
+#### `public_data/13_heritage_public.gpkg`
+
+文化財を中心とした公開用 GeoPackage です。
+
+主な収録レイヤ：
+
+- `heritage_records` — 文化財レコード
+- `heritage_points` — 文化財位置
+- `heritage_buildings_point` — PLATEAU建築物の代表点
+- `heritage_buildings_footprint` — 文化財に対応したPLATEAU建築物形状
+- `heritage_buildings_footprint_riskwide` — 災害リスク属性を付与した建築物形状
+- `heritage_building_complexes` — 複合文化財
+- `heritage_building_links` — 文化財と建築物の対応関係
+- `heritage_complex_members`
+- `heritage_complex_records`
+- `heritage_complex_summary`
+- `heritage_disaster_risk` — 文化財単位の災害リスク情報
+- `heritage_disaster_metadata`
+- `hazard_source_manifest`
+- `source_license`
+
+PLATEAU CityGMLから抽出した詳細な災害リスク原情報
+`plateau_disaster_risk` は公開版には含めていません。
+
+また、東京都全域の震度・液状化・浸水・津波等の大容量ハザード原データも
+このGeoPackageには含めていません。
+
+#### `public_data/hazard_map.gpkg`
+
+文化財との位置関係をGIS上で確認するための代表的なハザード地図を収録します。
+
+収録レイヤ：
+
+- `hazard_region_risk` — 地震に関する地域危険度
+- `hazard_fire_spread_town` — 火災危険度
+- `hazard_sediment_warning_a33_polygon` — 土砂災害警戒区域
+- `hazard_sabo_designated_a52_polygon` — 砂防指定地
+
+解析用完全版に含まれる震度8地震シナリオ、液状化5地震シナリオ、
+河川別浸水データ、高潮、津波等の大容量レイヤは含めていません。
+
+### GeoJSON
+
+Web GISや簡易なデータ利用のため、主要レイヤを
+WGS84（EPSG:4326）のGeoJSONでも提供します。
+
+```text
+public_data/geojson/
+├── heritage_buildings_risk.geojson
+├── heritage_buildings_footprint_risk.geojson
+├── heritage_complexes.geojson
+└── heritage_source_points.geojson
+```
+
+- `heritage_buildings_risk.geojson`  
+  文化財に対応した建築物の代表点と災害リスク属性
+
+- `heritage_buildings_footprint_risk.geojson`  
+  文化財建築物のポリゴンと災害リスク属性
+
+- `heritage_complexes.geojson`  
+  複合文化財の空間情報
+
+- `heritage_source_points.geojson`  
+  元の文化財位置情報
+
+### 出典・ライセンス
+
+公開データに使用した各原データの出典・ライセンスは
+`public_data/SOURCE_LICENSES.csv` に整理しています。
+
+GeoPackage内にも以下のメタデータテーブルを収録しています。
+
+- `source_license`
+- `hazard_source_manifest`
+
+個別データを再配布・二次利用する場合は、
+`SOURCE_LICENSES.csv` と各原データ提供者の最新の利用条件を確認してください。
+
+### 完全版データ
+
+解析過程で生成する完全版 `13_heritage_hazards.gpkg` は、
+東京都全域の詳細なハザードデータを含むため約12 GBとなり、
+GitHubでは公開していません。
+
+GitHub上のデータは、この完全版GeoPackageから公開に必要な情報を抽出した
+派生データです。
+
+完全版ファイルの同一性確認用として、
+
+```text
+output/13_heritage_hazards.sha256
+output/13_heritage_hazards_fileinfo.txt
+```
+
+をリポジトリに保持します。
+
+### 公開データ構成
+
+```text
+public_data/
+├── 13_heritage_public.gpkg
+├── hazard_map.gpkg
+├── SOURCE_LICENSES.csv
+└── geojson/
+    ├── heritage_buildings_risk.geojson
+    ├── heritage_buildings_footprint_risk.geojson
+    ├── heritage_complexes.geojson
+    └── heritage_source_points.geojson
+```
+
+公開データは `tools/build_public_release.py` により
+`13_heritage_hazards.gpkg` から再生成できます。
+
+<!-- PUBLIC-DATA-END -->
+
+---
+
+## 開発・ツール
+
 事前取得済みの文化財 CSV / JSON / GeoJSON と Project PLATEAU の `bldg:Building` CityGML を照合し、
 文化財 Building、Building Complex、文化財レコードの位置情報を **GML + GeoPackage** として出力する Python CLI です。
 
