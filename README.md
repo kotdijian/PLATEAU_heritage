@@ -1,10 +1,31 @@
-# PLATEAU Heritage-GML Extractor v0.5.4
+# PLATEAU Heritage-GML Extractor v0.5.5
 
 事前取得済みの文化財 CSV / JSON / GeoJSON と Project PLATEAU の `bldg:Building` CityGML を照合し、
 文化財 Building、Building Complex、文化財レコードの位置情報を **GML + GeoPackage** として出力する Python CLI です。
 
 コード内に特定の都道府県名・自治体名・自治体コードは固定していません。
 
+
+## v0.5.5 の修正: CLI起動とバージョン整合性
+
+- `heritage-gml --version` は `pipeline` / pandas / pyproj / geopandas を読み込まず、軽量な `argparse` と package version だけで即時終了します。
+- `heritage_gml.__version__`、distribution metadata (`pyproject.toml`) を `0.5.5` に統一しました。
+- companion Heritage JSON/XML の `version` も package version を参照し、ハードコードされた旧版番号が残らないようにしました。
+- source ZIPには `build/`, `dist/`, `*.egg-info`, `*.dist-info`, `__pycache__` を含めません。
+- v0.5.4 の自治体単位PLATEAUキャッシュ復旧、v0.5.3 の災害リスク属性、v0.5.2 の文化財分類属性を維持します。matching / Complex / geometry規則は変更しません。
+
+## v0.5.5 クリーンインストール（既存リポジトリでの推奨）
+
+Git作業ツリー、`site-packages`、旧 `*.egg-info` のバージョン混在を避けるため、次の順序を推奨します。
+
+1. 仮想環境を有効化し、実行Pythonを確認する。
+2. リポジトリ直下の生成物 `build/`, `dist/`, `plateau_heritage_gml.egg-info/` を削除する。
+3. `site-packages` の旧 `plateau_heritage_gml-*.dist-info` / package directory を削除する。
+4. source ZIPの0.5.5コードで作業ツリーを更新する。
+5. 0.5.5 wheelを `--no-deps` でインストールする。
+6. プロジェクトルートと `/tmp` の両方で package version / distribution metadata が0.5.5で一致することを確認する。
+
+`heritage-gml --version` はv0.5.5では重い解析依存関係を読み込まずに終了します。
 
 ## v0.5.4 の修正: PLATEAUキャッシュ復旧と実行可視化
 

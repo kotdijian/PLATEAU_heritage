@@ -1,0 +1,11 @@
+﻿kind,name,row_count
+spatial,heritage_building_complexes,943
+spatial,heritage_buildings_footprint,1000
+spatial,heritage_points,427
+spatial,heritage_records,4423
+attribute,heritage_building_links,1172
+attribute,heritage_complex_members,1080
+attribute,heritage_complex_records,4423
+attribute,heritage_complex_summary,2366
+attribute,heritage_unresolved_entities,3253
+attribute,plateau_disaster_risk,1026

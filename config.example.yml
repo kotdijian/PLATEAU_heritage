@@ -6,7 +6,9 @@ cultural:
   columns: {}
   file_overrides: {}
 
-  # Tidy processing classification.
+  # Semantic classification.
+  # v0.5: movable types keep entity_class=movable for filtering, but are no
+  # longer address-grouped or handled by a separate matching path.
   # Types not listed here are retained as representative points.
   type_class_map:
     "建造物": "building_direct"
@@ -27,6 +29,12 @@ plateau:
   read_timeout_s: 180
   download_retries: 3
   retry_backoff_s: 2.0
+  # If a cached GML raises TimeoutError/OSError/XML read error, API mode
+  # discards the municipality cache as a set, reacquires all GMLs, and retries
+  # the read this many times. Local mode never deletes source files.
+  cache_recovery_retries: 1
+  # Query-by-query API progress can be noisy for large cultural datasets.
+  query_progress: false
   cache_dir: ".cache/plateau"
   local_dir: null
   catalog_file: null
@@ -39,6 +47,10 @@ matching:
   # Only building_direct records may use these exact semantic matches.
   building_direct_exact_name: true
   building_direct_exact_address: true
+
+  # Exact coordinates shared by multiple records in one Complex are not used
+  # for Building matching by default (they are often site representative points).
+  match_shared_complex_coordinates: false
 
 output:
   dir: "output"

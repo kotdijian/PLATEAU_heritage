@@ -1,6 +1,5 @@
 from __future__ import annotations
 from collections import defaultdict
-import json
 
 from shapely.strtree import STRtree
 
@@ -45,6 +44,10 @@ def _building_direct_semantic_indices(record: CulturalRecord, buildings, cfg: di
 
 
 def _select_meta_add(selected: dict, building: BuildingRecord, record: CulturalRecord, methods: list[str]):
+    """Attach a record to a selected Building with one uniform schema.
+
+    v0.5 deliberately does not special-case movable cultural properties here.
+    """
     meta = selected.setdefault(building.gml_id, {
         "complex_ids": [],
         "complex_names": [],
@@ -52,8 +55,14 @@ def _select_meta_add(selected: dict, building: BuildingRecord, record: CulturalR
         "record_names": [],
         "record_types": [],
         "entity_classes": [],
+        "designation_level_codes": [],
+        "designation_level_labels": [],
+        "designation_status_codes": [],
+        "designation_status_labels": [],
+        "heritage_type_major_codes": [],
+        "heritage_type_major_labels": [],
+        "heritage_type_details": [],
         "methods": [],
-        "movable_groups": [],
     })
     for key, value in [
         ("complex_ids", record.complex_id),
@@ -62,6 +71,13 @@ def _select_meta_add(selected: dict, building: BuildingRecord, record: CulturalR
         ("record_names", record.name),
         ("record_types", record.type),
         ("entity_classes", record.entity_class),
+        ("designation_level_codes", record.designation_level_code),
+        ("designation_level_labels", record.designation_level_ja),
+        ("designation_status_codes", record.designation_status_code),
+        ("designation_status_labels", record.designation_status_ja),
+        ("heritage_type_major_codes", record.heritage_type_major_code),
+        ("heritage_type_major_labels", record.heritage_type_major_ja),
+        ("heritage_type_details", record.heritage_type_detail),
     ]:
         if value and value not in meta[key]:
             meta[key].append(value)
@@ -76,13 +92,26 @@ def _point_row_from_record(record: CulturalRecord, reason: str) -> dict:
         "record_ids": record.record_id,
         "name": record.name,
         "names": record.name,
+        "place_name": record.place_name,
+        "address_detail": record.address_detail,
         "address": record.address,
         "category": record.category,
         "type": record.type,
+        "designation_level_code": record.designation_level_code,
+        "designation_level_ja": record.designation_level_ja,
+        "designation_status_code": record.designation_status_code,
+        "designation_status_ja": record.designation_status_ja,
+        "heritage_type_major_code": record.heritage_type_major_code,
+        "heritage_type_major_ja": record.heritage_type_major_ja,
+        "heritage_type_detail": record.heritage_type_detail,
+        "classification_confidence": record.classification_confidence,
         "entity_class": record.entity_class,
         "geometry_role": record.geometry_role,
+        "source_location_role": record.source_location_role,
+        "spatial_match_status": record.spatial_match_status,
         "complex_id": record.complex_id,
         "complex_name": record.complex_name,
+        "complex_grouping_method": record.complex_grouping_method,
         "reason": reason,
         "item_count": 1,
         "attached_items_json": "",
@@ -90,61 +119,54 @@ def _point_row_from_record(record: CulturalRecord, reason: str) -> dict:
     }
 
 
-def _movable_group_key(record: CulturalRecord) -> tuple:
-    addr = compact_address(record.address)
-    if addr:
-        return ("address", addr)
-    # The instruction is to group by same address.  Missing-address records are
-    # therefore not merged merely because they happen to share a coordinate.
-    return ("record", record.record_id)
-
-
-def _movable_item_dict(r: CulturalRecord) -> dict:
-    return {
-        "record_id": r.record_id,
-        "name": r.name,
-        "category": r.category,
-        "type": r.type,
-        "designation": r.designation,
-        "designation_date": r.designation_date,
-        "owner": r.owner,
-        "address": r.address,
-        "source_file": r.source_file,
-    }
+def _allow_point_match(record: CulturalRecord, cfg: dict) -> bool:
+    if not cfg.get("point_in_building", True):
+        return False
+    if record.geometry is None:
+        return False
+    # A coordinate repeated by multiple records inside the same semantic
+    # complex is often a site/complex representative observation rather than
+    # the exact position of every object. Do not silently use it as a Building
+    # locator unless explicitly requested.
+    if (
+        record.source_location_role == "shared_complex_coordinate"
+        and not cfg.get("match_shared_complex_coordinates", False)
+    ):
+        return False
+    return True
 
 
 def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], cfg: dict):
-    """Match cultural points to PLATEAU Buildings under the v0.3 policy.
+    """Match cultural records and construct Building Complex membership.
 
-    Rules:
-    - No buffer, radius, nearest-neighbour or inferred cultural area.
-    - building_direct: exact point-in-footprint plus optional exact name/address.
-    - point: exact point-in-footprint only; if unmatched, emit as Heritage Point.
-    - movable: group by same cultural address. Attach the list to Buildings that
-      were already matched by a non-movable record at that address; otherwise
-      try the group's own representative point. If still unmatched, emit one
-      Heritage Point carrying the item list.
+    v0.5 rules:
+    - No buffer, radius, nearest-neighbour, convex hull, or inferred area.
+    - Every record, including movable cultural properties, follows the same
+      individual record matching/output path.
+    - Exact point-in-footprint is available to all records, subject to the
+      shared-complex-coordinate safeguard.
+    - building_direct records may additionally use exact normalized name/address.
+    - Building Complex geometry is derived only from Buildings directly matched
+      by at least one record in that complex. Records are never propagated to a
+      specific member Building merely because they share a complex.
+    - A multi-record semantic complex with no direct Building match is retained
+      as `complex_only`; its source points remain in heritage_records, but are
+      not duplicated into the standalone heritage_points fallback layer.
     """
     geoms = [b.geometry for b in buildings]
     tree = STRtree(geoms) if geoms else None
-
-    selected = {}
-    links = []
-    point_rows = []
-    movable_rows = []
-    movable_group_rows = []
-    unresolved_rows = []
-
-    # Map a cultural source address to buildings established by non-movable records.
-    matched_buildings_by_cultural_address: dict[str, set[str]] = defaultdict(set)
     building_by_id = {b.gml_id: b for b in buildings}
 
-    # 1) Non-movable records are matched independently; point identity is retained
-    # in the normalized record regardless of whether a Building is found.
-    for r in [x for x in records if x.entity_class != "movable"]:
+    selected: dict[str, dict] = {}
+    links: list[dict] = []
+    point_rows: list[dict] = []
+    unresolved_rows: list[dict] = []
+
+    # 1) Uniform per-record direct matching.
+    for r in records:
         methods_by_index: dict[int, set[str]] = defaultdict(set)
 
-        if cfg.get("point_in_building", True) and r.geometry is not None:
+        if _allow_point_match(r, cfg):
             for i in _point_building_indices(r.geometry, tree, geoms):
                 methods_by_index[i].add("point_in_building")
 
@@ -158,7 +180,9 @@ def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], c
             [m for i in final_indices for m in sorted(methods_by_index[i])]
         )
 
-        addr_key = compact_address(r.address)
+        if final_indices:
+            r.spatial_match_status = "building_matched"
+
         for i in final_indices:
             b = buildings[i]
             methods = sorted(methods_by_index[i])
@@ -166,7 +190,17 @@ def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], c
             links.append({
                 "record_id": r.record_id,
                 "name": r.name,
+                "place_name": r.place_name,
+                "address_detail": r.address_detail,
                 "type": r.type,
+                "designation_level_code": r.designation_level_code,
+                "designation_level_ja": r.designation_level_ja,
+                "designation_status_code": r.designation_status_code,
+                "designation_status_ja": r.designation_status_ja,
+                "heritage_type_major_code": r.heritage_type_major_code,
+                "heritage_type_major_ja": r.heritage_type_major_ja,
+                "heritage_type_detail": r.heritage_type_detail,
+                "classification_confidence": r.classification_confidence,
                 "entity_class": r.entity_class,
                 "complex_id": r.complex_id,
                 "complex_name": r.complex_name,
@@ -179,168 +213,54 @@ def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], c
                 "match_methods": ";".join(methods),
                 "source_gml": b.source_file,
             })
-            if addr_key:
-                matched_buildings_by_cultural_address[addr_key].add(b.gml_id)
 
-        if not final_indices:
-            # building-direct also gets a point fallback to avoid data loss.
-            reason = "building_direct_unmatched" if r.entity_class == "building_direct" else "point_not_in_building"
-            point_rows.append(_point_row_from_record(r, reason))
-            unresolved_rows.append({
-                "entity_id": r.record_id,
-                "entity_kind": "record",
-                "name": r.name,
-                "type": r.type,
-                "entity_class": r.entity_class,
-                "address": r.address,
-                "reason": reason if r.geometry is not None else "missing_point_geometry",
-            })
-
-    # 2) Movable records: group strictly by same cultural address.
-    movable_groups: dict[tuple, list[CulturalRecord]] = defaultdict(list)
-    for r in [x for x in records if x.entity_class == "movable"]:
-        movable_groups[_movable_group_key(r)].append(r)
-
-    for seq, (_, rr) in enumerate(sorted(movable_groups.items(), key=lambda kv: min(x.record_id for x in kv[1])), 1):
-        gid = f"{rr[0].municipality_code}-MG{seq:05d}"
-        for r in rr:
-            r.movable_group_id = gid
-
-        address = next((r.address for r in rr if r.address), "")
-        addr_key = compact_address(address)
-        valid_points = [r.geometry for r in rr if r.geometry is not None and not r.geometry.is_empty]
-        representative_point = valid_points[0] if valid_points else None
-        coordinate_count = len({(round(g.x, 9), round(g.y, 9)) for g in valid_points})
-
-        matched_ids: set[str] = set()
-        methods: list[str] = []
-
-        # First preference: another cultural record at the same address has
-        # already established Building identity.
-        if addr_key and matched_buildings_by_cultural_address.get(addr_key):
-            matched_ids.update(matched_buildings_by_cultural_address[addr_key])
-            methods.append("same_cultural_address")
-
-        # Otherwise use exact point-in-building from any point carried by the group.
-        if not matched_ids and cfg.get("point_in_building", True):
-            for p in valid_points:
-                for i in _point_building_indices(p, tree, geoms):
-                    matched_ids.add(buildings[i].gml_id)
-            if matched_ids:
-                methods.append("movable_point_in_building")
-
-        item_dicts = [_movable_item_dict(r) for r in rr]
-        item_json = json.dumps(item_dicts, ensure_ascii=False, separators=(",", ":"))
-        matched_list = sorted(matched_ids)
-
-        for r in rr:
-            r.matched_building_ids = matched_list
-            r.match_methods = list(methods)
-
-        for bid in matched_list:
-            b = building_by_id[bid]
-            # Movables are attached metadata; they do not become a direct
-            # building-record association in record_ids.
-            meta = selected.setdefault(bid, {
-                "complex_ids": [], "complex_names": [], "record_ids": [],
-                "record_names": [], "record_types": [], "entity_classes": [],
-                "methods": [], "movable_groups": [],
-            })
-            meta["methods"] = unique_keep_order(meta["methods"] + methods)
-            for r in rr:
-                if r.complex_id and r.complex_id not in meta["complex_ids"]:
-                    meta["complex_ids"].append(r.complex_id)
-                if r.complex_name and r.complex_name not in meta["complex_names"]:
-                    meta["complex_names"].append(r.complex_name)
-            meta["movable_groups"].append({
-                "group_id": gid,
-                "address": address,
-                "items": item_dicts,
-                "match_methods": methods,
-            })
-
-        for r in rr:
-            movable_rows.append({
-                "movable_group_id": gid,
-                "record_id": r.record_id,
-                "name": r.name,
-                "category": r.category,
-                "type": r.type,
-                "designation": r.designation,
-                "address": r.address,
-                "linked_building_ids": ";".join(matched_list),
-                "match_methods": ";".join(methods),
-                "source_file": r.source_file,
-            })
-
-        group_row = {
-            "movable_group_id": gid,
-            "address": address,
-            "item_count": len(rr),
-            "record_ids": ";".join(r.record_id for r in rr),
-            "names": ";".join(r.name for r in rr),
-            "linked_building_ids": ";".join(matched_list),
-            "match_methods": ";".join(methods),
-            "coordinate_count": coordinate_count,
-            "point_status": "attached_to_building" if matched_list else ("point_output" if representative_point is not None else "unlocated"),
-        }
-        movable_group_rows.append(group_row)
-
-        if not matched_list:
-            point_rows.append({
-                "point_id": f"movable:{gid}",
-                "point_kind": "movable_group",
-                "record_id": "",
-                "record_ids": group_row["record_ids"],
-                "name": rr[0].place_name or rr[0].complex_name or rr[0].name,
-                "names": group_row["names"],
-                "address": address,
-                "category": "movable_group",
-                "type": ";".join(unique_keep_order([r.type for r in rr if r.type])),
-                "entity_class": "movable",
-                "geometry_role": "address_group_point",
-                "complex_id": ";".join(unique_keep_order([r.complex_id for r in rr if r.complex_id])),
-                "complex_name": ";".join(unique_keep_order([r.complex_name for r in rr if r.complex_name])),
-                "reason": "movable_group_not_in_building" if representative_point is not None else "movable_group_missing_point_geometry",
-                "item_count": len(rr),
-                "attached_items_json": item_json,
-                "geometry": representative_point,
-            })
-            unresolved_rows.append({
-                "entity_id": gid,
-                "entity_kind": "movable_group",
-                "name": rr[0].place_name or rr[0].complex_name or rr[0].name,
-                "type": "movable_group",
-                "entity_class": "movable",
-                "address": address,
-                "reason": "movable_group_not_in_building" if representative_point is not None else "movable_group_missing_point_geometry",
-            })
-
-    # 3) Complexes are semantic groups of the exact Buildings already matched
-    # above. No buffer, convex hull, dissolve, or inferred site boundary is
-    # created. The GPKG writer will preserve each member Building footprint as
-    # one part of a MultiPolygon.
-    by_complex = defaultdict(list)
+    # 2) Build semantic Complex -> directly established Building membership.
+    by_complex: dict[str, list[CulturalRecord]] = defaultdict(list)
     for r in records:
         by_complex[r.complex_id].append(r)
 
-    complex_rows = []
-    complex_member_rows = []
+    complex_rows: list[dict] = []
+    complex_member_rows: list[dict] = []
+    complex_record_rows: list[dict] = []
+    complex_info: dict[str, dict] = {}
+
     for cid, rr in by_complex.items():
         bids = unique_keep_order([bid for r in rr for bid in r.matched_building_ids])
         complex_name = rr[0].complex_name
-        complex_rows.append({
+        grouping_method = rr[0].complex_grouping_method
+        is_multi_record = len(rr) > 1
+
+        if bids:
+            status = "matched_building_complex"
+        elif is_multi_record:
+            status = "complex_only"
+        else:
+            status = "unresolved"
+
+        shared_count = sum(r.source_location_role == "shared_complex_coordinate" for r in rr)
+        directly_matched_count = sum(bool(r.matched_building_ids) for r in rr)
+        complex_only_count = sum(not r.matched_building_ids for r in rr) if is_multi_record else 0
+
+        summary = {
             "complex_id": cid,
             "complex_name": complex_name,
+            "grouping_method": grouping_method,
             "record_count": len(rr),
-            "movable_item_count": sum(r.entity_class == "movable" for r in rr),
+            "movable_record_count": sum(r.entity_class == "movable" for r in rr),
+            "directly_matched_record_count": directly_matched_count,
+            "complex_only_record_count": complex_only_count,
+            "shared_coordinate_record_count": shared_count,
             "matched_building_count": len(bids),
             "building_gml_ids": ";".join(bids),
-            "point_output_count": sum(
-                1 for p in point_rows if p.get("complex_id") and cid in str(p.get("complex_id"))
-            ),
-            "status": "matched_building_complex" if bids else "point_or_unresolved",
-        })
+            "designation_levels": ";".join(unique_keep_order([r.designation_level_code for r in rr if r.designation_level_code])),
+            "designation_statuses": ";".join(unique_keep_order([r.designation_status_code for r in rr if r.designation_status_code])),
+            "heritage_type_majors": ";".join(unique_keep_order([r.heritage_type_major_code for r in rr if r.heritage_type_major_code])),
+            "heritage_type_details": ";".join(unique_keep_order([r.heritage_type_detail for r in rr if r.heritage_type_detail])),
+            "point_output_count": 0,  # filled after fallback-point generation
+            "status": status,
+        }
+        complex_rows.append(summary)
+        complex_info[cid] = {"status": status, "bids": bids, "summary": summary, "records": rr}
 
         for bid in bids:
             b = building_by_id.get(bid)
@@ -350,6 +270,7 @@ def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], c
             complex_member_rows.append({
                 "complex_id": cid,
                 "complex_name": complex_name,
+                "grouping_method": grouping_method,
                 "building_gml_id": b.gml_id,
                 "building_id": b.building_id,
                 "building_name": b.name,
@@ -359,17 +280,106 @@ def match_city(records: list[CulturalRecord], buildings: list[BuildingRecord], c
                 "record_ids": ";".join(unique_keep_order([r.record_id for r in member_records if r.record_id])),
                 "record_names": ";".join(unique_keep_order([r.name for r in member_records if r.name])),
                 "record_types": ";".join(unique_keep_order([r.type for r in member_records if r.type])),
+                "entity_classes": ";".join(unique_keep_order([r.entity_class for r in member_records if r.entity_class])),
+                "designation_levels": ";".join(unique_keep_order([r.designation_level_code for r in member_records if r.designation_level_code])),
+                "designation_statuses": ";".join(unique_keep_order([r.designation_status_code for r in member_records if r.designation_status_code])),
+                "heritage_type_majors": ";".join(unique_keep_order([r.heritage_type_major_code for r in member_records if r.heritage_type_major_code])),
+                "heritage_type_details": ";".join(unique_keep_order([r.heritage_type_detail for r in member_records if r.heritage_type_detail])),
                 "match_methods": ";".join(unique_keep_order([m for r in member_records for m in r.match_methods])),
                 "source_gml": b.source_file,
             })
 
+        for r in rr:
+            if r.matched_building_ids:
+                association_status = "direct_building_match"
+            elif is_multi_record:
+                association_status = "complex_only"
+            else:
+                association_status = "unresolved"
+            complex_record_rows.append({
+                "complex_id": cid,
+                "complex_name": complex_name,
+                "grouping_method": grouping_method,
+                "record_id": r.record_id,
+                "name": r.name,
+                "place_name": r.place_name,
+                "address_detail": r.address_detail,
+                "type": r.type,
+                "designation_level_code": r.designation_level_code,
+                "designation_status_code": r.designation_status_code,
+                "heritage_type_major_code": r.heritage_type_major_code,
+                "heritage_type_detail": r.heritage_type_detail,
+                "classification_confidence": r.classification_confidence,
+                "entity_class": r.entity_class,
+                "source_location_role": r.source_location_role,
+                "association_status": association_status,
+                "matched_building_ids": ";".join(r.matched_building_ids),
+                "match_methods": ";".join(r.match_methods),
+            })
+
+    # 3) Fallback outputs and record-level status.
+    for r in records:
+        if r.matched_building_ids:
+            continue
+
+        info = complex_info.get(r.complex_id, {})
+        complex_status = info.get("status", "unresolved")
+        complex_bids = info.get("bids", [])
+
+        if complex_status in {"matched_building_complex", "complex_only"} and r.complex_record_count > 1:
+            # The record has a meaningful semantic Complex association. Do not
+            # duplicate it into the standalone point fallback layer. The source
+            # point remains available in heritage_records.
+            r.spatial_match_status = "complex_only"
+            reason = (
+                "complex_member_without_direct_building_match"
+                if complex_bids else "complex_only_no_building_match"
+            )
+        else:
+            r.spatial_match_status = "point_unmatched" if r.geometry is not None else "unlocated"
+            if r.entity_class == "building_direct":
+                reason = "building_direct_unmatched"
+            else:
+                reason = "record_not_in_building"
+            if r.geometry is not None:
+                point_rows.append(_point_row_from_record(r, reason))
+
+        unresolved_rows.append({
+            "entity_id": r.record_id,
+            "entity_kind": "record",
+            "name": r.name,
+            "place_name": r.place_name,
+            "address_detail": r.address_detail,
+            "type": r.type,
+            "designation_level_code": r.designation_level_code,
+            "designation_status_code": r.designation_status_code,
+            "heritage_type_major_code": r.heritage_type_major_code,
+            "heritage_type_detail": r.heritage_type_detail,
+            "classification_confidence": r.classification_confidence,
+            "entity_class": r.entity_class,
+            "complex_id": r.complex_id,
+            "complex_name": r.complex_name,
+            "source_location_role": r.source_location_role,
+            "spatial_match_status": r.spatial_match_status,
+            "address": r.address,
+            "reason": reason if r.geometry is not None else (
+                "complex_only_missing_source_geometry" if r.spatial_match_status == "complex_only" else "missing_point_geometry"
+            ),
+        })
+
+    point_counts: dict[str, int] = defaultdict(int)
+    for p in point_rows:
+        if p.get("complex_id"):
+            point_counts[p["complex_id"]] += 1
+    for row in complex_rows:
+        row["point_output_count"] = point_counts.get(row["complex_id"], 0)
+
     return {
         "selected": selected,
         "links": links,
+        "point_rows": point_rows,
         "complex_rows": complex_rows,
         "complex_member_rows": complex_member_rows,
-        "movable_rows": movable_rows,
-        "movable_group_rows": movable_group_rows,
-        "point_rows": point_rows,
+        "complex_record_rows": complex_record_rows,
         "unresolved_rows": unresolved_rows,
     }

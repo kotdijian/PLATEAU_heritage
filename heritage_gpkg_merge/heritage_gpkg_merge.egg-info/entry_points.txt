@@ -1,2 +1,0 @@
-[console_scripts]
-heritage-gpkg-merge = heritage_gpkg_merge.cli:main

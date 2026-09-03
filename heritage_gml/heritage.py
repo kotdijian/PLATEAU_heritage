@@ -1,11 +1,13 @@
 from __future__ import annotations
+from . import __version__
+from dataclasses import asdict
 from lxml import etree
 from shapely.geometry import mapping
 
 from .util import json_dump
 
 
-HG_NS = "urn:heritage-gml:prototype:0.4"
+HG_NS = "urn:heritage-gml:prototype:0.5"
 GML_NS = "http://www.opengis.net/gml"
 
 
@@ -18,18 +20,30 @@ def _record_dict(r):
         "record_id": r.record_id,
         "name": r.name,
         "place_name": r.place_name,
+        "address_detail": r.address_detail,
         "owner": r.owner,
         "address": r.address,
         "category": r.category,
         "type": r.type,
         "designation": r.designation,
         "designation_date": r.designation_date,
+        "designation_level_code": r.designation_level_code,
+        "designation_level_ja": r.designation_level_ja,
+        "designation_status_code": r.designation_status_code,
+        "designation_status_ja": r.designation_status_ja,
+        "heritage_type_major_code": r.heritage_type_major_code,
+        "heritage_type_major_ja": r.heritage_type_major_ja,
+        "heritage_type_detail": r.heritage_type_detail,
+        "classification_confidence": r.classification_confidence,
         "entity_class": r.entity_class,
         "geometry_role": r.geometry_role,
+        "source_location_role": r.source_location_role,
+        "spatial_match_status": r.spatial_match_status,
         "geometry": _geometry_json(r.geometry),
         "complex_id": r.complex_id,
         "complex_name": r.complex_name,
-        "movable_group_id": r.movable_group_id,
+        "complex_grouping_method": r.complex_grouping_method,
+        "complex_record_count": r.complex_record_count,
         "matched_building_gml_ids": r.matched_building_ids,
         "match_methods": r.match_methods,
         "source_file": r.source_file,
@@ -53,9 +67,13 @@ def build_heritage_document(city_code, city_name, records, buildings, match_resu
             "record_names": meta.get("record_names", []),
             "record_types": meta.get("record_types", []),
             "entity_classes": meta.get("entity_classes", []),
+            "designation_levels": meta.get("designation_level_codes", []),
+            "designation_statuses": meta.get("designation_status_codes", []),
+            "heritage_type_majors": meta.get("heritage_type_major_codes", []),
+            "heritage_type_details": meta.get("heritage_type_details", []),
             "complex_ids": meta.get("complex_ids", []),
             "match_methods": meta.get("methods", []),
-            "movable_groups": meta.get("movable_groups", []),
+            "disaster_risks": [asdict(r) for r in (b.disaster_risks if b else [])],
         })
 
     point_entities = []
@@ -66,7 +84,7 @@ def build_heritage_document(city_code, city_name, records, buildings, match_resu
 
     return {
         "type": "HeritageGMLPrototype",
-        "version": "0.4",
+        "version": __version__,
         "namespace": HG_NS,
         "note": "Prototype companion model; not an official CityGML ADE.",
         "municipality_code": city_code,
@@ -74,9 +92,9 @@ def build_heritage_document(city_code, city_name, records, buildings, match_resu
         "records": [_record_dict(r) for r in records],
         "buildings": building_entities,
         "points": point_entities,
-        "movable_groups": match_result["movable_group_rows"],
         "complexes": match_result["complex_rows"],
         "complex_members": match_result.get("complex_member_rows", []),
+        "complex_records": match_result.get("complex_record_rows", []),
     }
 
 
@@ -93,7 +111,7 @@ def _text(parent, name, value):
 
 def write_xml(path, doc):
     root = etree.Element(f"{{{HG_NS}}}HeritageDataset", nsmap={"hg": HG_NS, "gml": GML_NS})
-    root.set("version", str(doc.get("version", "0.4")))
+    root.set("version", str(doc.get("version", "0.5")))
     _text(root, "municipalityCode", doc.get("municipality_code"))
     _text(root, "municipalityName", doc.get("municipality_name"))
 
@@ -109,15 +127,6 @@ def write_xml(path, doc):
         for rid in b.get("record_ids", []):
             r = etree.SubElement(be, f"{{{HG_NS}}}CulturalRecordReference")
             r.set("recordId", rid)
-        for group in b.get("movable_groups", []):
-            mg = etree.SubElement(be, f"{{{HG_NS}}}MovableGroup")
-            mg.set("id", group.get("group_id", ""))
-            _text(mg, "address", group.get("address"))
-            for item in group.get("items", []):
-                it = etree.SubElement(mg, f"{{{HG_NS}}}MovableItem")
-                it.set("recordId", str(item.get("record_id", "")))
-                _text(it, "name", item.get("name"))
-                _text(it, "type", item.get("type"))
 
     ces = etree.SubElement(root, f"{{{HG_NS}}}buildingComplexes")
     members_by_complex = {}
@@ -131,7 +140,9 @@ def write_xml(path, doc):
         ce = etree.SubElement(ces, f"{{{HG_NS}}}BuildingComplex")
         ce.set("id", cid)
         _text(ce, "name", c.get("complex_name"))
+        _text(ce, "groupingMethod", c.get("grouping_method"))
         _text(ce, "recordCount", c.get("record_count"))
+        _text(ce, "status", c.get("status"))
         for m in members:
             me = etree.SubElement(ce, f"{{{HG_NS}}}BuildingMember")
             me.set("gmlId", str(m.get("building_gml_id", "")))
@@ -145,9 +156,12 @@ def write_xml(path, doc):
         pe.set("id", str(p.get("point_id", "")))
         pe.set("kind", str(p.get("point_kind", "")))
         _text(pe, "name", p.get("name"))
+        _text(pe, "placeName", p.get("place_name"))
+        _text(pe, "addressDetail", p.get("address_detail"))
         _text(pe, "address", p.get("address"))
         _text(pe, "type", p.get("type"))
         _text(pe, "entityClass", p.get("entity_class"))
+        _text(pe, "sourceLocationRole", p.get("source_location_role"))
         _text(pe, "reason", p.get("reason"))
         geom = p.get("geometry")
         if geom and geom.get("type") == "Point":
@@ -156,7 +170,6 @@ def write_xml(path, doc):
                 pt = etree.SubElement(pe, f"{{{GML_NS}}}Point")
                 pt.set("srsName", "http://www.opengis.net/def/crs/OGC/1.3/CRS84")
                 pos = etree.SubElement(pt, f"{{{GML_NS}}}pos")
-                # CRS84 explicitly uses longitude, latitude order.
                 pos.text = f"{coords[0]} {coords[1]}"
 
     etree.ElementTree(root).write(str(path), encoding="UTF-8", xml_declaration=True, pretty_print=True)

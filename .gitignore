@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Local environments
+.venv/
+
+# Download/API caches
+.cache/
+logs/
+
+# Generated large geospatial outputs
+output/*.gpkg
+output/*.gpkg-wal
+output/*.gpkg-shm
+
+# Temporary Office files
+~$*
+
+# Regenerable downloaded source data
+13Tokyo/downloads/

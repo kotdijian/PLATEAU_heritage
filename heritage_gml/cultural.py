@@ -14,9 +14,10 @@ from .util import norm_text, norm_key, compact_address
 
 
 ALIASES = {
-    "id": ["NO", "No", "no", "ID", "id", "文化財ID", "管理番号", "番号"],
+    "id": ["source_record_id", "NO", "No", "no", "ID", "id", "文化財ID", "管理番号", "番号"],
     "name": ["名称", "文化財名称", "文化財名", "name", "title"],
     "place_name": ["場所名称", "施設名称", "所在地名称", "所在名称", "place_name", "site_name"],
+    "address_detail": ["方書", "住所詳細", "所在地詳細", "所在詳細", "address_detail", "address_note"],
     "owner": ["所有者等", "所有者", "管理者", "owner"],
     "address": ["住所", "所在地", "所在", "address"],
     "municipality": ["市区町村名", "自治体名", "市町村", "municipality", "city"],
@@ -27,6 +28,14 @@ ALIASES = {
     "type": ["種類", "種別", "文化財種類", "type"],
     "designation": ["指定等", "指定登録区分", "designation"],
     "designation_date": ["文化財指定日", "指定年月日", "指定日", "designation_date"],
+    "designation_level_code": ["designation_level_code"],
+    "designation_level_ja": ["designation_level_ja"],
+    "designation_status_code": ["designation_status_code"],
+    "designation_status_ja": ["designation_status_ja"],
+    "heritage_type_major_code": ["heritage_type_major_code"],
+    "heritage_type_major_ja": ["heritage_type_major_ja"],
+    "heritage_type_detail": ["heritage_type_detail"],
+    "classification_confidence": ["classification_confidence"],
 }
 
 
@@ -135,7 +144,7 @@ def _to_wgs84(geom, source_crs: str):
 def _as_point(geom):
     """Cultural source geometry is normalized to one representative Point.
 
-    The v0.3 policy deliberately does not create a buffer or use cultural
+    The pipeline deliberately does not create a buffer or use cultural
     polygons/areas for matching.  If a non-point geometry is supplied, its
     representative_point() is retained only as a point observation.
     """
@@ -181,10 +190,10 @@ def classify_entity(typ: str, cultural_cfg: dict) -> str:
 
 
 def geometry_role_for(entity_class: str) -> str:
+    # v0.5: movable records are no longer collapsed into address-group points.
+    # Their source point is preserved exactly like other non-building records.
     if entity_class == "building_direct":
         return "building_candidate_point"
-    if entity_class == "movable":
-        return "address_group_point"
     return "representative_point"
 
 
@@ -253,6 +262,7 @@ def load_records_for_city(files: list[Path], city: PlateauCity, cultural_cfg: di
                 record_id=val("id") or f"{path.stem}:{idx}",
                 name=val("name"),
                 place_name=val("place_name"),
+                address_detail=val("address_detail"),
                 owner=val("owner"),
                 address=val("address"),
                 municipality=val("municipality") or city.city,
@@ -261,6 +271,14 @@ def load_records_for_city(files: list[Path], city: PlateauCity, cultural_cfg: di
                 type=typ,
                 designation=val("designation"),
                 designation_date=val("designation_date"),
+                designation_level_code=val("designation_level_code"),
+                designation_level_ja=val("designation_level_ja"),
+                designation_status_code=val("designation_status_code"),
+                designation_status_ja=val("designation_status_ja"),
+                heritage_type_major_code=val("heritage_type_major_code"),
+                heritage_type_major_ja=val("heritage_type_major_ja"),
+                heritage_type_detail=val("heritage_type_detail"),
+                classification_confidence=val("classification_confidence"),
                 geometry=geom,
                 entity_class=entity_class,
                 geometry_role=geometry_role_for(entity_class),
@@ -281,29 +299,79 @@ def load_records_for_city(files: list[Path], city: PlateauCity, cultural_cfg: di
     return list(dedup.values()), issues
 
 
-def assign_complexes(records: list[CulturalRecord]) -> list[CulturalRecord]:
-    """Retain the previously agreed grouping priority for companion metadata.
+def _normalized_site_label(value: str) -> str:
+    """Normalize a source location label for naming, not for spatial inference.
 
-    place name -> owner + address -> address -> exact point coincidence.
-    No spatial distance threshold is introduced.
+    Examples: 浅草寺境内 -> 浅草寺, 浅草寺内 -> 浅草寺,
+    聖徳寺墓地内 -> 聖徳寺.  This never creates a geometry or distance rule.
     """
-    groups, no_key = {}, []
+    text = norm_text(value)
+    if not text:
+        return ""
+    # Longest/specific locative suffixes first.  Do not remove the facility
+    # classifier itself (寺/社/園/館 etc.).  For example:
+    #   小石川後楽園内 -> 小石川後楽園
+    #   浅草寺内       -> 浅草寺
+    #   日枝神社内     -> 日枝神社
+    # A generic trailing 「内」 is then removed only as the locative marker.
+    text = re.sub(r"(?:墓地内|境内地|敷地内|構内|境域内|境内)$", "", text).strip()
+    if text.endswith("内"):
+        text = text[:-1].strip()
+    return text
+
+
+def _owner_label(value: str) -> str:
+    return re.sub(
+        r"^(宗教法人|学校法人|公益財団法人|一般財団法人|公益社団法人|一般社団法人|社会福祉法人)\s*",
+        "", norm_text(value),
+    ).strip()
+
+
+def assign_complexes(records: list[CulturalRecord]) -> list[CulturalRecord]:
+    """Assign semantic Heritage Complexes without distance thresholds.
+
+    Grouping priority remains:
+      place name -> owner + address -> address -> address detail -> exact point.
+
+    `方書`/address_detail is preserved independently and used as a fallback
+    semantic clue.  It does not replace the established owner+address/address
+    priority and does not create a buffer or inferred site boundary.
+
+    If two or more records in the same complex share the exact same coordinate,
+    those observations are marked `shared_complex_coordinate`.  v0.5 does not
+    assume that such a shared coordinate is an object-specific position.
+    """
+    groups: dict[tuple, list[int]] = {}
+    no_key: list[int] = []
+    methods: dict[tuple, str] = {}
+
     for i, r in enumerate(records):
-        place, owner, addr = norm_key(r.place_name), norm_key(r.owner), compact_address(r.address)
+        place = norm_key(r.place_name)
+        owner = norm_key(r.owner)
+        addr = compact_address(r.address)
+        detail = norm_key(_normalized_site_label(r.address_detail))
         if place:
             key = ("place", place)
+            method = "place_name"
         elif owner and addr:
             key = ("owner_address", owner, addr)
+            method = "owner_address"
         elif addr:
             key = ("address", addr)
+            method = "address"
+        elif detail:
+            key = ("address_detail", detail)
+            method = "address_detail"
         else:
             key = None
+            method = ""
         if key:
             groups.setdefault(key, []).append(i)
+            methods[key] = method
         else:
             no_key.append(i)
 
-    spatial_groups = []
+    spatial_groups: list[list[int]] = []
     for idx in no_key:
         g = records[idx].geometry
         placed = False
@@ -316,22 +384,50 @@ def assign_complexes(records: list[CulturalRecord]) -> list[CulturalRecord]:
         if not placed:
             spatial_groups.append([idx])
 
-    group_indices = list(groups.values()) + spatial_groups
-    group_indices.sort(key=lambda inds: min(inds))
-    for n, inds in enumerate(group_indices, 1):
+    grouped: list[tuple[list[int], str]] = [(inds, methods[key]) for key, inds in groups.items()]
+    grouped += [(inds, "exact_point" if records[inds[0]].geometry is not None else "singleton") for inds in spatial_groups]
+    grouped.sort(key=lambda item: min(item[0]))
+
+    for n, (inds, grouping_method) in enumerate(grouped, 1):
         cid = f"{records[inds[0]].municipality_code}-HG{n:05d}"
         rr = [records[i] for i in inds]
-        names = [r.place_name for r in rr if r.place_name]
-        if names:
-            cname = names[0]
+
+        # Prefer explicit place name.  Otherwise use a consistent source 方書
+        # label when available, then owner label, then the first record name.
+        explicit_places = [r.place_name for r in rr if r.place_name]
+        detail_labels = [_normalized_site_label(r.address_detail) for r in rr if _normalized_site_label(r.address_detail)]
+        detail_keys = {norm_key(x) for x in detail_labels if x}
+        owner_labels = [_owner_label(r.owner) for r in rr if _owner_label(r.owner)]
+        owner_keys = {norm_key(x) for x in owner_labels if x}
+
+        if explicit_places:
+            cname = explicit_places[0]
+        elif len(detail_keys) == 1 and detail_labels:
+            cname = detail_labels[0]
+        elif len(owner_keys) == 1 and owner_labels:
+            cname = owner_labels[0]
         elif rr[0].owner:
-            cname = re.sub(
-                r"^(宗教法人|公益財団法人|一般財団法人|公益社団法人|一般社団法人)\s*",
-                "", rr[0].owner,
-            ).strip()
+            cname = _owner_label(rr[0].owner) or rr[0].name
         else:
             cname = rr[0].name
+
+        coord_counts: dict[tuple[float, float], int] = {}
+        for r in rr:
+            if r.geometry is not None and getattr(r.geometry, "geom_type", "") == "Point":
+                xy = (round(r.geometry.x, 9), round(r.geometry.y, 9))
+                coord_counts[xy] = coord_counts.get(xy, 0) + 1
+
         for i in inds:
-            records[i].complex_id = cid
-            records[i].complex_name = cname
+            r = records[i]
+            r.complex_id = cid
+            r.complex_name = cname
+            r.complex_grouping_method = grouping_method
+            r.complex_record_count = len(inds)
+            if r.geometry is None:
+                r.source_location_role = "missing"
+            elif getattr(r.geometry, "geom_type", "") == "Point":
+                xy = (round(r.geometry.x, 9), round(r.geometry.y, 9))
+                r.source_location_role = "shared_complex_coordinate" if coord_counts.get(xy, 0) > 1 else "record_coordinate"
+            else:
+                r.source_location_role = "record_coordinate"
     return records

@@ -10,7 +10,9 @@ DEFAULTS = {
         "input_crs": "EPSG:4326",
         "columns": {},
         "file_overrides": {},
-        # Explicit type mapping keeps the classification tidy and reviewable.
+        # Explicit semantic type mapping keeps classification tidy/reviewable.
+        # v0.5: 'movable' is a semantic class only and follows the same
+        # per-record spatial matching/output path as ordinary point records.
         # Values not listed here become 'point'.
         "type_class_map": {
             "建造物": "building_direct",
@@ -43,6 +45,11 @@ DEFAULTS = {
         # semantic keys.  These do not apply to ordinary point records.
         "building_direct_exact_name": True,
         "building_direct_exact_address": True,
+        # A coordinate repeated by multiple records inside the same Complex is
+        # treated as a shared complex/site observation, not silently as an
+        # object-specific Building position. Set true only if the source is known
+        # to provide object-specific coordinates despite exact duplication.
+        "match_shared_complex_coordinates": False,
     },
     "output": {
         "dir": "output",
