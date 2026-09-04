@@ -44,21 +44,47 @@ inundation:
     - tsunami
 
 maps:
-  overview_regions:
-    - mainland_tokyo
-    - izu_islands
-    - ogasawara_islands
+  overview:
+    renderer: render_summary_maps.py
+    regions:
+      - mainland_tokyo
+      - izu_islands
+      - ogasawara_islands
+    seismic_scenarios:
+      - 都心南部直下地震
+      - 都心東部直下地震
+      - 都心西部直下地震
+      - 多摩東部直下地震
+      - 多摩西部直下地震
+      - 立川断層帯地震
+      - 大正関東地震
+      - 南海トラフ巨大地震
 
   detail:
     zoom: 16
-    basemap: OpenStreetMap
+    radius_km: 0.8
+    basemap: "GSI pale map"
+    non_inundation_renderer: render_city_hazard_focus.py
+    inundation_renderer: render_inundation_map.py
     show_heritage_points: true
     show_building_footprints: true
     centers:
-      - Tokyo Station
-      - Tokyo Metropolitan Ueno High School
-      - JR Ryogoku Station
-      - Tokyo Metro Tawaramachi Station
+      - name: 東京駅
+        lat: 35.68126
+        lon: 139.76671
+      - name: 東京都立上野高校
+        lat: 35.7186246
+        lon: 139.7698412
+      - name: JR両国駅
+        lat: 35.6957371
+        lon: 139.7936379
+      - name: 東京メトロ田原町駅
+        lat: 35.70984
+        lon: 139.79076
+
+  city:
+    non_inundation_renderer: render_city_hazard_focus.py
+    inundation_renderer: render_inundation_map.py
 
   additional:
     - risk_assigned_cultural_type_distribution
