@@ -67,7 +67,7 @@ National / Tokyo Metropolitan / Municipal を色分けする。
 
 ### 3.1 想定震度
 
-対象シナリオ：
+集計対象シナリオ：
 
 1. 都心南部直下地震
 2. 都心東部直下地震
@@ -132,9 +132,19 @@ National / Tokyo Metropolitan / Municipal を色分けする。
 
 小縮尺図では文化財を point で表示する。
 
-作成図：
+想定震度 overview は以下の8シナリオを対象とする。
 
-- 想定震度：5シナリオ別
+1. 都心南部直下地震
+2. 都心東部直下地震
+3. 都心西部直下地震
+4. 多摩東部直下地震
+5. 多摩西部直下地震
+6. 立川断層帯地震
+7. 大正関東地震
+8. 南海トラフ巨大地震
+
+その他の作成図：
+
 - 火災
 - 浸水予想区域：河川・流域別
 - 高潮
@@ -142,35 +152,72 @@ National / Tokyo Metropolitan / Municipal を色分けする。
 - 災害リスク付与済み文化財の類型別分布
 - 災害リスク類型別 point 分布
 
+Overview は `tools/render_summary_maps.py --stage overview` で生成する。
+
 ### 4.2 Z=16 詳細図
+
+詳細図の標準設定は、地理院タイル（淡色地図）、中心から半径 0.8 km、zoom 16 とする。
 
 中心地点：
 
-- 東京駅
-- 東京都立上野高校
-- JR両国駅
-- 東京メトロ田原町駅
+| 地点 | 緯度 | 経度 |
+|---|---:|---:|
+| 東京駅 | 35.68126 | 139.76671 |
+| 東京都立上野高校 | 35.7186246 | 139.7698412 |
+| JR両国駅 | 35.6957371 | 139.7936379 |
+| 東京メトロ田原町駅 | 35.70984 | 139.79076 |
 
 表示：
 
-- OSM 道路背景
+- 地理院タイル（淡色地図）
 - 対象文化財 point
 - 対象文化財 building footprint
 - ハザードレイヤ
 
-想定震度は以下の5シナリオ別。
+Detail の描画責任は次の2ツールに分離する。
 
-- 都心南部直下地震
-- 都心東部直下地震
-- 都心西部直下地震
-- 大正関東地震
-- 南海トラフ巨大地震
+- 浸水以外：`tools/render_city_hazard_focus.py`
+- 浸水予想区域：`tools/render_inundation_map.py`
 
-水害は、当該 Z=16 図郭に影響範囲が存在するもののみ表示する。
+4地点を一括生成する場合：
 
-- 浸水予想区域：図郭内に含まれる河川・流域を重ねる
-- 高潮
-- 津波
+```bash
+python tools/render_city_hazard_focus.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --detail-defaults \
+  --radius-km 0.8 \
+  --zoom 16
+```
+
+```bash
+python tools/render_inundation_map.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --detail-defaults \
+  --hazard auto \
+  --separate \
+  --radius-km 0.8 \
+  --zoom 16
+```
+
+出力構成：
+
+```text
+summary_results/figures/detail/
+├── 東京駅/
+│   ├── hazard/
+│   └── inundation/
+├── 東京都立上野高校/
+│   ├── hazard/
+│   └── inundation/
+├── JR両国駅/
+│   ├── hazard/
+│   └── inundation/
+└── 東京メトロ田原町駅/
+    ├── hazard/
+    └── inundation/
+```
+
+各 detail 図では、対象範囲内にリスク地物がないハザードは出力しない。浸水予想区域は、東京都の point-grid 由来レイヤについてグリッドセルとして再構成して描画し、NoData は描画対象から除外する。A31a の荒川・多摩川は polygon のまま描画する。
 
 ---
 
@@ -217,13 +264,3 @@ GitHub 公開用派生データ：
 | 3 | 5強 |
 | 4 | 6弱 |
 | 5 | 6強以上 |
-
-### 浸水深
-
-| 階級 | 表示 |
-|---|---|
-| 1 | 0 |
-| 2 | 0–0.5 m |
-| 3 | 0.5–3 m |
-| 4 | 3–5 m |
-| 5 | 5 m以上 |
