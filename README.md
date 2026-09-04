@@ -344,9 +344,16 @@ hazard_inundation_a31a_多摩川
 A31a-25_83_10_GEOJSON.zip
 ```
 
-データセットページ：
+出典・利用条件：
 
-https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html
+- データセット：国土数値情報「洪水浸水想定区域（河川単位）」2025年度版
+- 提供：国土交通省（関東地方整備局対象データ）
+- データ詳細：https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A31a-2025.html
+- 利用許諾：**オープンデータ（CC BY 4.0）**
+- 利用規約：https://nlftp.mlit.go.jp/ksj/other/agreement.html
+- 出典表示例：`国土交通省「国土数値情報 洪水浸水想定区域（河川単位）2025年度版」を加工して作成`
+
+2025年度版の個別ページでは CC BY 4.0 が示されています。利用時は同ページの留意事項と国土数値情報ダウンロードサイトコンテンツ利用規約も確認してください。
 
 既定では想定最大規模の `荒川` と `多摩川` を抽出します。
 
