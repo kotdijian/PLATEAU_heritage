@@ -42,7 +42,7 @@ PLATEAU CityGML から抽出した詳細な Building 災害リスク原情報 `p
 - `hazard_sediment_warning_a33_polygon` — 土砂災害警戒区域
 - `hazard_sabo_designated_a52_polygon` — 砂防指定地
 
-解析用完全版に含まれる震度、液状化、河川別浸水、高潮、津波等の大容量レイヤは含めません。
+解析用完全版に含まれる震度、液状化、東京都の流域別浸水、国土数値情報 A31a（荒川・多摩川）、高潮、津波等の大容量ハザードレイヤは、公開用 `hazard_map.gpkg` には含めません。
 
 ### GeoJSON
 
@@ -58,13 +58,13 @@ public_data/geojson/
 
 ### 出典・ライセンス
 
-公開データに使用した各原データの出典・ライセンスは `public_data/SOURCE_LICENSES.csv` に整理しています。GeoPackage 内にも `source_license` と `hazard_source_manifest` を収録します。
+公開データの作成元となる原データの出典・ライセンスは `public_data/SOURCE_LICENSES.csv` に整理しています。この CSV には解析用完全版で使用するデータも含まれ、`published_in_release` 列で公開版への収録有無を示します。GeoPackage 内にも `source_license` と `hazard_source_manifest` を収録します。
 
 個別データを再配布・二次利用する場合は、`SOURCE_LICENSES.csv` と各データ提供者の最新の利用条件を確認してください。
 
 ### 完全版データ
 
-解析用完全版 `13_heritage_hazards.gpkg` は東京都全域の詳細なハザードデータを含むため約 12 GB となり、GitHub では公開していません。
+解析用完全版 `13_heritage_hazards.gpkg` は東京都全域の詳細なハザードデータに加え、国土数値情報 A31a の荒川・多摩川を含むため約 12 GB となり、GitHub では公開していません。
 
 同一性確認用として以下をリポジトリに保持します。
 
@@ -355,12 +355,14 @@ A31a-25_83_10_GEOJSON.zip
 
 2025年度版の個別ページでは CC BY 4.0 が示されています。利用時は同ページの留意事項と国土数値情報ダウンロードサイトコンテンツ利用規約も確認してください。
 
+なお、A31a の原データは CC BY 4.0 ですが、本リポジトリの公開用 GeoPackage には A31a レイヤ自体を収録しません。A31a は canonical 完全版 GeoPackage と Summary Results の解析対象として使用します。
+
 既定では想定最大規模の `荒川` と `多摩川` を抽出します。
 
 ```bash
 python tools/add_tokyo_hazard_layers.py \
-  --input /path/to/13_heritage_hazards.gpkg \
-  --output /path/to/13_heritage_hazards_a31a.gpkg \
+  --input /path/to/base_hazards.gpkg \
+  --output /path/to/13_heritage_hazards.gpkg \
   --cache ./.cache/hazard_sources \
   --datasets a31a \
   --a31a-river 荒川 \
@@ -371,8 +373,8 @@ python tools/add_tokyo_hazard_layers.py \
 
 ```bash
 python tools/add_tokyo_hazard_layers.py \
-  --input /path/to/13_heritage_hazards.gpkg \
-  --output /path/to/13_heritage_hazards_a31a.gpkg \
+  --input /path/to/base_hazards.gpkg \
+  --output /path/to/13_heritage_hazards.gpkg \
   --datasets a31a \
   --a31a-archive /path/to/A31a-25_83_10_GEOJSON.zip
 ```
@@ -412,20 +414,20 @@ A31a 本来の `5–10 m / 10–20 m / 20 m以上` は `depth_class_native` に�
 
 ## Summary Results
 
-完全版 `13_heritage_hazards.gpkg` または A31a 追加済み `13_heritage_hazards_a31a.gpkg` を対象に、集計表と地図を生成します。
+canonical 完全版 `13_heritage_hazards.gpkg` を対象に、集計表と地図を生成します。現在の canonical GeoPackage には A31a の荒川・多摩川も統合済みです。
 
 ### 1. ソース確認
 
 ```bash
 python tools/profile_summary_source.py \
-  /path/to/13_heritage_hazards_a31a.gpkg
+  /path/to/13_heritage_hazards.gpkg
 ```
 
 ### 2. 集計
 
 ```bash
 python tools/build_summary_results.py \
-  /path/to/13_heritage_hazards_a31a.gpkg
+  /path/to/13_heritage_hazards.gpkg
 ```
 
 主な出力：
@@ -434,9 +436,14 @@ python tools/build_summary_results.py \
 summary_results/
 ├── tables/
 ├── cache/
-├── metadata/
-└── figures/
+└── metadata/
 ```
+
+`build_summary_results.py` は集計専用であり、`summary_results/figures/` の既存画像を生成・削除・上書きしません。地図は専用のレンダラで生成します。
+
+A31a は polygon として解析位置との intersection を判定し、`depth_class_summary` の階級値を使用します。階級値を単一の数値浸水深へ変換することはしません。
+
+集計結果の詳細は `SUMMARY_RESULTS.md` を参照してください。
 
 ### 3. Overview map
 
@@ -444,8 +451,8 @@ summary_results/
 
 ```bash
 python tools/render_summary_maps.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
-  --stage overview
+  /path/to/13_heritage_hazards.gpkg \
+  --results-dir summary_results
 ```
 
 想定震度 overview は8シナリオを対象とします。
@@ -481,7 +488,7 @@ JR両国駅               35.6957371  139.7936379
 
 ```bash
 python tools/render_city_hazard_focus.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
+  /path/to/13_heritage_hazards.gpkg \
   --detail-defaults \
   --radius-km 0.8 \
   --zoom 16
@@ -491,7 +498,7 @@ python tools/render_city_hazard_focus.py \
 
 ```bash
 python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
+  /path/to/13_heritage_hazards.gpkg \
   --detail-defaults \
   --hazard auto \
   --separate \
@@ -523,7 +530,7 @@ summary_results/figures/detail/
 
 ```bash
 python tools/render_city_hazard_focus.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
+  /path/to/13_heritage_hazards.gpkg \
   --cities 国分寺 国立
 ```
 
@@ -531,7 +538,7 @@ python tools/render_city_hazard_focus.py \
 
 ```bash
 python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
+  /path/to/13_heritage_hazards.gpkg \
   --city 国分寺 国立 \
   --hazard auto \
   --separate
@@ -572,7 +579,7 @@ summary_results/figures/
 
 ```bash
 python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards_a31a.gpkg \
+  /path/to/13_heritage_hazards.gpkg \
   --list-hazards
 ```
 
