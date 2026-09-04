@@ -9,7 +9,7 @@
 - リポジトリと仮想環境がPLATEAU Heritage-GML Extractor v0.5.5に統一されていること
 - `Museum/source/data/museum_candidates.csv` と `museum_reconciliation.csv` が生成済みであること
 - `geopandas`、`pyogrio`、`shapely`、`pyproj`、`pandas`、`lxml` が仮想環境にあること
-- 対象自治体のPLATEAU `bldg` CityGMLがローカルに展開されていること
+- ローカル再利用時は対象自治体のPLATEAU `bldg` CityGMLが展開済みであること。API取得時はネットワーク接続があること
 
 `Museum/source/`の取得・正規化処理については[ソースmanifest README](source/README.md)を参照してください。
 
@@ -25,7 +25,9 @@ git apply Museum/patches/extractor_v0.5.5_building_attributes.patch
 
 ## 実行
 
-まず、ローカルのPLATEAU CityGML格納先を指定して書き込みなしの確認を行います。
+### キャッシュを削除済みの場合：API targeted取得
+
+既知の245施設について、公式住所がある場合は住所、ない場合は「自治体名＋施設名」をPLATEAUデータカタログAPIのジオコーディング条件へ渡し、該当する`bldg`メッシュだけを`.cache/plateau`へ再取得します。`--dry-run`はGPKGを書きませんが、このAPIモードでは検証に必要なGMLキャッシュを作成します。
 
 ```bash
 cd /Users/noguchiatsushi/Documents/GitHub/PLATEAU_heritage
@@ -33,6 +35,36 @@ source .venv/bin/activate
 
 python Museum/build_museum_hazard_gpkg.py \
   "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg" \
+  --plateau-source api-targeted \
+  --plateau-local-dir .cache/plateau \
+  --dry-run
+```
+
+このモードは既知施設の照合を優先する省容量モードです。取得されたメッシュ内ではPLATEAU詳細用途・名称による追加候補も抽出しますが、41自治体全域のPLATEAU単独候補を網羅するものではありません。
+
+### 全域候補も抽出する場合：API municipality取得
+
+manifestに含まれる41自治体について、全`bldg`メッシュを再取得します。PLATEAU側の用途属性から未収録施設候補も網羅的に抽出できますが、ダウンロード量、保存容量、走査時間は大幅に増えます。
+
+```bash
+python Museum/build_museum_hazard_gpkg.py \
+  "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg" \
+  --plateau-source api-municipality \
+  --plateau-local-dir .cache/plateau \
+  --dry-run
+```
+
+### 既存のローカルCityGMLを使う場合
+
+ローカルのPLATEAU CityGML格納先を指定して、書き込みなしの確認を行います。
+
+```bash
+cd /Users/noguchiatsushi/Documents/GitHub/PLATEAU_heritage
+source .venv/bin/activate
+
+python Museum/build_museum_hazard_gpkg.py \
+  "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg" \
+  --plateau-source local \
   --plateau-local-dir "/PLATEAU/CityGMLを展開したディレクトリ" \
   --dry-run
 ```
@@ -42,7 +74,8 @@ python Museum/build_museum_hazard_gpkg.py \
 ```bash
 python Museum/build_museum_hazard_gpkg.py \
   "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg" \
-  --plateau-local-dir "/PLATEAU/CityGMLを展開したディレクトリ" \
+  --plateau-source api-targeted \
+  --plateau-local-dir .cache/plateau \
   --output "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_museum_hazards.gpkg"
 ```
 
@@ -51,6 +84,7 @@ python Museum/build_museum_hazard_gpkg.py \
 ```bash
 python Museum/build_museum_hazard_gpkg.py \
   "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg" \
+  --plateau-source api-targeted \
   --plateau-local-dir .cache/plateau \
   --output "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_museum_hazards.gpkg" \
   --overwrite

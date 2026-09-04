@@ -1,0 +1,242 @@
+﻿record_id,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,river,risk_type,risk_type_ja,hazard_source,scenario,depth_class,depth_rank,depth_class_native,depth_min_m,depth_max_m,risk_basis
+official_export_002:287,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:384,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_001:192,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_001:103,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:460,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131024000000.0,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:99,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:197,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:53,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:396,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:473,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:305,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:59,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:271,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:199,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:179,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:415,13103,港区,National,Registered,有形文化財,建造物,building_direct,堀商店,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_001:91,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺二天門,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:40,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館北棟,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:0,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:1,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:42,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館南棟,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:41,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館玄関棟,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:312,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松店舗及び住居,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:90,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:311,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松表門及び塀,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:132,13106,台東区,National,Registered,有形文化財,建造物,building_direct,ギャラリー・エフ蔵(株式会社淵川金属事務所),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:44,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店西奥座敷,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:45,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店東奥座敷,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:107,13106,台東区,National,Registered,有形文化財,建造物,building_direct,神谷バー本館,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:85,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:88,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:86,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:87,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:89,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+165,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田宗?墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:140,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧井阪屋本店河合ビル稲荷社,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:376,13106,台東区,National,Registered,有形文化財,建造物,building_direct,難波商店店舗兼主屋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:43,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店北奥座敷,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+35,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+164,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛飾北斎墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+159,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川庄右衛門及び同清右衛門墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+244,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,中村不折旧宅(書道博物館),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131067100029,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,石造宝篋印塔,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:385,13106,台東区,National,Registered,有形文化財,建造物,building_direct,日本聖公会浅草聖ヨハネ教会,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:282,13106,台東区,National,Registered,有形文化財,建造物,building_direct,タイガービルヂング,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:367,13106,台東区,National,Registered,有形文化財,建造物,building_direct,中江店舗,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:28,13106,台東区,National,Registered,有形文化財,建造物,building_direct,伊勢屋店舗兼主屋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100075,13106,台東区,Municipal,Designated,民俗文化財,有形民俗文化財,point,浅草浅間神社本殿并びに諸資料 付 境内地,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:243,13106,台東区,National,Registered,有形文化財,建造物,building_direct,西徳寺本堂,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:325,13106,台東区,National,Registered,有形文化財,建造物,building_direct,燕湯,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100097,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,如意輪寺の六面六地蔵石幢,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100120,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,安藤家旧蔵田舟,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100105,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,香取神社の石造水鉢(禊盥),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100149,13107,墨田区,Municipal,Unknown,民俗文化財,無形民俗文化財(民俗芸能),point,隅田囃子(箕輪囃子),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100004,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,旧小山家住宅,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:99,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,割烹美家古向島本店店舗,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:277,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校講堂,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:276,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校校舎,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100050,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,啓運閣所蔵板碑 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100075,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,大石三平墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100069,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造「夜寉井銘」の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100014,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,實相寺熊谷稲荷堂 附再建関連文書ニ点・青図三枚・写真一点,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100066,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,絹本墨書扁額「明明徳」,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100057,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,蓮花寺の石柱道標 文化十五年銘 一基 文政五年銘 一基,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100116,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,力石,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100067,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,歌川豊広辞世の狂歌碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100103,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,萬福寺の石造庚申塔 (青面金剛童子),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100122,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:327,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,照田家住宅主屋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131083000000.0,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+official_export_003:62,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:333,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:166,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:335,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:336,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:334,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+98,13123,江戸川区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,天明三年浅間山噴火横死者供養碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+176,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+180,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+124,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+181,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+183,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:38,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+125,13123,江戸川区,Tokyo Metropolitan,Designated,記念物,史跡,point,一之江名主屋敷,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_001:113,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+3,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,浅草寺六角堂,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+157,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,戸田茂睡墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+158,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,六地蔵石燈籠,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+161,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,谷文晁墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+162,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,幡随院長兵衛墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100060,13106,台東区,Municipal,Other,記念物,史跡,point,柴田是真墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131067100132,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,大太刀(陰陽丸),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131067100134,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,石造多宝塔,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131067100147,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,浅草寺絵馬・扁額群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131067100162,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(和書),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100163,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(一枚刷),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100168,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん〔芝居番付類(一枚刷)〕,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100171,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(古文書),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100174,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(羽子板),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100178,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(五月人形),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131067100181,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(雛人形),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:357,13106,台東区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄銀座線浅草駅四番出入口上家,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_003:2,13106,台東区,National,Designated,記念物,天然記念物,point,伊能忠敬墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_003:42,13106,台東区,National,Designated,記念物,天然記念物,point,高橋至時墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_003:59,13106,台東区,National,Designated,記念物,天然記念物,point,平賀源内墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+171,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,赤穂浪士元禄義挙の跡,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+172,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,加藤千蔭墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+173,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京伝墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+174,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京山墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+197,13107,墨田区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田庭園,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100001,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社石造鳥居,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100002,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,白髭神社石造鳥居,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100003,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,多聞寺山門,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100006,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,三囲神社石造鳥居(堤下の大鳥居),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100007,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,弘福寺本堂(大雄寳殿),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100008,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,三囲神社本社,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100010,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社社殿,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100011,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社神輿蔵,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100012,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,隅田川神社社殿,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100016,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,楢崎宗重博士旧蔵美術資料群(楢崎宗重コレクション),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100017,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,紙本着色「隅田川両岸景色図」一巻,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100047,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,都鳥手鑑 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100048,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,正福寺の板碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100049,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,法泉寺所蔵板碑 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100052,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,松尾芭蕉「いざさらば」の句碑 (雪見の句碑),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100053,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,橋本家旧蔵板碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100054,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,烏亭焉馬「いそがずば」の狂歌碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100055,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,宝井其角「ゆうだちや」の句碑 (雨乞いの句碑),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100056,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,秋葉神社の石造燈籠 寛保元年銘 二基 宝永元年銘 二基 宝永二年銘 二基,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100058,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,要津寺雪中庵関係石碑群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100059,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,多聞寺の板碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100061,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造海難供養碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100062,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,三囲神社の石造常夜燈,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100063,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造墨堤永代常夜燈,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100064,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,吾嬬神社の連理の楠,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100065,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,墨堤植桜之碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100070,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,生月鯨太左衛門の墓 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100071,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,無縁法界塔,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100072,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,板坂如春の碑(2基),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100073,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,芥川家旧蔵雛人形,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100074,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「天下之糸平」の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100076,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,江島杉山神社の銅製釣燈籠,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100077,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,佐羽淡斎「墨多三絶」の漢詩碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100078,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,亀田鵬斎「題隅田堤櫻花」の漢詩碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100079,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「吾嬬森碑」,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100080,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,近松門左衛門供養碑(断片) ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100081,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「一勇斎歌川先生墓表」(歌川国芳顕彰碑),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100082,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「勝川春英翁略傳」の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100083,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,初代歌川豊国筆塚(断片),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100084,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,窪俊満「故郷の」の歌碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100085,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,鈴木家旧蔵雛人形,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100086,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,太田氏七代供養塔,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100087,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,旗本太田資同墓碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100088,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,隅田川神社資料,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100089,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,矢掛弓雄関係石碑群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100090,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,木阿弥(元杢網)「けふよりも」の歌碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100091,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,義士墓(那珂湊戦争関連資料),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100092,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,回向院の石造歴史災害供養塔群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100095,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社の石造狛犬 享保十四年銘 一対 文政十年銘 一対,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100096,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,三囲神社の石造狛犬,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100098,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,正福寺の石造阿弥陀如来立像,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100099,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,多聞寺の石造庚申塔(阿弥陀如来),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100100,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,圓徳寺の石造庚申塔(釈迦如来),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100101,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,吾嬬神社の石造狛犬,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100104,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,白鬚神社の石造狛犬,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100106,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社の石造神牛,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100107,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,三囲神社の石造神狐,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100108,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,長命寺の石造庚申塔 (地蔵菩薩),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100109,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,正覚寺の石造庚申塔(青面金剛童子),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100110,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,回向院の石造阿弥陀三尊立像,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100111,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,円通寺の石造地蔵菩薩立像,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100112,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,多聞寺の石造六地蔵坐像,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+131075100113,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,法泉寺の石造地蔵菩薩立像,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100114,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,東漸寺の石造庚申道標,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100115,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社境内力石群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100117,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,吾嬬神社境内力石群,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100118,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社石造神牛(撫牛),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100119,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,鼠小僧供養碑(鼠小僧の墓),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100121,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,江島杉山神社境内力石,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100123,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+131075100124,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,出羽三山の碑,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100125,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,柳嶋村念仏講道具一式 附関連文書,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100150,13107,墨田区,Municipal,Unknown,民俗文化財,無形民俗文化財(風俗慣習),point,隅田川七福神めぐり,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100151,13107,墨田区,Municipal,Unknown,記念物,史跡,point,肥前平戸藩松浦家墓所 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100152,13107,墨田区,Municipal,Unknown,記念物,史跡,point,橘守部墓・橘冬照墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100153,13107,墨田区,Municipal,Unknown,記念物,史跡,point,池田冠山墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100154,13107,墨田区,Municipal,Unknown,記念物,史跡,point,常陸笠間藩牧野家墓所 ※非公開,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+131075100155,13107,墨田区,Municipal,Unknown,記念物,史跡,point,回向院相撲関係石碑群(力塚),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+131075100156,13107,墨田区,Municipal,Unknown,記念物,天然記念物,point,飛木稲荷神社のイチョウ,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_003:65,13107,墨田区,National,Designated,記念物,天然記念物,point,向島百花園,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_001:100,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+177,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+123,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+182,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_003:39,13123,江戸川区,National,Designated,記念物,天然記念物,point,善養寺影向のマツ,荒川,river_flooding,洪水浸水想定区域,A31a 荒川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+5,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:366,13111,大田区,National,Registered,有形文化財,建造物,building_direct,鳥海家住宅主屋,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:455,13111,大田区,National,Registered,有形文化財,建造物,building_direct,守屋家住宅主屋,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:377,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100003,13208,調布市,National,Designated,記念物,史跡,point,下布田遺跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:417,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:418,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100020,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,上石原若宮八幡神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132080100051,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,野口平一家資料,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+136,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:171,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+190,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴墓,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100091,13215,国立市,Municipal,Registered,有形文化財,未細分,point,アップライトピアノ,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100008,13215,国立市,National,Registered,有形文化財,未細分,building_direct,滝乃川学園本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:300,13215,国立市,National,Registered,有形文化財,建造物,building_direct,滝乃川学園本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100072,13215,国立市,Municipal,Registered,有形文化財,未細分,point,久保の地蔵菩薩像,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100076,13215,国立市,Municipal,Registered,有形文化財,未細分,point,五智如来(像塔・文字塔),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100096,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(矢川橋),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100036,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園礼拝堂,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100079,13215,国立市,Municipal,Registered,有形文化財,未細分,point,常夜燈(青柳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100035,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,青柳稲荷神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+official_export_002:21,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:24,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:25,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:22,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:23,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:20,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+192,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+23,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+187,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100005,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100006,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100018,13208,調布市,Tokyo Metropolitan,Designated,記念物,史跡,point,狐塚古墳(下布田6号墳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132080100056,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,調布の臼,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100066,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安四年銘阿弥陀一尊板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100067,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安五年銘阿弥陀三尊板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100068,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,文明三年銘阿弥陀図像板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_003:35,13208,調布市,National,Designated,記念物,天然記念物,point,下布田遺跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100026,13215,国立市,Municipal,Designated,有形文化財,未細分,point,古民家(旧柳澤家住宅),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100040,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園鐘楼附鐘,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100095,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(青柳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100098,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(青柳・嘉永二年在銘),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100101,13215,国立市,Municipal,Registered,有形文化財,未細分,point,手水石(安政三年在銘),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection

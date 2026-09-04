@@ -1,0 +1,46 @@
+﻿record_id,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,river,risk_type,risk_type_ja,hazard_source,scenario,depth_class,depth_rank,depth_class_native,depth_min_m,depth_max_m,risk_basis
+5,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:366,13111,大田区,National,Registered,有形文化財,建造物,building_direct,鳥海家住宅主屋,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:455,13111,大田区,National,Registered,有形文化財,建造物,building_direct,守屋家住宅主屋,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:377,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100003,13208,調布市,National,Designated,記念物,史跡,point,下布田遺跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_002:417,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:418,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100020,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,上石原若宮八幡神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132080100051,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,野口平一家資料,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+136,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:171,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+190,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴墓,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100091,13215,国立市,Municipal,Registered,有形文化財,未細分,point,アップライトピアノ,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100008,13215,国立市,National,Registered,有形文化財,未細分,building_direct,滝乃川学園本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+official_export_002:300,13215,国立市,National,Registered,有形文化財,建造物,building_direct,滝乃川学園本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100072,13215,国立市,Municipal,Registered,有形文化財,未細分,point,久保の地蔵菩薩像,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100076,13215,国立市,Municipal,Registered,有形文化財,未細分,point,五智如来(像塔・文字塔),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100096,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(矢川橋),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100036,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園礼拝堂,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100079,13215,国立市,Municipal,Registered,有形文化財,未細分,point,常夜燈(青柳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100035,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,青柳稲荷神社本殿,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,5 m以上,4,5–10 m,5.0,10.0,A31a polygon intersection
+official_export_002:21,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:24,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:25,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:22,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:23,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+official_export_002:20,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+192,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+23,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+187,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100005,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100006,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132080100018,13208,調布市,Tokyo Metropolitan,Designated,記念物,史跡,point,狐塚古墳(下布田6号墳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132080100056,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,調布の臼,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100066,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安四年銘阿弥陀一尊板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100067,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安五年銘阿弥陀三尊板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+132080100068,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,文明三年銘阿弥陀図像板碑,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,3–5 m,3,3–5 m,3.0,5.0,A31a polygon intersection
+official_export_003:35,13208,調布市,National,Designated,記念物,天然記念物,point,下布田遺跡,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100026,13215,国立市,Municipal,Designated,有形文化財,未細分,point,古民家(旧柳澤家住宅),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100040,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園鐘楼附鐘,多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0.5–3 m,2,0.5–3 m,0.5,3.0,A31a polygon intersection
+132152100095,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(青柳),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100098,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(青柳・嘉永二年在銘),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection
+132152100101,13215,国立市,Municipal,Registered,有形文化財,未細分,point,手水石(安政三年在銘),多摩川,river_flooding,洪水浸水想定区域,A31a 多摩川,想定最大規模,0–0.5 m,1,0–0.5 m,0.0,0.5,A31a polygon intersection

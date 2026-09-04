@@ -12,6 +12,7 @@ from Museum.build_museum_hazard_gpkg import (
     default_output_path,
     load_museum_data,
     match_buildings,
+    museum_query_address,
     write_attribute_table,
 )
 
@@ -52,6 +53,24 @@ class ManifestTests(unittest.TestCase):
     def test_specific_facility_type_wins_over_generic_museum(self):
         rows = [{"facility_type": "museum"}, {"facility_type": "aquarium"}]
         self.assertEqual(choose_facility_type(rows), "aquarium")
+
+    def test_targeted_query_prefers_address_and_falls_back_to_name(self):
+        self.assertEqual(
+            museum_query_address({
+                "address": "東京都千代田区丸の内1-1",
+                "municipality_name": "千代田区",
+                "canonical_name": "テスト博物館",
+            }),
+            "東京都千代田区丸の内1-1",
+        )
+        self.assertEqual(
+            museum_query_address({
+                "address": "",
+                "municipality_name": "千代田区",
+                "canonical_name": "テスト博物館",
+            }),
+            "千代田区 テスト博物館",
+        )
 
 
 class MatchingTests(unittest.TestCase):

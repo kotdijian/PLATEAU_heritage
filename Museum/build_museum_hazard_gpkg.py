@@ -35,10 +35,11 @@ for import_root in (SCRIPT_DIR, REPOSITORY_ROOT):
     if str(import_root) not in sys.path:
         sys.path.insert(0, str(import_root))
 
+from heritage_gml.catalog import fetch_citygml_files_for_condition
 from heritage_gml.citygml import scan_buildings
-from heritage_gml.model import PlateauCity
+from heritage_gml.model import CulturalRecord, PlateauCity, PlateauFile
 from heritage_gml.output import buildings_df as heritage_buildings_df
-from heritage_gml.plateau import local_files
+from heritage_gml.plateau import download_files, local_files, resolve_remote_files
 from heritage_gml.util import compact_address
 
 try:
@@ -270,17 +271,141 @@ def city_names_from_facilities(facilities: list[dict[str, Any]]) -> dict[str, st
     }
 
 
+def plateau_cities_from_facilities(facilities: list[dict[str, Any]]) -> list[PlateauCity]:
+    return [
+        PlateauCity(
+            pref_code=city_code[:2], pref="東京都", city_code=city_code,
+            city=city_name, year="latest", feature_types=["bldg"], url="",
+        )
+        for city_code, city_name in sorted(city_names_from_facilities(facilities).items())
+    ]
+
+
 def discover_plateau_files(plateau_dir: Path, facilities: list[dict[str, Any]]):
     files_by_path = {}
-    for city_code, city_name in sorted(city_names_from_facilities(facilities).items()):
-        city = PlateauCity(
-            pref_code=city_code[:2], pref="東京都", city_code=city_code,
-            city=city_name, year="local", feature_types=["bldg"], url="",
-        )
+    for city in plateau_cities_from_facilities(facilities):
         for plateau_file in local_files(plateau_dir, city):
             if plateau_file.local_path:
                 files_by_path[plateau_file.local_path] = plateau_file
     return [files_by_path[path] for path in sorted(files_by_path)]
+
+
+def museum_query_address(facility: dict[str, Any]) -> str:
+    """Return an official address or a conservative name+municipality query."""
+    return text(facility.get("address")) or " ".join(
+        value for value in (
+            text(facility.get("municipality_name")),
+            text(facility.get("canonical_name")),
+        ) if value
+    )
+
+
+def resolve_targeted_remote_files(
+    api_base: str, facilities: list[dict[str, Any]], timeout_s: int,
+) -> tuple[list[PlateauFile], list[dict[str, Any]]]:
+    """Resolve bldg meshes around known facilities through API geocoding."""
+    facilities_by_city: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for facility in facilities:
+        facilities_by_city[text(facility.get("municipality_code"))].append(facility)
+
+    file_map: dict[str, PlateauFile] = {}
+    issues: list[dict[str, Any]] = []
+    cities = plateau_cities_from_facilities(facilities)
+    for index, city in enumerate(cities, 1):
+        print(
+            f"  PLATEAU targeted query city [{index}/{len(cities)}]: "
+            f"{city.city_code} {city.city}",
+            flush=True,
+        )
+        records = [
+            CulturalRecord(
+                source_file="Museum/source/data/museum_candidates.csv",
+                record_id=text(facility.get("museum_id")),
+                name=text(facility.get("canonical_name")),
+                address=museum_query_address(facility),
+                municipality=city.city,
+                municipality_code=city.city_code,
+            )
+            for facility in facilities_by_city.get(city.city_code, [])
+            if museum_query_address(facility)
+        ]
+        remote, city_issues = resolve_remote_files(
+            api_base, city, records, timeout_s,
+            use_geocode=True, progress=True,
+        )
+        issues.extend(city_issues)
+        for plateau_file in remote:
+            if plateau_file.url:
+                file_map[plateau_file.url] = plateau_file
+    return list(file_map.values()), issues
+
+
+def resolve_municipality_remote_files(
+    api_base: str, facilities: list[dict[str, Any]], timeout_s: int,
+) -> tuple[list[PlateauFile], list[dict[str, Any]]]:
+    """Resolve every bldg mesh for all municipalities represented in manifest."""
+    file_map: dict[str, PlateauFile] = {}
+    issues: list[dict[str, Any]] = []
+    cities = plateau_cities_from_facilities(facilities)
+    for index, city in enumerate(cities, 1):
+        print(
+            f"  PLATEAU municipality query [{index}/{len(cities)}]: "
+            f"{city.city_code} {city.city}",
+            flush=True,
+        )
+        try:
+            rows = fetch_citygml_files_for_condition(
+                api_base, city.city_code, city.city_code, timeout_s
+            )
+        except Exception as exc:
+            issues.append({
+                "city_code": city.city_code,
+                "condition": city.city_code,
+                "reason": f"plateau_query_error: {type(exc).__name__}: {exc}",
+            })
+            continue
+        for row in rows:
+            url = text(row.get("url"))
+            if not url:
+                continue
+            file_map[url] = PlateauFile(
+                city_code=city.city_code,
+                city_name=city.city,
+                code=text(row.get("code")),
+                url=url,
+                max_lod=row.get("maxLod"),
+                file_size=row.get("fileSize"),
+                features=row.get("features"),
+            )
+    return list(file_map.values()), issues
+
+
+def acquire_plateau_files(
+    source: str, plateau_dir: Path, facilities: list[dict[str, Any]],
+    api_base: str, timeout_s: int, retries: int,
+) -> tuple[list[PlateauFile], list[dict[str, Any]]]:
+    if source == "local":
+        if not plateau_dir.is_dir():
+            raise FileNotFoundError(
+                f"PLATEAU local directory not found: {plateau_dir}. "
+                "Use --plateau-source api-targeted to reacquire relevant meshes, "
+                "or api-municipality for exhaustive municipality coverage."
+            )
+        return discover_plateau_files(plateau_dir, facilities), []
+
+    plateau_dir.mkdir(parents=True, exist_ok=True)
+    if source == "api-targeted":
+        remote, query_issues = resolve_targeted_remote_files(api_base, facilities, timeout_s)
+    else:
+        remote, query_issues = resolve_municipality_remote_files(api_base, facilities, timeout_s)
+    print(f"PLATEAU remote bldg files resolved: {len(remote)}", flush=True)
+    downloaded, download_issues = download_files(
+        remote, plateau_dir,
+        connect_timeout_s=min(timeout_s, 30), read_timeout_s=timeout_s,
+        retries=retries, progress=True,
+    )
+    usable = [plateau_file for plateau_file in downloaded if plateau_file.local_path]
+    return usable, [*query_issues, *download_issues]
 
 
 def building_usage(building) -> tuple[str, str, str, str, str, str]:
@@ -719,8 +844,25 @@ def build_parser() -> argparse.ArgumentParser:
         )
     )
     parser.add_argument("source_gpkg", type=Path, help="Existing hazard GeoPackage; never modified")
+    parser.add_argument(
+        "--plateau-source",
+        choices=("local", "api-targeted", "api-municipality"),
+        default="local",
+        help=(
+            "local: reuse existing GML; api-targeted: download meshes around known facilities; "
+            "api-municipality: download all bldg meshes for represented municipalities"
+        ),
+    )
     parser.add_argument("--plateau-local-dir", type=Path, default=DEFAULT_PLATEAU_DIR,
-                        help="Directory containing PLATEAU bldg CityGML files")
+                        help="Local GML directory, or cache destination in an API mode")
+    parser.add_argument(
+        "--plateau-api-base", default="https://api.plateauview.mlit.go.jp",
+        help="PLATEAU data-catalog API base URL",
+    )
+    parser.add_argument("--plateau-timeout", type=int, default=180,
+                        help="API/download read timeout in seconds")
+    parser.add_argument("--download-retries", type=int, default=3,
+                        help="Download attempts per GML file")
     parser.add_argument("--museum-data-dir", type=Path, default=DEFAULT_MUSEUM_DATA,
                         help="Directory containing Museum manifest CSV outputs")
     parser.add_argument("--output", type=Path, default=None,
@@ -739,13 +881,17 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     )
     if not source_gpkg.is_file():
         raise FileNotFoundError(f"Source GeoPackage not found: {source_gpkg}")
-    if not plateau_dir.is_dir():
-        raise FileNotFoundError(f"PLATEAU local directory not found: {plateau_dir}")
 
     facilities, source_records = load_museum_data(museum_data_dir)
-    plateau_files = discover_plateau_files(plateau_dir, facilities)
+    plateau_files, acquisition_issues = acquire_plateau_files(
+        args.plateau_source, plateau_dir, facilities,
+        args.plateau_api_base, args.plateau_timeout, args.download_retries,
+    )
     if not plateau_files:
-        raise RuntimeError(f"No PLATEAU bldg GML files found under: {plateau_dir}")
+        raise RuntimeError(
+            f"No usable PLATEAU bldg GML files found for source={args.plateau_source}: "
+            f"{plateau_dir}; acquisition issues={len(acquisition_issues)}"
+        )
     print(f"Museum facilities: {len(facilities)}", flush=True)
     print(f"PLATEAU bldg files: {len(plateau_files)}", flush=True)
     if disaster_risk_rows is None:
@@ -764,6 +910,9 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "source_gpkg": str(source_gpkg),
         "output_gpkg": str(output_gpkg),
         "plateau_local_dir": str(plateau_dir),
+        "plateau_source": args.plateau_source,
+        "plateau_acquisition_issue_count": len(acquisition_issues),
+        "plateau_acquisition_issues": acquisition_issues,
         "museum_facilities": len(facilities_out),
         "museum_source_records": len(source_records),
         "plateau_files": len(plateau_files),
