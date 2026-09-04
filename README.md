@@ -412,20 +412,20 @@ A31a 本来の `5–10 m / 10–20 m / 20 m以上` は `depth_class_native` に�
 
 ## Summary Results
 
-完全版 `13_heritage_hazards.gpkg` を対象に、集計表と地図を生成します。
+完全版 `13_heritage_hazards.gpkg` または A31a 追加済み `13_heritage_hazards_a31a.gpkg` を対象に、集計表と地図を生成します。
 
 ### 1. ソース確認
 
 ```bash
 python tools/profile_summary_source.py \
-  /path/to/13_heritage_hazards.gpkg
+  /path/to/13_heritage_hazards_a31a.gpkg
 ```
 
 ### 2. 集計
 
 ```bash
 python tools/build_summary_results.py \
-  /path/to/13_heritage_hazards.gpkg
+  /path/to/13_heritage_hazards_a31a.gpkg
 ```
 
 主な出力：
@@ -438,21 +438,108 @@ summary_results/
 └── figures/
 ```
 
-### 3. Summary map
+### 3. Overview map
+
+東京都全体・島嶼部等の overview は `render_summary_maps.py` が担当します。
 
 ```bash
 python tools/render_summary_maps.py \
-  /path/to/13_heritage_hazards.gpkg \
+  /path/to/13_heritage_hazards_a31a.gpkg \
   --stage overview
 ```
 
-```bash
-python tools/render_summary_maps.py \
-  /path/to/13_heritage_hazards.gpkg \
-  --stage detail
+想定震度 overview は8シナリオを対象とします。
+
+```text
+都心南部直下地震
+都心東部直下地震
+都心西部直下地震
+多摩東部直下地震
+多摩西部直下地震
+立川断層帯地震
+大正関東地震
+南海トラフ巨大地震
 ```
 
-地図出力は次の3フォルダを使用します。
+### 4. Detail map
+
+Detail は `render_summary_maps.py` から分離し、次の2ツールで生成します。
+
+- 浸水以外：`tools/render_city_hazard_focus.py`
+- 浸水予想区域：`tools/render_inundation_map.py`
+
+標準設定は中心から半径 0.8 km、zoom 16、背景は地理院タイル（淡色地図）です。標準4地点は以下です。
+
+```text
+東京駅                 35.68126    139.76671
+東京都立上野高校       35.7186246  139.7698412
+JR両国駅               35.6957371  139.7936379
+東京メトロ田原町駅     35.70984    139.79076
+```
+
+4地点の浸水以外を一括生成：
+
+```bash
+python tools/render_city_hazard_focus.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --detail-defaults \
+  --radius-km 0.8 \
+  --zoom 16
+```
+
+4地点の浸水予想区域を一括生成：
+
+```bash
+python tools/render_inundation_map.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --detail-defaults \
+  --hazard auto \
+  --separate \
+  --radius-km 0.8 \
+  --zoom 16
+```
+
+Detail 出力：
+
+```text
+summary_results/figures/detail/
+├── 東京駅/
+│   ├── hazard/
+│   └── inundation/
+├── 東京都立上野高校/
+│   ├── hazard/
+│   └── inundation/
+├── JR両国駅/
+│   ├── hazard/
+│   └── inundation/
+└── 東京メトロ田原町駅/
+    ├── hazard/
+    └── inundation/
+```
+
+### 5. City map
+
+浸水以外：
+
+```bash
+python tools/render_city_hazard_focus.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --cities 国分寺 国立
+```
+
+浸水予想区域：
+
+```bash
+python tools/render_inundation_map.py \
+  /path/to/13_heritage_hazards_a31a.gpkg \
+  --city 国分寺 国立 \
+  --hazard auto \
+  --separate
+```
+
+`render_inundation_map.py` は単一自治体なら `summary_results/figures/city/<自治体>/`、複数自治体なら `summary_results/figures/city/<自治体1>_<自治体2>/` に出力します。
+
+地図出力は次の3系統です。
 
 ```text
 summary_results/figures/
@@ -460,12 +547,6 @@ summary_results/figures/
 ├── detail/
 └── city/
 ```
-
-- `overview/` — 東京都本土部・伊豆諸島・小笠原諸島等の全体図
-- `detail/` — 指定地点周辺の詳細図。河川浸水は `detail/inundation_center/` を使用
-- `city/` — 市区町村単位の追加図
-
-Detail map の背景には地理院タイル（淡色地図）を使用します。
 
 ### 表示区分
 
@@ -483,38 +564,15 @@ Detail map の背景には地理院タイル（淡色地図）を使用します
 0 / 0–0.5 m / 0.5–3 m / 3–5 m / 5 m以上
 ```
 
-浅い側を淡色、深い側を濃青で表示します。文化財 point は浸水区域内を赤、区域外を黒で区別します。
+浅い側を淡色、深い側を濃青で表示します。文化財 point は浸水区域内を赤、区域外を黒で区別します。東京都の流域別浸水 point-grid は矩形セルへ再構成して描画し、NoData は除外します。A31a の荒川・多摩川は polygon として描画します。
 
 地震時延焼危険度は `hazard_fire_spread_town` の実データ階級を使用します。
-
-### 任意の浸水図
-
-`tools/render_inundation_map.py` は、区市町村名または中心座標を指定して河川別浸水図を追加生成するための独立ツールです。
-
-市区町村：
-
-```bash
-python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards.gpkg \
-  --city 国分寺 \
-  --hazard auto
-```
-
-中心座標：
-
-```bash
-python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards.gpkg \
-  --center 35.68126 139.76671 \
-  --zoom 16 \
-  --hazard auto
-```
 
 利用可能な浸水レイヤ一覧：
 
 ```bash
 python tools/render_inundation_map.py \
-  /path/to/13_heritage_hazards.gpkg \
+  /path/to/13_heritage_hazards_a31a.gpkg \
   --list-hazards
 ```
 
