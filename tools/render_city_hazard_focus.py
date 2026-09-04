@@ -4,10 +4,11 @@
 """
 render_city_hazard_focus.py
 
-仕様変更版:
-- 旧来の「浸水区域のみ」ではなく、浸水区域を除く全災害レイヤを対象にする
-- 対象都市ごとにフォルダを作成する
-- 都市範囲内に該当ハザード地物が存在しない場合は、その画像出力をスキップする
+用途:
+- 浸水区域を除く全災害レイヤを対象にする
+- city mode: 自治体単位の災害図を作成する
+- center mode: 任意中心座標の detail 災害図を作成する
+- 対象範囲内に該当ハザード地物が存在しない場合は画像出力をスキップする
 
 想定入力:
 - 13_heritage_hazards.gpkg / 13_heritage_hazards_a31a.gpkg など
@@ -16,7 +17,8 @@ render_city_hazard_focus.py
 - 文化財 footprint レイヤ: heritage_buildings_footprint / heritage_buildings_footprints など
 
 出力:
-<outdir>/<都市名>/ 以下に PNG を保存
+- city mode:   summary_results/figures/city/<自治体名>/
+- center mode: summary_results/figures/detail/<地点名>/hazard/
 """
 
 from __future__ import annotations
@@ -48,6 +50,14 @@ except Exception:
 SEISMIC_LABELS = ["5弱未満", "5弱", "5強", "6弱", "6強以上"]
 SEISMIC_BOUNDS = [-10, 4.5, 5.0, 5.5, 6.0, 10]
 SEISMIC_COLORS = ["#F0F921", "#F89640", "#CC4778", "#9C179E", "#0D0887"]
+
+# Canonical Summary Results detail centers: (lat, lon)
+DETAIL_CENTERS = {
+    "東京駅": (35.68126, 139.76671),
+    "東京都立上野高校": (35.7186246, 139.7698412),
+    "JR両国駅": (35.6957371, 139.7936379),
+    "東京メトロ田原町駅": (35.70984, 139.79076),
+}
 
 
 # -----------------------------
@@ -172,6 +182,13 @@ def add_gsi_basemap(ax, crs="EPSG:4326", zoom=14):
         ctx.add_basemap(ax, crs=crs, source=source, attribution=False, zoom=zoom)
     except Exception:
         pass
+
+
+def bbox_from_center(lat: float, lon: float, radius_km: float = 0.8):
+    """Return a WGS84 bbox around a center point."""
+    dlat = radius_km / 111.32
+    dlon = radius_km / (111.32 * max(math.cos(math.radians(lat)), 0.1))
+    return (lon - dlon, lat - dlat, lon + dlon, lat + dlat)
 
 
 # -----------------------------
@@ -563,6 +580,148 @@ def plot_city_hazard(
     plt.close(fig)
 
 
+def plot_center_hazard(
+    out_png: Path,
+    label: str,
+    hazard_name: str,
+    hazard: gpd.GeoDataFrame,
+    bbox,
+    admin_clip: gpd.GeoDataFrame,
+    points: gpd.GeoDataFrame,
+    footprints: gpd.GeoDataFrame,
+    numeric_col: Optional[str],
+    subtitle: Optional[str] = None,
+    zoom: int = 16,
+) -> None:
+    """Render a non-inundation hazard around an arbitrary detail center."""
+    fig, ax = plt.subplots(figsize=(9.0, 7.4))
+    ax.set_xlim(bbox[0], bbox[2])
+    ax.set_ylim(bbox[1], bbox[3])
+
+    add_gsi_basemap(ax, crs="EPSG:4326", zoom=zoom)
+    plot_hazard_surface(ax, hazard_name, hazard, numeric_col)
+
+    points_out, points_in = classify_points_by_hazard(points, hazard)
+    if not points_out.empty:
+        points_out.plot(
+            ax=ax, color="#8f8f8f", markersize=12, alpha=0.85, zorder=4
+        )
+    if not footprints.empty:
+        footprints.plot(
+            ax=ax,
+            facecolor="#6f6f6f",
+            edgecolor="#2b2b2b",
+            linewidth=0.35,
+            alpha=0.85,
+            zorder=5,
+        )
+    if not points_in.empty:
+        points_in.plot(
+            ax=ax, color="#d7301f", markersize=16, alpha=0.95, zorder=6
+        )
+    if not admin_clip.empty:
+        admin_clip.boundary.plot(
+            ax=ax, color="#555555", linewidth=0.7, alpha=0.9, zorder=7
+        )
+
+    title = f"{label}｜{hazard_name}"
+    if subtitle:
+        title += f"\n{subtitle}"
+    ax.set_title(title, fontsize=13, pad=9)
+    add_heritage_legend(ax, seismic_legend_present=is_seismic_layer(hazard_name))
+
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_aspect("equal", adjustable="box")
+    fig.subplots_adjust(left=0.035, right=0.985, bottom=0.04, top=0.90)
+
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(out_png, dpi=220, bbox_inches="tight", pad_inches=0.08)
+    plt.close(fig)
+
+
+def process_center(
+    path: Path,
+    label: str,
+    lat: float,
+    lon: float,
+    out_root: Path,
+    radius_km: float = 0.8,
+    zoom: int = 16,
+) -> tuple[int, int]:
+    bbox = bbox_from_center(lat, lon, radius_km)
+    rect = box(*bbox)
+
+    admin = load_admin(path)
+    admin_clip = admin[admin.intersects(rect)].copy()
+    points = load_points(path, bbox)
+    footprints = load_footprints(path, bbox)
+    if not points.empty:
+        points = points[points.intersects(rect)].copy()
+    if not footprints.empty:
+        footprints = footprints[footprints.intersects(rect)].copy()
+
+    hazard_layers = discover_hazard_layers(path)
+    detail_dir = out_root / sanitize_filename(label) / "hazard"
+    detail_dir.mkdir(parents=True, exist_ok=True)
+
+    generated = 0
+    skipped = 0
+    print(f"\n=== {label} ({lat:.7f}, {lon:.7f}) ===")
+    print(f"hazard layers discovered: {len(hazard_layers)}")
+
+    for layer in hazard_layers:
+        try:
+            hz = read_layer_bbox(path, layer, bbox)
+        except Exception as e:
+            print(f"  SKIP read error: {layer} -> {e}")
+            skipped += 1
+            continue
+        if not hz.empty:
+            hz = hz[hz.intersects(rect)].copy()
+        if hz.empty:
+            skipped += 1
+            continue
+
+        if "scenario" in hz.columns:
+            scenarios = [
+                x for x in hz["scenario"].dropna().astype(str).unique().tolist()
+                if x.strip()
+            ]
+            if len(scenarios) > 1:
+                for scenario in sorted(scenarios):
+                    sub = hz[hz["scenario"].astype(str) == scenario].copy()
+                    if sub.empty:
+                        continue
+                    numeric_col = infer_numeric_column(layer, sub)
+                    hz_name = layer.replace("hazard_", "")
+                    out_png = detail_dir / (
+                        f"{sanitize_filename(hz_name)}__{sanitize_filename(scenario)}.png"
+                    )
+                    plot_center_hazard(
+                        out_png, label, hz_name, sub, bbox, admin_clip,
+                        points, footprints, numeric_col,
+                        subtitle=f"scenario: {scenario}", zoom=zoom,
+                    )
+                    print(f"  OK {out_png.name}")
+                    generated += 1
+                continue
+
+        numeric_col = infer_numeric_column(layer, hz)
+        hz_name = layer.replace("hazard_", "")
+        out_png = detail_dir / f"{sanitize_filename(hz_name)}.png"
+        plot_center_hazard(
+            out_png, label, hz_name, hz, bbox, admin_clip,
+            points, footprints, numeric_col, subtitle=None, zoom=zoom,
+        )
+        print(f"  OK {out_png.name}")
+        generated += 1
+
+    return generated, skipped
+
+
 # -----------------------------
 # execution
 # -----------------------------
@@ -668,13 +827,30 @@ def process_city(path: Path, city_name: str, out_root: Path) -> tuple[int, int]:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Render city hazard focus maps (all hazards except inundation).")
+    p = argparse.ArgumentParser(
+        description="Render non-inundation hazard focus maps for municipalities or detail centers."
+    )
     p.add_argument("gpkg", help="Input GPKG path")
-    p.add_argument("--cities", nargs="+", required=True, help="City names, e.g. 国分寺 国立")
+    mode = p.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--cities", nargs="+", help="City names, e.g. 国分寺 国立")
+    mode.add_argument(
+        "--center", nargs=2, type=float, metavar=("LAT", "LON"),
+        help="Detail center as latitude longitude",
+    )
+    mode.add_argument(
+        "--detail-defaults", action="store_true",
+        help="Render the four canonical Summary Results detail centers",
+    )
+    p.add_argument("--label", help="Display/output label for --center mode")
+    p.add_argument("--radius-km", type=float, default=0.8, help="Detail radius in km (default: 0.8)")
+    p.add_argument("--zoom", type=int, default=16, help="GSI basemap zoom for detail mode (default: 16)")
     p.add_argument(
         "--outdir",
-        default="summary_results/figures/city",
-        help="Output root directory (default: summary_results/figures/city)",
+        default=None,
+        help=(
+            "Output root. Defaults to summary_results/figures/city for city mode "
+            "and summary_results/figures/detail for center modes."
+        ),
     )
     return p
 
@@ -684,18 +860,37 @@ def main(argv=None):
     configure_fonts()
 
     gpkg = Path(args.gpkg).expanduser().resolve()
-    out_root = Path(args.outdir).expanduser().resolve()
-
     if not gpkg.is_file():
         raise SystemExit(f"Input GPKG not found: {gpkg}")
 
     total_generated = 0
     total_skipped = 0
 
-    for city in args.cities:
-        gen, skip = process_city(gpkg, city, out_root)
+    if args.cities:
+        out_root = Path(args.outdir or "summary_results/figures/city").expanduser().resolve()
+        for city in args.cities:
+            gen, skip = process_city(gpkg, city, out_root)
+            total_generated += gen
+            total_skipped += skip
+    elif args.center:
+        out_root = Path(args.outdir or "summary_results/figures/detail").expanduser().resolve()
+        lat, lon = args.center
+        label = args.label or f"center_{lat:.5f}_{lon:.5f}"
+        gen, skip = process_center(
+            gpkg, label, lat, lon, out_root,
+            radius_km=args.radius_km, zoom=args.zoom,
+        )
         total_generated += gen
         total_skipped += skip
+    else:
+        out_root = Path(args.outdir or "summary_results/figures/detail").expanduser().resolve()
+        for label, (lat, lon) in DETAIL_CENTERS.items():
+            gen, skip = process_center(
+                gpkg, label, lat, lon, out_root,
+                radius_km=args.radius_km, zoom=args.zoom,
+            )
+            total_generated += gen
+            total_skipped += skip
 
     print("\nDONE")
     print(f"generated: {total_generated}")
