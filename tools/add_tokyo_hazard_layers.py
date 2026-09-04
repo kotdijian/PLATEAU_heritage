@@ -239,6 +239,9 @@ A31A_DATASET = {
     "year": 2025,
     "scenario": "想定最大規模",
     "source_scope": "関東地方整備局（作成種別コード83）",
+    "license": "CC BY 4.0",
+    "license_url": "https://nlftp.mlit.go.jp/ksj/other/agreement.html",
+    "license_checked_at": "2026-09-05",
     "default_rivers": ["荒川", "多摩川"],
 }
 
@@ -743,6 +746,82 @@ def write_manifest(gpkg: Path, rows: list[dict]):
             index=False,
         )
         register_attribute_table(con, "hazard_source_manifest", len(df))
+        con.commit()
+
+
+SOURCE_LICENSE_COLUMNS = [
+    "source_key",
+    "category",
+    "source_dataset_id",
+    "dataset_title",
+    "provider",
+    "layer_pattern",
+    "license",
+    "license_url",
+    "redistribution",
+    "commercial_use",
+    "modification",
+    "redistribution_status",
+    "attribution",
+    "usage_note",
+    "license_checked_at",
+]
+
+
+def upsert_source_license_row(gpkg: Path, row: dict) -> None:
+    """Insert or replace one source-license row while preserving existing rows."""
+    with sqlite3.connect(gpkg) as con:
+        old_df = pd.DataFrame()
+        try:
+            old_df = pd.read_sql_query("SELECT * FROM source_license", con)
+        except Exception:
+            pass
+
+        row_df = pd.DataFrame([row])
+
+        if old_df.empty and len(old_df.columns) == 0:
+            all_cols = list(dict.fromkeys(SOURCE_LICENSE_COLUMNS + list(row_df.columns)))
+            df = row_df.reindex(columns=all_cols)
+        else:
+            all_cols = list(dict.fromkeys(list(old_df.columns) + list(row_df.columns)))
+            old_df = old_df.reindex(columns=all_cols)
+            row_df = row_df.reindex(columns=all_cols)
+
+            if "source_key" in old_df.columns and row.get("source_key") is not None:
+                old_df = old_df[
+                    old_df["source_key"].astype(str) != str(row["source_key"])
+                ]
+
+            df = pd.concat(
+                [old_df, row_df],
+                ignore_index=True,
+                sort=False,
+            )
+
+        df.to_sql(
+            "source_license",
+            con,
+            if_exists="replace",
+            index=False,
+        )
+
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+        con.execute(
+            "DELETE FROM gpkg_contents WHERE table_name='source_license'"
+        )
+        con.execute(
+            """
+            INSERT INTO gpkg_contents
+            (table_name,data_type,identifier,description,last_change,
+             min_x,min_y,max_x,max_y,srs_id)
+            VALUES ('source_license','attributes','source_license',?,?,
+                    NULL,NULL,NULL,NULL,NULL)
+            """,
+            (
+                f"Source datasets, licenses, and reuse conditions ({len(df)} rows)",
+                now,
+            ),
+        )
         con.commit()
 
 
@@ -1848,6 +1927,8 @@ def ingest_a31a(ctx):
             f"{missing}. Available river-name sample: {sample}"
         )
 
+    written_a31a_layers = []
+
     for river_name in rivers:
         parts = matched_parts[river_name]
         gdf = gpd.GeoDataFrame(
@@ -1879,6 +1960,7 @@ def ingest_a31a(ctx):
             gdf,
             ctx.written_layers,
         )
+        written_a31a_layers.append(layer)
 
         ranks = sorted(
             pd.to_numeric(gdf["depth_rank_code"], errors="coerce")
@@ -1914,6 +1996,39 @@ def ingest_a31a(ctx):
             )
         )
 
+
+
+    upsert_source_license_row(
+        ctx.output,
+        {
+            "source_key": "a31a",
+            "category": "hazard",
+            "source_dataset_id": "A31a-2025-83",
+            "dataset_title": f"{info['title']}（2025年度・関東地方整備局）",
+            "provider": info["org"],
+            "layer_pattern": ";".join(written_a31a_layers),
+            "license": info["license"],
+            "license_url": info["license_url"],
+            "redistribution": "yes",
+            "commercial_use": "yes",
+            "modification": "yes",
+            "redistribution_status": "confirmed",
+            "attribution": (
+                "国土交通省「国土数値情報 洪水浸水想定区域（河川単位）"
+                "2025年度版」を加工して作成"
+            ),
+            "usage_note": (
+                "国土数値情報ダウンロードサイトコンテンツ利用規約および"
+                "A31a個別データページの留意事項に従う。"
+                "関東地方整備局（作成種別コード83）の想定最大規模を使用。"
+            ),
+            "license_checked_at": info["license_checked_at"],
+        },
+    )
+    print(
+        f"    A31a license metadata: source_license updated ({info['license']})",
+        flush=True,
+    )
 
 
 # ----------------------------------------------------------------------
