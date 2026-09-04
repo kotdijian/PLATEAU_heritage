@@ -9,6 +9,7 @@ from pathlib import Path
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from matplotlib.collections import PolyCollection
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
@@ -171,13 +172,22 @@ def find_depth_column(gdf: gpd.GeoDataFrame) -> str:
 
 
 def depth_category(values) -> list[str]:
+    """Classify only finite inundation-depth values.
+
+    Missing/NaN/inf is returned as an empty category and is never interpreted
+    as the deepest class.
+    """
     cats = []
     for v in values:
         try:
             x = float(v)
         except Exception:
-            x = 0.0
-        if x <= 0:
+            cats.append("")
+            continue
+
+        if not math.isfinite(x):
+            cats.append("")
+        elif x <= 0:
             cats.append("0")
         elif x <= 0.5:
             cats.append("0–0.5 m")
@@ -283,14 +293,15 @@ def clip_layers_to_bbox(gdf: gpd.GeoDataFrame, bbox):
 
 
 def auto_select_hazards(gpkg: Path, bbox, candidate_layers: list[str]) -> list[str]:
+    """Select layers with actual positive inundation risk inside the bbox."""
     rect = box(*bbox)
     matched = []
     for name in candidate_layers:
-        hz = gpd.read_file(gpkg, layer=name, bbox=bbox).to_crs(4326)
-        if hz.empty:
+        hz = load_hazard(gpkg, name, bbox)
+        risk = positive_risk_features(hz)
+        if risk.empty:
             continue
-        hz = hz[hz.intersects(rect)]
-        if not hz.empty:
+        if risk.intersects(rect).any():
             matched.append(name)
     return matched
 
@@ -301,13 +312,14 @@ def auto_select_hazards_for_geometry(
     target_geometry,
     candidate_layers: list[str],
 ) -> list[str]:
-    """Select only inundation layers that actually intersect target municipalities."""
+    """Select only layers whose positive-risk area intersects municipalities."""
     matched = []
     for name in candidate_layers:
-        hz = gpd.read_file(gpkg, layer=name, bbox=bbox).to_crs(4326)
-        if hz.empty:
+        hz = load_hazard(gpkg, name, bbox)
+        risk = positive_risk_features(hz)
+        if risk.empty:
             continue
-        if hz.intersects(target_geometry).any():
+        if risk.intersects(target_geometry).any():
             matched.append(name)
     return matched
 
@@ -320,27 +332,64 @@ def is_point_grid(hz: gpd.GeoDataFrame) -> bool:
 
 
 def load_hazard(gpkg: Path, layer_name: str, bbox):
-    hz = gpd.read_file(gpkg, layer=layer_name, bbox=bbox).to_crs(4326)
+    """Load one inundation layer and remove source NoData before rendering.
+
+    Tokyo inundation point grids can contain geometry rows whose
+    inundation_depth_m is NULL/NaN. Those rows describe source tile/grid
+    coverage, not 5m+ inundation. They must not be rendered as hazard.
+    """
+    hz = gpd.read_file(gpkg, layer=layer_name, bbox=bbox)
     if hz.empty:
         return hz
 
+    if hz.crs is None:
+        hz = hz.set_crs(4326, allow_override=True)
+    hz = hz.to_crs(4326)
     hz = hz[hz.intersects(box(*bbox))].copy()
     if hz.empty:
         return hz
 
+    # A31a polygon source: categorical summary classes are authoritative.
     if "depth_class_summary" in hz.columns:
         cats = hz["depth_class_summary"].map(normalize_depth_class)
-        if (cats != "").any():
-            hz["depth_cat"] = cats.where(cats != "", "0")
+        valid = cats.isin(DEPTH_ORDER) & (cats != "0")
+        hz = hz.loc[valid].copy()
+        if hz.empty:
             return hz
-
-    if "depth_rank_code" in hz.columns:
-        hz["depth_cat"] = a31a_rank_category(hz["depth_rank_code"])
+        hz["depth_cat"] = cats.loc[valid].to_numpy()
         return hz
 
+    # A31a fallback if summary class is unavailable.
+    if "depth_rank_code" in hz.columns:
+        ranks = pd.to_numeric(hz["depth_rank_code"], errors="coerce")
+        valid = np.isfinite(ranks.to_numpy(dtype=float)) & (ranks.to_numpy(dtype=float) > 0)
+        hz = hz.loc[valid].copy()
+        if hz.empty:
+            return hz
+        hz["depth_cat"] = a31a_rank_category(ranks.loc[valid])
+        return hz
+
+    # Tokyo point-grid source. NULL/NaN rows are NoData and must be dropped.
     depth_col = find_depth_column(hz)
-    hz["depth_cat"] = depth_category(hz[depth_col])
+    depth = pd.to_numeric(hz[depth_col], errors="coerce")
+    finite = np.isfinite(depth.to_numpy(dtype=float))
+    hz = hz.loc[finite].copy()
+    depth = depth.loc[finite]
+    if hz.empty:
+        return hz
+
+    hz["depth_cat"] = depth_category(depth)
+
+    # Empty categories are defensive only; finite values should all classify.
+    hz = hz[hz["depth_cat"].isin(DEPTH_ORDER)].copy()
     return hz
+
+
+def positive_risk_features(hz: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    """Return only cells/polygons with positive inundation depth."""
+    if hz.empty or "depth_cat" not in hz.columns:
+        return hz.iloc[0:0].copy()
+    return hz[hz["depth_cat"].astype(str) != "0"].copy()
 
 
 def _axis_grid_spacing(values: np.ndarray) -> float | None:
@@ -434,12 +483,17 @@ def plot_point_grid_cells(
 def plot_hazard_surface(ax, hz: gpd.GeoDataFrame, alpha: float = 0.88, zorder: int = 2):
     if hz.empty:
         return
-    if is_point_grid(hz):
-        plot_point_grid_cells(ax, hz, alpha=alpha, zorder=zorder)
+
+    risk = positive_risk_features(hz)
+    if risk.empty:
+        return
+
+    if is_point_grid(risk):
+        plot_point_grid_cells(ax, risk, alpha=alpha, zorder=zorder)
     else:
-        hz.plot(
+        risk.plot(
             ax=ax,
-            color=hz["depth_cat"].map(DEPTH_COLORS),
+            color=risk["depth_cat"].map(DEPTH_COLORS),
             linewidth=0,
             alpha=alpha,
             zorder=zorder,
@@ -616,8 +670,9 @@ def plot_single(
     file_label: str,
 ):
     hz = load_hazard(gpkg, layer_name, bbox)
-    if hz.empty:
-        print(f"[SKIP] {layer_name}: no features in bbox")
+    risk = positive_risk_features(hz)
+    if risk.empty:
+        print(f"[SKIP] {layer_name}: no positive inundation risk in extent")
         return None
 
     fig, ax = plt.subplots(figsize=(9, 8))
@@ -654,7 +709,9 @@ def plot_combined(
     hazard_frames = []
     for layer_name in layer_names:
         hz = load_hazard(gpkg, layer_name, bbox)
-        if not hz.empty:
+        risk = positive_risk_features(hz)
+        if not risk.empty:
+            hz = hz.copy()
             hz["hazard_name"] = title_from_layer(layer_name)
             hazard_frames.append(hz)
 
