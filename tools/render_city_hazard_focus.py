@@ -30,14 +30,24 @@ from typing import Iterable, Optional
 
 import geopandas as gpd
 import matplotlib.pyplot as plt
+import numpy as np
 import pyogrio
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import BoundaryNorm, Normalize
 from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 from shapely.geometry import box
 
 try:
     import contextily as ctx
 except Exception:
     ctx = None
+
+
+SEISMIC_LABELS = ["5弱未満", "5弱", "5強", "6弱", "6強以上"]
+SEISMIC_BOUNDS = [-10, 4.5, 5.0, 5.5, 6.0, 10]
+SEISMIC_COLORS = ["#F0F921", "#F89640", "#CC4778", "#9C179E", "#0D0887"]
 
 
 # -----------------------------
@@ -316,6 +326,153 @@ def classify_points_by_hazard(points: gpd.GeoDataFrame, hazard: gpd.GeoDataFrame
 # plotting
 # -----------------------------
 
+def is_seismic_layer(hazard_name: str) -> bool:
+    return "seismic" in hazard_name.lower()
+
+
+def add_seismic_legend(ax) -> None:
+    handles = [
+        Patch(facecolor=color, edgecolor="none", label=label)
+        for color, label in zip(SEISMIC_COLORS, SEISMIC_LABELS)
+    ]
+    leg = ax.legend(
+        handles=handles,
+        title="想定震度",
+        loc="upper right",
+        fontsize=8,
+        title_fontsize=9,
+        frameon=True,
+    )
+    ax.add_artist(leg)
+
+
+def add_compact_numeric_colorbar(ax, values, cmap_name: str, label: str) -> None:
+    vals = np.asarray(values, dtype=float)
+    vals = vals[np.isfinite(vals)]
+    if vals.size == 0:
+        return
+
+    vmin = float(np.nanmin(vals))
+    vmax = float(np.nanmax(vals))
+    if math.isclose(vmin, vmax):
+        span = max(abs(vmin) * 0.01, 0.5)
+        vmin -= span
+        vmax += span
+
+    cax = inset_axes(
+        ax,
+        width="2.7%",
+        height="30%",
+        loc="upper right",
+        borderpad=1.2,
+    )
+    sm = ScalarMappable(norm=Normalize(vmin=vmin, vmax=vmax), cmap=cmap_name)
+    sm.set_array([])
+    cb = ax.figure.colorbar(sm, cax=cax)
+    cb.ax.tick_params(labelsize=7)
+    cb.set_label(label, fontsize=8)
+
+
+def plot_hazard_surface(
+    ax,
+    hazard_name: str,
+    hazard: gpd.GeoDataFrame,
+    numeric_col: Optional[str],
+) -> None:
+    if hazard.empty:
+        return
+
+    if numeric_col and numeric_col in hazard.columns:
+        numeric = gpd.pd.to_numeric(hazard[numeric_col], errors="coerce")
+
+        if is_seismic_layer(hazard_name):
+            cmap = plt.matplotlib.colors.ListedColormap(SEISMIC_COLORS)
+            norm = BoundaryNorm(SEISMIC_BOUNDS, cmap.N)
+            hazard.assign(_plot_value=numeric).plot(
+                ax=ax,
+                column="_plot_value",
+                cmap=cmap,
+                norm=norm,
+                linewidth=0,
+                edgecolor="none",
+                alpha=0.58,
+                legend=False,
+                zorder=3,
+            )
+            add_seismic_legend(ax)
+            return
+
+        cmap_name = "plasma_r" if "liquefaction" in hazard_name.lower() else "viridis"
+        hazard.assign(_plot_value=numeric).plot(
+            ax=ax,
+            column="_plot_value",
+            cmap=cmap_name,
+            linewidth=0,
+            edgecolor="none",
+            alpha=0.55,
+            legend=False,
+            zorder=3,
+        )
+        add_compact_numeric_colorbar(
+            ax,
+            numeric.to_numpy(),
+            cmap_name,
+            numeric_col,
+        )
+        return
+
+    if is_area_like(hazard):
+        hazard.plot(
+            ax=ax,
+            color="#69b3a2",
+            edgecolor="#2f6f62",
+            linewidth=0.4,
+            alpha=0.45,
+            zorder=3,
+        )
+    else:
+        hazard.plot(
+            ax=ax,
+            color="#2f6f62",
+            markersize=12,
+            alpha=0.75,
+            zorder=3,
+        )
+
+
+def add_heritage_legend(ax, seismic_legend_present: bool = False) -> None:
+    handles = [
+        Line2D(
+            [0], [0],
+            marker="o", linestyle="",
+            color="#8f8f8f",
+            markersize=6,
+            label="文化財 point（領域外）",
+        ),
+        Line2D(
+            [0], [0],
+            marker="o", linestyle="",
+            color="#d7301f",
+            markersize=6,
+            label="文化財 point（領域内）",
+        ),
+        Line2D(
+            [0], [0],
+            marker="s", linestyle="",
+            markerfacecolor="#6f6f6f",
+            markeredgecolor="#2b2b2b",
+            markersize=7,
+            label="文化財 building footprint",
+        ),
+    ]
+    ax.legend(
+        handles=handles,
+        loc="lower left",
+        fontsize=8,
+        frameon=True,
+    )
+
+
 def plot_city_hazard(
     out_png: Path,
     city_name: str,
@@ -328,79 +485,81 @@ def plot_city_hazard(
     subtitle: Optional[str] = None,
     zoom: int = 14,
 ) -> None:
-    fig, ax = plt.subplots(1, 1, figsize=(8.5, 8.5))
+    # Keep the map axes stable. No GeoPandas auto colorbar is allowed to resize it.
+    fig, ax = plt.subplots(figsize=(9.0, 7.4))
 
     minx, miny, maxx, maxy = admin_city.total_bounds
     dx = maxx - minx
     dy = maxy - miny
     pad_x = max(dx * 0.08, 0.003)
     pad_y = max(dy * 0.08, 0.003)
+    plot_bounds = (minx - pad_x, miny - pad_y, maxx + pad_x, maxy + pad_y)
 
-    ax.set_xlim(minx - pad_x, maxx + pad_x)
-    ax.set_ylim(miny - pad_y, maxy + pad_y)
+    ax.set_xlim(plot_bounds[0], plot_bounds[2])
+    ax.set_ylim(plot_bounds[1], plot_bounds[3])
 
     add_gsi_basemap(ax, crs="EPSG:4326", zoom=zoom)
 
-    # city boundary
-    admin_city.boundary.plot(ax=ax, color="black", linewidth=1.4, zorder=2)
+    plot_hazard_surface(ax, hazard_name, hazard, numeric_col)
 
-    # hazard
-    if not hazard.empty:
-        if numeric_col and numeric_col in hazard.columns:
-            # "震度大=紫, 小=黄" 方向に合わせて plasma_r を基本採用
-            cmap = "plasma_r" if ("seismic" in hazard_name.lower() or "liquefaction" in hazard_name.lower()) else "viridis"
-            hazard.plot(
-                ax=ax,
-                column=numeric_col,
-                cmap=cmap,
-                linewidth=0.2,
-                edgecolor="none",
-                alpha=0.55,
-                legend=True,
-                zorder=3,
-            )
-        else:
-            if is_area_like(hazard):
-                hazard.plot(ax=ax, color="#69b3a2", edgecolor="#2f6f62", linewidth=0.4, alpha=0.45, zorder=3)
-            else:
-                hazard.plot(ax=ax, color="#2f6f62", markersize=12, alpha=0.75, zorder=3)
-
-    # points: outside first, inside highlighted
+    # points: outside first, footprints above points, inside points highlighted last
     points_out, points_in = classify_points_by_hazard(points, hazard)
 
     if not points_out.empty:
-        points_out.plot(ax=ax, color="#9e9e9e", markersize=12, alpha=0.85, zorder=4)
+        points_out.plot(
+            ax=ax,
+            color="#8f8f8f",
+            markersize=12,
+            alpha=0.85,
+            zorder=4,
+        )
 
-    # footprints over points per user preference
     if not footprints.empty:
-        footprints.plot(ax=ax, facecolor="#6f6f6f", edgecolor="#2b2b2b", linewidth=0.25, alpha=0.85, zorder=5)
+        footprints.plot(
+            ax=ax,
+            facecolor="#6f6f6f",
+            edgecolor="#2b2b2b",
+            linewidth=0.35,
+            alpha=0.85,
+            zorder=5,
+        )
 
     if not points_in.empty:
-        points_in.plot(ax=ax, color="#d7301f", markersize=16, alpha=0.95, zorder=6)
+        points_in.plot(
+            ax=ax,
+            color="#d7301f",
+            markersize=16,
+            alpha=0.95,
+            zorder=6,
+        )
 
-    # title
-    title = f"{city_name} | {hazard_name}"
+    # city boundary on top
+    admin_city.boundary.plot(
+        ax=ax,
+        color="black",
+        linewidth=1.35,
+        zorder=7,
+    )
+
+    title = f"{city_name}｜{hazard_name}"
     if subtitle:
         title += f"\n{subtitle}"
-    ax.set_title(title, fontsize=12)
+    ax.set_title(title, fontsize=13, pad=9)
 
-    # legend
-    legend_handles = [
-        Line2D([0], [0], marker="o", color="w", markerfacecolor="#9e9e9e", markersize=7, label="文化財 point（領域外）"),
-        Line2D([0], [0], marker="o", color="w", markerfacecolor="#d7301f", markersize=7, label="文化財 point（領域内）"),
-        Line2D([0], [0], marker="s", color="#2b2b2b", markerfacecolor="#6f6f6f", markersize=7, label="文化財 building footprint"),
-    ]
-    ax.legend(handles=legend_handles, loc="lower left", fontsize=8, frameon=True)
+    add_heritage_legend(ax, seismic_legend_present=is_seismic_layer(hazard_name))
 
     ax.set_xlabel("")
     ax.set_ylabel("")
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_aspect("equal", adjustable="box")
-    fig.tight_layout()
+
+    # Fixed margins prevent colorbar/legend from creating the tall blank canvas
+    # seen with GeoPandas legend=True.
+    fig.subplots_adjust(left=0.035, right=0.985, bottom=0.04, top=0.90)
 
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_png, dpi=220, bbox_inches="tight")
+    fig.savefig(out_png, dpi=220, bbox_inches="tight", pad_inches=0.08)
     plt.close(fig)
 
 
