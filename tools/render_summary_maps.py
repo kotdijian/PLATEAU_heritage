@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-Render Summary Results maps from 13_heritage_hazards.gpkg.
+Render Summary Results overview maps from 13_heritage_hazards.gpkg.
 
 Requires outputs from build_summary_results.py in --results-dir.
-Detail maps use GSI pale-map tiles through contextily at zoom 16.
+
+Detail and municipality maps are handled separately:
+- tools/render_city_hazard_focus.py : non-inundation hazards
+- tools/render_inundation_map.py    : inundation hazards
 """
 
 from __future__ import annotations
 
 import argparse
-import math
 import re
 import sqlite3
 from pathlib import Path
@@ -23,13 +25,6 @@ from matplotlib.patches import Patch
 import numpy as np
 import pandas as pd
 import pyogrio
-from pyproj import Transformer
-
-try:
-    import contextily as ctx
-except Exception:
-    ctx = None
-
 
 OVERVIEW_SCENARIOS = [
     "都心南部直下地震",
@@ -41,22 +36,6 @@ OVERVIEW_SCENARIOS = [
     "大正関東地震",
     "南海トラフ巨大地震",
 ]
-
-# Detail maps keep the previously selected five representative scenarios.
-DETAIL_SCENARIOS = [
-    "都心南部直下地震",
-    "都心東部直下地震",
-    "都心西部直下地震",
-    "大正関東地震",
-    "南海トラフ巨大地震",
-]
-
-DETAIL_CENTERS = {
-    "東京駅": (35.68126, 139.76671),
-    "東京都立上野高校": (35.7186246, 139.7698412),
-    "JR両国駅": (35.6957371, 139.7936379),
-    "東京メトロ田原町駅": (35.70984, 139.79076),
-}
 
 # (min_lon, min_lat, max_lon, max_lat)
 REGION_BBOX = {
@@ -78,12 +57,6 @@ SEISMIC_LABELS = ["5弱未満", "5弱", "5強", "6弱", "6強以上"]
 SEISMIC_BOUNDS = [-10, 4.5, 5.0, 5.5, 6.0, 10]
 DEPTH_LABELS = ["0", "0–0.5 m", "0.5–3 m", "3–5 m", "5 m以上"]
 DEPTH_BOUNDS = [-1e-12, 1e-12, 0.5, 3.0, 5.0, 1e6]
-
-WEBMERC = 3857
-WGS84 = 4326
-TO_3857 = Transformer.from_crs(WGS84, WEBMERC, always_xy=True)
-TO_4326 = Transformer.from_crs(WEBMERC, WGS84, always_xy=True)
-
 
 def configure_fonts() -> None:
     candidates = ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP"]
@@ -110,21 +83,6 @@ def gpkg_contents(source: Path) -> pd.DataFrame:
             "SELECT table_name,data_type,min_x,min_y,max_x,max_y,srs_id FROM gpkg_contents ORDER BY table_name",
             con,
         )
-
-
-def bbox_intersects(a, b) -> bool:
-    return not (a[2] < b[0] or a[0] > b[2] or a[3] < b[1] or a[1] > b[3])
-
-
-def webmerc_bbox(center_lat: float, center_lon: float, radius_m: float) -> tuple[float, float, float, float]:
-    x, y = TO_3857.transform(center_lon, center_lat)
-    return (x - radius_m, y - radius_m, x + radius_m, y + radius_m)
-
-
-def bbox_3857_to_4326(b) -> tuple[float, float, float, float]:
-    minlon, minlat = TO_4326.transform(b[0], b[1])
-    maxlon, maxlat = TO_4326.transform(b[2], b[3])
-    return (minlon, minlat, maxlon, maxlat)
 
 
 def discrete_cmap(n: int, name: str = "viridis"):
@@ -748,227 +706,6 @@ def plot_tsunami_overviews(
         )
         plt.close(fig)
 
-def read_detail_context(source: Path, locations: gpd.GeoDataFrame, bbox4326):
-    footprints = read_layer_bbox(source, "heritage_buildings_footprint_riskwide", bbox4326, ["record_ids", "heritage_type_majors"])
-    pts = locations.cx[bbox4326[0]:bbox4326[2], bbox4326[1]:bbox4326[3]].copy()
-    return footprints.to_crs(3857), pts.to_crs(3857)
-
-
-
-def add_gsi_basemap(ax):
-    """Use GSI pale-map tiles for detail maps; continue without tiles on failure."""
-    if ctx is None:
-        print("[basemap] contextily unavailable; continuing without background tiles")
-        return
-    try:
-        ctx.add_basemap(
-            ax,
-            source="https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png",
-            zoom=16,
-            attribution="地理院タイル（国土地理院）",
-            attribution_size=6,
-        )
-    except Exception as exc:
-        print(f"[basemap] GSI tile failed: {type(exc).__name__}: {exc}")
-        print("[basemap] continuing without background tiles")
-
-def overlay_heritage(ax, footprints, points):
-    # Draw point observations first, then filled PLATEAU footprints above them.
-    if not points.empty:
-        points.plot(ax=ax, markersize=15, color="black", marker="o", alpha=0.9, zorder=6)
-    if not footprints.empty:
-        footprints.plot(
-            ax=ax,
-            facecolor="#555555",
-            edgecolor="black",
-            linewidth=0.45,
-            alpha=0.78,
-            zorder=7,
-        )
-
-
-def detail_base(center_lat, center_lon, radius_m):
-    b3857 = webmerc_bbox(center_lat, center_lon, radius_m)
-    b4326 = bbox_3857_to_4326(b3857)
-    return b3857, b4326
-
-
-def detail_seismic(source: Path, center_name: str, lat: float, lon: float, radius: float, outdir: Path, locations):
-    b3857, b4326 = detail_base(lat, lon, radius)
-    footprints, points = read_detail_context(source, locations, b4326)
-    cmap, norm = seismic_cmap_norm()
-    for scenario in DETAIL_SCENARIOS:
-        layer = f"hazard_seismic_50m_{scenario}"
-        hz = read_layer_bbox(source, layer, b4326, ["seismic_intensity"])
-        out = outdir / f"{center_name}_seismic_{scenario}.png"
-        if hz.empty:
-            continue
-        hz = hz.to_crs(3857)
-        fig, ax = plt.subplots(figsize=(9, 9))
-        hz.plot(column="seismic_intensity", ax=ax, cmap=cmap, norm=norm, linewidth=0, alpha=0.62, zorder=2)
-        add_gsi_basemap(ax); overlay_heritage(ax, footprints, points)
-        ax.set_xlim(b3857[0], b3857[2]); ax.set_ylim(b3857[1], b3857[3]); ax.set_axis_off()
-        ax.set_title(f"{center_name} Z=16：想定震度 {scenario}")
-        add_discrete_legend(ax, cmap, SEISMIC_LABELS, "想定震度")
-        fig.tight_layout(); fig.savefig(out, dpi=220, bbox_inches="tight"); plt.close(fig)
-
-
-def detail_fire(source: Path, center_name: str, lat: float, lon: float, radius: float, outdir: Path, locations):
-    b3857, b4326 = detail_base(lat, lon, radius)
-    footprints, points = read_detail_context(source, locations, b4326)
-
-    # Read the full town-level layer so the T360mm risk attribute is retained.
-    hz = read_fire_full(source, b4326)
-    if hz.empty:
-        return
-
-    value_col = fire_value_column(hz)
-    hz = hz.to_crs(3857)
-
-    fig, ax = plt.subplots(figsize=(9, 9))
-    if value_col is not None:
-        vals = sorted(pd.to_numeric(hz[value_col], errors="coerce").dropna().unique().tolist())
-        print(f"[detail fire] {center_name}: value_col={value_col!r}, unique={vals}")
-        plot_fire_classes(ax, hz, value_col, alpha=0.58, legend=True)
-    else:
-        hz.plot(ax=ax, color="#f4a261", alpha=0.5, linewidth=0, zorder=2)
-        print(f"[detail fire] {center_name}: WARNING risk value column not found")
-
-    add_gsi_basemap(ax)
-    overlay_heritage(ax, footprints, points)
-    ax.set_xlim(b3857[0], b3857[2]); ax.set_ylim(b3857[1], b3857[3]); ax.set_axis_off()
-    ax.set_title(f"{center_name} Z=16：地震時延焼危険度")
-    fig.tight_layout()
-    fig.savefig(outdir / f"{center_name}_fire.png", dpi=220, bbox_inches="tight")
-    plt.close(fig)
-
-
-def detail_inundation(source: Path, contents: pd.DataFrame, center_name: str, lat: float, lon: float, radius: float, outdir: Path, locations):
-    b3857, b4326 = detail_base(lat, lon, radius)
-    footprints, points = read_detail_context(source, locations, b4326)
-
-    layers = []
-    for _, r in contents[
-        contents["table_name"].str.startswith("hazard_inundation_", na=False)
-    ].iterrows():
-        ext = (r.min_x, r.min_y, r.max_x, r.max_y)
-        if bbox_intersects(ext, b4326):
-            layers.append(r.table_name)
-
-    if not layers:
-        return
-
-    cmap, norm = depth_cmap_norm()
-    fig, ax = plt.subplots(figsize=(9, 9))
-    used = []
-
-    for layer in layers:
-        if layer.startswith("hazard_inundation_a31a_"):
-            hz = read_layer_bbox(
-                source, layer, b4326,
-                ["depth_class_summary", "depth_rank_code", "river_name"]
-            )
-            if hz.empty:
-                continue
-            hz = hz.copy()
-            hz["_depth_plot"] = a31a_depth_plot_values(hz)
-            hz = hz.to_crs(3857)
-            hz.plot(
-                ax=ax,
-                column="_depth_plot",
-                cmap=cmap,
-                norm=norm,
-                linewidth=0,
-                alpha=0.58,
-                zorder=2,
-            )
-            used.append("A31a " + layer.replace("hazard_inundation_a31a_", ""))
-            continue
-
-        hz = read_layer_bbox(source, layer, b4326, ["inundation_depth_m"])
-        if hz.empty:
-            continue
-        hz = hz.to_crs(3857)
-        # Existing Tokyo inundation source is a published point grid.
-        hz.plot(
-            ax=ax,
-            column="inundation_depth_m",
-            cmap=cmap,
-            norm=norm,
-            markersize=4,
-            alpha=0.65,
-            zorder=2,
-        )
-        used.append(layer.replace("hazard_inundation_", ""))
-
-    if not used:
-        plt.close(fig)
-        return
-
-    add_gsi_basemap(ax)
-    overlay_heritage(ax, footprints, points)
-    ax.set_xlim(b3857[0], b3857[2]); ax.set_ylim(b3857[1], b3857[3])
-    ax.set_axis_off()
-    ax.set_title(f"{center_name} Z=16：浸水予想区域")
-    add_discrete_legend(ax, cmap, DEPTH_LABELS, "想定浸水深")
-    ax.text(
-        0.01, 0.01,
-        "重ね合わせ: " + ", ".join(used),
-        transform=ax.transAxes,
-        fontsize=6,
-        va="bottom",
-        zorder=10,
-    )
-    fig.tight_layout()
-    fig.savefig(outdir / f"{center_name}_inundation.png", dpi=220, bbox_inches="tight")
-    plt.close(fig)
-
-
-def detail_storm(source: Path, center_name: str, lat: float, lon: float, radius: float, outdir: Path, locations):
-    b3857, b4326 = detail_base(lat, lon, radius)
-    footprints, points = read_detail_context(source, locations, b4326)
-    hz = read_layer_bbox(source, "hazard_storm_surge_depth", b4326, ["DepthM"])
-    if hz.empty:
-        return
-    hz = hz.to_crs(3857); cmap, norm = depth_cmap_norm()
-    fig, ax = plt.subplots(figsize=(9, 9))
-    hz.plot(column="DepthM", ax=ax, cmap=cmap, norm=norm, linewidth=0, alpha=0.6, zorder=2)
-    add_gsi_basemap(ax); overlay_heritage(ax, footprints, points)
-    ax.set_xlim(b3857[0], b3857[2]); ax.set_ylim(b3857[1], b3857[3]); ax.set_axis_off()
-    ax.set_title(f"{center_name} Z=16：高潮浸水想定")
-    add_discrete_legend(ax, cmap, DEPTH_LABELS, "想定浸水深")
-    fig.tight_layout(); fig.savefig(outdir / f"{center_name}_storm_surge.png", dpi=220, bbox_inches="tight"); plt.close(fig)
-
-
-def detail_tsunami(source: Path, contents: pd.DataFrame, center_name: str, lat: float, lon: float, radius: float, outdir: Path, locations):
-    b3857, b4326 = detail_base(lat, lon, radius)
-    footprints, points = read_detail_context(source, locations, b4326)
-    layer_names = contents[contents["table_name"].str.startswith("hazard_tsunami_depth_", na=False)]["table_name"].tolist()
-    groups = {}
-    for layer in layer_names:
-        row = contents[contents["table_name"] == layer].iloc[0]
-        ext = (row.min_x, row.min_y, row.max_x, row.max_y)
-        if not bbox_intersects(ext, b4326): continue
-        area, scenario = parse_tsunami_layer(layer)
-        groups.setdefault(scenario, []).append((layer, area))
-    cmap, norm = depth_cmap_norm()
-    for scenario, items in groups.items():
-        fig, ax = plt.subplots(figsize=(9, 9)); used=[]
-        for layer, area in items:
-            hz = read_layer_bbox(source, layer, b4326, ["inundation_depth_max_m"])
-            if hz.empty: continue
-            hz = hz.to_crs(3857)
-            hz.plot(ax=ax, column="inundation_depth_max_m", cmap=cmap, norm=norm, markersize=4, alpha=0.65, zorder=2)
-            used.append(area)
-        if not used:
-            plt.close(fig); continue
-        add_gsi_basemap(ax); overlay_heritage(ax, footprints, points)
-        ax.set_xlim(b3857[0], b3857[2]); ax.set_ylim(b3857[1], b3857[3]); ax.set_axis_off()
-        ax.set_title(f"{center_name} Z=16：津波浸水深 {scenario}")
-        add_discrete_legend(ax, cmap, DEPTH_LABELS, "想定浸水深")
-        fig.tight_layout(); fig.savefig(outdir / f"{center_name}_tsunami_{scenario}.png", dpi=220, bbox_inches="tight"); plt.close(fig)
-
-
 def plot_risk_distribution(results_dir: Path, points: gpd.GeoDataFrame, overview_dir: Path, boundaries=None):
     risk_file = results_dir / "tables" / "record_risk_types.csv"
     if not risk_file.exists(): return
@@ -1005,73 +742,78 @@ def plot_risk_distribution(results_dir: Path, points: gpd.GeoDataFrame, overview
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("source", type=Path)
-    ap.add_argument("--results-dir", type=Path, default=Path("summary_results"))
-    ap.add_argument("--stage", choices=["overview","detail","all"], default="all")
-    ap.add_argument("--detail-radius-m", type=float, default=1000.0, help="Half-width/height around each Z=16 center")
+    ap = argparse.ArgumentParser(
+        description="Render Summary Results overview maps."
+    )
+    ap.add_argument(
+        "source",
+        type=Path,
+        help="Canonical 13_heritage_hazards.gpkg",
+    )
+    ap.add_argument(
+        "--results-dir",
+        type=Path,
+        default=Path("summary_results"),
+    )
     args = ap.parse_args()
 
     configure_fonts()
-    source = args.source.expanduser().resolve(); results = args.results_dir.expanduser().resolve()
-    cache_loc = results / "cache" / "analysis_locations.gpkg"
-    if not source.exists(): raise SystemExit(f"ERROR source not found: {source}")
-    if not cache_loc.exists(): raise SystemExit("ERROR: run build_summary_results.py first; analysis_locations.gpkg is missing")
 
-    figures = results / "figures"
-    overview = figures / "overview"
-    detail = figures / "detail"
-    city = figures / "city"
-    inundation_center = detail / "inundation_center"
+    source = args.source.expanduser().resolve()
+    results = args.results_dir.expanduser().resolve()
+
+    if not source.exists():
+        raise SystemExit(f"ERROR source not found: {source}")
+
+    cache_loc = results / "cache" / "analysis_locations.gpkg"
+    if not cache_loc.exists():
+        raise SystemExit(
+            "ERROR: run build_summary_results.py first; "
+            "analysis_locations.gpkg is missing"
+        )
+
+    overview = results / "figures" / "overview"
     overview.mkdir(parents=True, exist_ok=True)
-    detail.mkdir(parents=True, exist_ok=True)
-    city.mkdir(parents=True, exist_ok=True)
-    inundation_center.mkdir(parents=True, exist_ok=True)
+
     tables = results / "tables"
-    locations = pyogrio.read_dataframe(cache_loc, layer="analysis_locations")
+
+    locations = pyogrio.read_dataframe(
+        cache_loc,
+        layer="analysis_locations",
+    )
     locations = ensure_wgs84(locations)
+
     contents = gpkg_contents(source)
 
-    admin = pyogrio.read_dataframe(source, layer="admin_boundary_n03_2024")
+    admin = pyogrio.read_dataframe(
+        source,
+        layer="admin_boundary_n03_2024",
+    )
     admin = ensure_wgs84(admin)
 
-    if args.stage in ("overview","all"):
-        print("=== OVERVIEW MAPS ===")
-        plot_choropleth(source, tables, overview)
-        rep = locations.drop_duplicates("record_id")
-        for category in ["designation_level","designation_status","heritage_type_major"]:
-            for region,bbox in REGION_BBOX.items():
-                plot_categorical_points(
-                    rep, category, bbox,
-                    f"{REGION_LABEL[region]}：{category}",
-                    overview / f"points_{category}_{region}.png",
-                    admin if region=="mainland" else None,
-                )
-        plot_risk_distribution(results, rep, overview, admin)
-        for scenario in OVERVIEW_SCENARIOS:
-            layer = f"hazard_seismic_50m_{scenario}"
-            for region in REGION_BBOX:
-                print(f"[overview seismic] {scenario} / {region}")
-                plot_seismic_overview(source, layer, scenario, region, rep, overview / f"seismic_{scenario}_{region}.png", admin if region=="mainland" else None)
-        plot_fire_overview(source, rep, overview / "fire_mainland.png", admin)
-        plot_inundation_overviews(source, contents, rep, overview, tables, admin)
-        plot_storm_overview(source, rep, overview / "storm_surge_mainland.png", admin)
-        plot_tsunami_overviews(source, contents, rep, overview, admin)
+    print("=== OVERVIEW MAPS ===")
+    plot_choropleth(source, tables, overview)
+    rep = locations.drop_duplicates("record_id")
+    for category in ["designation_level","designation_status","heritage_type_major"]:
+        for region,bbox in REGION_BBOX.items():
+            plot_categorical_points(
+                rep, category, bbox,
+                f"{REGION_LABEL[region]}：{category}",
+                overview / f"points_{category}_{region}.png",
+                admin if region=="mainland" else None,
+            )
+    plot_risk_distribution(results, rep, overview, admin)
+    for scenario in OVERVIEW_SCENARIOS:
+        layer = f"hazard_seismic_50m_{scenario}"
+        for region in REGION_BBOX:
+            print(f"[overview seismic] {scenario} / {region}")
+            plot_seismic_overview(source, layer, scenario, region, rep, overview / f"seismic_{scenario}_{region}.png", admin if region=="mainland" else None)
+    plot_fire_overview(source, rep, overview / "fire_mainland.png", admin)
+    plot_inundation_overviews(source, contents, rep, overview, tables, admin)
+    plot_storm_overview(source, rep, overview / "storm_surge_mainland.png", admin)
+    plot_tsunami_overviews(source, contents, rep, overview, admin)
 
-    if args.stage in ("detail","all"):
-        print("=== Z=16 DETAIL MAPS ===")
-        for name,(lat,lon) in DETAIL_CENTERS.items():
-            outdir = detail / name
-            outdir.mkdir(parents=True, exist_ok=True)
-            print(f"[detail] {name}")
-            detail_seismic(source,name,lat,lon,args.detail_radius_m,outdir,locations)
-            detail_fire(source,name,lat,lon,args.detail_radius_m,outdir,locations)
-            detail_inundation(source,contents,name,lat,lon,args.detail_radius_m,inundation_center,locations)
-            detail_storm(source,name,lat,lon,args.detail_radius_m,outdir,locations)
-            detail_tsunami(source,contents,name,lat,lon,args.detail_radius_m,outdir,locations)
-
-    print("SUCCESS:", figures)
-    print("folders:", overview, detail, city)
+    print("SUCCESS:", overview)
 
 
 if __name__ == "__main__":
