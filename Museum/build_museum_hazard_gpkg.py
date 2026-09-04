@@ -18,7 +18,7 @@ import re
 import shutil
 import sqlite3
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -112,7 +112,7 @@ FACILITY_TYPE_PRIORITY = {
 LINK_FIELDS = [
     "link_id", "museum_id", "building_gml_id", "building_id", "building_role",
     "match_status", "match_methods", "exact_name", "exact_address",
-    "point_in_building", "detailed_usage_match", "candidate_building_count",
+    "site_address_match", "point_in_building", "detailed_usage_match", "candidate_building_count",
     "manual_override", "review_required", "matched_at", "source_gml",
 ]
 UNRESOLVED_FIELDS = [
@@ -154,6 +154,23 @@ def first_nonempty(rows: list[dict[str, str]], field: str, *, longest: bool = Fa
 
 def display_name(value: str) -> str:
     return re.sub(r"^[◎○〇●]\s*", "", text(value)).strip()
+
+
+def museum_address_key(value: str) -> str:
+    """Canonical exact-address key, ignoring only redundant country/prefecture text."""
+    key = compact_address(value)
+    key = re.sub(r"^(?:〒)?\d{3}-?\d{4}", "", key)
+    key = re.sub(r"^(?:日本)?東京都", "", key)
+    return key if re.search(r"\d", key) else ""
+
+
+def museum_site_address_key(value: str) -> str:
+    """Base street/parcel key; building name and floor remain review-only differences."""
+    key = museum_address_key(value)
+    if not re.search(r"\d", key):
+        return ""
+    match = re.match(r"^(.+?\d+(?:-\d+){1,3})(?=[^\d-]|$)", key)
+    return match.group(1) if match else key
 
 
 def infer_ownership(name: str, municipality_name: str) -> tuple[str, str]:
@@ -426,33 +443,42 @@ def has_museum_keyword(value: str) -> bool:
 def index_facilities(facilities: list[dict[str, Any]]):
     by_city_name: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     by_city_address: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    by_city_site_address: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for facility in facilities:
         city = text(facility["municipality_code"])
         name_key = normalize_name(text(facility["canonical_name"]))
-        address_key = compact_address(facility["address"])
+        address_key = museum_address_key(facility["address"])
+        site_address_key = museum_site_address_key(facility["address"])
         if city and name_key:
             by_city_name[(city, name_key)].append(facility)
         if city and address_key:
             by_city_address[(city, address_key)].append(facility)
-    return by_city_name, by_city_address
+        if city and site_address_key:
+            by_city_site_address[(city, site_address_key)].append(facility)
+    return by_city_name, by_city_address, by_city_site_address
 
 
 def match_buildings(buildings, facilities: list[dict[str, Any]]):
-    by_city_name, by_city_address = index_facilities(facilities)
+    by_city_name, by_city_address, by_city_site_address = index_facilities(facilities)
     links: list[dict[str, Any]] = []
     building_status: dict[str, dict[str, Any]] = {}
 
     for building in buildings:
         city = text(building.city_code)
         name_key = normalize_name(text(building.name))
-        address_key = compact_address(building.address)
+        address_key = museum_address_key(building.address)
+        site_address_key = museum_site_address_key(building.address)
         usage_code, usage_label, usage_codespace, detail_code, detail_label, detail_codespace = building_usage(building)
         strong_usage = detail_code in STRONG_DETAILED_USAGE
         keyword_candidate = has_museum_keyword(building.name)
         name_hits = by_city_name.get((city, name_key), []) if name_key else []
         address_hits = by_city_address.get((city, address_key), []) if address_key else []
+        site_address_hits = (
+            by_city_site_address.get((city, site_address_key), []) if site_address_key else []
+        )
         facilities_by_id = {
-            row["museum_id"]: row for row in [*name_hits, *address_hits]
+            row["museum_id"]: row
+            for row in [*name_hits, *address_hits, *site_address_hits]
         }
 
         confirmed_ids: list[str] = []
@@ -460,6 +486,7 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
         for facility_id, facility in sorted(facilities_by_id.items()):
             exact_name = facility in name_hits
             exact_address = facility in address_hits
+            site_address = facility in site_address_hits and not exact_address
             # Address plus an exact museum/zoo detailed-use code is accepted only
             # when the source address identifies one facility. Shared addresses
             # remain reviewable because campuses and complexes can contain several.
@@ -470,6 +497,8 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 methods.append("exact_name")
             if exact_address:
                 methods.append("exact_address")
+            if site_address:
+                methods.append("site_address")
             if strong_usage:
                 methods.append("detailed_usage")
             links.append({
@@ -482,6 +511,7 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 "match_methods": ";".join(methods),
                 "exact_name": int(exact_name),
                 "exact_address": int(exact_address),
+                "site_address_match": int(site_address),
                 "point_in_building": 0,
                 "detailed_usage_match": int(strong_usage),
                 "candidate_building_count": 0,
@@ -906,6 +936,12 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     confirmed, candidates = building_frames(buildings, facilities, links, building_status)
     cities_with_files = {plateau_file.city_code for plateau_file in plateau_files}
     facilities_out, unresolved = facility_status_rows(facilities, links, cities_with_files)
+    match_method_counts = Counter(
+        method
+        for link in links
+        for method in text(link.get("match_methods")).split(";")
+        if method
+    )
     summary = {
         "source_gpkg": str(source_gpkg),
         "output_gpkg": str(output_gpkg),
@@ -920,8 +956,11 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "confirmed_museum_buildings": len(confirmed),
         "candidate_museum_buildings": len(candidates),
         "building_links": len(links),
+        "building_link_status_counts": dict(Counter(link["match_status"] for link in links)),
+        "match_method_counts": dict(match_method_counts),
         "confirmed_facilities": sum(row["match_status"] == "confirmed" for row in facilities_out),
         "unresolved_facilities": len(unresolved),
+        "unresolved_reason_counts": dict(Counter(row["reason"] for row in unresolved)),
         "dry_run": bool(args.dry_run),
     }
 

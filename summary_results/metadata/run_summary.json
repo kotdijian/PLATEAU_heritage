@@ -1,6 +1,6 @@
 {
   "source": "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg",
-  "source_size_bytes": 12510273536,
+  "source_size_bytes": 12537577472,
   "all_records": 4423,
   "main_non_movable_records": 2866,
   "movable_records": 1557,
@@ -15,5 +15,6 @@
   ],
   "water_point_grid_max_distance_m": 25.0,
   "skip_point_water": false,
-  "risk_type_rows": 4449
+  "a31a_flood_records": 241,
+  "risk_type_rows": 4464
 }

@@ -1,18 +1,6 @@
 {
-  "generated": "2026-09-05T07:25:50.842989+09:00",
   "source": "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg",
   "layers": {
-    "hazard_inundation_a31a_荒川": {
-      "river": "荒川",
-      "polygon_count": 17080,
-      "matched_record_count": 196,
-      "depth_class_counts": {
-        "0–0.5 m": 27,
-        "0.5–3 m": 120,
-        "3–5 m": 39,
-        "5 m以上": 10
-      }
-    },
     "hazard_inundation_a31a_多摩川": {
       "river": "多摩川",
       "polygon_count": 23477,
@@ -23,6 +11,19 @@
         "3–5 m": 8,
         "5 m以上": 1
       }
+    },
+    "hazard_inundation_a31a_荒川": {
+      "river": "荒川",
+      "polygon_count": 17080,
+      "matched_record_count": 196,
+      "depth_class_counts": {
+        "0–0.5 m": 27,
+        "0.5–3 m": 120,
+        "3–5 m": 39,
+        "5 m以上": 10
+      }
     }
-  }
+  },
+  "combined_rows": 241,
+  "unique_records": 241
 }

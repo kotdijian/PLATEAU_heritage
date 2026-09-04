@@ -1,0 +1,57 @@
+GML files: 17
+  scan GML [1/17]: 53394549_bldg_6697_op.gml
+  scan GML [2/17]: 53394557_bldg_6697_op.gml
+  scan GML [3/17]: 53394558_bldg_6697_op.gml
+  scan GML [4/17]: 53394559_bldg_6697_op.gml
+  scan GML [5/17]: 53394567_bldg_6697_op.gml
+  scan GML [6/17]: 53394568_bldg_6697_op.gml
+  scan GML [7/17]: 53394569_bldg_6697_op.gml
+  scan GML [8/17]: 53394579_bldg_6697_op.gml
+  scan GML [9/17]: 53394589_bldg_6697_op.gml
+  scan GML [10/17]: 53394631_bldg_6697_op.gml
+  scan GML [11/17]: 53394640_bldg_6697_op.gml
+  scan GML [12/17]: 53394641_bldg_6697_op.gml
+  scan GML [13/17]: 53394650_bldg_6697_op.gml
+  scan GML [14/17]: 53394651_bldg_6697_op.gml
+  scan GML [15/17]: 53394660_bldg_6697_op.gml
+  scan GML [16/17]: 53394661_bldg_6697_op.gml
+  scan GML [17/17]: 53394670_bldg_6697_op.gml
+
+Buildings: 58205
+name present: 243
+address present: 54430
+usage present: 58205
+detailed_usage present: 58205
+museum/zoo detailed usage: 0
+
+Attribute samples:
+{'gml_id': 'bldg_728237e0-6d3b-43aa-b275-0183c14229b9', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '412', 'detailed_usage': '1320'}
+{'gml_id': 'bldg_90bb6a55-7483-4892-b04c-fab2f5d824ac', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_fe9f9e49-d1f3-4f3e-9061-3317be8b324f', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_e711f6ad-8b60-4459-a134-f880a095f760', 'name': '', 'address': '', 'usage': '461', 'detailed_usage': '0'}
+{'gml_id': 'bldg_27d7eb04-e860-4ce6-9afe-820bd5306849', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '415', 'detailed_usage': '1420'}
+{'gml_id': 'bldg_eef3ce51-4897-4f26-8924-fccef17194de', 'name': '', 'address': '日本 東京都新宿区神楽坂二丁目', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_b2e2ae1f-1070-4d01-8730-92d1424886a2', 'name': '', 'address': '日本 東京都新宿区筑土八幡町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_bacac236-fba2-49ba-84b7-274e36a2fbf7', 'name': '', 'address': '日本 東京都千代田区飯田橋三丁目', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_556e2abb-6abf-40a7-b427-ac687098b03c', 'name': '', 'address': '日本 東京都新宿区白銀町', 'usage': '413', 'detailed_usage': '1230'}
+{'gml_id': 'bldg_baf41f86-41d4-4e2b-8933-5ad894394667', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_f9d286b9-9e37-4cd5-b99f-9e4dc5c462f2', 'name': '', 'address': '日本 東京都新宿区袋町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_15d52afd-d5d7-4782-a783-eafe8c1937b9', 'name': '', 'address': '日本 東京都新宿区東五軒町', 'usage': '441', 'detailed_usage': '1410'}
+{'gml_id': 'bldg_d4644a7b-9354-40ff-b3ce-38a5113308d6', 'name': '', 'address': '日本 東京都新宿区筑土八幡町', 'usage': '421', 'detailed_usage': '1110'}
+{'gml_id': 'bldg_5f31cec8-281c-400a-9ca9-217cc284d3e5', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_07e78171-6d17-477a-b08d-7762d39ecac0', 'name': '', 'address': '日本 東京都新宿区若宮町', 'usage': '402', 'detailed_usage': '1242'}
+{'gml_id': 'bldg_03ee17ab-fd9c-45ed-90f7-f8b5671b3552', 'name': '', 'address': '日本 東京都文京区後楽二丁目', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_2d50c0b2-b419-4dfd-928b-4b00d909ef4e', 'name': '', 'address': '日本 東京都新宿区新小川町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_336ca968-0303-4700-93b0-2e02b0fddab9', 'name': '', 'address': '日本 東京都新宿区東五軒町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_04f0b3b5-24bd-43c9-b5a6-a9675ed5d560', 'name': '', 'address': '日本 東京都新宿区東五軒町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_5a1cfcf9-ce34-43f0-a758-953230b35566', 'name': '', 'address': '日本 東京都新宿区新小川町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_738aaee2-156d-4762-88c2-600ab05797ba', 'name': '', 'address': '日本 東京都新宿区神楽坂三丁目', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_9a3c8f88-030a-4668-a644-595f58283d7a', 'name': '', 'address': '日本 東京都千代田区飯田橋三丁目', 'usage': '431', 'detailed_usage': '1431'}
+{'gml_id': 'bldg_de863755-6b0d-42d6-b67c-495a3a1ad842', 'name': '', 'address': '日本 東京都新宿区神楽坂四丁目', 'usage': '413', 'detailed_usage': '1230'}
+{'gml_id': 'bldg_ae2bedb9-db0d-4d6a-8060-116287c86f64', 'name': '', 'address': '日本 東京都新宿区下宮比町', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_5d0073ef-d113-4203-b568-06f38a6649ea', 'name': '', 'address': '日本 東京都新宿区神楽坂二丁目', 'usage': '412', 'detailed_usage': '1320'}
+{'gml_id': 'bldg_febdcc7b-2bc1-4ac6-b6d6-95bd113cbd83', 'name': '住友不動産飯田橋ファーストタワー', 'address': '日本 東京都文京区後楽二丁目', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_cd10d14b-dea8-4fad-8f16-1963ef1bb8ff', 'name': '', 'address': '日本 東京都新宿区神楽坂二丁目', 'usage': '401', 'detailed_usage': '1210'}
+{'gml_id': 'bldg_3df671b7-1529-470b-b593-a48cdd31f3af', 'name': '', 'address': '日本 東京都新宿区袋町', 'usage': '411', 'detailed_usage': '1310'}
+{'gml_id': 'bldg_e3b50527-31f8-44d4-91de-a3d0829cd27b', 'name': '', 'address': '日本 東京都新宿区新小川町', 'usage': '413', 'detailed_usage': '1230'}
+{'gml_id': 'bldg_4eba18db-fe04-42b8-a919-fbb8ac12b07e', 'name': '', 'address': '日本 東京都千代田区富士見二丁目', 'usage': '402', 'detailed_usage': '1221'}

@@ -4366,6 +4366,21 @@ official_export_003:73,river_flooding,13105,文京区,National,Designated,記念
 official_export_003:75,river_flooding,13104,新宿区,National,Designated,記念物,天然記念物,point,林氏墓地
 official_export_003:8,river_flooding,13105,文京区,National,Designated,記念物,天然記念物,point,大塚先儒墓所
 official_export_003:9,river_flooding,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚
+187,river_flooding,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓
+132080100005,river_flooding,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館
+132080100006,river_flooding,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館
+132080100018,river_flooding,13208,調布市,Tokyo Metropolitan,Designated,記念物,史跡,point,狐塚古墳(下布田6号墳)
+132080100056,river_flooding,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,調布の臼
+132080100066,river_flooding,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安四年銘阿弥陀一尊板碑
+132080100067,river_flooding,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安五年銘阿弥陀三尊板碑
+132080100068,river_flooding,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,文明三年銘阿弥陀図像板碑
+official_export_003:35,river_flooding,13208,調布市,National,Designated,記念物,天然記念物,point,下布田遺跡
+132152100026,river_flooding,13215,国立市,Municipal,Designated,有形文化財,未細分,point,古民家(旧柳澤家住宅)
+132152100040,river_flooding,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園鐘楼附鐘
+132152100095,river_flooding,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(青柳)
+132152100098,river_flooding,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(青柳・嘉永二年在銘)
+132152100101,river_flooding,13215,国立市,Municipal,Registered,有形文化財,未細分,point,手水石(安政三年在銘)
+official_export_001:113,river_flooding,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋
 1.32209E+11,landslide,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札)
 102,landslide,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞
 104,landslide,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙

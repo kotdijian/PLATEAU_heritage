@@ -12,7 +12,9 @@ from Museum.build_museum_hazard_gpkg import (
     default_output_path,
     load_museum_data,
     match_buildings,
+    museum_address_key,
     museum_query_address,
+    museum_site_address_key,
     write_attribute_table,
 )
 
@@ -72,6 +74,21 @@ class ManifestTests(unittest.TestCase):
             "千代田区 テスト博物館",
         )
 
+    def test_address_keys_absorb_prefecture_and_keep_site_suffix_separate(self):
+        self.assertEqual(
+            museum_address_key("東京都文京区後楽1丁目3番61号"),
+            "文京区後楽1-3-61",
+        )
+        self.assertEqual(
+            museum_address_key("文京区後楽1丁目3番61号 東京ドームシティ6F"),
+            "文京区後楽1-3-61東京ドームシティ6f",
+        )
+        self.assertEqual(
+            museum_site_address_key("文京区後楽1丁目3番61号 東京ドームシティ6F"),
+            "文京区後楽1-3-61",
+        )
+        self.assertEqual(museum_address_key("立て替えのため休館中"), "")
+
 
 class MatchingTests(unittest.TestCase):
     def test_exact_name_and_municipality_confirms(self):
@@ -97,6 +114,15 @@ class MatchingTests(unittest.TestCase):
         )
         self.assertEqual(links[0]["match_status"], "needs_review")
         self.assertEqual(states["b3"]["status"], "needs_review")
+
+    def test_site_address_with_building_suffix_requires_review(self):
+        links, states = match_buildings(
+            [building("b5", address="東京都文京区後楽1丁目3番61号")],
+            [facility("m5", "テスト館", "文京区後楽1丁目3番61号 東京ドームシティ6F")],
+        )
+        self.assertEqual(links[0]["match_status"], "needs_review")
+        self.assertEqual(links[0]["match_methods"], "site_address")
+        self.assertEqual(states["b5"]["status"], "needs_review")
 
     def test_detailed_usage_without_source_match_is_candidate_only(self):
         links, states = match_buildings(
