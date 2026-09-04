@@ -1,0 +1,193 @@
+[
+  {
+    "source_id": "bunka_museum_guide",
+    "source_name": "文化庁 博物館総合サイト・全国の博物館",
+    "source_role": "core",
+    "source_tier": "A",
+    "collector": "bunka_core",
+    "url": "https://museum.bunka.go.jp/guide/",
+    "scope": "東京都の登録博物館・指定施設",
+    "reference_count": "83 registered + 50 designated",
+    "notes": "法律上の位置づけを持つ施設の中核名簿"
+  },
+  {
+    "source_id": "cultural_heritage_online",
+    "source_name": "文化遺産オンライン参加館",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "manifest_only",
+    "url": "https://online.bunka.go.jp/",
+    "scope": "全国の参加博物館・美術館等。東京都所在館を抽出対象とする",
+    "reference_count": "1096 nationwide participants (2026-09-04 display)",
+    "notes": "有力な追加ソース。参加館方式であり法的区分とは別。館一覧取得アダプターは次段で追加"
+  },
+  {
+    "source_id": "japan_museum_association",
+    "source_name": "日本博物館協会 会員館紹介",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "manifest_only",
+    "url": "https://www.j-muse.or.jp/introduction/",
+    "scope": "東京地域の会員館。館種・住所・電話・公式サイト",
+    "reference_count": "about 1100 nationwide members",
+    "notes": "検索画面型。安定した一括取得方法を確認後に自動取得対象へ移す"
+  },
+  {
+    "source_id": "jcsm",
+    "source_name": "全国科学博物館協議会 加盟館リスト",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "jcsm",
+    "url": "https://jcsm.jp/list/membership/",
+    "scope": "東京都の科学館・科学系博物館",
+    "reference_count": "21 Tokyo entries at initial inspection",
+    "notes": "館名・住所を取得"
+  },
+  {
+    "source_id": "zenbunkyo",
+    "source_name": "全国文学館協議会 会員館一覧",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "manifest_only",
+    "url": "https://zenbunkyo.com/members",
+    "scope": "東京都の文学館・文学資料施設",
+    "reference_count": "not fixed",
+    "notes": "施設名・住所を公開。サイト構造確認後に自動取得対象へ移す"
+  },
+  {
+    "source_id": "university_museum_council",
+    "source_name": "大学博物館等協議会",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "manifest_only",
+    "url": "https://univ-museum.jp/",
+    "scope": "大学博物館・資料室",
+    "reference_count": "45 member organizations (2025-07)",
+    "notes": "大学施設の候補発見に使用"
+  },
+  {
+    "source_id": "jaza_zoo",
+    "source_name": "日本動物園水族館協会 正会員名簿・動物園",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "jaza_table",
+    "url": "https://www.jaza.jp/about-jaza/structure/list-zoo",
+    "scope": "住所が東京都の動物園",
+    "reference_count": "8 Tokyo entries at initial inspection",
+    "facility_type": "zoo",
+    "notes": "名簿日付も取得ページ本文で確認する"
+  },
+  {
+    "source_id": "jaza_aquarium",
+    "source_name": "日本動物園水族館協会 正会員名簿・水族館",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "jaza_table",
+    "url": "https://www.jaza.jp/about-jaza/structure/list-aquarium",
+    "scope": "住所が東京都の水族館",
+    "reference_count": "5 Tokyo entries at initial inspection",
+    "facility_type": "aquarium",
+    "notes": "名簿日付も取得ページ本文で確認する"
+  },
+  {
+    "source_id": "japan_aquarium_association",
+    "source_name": "日本水族館協会 正会員",
+    "source_role": "supplement",
+    "source_tier": "B",
+    "collector": "jaa",
+    "url": "https://www.j-aqua.org/member/",
+    "scope": "所在地欄が東京の正会員",
+    "reference_count": "4 Tokyo entries at initial inspection",
+    "facility_type": "aquarium_or_living_collection",
+    "notes": "公開表に住所がないため所在地詳細は別ソースで要確認"
+  },
+  {
+    "source_id": "chiyoda_museum_network",
+    "source_name": "千代田ミュージアムネットワーク",
+    "source_role": "supplement",
+    "source_tier": "C",
+    "collector": "chiyoda",
+    "url": "https://museum.net.city.chiyoda.lg.jp/list/",
+    "scope": "千代田区内の参加館",
+    "reference_count": "36 participants at initial inspection",
+    "notes": "大学資料室・宝物殿・図書館ギャラリー等を含む"
+  },
+  {
+    "source_id": "bunkyo_muse_net",
+    "source_name": "文の京ミュージアムネットワーク",
+    "source_role": "supplement",
+    "source_tier": "C",
+    "collector": "bunkyo",
+    "url": "https://www.city.bunkyo.lg.jp/b014/p004189.html",
+    "scope": "文京ミューズネット加入施設",
+    "reference_count": "38 facilities",
+    "notes": "区公式表から名称・電話・住所・公式URLを取得"
+  },
+  {
+    "source_id": "minato_museum_network",
+    "source_name": "港区ミュージアムネットワーク",
+    "source_role": "supplement",
+    "source_tier": "C",
+    "collector": "minato",
+    "url": "https://www.minato-rekishi.com/musenet/museumlist.html",
+    "scope": "港区内の加盟館",
+    "reference_count": "50 facilities at initial inspection",
+    "notes": "企業・私設の小規模展示施設を含む"
+  },
+  {
+    "source_id": "zenbi_small_museum",
+    "source_name": "全国美術館会議 小規模館ネットワーク",
+    "source_role": "supplement",
+    "source_tier": "C",
+    "collector": "manifest_only",
+    "url": "https://www.zenbi.jp/data_list.php?g=103",
+    "scope": "東京都所在の小規模美術館",
+    "reference_count": "7 Tokyo entries at initial inspection",
+    "notes": "施設名・住所を公開"
+  },
+  {
+    "source_id": "small_museum_network_map",
+    "source_name": "小さいとこネット・小さいとこまっぷ",
+    "source_role": "discovery",
+    "source_tier": "D",
+    "collector": "manifest_only",
+    "url": "https://chiisaitokonet.jimdofree.com/%E5%B0%8F%E3%81%95%E3%81%84%E3%81%A8%E3%81%93%E3%81%BE%E3%81%A3%E3%81%B7/",
+    "scope": "小規模館・支援団体等の候補発見",
+    "reference_count": "map updated from 2026",
+    "notes": "人的ネットワークを含むため施設名簿として直接採用しない"
+  },
+  {
+    "source_id": "tokyo_open_data_tourism",
+    "source_name": "東京都オープンデータ・観光施設の分布と一覧",
+    "source_role": "supplement",
+    "source_tier": "C",
+    "collector": "manifest_only",
+    "url": "https://portal.data.metro.tokyo.lg.jp/visualization/distribution-and-list-of-tourist-facilities/",
+    "scope": "15区市の観光施設データセット",
+    "reference_count": "15 municipalities",
+    "notes": "中央・墨田・江東・世田谷・豊島・荒川・練馬・葛飾、青梅・調布・小金井・東村山・狛江・清瀬・あきる野"
+  },
+  {
+    "source_id": "goto_tokyo_links",
+    "source_name": "GO TOKYO 区市町村・観光協会関連リンク",
+    "source_role": "discovery",
+    "source_tier": "D",
+    "collector": "manifest_only",
+    "url": "https://www.gotokyo.org/jp/links/index.html",
+    "scope": "都内自治体・観光協会サイトへの入口",
+    "reference_count": "not a facility count",
+    "notes": "62区市町村の観光系ソース探索に使用"
+  },
+  {
+    "source_id": "tokyo_social_education_survey_r6",
+    "source_name": "令和6年度社会教育調査・東京都博物館類似施設",
+    "source_role": "reference",
+    "source_tier": "R",
+    "collector": "manifest_only",
+    "url": "https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00400004&tstat=000001017254",
+    "scope": "東京都の博物館類似施設の集計値",
+    "reference_count": "210",
+    "notes": "規模の参照値。収集件数の完全一致要件ではなく個別施設差分の根拠にも用いない"
+  }
+]
+

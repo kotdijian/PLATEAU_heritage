@@ -119,4 +119,18 @@ class BuildingRecord:
     usage: str = ""
     detailed_usage: str = ""
     building_id: str = ""
+    usage_label: str = ""
+    usage_codespace: str = ""
+    detailed_usage_label: str = ""
+    detailed_usage_codespace: str = ""
+    measured_height_m: float | None = None
+    storeys_above: int | None = None
+    storeys_below: int | None = None
+    year_of_construction: int | None = None
+    structure_type: str = ""
+    structure_type_label: str = ""
+    structure_type_codespace: str = ""
+    fireproof_type: str = ""
+    fireproof_type_label: str = ""
+    fireproof_type_codespace: str = ""
     disaster_risks: list[DisasterRiskRecord] = field(default_factory=list)

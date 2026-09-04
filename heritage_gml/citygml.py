@@ -175,6 +175,27 @@ def _float_text(e):
         return None
 
 
+def _int_text(e):
+    value = _float_text(e)
+    if value is None or not value.is_integer():
+        return None
+    return int(value)
+
+
+def _length_m(e):
+    value = _float_text(e)
+    if value is None:
+        return None
+    unit = (e.get("uom") or "m").strip().lower()
+    if unit in ("", "m", "meter", "metre", "meters", "metres"):
+        return value
+    if unit in ("cm", "centimeter", "centimetre", "centimeters", "centimetres"):
+        return value / 100.0
+    if unit in ("mm", "millimeter", "millimetre", "millimeters", "millimetres"):
+        return value / 1000.0
+    return None
+
+
 def _first_child(element, wanted: str):
     for e in element.iter():
         if e is element:
@@ -400,13 +421,37 @@ def scan_buildings(files: list[PlateauFile], progress: bool = False):
                         except Exception:
                             fp = None
                         if fp is not None and not fp.is_empty:
+                            usage, usage_label, usage_codespace = _code_info(b, "usage", path)
+                            detailed_usage, detailed_usage_label, detailed_usage_codespace = _code_info(
+                                b, "detailedUsage", path
+                            )
+                            structure_type, structure_type_label, structure_type_codespace = _code_info(
+                                b, "buildingStructureType", path
+                            )
+                            fireproof_type, fireproof_type_label, fireproof_type_codespace = _code_info(
+                                b, "fireproofStructureType", path
+                            )
                             out.append(BuildingRecord(
                                 gml_id=gid, source_file=path, city_code=pf.city_code,
                                 file_code=pf.code, geometry=fp,
                                 name=_first_text(b, ("name",)), address=_address_text(b),
-                                usage=_first_text(b, ("usage",)),
-                                detailed_usage=_first_text(b, ("detailedUsage",)),
+                                usage=usage,
+                                usage_label=usage_label,
+                                usage_codespace=usage_codespace,
+                                detailed_usage=detailed_usage,
+                                detailed_usage_label=detailed_usage_label,
+                                detailed_usage_codespace=detailed_usage_codespace,
                                 building_id=_first_text(b, ("buildingID","buildingId")),
+                                measured_height_m=_length_m(_first_child(b, "measuredHeight")),
+                                storeys_above=_int_text(_first_child(b, "storeysAboveGround")),
+                                storeys_below=_int_text(_first_child(b, "storeysBelowGround")),
+                                year_of_construction=_int_text(_first_child(b, "yearOfConstruction")),
+                                structure_type=structure_type,
+                                structure_type_label=structure_type_label,
+                                structure_type_codespace=structure_type_codespace,
+                                fireproof_type=fireproof_type,
+                                fireproof_type_label=fireproof_type_label,
+                                fireproof_type_codespace=fireproof_type_codespace,
                                 disaster_risks=disaster_risks(b, path),
                             ))
                 elem.clear()

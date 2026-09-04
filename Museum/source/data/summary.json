@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-04T16:20:59+00:00",
+  "reference_social_education_survey_r6": 210,
+  "reference_is_target": false,
+  "core_registered_records": 83,
+  "core_designated_records": 50,
+  "core_total": 133,
+  "supplement_source_records": 162,
+  "supplement_unique_candidates": 112,
+  "duplicate_core_source_records": 43,
+  "duplicate_supplement_source_records": 3,
+  "needs_review_source_records": 4,
+  "combined_unique_estimate": 245,
+  "reference_difference": 35,
+  "reference_ratio": 1.1667,
+  "interpretation": "The 210 facilities are a scale reference, not a required total or record-level denominator."
+}
