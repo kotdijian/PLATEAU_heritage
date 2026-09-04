@@ -1,0 +1,1869 @@
+﻿record_id,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,depth_m,hazard_source,scenario,risk_basis,risk_type,depth_class
+154,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,,,,,tsunami,No data
+official_export_001:11,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,,,,,tsunami,No data
+official_export_001:12,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,,,,,tsunami,No data
+official_export_001:13,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,,,,,tsunami,No data
+official_export_001:14,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,,,,,tsunami,No data
+official_export_001:34,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,,,,,tsunami,No data
+official_export_001:35,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,,,,,tsunami,No data
+official_export_001:63,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,,,,,tsunami,No data
+official_export_001:80,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,,,,,tsunami,No data
+official_export_001:103,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,,,,,tsunami,No data
+official_export_001:114,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,,,,,tsunami,No data
+official_export_001:115,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,,,,,tsunami,No data
+official_export_001:116,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,,,,,tsunami,No data
+official_export_001:117,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,,,,,tsunami,No data
+official_export_001:118,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,,,,,tsunami,No data
+official_export_001:130,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,,,,,tsunami,No data
+official_export_001:192,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,,,,,tsunami,No data
+official_export_002:81,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,,,,,tsunami,No data
+official_export_002:100,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,,,,,tsunami,No data
+official_export_002:116,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,,,,,tsunami,No data
+official_export_002:117,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,,,,,tsunami,No data
+official_export_002:118,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,,,,,tsunami,No data
+official_export_002:119,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,,,,,tsunami,No data
+official_export_002:120,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,,,,,tsunami,No data
+official_export_002:121,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,,,,,tsunami,No data
+official_export_002:122,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,,,,,tsunami,No data
+official_export_002:123,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,,,,,tsunami,No data
+official_export_002:153,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,,,,,tsunami,No data
+official_export_002:181,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,,,,,tsunami,No data
+official_export_002:182,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,,,,,tsunami,No data
+official_export_002:183,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,,,,,tsunami,No data
+official_export_002:287,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),,,,,tsunami,No data
+official_export_002:297,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,,,,,tsunami,No data
+official_export_002:298,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,,,,,tsunami,No data
+official_export_002:299,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,,,,,tsunami,No data
+official_export_002:359,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,,,,,tsunami,No data
+official_export_002:360,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,,,,,tsunami,No data
+official_export_002:384,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,,,,,tsunami,No data
+official_export_002:422,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,,,,,tsunami,No data
+official_export_002:460,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,,,,,tsunami,No data
+official_export_003:3,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,,,,,tsunami,No data
+official_export_003:4,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,,,,,tsunami,No data
+official_export_003:5,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,,,,,tsunami,No data
+official_export_003:50,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,0.7547,区部,南海トラフ巨大地震_ケース1;南海トラフ巨大地震_ケース2;南海トラフ巨大地震_ケース5;南海トラフ巨大地震_ケース6;南海トラフ巨大地震_ケース8;南海トラフ巨大地震_全5ケース最大値;大正関東地震,external point-grid sampling,tsunami,0.5–3 m
+93,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,,,,,tsunami,No data
+131024000000.0,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,0.7832,区部,南海トラフ巨大地震_ケース1;南海トラフ巨大地震_ケース2;南海トラフ巨大地震_ケース5;南海トラフ巨大地震_ケース6;南海トラフ巨大地震_ケース8;南海トラフ巨大地震_全5ケース最大値;大正関東地震,external point-grid sampling,tsunami,0.5–3 m
+official_export_001:10,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,,,,,tsunami,No data
+official_export_001:20,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,,,,,tsunami,No data
+official_export_001:53,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,,,,,tsunami,No data
+official_export_001:99,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,,,,,tsunami,No data
+official_export_001:101,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,,,,,tsunami,No data
+official_export_001:112,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,,,,,tsunami,No data
+official_export_001:113,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,,,,,tsunami,No data
+official_export_001:138,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,,,,,tsunami,No data
+official_export_001:139,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,,,,,tsunami,No data
+official_export_002:53,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,,,,,tsunami,No data
+official_export_002:59,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,,,,,tsunami,No data
+official_export_002:138,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,,,,,tsunami,No data
+official_export_002:179,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),,,,,tsunami,No data
+official_export_002:197,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,,,,,tsunami,No data
+official_export_002:199,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,,,,,tsunami,No data
+official_export_002:200,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,,,,,tsunami,No data
+official_export_002:271,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,,,,,tsunami,No data
+official_export_002:305,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,,,,,tsunami,No data
+official_export_002:396,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,,,,,tsunami,No data
+official_export_002:423,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,,,,,tsunami,No data
+official_export_002:473,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,,,,,tsunami,No data
+official_export_003:20,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,,,,,tsunami,No data
+205,13103,港区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,旧細川邸のシイ,,,,,tsunami,No data
+245,13103,港区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,芝東照宮のイチョウ,,,,,tsunami,No data
+official_export_001:27,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,,,,,tsunami,No data
+official_export_001:28,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,,,,,tsunami,No data
+official_export_001:29,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,,,,,tsunami,No data
+official_export_001:30,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,,,,,tsunami,No data
+official_export_001:31,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,,,,,tsunami,No data
+official_export_001:54,13103,港区,National,Designated,有形文化財,建造物,building_direct,慶応義塾図書館,,,,,tsunami,No data
+official_export_001:55,13103,港区,National,Designated,有形文化財,建造物,building_direct,慶応義塾三田演説館,,,,,tsunami,No data
+official_export_001:82,13103,港区,National,Designated,有形文化財,建造物,building_direct,瑞聖寺大雄宝殿,,,,,tsunami,No data
+official_export_001:93,13103,港区,National,Designated,有形文化財,建造物,building_direct,増上寺三解脱門,,,,,tsunami,No data
+official_export_001:98,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧台徳院霊廟惣門,,,,,tsunami,No data
+official_export_001:106,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧東宮御所(迎賓館赤坂離宮),,,,,tsunami,No data
+official_export_001:127,13103,港区,National,Designated,有形文化財,建造物,building_direct,武家屋敷門,,,,,tsunami,No data
+official_export_001:142,13103,港区,National,Designated,有形文化財,建造物,building_direct,明治学院インブリー館,,,,,tsunami,No data
+official_export_001:194,13103,港区,National,Designated,有形文化財,建造物,building_direct,有章院(徳川家継)霊廟二天門,,,,,tsunami,No data
+official_export_002:58,13103,港区,National,Registered,有形文化財,建造物,building_direct,大倉集古館陳列館,,,,,tsunami,No data
+official_export_002:60,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮表門,,,,,tsunami,No data
+official_export_002:61,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室葵,,,,,tsunami,No data
+official_export_002:62,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室桂,,,,,tsunami,No data
+official_export_002:63,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室守貧庵,,,,,tsunami,No data
+official_export_002:64,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室如庵写,,,,,tsunami,No data
+official_export_002:65,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室山吹,,,,,tsunami,No data
+official_export_002:66,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮中門,,,,,tsunami,No data
+official_export_002:67,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮不老門,,,,,tsunami,No data
+official_export_002:68,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮塀,,,,,tsunami,No data
+official_export_002:126,13103,港区,National,Registered,有形文化財,建造物,building_direct,菊池寛実記念智美術館別館,,,,,tsunami,No data
+official_export_002:198,13103,港区,National,Registered,有形文化財,建造物,building_direct,キリスト友会フレンズセンター,,,,,tsunami,No data
+official_export_002:213,13103,港区,National,Registered,有形文化財,建造物,building_direct,廣度院表門及び練塀,,,,,tsunami,No data
+official_export_002:222,13103,港区,National,Registered,有形文化財,建造物,building_direct,国際文化会館本館,,,,,tsunami,No data
+official_export_002:256,13103,港区,National,Registered,有形文化財,建造物,building_direct,常行院納骨堂,,,,,tsunami,No data
+official_export_002:260,13103,港区,National,Registered,有形文化財,建造物,building_direct,常照院本堂内陣,,,,,tsunami,No data
+official_export_002:267,13103,港区,National,Registered,有形文化財,建造物,building_direct,心光院表門,,,,,tsunami,No data
+official_export_002:268,13103,港区,National,Registered,有形文化財,建造物,building_direct,心光院本堂,,,,,tsunami,No data
+official_export_002:345,13103,港区,National,Registered,有形文化財,建造物,building_direct,東京水産大学雲鷹丸,,,,,tsunami,No data
+official_export_002:356,13103,港区,National,Registered,有形文化財,建造物,building_direct,東京タワー,,,,,tsunami,No data
+official_export_002:365,13103,港区,National,Registered,有形文化財,建造物,building_direct,虎ノ門大坂屋砂場店舗,,,,,tsunami,No data
+official_export_002:415,13103,港区,National,Registered,有形文化財,建造物,building_direct,堀商店,,,,,tsunami,No data
+official_export_002:425,13103,港区,National,Registered,有形文化財,建造物,building_direct,三菱電機高輪荘蔵,,,,,tsunami,No data
+official_export_002:426,13103,港区,National,Registered,有形文化財,建造物,building_direct,三菱電機高輪荘主屋,,,,,tsunami,No data
+official_export_002:427,13103,港区,National,Registered,有形文化財,建造物,building_direct,三菱電機高輪荘洋館,,,,,tsunami,No data
+official_export_002:435,13103,港区,National,Registered,有形文化財,建造物,building_direct,妙定院上土蔵,,,,,tsunami,No data
+official_export_002:436,13103,港区,National,Registered,有形文化財,建造物,building_direct,妙定院熊野堂,1.586,区部,南海トラフ巨大地震_ケース1;南海トラフ巨大地震_ケース2;南海トラフ巨大地震_ケース5;南海トラフ巨大地震_ケース6;南海トラフ巨大地震_ケース8;南海トラフ巨大地震_全5ケース最大値;大正関東地震,external point-grid sampling,tsunami,0.5–3 m
+official_export_003:1,13103,港区,National,Designated,記念物,天然記念物,point,浅野長矩墓および赤穂義士墓,,,,,tsunami,No data
+official_export_003:11,13103,港区,National,Designated,記念物,天然記念物,point,荻生徂徠墓,,,,,tsunami,No data
+official_export_003:17,13103,港区,National,Designated,記念物,天然記念物,point,旧芝離宮庭園,,,,,tsunami,No data
+official_export_003:19,13103,港区,National,Designated,記念物,天然記念物,point,旧新橋停車場跡及び高輪築堤跡,,,,,tsunami,No data
+official_export_003:29,13103,港区,National,Designated,記念物,天然記念物,point,佐藤一斎墓,,,,,tsunami,No data
+official_export_003:33,13103,港区,National,Designated,記念物,天然記念物,point,品川台場,,,,,tsunami,No data
+official_export_003:38,13103,港区,National,Designated,記念物,天然記念物,point,善福寺のイチョウ,,,,,tsunami,No data
+official_export_003:41,13103,港区,National,Designated,記念物,天然記念物,point,高輪大木戸跡,,,,,tsunami,No data
+official_export_003:49,13103,港区,National,Designated,記念物,天然記念物,point,東禅寺,,,,,tsunami,No data
+13104:0,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の銅鳥居,,,,,tsunami,No data
+13104:1,13104,新宿区,Unknown,Unknown,未判定,未細分,point,早稲田大学 坪内博士記念演劇博物館,,,,,tsunami,No data
+13104:2,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の山門「甘露門」,,,,,tsunami,No data
+13104:3,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の山門,,,,,tsunami,No data
+13104:4,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の本殿・幣殿・拝殿,,,,,tsunami,No data
+13104:5,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院本堂,,,,,tsunami,No data
+13104:6,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院七面堂,,,,,tsunami,No data
+13104:7,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺本堂,,,,,tsunami,No data
+13104:8,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺山門,,,,,tsunami,No data
+13104:9,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筑土八幡神社の石造鳥居,,,,,tsunami,No data
+13104:10,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西迎寺の阿弥陀如来座像,,,,,tsunami,No data
+13104:11,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井出世不動尊像,,,,,tsunami,No data
+13104:12,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の唐獅子像,,,,,tsunami,No data
+13104:13,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の三日月不動像,,,,,tsunami,No data
+13104:14,13104,新宿区,Unknown,Unknown,未判定,未細分,point,熊野神社の水鉢,,,,,tsunami,No data
+13104:15,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の金剛力士石像,,,,,tsunami,No data
+13104:16,13104,新宿区,Unknown,Unknown,未判定,未細分,point,誓閑寺の梵鐘,,,,,tsunami,No data
+13104:17,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善国寺の毘沙門天像,,,,,tsunami,No data
+13104:18,13104,新宿区,Unknown,Unknown,未判定,未細分,point,経王寺の大黒天像,,,,,tsunami,No data
+13104:19,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法善寺の七面明神像,,,,,tsunami,No data
+13104:20,13104,新宿区,Unknown,Unknown,未判定,未細分,point,布袋像の水鉢,,,,,tsunami,No data
+13104:21,13104,新宿区,Unknown,Unknown,未判定,未細分,point,須賀神社の三十六歌仙絵,,,,,tsunami,No data
+13104:22,13104,新宿区,Unknown,Unknown,未判定,未細分,point,馬水槽,,,,,tsunami,No data
+13104:23,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺の時の鐘,,,,,tsunami,No data
+13104:24,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺のやぐら時計,,,,,tsunami,No data
+13104:25,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大隈重信銅像,,,,,tsunami,No data
+13104:26,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長善寺(笹寺)のめのう観音像,,,,,tsunami,No data
+13104:27,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鬼王神社の水鉢,,,,,tsunami,No data
+13104:28,13104,新宿区,Unknown,Unknown,未判定,未細分,point,聖徳太子画像,,,,,tsunami,No data
+13104:29,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の観無量寿経曼荼羅,,,,,tsunami,No data
+13104:30,13104,新宿区,Unknown,Unknown,未判定,未細分,point,七人役者図絵馬,,,,,tsunami,No data
+13104:31,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(専福寺),,,,,tsunami,No data
+13104:32,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来立像,,,,,tsunami,No data
+13104:33,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造地蔵菩薩坐像,,,,,tsunami,No data
+13104:34,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(光照寺),,,,,tsunami,No data
+13104:35,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法然上人画像,,,,,tsunami,No data
+13104:36,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西光庵の観無量寿経曼荼羅,,,,,tsunami,No data
+13104:37,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天瑞元堤像 谷文晁筆,,,,,tsunami,No data
+13104:38,13104,新宿区,Unknown,Unknown,未判定,未細分,point,謙堂文益像 谷文晁筆,,,,,tsunami,No data
+13104:39,13104,新宿区,Unknown,Unknown,未判定,未細分,point,八大龍王図 谷文晁筆,,,,,tsunami,No data
+13104:40,13104,新宿区,Unknown,Unknown,未判定,未細分,point,十大弟子図 谷文晁筆,,,,,tsunami,No data
+13104:41,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造大日如来坐像,,,,,tsunami,No data
+13104:42,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造地蔵菩薩半跏像,,,,,tsunami,No data
+13104:43,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺の加藤文麗筆絵画作品,,,,,tsunami,No data
+13104:44,13104,新宿区,Unknown,Unknown,未判定,未細分,point,谷文晁の絵,,,,,tsunami,No data
+13104:45,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の鰐口,,,,,tsunami,No data
+13104:46,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の軍配団扇,,,,,tsunami,No data
+13104:47,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の高僧先達連座画像,,,,,tsunami,No data
+13104:48,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造十一面観音坐像,,,,,tsunami,No data
+13104:49,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の梵鐘,,,,,tsunami,No data
+13104:50,13104,新宿区,Unknown,Unknown,未判定,未細分,point,宝泉寺の梵鐘,,,,,tsunami,No data
+13104:51,13104,新宿区,Unknown,Unknown,未判定,未細分,point,銅造地蔵菩薩半跏像,,,,,tsunami,No data
+13104:52,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の梵鐘,,,,,tsunami,No data
+13104:53,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西迎寺の梵鐘,,,,,tsunami,No data
+13104:54,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の梵鐘,,,,,tsunami,No data
+13104:55,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善慶寺の梵鐘,,,,,tsunami,No data
+13104:56,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法雲寺の梵鐘,,,,,tsunami,No data
+13104:57,13104,新宿区,Unknown,Unknown,未判定,未細分,point,圓照寺の梵鐘,,,,,tsunami,No data
+13104:58,13104,新宿区,Unknown,Unknown,未判定,未細分,point,薬王院の梵鐘,,,,,tsunami,No data
+13104:59,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西應寺の梵鐘,,,,,tsunami,No data
+13104:60,13104,新宿区,Unknown,Unknown,未判定,未細分,point,光照寺の涅槃図,,,,,tsunami,No data
+13104:61,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長安寺の六地蔵塔,,,,,tsunami,No data
+13104:62,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺墓地出土品,,,,,tsunami,No data
+13104:63,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小銅鐸,,,,,tsunami,No data
+13104:64,13104,新宿区,Unknown,Unknown,未判定,未細分,point,隆起線文系土器,,,,,tsunami,No data
+13104:65,13104,新宿区,Unknown,Unknown,未判定,未細分,point,下落合横穴墓出土品,,,,,tsunami,No data
+13104:66,13104,新宿区,Unknown,Unknown,未判定,未細分,point,一行院墓地出土品,,,,,tsunami,No data
+13104:67,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中村家文書,,,,,tsunami,No data
+13104:68,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の歴代宗主銘,,,,,tsunami,No data
+13104:69,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院文書,,,,,tsunami,No data
+13104:70,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社文書,,,,,tsunami,No data
+13104:71,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長厳寺文書,,,,,tsunami,No data
+13104:72,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺文書,,,,,tsunami,No data
+13104:73,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺文書,,,,,tsunami,No data
+13104:74,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大聖院文書,,,,,tsunami,No data
+13104:75,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法身寺文書,,,,,tsunami,No data
+13104:76,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旭地蔵,,,,,tsunami,No data
+13104:77,13104,新宿区,Unknown,Unknown,未判定,未細分,point,子供合埋碑,,,,,tsunami,No data
+13104:78,13104,新宿区,Unknown,Unknown,未判定,未細分,point,式三番奉納額,,,,,tsunami,No data
+13104:79,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧鈴法寺江戸番所資料,,,,,tsunami,No data
+13104:80,13104,新宿区,Unknown,Unknown,未判定,未細分,point,空印の石手水鉢,,,,,tsunami,No data
+13104:81,13104,新宿区,Unknown,Unknown,未判定,未細分,point,堀部武庸加功遺跡之碑,,,,,tsunami,No data
+13104:82,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の日蓮聖人六百遠忌供養塔,,,,,tsunami,No data
+13104:83,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の切支丹灯籠,,,,,tsunami,No data
+13104:84,13104,新宿区,Unknown,Unknown,未判定,未細分,point,諸国旅人供養碑,,,,,tsunami,No data
+13104:85,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部半蔵の槍,,,,,tsunami,No data
+13104:86,13104,新宿区,Unknown,Unknown,未判定,未細分,point,駿馬塚の碑,,,,,tsunami,No data
+13104:87,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月桂寺の切支丹灯籠,,,,,tsunami,No data
+13104:88,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造七面明神半跏像及び宮殿,,,,,tsunami,No data
+13104:89,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造妙見菩薩立像及び宮殿,,,,,tsunami,No data
+13104:90,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造諏訪大明神坐像及び宮殿,,,,,tsunami,No data
+13104:91,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の几号水準点(水鉢台座),,,,,tsunami,No data
+13104:92,13104,新宿区,Unknown,Unknown,未判定,未細分,point,美術工芸品保存桐箱製作(保持者 大坂重雄),,,,,tsunami,No data
+13104:93,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自証院の阿弥陀三尊種子板碑,,,,,tsunami,No data
+13104:94,13104,新宿区,Unknown,Unknown,未判定,未細分,point,来迎寺の庚申塔,,,,,tsunami,No data
+13104:95,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の奪衣婆像,,,,,tsunami,No data
+13104:96,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の備射祭絵馬,,,,,tsunami,No data
+13104:97,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の分木,,,,,tsunami,No data
+13104:98,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自性院の私年号板碑,,,,,tsunami,No data
+13104:99,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の庚申塔,,,,,tsunami,No data
+13104:100,13104,新宿区,Unknown,Unknown,未判定,未細分,point,狛犬型庚申塔,,,,,tsunami,No data
+13104:101,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の閻魔像,,,,,tsunami,No data
+13104:102,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の奪衣婆像,,,,,tsunami,No data
+13104:103,13104,新宿区,Unknown,Unknown,未判定,未細分,point,葛谷御霊神社の力石,,,,,tsunami,No data
+13104:104,13104,新宿区,Unknown,Unknown,未判定,未細分,point,成子天神社の力石,,,,,tsunami,No data
+13104:105,13104,新宿区,Unknown,Unknown,未判定,未細分,point,雨乞のむしろ旗,,,,,tsunami,No data
+13104:106,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の力石,,,,,tsunami,No data
+13104:107,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筑土八幡神社の庚申塔,,,,,tsunami,No data
+13104:108,13104,新宿区,Unknown,Unknown,未判定,未細分,point,尺八「放下着」一式ならびに普化尺八伝授関連資料,,,,,tsunami,No data
+13104:109,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善国寺の石虎,,,,,tsunami,No data
+13104:110,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の狛犬,,,,,tsunami,No data
+13104:111,13104,新宿区,Unknown,Unknown,未判定,未細分,point,巴講睦の獅子頭,,,,,tsunami,No data
+13104:112,13104,新宿区,Unknown,Unknown,未判定,未細分,point,一行院の板碑,,,,,tsunami,No data
+13104:113,13104,新宿区,Unknown,Unknown,未判定,未細分,point,塞神三柱の塔,,,,,tsunami,No data
+13104:114,13104,新宿区,Unknown,Unknown,未判定,未細分,point,全龍寺の庚申塔,,,,,tsunami,No data
+13104:115,13104,新宿区,Unknown,Unknown,未判定,未細分,point,慈雲山観音寺の庚申塔,,,,,tsunami,No data
+13104:116,13104,新宿区,Unknown,Unknown,未判定,未細分,point,下落合二丁目の庚申塔,,,,,tsunami,No data
+13104:117,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧源兵衛村の庚申塔,,,,,tsunami,No data
+13104:118,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の題目塔,,,,,tsunami,No data
+13104:119,13104,新宿区,Unknown,Unknown,未判定,未細分,point,熊野神社の狛犬,,,,,tsunami,No data
+13104:120,13104,新宿区,Unknown,Unknown,未判定,未細分,point,高田馬場の流鏑馬,,,,,tsunami,No data
+13104:121,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の備射祭,,,,,tsunami,No data
+13104:122,13104,新宿区,Unknown,Unknown,未判定,未細分,point,葛谷御霊神社の備謝祭,,,,,tsunami,No data
+13104:123,13104,新宿区,Unknown,Unknown,未判定,未細分,point,丸藤宮元講社の富士講行事,,,,,tsunami,No data
+13104:124,13104,新宿区,Unknown,Unknown,未判定,未細分,point,戸塚囃子,,,,,tsunami,No data
+13104:125,13104,新宿区,Unknown,Unknown,未判定,未細分,point,萩原社中里神楽,,,,,tsunami,No data
+13104:126,13104,新宿区,Unknown,Unknown,未判定,未細分,point,上落合餅つき唄,,,,,tsunami,No data
+13104:127,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鉄砲組百人隊行列,,,,,tsunami,No data
+13104:128,13104,新宿区,Unknown,Unknown,未判定,未細分,point,高松喜六の墓,,,,,tsunami,No data
+13104:129,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部半蔵の墓,,,,,tsunami,No data
+13104:130,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小泉八雲旧居跡,,,,,tsunami,No data
+13104:131,13104,新宿区,Unknown,Unknown,未判定,未細分,point,塙保己一の墓,,,,,tsunami,No data
+13104:132,13104,新宿区,Unknown,Unknown,未判定,未細分,point,山県大弐の墓,,,,,tsunami,No data
+13104:133,13104,新宿区,Unknown,Unknown,未判定,未細分,point,十二社の碑,,,,,tsunami,No data
+13104:134,13104,新宿区,Unknown,Unknown,未判定,未細分,point,松井須磨子の墓,,,,,tsunami,No data
+13104:135,13104,新宿区,Unknown,Unknown,未判定,未細分,point,源清麿の墓,,,,,tsunami,No data
+13104:136,13104,新宿区,Unknown,Unknown,未判定,未細分,point,尾崎紅葉旧居跡,,,,,tsunami,No data
+13104:137,13104,新宿区,Unknown,Unknown,未判定,未細分,point,田村虎蔵旧居跡,,,,,tsunami,No data
+13104:138,13104,新宿区,Unknown,Unknown,未判定,未細分,point,恋川春町の墓,,,,,tsunami,No data
+13104:139,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月岡芳年の墓,,,,,tsunami,No data
+13104:140,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄瑠璃坂の仇討跡,,,,,tsunami,No data
+13104:141,13104,新宿区,Unknown,Unknown,未判定,未細分,point,国産飛行機発祥の地,,,,,tsunami,No data
+13104:142,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大久保の犬御用屋敷跡,,,,,tsunami,No data
+13104:143,13104,新宿区,Unknown,Unknown,未判定,未細分,point,三遊亭円朝旧居跡,,,,,tsunami,No data
+13104:144,13104,新宿区,Unknown,Unknown,未判定,未細分,point,夏目漱石誕生の地,,,,,tsunami,No data
+13104:145,13104,新宿区,Unknown,Unknown,未判定,未細分,point,夏目漱石終焉の地,,,,,tsunami,No data
+13104:146,13104,新宿区,Unknown,Unknown,未判定,未細分,point,便々館湖鯉鮒狂歌碑,,,,,tsunami,No data
+13104:147,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永井荷風旧居跡,,,,,tsunami,No data
+13104:148,13104,新宿区,Unknown,Unknown,未判定,未細分,point,岡崎三郎信康供養塔,,,,,tsunami,No data
+13104:149,13104,新宿区,Unknown,Unknown,未判定,未細分,point,榊原鍵吉の墓,,,,,tsunami,No data
+13104:150,13104,新宿区,Unknown,Unknown,未判定,未細分,point,平秩東作の墓,,,,,tsunami,No data
+13104:151,13104,新宿区,Unknown,Unknown,未判定,未細分,point,二葉亭四迷旧居跡,,,,,tsunami,No data
+13104:152,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大和田建樹終焉の地,,,,,tsunami,No data
+13104:153,13104,新宿区,Unknown,Unknown,未判定,未細分,point,有島武郎旧居跡,,,,,tsunami,No data
+13104:154,13104,新宿区,Unknown,Unknown,未判定,未細分,point,島村抱月終焉の地 (芸術倶楽部跡),,,,,tsunami,No data
+13104:155,13104,新宿区,Unknown,Unknown,未判定,未細分,point,内藤正勝の墓,,,,,tsunami,No data
+13104:156,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筒井政憲の墓,,,,,tsunami,No data
+13104:157,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小泉八雲終焉の地,,,,,tsunami,No data
+13104:158,13104,新宿区,Unknown,Unknown,未判定,未細分,point,紅皿の墓,,,,,tsunami,No data
+13104:159,13104,新宿区,Unknown,Unknown,未判定,未細分,point,坪内逍遙旧居跡(文芸協会演劇研究所跡),,,,,tsunami,No data
+13104:160,13104,新宿区,Unknown,Unknown,未判定,未細分,point,佐伯祐三アトリエの地,,,,,tsunami,No data
+13104:161,13104,新宿区,Unknown,Unknown,未判定,未細分,point,滝沢馬琴終焉の地,,,,,tsunami,No data
+13104:162,13104,新宿区,Unknown,Unknown,未判定,未細分,point,柳田國男旧居跡,,,,,tsunami,No data
+13104:163,13104,新宿区,Unknown,Unknown,未判定,未細分,point,斎藤茂吉終焉の地,,,,,tsunami,No data
+13104:164,13104,新宿区,Unknown,Unknown,未判定,未細分,point,下村湖人終焉の地,,,,,tsunami,No data
+13104:165,13104,新宿区,Unknown,Unknown,未判定,未細分,point,落合秋艸堂跡(會津八一旧居跡),,,,,tsunami,No data
+13104:166,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西條八十旧居跡,,,,,tsunami,No data
+13104:167,13104,新宿区,Unknown,Unknown,未判定,未細分,point,女人芸術社跡(長谷川時雨・三上於菟吉旧居跡),,,,,tsunami,No data
+13104:168,13104,新宿区,Unknown,Unknown,未判定,未細分,point,内村鑑三終焉の地(今井館聖書講堂跡),,,,,tsunami,No data
+13104:169,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鈴木三重吉終焉の地(「赤い鳥」社跡),,,,,tsunami,No data
+13104:170,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鏑木清方旧居跡,,,,,tsunami,No data
+13104:171,13104,新宿区,Unknown,Unknown,未判定,未細分,point,辰野金吾の墓,,,,,tsunami,No data
+13104:172,13104,新宿区,Unknown,Unknown,未判定,未細分,point,牛込城跡,,,,,tsunami,No data
+13104:173,13104,新宿区,Unknown,Unknown,未判定,未細分,point,富塚跡,,,,,tsunami,No data
+13104:174,13104,新宿区,Unknown,Unknown,未判定,未細分,point,便々館湖鯉鮒の墓,,,,,tsunami,No data
+13104:175,13104,新宿区,Unknown,Unknown,未判定,未細分,point,成子天神社の富士塚,,,,,tsunami,No data
+13104:176,13104,新宿区,Unknown,Unknown,未判定,未細分,point,生田春月旧居跡,,,,,tsunami,No data
+13104:177,13104,新宿区,Unknown,Unknown,未判定,未細分,point,泉鏡花旧居跡,,,,,tsunami,No data
+13104:178,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林芙美子終焉の地,,,,,tsunami,No data
+13104:179,13104,新宿区,Unknown,Unknown,未判定,未細分,point,塚本明毅の墓碑,,,,,tsunami,No data
+13104:180,13104,新宿区,Unknown,Unknown,未判定,未細分,point,萩原宗固の墓,,,,,tsunami,No data
+13104:181,13104,新宿区,Unknown,Unknown,未判定,未細分,point,吉川湊一の墓,,,,,tsunami,No data
+13104:182,13104,新宿区,Unknown,Unknown,未判定,未細分,point,東京府仮小学第三校跡,,,,,tsunami,No data
+13104:183,13104,新宿区,Unknown,Unknown,未判定,未細分,point,シイ,,,,,tsunami,No data
+13104:184,13104,新宿区,Unknown,Unknown,未判定,未細分,point,イチョウ,,,,,tsunami,No data
+13104:185,13104,新宿区,Unknown,Unknown,未判定,未細分,point,末広亭,,,,,tsunami,No data
+13104:186,13104,新宿区,Unknown,Unknown,未判定,未細分,point,歌舞伎町建設記念碑,,,,,tsunami,No data
+13104:187,13104,新宿区,Unknown,Unknown,未判定,未細分,point,六桜社跡,,,,,tsunami,No data
+13104:188,13104,新宿区,Unknown,Unknown,未判定,未細分,point,佐々木活字店,,,,,tsunami,No data
+13104:189,13104,新宿区,Unknown,Unknown,未判定,未細分,point,近衛篤麿公記念碑,,,,,tsunami,No data
+13104:190,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の二宮尊徳像,,,,,tsunami,No data
+13104:191,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長谷川平蔵埋葬の地,,,,,tsunami,No data
+13104:192,13104,新宿区,Unknown,Unknown,未判定,未細分,point,神楽坂の東八拳,,,,,tsunami,No data
+13104:193,13104,新宿区,Unknown,Unknown,未判定,未細分,point,神楽坂をどり,,,,,tsunami,No data
+13104:194,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧近衛邸のケヤキ,,,,,tsunami,No data
+13104:195,13104,新宿区,Unknown,Unknown,未判定,未細分,point,オブジェ「歓び(PLAISIR)」,,,,,tsunami,No data
+13104:196,13104,新宿区,Unknown,Unknown,未判定,未細分,point,源兵衛子育地蔵尊の石造物群,,,,,tsunami,No data
+13104:197,13104,新宿区,Unknown,Unknown,未判定,未細分,point,彰忠碑,,,,,tsunami,No data
+13104:198,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太平洋戦争本土初空襲の地跡,,,,,tsunami,No data
+13104:199,13104,新宿区,Unknown,Unknown,未判定,未細分,point,名曲喫茶らんぶる,,,,,tsunami,No data
+13104:200,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西落合耕地整理記念碑,,,,,tsunami,No data
+13104:201,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧淀橋浄水場蝶型弁,,,,,tsunami,No data
+13104:202,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧淀橋浄水場六角堂,,,,,tsunami,No data
+13104:203,13104,新宿区,Unknown,Unknown,未判定,未細分,point,巴講睦の獅子図屏風,,,,,tsunami,No data
+13104:204,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部良一旧居跡,,,,,tsunami,No data
+13104:205,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天祖神社の神門,,,,,tsunami,No data
+13104:206,13104,新宿区,Unknown,Unknown,未判定,未細分,point,戸山射撃場跡,,,,,tsunami,No data
+13104:207,13104,新宿区,Unknown,Unknown,未判定,未細分,point,喜久井町 戦災者供養観音像,,,,,tsunami,No data
+13104:208,13104,新宿区,Unknown,Unknown,未判定,未細分,point,白糸塚,,,,,tsunami,No data
+13104:209,13104,新宿区,Unknown,Unknown,未判定,未細分,point,獅子吼会の山門,,,,,tsunami,No data
+13104:210,13104,新宿区,Unknown,Unknown,未判定,未細分,point,田島森碑,,,,,tsunami,No data
+13104:211,13104,新宿区,Unknown,Unknown,未判定,未細分,point,忠魂碑,,,,,tsunami,No data
+13104:212,13104,新宿区,Unknown,Unknown,未判定,未細分,point,祭馬碑,,,,,tsunami,No data
+13104:213,13104,新宿区,Unknown,Unknown,未判定,未細分,point,渡辺玉花旧居,,,,,tsunami,No data
+13104:214,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園アパート跡,,,,,tsunami,No data
+13104:215,13104,新宿区,Unknown,Unknown,未判定,未細分,point,美濃国高須藩主 松平家上屋敷跡,,,,,tsunami,No data
+13104:216,13104,新宿区,Unknown,Unknown,未判定,未細分,point,水準点II号,,,,,tsunami,No data
+13104:217,13104,新宿区,Unknown,Unknown,未判定,未細分,point,東京若葉キリスト教会,,,,,tsunami,No data
+13104:218,13104,新宿区,Unknown,Unknown,未判定,未細分,point,稲荷鬼王神社の節分祭,,,,,tsunami,No data
+13104:219,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の節分祭,,,,,tsunami,No data
+13104:220,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の節分祭,,,,,tsunami,No data
+13104:221,13104,新宿区,Unknown,Unknown,未判定,未細分,point,氷川神社の節分祭,,,,,tsunami,No data
+13104:222,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鎧神社の節分祭,,,,,tsunami,No data
+13104:223,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自性院の節分会,,,,,tsunami,No data
+13104:224,13104,新宿区,Unknown,Unknown,未判定,未細分,point,有隣園跡,,,,,tsunami,No data
+13104:225,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の閻魔大王開帳,,,,,tsunami,No data
+13104:226,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の大震災紀念碑,,,,,tsunami,No data
+13104:227,13104,新宿区,Unknown,Unknown,未判定,未細分,point,放生寺の水掛け地蔵と大震火災死亡群霊塔,,,,,tsunami,No data
+13104:228,13104,新宿区,Unknown,Unknown,未判定,未細分,point,文学座アトリエ,,,,,tsunami,No data
+13104:229,13104,新宿区,Unknown,Unknown,未判定,未細分,point,新宿園跡,,,,,tsunami,No data
+13104:230,13104,新宿区,Unknown,Unknown,未判定,未細分,point,弘文学院跡,,,,,tsunami,No data
+13104:231,13104,新宿区,Unknown,Unknown,未判定,未細分,point,ムーラン・ルージュ新宿座跡,,,,,tsunami,No data
+official_export_001:19,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,学習院旧正門,,,,,tsunami,No data
+official_export_001:43,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,旧馬場家牛込邸,,,,,tsunami,No data
+official_export_001:79,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,新宿御苑旧洋館御休所,,,,,tsunami,No data
+official_export_001:84,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,聖徳記念絵画館,,,,,tsunami,No data
+official_export_001:197,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,早稲田大学大隈記念講堂,,,,,tsunami,No data
+official_export_002:11,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,,,,,tsunami,No data
+official_export_002:33,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,一水寮,,,,,tsunami,No data
+official_export_002:158,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,旧島津家住宅アトリエ,,,,,tsunami,No data
+official_export_002:167,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,旧常盤家本館(石合家住宅主屋),,,,,tsunami,No data
+official_export_002:201,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,栗原家住宅稲荷社及び石鳥居,,,,,tsunami,No data
+official_export_002:202,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,栗原家住宅蔵,,,,,tsunami,No data
+official_export_002:203,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,栗原家住宅主屋,,,,,tsunami,No data
+official_export_002:204,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,栗原家住宅門柱及び塀,,,,,tsunami,No data
+official_export_002:269,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,新潮社倉庫,,,,,tsunami,No data
+official_export_002:270,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,新潮社本館,,,,,tsunami,No data
+official_export_002:273,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,鈴木家住宅主屋,,,,,tsunami,No data
+official_export_002:295,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,高橋建築事務所社屋,,,,,tsunami,No data
+official_export_002:388,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,日本バプテストキリスト教目白ヶ丘教会礼拝堂,,,,,tsunami,No data
+official_export_002:433,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,宮城道雄記念館検校の間,,,,,tsunami,No data
+official_export_002:456,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,安与ビル,,,,,tsunami,No data
+official_export_002:465,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,矢来能楽堂,,,,,tsunami,No data
+official_export_003:47,13104,新宿区,National,Designated,記念物,天然記念物,point,哲学堂公園,,,,,tsunami,No data
+official_export_003:69,13104,新宿区,National,Designated,記念物,天然記念物,point,山鹿素行墓,,,,,tsunami,No data
+official_export_003:75,13104,新宿区,National,Designated,記念物,天然記念物,point,林氏墓地,,,,,tsunami,No data
+1,13105,文京区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,湯島天満宮表鳥居,,,,,tsunami,No data
+2,13105,文京区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,求道会館,,,,,tsunami,No data
+155,13105,文京区,Tokyo Metropolitan,Designated,記念物,旧跡,point,藤田東湖護母致命の処,,,,,tsunami,No data
+156,13105,文京区,Tokyo Metropolitan,Designated,記念物,旧跡,point,森?外遺跡,,,,,tsunami,No data
+196,13105,文京区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田楠雄邸庭園,,,,,tsunami,No data
+240,13105,文京区,Tokyo Metropolitan,Designated,記念物,史跡,point,原氏墓所,,,,,tsunami,No data
+official_export_001:4,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,,,,,tsunami,No data
+official_export_001:5,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,,,,,tsunami,No data
+official_export_001:18,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧加賀屋敷御守殿門(赤門),,,,,tsunami,No data
+official_export_001:61,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺月光殿(旧日光院客殿),,,,,tsunami,No data
+official_export_001:62,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺本堂,,,,,tsunami,No data
+official_export_001:83,13105,文京区,National,Designated,有形文化財,建造物,building_direct,スカイハウス(旧菊竹清訓自邸),,,,,tsunami,No data
+official_export_001:102,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧東京医学校本館,,,,,tsunami,No data
+official_export_001:119,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:120,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:121,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:122,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:123,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:124,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_001:125,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,,,,,tsunami,No data
+official_export_002:5,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅倉庫,,,,,tsunami,No data
+official_export_002:6,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅門,,,,,tsunami,No data
+official_export_002:18,13105,文京区,National,Registered,有形文化財,建造物,building_direct,池田家住宅主屋,,,,,tsunami,No data
+official_export_002:26,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五蔵,,,,,tsunami,No data
+official_export_002:27,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五主屋,,,,,tsunami,No data
+official_export_002:39,13105,文京区,National,Registered,有形文化財,建造物,building_direct,今井家住宅蔵,,,,,tsunami,No data
+official_export_002:50,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)主屋,,,,,tsunami,No data
+official_export_002:51,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)門,,,,,tsunami,No data
+official_export_002:52,13105,文京区,National,Registered,有形文化財,建造物,building_direct,エチソウビル,,,,,tsunami,No data
+official_export_002:72,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学表門,,,,,tsunami,No data
+official_export_002:73,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学講堂,,,,,tsunami,No data
+official_export_002:74,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学附属幼稚園園舎,,,,,tsunami,No data
+official_export_002:75,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学本館,,,,,tsunami,No data
+official_export_002:101,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅主屋,,,,,tsunami,No data
+official_export_002:102,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅門及び塀,,,,,tsunami,No data
+official_export_002:103,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅洋館,,,,,tsunami,No data
+official_export_002:174,13105,文京区,National,Registered,有形文化財,建造物,building_direct,旧弘田家住宅主屋,,,,,tsunami,No data
+official_export_002:175,13105,文京区,National,Registered,有形文化財,建造物,building_direct,旧弘田家住宅門柱及び塀,,,,,tsunami,No data
+official_export_002:244,13105,文京区,National,Registered,有形文化財,建造物,building_direct,さかえビル,,,,,tsunami,No data
+official_export_002:250,13105,文京区,National,Registered,有形文化財,建造物,building_direct,島薗家住宅主屋,,,,,tsunami,No data
+official_export_002:266,13105,文京区,National,Registered,有形文化財,建造物,building_direct,進開屋,,,,,tsunami,No data
+official_export_002:272,13105,文京区,National,Registered,有形文化財,建造物,building_direct,新町館(三宅家住宅),,,,,tsunami,No data
+official_export_002:279,13105,文京区,National,Registered,有形文化財,建造物,building_direct,瀬川家住宅(旧古市家住宅)蔵,,,,,tsunami,No data
+official_export_002:280,13105,文京区,National,Registered,有形文化財,建造物,building_direct,瀬川家住宅(旧古市家住宅)主屋,,,,,tsunami,No data
+official_export_002:288,13105,文京区,National,Registered,有形文化財,建造物,building_direct,髙木家住宅離れ,,,,,tsunami,No data
+official_export_002:289,13105,文京区,National,Registered,有形文化財,建造物,building_direct,髙木家住宅洋館,,,,,tsunami,No data
+official_export_002:301,13105,文京区,National,Registered,有形文化財,建造物,building_direct,田口家住宅主屋,,,,,tsunami,No data
+official_export_002:303,13105,文京区,National,Registered,有形文化財,建造物,building_direct,棚澤書店,,,,,tsunami,No data
+official_export_002:313,13105,文京区,National,Registered,有形文化財,建造物,building_direct,椿山荘残月,,,,,tsunami,No data
+official_export_002:314,13105,文京区,National,Registered,有形文化財,建造物,building_direct,椿山荘三重塔,,,,,tsunami,No data
+official_export_002:328,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京カテドラル鐘塔,,,,,tsunami,No data
+official_export_002:329,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京カテドラル聖マリア大聖堂,,,,,tsunami,No data
+official_export_002:347,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学工学部1号館,,,,,tsunami,No data
+official_export_002:348,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学工学部列品館,,,,,tsunami,No data
+official_export_002:350,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学大講堂(安田講堂),,,,,tsunami,No data
+official_export_002:351,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学法学部3号館,,,,,tsunami,No data
+official_export_002:352,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学法文1号館,,,,,tsunami,No data
+official_export_002:353,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学法文2号館,,,,,tsunami,No data
+official_export_002:354,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学本郷正門及び門衛所,,,,,tsunami,No data
+official_export_002:355,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京大学野球場観覧席・ダッグアウト及びフェンス,,,,,tsunami,No data
+official_export_002:358,13105,文京区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水駅出入口上家,,,,,tsunami,No data
+official_export_002:379,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団根津教会,,,,,tsunami,No data
+official_export_002:380,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団根津教会門及び塀,,,,,tsunami,No data
+official_export_002:382,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団本郷中央教会,,,,,tsunami,No data
+official_export_002:383,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団弓町本郷教会,,,,,tsunami,No data
+official_export_002:387,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本聖公会東京教区東京諸聖徒教会礼拝堂,,,,,tsunami,No data
+official_export_002:390,13105,文京区,National,Registered,有形文化財,建造物,building_direct,橋本家住宅,,,,,tsunami,No data
+official_export_002:397,13105,文京区,National,Registered,有形文化財,建造物,building_direct,はん亭,,,,,tsunami,No data
+official_export_002:406,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅蔵,,,,,tsunami,No data
+official_export_002:407,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅主屋,,,,,tsunami,No data
+official_export_002:408,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅茶室,,,,,tsunami,No data
+official_export_002:409,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅茶室門,,,,,tsunami,No data
+official_export_002:410,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅門,,,,,tsunami,No data
+official_export_002:411,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅洋館,,,,,tsunami,No data
+official_export_002:414,13105,文京区,National,Registered,有形文化財,建造物,building_direct,鳳明館本館,,,,,tsunami,No data
+official_export_002:419,13105,文京区,National,Registered,有形文化財,建造物,building_direct,松井家住宅表門及び塀,,,,,tsunami,No data
+official_export_002:420,13105,文京区,National,Registered,有形文化財,建造物,building_direct,松井家住宅主屋,,,,,tsunami,No data
+official_export_002:421,13105,文京区,National,Registered,有形文化財,建造物,building_direct,松井家住宅蔵,,,,,tsunami,No data
+official_export_002:454,13105,文京区,National,Registered,有形文化財,建造物,building_direct,森博士の家,,,,,tsunami,No data
+official_export_002:459,13105,文京区,National,Registered,有形文化財,建造物,building_direct,山﨑家住宅主屋,,,,,tsunami,No data
+official_export_002:461,13105,文京区,National,Registered,有形文化財,建造物,building_direct,山脇家住宅表門及び塀,,,,,tsunami,No data
+official_export_002:462,13105,文京区,National,Registered,有形文化財,建造物,building_direct,山脇家住宅主屋,,,,,tsunami,No data
+official_export_002:463,13105,文京区,National,Registered,有形文化財,建造物,building_direct,弥生正緑館(渋谷家住宅洋館)主屋,,,,,tsunami,No data
+official_export_002:464,13105,文京区,National,Registered,有形文化財,建造物,building_direct,弥生正緑館(渋谷家住宅洋館)庭門,,,,,tsunami,No data
+official_export_003:8,13105,文京区,National,Designated,記念物,天然記念物,point,大塚先儒墓所,,,,,tsunami,No data
+official_export_003:12,13105,文京区,National,Designated,記念物,天然記念物,point,懐徳館庭園(旧加賀藩主前田氏本郷本邸庭園),,,,,tsunami,No data
+official_export_003:23,13105,文京区,National,Designated,記念物,天然記念物,point,小石川後楽園,,,,,tsunami,No data
+official_export_003:24,13105,文京区,National,Designated,記念物,天然記念物,point,小石川植物園(御薬園跡及び養生所跡),,,,,tsunami,No data
+official_export_003:40,13105,文京区,National,Designated,記念物,天然記念物,point,高島秋帆墓,,,,,tsunami,No data
+official_export_003:70,13105,文京区,National,Designated,記念物,天然記念物,point,弥生二丁目遺跡,,,,,tsunami,No data
+official_export_003:71,13105,文京区,National,Designated,記念物,天然記念物,point,湯島聖堂,,,,,tsunami,No data
+official_export_003:73,13105,文京区,National,Designated,記念物,天然記念物,point,六義園,,,,,tsunami,No data
+3,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,浅草寺六角堂,,,,,tsunami,No data
+94,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,西仏板碑,,,,,tsunami,No data
+157,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,戸田茂睡墓,,,,,tsunami,No data
+158,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,六地蔵石燈籠,,,,,tsunami,No data
+159,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川庄右衛門及び同清右衛門墓,,,,,tsunami,No data
+160,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,大久保主水墓,,,,,tsunami,No data
+161,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,谷文晁墓,,,,,tsunami,No data
+162,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,幡随院長兵衛墓,,,,,tsunami,No data
+163,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,慈海僧正墓,,,,,tsunami,No data
+164,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛飾北斎墓,,,,,tsunami,No data
+165,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田宗?墓,,,,,tsunami,No data
+166,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,了翁禅師塔碑,,,,,tsunami,No data
+167,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,天海僧正毛髪塔,,,,,tsunami,No data
+168,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,樋口定伊墓,,,,,tsunami,No data
+169,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山岡鉄舟墓,,,,,tsunami,No data
+170,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,三遊亭円朝墓,,,,,tsunami,No data
+206,13106,台東区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,玉林寺のシイ,,,,,tsunami,No data
+241,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,太宰春台墓,,,,,tsunami,No data
+242,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,浄厳律師墓,,,,,tsunami,No data
+243,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,子規庵,,,,,tsunami,No data
+244,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,中村不折旧宅(書道博物館),,,,,tsunami,No data
+131067100003,13106,台東区,Municipal,Designated,民俗文化財,有形民俗文化財,point,旧吉田屋酒店,,,,,tsunami,No data
+131067100027,13106,台東区,Municipal,Other,記念物,史跡,point,狩野芳崖墓 附 狩野芳崖翁碑,,,,,tsunami,No data
+131067100029,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,石造宝篋印塔,,,,,tsunami,No data
+131067100039,13106,台東区,Municipal,Other,記念物,史跡,point,大沼枕山墓,,,,,tsunami,No data
+131067100046,13106,台東区,Municipal,Other,記念物,史跡,point,藤堂家墓所,,,,,tsunami,No data
+131067100047,13106,台東区,Municipal,Other,記念物,史跡,point,河鍋暁斎墓,,,,,tsunami,No data
+131067100052,13106,台東区,Municipal,Other,記念物,史跡,point,福地源一郎(桜痴)墓,,,,,tsunami,No data
+131067100053,13106,台東区,Municipal,Other,記念物,史跡,point,横山大観旧居,,,,,tsunami,No data
+131067100059,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,延寿寺日荷堂絵馬群,,,,,tsunami,No data
+131067100060,13106,台東区,Municipal,Other,記念物,史跡,point,柴田是真墓,,,,,tsunami,No data
+131067100066,13106,台東区,Municipal,Other,記念物,史跡,point,町田久成墓,,,,,tsunami,No data
+131067100067,13106,台東区,Municipal,Other,記念物,史跡,point,田中芳男墓,,,,,tsunami,No data
+131067100075,13106,台東区,Municipal,Designated,民俗文化財,有形民俗文化財,point,浅草浅間神社本殿并びに諸資料 付 境内地,,,,,tsunami,No data
+131067100100,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,橋場地域の生活資料(鈴木家資料),,,,,tsunami,No data
+131067100101,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,橋場地域の生活資料(東城家資料),,,,,tsunami,No data
+131067100110,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,上野広小路三橋遺構 附 出土近世遺物一括,,,,,tsunami,No data
+131067100116,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,庚申塔,,,,,tsunami,No data
+131067100132,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,大太刀(陰陽丸),,,,,tsunami,No data
+131067100134,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,石造多宝塔,,,,,tsunami,No data
+131067100146,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,今戸人形の型,,,,,tsunami,No data
+131067100147,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,浅草寺絵馬・扁額群,,,,,tsunami,No data
+131067100159,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,今戸人形の型(追加),,,,,tsunami,No data
+131067100162,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(和書),,,,,tsunami,No data
+131067100163,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(一枚刷),,,,,tsunami,No data
+131067100168,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん〔芝居番付類(一枚刷)〕,,,,,tsunami,No data
+131067100171,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(古文書),,,,,tsunami,No data
+131067100174,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(羽子板),,,,,tsunami,No data
+131067100178,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(五月人形),,,,,tsunami,No data
+131067100181,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(雛人形),,,,,tsunami,No data
+131067100182,13106,台東区,Municipal,Other,記念物,史跡,point,渋沢栄一家墓所,,,,,tsunami,No data
+131067100187,13106,台東区,Municipal,Other,記念物,史跡,point,徳川家光薨去に伴う殉死者の墓,,,,,tsunami,No data
+official_export_001:0,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,,,,,tsunami,No data
+official_export_001:1,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,,,,,tsunami,No data
+official_export_001:6,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),,,,,tsunami,No data
+official_export_001:7,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),,,,,tsunami,No data
+official_export_001:8,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),,,,,tsunami,No data
+official_export_001:9,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧因州池田屋敷表門,,,,,tsunami,No data
+official_export_001:21,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺旧本坊表門(黒門),,,,,tsunami,No data
+official_export_001:22,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺清水堂,,,,,tsunami,No data
+official_export_001:23,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧寛永寺五重塔,,,,,tsunami,No data
+official_export_001:42,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京科学博物館本館,,,,,tsunami,No data
+official_export_001:56,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟奥院,,,,,tsunami,No data
+official_export_001:58,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,,,,,tsunami,No data
+official_export_001:59,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,,,,,tsunami,No data
+official_export_001:60,13106,台東区,National,Designated,有形文化財,建造物,building_direct,国立西洋美術館本館,,,,,tsunami,No data
+official_export_001:73,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧十輪院宝蔵,,,,,tsunami,No data
+official_export_001:74,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟奥院,,,,,tsunami,No data
+official_export_001:76,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,,,,,tsunami,No data
+official_export_001:77,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,,,,,tsunami,No data
+official_export_001:85,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:86,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:87,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:88,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:89,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:90,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,,,,,tsunami,No data
+official_export_001:91,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺二天門,,,,,tsunami,No data
+official_export_001:104,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京音楽学校奏楽堂,,,,,tsunami,No data
+official_export_001:105,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京帝室博物館本館,,,,,tsunami,No data
+official_export_001:107,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,,,,,tsunami,No data
+official_export_001:108,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,,,,,tsunami,No data
+official_export_001:109,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,,,,,tsunami,No data
+official_export_001:110,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,,,,,tsunami,No data
+official_export_001:126,13106,台東区,National,Designated,有形文化財,建造物,building_direct,表慶館,,,,,tsunami,No data
+official_export_002:28,13106,台東区,National,Registered,有形文化財,建造物,building_direct,伊勢屋店舗兼主屋,,,,,tsunami,No data
+official_export_002:29,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅裏門,,,,,tsunami,No data
+official_export_002:30,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅表門,,,,,tsunami,No data
+official_export_002:31,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅蔵,,,,,tsunami,No data
+official_export_002:32,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅主屋,,,,,tsunami,No data
+official_export_002:40,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館北棟,,,,,tsunami,No data
+official_export_002:41,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館玄関棟,,,,,tsunami,No data
+official_export_002:42,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館南棟,,,,,tsunami,No data
+official_export_002:43,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店北奥座敷,,,,,tsunami,No data
+official_export_002:44,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店西奥座敷,,,,,tsunami,No data
+official_export_002:45,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店東奥座敷,,,,,tsunami,No data
+official_export_002:46,13106,台東区,National,Registered,有形文化財,建造物,building_direct,岩田家住宅和館,,,,,tsunami,No data
+official_export_002:107,13106,台東区,National,Registered,有形文化財,建造物,building_direct,神谷バー本館,,,,,tsunami,No data
+official_export_002:112,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺葵の間,,,,,tsunami,No data
+official_export_002:113,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺護国院庫裏,,,,,tsunami,No data
+official_export_002:114,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺根本中堂,,,,,tsunami,No data
+official_export_002:115,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺渋沢家霊堂,,,,,tsunami,No data
+official_export_002:124,13106,台東区,National,Registered,有形文化財,建造物,building_direct,観音寺客殿,,,,,tsunami,No data
+official_export_002:125,13106,台東区,National,Registered,有形文化財,建造物,building_direct,観音寺築地塀,,,,,tsunami,No data
+official_export_002:132,13106,台東区,National,Registered,有形文化財,建造物,building_direct,ギャラリー・エフ蔵(株式会社淵川金属事務所),,,,,tsunami,No data
+official_export_002:139,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧井阪屋本店河合ビル,,,,,tsunami,No data
+official_export_002:140,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧井阪屋本店河合ビル稲荷社,,,,,tsunami,No data
+official_export_002:144,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧柏湯,,,,,tsunami,No data
+official_export_002:145,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧唐木田家住宅主屋,,,,,tsunami,No data
+official_export_002:147,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧川嶋屋米倉庫,,,,,tsunami,No data
+official_export_002:148,13106,台東区,National,Registered,有形文化財,建造物,building_direct,旧川嶋屋店舗兼住居,,,,,tsunami,No data
+official_export_002:195,13106,台東区,National,Registered,有形文化財,建造物,building_direct,教證寺客殿,,,,,tsunami,No data
+official_export_002:196,13106,台東区,National,Registered,有形文化財,建造物,building_direct,教證寺本堂,,,,,tsunami,No data
+official_export_002:205,13106,台東区,National,Registered,有形文化財,建造物,building_direct,黒沢ビル,,,,,tsunami,No data
+official_export_002:243,13106,台東区,National,Registered,有形文化財,建造物,building_direct,西徳寺本堂,,,,,tsunami,No data
+official_export_002:274,13106,台東区,National,Registered,有形文化財,建造物,building_direct,すぺーす小倉屋蔵,,,,,tsunami,No data
+official_export_002:275,13106,台東区,National,Registered,有形文化財,建造物,building_direct,すぺーす小倉屋店舗,,,,,tsunami,No data
+official_export_002:282,13106,台東区,National,Registered,有形文化財,建造物,building_direct,タイガービルヂング,,,,,tsunami,No data
+official_export_002:283,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館東屋,,,,,tsunami,No data
+official_export_002:284,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館アトリエ棟,,,,,tsunami,No data
+official_export_002:285,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館旧アトリエ,,,,,tsunami,No data
+official_export_002:286,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館住居,,,,,tsunami,No data
+official_export_002:311,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松表門及び塀,,,,,tsunami,No data
+official_export_002:312,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松店舗及び住居,,,,,tsunami,No data
+official_export_002:325,13106,台東区,National,Registered,有形文化財,建造物,building_direct,燕湯,,,,,tsunami,No data
+official_export_002:326,13106,台東区,National,Registered,有形文化財,建造物,building_direct,手焼せんべい嵯峨の家店舗,,,,,tsunami,No data
+official_export_002:357,13106,台東区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄銀座線浅草駅四番出入口上家,,,,,tsunami,No data
+official_export_002:362,13106,台東区,National,Registered,有形文化財,建造物,building_direct,東京文化財研究所黒田記念館書庫,,,,,tsunami,No data
+official_export_002:363,13106,台東区,National,Registered,有形文化財,建造物,building_direct,東京文化財研究所黒田記念館本館,,,,,tsunami,No data
+official_export_002:367,13106,台東区,National,Registered,有形文化財,建造物,building_direct,中江店舗,,,,,tsunami,No data
+official_export_002:376,13106,台東区,National,Registered,有形文化財,建造物,building_direct,難波商店店舗兼主屋,,,,,tsunami,No data
+official_export_002:385,13106,台東区,National,Registered,有形文化財,建造物,building_direct,日本聖公会浅草聖ヨハネ教会,,,,,tsunami,No data
+official_export_002:394,13106,台東区,National,Registered,有形文化財,建造物,building_direct,花重店舗,,,,,tsunami,No data
+official_export_003:2,13106,台東区,National,Designated,記念物,天然記念物,point,伊能忠敬墓,,,,,tsunami,No data
+official_export_003:14,13106,台東区,National,Designated,記念物,天然記念物,point,蒲生君平墓,,,,,tsunami,No data
+official_export_003:16,13106,台東区,National,Designated,記念物,天然記念物,point,旧朝倉文夫氏庭園,,,,,tsunami,No data
+official_export_003:42,13106,台東区,National,Designated,記念物,天然記念物,point,高橋至時墓,,,,,tsunami,No data
+official_export_003:48,13106,台東区,National,Designated,記念物,天然記念物,point,伝法院庭園,,,,,tsunami,No data
+official_export_003:59,13106,台東区,National,Designated,記念物,天然記念物,point,平賀源内墓,,,,,tsunami,No data
+official_export_003:72,13106,台東区,National,Designated,記念物,天然記念物,point,横山大観旧宅及び庭園,,,,,tsunami,No data
+95,13107,墨田区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,石造明暦大火横死者等供養塔,,,,,tsunami,No data
+171,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,赤穂浪士元禄義挙の跡,,,,,tsunami,No data
+172,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,加藤千蔭墓,,,,,tsunami,No data
+173,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京伝墓,,,,,tsunami,No data
+174,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京山墓,,,,,tsunami,No data
+197,13107,墨田区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田庭園,,,,,tsunami,No data
+131075100001,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社石造鳥居,,,,,tsunami,No data
+131075100002,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,白髭神社石造鳥居,,,,,tsunami,No data
+131075100003,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,多聞寺山門,,,,,tsunami,No data
+131075100004,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,旧小山家住宅,,,,,tsunami,No data
+131075100005,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,小林家住宅 ※非公開,,,,,tsunami,No data
+131075100006,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,三囲神社石造鳥居(堤下の大鳥居),,,,,tsunami,No data
+131075100007,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,弘福寺本堂(大雄寳殿),,,,,tsunami,No data
+131075100008,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,三囲神社本社,,,,,tsunami,No data
+131075100009,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,旧鈴木八太郎家住宅 ※非公開,,,,,tsunami,No data
+131075100010,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社社殿,,,,,tsunami,No data
+131075100011,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社神輿蔵,,,,,tsunami,No data
+131075100012,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,隅田川神社社殿,,,,,tsunami,No data
+131075100013,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,吉野家住宅主屋及び表門,,,,,tsunami,No data
+131075100014,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,實相寺熊谷稲荷堂 附再建関連文書ニ点・青図三枚・写真一点,,,,,tsunami,No data
+131075100016,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,楢崎宗重博士旧蔵美術資料群(楢崎宗重コレクション),,,,,tsunami,No data
+131075100017,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,紙本着色「隅田川両岸景色図」一巻,,,,,tsunami,No data
+131075100047,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,都鳥手鑑 ※非公開,,,,,tsunami,No data
+131075100048,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,正福寺の板碑,,,,,tsunami,No data
+131075100049,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,法泉寺所蔵板碑 ※非公開,,,,,tsunami,No data
+131075100050,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,啓運閣所蔵板碑 ※非公開,,,,,tsunami,No data
+131075100051,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,鈴木家所蔵板碑 ※非公開,,,,,tsunami,No data
+131075100052,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,松尾芭蕉「いざさらば」の句碑 (雪見の句碑),,,,,tsunami,No data
+131075100053,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,橋本家旧蔵板碑,,,,,tsunami,No data
+131075100054,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,烏亭焉馬「いそがずば」の狂歌碑,,,,,tsunami,No data
+131075100055,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,宝井其角「ゆうだちや」の句碑 (雨乞いの句碑),,,,,tsunami,No data
+131075100056,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,秋葉神社の石造燈籠 寛保元年銘 二基 宝永元年銘 二基 宝永二年銘 二基,,,,,tsunami,No data
+131075100057,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,蓮花寺の石柱道標 文化十五年銘 一基 文政五年銘 一基,,,,,tsunami,No data
+131075100058,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,要津寺雪中庵関係石碑群,,,,,tsunami,No data
+131075100059,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,多聞寺の板碑,,,,,tsunami,No data
+131075100061,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造海難供養碑,,,,,tsunami,No data
+131075100062,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,三囲神社の石造常夜燈,,,,,tsunami,No data
+131075100063,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造墨堤永代常夜燈,,,,,tsunami,No data
+131075100064,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,吾嬬神社の連理の楠,,,,,tsunami,No data
+131075100065,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,墨堤植桜之碑,,,,,tsunami,No data
+131075100066,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,絹本墨書扁額「明明徳」,,,,,tsunami,No data
+131075100067,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,歌川豊広辞世の狂歌碑,,,,,tsunami,No data
+131075100068,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造標柱「隅田公園入口」,,,,,tsunami,No data
+131075100069,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,石造「夜寉井銘」の碑,,,,,tsunami,No data
+131075100070,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,生月鯨太左衛門の墓 ※非公開,,,,,tsunami,No data
+131075100071,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,無縁法界塔,,,,,tsunami,No data
+131075100072,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,板坂如春の碑(2基),,,,,tsunami,No data
+131075100073,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,芥川家旧蔵雛人形,,,,,tsunami,No data
+131075100074,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「天下之糸平」の碑,,,,,tsunami,No data
+131075100075,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,大石三平墓,,,,,tsunami,No data
+131075100076,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,江島杉山神社の銅製釣燈籠,,,,,tsunami,No data
+131075100077,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,佐羽淡斎「墨多三絶」の漢詩碑,,,,,tsunami,No data
+131075100078,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,亀田鵬斎「題隅田堤櫻花」の漢詩碑,,,,,tsunami,No data
+131075100079,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「吾嬬森碑」,,,,,tsunami,No data
+131075100080,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,近松門左衛門供養碑(断片) ※非公開,,,,,tsunami,No data
+131075100081,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「一勇斎歌川先生墓表」(歌川国芳顕彰碑),,,,,tsunami,No data
+131075100082,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,「勝川春英翁略傳」の碑,,,,,tsunami,No data
+131075100083,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,初代歌川豊国筆塚(断片),,,,,tsunami,No data
+131075100084,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,窪俊満「故郷の」の歌碑,,,,,tsunami,No data
+131075100085,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,鈴木家旧蔵雛人形,,,,,tsunami,No data
+131075100086,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,太田氏七代供養塔,,,,,tsunami,No data
+131075100087,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,旗本太田資同墓碑,,,,,tsunami,No data
+131075100088,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,隅田川神社資料,,,,,tsunami,No data
+131075100089,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,矢掛弓雄関係石碑群,,,,,tsunami,No data
+131075100090,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,木阿弥(元杢網)「けふよりも」の歌碑,,,,,tsunami,No data
+131075100091,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,義士墓(那珂湊戦争関連資料),,,,,tsunami,No data
+131075100092,13107,墨田区,Municipal,Unknown,有形文化財,歴史資料,point,回向院の石造歴史災害供養塔群,,,,,tsunami,No data
+131075100095,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社の石造狛犬 享保十四年銘 一対 文政十年銘 一対,,,,,tsunami,No data
+131075100096,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,三囲神社の石造狛犬,,,,,tsunami,No data
+131075100097,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,如意輪寺の六面六地蔵石幢,,,,,tsunami,No data
+131075100098,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,正福寺の石造阿弥陀如来立像,,,,,tsunami,No data
+131075100099,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,多聞寺の石造庚申塔(阿弥陀如来),,,,,tsunami,No data
+131075100100,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,圓徳寺の石造庚申塔(釈迦如来),,,,,tsunami,No data
+131075100101,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,吾嬬神社の石造狛犬,,,,,tsunami,No data
+131075100102,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,庚申講法具 ※非公開,,,,,tsunami,No data
+131075100103,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,萬福寺の石造庚申塔 (青面金剛童子),,,,,tsunami,No data
+131075100104,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,白鬚神社の石造狛犬,,,,,tsunami,No data
+131075100105,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,香取神社の石造水鉢(禊盥),,,,,tsunami,No data
+131075100106,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社の石造神牛,,,,,tsunami,No data
+131075100107,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,三囲神社の石造神狐,,,,,tsunami,No data
+131075100108,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,長命寺の石造庚申塔 (地蔵菩薩),,,,,tsunami,No data
+131075100109,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,正覚寺の石造庚申塔(青面金剛童子),,,,,tsunami,No data
+131075100110,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,回向院の石造阿弥陀三尊立像,,,,,tsunami,No data
+131075100111,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,円通寺の石造地蔵菩薩立像,,,,,tsunami,No data
+131075100112,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,多聞寺の石造六地蔵坐像,,,,,tsunami,No data
+131075100113,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,法泉寺の石造地蔵菩薩立像,,,,,tsunami,No data
+131075100114,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,東漸寺の石造庚申道標,,,,,tsunami,No data
+131075100115,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社境内力石群,,,,,tsunami,No data
+131075100116,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,力石,,,,,tsunami,No data
+131075100117,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,吾嬬神社境内力石群,,,,,tsunami,No data
+131075100118,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,牛嶋神社石造神牛(撫牛),,,,,tsunami,No data
+131075100119,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,鼠小僧供養碑(鼠小僧の墓),,,,,tsunami,No data
+131075100120,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,安藤家旧蔵田舟,,,,,tsunami,No data
+131075100121,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,江島杉山神社境内力石,,,,,tsunami,No data
+131075100122,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社の碑,,,,,tsunami,No data
+131075100123,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社の碑,,,,,tsunami,No data
+131075100124,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,出羽三山の碑,,,,,tsunami,No data
+131075100125,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,柳嶋村念仏講道具一式 附関連文書,,,,,tsunami,No data
+131075100126,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社富士講祭祀具一式 附関連資料 ※非公開,,,,,tsunami,No data
+131075100127,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,山玉向嶋講社富士講先達遺品 附関連資料 ※非公開,,,,,tsunami,No data
+131075100128,13107,墨田区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,旧小村井村の庚申塔群 附関連資料,,,,,tsunami,No data
+131075100149,13107,墨田区,Municipal,Unknown,民俗文化財,無形民俗文化財(民俗芸能),point,隅田囃子(箕輪囃子),,,,,tsunami,No data
+131075100150,13107,墨田区,Municipal,Unknown,民俗文化財,無形民俗文化財(風俗慣習),point,隅田川七福神めぐり,,,,,tsunami,No data
+131075100151,13107,墨田区,Municipal,Unknown,記念物,史跡,point,肥前平戸藩松浦家墓所 ※非公開,,,,,tsunami,No data
+131075100152,13107,墨田区,Municipal,Unknown,記念物,史跡,point,橘守部墓・橘冬照墓,,,,,tsunami,No data
+131075100153,13107,墨田区,Municipal,Unknown,記念物,史跡,point,池田冠山墓,,,,,tsunami,No data
+131075100154,13107,墨田区,Municipal,Unknown,記念物,史跡,point,常陸笠間藩牧野家墓所 ※非公開,,,,,tsunami,No data
+131075100155,13107,墨田区,Municipal,Unknown,記念物,史跡,point,回向院相撲関係石碑群(力塚),,,,,tsunami,No data
+131075100156,13107,墨田区,Municipal,Unknown,記念物,天然記念物,point,飛木稲荷神社のイチョウ,,,,,tsunami,No data
+131075100157,13107,墨田区,Municipal,Unknown,記念物,名勝,point,墨堤の桜,,,,,tsunami,No data
+official_export_002:99,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,割烹美家古向島本店店舗,,,,,tsunami,No data
+official_export_002:276,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校校舎,,,,,tsunami,No data
+official_export_002:277,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校講堂,,,,,tsunami,No data
+official_export_002:327,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,照田家住宅主屋,,,,,tsunami,No data
+official_export_003:65,13107,墨田区,National,Designated,記念物,天然記念物,point,向島百花園,,,,,tsunami,No data
+198,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,,,,,tsunami,No data
+131083000000.0,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,0.4425,区部,南海トラフ巨大地震_ケース1;南海トラフ巨大地震_ケース2;南海トラフ巨大地震_ケース5;南海トラフ巨大地震_ケース6;南海トラフ巨大地震_ケース8;南海トラフ巨大地震_全5ケース最大値;大正関東地震,external point-grid sampling,tsunami,0–0.5 m
+official_export_001:100,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),,,,,tsunami,No data
+official_export_001:193,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,,,,,tsunami,No data
+official_export_002:166,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,,,,,tsunami,No data
+official_export_002:333,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,,,,,tsunami,No data
+official_export_002:334,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),,,,,tsunami,No data
+official_export_002:335,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),,,,,tsunami,No data
+official_export_002:336,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,,,,,tsunami,No data
+official_export_002:337,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,,,,,tsunami,No data
+official_export_003:62,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,,,,,tsunami,No data
+4,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),,,,,tsunami,No data
+official_export_001:39,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,,,,,tsunami,No data
+official_export_001:128,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,,,,,tsunami,No data
+official_export_002:157,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,,,,,tsunami,No data
+official_export_002:178,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,,,,,tsunami,No data
+official_export_002:207,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,,,,,tsunami,No data
+official_export_002:255,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,,,,,tsunami,No data
+official_export_002:371,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,,,,,tsunami,No data
+official_export_002:372,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,,,,,tsunami,No data
+official_export_002:392,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,,,,,tsunami,No data
+official_export_003:9,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,,,,,tsunami,No data
+official_export_003:15,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,,,,,tsunami,No data
+official_export_003:18,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,,,,,tsunami,No data
+official_export_003:44,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,,,,,tsunami,No data
+5,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,,,,,tsunami,No data
+96,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,,,,,tsunami,No data
+97,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,,,,,tsunami,No data
+official_export_001:15,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,,,,,tsunami,No data
+official_export_001:44,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:45,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:46,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:47,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:48,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:49,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:50,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:51,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,,,,,tsunami,No data
+official_export_001:94,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,,,,,tsunami,No data
+official_export_001:95,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,,,,,tsunami,No data
+official_export_001:96,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,,,,,tsunami,No data
+official_export_001:97,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,,,,,tsunami,No data
+official_export_002:4,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,,,,,tsunami,No data
+official_export_002:80,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,,,,,tsunami,No data
+official_export_002:159,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,,,,,tsunami,No data
+official_export_002:161,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,,,,,tsunami,No data
+official_export_002:330,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),,,,,tsunami,No data
+official_export_002:331,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,,,,,tsunami,No data
+official_export_002:332,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,,,,,tsunami,No data
+official_export_002:346,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),,,,,tsunami,No data
+official_export_002:349,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),,,,,tsunami,No data
+official_export_002:466,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,,,,,tsunami,No data
+official_export_002:467,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,,,,,tsunami,No data
+official_export_002:468,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,,,,,tsunami,No data
+official_export_002:469,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,,,,,tsunami,No data
+official_export_002:470,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,,,,,tsunami,No data
+official_export_002:471,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,,,,,tsunami,No data
+official_export_002:472,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,,,,,tsunami,No data
+official_export_003:0,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,,,,,tsunami,No data
+112,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,奥絵師狩野家墓所,,,,,tsunami,No data
+113,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,宝?山古墳,,,,,tsunami,No data
+114,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩川台古墳群,,,,,tsunami,No data
+175,13111,大田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,日蓮上人入滅の旧跡,,,,,tsunami,No data
+official_export_001:3,13111,大田区,National,Designated,有形文化財,建造物,building_direct,池上本門寺宝塔,,,,,tsunami,No data
+official_export_001:131,13111,大田区,National,Designated,有形文化財,建造物,building_direct,本門寺五重塔,,,,,tsunami,No data
+official_export_002:35,13111,大田区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,,,,,tsunami,No data
+official_export_002:47,13111,大田区,National,Registered,有形文化財,建造物,building_direct,位田家住宅主屋,,,,,tsunami,No data
+official_export_002:77,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社社務所,,,,,tsunami,No data
+official_export_002:78,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社水行堂,,,,,tsunami,No data
+official_export_002:79,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社末社一山神社祖霊社,,,,,tsunami,No data
+official_export_002:98,13111,大田区,National,Registered,有形文化財,建造物,building_direct,数江家住宅主屋,,,,,tsunami,No data
+official_export_002:111,13111,大田区,National,Registered,有形文化財,建造物,building_direct,河原家住宅主屋,,,,,tsunami,No data
+official_export_002:149,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸主屋及び中門,,,,,tsunami,No data
+official_export_002:150,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸画室,,,,,tsunami,No data
+official_export_002:151,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸持仏堂,,,,,tsunami,No data
+official_export_002:152,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸仏間棟,,,,,tsunami,No data
+official_export_002:160,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧清明文庫,,,,,tsunami,No data
+official_export_002:247,13111,大田区,National,Registered,有形文化財,建造物,building_direct,実相寺本堂,,,,,tsunami,No data
+official_export_002:248,13111,大田区,National,Registered,有形文化財,建造物,building_direct,実相寺門,,,,,tsunami,No data
+official_export_002:261,13111,大田区,National,Registered,有形文化財,建造物,building_direct,松風荘主屋,,,,,tsunami,No data
+official_export_002:262,13111,大田区,National,Registered,有形文化財,建造物,building_direct,松風荘待合,,,,,tsunami,No data
+official_export_002:263,13111,大田区,National,Registered,有形文化財,建造物,building_direct,松風荘門,,,,,tsunami,No data
+official_export_002:264,13111,大田区,National,Registered,有形文化財,建造物,building_direct,昭和のくらし博物館(旧小泉家住宅主屋),,,,,tsunami,No data
+official_export_002:296,13111,大田区,National,Registered,有形文化財,建造物,building_direct,高橋診療所,,,,,tsunami,No data
+official_export_002:302,13111,大田区,National,Registered,有形文化財,建造物,building_direct,竹中家住宅主屋,,,,,tsunami,No data
+official_export_002:315,13111,大田区,National,Registered,有形文化財,建造物,building_direct,塚﨑家住宅主屋,,,,,tsunami,No data
+official_export_002:316,13111,大田区,National,Registered,有形文化財,建造物,building_direct,塚﨑家住宅門及び塀,,,,,tsunami,No data
+official_export_002:366,13111,大田区,National,Registered,有形文化財,建造物,building_direct,鳥海家住宅主屋,,,,,tsunami,No data
+official_export_002:430,13111,大田区,National,Registered,有形文化財,建造物,building_direct,三橋家住宅主屋,,,,,tsunami,No data
+official_export_002:437,13111,大田区,National,Registered,有形文化財,建造物,building_direct,妙福寺祖師堂(旧七面大明神堂),,,,,tsunami,No data
+official_export_002:455,13111,大田区,National,Registered,有形文化財,建造物,building_direct,守屋家住宅主屋,,,,,tsunami,No data
+official_export_002:458,13111,大田区,National,Registered,有形文化財,建造物,building_direct,山﨑家住宅主屋,,,,,tsunami,No data
+official_export_002:474,13111,大田区,National,Registered,有形文化財,建造物,building_direct,吉川家住宅主屋,,,,,tsunami,No data
+official_export_002:477,13111,大田区,National,Registered,有形文化財,建造物,building_direct,萬屋酒店,,,,,tsunami,No data
+official_export_002:478,13111,大田区,National,Registered,有形文化財,建造物,building_direct,龍子記念館,,,,,tsunami,No data
+official_export_002:480,13111,大田区,National,Registered,有形文化財,建造物,building_direct,私の家(清家清自邸),,,,,tsunami,No data
+official_export_003:13,13111,大田区,National,Designated,記念物,天然記念物,point,亀甲山古墳,,,,,tsunami,No data
+6,13112,世田谷区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,武家屋敷門,,,,,tsunami,No data
+115,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,野毛大塚古墳,,,,,tsunami,No data
+116,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,世田谷代官屋敷,,,,,tsunami,No data
+117,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,等々力渓谷三号横穴,,,,,tsunami,No data
+118,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,徳冨蘆花旧宅,,,,,tsunami,No data
+199,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,名勝,point,等々力渓谷,,,,,tsunami,No data
+207,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,九品仏のカヤ,,,,,tsunami,No data
+208,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,九品仏のイチョウ,,,,,tsunami,No data
+209,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,善養寺のカヤ,,,,,tsunami,No data
+210,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,桜小学校のオオアカガシ,,,,,tsunami,No data
+official_export_001:16,13112,世田谷区,National,Designated,有形文化財,建造物,building_direct,大場家住宅(東京都世田谷区世田谷),,,,,tsunami,No data
+official_export_001:17,13112,世田谷区,National,Designated,有形文化財,建造物,building_direct,大場家住宅(東京都世田谷区世田谷),,,,,tsunami,No data
+official_export_002:17,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,池上家住宅主屋,,,,,tsunami,No data
+official_export_002:89,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,樫尾俊雄発明記念館(旧樫尾家住宅主屋),,,,,tsunami,No data
+official_export_002:104,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅主屋,,,,,tsunami,No data
+official_export_002:105,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅離れ,,,,,tsunami,No data
+official_export_002:106,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅門及び塀,,,,,tsunami,No data
+official_export_002:108,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,亀井家住宅主屋,,,,,tsunami,No data
+official_export_002:110,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,河津家住宅主屋,,,,,tsunami,No data
+official_export_002:223,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,国士舘大講堂,,,,,tsunami,No data
+official_export_002:236,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,五島美術館古経楼,,,,,tsunami,No data
+official_export_002:237,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,五島美術館冨士見亭,,,,,tsunami,No data
+official_export_002:238,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,五島美術館本館,,,,,tsunami,No data
+official_export_002:239,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,駒澤大学旧図書館(禅文化歴史博物館・耕雲館),,,,,tsunami,No data
+official_export_002:245,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,坂間家住宅主屋,,,,,tsunami,No data
+official_export_002:251,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,志村家住宅門及び石垣,,,,,tsunami,No data
+official_export_002:317,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,築山家住宅石垣,,,,,tsunami,No data
+official_export_002:318,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,築山家住宅主屋,,,,,tsunami,No data
+official_export_002:319,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,築山家住宅水蓮池,,,,,tsunami,No data
+official_export_002:320,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,築山家住宅門,,,,,tsunami,No data
+official_export_002:378,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,日本学園一号館,,,,,tsunami,No data
+official_export_002:381,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,日本基督教団富士見丘教会,,,,,tsunami,No data
+official_export_002:386,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,日本聖公会東京教区東京聖十字教会聖堂,,,,,tsunami,No data
+official_export_002:389,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,萩原家住宅,,,,,tsunami,No data
+official_export_002:391,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,長谷川家住宅,,,,,tsunami,No data
+official_export_002:403,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,平田家住宅主屋,,,,,tsunami,No data
+official_export_002:405,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,平田家住宅門及び塀,,,,,tsunami,No data
+official_export_002:413,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,ブルーボックスハウス,,,,,tsunami,No data
+official_export_002:457,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,柳澤家住宅主屋,,,,,tsunami,No data
+official_export_003:45,13112,世田谷区,National,Designated,記念物,天然記念物,point,玉川上水,,,,,tsunami,No data
+official_export_003:61,13112,世田谷区,National,Designated,記念物,天然記念物,point,細井広沢墓,,,,,tsunami,No data
+105,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,,,,,tsunami,No data
+official_export_001:2,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,,,,,tsunami,No data
+official_export_001:32,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,,,,,tsunami,No data
+official_export_001:36,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),,,,,tsunami,No data
+official_export_001:143,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,,,,,tsunami,No data
+official_export_001:167,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,,,,,tsunami,No data
+official_export_001:179,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:180,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:181,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:182,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:183,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:184,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:185,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:186,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:187,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:188,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:189,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:190,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:191,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,,,,,tsunami,No data
+official_export_001:195,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,,,,,tsunami,No data
+official_export_001:196,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,,,,,tsunami,No data
+official_export_002:2,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,,,,,tsunami,No data
+official_export_002:3,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,,,,,tsunami,No data
+official_export_002:76,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,,,,,tsunami,No data
+official_export_002:249,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,,,,,tsunami,No data
+official_export_002:257,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,,,,,tsunami,No data
+official_export_002:258,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,,,,,tsunami,No data
+official_export_002:259,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,,,,,tsunami,No data
+official_export_002:434,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),,,,,tsunami,No data
+official_export_002:475,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,,,,,tsunami,No data
+official_export_002:476,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,,,,,tsunami,No data
+195,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,,,,,tsunami,No data
+1000000001,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,,,,,tsunami,No data
+1000000002,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,,,,,tsunami,No data
+1000000003,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,,,,,tsunami,No data
+1000000004,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,,,,,tsunami,No data
+2000000001,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,,,,,tsunami,No data
+2000000002,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,,,,,tsunami,No data
+2000000003,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,,,,,tsunami,No data
+2000000004,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,,,,,tsunami,No data
+2000000005,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,,,,,tsunami,No data
+2000000006,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,,,,,tsunami,No data
+official_export_002:172,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,,,,,tsunami,No data
+official_export_002:208,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,,,,,tsunami,No data
+official_export_002:209,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,,,,,tsunami,No data
+official_export_002:210,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,,,,,tsunami,No data
+official_export_002:374,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,,,,,tsunami,No data
+official_export_002:424,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,,,,,tsunami,No data
+7,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺祖師堂,,,,,tsunami,No data
+8,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺書院(御成間),,,,,tsunami,No data
+9,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺仁王門,,,,,tsunami,No data
+131156000000.0,13115,杉並区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,寛文四年銘聖観音庚申供養塔,,,,,tsunami,No data
+official_export_001:141,13115,杉並区,National,Designated,有形文化財,建造物,building_direct,妙法寺鉄門,,,,,tsunami,No data
+official_export_002:16,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,井草幼稚園園舎,,,,,tsunami,No data
+official_export_002:34,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,,,,,tsunami,No data
+official_export_002:69,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,岡田日帰上人記念講堂,,,,,tsunami,No data
+official_export_002:142,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧大田黒家住宅蔵,,,,,tsunami,No data
+official_export_002:143,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧大田黒家住宅洋館,,,,,tsunami,No data
+official_export_002:156,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧滋賀家住宅主屋,,,,,tsunami,No data
+official_export_002:206,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,幻戯山房(旧角川家住宅主屋),,,,,tsunami,No data
+official_export_002:212,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,古宇田家住宅,,,,,tsunami,No data
+official_export_002:235,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,小杉湯,,,,,tsunami,No data
+official_export_002:278,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,西郊ロッヂング,,,,,tsunami,No data
+official_export_002:324,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,辻家住宅旧主屋,,,,,tsunami,No data
+official_export_002:338,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学講堂・礼拝堂,,,,,tsunami,No data
+official_export_002:339,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学17号館(ライシャワー館),,,,,tsunami,No data
+official_export_002:340,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学14号館(安井記念館),,,,,tsunami,No data
+official_export_002:341,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学16号館(外国人教師館),,,,,tsunami,No data
+official_export_002:342,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学7号館(西校舎),,,,,tsunami,No data
+official_export_002:343,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学本館,,,,,tsunami,No data
+official_export_002:344,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学6号館(東校舎),,,,,tsunami,No data
+official_export_002:398,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,ビストロOJI(末光家住宅),,,,,tsunami,No data
+official_export_002:412,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,淵川家住宅主屋,,,,,tsunami,No data
+official_export_002:428,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,水口家住宅洋館,,,,,tsunami,No data
+official_export_002:479,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旅館西郊本館,,,,,tsunami,No data
+official_export_002:483,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,渡邊家住宅主屋,,,,,tsunami,No data
+official_export_003:46,13115,杉並区,National,Designated,記念物,天然記念物,point,荻外荘(近衞文麿旧宅),,,,,tsunami,No data
+10,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),,,,,tsunami,No data
+211,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,,,,,tsunami,No data
+212,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,,,,,tsunami,No data
+11,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,,,,,tsunami,No data
+12,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,,,,,tsunami,No data
+13,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,,,,,tsunami,No data
+14,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,,,,,tsunami,No data
+15,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,,,,,tsunami,No data
+16,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,,,,,tsunami,No data
+17,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,,,,,tsunami,No data
+18,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,,,,,tsunami,No data
+284,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,胎蔵界大日・観音・地蔵板碑(永享十二年在銘),,,,,tsunami,No data
+285,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊画像・夜念仏供養結衆板碑,,,,,tsunami,No data
+286,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,題目板碑(永和在銘),,,,,tsunami,No data
+287,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(文□在銘),,,,,tsunami,No data
+288,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(文明七年在銘),,,,,tsunami,No data
+289,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑(延文四年在銘),,,,,tsunami,No data
+290,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(応永二年在銘),,,,,tsunami,No data
+291,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(応永十年在銘),,,,,tsunami,No data
+292,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑(応永二十二年在銘),,,,,tsunami,No data
+293,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(応永二十四年在銘),,,,,tsunami,No data
+294,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(文明十七年在銘),,,,,tsunami,No data
+295,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑,,,,,tsunami,No data
+296,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑,,,,,tsunami,No data
+297,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀板碑,,,,,tsunami,No data
+299,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,三尊板碑,,,,,tsunami,No data
+300,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑画像・庚申待供養結衆板碑(大永八年在銘),,,,,tsunami,No data
+301,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,阿?・文殊・普賢板碑(乾元二年在銘),,,,,tsunami,No data
+302,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,釈迦三尊・庚申待供養結衆板碑(天文二十四年在銘),,,,,tsunami,No data
+303,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,釈迦一尊板碑(嘉元元年在銘),,,,,tsunami,No data
+304,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(正和四年在銘),,,,,tsunami,No data
+305,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑(正和五年在銘),,,,,tsunami,No data
+306,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(正慶二年在銘),,,,,tsunami,No data
+307,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,釈迦一尊板碑(建武元年在銘),,,,,tsunami,No data
+308,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑(康永三年在銘),,,,,tsunami,No data
+309,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(文和三年在銘),,,,,tsunami,No data
+310,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,大日如来一尊板碑(応永十年在銘),,,,,tsunami,No data
+311,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,板碑,,,,,tsunami,No data
+312,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(応安四年在銘),,,,,tsunami,No data
+313,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(明応五年在銘),,,,,tsunami,No data
+314,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,題目板碑,,,,,tsunami,No data
+315,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀三尊板碑,,,,,tsunami,No data
+316,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑,,,,,tsunami,No data
+317,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑,,,,,tsunami,No data
+318,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,釈迦一尊板碑(文和□年在銘),,,,,tsunami,No data
+319,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊板碑(永和二年在銘),,,,,tsunami,No data
+320,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,題目板碑(明徳五年在銘),,,,,tsunami,No data
+321,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,題目板碑(応永六年在銘),,,,,tsunami,No data
+322,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,板碑型庚申塔(寛永十九年在銘),,,,,tsunami,No data
+323,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,板碑型庚申塔(明暦二年在銘),,,,,tsunami,No data
+324,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,板碑型庚申塔(明暦三年在銘),,,,,tsunami,No data
+325,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(万治元年在銘),,,,,tsunami,No data
+326,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,円頭角柱型庚申塔(万治二年在銘),,,,,tsunami,No data
+327,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,舟型庚申塔(寛文六年在銘),,,,,tsunami,No data
+328,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(寛文八年在銘),,,,,tsunami,No data
+329,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(延宝四年在銘),,,,,tsunami,No data
+330,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,舟型庚申塔(延宝五年在銘),,,,,tsunami,No data
+331,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(元禄五年在銘),,,,,tsunami,No data
+332,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔,,,,,tsunami,No data
+333,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,円頭角柱型庚申塔(寛文二年在銘),,,,,tsunami,No data
+334,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,舟型庚申塔(寛文二年在銘),,,,,tsunami,No data
+335,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(延宝八年在銘),,,,,tsunami,No data
+336,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(寛文十二年在銘),,,,,tsunami,No data
+337,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,角柱型庚申塔(延宝八年在銘),,,,,tsunami,No data
+338,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,舟型庚申塔(延宝八年在銘),,,,,tsunami,No data
+339,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(貞享三年在銘),,,,,tsunami,No data
+340,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(正徳元年在銘),,,,,tsunami,No data
+341,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(延宝八年在銘),,,,,tsunami,No data
+342,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(延宝八年在銘),,,,,tsunami,No data
+343,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(貞享三年在銘),,,,,tsunami,No data
+344,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(元禄十二年在銘),,,,,tsunami,No data
+345,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,角柱型庚申塔(享保二十年在銘),,,,,tsunami,No data
+346,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,板碑型庚申塔(貞享四年在銘),,,,,tsunami,No data
+347,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(元禄三年在銘),,,,,tsunami,No data
+348,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,庚申塔,,,,,tsunami,No data
+349,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(元禄十五年在銘),,,,,tsunami,No data
+350,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(宝永元年在銘),,,,,tsunami,No data
+351,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(宝永四年在銘),,,,,tsunami,No data
+352,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(享保元年在銘),,,,,tsunami,No data
+353,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(享保二年在銘),,,,,tsunami,No data
+354,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(享保六年在銘),,,,,tsunami,No data
+355,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,角柱型庚申塔(宝暦十一年在銘),,,,,tsunami,No data
+356,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,笠付角柱型庚申塔(宝暦十二年在銘),,,,,tsunami,No data
+357,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(安永三年在銘),,,,,tsunami,No data
+358,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,自然石庚申塔(天保十三年在銘),,,,,tsunami,No data
+359,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(明治二年在銘在銘),,,,,tsunami,No data
+360,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,山伏角柱型庚申塔(明治三十七年在銘),,,,,tsunami,No data
+361,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(昭和二十五年在銘),,,,,tsunami,No data
+362,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,唐破風笠付角柱型庚申塔(元禄六年在銘),,,,,tsunami,No data
+363,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔(享保五年在銘),,,,,tsunami,No data
+364,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,駒型庚申塔,,,,,tsunami,No data
+365,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,武江染井翻紅軒霧島之図,,,,,tsunami,No data
+366,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,石造鳥居,,,,,tsunami,No data
+367,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,石造狛犬,,,,,tsunami,No data
+368,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,石灯籠,,,,,tsunami,No data
+369,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,玉垣,,,,,tsunami,No data
+370,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,馬頭観音(嘉永四年在銘),,,,,tsunami,No data
+371,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,馬頭観音(明和八年在銘),,,,,tsunami,No data
+372,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,馬頭観音(明治十年在銘),,,,,tsunami,No data
+373,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,馬頭観音(明治四十三年在銘),,,,,tsunami,No data
+374,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,馬頭観音(大正四年在銘),,,,,tsunami,No data
+375,13116,豊島区,Municipal,Registered,民俗文化財,有形民俗文化財,point,延命地蔵堂の石造物群,,,,,tsunami,No data
+376,13116,豊島区,Municipal,Registered,民俗文化財,有形民俗文化財,point,西原不動,,,,,tsunami,No data
+377,13116,豊島区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),,,,,tsunami,No data
+381,13116,豊島区,Tokyo Metropolitan,Designated,記念物,史跡,point,伊藤政武の墓,,,,,tsunami,No data
+382,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,遠山景元墓,,,,,tsunami,No data
+383,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,司馬江漢墓,,,,,tsunami,No data
+384,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,斉藤鶴磯墓,,,,,tsunami,No data
+385,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,尾形乾山墓並びに碑,,,,,tsunami,No data
+386,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,服部嵐雪墓,,,,,tsunami,No data
+387,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,ラファエル・ケーベルの墓,,,,,tsunami,No data
+388,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,乃木大将経営榊壇,,,,,tsunami,No data
+389,13116,豊島区,Tokyo Metropolitan,Designated,記念物,旧跡,point,養育院跡,,,,,tsunami,No data
+390,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司ヶ谷鬼子母神のイチョウ,,,,,tsunami,No data
+391,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,,,,,tsunami,No data
+392,13116,豊島区,National,Designated,民俗文化財,有形民俗文化財,point,豊島長崎の富士塚,,,,,tsunami,No data
+393,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,,,,,tsunami,No data
+394,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ヶ谷鬼子母神堂,,,,,tsunami,No data
+395,13116,豊島区,National,Designated,無形文化財,未細分,point,狂言,,,,,tsunami,No data
+396,13116,豊島区,National,Other,文化財保存技術,保存技術,point,金唐紙製作,,,,,tsunami,No data
+397,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,旧丹羽家住宅蔵,,,,,tsunami,No data
+398,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,高岩寺本堂,,,,,tsunami,No data
+399,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院正門,,,,,tsunami,No data
+400,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院厩舎,,,,,tsunami,No data
+401,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院乃木館(旧総寮部),,,,,tsunami,No data
+402,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院東別館(旧皇族寮),,,,,tsunami,No data
+403,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院北別館(旧図書館),,,,,tsunami,No data
+404,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院西一号館(旧中等科教場),,,,,tsunami,No data
+405,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,学習院南一号館(旧理科特別教場),,,,,tsunami,No data
+406,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,金剛院本堂,,,,,tsunami,No data
+407,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,金剛院客殿,,,,,tsunami,No data
+408,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,並木ハウス,,,,,tsunami,No data
+409,13116,豊島区,National,Registered,有形文化財,未細分,building_direct,砂金家長屋,,,,,tsunami,No data
+official_export_001:69,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,,,,,tsunami,No data
+official_export_001:70,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,,,,,tsunami,No data
+official_export_001:71,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,,,,,tsunami,No data
+official_export_001:72,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,,,,,tsunami,No data
+official_export_001:92,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,,,,,tsunami,No data
+official_export_002:19,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,,,,,tsunami,No data
+official_export_002:82,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),,,,,tsunami,No data
+official_export_002:83,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,,,,,tsunami,No data
+official_export_002:84,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,,,,,tsunami,No data
+official_export_002:85,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),,,,,tsunami,No data
+official_export_002:86,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),,,,,tsunami,No data
+official_export_002:87,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),,,,,tsunami,No data
+official_export_002:88,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),,,,,tsunami,No data
+official_export_002:170,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,,,,,tsunami,No data
+official_export_002:211,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,,,,,tsunami,No data
+official_export_002:241,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,,,,,tsunami,No data
+official_export_002:242,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,,,,,tsunami,No data
+official_export_002:281,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,,,,,tsunami,No data
+official_export_002:375,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,,,,,tsunami,No data
+176,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,,,,,tsunami,No data
+214,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,,,,,tsunami,No data
+121,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,,,,,tsunami,No data
+177,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,,,,,tsunami,No data
+178,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,,,,,tsunami,No data
+122,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,,,,,tsunami,No data
+179,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,,,,,tsunami,No data
+180,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,,,,,tsunami,No data
+123,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,,,,,tsunami,No data
+124,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,,,,,tsunami,No data
+181,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,,,,,tsunami,No data
+182,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,,,,,tsunami,No data
+183,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,,,,,tsunami,No data
+131229000000.0,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,,,,,tsunami,No data
+official_export_001:38,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,,,,,tsunami,No data
+official_export_002:0,13122,葛飾区,National,Registered,有形文化財,建造物,building_direct,會田家住宅旧蔵,,,,,tsunami,No data
+98,13123,江戸川区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,天明三年浅間山噴火横死者供養碑,,,,,tsunami,No data
+125,13123,江戸川区,Tokyo Metropolitan,Designated,記念物,史跡,point,一之江名主屋敷,,,,,tsunami,No data
+131237100001,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士講用具(追加指定),,,,,tsunami,No data
+131237100002,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,上今井の富士講用具及び関係資料,,,,,tsunami,No data
+131237100003,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,昇覚寺鐘楼,,,,,tsunami,No data
+131237100004,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西囃子(旧囃子),,,,,tsunami,No data
+131237100005,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,浅間神社のぼり祭り,,,,,tsunami,No data
+131237100006,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,茅の輪くぐり,,,,,tsunami,No data
+131237100007,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,天祖神社のイチョウ,,,,,tsunami,No data
+131237100008,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造親鸞聖人坐像,,,,,tsunami,No data
+131237100009,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造聖観世音菩薩立像,,,,,tsunami,No data
+131237100010,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,感応寺梵鐘,,,,,tsunami,No data
+131237100011,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,須原家文書,,,,,tsunami,No data
+131237100012,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正応元年八月日銘,,,,,tsunami,No data
+131237100013,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正応三年九月日銘,,,,,tsunami,No data
+131237100014,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・永仁三年十二月日銘,,,,,tsunami,No data
+131237100015,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正安元年十二月日銘,,,,,tsunami,No data
+131237100016,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正安四年八月三日銘,,,,,tsunami,No data
+131237100017,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・嘉元二年十二月銘,,,,,tsunami,No data
+131237100018,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・嘉元四年二月日銘,,,,,tsunami,No data
+131237100019,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・徳治三年戊申四月日銘,,,,,tsunami,No data
+131237100020,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・文保元年六月日銘,,,,,tsunami,No data
+131237100021,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・文保三年三月日銘,,,,,tsunami,No data
+131237100022,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・元応元年十二月日銘,,,,,tsunami,No data
+131237100023,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,和傘製造用具,,,,,tsunami,No data
+131237100024,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,海苔養殖用具 附 海苔関係書類,,,,,tsunami,No data
+131237100025,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板絵額,,,,,tsunami,No data
+131237100026,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,雷の大般若,,,,,tsunami,No data
+131237100027,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,平井聖天(燈明寺),,,,,tsunami,No data
+131237100028,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,浅間神社の社叢,,,,,tsunami,No data
+131237100029,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,豊田神社の社叢,,,,,tsunami,No data
+131237100030,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,宇田川家文書 附・漢籍 版本 写本類,,,,,tsunami,No data
+131237100031,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,加納家文書,,,,,tsunami,No data
+131237100032,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,細野家文書,,,,,tsunami,No data
+131237100033,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・徳治三年三月日銘,,,,,tsunami,No data
+131237100034,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,石造線刻地蔵菩薩立像碑,,,,,tsunami,No data
+131237100035,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,渡辺家文書,,,,,tsunami,No data
+131237100036,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・応長元年十二月銘,,,,,tsunami,No data
+131237100037,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造日朗・日像聖人坐像附、像内納入紙本釈迦如来摺仏五十五枚,,,,,tsunami,No data
+131237100038,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,新川,,,,,tsunami,No data
+131237100039,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来立像,,,,,tsunami,No data
+131237100040,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,石井家文書,,,,,tsunami,No data
+131237100041,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・文永十年十一月銘,,,,,tsunami,No data
+131237100042,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正安□年八月銘,,,,,tsunami,No data
+131237100043,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,須賀家文書,,,,,tsunami,No data
+131237100044,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小池家文書,,,,,tsunami,No data
+131237100045,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・文永十年銘,,,,,tsunami,No data
+131237100046,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,染色型紙,,,,,tsunami,No data
+131237100047,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,板碑・正応二年二月銘,,,,,tsunami,No data
+131237100048,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,千社額,,,,,tsunami,No data
+131237100049,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,森家文書,,,,,tsunami,No data
+131237100050,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,天祖神社本殿,,,,,tsunami,No data
+131237100051,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,絹本着色仏涅槃図,,,,,tsunami,No data
+131237100052,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,つりしのぶ,,,,,tsunami,No data
+131237100054,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造地蔵菩薩立像,,,,,tsunami,No data
+131237100056,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造如来立像,,,,,tsunami,No data
+131237100057,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,絹本著色草花図,,,,,tsunami,No data
+131237100058,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,扇子,,,,,tsunami,No data
+131237100059,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,型染め,,,,,tsunami,No data
+131237100060,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀三尊像,,,,,tsunami,No data
+131237100061,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,銅造観音菩薩立像,,,,,tsunami,No data
+131237100062,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,江戸組子,,,,,tsunami,No data
+131237100063,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,歌舞伎役者墓碑群,,,,,tsunami,No data
+131237100064,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造聖観音菩薩坐像,,,,,tsunami,No data
+131237100065,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,銅造誕生釈迦仏立像,,,,,tsunami,No data
+131237100066,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造薬師如来坐像,,,,,tsunami,No data
+131237100067,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,厨子入木造愛染明王坐像,,,,,tsunami,No data
+131237100068,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,旧東船堀村宇田川家文書,,,,,tsunami,No data
+131237100069,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,漆塗り,,,,,tsunami,No data
+131237100070,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造日蓮聖人坐像,,,,,tsunami,No data
+131237100071,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造奪衣婆坐像,,,,,tsunami,No data
+131237100072,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,松浦信正関係資料,,,,,tsunami,No data
+131237100073,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本著色黄檗宗祖師像,,,,,tsunami,No data
+131237100074,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,ゆかた染(長板中形),,,,,tsunami,No data
+131237100076,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,厨子入木造観音菩薩像及び勢至菩薩像 附、銅製天蓋、木造宝塔、木造舎利容器,,,,,tsunami,No data
+131237100077,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,組子建具,,,,,tsunami,No data
+131237100078,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,組紐,,,,,tsunami,No data
+131237100079,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士講(旧下鎌田地区),,,,,tsunami,No data
+131237100080,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,椿の庚申講用具,,,,,tsunami,No data
+131237100081,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,桑川の庚申講用具,,,,,tsunami,No data
+131237100082,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士講用具及び関連資料,,,,,tsunami,No data
+131237100083,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士講講元伝来資料,,,,,tsunami,No data
+131237100084,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,池田孤村筆画軸,,,,,tsunami,No data
+131237100085,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,常燈明,,,,,tsunami,No data
+131237100086,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造不動明王坐像,,,,,tsunami,No data
+131237100087,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造大塚氏先祖夫妻坐像,,,,,tsunami,No data
+131237100088,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,石造釈迦如来坐像,,,,,tsunami,No data
+131237100089,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,浅間神社の富士講碑,,,,,tsunami,No data
+131237100090,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,新川梨の碑,,,,,tsunami,No data
+131237100091,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,観音庚申塔,,,,,tsunami,No data
+131237100092,13123,江戸川区,Tokyo Metropolitan,Designated,未判定,未細分,point,天明三年浅間山噴火横死者供養碑,,,,,tsunami,No data
+131237100093,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,田島家文書,,,,,tsunami,No data
+131237100094,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西囃子,,,,,tsunami,No data
+131237100095,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西のおしゃらく,,,,,tsunami,No data
+131237100096,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西の里神楽,,,,,tsunami,No data
+131237100097,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,田島図書の墓,,,,,tsunami,No data
+131237100098,13123,江戸川区,Tokyo Metropolitan,Designated,未判定,未細分,point,一之江名主屋敷,,,,,tsunami,No data
+131237100099,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,二之江神社のケヤキ,,,,,tsunami,No data
+131237100100,13123,江戸川区,National,Designated,未判定,未細分,point,善養寺影向のマツ,,,,,tsunami,No data
+131237100101,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造聖徳太子立像,,,,,tsunami,No data
+131237100102,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造薬師如来立像,,,,,tsunami,No data
+131237100103,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来坐像,,,,,tsunami,No data
+131237100104,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造日蓮聖人坐像 附・台座板墨書(文禄三年),,,,,tsunami,No data
+131237100105,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来立像 附・紙本墨書造立趣旨文書一紙,,,,,tsunami,No data
+131237100106,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,絹本着色六地蔵菩薩画像,,,,,tsunami,No data
+131237100107,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,成田山不動明王石造道標,,,,,tsunami,No data
+131237100108,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,慈恩寺道の石造道標,,,,,tsunami,No data
+131237100109,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,雷不動明王石造道標,,,,,tsunami,No data
+131237100110,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,逆井の富士塚(浅間神社),,,,,tsunami,No data
+131237100111,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,安養寺念仏講,,,,,tsunami,No data
+131237100112,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,加納甚内の墓,,,,,tsunami,No data
+131237100113,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本墨書大曼荼羅,,,,,tsunami,No data
+131237100114,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,船堀の富士塚,,,,,tsunami,No data
+131237100115,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,長島の富士塚,,,,,tsunami,No data
+131237100116,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士塚,,,,,tsunami,No data
+131237100117,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,上鎌田の富士塚,,,,,tsunami,No data
+131237100118,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,桑川の富士塚,,,,,tsunami,No data
+131237100119,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,中割の富士塚,,,,,tsunami,No data
+131237100120,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,今井の富士塚,,,,,tsunami,No data
+131237100121,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下篠崎の念仏講,,,,,tsunami,No data
+131237100122,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,笹ヶ崎の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100123,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小岩田のばんどう道庚申塔石造道標,,,,,tsunami,No data
+131237100124,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下平井の観世音菩薩浅草道石造道標,,,,,tsunami,No data
+131237100125,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下篠崎本郷の河原道石造道標,,,,,tsunami,No data
+131237100126,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,御番所町の慈恩寺道石造道標,,,,,tsunami,No data
+131237100127,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,伊予田の観世音道石造道標,,,,,tsunami,No data
+131237100128,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,庚申堂の浅草道石造道標,,,,,tsunami,No data
+131237100129,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,四股の石造四面道標,,,,,tsunami,No data
+131237100130,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東小松川中道の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100131,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東小松川田子沼の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100132,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,中小岩の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100133,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,鹿骨の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100134,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,上篠崎柳島の庚申塔河原道石造道標,,,,,tsunami,No data
+131237100135,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,本一色の石造道標,,,,,tsunami,No data
+131237100136,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,河原渡場道の庚申塔石造道標,,,,,tsunami,No data
+131237100137,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,上鎌田の庚申塔行徳道石造道標,,,,,tsunami,No data
+131237100138,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,第六天の石造道標,,,,,tsunami,No data
+131237100139,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,四股の供養塔石造道標,,,,,tsunami,No data
+131237100140,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,谷河内の河原道石造道標,,,,,tsunami,No data
+131237100141,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,中小岩の成田道石造道標,,,,,tsunami,No data
+131237100142,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,西一之江の河原道石造道標,,,,,tsunami,No data
+131237100143,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小岩不動尊逆井道向石造道標、小岩不動尊市川向石造道標,,,,,tsunami,No data
+131237100144,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,二之江の行徳道石造道標,,,,,tsunami,No data
+131237100145,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,中小岩の庚申塔市川道石造道標,,,,,tsunami,No data
+131237100146,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,四股橋石造橋桁(部分),,,,,tsunami,No data
+131237100147,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,逆井の渡し跡,,,,,tsunami,No data
+131237100148,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,御番所町跡,,,,,tsunami,No data
+131237100149,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,元佐倉道跡,,,,,tsunami,No data
+131237100150,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,諏訪神社旧本殿,,,,,tsunami,No data
+131237100151,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,武蔵国葛飾郡西小松川村縮全図,,,,,tsunami,No data
+131237100152,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,武蔵国葛飾郡松本村全図,,,,,tsunami,No data
+131237100153,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,日祐筆紙本墨書大曼荼羅(一幅) 日全筆紙本墨書大曼荼羅(一幅),,,,,tsunami,No data
+131237100154,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,八幡神社所在の地蔵菩薩像庚申塔(万治元年銘),,,,,tsunami,No data
+131237100155,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法然寺所在の庚申塔(万治二年銘),,,,,tsunami,No data
+131237100156,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,称専寺所在の地蔵菩薩像庚申塔(万治三年銘),,,,,tsunami,No data
+131237100157,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,称専寺所在の阿弥陀如来像庚申塔(万治三年銘),,,,,tsunami,No data
+131237100158,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,西光寺所在の地蔵菩薩像庚申塔(万治三年銘),,,,,tsunami,No data
+131237100159,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,正円寺所在の庚申塔(寛文三年銘),,,,,tsunami,No data
+131237100160,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,源法寺所在の青面金剛像庚申塔(寛文三年銘),,,,,tsunami,No data
+131237100161,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法龍寺所在の青面金剛像庚申塔,,,,,tsunami,No data
+131237100162,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,阿弥陀堂跡墓地所在の地蔵菩薩像庚申塔(寛文五年銘),,,,,tsunami,No data
+131237100163,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法然寺所在の青面金剛像庚申塔(寛文六年銘),,,,,tsunami,No data
+131237100164,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,善通寺所在の阿弥陀如来像庚申塔(寛文七年銘),,,,,tsunami,No data
+131237100165,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,誠心寺所在の庚申塔(寛文八年銘),,,,,tsunami,No data
+131237100166,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,自性院所在の観音菩薩像庚申塔(寛文八年銘),,,,,tsunami,No data
+131237100167,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,寳林寺所在の地蔵菩薩像庚申塔(寛文十年銘),,,,,tsunami,No data
+131237100168,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,誠心寺所在の庚申塔(寛文十三年銘),,,,,tsunami,No data
+131237100169,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,平井の富士塚 附・板絵着色富士講奉納図額一面,,,,,tsunami,No data
+131237100170,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,鹿骨南前講中の題目講,,,,,tsunami,No data
+131237100171,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,鹿骨南後講中の題目講,,,,,tsunami,No data
+131237100172,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本着色両界曼荼羅図 附・文政二年三月記造立木札一枚,,,,,tsunami,No data
+131237100173,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,笹だんご行事,,,,,tsunami,No data
+131237100174,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西大師まいり(長島・桑川地区),,,,,tsunami,No data
+131237100175,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西大師まいり(船堀・宇喜田・小島組地区),,,,,tsunami,No data
+131237100176,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,平井の渡し跡,,,,,tsunami,No data
+131237100177,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,大塚宗蔵の墓,,,,,tsunami,No data
+131237100178,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,仲割天祖神社の棟札,,,,,tsunami,No data
+131237100179,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,宣要寺の柴又帝釈天石造道標,,,,,tsunami,No data
+131237100180,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,真蔵院所在の青面金剛立像庚申塔(元禄十一年銘),,,,,tsunami,No data
+131237100181,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東福院所在の青面金剛庚申塔,,,,,tsunami,No data
+131237100182,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小松川神社所在の青面金剛立像庚申塔,,,,,tsunami,No data
+131237100183,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,仲台院,,,,,tsunami,No data
+131237100184,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小岩用水跡,,,,,tsunami,No data
+131237100185,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東井堀跡,,,,,tsunami,No data
+131237100186,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,中井堀跡,,,,,tsunami,No data
+131237100187,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,西井堀跡,,,,,tsunami,No data
+131237100188,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,松本弁天臥竜の松,,,,,tsunami,No data
+131237100189,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下今井の行徳道石造道標,,,,,tsunami,No data
+131237100190,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,一之江の河原道石造道標,,,,,tsunami,No data
+131237100191,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,村田栄章頌徳碑,,,,,tsunami,No data
+131237100192,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,大岡勇喜頌徳碑,,,,,tsunami,No data
+131237100193,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,澤地東淵墓誌銘,,,,,tsunami,No data
+131237100194,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,市川松老墓誌銘,,,,,tsunami,No data
+131237100195,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,力誉上人筆子塚,,,,,tsunami,No data
+131237100196,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,順定和尚筆子塚,,,,,tsunami,No data
+131237100197,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,声誉上人・随誉上人筆子塚,,,,,tsunami,No data
+131237100198,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法印中岳筆子塚,,,,,tsunami,No data
+131237100199,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法印政寛筆子塚,,,,,tsunami,No data
+131237100200,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法印範盛筆子塚,,,,,tsunami,No data
+131237100201,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,真田周作筆子塚,,,,,tsunami,No data
+131237100202,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,旧葛西学校跡,,,,,tsunami,No data
+131237100203,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,明物小学校旧跡,,,,,tsunami,No data
+131237100204,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,戒誉上人筆子塚,,,,,tsunami,No data
+131237100205,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,安養寺の富士塚,,,,,tsunami,No data
+131237100206,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,立羽不角の墓,,,,,tsunami,No data
+131237100207,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,絹本着色山越阿弥陀図,,,,,tsunami,No data
+131237100208,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,賢性院日是大徳筆子塚,,,,,tsunami,No data
+131237100209,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,石造地蔵菩薩立像念仏供養塔,,,,,tsunami,No data
+131237100210,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,石造地蔵菩薩立像庚申供養塔,,,,,tsunami,No data
+131237100211,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,篠崎本郷の獅子もみ行事,,,,,tsunami,No data
+131237100212,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,西之庭の念仏講,,,,,tsunami,No data
+131237100213,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,福森久助の墓,,,,,tsunami,No data
+131237100214,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,半富(半七)稲荷講,,,,,tsunami,No data
+131237100215,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,田口初右衛門筆子塚,,,,,tsunami,No data
+131237100216,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,椿の題目講,,,,,tsunami,No data
+131237100217,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,保町稲荷講,,,,,tsunami,No data
+131237100218,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,木造閻魔王坐像,,,,,tsunami,No data
+131237100219,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,青柳三酉筆子塚,,,,,tsunami,No data
+131237100220,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田宿の念仏講,,,,,tsunami,No data
+131237100221,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田宮下の念仏講,,,,,tsunami,No data
+131237100222,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本着色地獄図,,,,,tsunami,No data
+131237100223,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法印頼尊筆子塚,,,,,tsunami,No data
+131237100224,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西大師まいり(新田地区),,,,,tsunami,No data
+131237100225,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,要法寺所在の筆子塚,,,,,tsunami,No data
+131237100226,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,墨香堂筆子塚,,,,,tsunami,No data
+131237100227,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,小岩田三谷の念仏講,,,,,tsunami,No data
+131237100228,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,鹿島神社のマタギ建て行事,,,,,tsunami,No data
+131237100229,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,仲町大六天の念仏講,,,,,tsunami,No data
+131237100230,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,浄譽上人筆子塚 付、伝浄譽上人墓基壇,,,,,tsunami,No data
+131237100231,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,昌譽上人筆子塚,,,,,tsunami,No data
+131237100232,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,法印中阿筆子塚,,,,,tsunami,No data
+131237100233,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,松井市五郎筆子塚,,,,,tsunami,No data
+131237100234,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東小松川渡し場の水神講,,,,,tsunami,No data
+131237100235,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東小松川大江川の水神講,,,,,tsunami,No data
+131237100236,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,東小松川入の庭の水神講,,,,,tsunami,No data
+131237100237,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,絹本著色鶴図,,,,,tsunami,No data
+131237100238,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,稲荷神社所在の力石群,,,,,tsunami,No data
+131237100239,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,日枝神社所在の力石群,,,,,tsunami,No data
+131237100240,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本着色十王図,,,,,tsunami,No data
+131237100241,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,宇喜田十軒の地蔵講,,,,,tsunami,No data
+131237100242,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西大師まいり(仲町地区),,,,,tsunami,No data
+official_export_003:39,13123,江戸川区,National,Designated,記念物,天然記念物,point,善養寺影向のマツ,,,,,tsunami,No data
+126,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,,,,,tsunami,No data
+127,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,,,,,tsunami,No data
+184,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,,,,,tsunami,No data
+215,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,,,,,tsunami,No data
+216,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,,,,,tsunami,No data
+official_export_003:22,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,,,,,tsunami,No data
+official_export_003:27,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,,,,,tsunami,No data
+official_export_003:43,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,,,,,tsunami,No data
+official_export_003:57,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,,,,,tsunami,No data
+official_export_003:60,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,,,,,tsunami,No data
+official_export_002:369,13202,立川市,National,Registered,有形文化財,建造物,building_direct,中野家住宅蔵,,,,,tsunami,No data
+official_export_002:370,13202,立川市,National,Registered,有形文化財,建造物,building_direct,中野家住宅主屋,,,,,tsunami,No data
+official_export_002:137,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,,,,,tsunami,No data
+official_export_002:165,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),,,,,tsunami,No data
+official_export_002:395,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,,,,,tsunami,No data
+official_export_003:26,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),,,,,tsunami,No data
+106,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,,,,,tsunami,No data
+128,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,,,,,tsunami,No data
+official_export_002:14,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,,,,,tsunami,No data
+official_export_002:15,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,,,,,tsunami,No data
+official_export_002:36,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,,,,,tsunami,No data
+official_export_002:214,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,,,,,tsunami,No data
+official_export_002:215,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,,,,,tsunami,No data
+official_export_002:216,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,,,,,tsunami,No data
+official_export_002:217,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,,,,,tsunami,No data
+official_export_002:218,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,,,,,tsunami,No data
+official_export_002:219,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,,,,,tsunami,No data
+official_export_002:220,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,,,,,tsunami,No data
+official_export_002:221,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,,,,,tsunami,No data
+official_export_002:225,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,,,,,tsunami,No data
+official_export_002:226,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,,,,,tsunami,No data
+official_export_002:227,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,,,,,tsunami,No data
+official_export_002:228,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,,,,,tsunami,No data
+official_export_002:229,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,,,,,tsunami,No data
+official_export_002:230,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,,,,,tsunami,No data
+official_export_002:231,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,,,,,tsunami,No data
+official_export_002:232,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,,,,,tsunami,No data
+official_export_002:233,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,,,,,tsunami,No data
+official_export_002:234,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,,,,,tsunami,No data
+official_export_002:368,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,,,,,tsunami,No data
+official_export_002:481,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,,,,,tsunami,No data
+official_export_002:482,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,,,,,tsunami,No data
+19,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,馬場家御師住宅,,,,,tsunami,No data
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,,,,,tsunami,No data
+107,13205,青梅市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,旧稲葉家住宅,,,,,tsunami,No data
+129,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,天寧寺境域,,,,,tsunami,No data
+130,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,海禅寺境域,,,,,tsunami,No data
+131,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,安楽寺境域,,,,,tsunami,No data
+132,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,虎柏神社境域,,,,,tsunami,No data
+133,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,青梅新町の大井戸,,,,,tsunami,No data
+185,13205,青梅市,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴法寺跡,,,,,tsunami,No data
+200,13205,青梅市,Tokyo Metropolitan,Designated,記念物,名勝,point,奥御岳景園地,,,,,tsunami,No data
+217,13205,青梅市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,安楽寺の大スギ,,,,,tsunami,No data
+218,13205,青梅市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,塩船観音の大スギ,,,,,tsunami,No data
+official_export_001:24,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺阿弥陀堂,,,,,tsunami,No data
+official_export_001:25,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺仁王門,,,,,tsunami,No data
+official_export_001:26,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺本堂,,,,,tsunami,No data
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),,,,,tsunami,No data
+official_export_002:48,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,宇津木家住宅主屋,,,,,tsunami,No data
+official_export_002:54,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合旧織物加工工場,,,,,tsunami,No data
+official_export_002:55,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合旧都立繊維試験場,,,,,tsunami,No data
+official_export_002:56,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合旧発券倉庫,,,,,tsunami,No data
+official_export_002:57,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合本館,,,,,tsunami,No data
+official_export_002:90,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園稲荷社,,,,,tsunami,No data
+official_export_002:91,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園渓梅庵,,,,,tsunami,No data
+official_export_002:92,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園山魚楼,,,,,tsunami,No data
+official_export_002:93,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園射山荘,,,,,tsunami,No data
+official_export_002:94,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園大浴場,,,,,tsunami,No data
+official_export_002:95,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園帳場兼主屋,,,,,tsunami,No data
+official_export_002:96,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園枕流亭,,,,,tsunami,No data
+official_export_002:97,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園渡廊下,,,,,tsunami,No data
+official_export_002:176,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧ほていや玩具店店舗,,,,,tsunami,No data
+official_export_002:191,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)主屋,,,,,tsunami,No data
+official_export_002:192,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)土蔵,,,,,tsunami,No data
+official_export_002:193,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)長屋門,,,,,tsunami,No data
+official_export_002:194,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)洋館,,,,,tsunami,No data
+official_export_002:321,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅主屋,,,,,tsunami,No data
+official_export_002:322,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅塀,,,,,tsunami,No data
+official_export_002:323,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅門,,,,,tsunami,No data
+official_export_003:63,13205,青梅市,National,Designated,記念物,天然記念物,point,御岳の神代ケヤキ,,,,,tsunami,No data
+21,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,,,,,tsunami,No data
+22,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,,,,,tsunami,No data
+23,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,,,,,tsunami,No data
+186,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,,,,,tsunami,No data
+187,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,,,,,tsunami,No data
+official_export_002:361,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,,,,,tsunami,No data
+official_export_003:58,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,,,,,tsunami,No data
+official_export_003:66,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,,,,,tsunami,No data
+official_export_003:68,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,,,,,tsunami,No data
+24,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),,,,,tsunami,No data
+134,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,,,,,tsunami,No data
+219,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,,,,,tsunami,No data
+official_export_002:377,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,,,,,tsunami,No data
+220,13208,調布市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,佐須の禅寺丸古木,,,,,tsunami,No data
+132080100003,13208,調布市,National,Designated,記念物,史跡,point,下布田遺跡,,,,,tsunami,No data
+132080100004,13208,調布市,National,Designated,記念物,史跡,point,深大寺城跡,,,,,tsunami,No data
+132080100005,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,,,,,tsunami,No data
+132080100006,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,,,,,tsunami,No data
+132080100007,13208,調布市,National,Registered,有形文化財,建造物,building_direct,白百合女子大学めぐみ荘(旧菊池家住宅主屋),,,,,tsunami,No data
+132080100008,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,,,,,tsunami,No data
+132080100009,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅内蔵,,,,,tsunami,No data
+132080100010,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅外蔵,,,,,tsunami,No data
+132080100011,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅旧蚕室,,,,,tsunami,No data
+132080100012,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅中門及び塀,,,,,tsunami,No data
+132080100013,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧武者小路実篤邸主屋,,,,,tsunami,No data
+132080100014,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧佐橋家住宅主屋,,,,,tsunami,No data
+132080100015,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧佐橋家住宅門,,,,,tsunami,No data
+132080100018,13208,調布市,Tokyo Metropolitan,Designated,記念物,史跡,point,狐塚古墳(下布田6号墳),,,,,tsunami,No data
+132080100019,13208,調布市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,佐須の禅寺丸古木,,,,,tsunami,No data
+132080100020,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,上石原若宮八幡神社本殿,,,,,tsunami,No data
+132080100021,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,西光寺仁王門,,,,,tsunami,No data
+132080100022,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,布多天神社本殿,,,,,tsunami,No data
+132080100023,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,深大寺山門,,,,,tsunami,No data
+132080100024,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,深大寺深沙大王堂内宮殿,,,,,tsunami,No data
+132080100025,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,蓮慶寺本堂,,,,,tsunami,No data
+132080100026,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,虎狛神社本殿,,,,,tsunami,No data
+132080100027,13208,調布市,Municipal,Designated,有形文化財,建造物,building_direct,虎狛神社石鳥居,,,,,tsunami,No data
+132080100050,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,木造大日如来坐像,,,,,tsunami,No data
+132080100051,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,野口平一家資料,,,,,tsunami,No data
+132080100052,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,紙本着色仏涅槃図,,,,,tsunami,No data
+132080100053,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,ジュゼッペ・キアラ神父墓碑,,,,,tsunami,No data
+132080100054,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,虎狛神社之碑,,,,,tsunami,No data
+132080100055,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,絹本着色釈迦三尊十六善神図,,,,,tsunami,No data
+132080100056,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,調布の臼,,,,,tsunami,No data
+132080100057,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,下石原八幡神社の獅子頭,,,,,tsunami,No data
+132080100058,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,布多天神社狛犬,,,,,tsunami,No data
+132080100059,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,小橋の馬頭観音塔,,,,,tsunami,No data
+132080100060,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,飛田給石造瑠璃光薬師如来立像,,,,,tsunami,No data
+132080100061,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,深大寺元三大師参詣の道標,,,,,tsunami,No data
+132080100062,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,地蔵菩薩立像(妙円地蔵),,,,,tsunami,No data
+132080100063,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,百万遍供養塔,,,,,tsunami,No data
+132080100064,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,山野庚申塚の庚申塔,,,,,tsunami,No data
+132080100065,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,布多天神社太閤の制札,,,,,tsunami,No data
+132080100066,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安四年銘阿弥陀一尊板碑,,,,,tsunami,No data
+132080100067,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,弘安五年銘阿弥陀三尊板碑,,,,,tsunami,No data
+132080100068,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,文明三年銘阿弥陀図像板碑,,,,,tsunami,No data
+132080100069,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,文明十六年銘胎蔵界大日板碑,,,,,tsunami,No data
+132080100070,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,享徳二年銘法華曼荼羅板碑,,,,,tsunami,No data
+132080100071,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(金石文等),point,年未詳法華曼荼羅板碑,,,,,tsunami,No data
+132080100072,13208,調布市,Municipal,Designated,民俗文化財,無形民俗文化財(民俗芸能),point,調布の祭ばやし,,,,,tsunami,No data
+132080100073,13208,調布市,Municipal,Designated,記念物,史跡,point,飛田給薬師堂境内行人塚,,,,,tsunami,No data
+132080100074,13208,調布市,Municipal,Designated,記念物,史跡,point,近藤勇生家跡,,,,,tsunami,No data
+132080100075,13208,調布市,Municipal,Designated,記念物,旧跡,point,小島一里塚跡,,,,,tsunami,No data
+132080100076,13208,調布市,Municipal,Designated,記念物,旧跡,point,仙川一里塚跡,,,,,tsunami,No data
+132080100077,13208,調布市,Municipal,Designated,記念物,天然記念物,point,シロハナヤブツバキ,,,,,tsunami,No data
+132080100078,13208,調布市,Municipal,Designated,記念物,天然記念物,point,青渭神社のケヤキ,,,,,tsunami,No data
+132080100079,13208,調布市,Municipal,Designated,記念物,天然記念物,point,山野の禅寺丸古木,,,,,tsunami,No data
+132080100080,13208,調布市,Municipal,Designated,記念物,天然記念物,point,金子のイチョウ,,,,,tsunami,No data
+132080100081,13208,調布市,Municipal,Designated,記念物,天然記念物,point,絵堂のヒイラギ,,,,,tsunami,No data
+132080100082,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,黄檗版大般若波羅蜜多経,,,,,tsunami,No data
+official_export_002:8,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅内蔵,,,,,tsunami,No data
+official_export_002:9,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅旧蚕室,,,,,tsunami,No data
+official_export_002:10,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,,,,,tsunami,No data
+official_export_002:12,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅外蔵,,,,,tsunami,No data
+official_export_002:13,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅中門及び塀,,,,,tsunami,No data
+official_export_002:154,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧佐橋家住宅主屋,,,,,tsunami,No data
+official_export_002:155,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧佐橋家住宅門,,,,,tsunami,No data
+official_export_002:180,13208,調布市,National,Registered,有形文化財,建造物,building_direct,旧武者小路実篤邸主屋,,,,,tsunami,No data
+official_export_002:265,13208,調布市,National,Registered,有形文化財,建造物,building_direct,白百合女子大学めぐみ荘(旧菊池家住宅主屋),,,,,tsunami,No data
+official_export_002:417,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,,,,,tsunami,No data
+official_export_002:418,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,,,,,tsunami,No data
+official_export_003:35,13208,調布市,National,Designated,記念物,天然記念物,point,下布田遺跡,,,,,tsunami,No data
+official_export_003:36,13208,調布市,National,Designated,記念物,天然記念物,point,深大寺城跡,,,,,tsunami,No data
+25,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,,,,,tsunami,No data
+135,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,,,,,tsunami,No data
+201,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),,,,,tsunami,No data
+official_export_001:111,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),,,,,tsunami,No data
+official_export_003:25,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,,,,,tsunami,No data
+239,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,,,,,tsunami,No data
+132101000000.0,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),,,,,tsunami,No data
+official_export_002:168,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,,,,,tsunami,No data
+official_export_002:169,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),,,,,tsunami,No data
+132110100001,13211,小平市,National,Designated,記念物,史跡,point,鈴木遺跡,,,,,tsunami,No data
+132110100002,13211,小平市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),,,,,tsunami,No data
+132110100003,13211,小平市,Unknown,Unknown,記念物,史跡,point,玉川上水,,,,,tsunami,No data
+132110100005,13211,小平市,Unknown,Unknown,記念物,天然記念物,point,竹内家の大ケヤキ,,,,,tsunami,No data
+132110100008,13211,小平市,Unknown,Unknown,記念物,史跡,point,小川九郎兵衛墓,,,,,tsunami,No data
+132110100009,13211,小平市,Unknown,Unknown,記念物,史跡,point,武蔵野乃一本榎跡,,,,,tsunami,No data
+132110100010,13211,小平市,Unknown,Unknown,民俗文化財,有形民俗文化財,point,延命寺庚申塔,,,,,tsunami,No data
+132110100011,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,旧小平小川郵便局舎,,,,,tsunami,No data
+132110100012,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,旧神山家住宅主屋,,,,,tsunami,No data
+132110100013,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,旧鈴木家住宅穀櫃,,,,,tsunami,No data
+132110100014,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,旧小川家住宅玄関棟,,,,,tsunami,No data
+132110100015,13211,小平市,Unknown,Unknown,記念物,史跡,point,小平市八小遺跡,,,,,tsunami,No data
+132110100016,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,海岸寺山門,,,,,tsunami,No data
+132110100020,13211,小平市,Unknown,Unknown,民俗文化財,無形民俗文化財,point,鈴木ばやし,,,,,tsunami,No data
+132110100021,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,鈴木稲荷神社本殿覆屋の鏝絵,,,,,tsunami,No data
+132110100022,13211,小平市,Unknown,Unknown,有形文化財,未細分,building_direct,鈴木稲荷神社境内の金刀比羅社の彫刻装飾,,,,,tsunami,No data
+132110100023,13211,小平市,Unknown,Unknown,記念物,史跡,point,高橋定右衛門墓,,,,,tsunami,No data
+132110100024,13211,小平市,Unknown,Unknown,記念物,天然記念物,point,熊野宮のケヤキ,,,,,tsunami,No data
+132110100025,13211,小平市,Unknown,Unknown,記念物,天然記念物,point,鈴木稲荷神社のケヤキ,,,,,tsunami,No data
+official_export_003:37,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,,,,,tsunami,No data
+26,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,,,,,tsunami,No data
+136,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,,,,,tsunami,No data
+188,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,,,,,tsunami,No data
+official_export_001:65,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,,,,,tsunami,No data
+official_export_001:66,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,,,,,tsunami,No data
+official_export_002:171,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,,,,,tsunami,No data
+official_export_002:402,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,,,,,tsunami,No data
+189,13213,東村山市,Tokyo Metropolitan,Designated,記念物,旧跡,point,久米川古戦場,,,,,tsunami,No data
+221,13213,東村山市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,梅岩寺のケヤキ,,,,,tsunami,No data
+246,13213,東村山市,Tokyo Metropolitan,Designated,記念物,史跡,point,下宅部遺跡,,,,,tsunami,No data
+132136100001,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,貞和の板碑,,,,,tsunami,No data
+132136100002,13213,東村山市,Municipal,Other,記念物,史跡,point,浅間塚 ・ 境塚,,,,,tsunami,No data
+132136100003,13213,東村山市,Municipal,Unknown,記念物,天然記念物,point,万年橋のケヤキ,,,,,tsunami,No data
+132136100004,13213,東村山市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,雅楽・浦安の舞,,,,,tsunami,No data
+132136100005,13213,東村山市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,まつりばやし,,,,,tsunami,No data
+132136100006,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,秋津神社本殿,,,,,tsunami,No data
+132136100007,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,武藤良由碑,,,,,tsunami,No data
+132136100008,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,梅岩寺の庚申塔,,,,,tsunami,No data
+132136100009,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,比 翼 碑 (ひよくひ),,,,,tsunami,No data
+132136100010,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,千体小地蔵尊像,,,,,tsunami,No data
+132136100011,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,千体地蔵堂本尊地蔵菩薩立像,,,,,tsunami,No data
+132136100012,13213,東村山市,Municipal,Other,記念物,旧跡,point,鎌倉古街道,,,,,tsunami,No data
+132136100013,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,石造延命地蔵立像,,,,,tsunami,No data
+132136100014,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,一石六地蔵,,,,,tsunami,No data
+132136100015,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,獣脚付蔵骨器,,,,,tsunami,No data
+132136100016,13213,東村山市,Municipal,Other,記念物,旧跡,point,瓦塔出土地 (がとう),,,,,tsunami,No data
+132136100017,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,応永の板碑,,,,,tsunami,No data
+132136100018,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,新・四国石仏,,,,,tsunami,No data
+132136100019,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,富田家の宝篋印塔,,,,,tsunami,No data
+132136100020,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,赤坂の庚申塔付6基,,,,,tsunami,No data
+132136100021,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,東村山停車場の碑,,,,,tsunami,No data
+132136100022,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,八坂神社の大獅子頭,,,,,tsunami,No data
+132136100023,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,白山神社の牛頭天王像,,,,,tsunami,No data
+132136100024,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,木造薬師如来立像,,,,,tsunami,No data
+132136100025,13213,東村山市,Municipal,Other,記念物,史跡,point,久米川の富士塚,,,,,tsunami,No data
+132136100026,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,正福寺山門,,,,,tsunami,No data
+132136100027,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,小町家文書,,,,,tsunami,No data
+132136100028,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,當麻勉家文書,,,,,tsunami,No data
+132136100029,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,江藤昌明家文書,,,,,tsunami,No data
+132136100030,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,下宅部遺跡出土品,,,,,tsunami,No data
+132136100031,13213,東村山市,Municipal,Other,記念物,旧跡,point,東京陸軍少年通信兵学校跡地,,,,,tsunami,No data
+132136100032,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,熊野神社遺跡出土陶磁器,,,,,tsunami,No data
+132136100033,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,はなびや人形店押絵羽子板製作関連資料,,,,,tsunami,No data
+132136100034,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,諏訪神社本殿,,,,,tsunami,No data
+132136100035,13213,東村山市,Municipal,Unknown,有形文化財,未細分,point,笹塚遺跡出土縄文土器,,,,,tsunami,No data
+132136100036,13213,東村山市,National,Designated,未判定,国宝,point,正福寺地蔵堂,,,,,tsunami,No data
+132136100037,13213,東村山市,National,Designated,有形文化財,未細分,point,板碑 元弘三年斎藤盛貞等戦死供養碑,,,,,tsunami,No data
+132136100038,13213,東村山市,National,Designated,有形文化財,未細分,point,東京都下宅部遺跡出土品,,,,,tsunami,No data
+132136100039,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,天然記念物,point,梅岩寺のカヤ,,,,,tsunami,No data
+132136100040,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,天然記念物,point,梅岩寺のケヤキ,,,,,tsunami,No data
+132136100041,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,旧跡,point,久米川古戦場,,,,,tsunami,No data
+132136100042,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,史跡,point,下宅部遺跡,,,,,tsunami,No data
+official_export_001:78,13213,東村山市,National,Designated,有形文化財,建造物,building_direct,正福寺地蔵堂,,,,,tsunami,No data
+202,13214,国分寺市,Tokyo Metropolitan,Designated,記念物,名勝,point,真姿の池湧水群,,,,,tsunami,No data
+132144100002,13214,国分寺市,National,Designated,その他,その他,point,武蔵国分寺跡 附東山道武蔵路跡,,,,,tsunami,No data
+132144100003,13214,国分寺市,National,Designated,その他,その他,point,武蔵多喜窪遺跡第一号住居跡出土品,,,,,tsunami,No data
+132144100004,13214,国分寺市,National,Designated,その他,その他,point,殿ヶ谷戸庭園 (随冝園),,,,,tsunami,No data
+132144100006,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅洋館,,,,,tsunami,No data
+132144100007,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅和館,,,,,tsunami,No data
+132144100009,13214,国分寺市,Tokyo Metropolitan,Designated,その他,その他,point,武蔵国分寺跡出土の緑釉花文皿,,,,,tsunami,No data
+132144100010,13214,国分寺市,Tokyo Metropolitan,Designated,その他,その他,point,唐草四獣文銅蓋,,,,,tsunami,No data
+132144100011,13214,国分寺市,Tokyo Metropolitan,Designated,その他,その他,point,真姿の池湧水群,,,,,tsunami,No data
+132144100012,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,川崎・伊奈両代官謝恩塔,,,,,tsunami,No data
+132144100013,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,国分寺仁王門,,,,,tsunami,No data
+132144100014,13214,国分寺市,Municipal,Designated,その他,その他,point,国分寺所蔵資料(旧国分寺市文化財保存館資料),,,,,tsunami,No data
+132144100015,13214,国分寺市,Municipal,Designated,その他,その他,point,土師竪穴住居跡,,,,,tsunami,No data
+132144100016,13214,国分寺市,Municipal,Designated,その他,その他,point,万葉植物園,,,,,tsunami,No data
+132144100017,13214,国分寺市,Municipal,Designated,その他,その他,point,国分寺のコウヤマキ,,,,,tsunami,No data
+132144100018,13214,国分寺市,Municipal,Designated,その他,その他,point,祥応寺のコノテガシワ,,,,,tsunami,No data
+132144100019,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,国分寺薬師堂,,,,,tsunami,No data
+132144100020,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,国分寺楼門,,,,,tsunami,No data
+132144100021,13214,国分寺市,Municipal,Designated,その他,その他,point,本多良雄家古文書,,,,,tsunami,No data
+132144100022,13214,国分寺市,Municipal,Designated,その他,その他,point,戸倉義助家古文書,,,,,tsunami,No data
+132144100023,13214,国分寺市,Municipal,Designated,その他,その他,point,元文元年野中新田検地帳,,,,,tsunami,No data
+132144100024,13214,国分寺市,Municipal,Designated,その他,その他,point,武蔵野新田養料金一件始末書,,,,,tsunami,No data
+132144100025,13214,国分寺市,Municipal,Designated,その他,その他,point,南北武蔵野新田養料金始末書,,,,,tsunami,No data
+132144100026,13214,国分寺市,Municipal,Designated,その他,その他,point,村巨細日記,,,,,tsunami,No data
+132144100027,13214,国分寺市,Municipal,Designated,その他,その他,point,武蔵野 新田成立期の御用留,,,,,tsunami,No data
+132144100028,13214,国分寺市,Municipal,Designated,その他,その他,point,徳川将軍家寺領安堵朱印状,,,,,tsunami,No data
+132144100029,13214,国分寺市,Municipal,Designated,その他,その他,point,伝鎌倉街道,,,,,tsunami,No data
+132144100030,13214,国分寺市,Municipal,Designated,その他,その他,point,立川ローム層第X層出土石斧群,,,,,tsunami,No data
+132144100031,13214,国分寺市,Municipal,Designated,その他,その他,point,川崎平右衛門及び観音寺中興開山供養塔,,,,,tsunami,No data
+132144100032,13214,国分寺市,Municipal,Designated,その他,その他,point,疫病神の詫び証文,,,,,tsunami,No data
+132144100033,13214,国分寺市,Municipal,Designated,その他,その他,point,硬玉製大珠,,,,,tsunami,No data
+132144100034,13214,国分寺市,Municipal,Designated,その他,その他,point,木造書見台 墨書銘 「弘治二年 」,,,,,tsunami,No data
+132144100035,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,旧本多家住宅長屋門,,,,,tsunami,No data
+132144100036,13214,国分寺市,Municipal,Designated,有形文化財,建造物,building_direct,旧 本多家住宅倉,,,,,tsunami,No data
+132144100037,13214,国分寺市,Municipal,Designated,その他,その他,point,武蔵国分寺跡出土の小型海獣葡萄鏡,,,,,tsunami,No data
+132144100038,13214,国分寺市,Municipal,Designated,その他,その他,point,武蔵国分寺跡出土の金銅製円形飾金具,,,,,tsunami,No data
+132144100039,13214,国分寺市,Municipal,Designated,その他,その他,point,本多八幡神社の力石,,,,,tsunami,No data
+132144100040,13214,国分寺市,Municipal,Designated,その他,その他,point,西町五丁目の旧屋敷林,,,,,tsunami,No data
+132144100041,13214,国分寺市,Municipal,Designated,その他,その他,point,恋ヶ窪村分水,,,,,tsunami,No data
+132144100042,13214,国分寺市,Municipal,Designated,その他,その他,point,本多八幡神社神輿,,,,,tsunami,No data
+132144100043,13214,国分寺市,Municipal,Designated,その他,その他,point,中藤新田分水跡,,,,,tsunami,No data
+official_export_002:70,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅洋館,,,,,tsunami,No data
+official_export_002:71,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅和館,,,,,tsunami,No data
+official_export_003:51,13214,国分寺市,National,Designated,記念物,天然記念物,point,殿ヶ谷戸庭園(随冝園),,,,,tsunami,No data
+official_export_003:67,13214,国分寺市,National,Designated,記念物,天然記念物,point,武蔵国分寺跡 附東山道武蔵路跡,,,,,tsunami,No data
+190,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴墓,,,,,tsunami,No data
+191,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,三田氏館跡,,,,,tsunami,No data
+222,13215,国立市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,谷保天満宮社叢,,,,,tsunami,No data
+132152100005,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学兼松講堂,,,,,tsunami,No data
+132152100006,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学旧門衛所,,,,,tsunami,No data
+132152100007,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学東本館,,,,,tsunami,No data
+132152100008,13215,国立市,National,Registered,有形文化財,未細分,building_direct,滝乃川学園本館,,,,,tsunami,No data
+132152100009,13215,国立市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,谷保天満宮社叢,,,,,tsunami,No data
+132152100010,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,三田氏館跡,,,,,tsunami,No data
+132152100011,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴の墓,,,,,tsunami,No data
+132152100012,13215,国立市,Tokyo Metropolitan,Designated,有形文化財,未細分,building_direct,旧本田家住宅主屋・表門,,,,,tsunami,No data
+132152100013,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮本殿附棟札,,,,,tsunami,No data
+132152100014,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮拝殿,,,,,tsunami,No data
+132152100015,13215,国立市,Municipal,Designated,無形文化財,未細分,point,谷保天満宮獅子舞,,,,,tsunami,No data
+132152100020,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,南養寺本堂,,,,,tsunami,No data
+132152100021,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,南養寺大悲殿,,,,,tsunami,No data
+132152100022,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,南養寺総門,,,,,tsunami,No data
+132152100023,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,南養寺鐘楼,,,,,tsunami,No data
+132152100024,13215,国立市,Municipal,Designated,記念物,史跡,point,南養寺庭園,,,,,tsunami,No data
+132152100025,13215,国立市,Municipal,Designated,記念物,史跡,point,南養寺遺跡敷石住居跡,,,,,tsunami,No data
+132152100026,13215,国立市,Municipal,Designated,有形文化財,未細分,point,古民家(旧柳澤家住宅),,,,,tsunami,No data
+132152100030,13215,国立市,Municipal,Designated,記念物,史跡,point,下谷保一号墳,,,,,tsunami,No data
+132152100031,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,旧国立駅舎,,,,,tsunami,No data
+132152100035,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,青柳稲荷神社本殿,,,,,tsunami,No data
+132152100036,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園礼拝堂,,,,,tsunami,No data
+132152100037,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,谷保天満宮末社厳島神社附棟札,,,,,tsunami,No data
+132152100038,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,谷保天満宮神楽殿附棟札,,,,,tsunami,No data
+132152100039,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,旧日本興業銀行クラブハウス,,,,,tsunami,No data
+132152100040,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,滝乃川学園鐘楼附鐘,,,,,tsunami,No data
+132152100041,13215,国立市,Municipal,Registered,有形文化財,未細分,building_direct,旧野島家住宅,,,,,tsunami,No data
+132152100070,13215,国立市,Municipal,Registered,有形文化財,未細分,point,甲野勇氏資料,,,,,tsunami,No data
+132152100071,13215,国立市,Municipal,Registered,有形文化財,未細分,point,神奈川県庁測定石,,,,,tsunami,No data
+132152100072,13215,国立市,Municipal,Registered,有形文化財,未細分,point,久保の地蔵菩薩像,,,,,tsunami,No data
+132152100073,13215,国立市,Municipal,Registered,有形文化財,未細分,point,千手観音供養塔,,,,,tsunami,No data
+132152100074,13215,国立市,Municipal,Registered,有形文化財,未細分,point,血文阿弥陀如来石塔,,,,,tsunami,No data
+132152100075,13215,国立市,Municipal,Registered,有形文化財,未細分,point,融通念仏盟約塔,,,,,tsunami,No data
+132152100076,13215,国立市,Municipal,Registered,有形文化財,未細分,point,五智如来(像塔・文字塔),,,,,tsunami,No data
+132152100077,13215,国立市,Municipal,Registered,有形文化財,未細分,point,常夜燈(下谷保),,,,,tsunami,No data
+132152100078,13215,国立市,Municipal,Registered,有形文化財,未細分,point,常夜燈(久保),,,,,tsunami,No data
+132152100079,13215,国立市,Municipal,Registered,有形文化財,未細分,point,常夜燈(青柳),,,,,tsunami,No data
+132152100080,13215,国立市,Municipal,Registered,有形文化財,未細分,point,高札,,,,,tsunami,No data
+132152100081,13215,国立市,Municipal,Registered,有形文化財,未細分,point,延文の板碑,,,,,tsunami,No data
+132152100082,13215,国立市,Municipal,Registered,有形文化財,未細分,point,滝の院板碑,,,,,tsunami,No data
+132152100083,13215,国立市,Municipal,Registered,有形文化財,未細分,point,滝の院庚申塔,,,,,tsunami,No data
+132152100084,13215,国立市,Municipal,Registered,有形文化財,未細分,point,江戸街道庚申塔,,,,,tsunami,No data
+132152100085,13215,国立市,Municipal,Registered,有形文化財,未細分,point,本田道庚申塔,,,,,tsunami,No data
+132152100086,13215,国立市,Municipal,Registered,有形文化財,未細分,point,谷保天満宮燈籠,,,,,tsunami,No data
+132152100087,13215,国立市,Municipal,Registered,有形文化財,未細分,point,滝の院不動明王,,,,,tsunami,No data
+132152100088,13215,国立市,Municipal,Registered,有形文化財,未細分,point,遠藤由晴墓,,,,,tsunami,No data
+132152100089,13215,国立市,Municipal,Registered,有形文化財,未細分,point,筆塚,,,,,tsunami,No data
+132152100090,13215,国立市,Municipal,Registered,有形文化財,未細分,point,廻国供養石燈籠,,,,,tsunami,No data
+132152100091,13215,国立市,Municipal,Registered,有形文化財,未細分,point,アップライトピアノ,,,,,tsunami,No data
+132152100092,13215,国立市,Municipal,Registered,有形文化財,未細分,point,谷保天満宮略縁記版木・典籍,,,,,tsunami,No data
+132152100093,13215,国立市,Municipal,Registered,有形文化財,未細分,point,聖観音立像(墓塔),,,,,tsunami,No data
+132152100094,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(滝之院),,,,,tsunami,No data
+132152100095,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(青柳),,,,,tsunami,No data
+132152100096,13215,国立市,Municipal,Registered,有形文化財,未細分,point,石橋供養塔(矢川橋),,,,,tsunami,No data
+132152100097,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(滝之院・寛政元年在銘),,,,,tsunami,No data
+132152100098,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(青柳・嘉永二年在銘),,,,,tsunami,No data
+132152100099,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(滝之院・文久二年在銘),,,,,tsunami,No data
+132152100100,13215,国立市,Municipal,Registered,有形文化財,未細分,point,勅許御鋳師文書箱,,,,,tsunami,No data
+132152100101,13215,国立市,Municipal,Registered,有形文化財,未細分,point,手水石(安政三年在銘),,,,,tsunami,No data
+132152100102,13215,国立市,Municipal,Registered,有形文化財,未細分,point,廻国供養塔(正徳二年在銘),,,,,tsunami,No data
+132152100103,13215,国立市,Municipal,Registered,有形文化財,未細分,point,廻国供養塔(正徳六年在銘),,,,,tsunami,No data
+132152100104,13215,国立市,Municipal,Registered,有形文化財,未細分,point,安楽寺天神画像版木,,,,,tsunami,No data
+132152100105,13215,国立市,Municipal,Registered,有形文化財,未細分,point,谷保天満宮天神画像版木,,,,,tsunami,No data
+132152100106,13215,国立市,Municipal,Registered,有形文化財,未細分,point,有栖川宮威仁親王殿下台臨記念碑,,,,,tsunami,No data
+132152100107,13215,国立市,Municipal,Registered,有形文化財,未細分,point,孝林道人詩碑,,,,,tsunami,No data
+132152100108,13215,国立市,Municipal,Registered,有形文化財,未細分,point,三郎殿,,,,,tsunami,No data
+132152100109,13215,国立市,Municipal,Registered,有形文化財,未細分,point,獅子神社,,,,,tsunami,No data
+132152100110,13215,国立市,Municipal,Registered,有形文化財,未細分,point,馬頭観音塔(安政五年在銘),,,,,tsunami,No data
+132152100114,13215,国立市,Municipal,Registered,有形文化財,未細分,point,坂下ほうぞう倉共同用具,,,,,tsunami,No data
+132152100115,13215,国立市,Municipal,Registered,有形文化財,未細分,point,祭礼幟旗,,,,,tsunami,No data
+132152100116,13215,国立市,Municipal,Registered,有形文化財,未細分,point,祭礼幟(弘化四年),,,,,tsunami,No data
+132152100117,13215,国立市,Municipal,Registered,有形文化財,未細分,point,青柳地蔵堂内石造地蔵菩薩立像・石造六地蔵立像,,,,,tsunami,No data
+132152100118,13215,国立市,Municipal,Registered,有形文化財,未細分,point,神農坐像(本田家屋内神棚)及び厨子附神農図及び画賛,,,,,tsunami,No data
+132152100119,13215,国立市,Municipal,Registered,有形文化財,未細分,point,清水の立場(茶屋跡),,,,,tsunami,No data
+132152100120,13215,国立市,Municipal,Registered,有形文化財,未細分,point,圓成院跡(観音堂跡・稲荷社)及び矢澤家墓所,,,,,tsunami,No data
+132152100122,13215,国立市,Municipal,Registered,有形文化財,未細分,point,薬師如来立像附棟札,,,,,tsunami,No data
+official_export_002:300,13215,国立市,National,Registered,有形文化財,建造物,building_direct,滝乃川学園本館,,,,,tsunami,No data
+official_export_002:399,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学兼松講堂,,,,,tsunami,No data
+official_export_002:400,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学旧門衛所,,,,,tsunami,No data
+official_export_002:401,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学東本館,,,,,tsunami,No data
+27,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,,,,,tsunami,No data
+official_export_002:20,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,,,,,tsunami,No data
+official_export_002:21,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,,,,,tsunami,No data
+official_export_002:22,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,,,,,tsunami,No data
+official_export_002:23,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,,,,,tsunami,No data
+official_export_002:24,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,,,,,tsunami,No data
+official_export_002:25,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,,,,,tsunami,No data
+official_export_002:184,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,,,,,tsunami,No data
+official_export_002:185,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,,,,,tsunami,No data
+official_export_002:186,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,,,,,tsunami,No data
+official_export_002:306,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,,,,,tsunami,No data
+official_export_002:307,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,,,,,tsunami,No data
+official_export_002:308,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,,,,,tsunami,No data
+official_export_002:309,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,,,,,tsunami,No data
+official_export_002:310,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,,,,,tsunami,No data
+192,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,,,,,tsunami,No data
+1.32209E+11,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),,,,,tsunami,No data
+official_export_002:187,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,,,,,tsunami,No data
+official_export_002:188,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,,,,,tsunami,No data
+official_export_002:189,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,,,,,tsunami,No data
+official_export_002:190,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,,,,,tsunami,No data
+108,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,,,,,tsunami,No data
+110,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,,,,,tsunami,No data
+137,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,,,,,tsunami,No data
+138,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,,,,,tsunami,No data
+139,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,,,,,tsunami,No data
+132000000000.0,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,,,,,tsunami,No data
+official_export_002:438,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,,,,,tsunami,No data
+official_export_002:439,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,,,,,tsunami,No data
+official_export_002:440,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,,,,,tsunami,No data
+official_export_002:441,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,,,,,tsunami,No data
+official_export_002:442,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,,,,,tsunami,No data
+official_export_002:443,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,,,,,tsunami,No data
+official_export_002:444,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,,,,,tsunami,No data
+103,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),,,,,tsunami,No data
+140,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,,,,,tsunami,No data
+141,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,,,,,tsunami,No data
+142,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,,,,,tsunami,No data
+223,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,,,,,tsunami,No data
+official_export_002:109,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,,,,,tsunami,No data
+official_export_002:146,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,,,,,tsunami,No data
+official_export_002:163,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,,,,,tsunami,No data
+official_export_002:164,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,,,,,tsunami,No data
+224,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,,,,,tsunami,No data
+28,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,,,,,tsunami,No data
+225,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,,,,,tsunami,No data
+official_export_002:431,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,,,,,tsunami,No data
+official_export_002:432,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,,,,,tsunami,No data
+29,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,,,,,tsunami,No data
+104,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,,,,,tsunami,No data
+143,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,,,,,tsunami,No data
+144,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,,,,,tsunami,No data
+145,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,,,,,tsunami,No data
+147,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,,,,,tsunami,No data
+193,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,,,,,tsunami,No data
+226,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,,,,,tsunami,No data
+227,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,,,,,tsunami,No data
+228,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,,,,,tsunami,No data
+229,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,,,,,tsunami,No data
+230,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,,,,,tsunami,No data
+30,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,,,,,tsunami,No data
+31,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,,,,,tsunami,No data
+32,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,,,,,tsunami,No data
+33,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,,,,,tsunami,No data
+34,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,,,,,tsunami,No data
+35,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,,,,,tsunami,No data
+36,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,,,,,tsunami,No data
+37,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,,,,,tsunami,No data
+38,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,,,,,tsunami,No data
+39,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,,,,,tsunami,No data
+40,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,,,,,tsunami,No data
+41,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,,,,,tsunami,No data
+42,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,,,,,tsunami,No data
+43,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,,,,,tsunami,No data
+44,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,,,,,tsunami,No data
+45,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,,,,,tsunami,No data
+46,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,,,,,tsunami,No data
+47,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),,,,,tsunami,No data
+48,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),,,,,tsunami,No data
+49,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,,,,,tsunami,No data
+50,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,,,,,tsunami,No data
+51,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,,,,,tsunami,No data
+52,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,,,,,tsunami,No data
+53,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,,,,,tsunami,No data
+54,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,,,,,tsunami,No data
+88,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,,,,,tsunami,No data
+89,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,,,,,tsunami,No data
+90,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,,,,,tsunami,No data
+91,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,,,,,tsunami,No data
+92,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,,,,,tsunami,No data
+99,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,,,,,tsunami,No data
+100,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,五日市の市神様,,,,,tsunami,No data
+101,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,二宮神社の算額絵馬,,,,,tsunami,No data
+102,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,,,,,tsunami,No data
+109,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,二宮ばやし,,,,,tsunami,No data
+111,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,草花ばやし,,,,,tsunami,No data
+119,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,西戸倉棒使い,,,,,tsunami,No data
+120,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,伊奈本町囃子,,,,,tsunami,No data
+146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),,,,,tsunami,No data
+148,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅見世蔵,,,,,tsunami,No data
+149,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,,,,,tsunami,No data
+150,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,,,,,tsunami,No data
+151,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,,,,,tsunami,No data
+152,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅旧米蔵,,,,,tsunami,No data
+153,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,,,,,tsunami,No data
+official_export_002:445,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,,,,,tsunami,No data
+official_export_002:446,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,,,,,tsunami,No data
+official_export_002:447,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,,,,,tsunami,No data
+official_export_002:448,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,,,,,tsunami,No data
+official_export_002:449,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,,,,,tsunami,No data
+official_export_002:450,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,,,,,tsunami,No data
+official_export_002:451,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,,,,,tsunami,No data
+official_export_002:452,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,,,,,tsunami,No data
+official_export_002:453,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,,,,,tsunami,No data
+official_export_003:54,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,,,,,tsunami,No data
+official_export_002:240,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,,,,,tsunami,No data
+official_export_002:252,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,,,,,tsunami,No data
+official_export_002:253,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,,,,,tsunami,No data
+official_export_002:290,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,,,,,tsunami,No data
+official_export_002:291,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,,,,,tsunami,No data
+official_export_002:292,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,,,,,tsunami,No data
+official_export_002:293,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,,,,,tsunami,No data
+official_export_002:294,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,,,,,tsunami,No data
+official_export_002:304,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,,,,,tsunami,No data
+official_export_003:32,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,,,,,tsunami,No data
+official_export_003:28,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,,,,,tsunami,No data
+203,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,,,,,tsunami,No data
+official_export_001:64,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),,,,,tsunami,No data
+official_export_002:162,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,,,,,tsunami,No data
+official_export_002:254,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,,,,,tsunami,No data
+official_export_002:373,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,,,,,tsunami,No data
+official_export_002:429,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,,,,,tsunami,No data
+233,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,差木地の大クス,,,,,tsunami,No data
+234,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,野増大宮のシイ樹叢,,,,,tsunami,No data
+235,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,おたいね浦の岩脈と筆島,,,,,tsunami,No data
+236,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,春日神社のイヌマキ群叢,,,,,tsunami,No data
+official_export_003:6,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,,,,,tsunami,No data
+official_export_003:7,13361,大島町,National,Designated,記念物,天然記念物,point,大島のサクラ株,,,,,tsunami,No data
+official_export_003:31,13361,大島町,National,Designated,記念物,天然記念物,point,シイノキ山のシイノキ群叢,,,,,tsunami,No data
+official_export_002:7,13362,利島村,National,Registered,有形文化財,建造物,building_direct,阿豆佐和気命神社旧本殿,,,,,tsunami,No data
+official_export_002:49,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,,,,,tsunami,No data
+official_export_002:130,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,3.211,南海トラフケース１（島しょ部）;南海トラフケース６（島しょ部）;南海トラフケース８（島しょ部）,,PLATEAU building risk,tsunami,3–5 m
+official_export_002:131,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,3.211,南海トラフケース１（島しょ部）;南海トラフケース６（島しょ部）;南海トラフケース８（島しょ部）,,PLATEAU building risk,tsunami,3–5 m
+official_export_002:177,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,0.561,南海トラフケース１（島しょ部）;南海トラフケース６（島しょ部）;南海トラフケース８（島しょ部）,,PLATEAU building risk,tsunami,0.5–3 m
+official_export_002:224,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,,,,,tsunami,No data
+official_export_002:416,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,8.1251,新島・式根島,南海トラフ巨大地震_ケース1;南海トラフ巨大地震_ケース6;南海トラフ巨大地震_ケース8,external point-grid sampling,tsunami,5 m以上
+237,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,,,,,tsunami,No data
+238,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,,,,,tsunami,No data
+194,13401,八丈町,Unknown,Unknown,未判定,未細分,point,近藤守真墓,,,,,tsunami,No data

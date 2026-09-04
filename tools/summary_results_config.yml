@@ -1,0 +1,70 @@
+summary:
+  title: "Summary Results"
+  include_development_history: false
+  include_current_implementation_specification: false
+
+population:
+  immovable_cultural_properties:
+    counting_unit: record
+    include_point_hazard_assignment: true
+    include_plateau_building_hazard_assignment: true
+  movable_cultural_properties:
+    treatment: separate_table
+
+designation_level:
+  categories:
+    - National
+    - Tokyo Metropolitan
+    - Municipal
+
+seismic:
+  scenarios:
+    - 都心南部直下地震
+    - 都心東部直下地震
+    - 都心西部直下地震
+    - 大正関東地震
+    - 南海トラフ巨大地震
+  classes:
+    - "5弱未満"
+    - "5弱"
+    - "5強"
+    - "6弱"
+    - "6強以上"
+
+inundation:
+  classes_m:
+    - "0"
+    - "0–0.5 m"
+    - "0.5–3 m"
+    - "3–5 m"
+    - "5 m以上"
+  types:
+    - inundation_forecast
+    - storm_surge
+    - tsunami
+
+maps:
+  overview_regions:
+    - mainland_tokyo
+    - izu_islands
+    - ogasawara_islands
+
+  detail:
+    zoom: 16
+    basemap: OpenStreetMap
+    show_heritage_points: true
+    show_building_footprints: true
+    centers:
+      - Tokyo Station
+      - Tokyo Metropolitan Ueno High School
+      - JR Ryogoku Station
+      - Tokyo Metro Tawaramachi Station
+
+  additional:
+    - risk_assigned_cultural_type_distribution
+    - point_distribution_by_hazard_type
+
+sources:
+  derive_from:
+    - source_license
+    - hazard_source_manifest

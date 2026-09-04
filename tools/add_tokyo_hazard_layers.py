@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-add_tokyo_hazard_layers_v1_1.py
+add_tokyo_hazard_layers.py
 
 東京都オープンデータ + 国土数値情報の災害データを自動取得し、
 既存の PLATEAU Heritage GeoPackage をコピーした上で災害レイヤを追加する。
@@ -19,6 +19,9 @@ add_tokyo_hazard_layers_v1_1.py
    - A46 地すべり防止区域
    - A47 急傾斜地崩壊危険区域
    - A52 砂防指定地
+9. 国土数値情報 A31a 洪水浸水想定区域（河川単位）
+   - 想定最大規模
+   - 既定対象: 荒川、多摩川
 
 重要な設計方針
 --------------
@@ -59,12 +62,26 @@ python add_tokyo_hazard_layers.py \
   --input ./output/13_heritage_enriched.gpkg \
   --output ./output/13_heritage_hazards.gpkg \
   --datasets region_risk,fire_spread,seismic,liquefaction
+
+A31a関東地方整備局版（荒川・多摩川）だけを既存 hazard GPKG に追加する場合:
+python add_tokyo_hazard_layers.py \
+  --input ./output/13_heritage_hazards.gpkg \
+  --output ./output/13_heritage_hazards_a31a.gpkg \
+  --cache ./.cache/hazard_sources \
+  --datasets a31a
+
+対象河川を明示する場合:
+python add_tokyo_hazard_layers.py \
+  --input ./output/13_heritage_hazards.gpkg \
+  --output ./output/13_heritage_hazards_a31a.gpkg \
+  --datasets a31a \
+  --a31a-river 荒川 \
+  --a31a-river 多摩川
 """
 
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import math
 import re
@@ -205,6 +222,44 @@ KSJ_DATASETS = {
     },
 }
 
+
+A31A_DATASET = {
+    "no": 9,
+    "title": "国土数値情報 洪水浸水想定区域（河川単位）",
+    "org": "国土交通省 関東地方整備局 / 国土数値情報",
+    "file": "A31a-25_83_10_GEOJSON.zip",
+    "url": (
+        "https://nlftp.mlit.go.jp/ksj/gml/data/"
+        "A31a/A31a-25/A31a-25_83_10_GEOJSON.zip"
+    ),
+    "page": (
+        "https://nlftp.mlit.go.jp/ksj/gml/datalist/"
+        "KsjTmplt-A31a-2025.html"
+    ),
+    "year": 2025,
+    "scenario": "想定最大規模",
+    "source_scope": "関東地方整備局（作成種別コード83）",
+    "default_rivers": ["荒川", "多摩川"],
+}
+
+A31A_DEPTH_NATIVE = {
+    1: ("0–0.5 m", 0.0, 0.5),
+    2: ("0.5–3 m", 0.5, 3.0),
+    3: ("3–5 m", 3.0, 5.0),
+    4: ("5–10 m", 5.0, 10.0),
+    5: ("10–20 m", 10.0, 20.0),
+    6: ("20 m以上", 20.0, None),
+}
+
+A31A_DEPTH_SUMMARY = {
+    1: "0–0.5 m",
+    2: "0.5–3 m",
+    3: "3–5 m",
+    4: "5 m以上",
+    5: "5 m以上",
+    6: "5 m以上",
+}
+
 ALL_DATASET_KEYS = [
     "region_risk",
     "fire_spread",
@@ -213,6 +268,7 @@ ALL_DATASET_KEYS = [
     "inundation",
     "storm_surge",
     "tsunami",
+    "a31a",
     "ksj",
 ]
 
@@ -247,6 +303,24 @@ def parse_args():
         ),
     )
     p.add_argument(
+        "--a31a-river",
+        action="append",
+        default=[],
+        help=(
+            "River name to extract from A31a expected-maximum-scale data. "
+            "Repeatable. Default: 荒川 and 多摩川."
+        ),
+    )
+    p.add_argument(
+        "--a31a-archive",
+        type=Path,
+        default=None,
+        help=(
+            "Optional local A31a GeoJSON ZIP. If omitted, the 2025 Tokyo "
+            "A31a archive is downloaded automatically."
+        ),
+    )
+    p.add_argument(
         "--refresh",
         action="store_true",
         help="Redownload source files even if cached.",
@@ -261,7 +335,7 @@ def parse_args():
         action="store_true",
         help="Record an error and continue with the remaining datasets.",
     )
-    p.add_argument("--timeout", type=int, default=300)
+    p.add_argument("--timeout", type=int, default=90)
     return p.parse_args()
 
 
@@ -300,31 +374,6 @@ def safe_name(s: str, limit=100) -> str:
     s = unicodedata.normalize("NFKC", str(s))
     s = re.sub(r'[\\/:*?"<>|\s]+', "_", s).strip("_")
     return (s or "resource")[:limit]
-
-
-def layer_token(value: str, limit: int = 48) -> str:
-    """Return a QGIS/GeoPackage-friendly, human-readable layer-name token.
-
-    Japanese characters are intentionally preserved. Punctuation and spaces
-    become underscores. Long values receive a stable hash suffix so two
-    truncated scenario/area names cannot silently collide.
-    """
-    raw = unicodedata.normalize("NFKC", str(value or "")).strip()
-    token = re.sub(r"[^\w]+", "_", raw, flags=re.UNICODE).strip("_")
-    token = token or "unspecified"
-    if len(token) <= limit:
-        return token
-    digest = hashlib.sha1(raw.encode("utf-8")).hexdigest()[:8]
-    return token[: max(1, limit - 9)].rstrip("_") + "_" + digest
-
-
-def make_layer_name(prefix: str, *parts: str, max_len: int = 120) -> str:
-    tokens = [layer_token(p) for p in parts if str(p or "").strip()]
-    name = prefix if not tokens else prefix + "_" + "_".join(tokens)
-    if len(name) <= max_len:
-        return name
-    digest = hashlib.sha1(name.encode("utf-8")).hexdigest()[:8]
-    return name[: max_len - 9].rstrip("_") + "_" + digest
 
 
 def resource_name(r: dict) -> str:
@@ -384,28 +433,19 @@ def download_url(
     if part.exists():
         part.unlink()
 
-    try:
-        with session.get(url, timeout=timeout, stream=True) as r:
-            r.raise_for_status()
-            with part.open("wb") as f:
-                for chunk in r.iter_content(chunk_size=1024 * 1024):
-                    if chunk:
-                        f.write(chunk)
+    with session.get(url, timeout=timeout, stream=True) as r:
+        r.raise_for_status()
+        with part.open("wb") as f:
+            for chunk in r.iter_content(chunk_size=1024 * 1024):
+                if chunk:
+                    f.write(chunk)
 
-        if part.stat().st_size == 0:
-            raise RuntimeError(f"Downloaded zero-byte file: {url}")
-
-        part.replace(dest)
-        return dest
-
-    except Exception as exc:
+    if part.stat().st_size == 0:
         part.unlink(missing_ok=True)
-        raise RuntimeError(
-            f"Download failed or timed out: {url}\n"
-            f"destination={dest}\n"
-            f"timeout={timeout}s\n"
-            f"cause={exc}"
-        ) from exc
+        raise RuntimeError(f"Downloaded zero-byte file: {url}")
+
+    part.replace(dest)
+    return dest
 
 
 def download_resource(
@@ -668,8 +708,34 @@ def register_attribute_table(con: sqlite3.Connection, name: str, rows: int):
 
 
 def write_manifest(gpkg: Path, rows: list[dict]):
-    df = pd.DataFrame(rows)
+    """Append new manifest rows while preserving rows copied from the input GPKG."""
+    new_df = pd.DataFrame(rows)
     with sqlite3.connect(gpkg) as con:
+        old_df = pd.DataFrame()
+        try:
+            old_df = pd.read_sql_query(
+                "SELECT * FROM hazard_source_manifest",
+                con,
+            )
+        except Exception:
+            pass
+
+        if old_df.empty:
+            df = new_df
+        elif new_df.empty:
+            df = old_df
+        else:
+            # Align columns without discarding older manifest metadata.
+            all_cols = list(dict.fromkeys(list(old_df.columns) + list(new_df.columns)))
+            df = pd.concat(
+                [
+                    old_df.reindex(columns=all_cols),
+                    new_df.reindex(columns=all_cols),
+                ],
+                ignore_index=True,
+                sort=False,
+            )
+
         df.to_sql(
             "hazard_source_manifest",
             con,
@@ -1066,22 +1132,35 @@ def ingest_seismic_or_liquefaction(ctx, key: str):
         if resource_format(r) == "CSV"
     ]
 
-    # Classify from actual CSV headers.
-    # v1.5 policy:
-    #   seismic      -> one physical GPKG layer per earthquake scenario
-    #   liquefaction -> existing long-form layer retained for now
-    if key == "liquefaction":
-        aggregate_layer = "hazard_liquefaction_250m"
+    if key == "seismic":
+        resources = [
+            r for r in resources
+            if (
+                "計測震度" in resource_name(r)
+                or (
+                    "50" in normalized(resource_name(r))
+                    and "メッシュ" in resource_name(r)
+                )
+            )
+        ]
+        layer = "hazard_seismic_intensity_50m"
+    else:
+        resources = [
+            r for r in resources
+            if (
+                "液状化" in resource_name(r)
+                or (
+                    "250" in normalized(resource_name(r))
+                    and "メッシュ" in resource_name(r)
+                )
+            )
+        ]
+        layer = "hazard_liquefaction_250m"
 
-    accepted = 0
-    skipped = []
+    if not resources:
+        raise RuntimeError(f"No matching CSV resources for {key}")
 
-    for i, r in enumerate(resources, 1):
-        print(
-            f"    {key} candidate [{i}/{len(resources)}] "
-            f"{resource_name(r)}",
-            flush=True,
-        )
+    for r in resources:
         p = download_resource(
             ctx.session,
             r,
@@ -1089,104 +1168,46 @@ def ingest_seismic_or_liquefaction(ctx, key: str):
             ctx.timeout,
             ctx.refresh,
         )
-        print(
-            f"      source ready: {p.name} "
-            f"({p.stat().st_size / (1024*1024):.1f} MiB)",
-            flush=True,
-        )
         df = read_csv_auto(p)
 
-        mesh50_col = col_by_candidates(
-            df,
-            candidates=("50mメッシュコード", "50ｍメッシュコード"),
-            contains=("50m", "メッシュコード"),
-        )
-        intensity_col = col_by_candidates(
-            df,
-            candidates=("計測震度",),
-            contains=("計測震度",),
-        )
-        mesh250_col = col_by_candidates(
-            df,
-            candidates=("250mメッシュコード", "250ｍメッシュコード"),
-            contains=("250m", "メッシュコード"),
-        )
-        pl_col = col_by_candidates(
-            df,
-            candidates=("Plcorrecte", "PLcorrected", "PL値"),
-            contains=("pl",),
-        )
-        subsidence_col = col_by_candidates(
-            df,
-            candidates=("Scorrected", "沈下量（m）", "沈下量(m)"),
-            contains=("沈下量",),
-        )
-
-        is_seismic = bool(mesh50_col and intensity_col)
-        is_liquefaction = bool(mesh250_col and (pl_col or subsidence_col))
-
         if key == "seismic":
-            if not is_seismic:
-                skipped.append(
-                    f"{resource_name(r)}: columns={list(df.columns)}"
-                )
-                continue
-            scenario = seismic_scenario(resource_name(r))
-            layer = make_layer_name("hazard_seismic_50m", scenario)
-            gdf = build_seismic_gdf(df, scenario, r)
+            gdf = build_seismic_gdf(
+                df,
+                seismic_scenario(resource_name(r)),
+                r,
+            )
             no = 3
             geom_type = "Polygon (official 50m mesh-code rule)"
-            write_spatial(
-                ctx.output, layer, gdf, ctx.written_layers
-            )
         else:
-            if not is_liquefaction:
-                skipped.append(
-                    f"{resource_name(r)}: columns={list(df.columns)}"
-                )
-                continue
-            scenario = liquefaction_scenario(resource_name(r))
-            layer = aggregate_layer
-            gdf = build_liquefaction_gdf(df, scenario, r)
+            gdf = build_liquefaction_gdf(
+                df,
+                liquefaction_scenario(resource_name(r)),
+                r,
+            )
             no = 4
             geom_type = "Polygon (standard 250m regional mesh)"
-            append_stream(
-                ctx.output,
-                layer,
-                gdf,
-                ctx.stream_state,
-                ctx.written_layers,
-            )
 
-        accepted += 1
+        append_stream(
+            ctx.output,
+            layer,
+            gdf,
+            ctx.stream_state,
+            ctx.written_layers,
+        )
         ctx.manifest.append(
             manifest_row(
-                no, key, info["title"], info["org"],
-                "CKAN metadata API + direct CSV download; header-classified",
-                str(r.get("url") or ""), resource_name(r), layer,
-                geom_type, len(gdf),
-                note=(
-                    f"scenario={scenario}; "
-                    + (
-                        "stored as an independent scenario layer"
-                        if key == "seismic"
-                        else "scenario retained as an attribute in the long-form layer"
-                    )
-                ),
+                no,
+                key,
+                info["title"],
+                info["org"],
+                "CKAN metadata API + direct CSV download",
+                str(r.get("url") or ""),
+                resource_name(r),
+                layer,
+                geom_type,
+                len(gdf),
             )
         )
-
-    if accepted == 0:
-        preview = "\n".join("  - " + s for s in skipped[:10])
-        raise RuntimeError(
-            f"No CSV resource with the expected actual columns was found "
-            f"for {key}.\nChecked resources:\n{preview}"
-        )
-
-    print(
-        f"    accepted {accepted} {key} CSV resource(s); "
-        f"skipped {len(skipped)} non-{key} CSV resource(s)"
-    )
 
 
 # ----------------------------------------------------------------------
@@ -1272,83 +1293,48 @@ def build_inundation_points(df: pd.DataFrame, r: dict):
 def ingest_inundation(ctx):
     info = TOKYO_DATASETS["inundation"]
     pkg = package_show(ctx.session, info["id"], ctx.timeout)
-
-    all_csv = [
+    resources = [
         r for r in pkg.get("resources", [])
         if resource_format(r) == "CSV"
     ]
+    if not resources:
+        raise RuntimeError("No CSV resources found for inundation expected areas.")
 
-    resources = [
-        r for r in all_csv
-        if "/kensetsu/R3/" in str(r.get("url") or "")
-        and "_zukaku" not in str(r.get("url") or "").lower()
-    ]
+    layer = "hazard_inundation_expected_points"
 
-    if len(resources) != 14:
-        details = "\n".join(
-            f"  - {resource_name(r)} :: {r.get('url')}"
-            for r in all_csv
-        )
-        raise RuntimeError(
-            "Expected exactly 14 canonical R3 inundation CSV resources "
-            f"but found {len(resources)}.\n"
-            "Current CKAN CSV resources:\n" + details
-        )
-
-    print(
-        f"    selected {len(resources)} canonical R3 inundation CSVs "
-        f"(excluded {len(all_csv) - len(resources)} non-R3/duplicate CSVs)"
-    )
-
-    for i, r in enumerate(resources, 1):
-        area = inundation_area_name(resource_name(r))
-        layer = make_layer_name("hazard_inundation", area)
-        print(
-            f"    inundation [{i}/{len(resources)}] {area} -> {layer}",
-            flush=True,
-        )
+    for r in resources:
         p = download_resource(
-            ctx.session, r, ctx.cache / "tokyo" / info["id"],
-            ctx.timeout, ctx.refresh,
+            ctx.session,
+            r,
+            ctx.cache / "tokyo" / info["id"],
+            ctx.timeout,
+            ctx.refresh,
         )
         df = read_csv_auto(p)
+        gdf = build_inundation_points(df, r)
 
-        try:
-            gdf = build_inundation_points(df, r)
-        except Exception as exc:
-            lon_col = col_by_candidates(
-                df, candidates=("経度", "経度（度）", "経度(度)"),
-                contains=("経度",),
-            )
-            lat_col = col_by_candidates(
-                df, candidates=("緯度", "緯度（度）", "緯度(度)"),
-                contains=("緯度",),
-            )
-            sample = {}
-            if lon_col:
-                sample["lon"] = df[lon_col].head(3).astype(str).tolist()
-            if lat_col:
-                sample["lat"] = df[lat_col].head(3).astype(str).tolist()
-            raise RuntimeError(
-                f"Inundation source failed: {resource_name(r)}\n"
-                f"url={r.get('url')}\n"
-                f"columns={list(df.columns)}\n"
-                f"coordinate_sample={sample}\n"
-                f"cause={exc}"
-            ) from exc
-
-        write_spatial(ctx.output, layer, gdf, ctx.written_layers)
+        append_stream(
+            ctx.output,
+            layer,
+            gdf,
+            ctx.stream_state,
+            ctx.written_layers,
+        )
         ctx.manifest.append(
             manifest_row(
-                5, "inundation", info["title"], info["org"],
-                "CKAN metadata API + canonical R3 direct CSV download",
-                str(r.get("url") or ""), resource_name(r), layer,
-                "Point (explicit CSV longitude/latitude)", len(gdf),
+                5,
+                "inundation",
+                info["title"],
+                info["org"],
+                "CKAN metadata API + direct CSV download",
+                str(r.get("url") or ""),
+                resource_name(r),
+                layer,
+                "Point (explicit CSV longitude/latitude)",
+                len(gdf),
                 note=(
-                    f"basin/area={area}; stored as an independent flood "
-                    "scenario layer. Later R4 split Akigawa files are excluded "
-                    "to avoid duplicate coverage. No polygon is inferred; each "
-                    "feature is the exact published coordinate."
+                    "No polygon is inferred. Each feature is the exact "
+                    "published coordinate."
                 ),
             )
         )
@@ -1376,56 +1362,21 @@ def storm_surge_layer(name: str) -> str | None:
 def ingest_storm_surge(ctx):
     info = TOKYO_DATASETS["storm_surge"]
     pkg = package_show(ctx.session, info["id"], ctx.timeout)
-
-    all_resources = pkg.get("resources", [])
-
-    # Tokyo CKAN describes the downloadable Shape-format archives as
-    # resource format "ZIP", not "SHP".  Select ZIP resources whose names
-    # explicitly say "(shpデータ)" so the parallel XLS ZIPs are excluded.
     resources = [
-        r for r in all_resources
-        if resource_format(r) == "ZIP"
-        and (
-            "shpデータ" in normalized(resource_name(r))
-            or "shape形式" in normalized(str(r.get("description") or ""))
-        )
+        r for r in pkg.get("resources", [])
+        if resource_format(r) == "SHP"
     ]
-
     if not resources:
-        details = "\n".join(
-            f"  - format={resource_format(r)!r} "
-            f"name={resource_name(r)!r} url={r.get('url')}"
-            for r in all_resources
-        )
-        raise RuntimeError(
-            "No ZIP resources containing storm-surge Shape data were found.\n"
-            "Current CKAN resources:\n"
-            + details
-        )
-
-    print(
-        f"    selected {len(resources)} Shape-data ZIP resource(s) "
-        f"from {len(all_resources)} CKAN resources"
-    )
+        raise RuntimeError("No SHP resources found for storm surge.")
 
     expected = set()
 
-    for i, r in enumerate(resources, 1):
-        print(
-            f"    storm_surge [{i}/{len(resources)}] {resource_name(r)}",
-            flush=True,
-        )
-
+    for r in resources:
         layer = storm_surge_layer(resource_name(r))
         if not layer:
             raise RuntimeError(
-                "Cannot classify storm-surge Shape ZIP resource: "
+                "Cannot classify storm-surge SHP resource: "
                 + resource_name(r)
-            )
-        if layer in expected:
-            raise RuntimeError(
-                f"Duplicate storm-surge semantic layer detected: {layer}\n"
-                f"resource={resource_name(r)}"
             )
         expected.add(layer)
 
@@ -1436,12 +1387,6 @@ def ingest_storm_surge(ctx):
             ctx.timeout,
             ctx.refresh,
         )
-        print(
-            f"      source ready: {p.name} "
-            f"({p.stat().st_size / (1024*1024):.1f} MiB)",
-            flush=True,
-        )
-
         gdf = native_shp_resource(
             p,
             info["id"],
@@ -1454,31 +1399,18 @@ def ingest_storm_surge(ctx):
             gdf,
             ctx.written_layers,
         )
-
-        note = (
-            "Tokyo CKAN resource format is ZIP; the archive contains "
-            "Shape-format files. The parallel XLS ZIP resource is excluded."
-        )
-        if layer == "hazard_storm_surge_duration":
-            note += (
-                " In the official source, TermMin=999999 means "
-                "'one week or longer' and is a placeholder, not a "
-                "calculated duration."
-            )
-
         ctx.manifest.append(
             manifest_row(
                 6,
                 "storm_surge",
                 info["title"],
                 info["org"],
-                "CKAN metadata API + direct Shape-data ZIP download",
+                "CKAN metadata API + direct SHP download",
                 str(r.get("url") or ""),
                 resource_name(r),
                 layer,
                 str(gdf.geom_type.mode().iloc[0]),
                 len(gdf),
-                note=note,
             )
         )
 
@@ -1487,12 +1419,10 @@ def ingest_storm_surge(ctx):
         "hazard_storm_surge_duration",
         "hazard_storm_surge_house_collapse",
     }
-    if expected != needed:
+    if not needed.issubset(expected):
         raise RuntimeError(
-            "Storm-surge Shape ZIP set incomplete or unexpected. "
-            f"expected={sorted(needed)}, found={sorted(expected)}, "
-            f"missing={sorted(needed - expected)}, "
-            f"extra={sorted(expected - needed)}"
+            "Storm-surge SHP set incomplete. "
+            f"missing={sorted(needed - expected)}"
         )
 
 
@@ -1616,6 +1546,8 @@ def build_tsunami_points(df: pd.DataFrame, r: dict):
                 ),
             }
         )
+        layer = "hazard_tsunami_arrival_points"
+
     elif metric == "height":
         col = col_by_candidates(
             df,
@@ -1625,6 +1557,7 @@ def build_tsunami_points(df: pd.DataFrame, r: dict):
         if not col:
             raise RuntimeError("Tsunami-height CSV lacks maximum-height field.")
         common["tsunami_height_max_m"] = numeric(df.loc[mask, col]).values
+        layer = "hazard_tsunami_height_points"
 
     else:
         col = col_by_candidates(
@@ -1635,12 +1568,11 @@ def build_tsunami_points(df: pd.DataFrame, r: dict):
         if not col:
             raise RuntimeError("Tsunami-depth CSV lacks maximum-depth field.")
         common["inundation_depth_max_m"] = numeric(df.loc[mask, col]).values
+        layer = "hazard_tsunami_depth_points"
 
     out = pd.DataFrame(common)
     geom = gpd.points_from_xy(out["lon"], out["lat"], crs="EPSG:4326")
-    return area, scenario, metric, gpd.GeoDataFrame(
-        out, geometry=geom, crs="EPSG:4326"
-    )
+    return layer, gpd.GeoDataFrame(out, geometry=geom, crs="EPSG:4326")
 
 
 def ingest_tsunami(ctx):
@@ -1665,35 +1597,323 @@ def ingest_tsunami(ctx):
             flush=True,
         )
         p = download_resource(
-            ctx.session, r, ctx.cache / "tokyo" / info["id"],
-            ctx.timeout, ctx.refresh,
+            ctx.session,
+            r,
+            ctx.cache / "tokyo" / info["id"],
+            ctx.timeout,
+            ctx.refresh,
         )
         df = read_csv_auto(p)
-        area, scenario, metric, gdf = build_tsunami_points(df, r)
+        layer, gdf = build_tsunami_points(df, r)
 
-        layer = make_layer_name(
-            f"hazard_tsunami_{metric}",
-            area or "all",
-            scenario or "default",
+        append_stream(
+            ctx.output,
+            layer,
+            gdf,
+            ctx.stream_state,
+            ctx.written_layers,
         )
-        print(f"      -> {layer}", flush=True)
-        write_spatial(ctx.output, layer, gdf, ctx.written_layers)
-
         ctx.manifest.append(
             manifest_row(
-                7, "tsunami", info["title"], info["org"],
+                7,
+                "tsunami",
+                info["title"],
+                info["org"],
                 "CKAN metadata API + direct CSV download",
-                str(r.get("url") or ""), resource_name(r), layer,
-                "Point (explicit CSV longitude/latitude)", len(gdf),
+                str(r.get("url") or ""),
+                resource_name(r),
+                layer,
+                "Point (explicit CSV longitude/latitude)",
+                len(gdf),
                 note=(
-                    f"area={area}; scenario={scenario}; metric={metric}; "
-                    "stored as an independent tsunami scenario layer. "
-                    "Published data are 10m mesh values, but this script does "
-                    "not infer cell polygons; it stores published coordinate "
-                    "points exactly."
+                    "Published data are 10m mesh values, but this script "
+                    "does not infer cell polygons; it stores published "
+                    "coordinate points exactly."
                 ),
             )
         )
+
+
+
+# ----------------------------------------------------------------------
+# Dataset 9: 国土数値情報 A31a 洪水浸水想定区域（河川単位）
+# ----------------------------------------------------------------------
+
+def a31a_target_rivers(ctx) -> list[str]:
+    rivers = [str(x).strip() for x in getattr(ctx, "a31a_rivers", []) if str(x).strip()]
+    return rivers or list(A31A_DATASET["default_rivers"])
+
+
+def a31a_extract_root(archive: Path, refresh=False) -> Path:
+    return extract_zip(archive, refresh)
+
+
+def a31a_expected_max_files(root: Path) -> list[Path]:
+    """
+    A31a GeoJSON archives are split by scenario / river.
+    Rather than depending on directory names, select GeoJSON members that
+    expose the expected-maximum-scale fields A31a_202 (river name)
+    and A31a_205 (depth-rank code).
+    """
+    out = []
+    for f in sorted(root.rglob("*.geojson")):
+        try:
+            info = pyogrio.read_info(f)
+            fields = info.get("fields")
+            cols = set(map(str, fields)) if fields is not None else set()
+        except Exception:
+            cols = set()
+        if {"A31a_202", "A31a_205"}.issubset(cols):
+            out.append(f)
+    return out
+
+
+def a31a_normalize_river_name(value) -> str:
+    return normalized(value)
+
+
+def a31a_add_normalized_fields(gdf: gpd.GeoDataFrame, source_member: str) -> gpd.GeoDataFrame:
+    out = gdf.copy()
+    rank = pd.to_numeric(out["A31a_205"], errors="coerce").astype("Int64")
+
+    out["river_code"] = out.get("A31a_201", pd.Series(index=out.index, dtype="object")).astype(str)
+    out["river_name"] = out["A31a_202"].astype(str)
+    out["river_manager_code"] = out.get("A31a_203", pd.Series(index=out.index, dtype="object")).astype(str)
+    out["river_manager"] = out.get("A31a_204", pd.Series(index=out.index, dtype="object")).astype(str)
+    out["scenario"] = A31A_DATASET["scenario"]
+    out["depth_rank_code"] = rank
+
+    native_label = []
+    depth_min = []
+    depth_max = []
+    summary_label = []
+    for value in rank:
+        if pd.isna(value):
+            native_label.append(None)
+            depth_min.append(np.nan)
+            depth_max.append(np.nan)
+            summary_label.append(None)
+            continue
+        code = int(value)
+        native = A31A_DEPTH_NATIVE.get(code)
+        if native is None:
+            native_label.append(None)
+            depth_min.append(np.nan)
+            depth_max.append(np.nan)
+            summary_label.append(None)
+        else:
+            native_label.append(native[0])
+            depth_min.append(native[1])
+            depth_max.append(np.nan if native[2] is None else native[2])
+            summary_label.append(A31A_DEPTH_SUMMARY.get(code))
+
+    out["depth_class_native"] = native_label
+    out["depth_min_m"] = depth_min
+    out["depth_max_m"] = depth_max
+    out["depth_class_summary"] = summary_label
+    out["source_dataset"] = "A31a"
+    out["source_scope"] = A31A_DATASET["source_scope"]
+    out["source_year"] = A31A_DATASET["year"]
+    out["source_file"] = A31A_DATASET["file"]
+    out["source_member"] = source_member
+    out["source_url"] = A31A_DATASET["url"]
+    out["source_page"] = A31A_DATASET["page"]
+    out["source_license"] = "CC BY 4.0"
+
+    # Keep the original A31a_* fields as well for auditability.
+    return out
+
+
+def a31a_tokyo_clip_geometry(ctx):
+    """
+    Return the existing Tokyo administrative geometry if available.
+    The current project GPKG contains mainland N03 boundaries; clipping is
+    therefore appropriate for 荒川 / 多摩川 and reduces cross-prefecture geometry.
+    """
+    layer = "admin_boundary_n03_2024"
+    if layer not in ctx.written_layers:
+        return None
+    try:
+        admin = pyogrio.read_dataframe(ctx.output, layer=layer)
+        if admin.empty:
+            return None
+        admin = ensure_wgs84(admin)
+        return admin.geometry.union_all()
+    except Exception as exc:
+        print(f"    A31a: admin clip unavailable ({exc}); keeping source geometry", flush=True)
+        return None
+
+
+def a31a_clip(gdf: gpd.GeoDataFrame, clip_geom) -> gpd.GeoDataFrame:
+    if clip_geom is None or gdf.empty:
+        return gdf
+    mask = gdf.geometry.intersects(clip_geom)
+    out = gdf.loc[mask].copy()
+    if out.empty:
+        return out
+    # The archive is already Tokyo-specific. Intersects is preferred over
+    # geometry intersection here to preserve the published polygon geometry.
+    return out
+
+
+def ingest_a31a(ctx):
+    info = A31A_DATASET
+    rivers = a31a_target_rivers(ctx)
+
+    if getattr(ctx, "a31a_archive", None):
+        archive = Path(ctx.a31a_archive).expanduser().resolve()
+        if not archive.exists():
+            raise FileNotFoundError(archive)
+        acquisition = "local archive supplied by --a31a-archive"
+        source_url = info["url"]
+    else:
+        dest = ctx.cache / "ksj" / "a31a" / info["file"]
+        print(f"    A31a download: {info['file']}", flush=True)
+        archive = download_url(
+            ctx.session,
+            info["url"],
+            dest,
+            ctx.timeout,
+            ctx.refresh,
+        )
+        acquisition = "direct public download URL"
+        source_url = info["url"]
+
+    root = a31a_extract_root(archive, ctx.refresh)
+    members = a31a_expected_max_files(root)
+    if not members:
+        raise RuntimeError(
+            "No expected-maximum-scale A31a GeoJSON found. "
+            "Expected fields: A31a_202 and A31a_205."
+        )
+
+    print(f"    A31a expected-maximum GeoJSON files: {len(members)}", flush=True)
+
+    target_norm = {a31a_normalize_river_name(x): x for x in rivers}
+    matched_parts: dict[str, list[gpd.GeoDataFrame]] = {x: [] for x in rivers}
+    available_names = set()
+    clip_geom = a31a_tokyo_clip_geometry(ctx)
+
+    for f in members:
+        gdf = gpd.read_file(f, engine="pyogrio")
+        if gdf.empty:
+            continue
+        gdf = ensure_wgs84(gdf)
+        if "A31a_202" not in gdf.columns or "A31a_205" not in gdf.columns:
+            continue
+
+        raw_names = gdf["A31a_202"].dropna().astype(str)
+        available_names.update(raw_names.unique().tolist())
+        normalized_names = gdf["A31a_202"].map(a31a_normalize_river_name)
+
+        for norm_name, display_name in target_norm.items():
+            # Prefer an exact normalized river-name match.
+            mask = normalized_names == norm_name
+
+            # Some A31a members may carry a longer official river label.
+            # If there is no exact match, accept only names containing the
+            # requested name; keep the source river_name unchanged for audit.
+            if not mask.any():
+                mask = normalized_names.str.contains(
+                    re.escape(norm_name),
+                    regex=True,
+                    na=False,
+                )
+
+            sub = gdf.loc[mask].copy()
+            if sub.empty:
+                continue
+
+            sub = a31a_clip(sub, clip_geom)
+            if sub.empty:
+                continue
+
+            source_names = sorted(sub["A31a_202"].dropna().astype(str).unique().tolist())
+            print(
+                f"    A31a target {display_name}: source river name(s)={source_names}",
+                flush=True,
+            )
+
+            sub = a31a_add_normalized_fields(
+                sub,
+                str(f.relative_to(root)),
+            )
+            matched_parts[display_name].append(sub)
+
+    missing = [name for name, parts in matched_parts.items() if not parts]
+    if missing:
+        sample = sorted(str(x) for x in available_names)[:80]
+        raise RuntimeError(
+            "A31a target river(s) not found: "
+            f"{missing}. Available river-name sample: {sample}"
+        )
+
+    for river_name in rivers:
+        parts = matched_parts[river_name]
+        gdf = gpd.GeoDataFrame(
+            pd.concat(parts, ignore_index=True, sort=False),
+            geometry="geometry",
+            crs="EPSG:4326",
+        )
+
+        # Drop exact duplicate geometry/attribute rows that can occur when
+        # scenario files are split into multiple members.
+        dedupe_cols = [
+            c for c in ["A31a_201", "A31a_202", "A31a_205"]
+            if c in gdf.columns
+        ]
+        if dedupe_cols:
+            geom_wkb = gdf.geometry.to_wkb()
+            tmp = gdf.assign(_geom_wkb=geom_wkb)
+            tmp = tmp.drop_duplicates(subset=dedupe_cols + ["_geom_wkb"])
+            gdf = gpd.GeoDataFrame(
+                tmp.drop(columns=["_geom_wkb"]),
+                geometry="geometry",
+                crs="EPSG:4326",
+            )
+
+        layer = f"hazard_inundation_a31a_{safe_name(river_name, limit=60)}"
+        write_spatial(
+            ctx.output,
+            layer,
+            gdf,
+            ctx.written_layers,
+        )
+
+        ranks = sorted(
+            pd.to_numeric(gdf["depth_rank_code"], errors="coerce")
+            .dropna()
+            .astype(int)
+            .unique()
+            .tolist()
+        )
+        print(
+            f"    A31a {river_name}: {len(gdf):,} polygons, "
+            f"depth ranks={ranks} -> {layer}",
+            flush=True,
+        )
+
+        ctx.manifest.append(
+            manifest_row(
+                info["no"],
+                "a31a",
+                f"{info['title']} / {river_name} / {info['scenario']}",
+                info["org"],
+                acquisition,
+                source_url,
+                info["file"],
+                layer,
+                "Polygon",
+                len(gdf),
+                note=(
+                    "2025年度 A31a 関東地方整備局 GeoJSON（国管理河川）; 想定最大規模. "
+                    "Original A31a_201–A31a_205 fields are retained. "
+                    "depth_class_summary maps native ranks 4–6 to 5m以上 "
+                    "for Summary Results compatibility. License: CC BY 4.0."
+                ),
+            )
+        )
+
 
 
 # ----------------------------------------------------------------------
@@ -1878,6 +2098,8 @@ def main():
     ctx.timeout = a.timeout
     ctx.refresh = a.refresh
     ctx.tsunami_areas = a.tsunami_area
+    ctx.a31a_rivers = a.a31a_river
+    ctx.a31a_archive = a.a31a_archive
     ctx.manifest = []
     ctx.stream_state = {}
     ctx.written_layers = spatial_layer_names(dst)
@@ -1890,6 +2112,7 @@ def main():
         ("inundation", ingest_inundation),
         ("storm_surge", ingest_storm_surge),
         ("tsunami", ingest_tsunami),
+        ("a31a", ingest_a31a),
         ("ksj", ingest_ksj),
     ]
 
@@ -1899,7 +2122,7 @@ def main():
         if key not in selected:
             continue
 
-        print(f"\n[{ALL_DATASET_KEYS.index(key)+1}/8] {key}")
+        print(f"\n[{ALL_DATASET_KEYS.index(key)+1}/{len(ALL_DATASET_KEYS)}] {key}")
         try:
             func(ctx)
             print("    OK")
@@ -1907,6 +2130,8 @@ def main():
             print(f"    ERROR: {exc}", file=sys.stderr)
 
             info = TOKYO_DATASETS.get(key)
+            if key == "a31a":
+                info = A31A_DATASET
             ctx.manifest.append(
                 manifest_row(
                     info["no"] if info else 8,

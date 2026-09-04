@@ -1,0 +1,1861 @@
+﻿record_id,risk_type,risk_type_ja,depth_m,hazard_source,scenario,risk_class,risk_basis
+123,high_tide,高潮浸水想定,1.89,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+124,high_tide,高潮浸水想定,3.24,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+125,high_tide,高潮浸水想定,2.31,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131024000000.0,high_tide,高潮浸水想定,0.78,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+13104:141,high_tide,高潮浸水想定,1.79,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+13104:230,high_tide,高潮浸水想定,1.14,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+13104:37,high_tide,高潮浸水想定,0.16,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+13104:38,high_tide,高潮浸水想定,0.16,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+13104:39,high_tide,高潮浸水想定,0.16,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+13104:40,high_tide,高潮浸水想定,0.16,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+13104:72,high_tide,高潮浸水想定,0.16,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+131067100029,high_tide,高潮浸水想定,1.23,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100060,high_tide,高潮浸水想定,1.33,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100075,high_tide,高潮浸水想定,1.07,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100132,high_tide,高潮浸水想定,1.33,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100134,high_tide,高潮浸水想定,0.51,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100147,high_tide,高潮浸水想定,0.51,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100162,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100163,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100168,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100171,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100174,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100178,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131067100181,high_tide,高潮浸水想定,1.01,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100001,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100002,high_tide,高潮浸水想定,4.73,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100003,high_tide,高潮浸水想定,3.75,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100004,high_tide,高潮浸水想定,5.1,東京都 高潮浸水想定区域図,,5 m以上,external polygon point-in-area
+131075100006,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100007,high_tide,高潮浸水想定,2.29,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100008,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100010,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100011,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100012,high_tide,高潮浸水想定,1.15,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100014,high_tide,高潮浸水想定,1.22,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100016,high_tide,高潮浸水想定,1.41,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100017,high_tide,高潮浸水想定,1.41,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100047,high_tide,高潮浸水想定,1.05,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100048,high_tide,高潮浸水想定,4.37,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100049,high_tide,高潮浸水想定,3.53,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100050,high_tide,高潮浸水想定,4.12,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100052,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100053,high_tide,高潮浸水想定,2.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100054,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100055,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100056,high_tide,高潮浸水想定,3.18,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100057,high_tide,高潮浸水想定,3.2,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100058,high_tide,高潮浸水想定,2.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100059,high_tide,高潮浸水想定,3.75,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100061,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100062,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100063,high_tide,高潮浸水想定,1.66,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100064,high_tide,高潮浸水想定,3.71,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100065,high_tide,高潮浸水想定,2.68,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100066,high_tide,高潮浸水想定,2.12,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100067,high_tide,高潮浸水想定,3.84,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100069,high_tide,高潮浸水想定,1.96,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100070,high_tide,高潮浸水想定,1.5,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100071,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100072,high_tide,高潮浸水想定,5.84,東京都 高潮浸水想定区域図,,5 m以上,external polygon point-in-area
+131075100073,high_tide,高潮浸水想定,2.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100074,high_tide,高潮浸水想定,1.05,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100075,high_tide,高潮浸水想定,1.84,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100076,high_tide,高潮浸水想定,1.92,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100077,high_tide,高潮浸水想定,3.12,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100078,high_tide,高潮浸水想定,1.05,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100079,high_tide,高潮浸水想定,3.71,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100080,high_tide,高潮浸水想定,1.65,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100081,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100082,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100083,high_tide,高潮浸水想定,1.65,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100084,high_tide,高潮浸水想定,3.53,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100085,high_tide,高潮浸水想定,2.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100086,high_tide,高潮浸水想定,3.01,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100087,high_tide,高潮浸水想定,3.01,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100088,high_tide,高潮浸水想定,1.15,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100089,high_tide,高潮浸水想定,1.15,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100090,high_tide,高潮浸水想定,1.15,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100091,high_tide,高潮浸水想定,1.39,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100092,high_tide,高潮浸水想定,1.42,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100095,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100096,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100097,high_tide,高潮浸水想定,1.79,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100098,high_tide,高潮浸水想定,4.37,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100099,high_tide,高潮浸水想定,3.75,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100100,high_tide,高潮浸水想定,3.8,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100101,high_tide,高潮浸水想定,3.71,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100103,high_tide,高潮浸水想定,4.03,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100104,high_tide,高潮浸水想定,3.12,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100105,high_tide,高潮浸水想定,4.63,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100106,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100107,high_tide,高潮浸水想定,2.83,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100108,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100109,high_tide,高潮浸水想定,3.9,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100110,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100111,high_tide,高潮浸水想定,3.31,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100112,high_tide,高潮浸水想定,3.75,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100113,high_tide,高潮浸水想定,3.53,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100114,high_tide,高潮浸水想定,5.84,東京都 高潮浸水想定区域図,,5 m以上,external polygon point-in-area
+131075100115,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100116,high_tide,高潮浸水想定,4.08,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100117,high_tide,高潮浸水想定,3.71,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100118,high_tide,高潮浸水想定,2.3,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100119,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100120,high_tide,高潮浸水想定,1.85,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100121,high_tide,高潮浸水想定,1.92,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100122,high_tide,高潮浸水想定,3.65,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100123,high_tide,高潮浸水想定,3.12,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100124,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100125,high_tide,高潮浸水想定,2.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100149,high_tide,高潮浸水想定,3.53,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100150,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100151,high_tide,高潮浸水想定,1.5,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100152,high_tide,高潮浸水想定,2.63,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100153,high_tide,高潮浸水想定,2.29,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100154,high_tide,高潮浸水想定,2.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100155,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+131075100156,high_tide,高潮浸水想定,3.31,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+131075100157,high_tide,高潮浸水想定,0.15,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+131083000000.0,high_tide,高潮浸水想定,6.31,東京都 高潮浸水想定区域図,,5 m以上,external polygon point-in-area
+159,high_tide,高潮浸水想定,0.76,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+161,high_tide,高潮浸水想定,0.33,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+162,high_tide,高潮浸水想定,0.33,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+164,high_tide,高潮浸水想定,0.53,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+165,high_tide,高潮浸水想定,0.5,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+171,high_tide,高潮浸水想定,2.22,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+172,high_tide,高潮浸水想定,1.42,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+173,high_tide,高潮浸水想定,1.42,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+174,high_tide,高潮浸水想定,1.42,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+176,high_tide,高潮浸水想定,0.03,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+177,high_tide,高潮浸水想定,1.44,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+181,high_tide,高潮浸水想定,3.47,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+182,high_tide,高潮浸水想定,3.71,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+183,high_tide,高潮浸水想定,2.18,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+197,high_tide,高潮浸水想定,2.49,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+198,high_tide,高潮浸水想定,2.29,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+35,high_tide,高潮浸水想定,0.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+98,high_tide,高潮浸水想定,2.38,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_001:100,high_tide,高潮浸水想定,3.25,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+official_export_001:192,high_tide,高潮浸水想定,0.14,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_001:193,high_tide,高潮浸水想定,1.17,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_001:93,high_tide,高潮浸水想定,0.3,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_001:98,high_tide,高潮浸水想定,0.34,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:100,high_tide,高潮浸水想定,0.18,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:140,high_tide,高潮浸水想定,0.98,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:157,high_tide,高潮浸水想定,0.22,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:166,high_tide,高潮浸水想定,2.22,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:213,high_tide,高潮浸水想定,1.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:243,high_tide,高潮浸水想定,0.33,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:256,high_tide,高潮浸水想定,0.73,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:260,high_tide,高潮浸水想定,0.8,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:276,high_tide,高潮浸水想定,3.75,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+official_export_002:277,high_tide,高潮浸水想定,3.43,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+official_export_002:28,high_tide,高潮浸水想定,0.04,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:282,high_tide,高潮浸水想定,1.1,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:305,high_tide,高潮浸水想定,0.38,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:311,high_tide,高潮浸水想定,0.03,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:312,high_tide,高潮浸水想定,0.05,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:327,high_tide,高潮浸水想定,2.27,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:333,high_tide,高潮浸水想定,1.92,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:334,high_tide,高潮浸水想定,2.24,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:335,high_tide,高潮浸水想定,2.39,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:336,high_tide,高潮浸水想定,1.69,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:337,high_tide,高潮浸水想定,1.17,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:345,high_tide,高潮浸水想定,0.19,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:367,high_tide,高潮浸水想定,0.05,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:376,high_tide,高潮浸水想定,0.98,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:384,high_tide,高潮浸水想定,0.51,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:385,high_tide,高潮浸水想定,0.24,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:415,high_tide,高潮浸水想定,0.09,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:455,high_tide,高潮浸水想定,0.93,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_002:81,high_tide,高潮浸水想定,0.45,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_002:99,high_tide,高潮浸水想定,2.16,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_003:17,high_tide,高潮浸水想定,3.62,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+official_export_003:2,high_tide,高潮浸水想定,0.43,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_003:20,high_tide,高潮浸水想定,1.65,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_003:39,high_tide,高潮浸水想定,2.35,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_003:42,high_tide,高潮浸水想定,0.43,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_003:50,high_tide,高潮浸水想定,0.35,東京都 高潮浸水想定区域図,,0–0.5 m,external polygon point-in-area
+official_export_003:59,high_tide,高潮浸水想定,0.79,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_003:62,high_tide,高潮浸水想定,1.77,東京都 高潮浸水想定区域図,,0.5–3 m,external polygon point-in-area
+official_export_003:65,high_tide,高潮浸水想定,3.74,東京都 高潮浸水想定区域図,,3–5 m,external polygon point-in-area
+180,river_flooding,浸水予想区域,0.35,中川_綾瀬川圏域,,0–0.5 m,external point-grid sampling
+124,river_flooding,浸水予想区域,0.21,中川_綾瀬川圏域,,0–0.5 m,external point-grid sampling
+181,river_flooding,浸水予想区域,0.0,中川_綾瀬川圏域,,0,external point-grid sampling
+183,river_flooding,浸水予想区域,0.75,中川_綾瀬川圏域,,0.5–3 m,external point-grid sampling
+official_export_001:38,river_flooding,浸水予想区域,0.0,中川_綾瀬川圏域,,0,external point-grid sampling
+98,river_flooding,浸水予想区域,0.15,中川_綾瀬川圏域,,0–0.5 m,external point-grid sampling
+125,river_flooding,浸水予想区域,0.68,中川_綾瀬川圏域,,0.5–3 m,external point-grid sampling
+123,river_flooding,浸水予想区域,0.0,中川_綾瀬川圏域,,0,external point-grid sampling
+182,river_flooding,浸水予想区域,0.27,中川_綾瀬川圏域,,0–0.5 m,external point-grid sampling
+official_export_003:39,river_flooding,浸水予想区域,0.08,中川_綾瀬川圏域,,0–0.5 m,external point-grid sampling
+205,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:268,river_flooding,浸水予想区域,0.02,城南地区河川流域,,0–0.5 m,external point-grid sampling
+245,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:93,river_flooding,浸水予想区域,0.329,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:28,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:31,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:30,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:198,river_flooding,浸水予想区域,0.035,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_003:49,river_flooding,浸水予想区域,0.057,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:142,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:425,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:426,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:427,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:82,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:256,river_flooding,浸水予想区域,0.653,城南地区河川流域,,0.5–3 m,external point-grid sampling
+official_export_002:213,river_flooding,浸水予想区域,1.411,城南地区河川流域,,0.5–3 m,external point-grid sampling
+official_export_002:260,river_flooding,浸水予想区域,1.243,城南地区河川流域,,0.5–3 m,external point-grid sampling
+official_export_001:194,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:19,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:356,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:222,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:345,river_flooding,浸水予想区域,0.081,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:79,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:84,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:84,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:39,river_flooding,浸水予想区域,0.004,城南地区河川流域,,0–0.5 m,external point-grid sampling
+4,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+39,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:157,river_flooding,浸水予想区域,0.289,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:128,river_flooding,浸水予想区域,0.05,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:178,river_flooding,浸水予想区域,0.05,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:207,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:255,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:392,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+40,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:80,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:159,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+5,river_flooding,浸水予想区域,0.55400002,城南地区河川流域,,0.5–3 m,external point-grid sampling
+96,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:15,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:94,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:96,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:44,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:46,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:47,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:48,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:349,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:346,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:4,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:161,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:331,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:330,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:332,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:332,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:472,river_flooding,浸水予想区域,0.033,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:469,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:471,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:466,river_flooding,浸水予想区域,0.011,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:470,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:467,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:468,river_flooding,浸水予想区域,0.013,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:131,river_flooding,浸水予想区域,0.063,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:3,river_flooding,浸水予想区域,0.05,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:477,river_flooding,浸水予想区域,0.45,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:247,river_flooding,浸水予想区域,0.676,城南地区河川流域,,0.5–3 m,external point-grid sampling
+official_export_002:248,river_flooding,浸水予想区域,1.6,城南地区河川流域,,0.5–3 m,external point-grid sampling
+112,river_flooding,浸水予想区域,0.168,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:98,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:35,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:77,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:77,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:78,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:79,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:111,river_flooding,浸水予想区域,0.017,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:478,river_flooding,浸水予想区域,0.26499999,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:149,river_flooding,浸水予想区域,0.375,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:151,river_flooding,浸水予想区域,0.375,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:152,river_flooding,浸水予想区域,0.375,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:150,river_flooding,浸水予想区域,0.025,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:262,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:160,river_flooding,浸水予想区域,0.004,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:261,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:263,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:437,river_flooding,浸水予想区域,0.002,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:458,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:264,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:296,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:315,river_flooding,浸水予想区域,0.009,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:366,river_flooding,浸水予想区域,0.185,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:430,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:455,river_flooding,浸水予想区域,0.358,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:480,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+6,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+116,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:16,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:17,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+118,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+210,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:17,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:104,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:105,river_flooding,浸水予想区域,0.003,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:457,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:108,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:108,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:223,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:386,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:239,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:245,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:378,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:381,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:403,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:405,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:391,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:389,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:249,river_flooding,浸水予想区域,0.016,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:76,river_flooding,浸水予想区域,0.026,城南地区河川流域,,0–0.5 m,external point-grid sampling
+105,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:2,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:32,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:258,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:259,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:257,river_flooding,浸水予想区域,0.019,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:196,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:143,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:167,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:475,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:476,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:179,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:180,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:181,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:182,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:183,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:184,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:185,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:186,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:187,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:188,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:189,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:190,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:191,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:179,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:195,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:3,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:2,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:434,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.12,城南地区河川流域,,0–0.5 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.007,城南地区河川流域,,0–0.5 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:27,river_flooding,浸水予想区域,0.009,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_001:29,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:54,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:55,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:98,river_flooding,浸水予想区域,0.497,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:267,river_flooding,浸水予想区域,0.02,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:435,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:436,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:1,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:11,river_flooding,浸水予想区域,0.003,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_003:17,river_flooding,浸水予想区域,2.895,城南地区河川流域,,0.5–3 m,external point-grid sampling
+official_export_003:29,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:38,river_flooding,浸水予想区域,0.012,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_003:41,river_flooding,浸水予想区域,0.52999997,城南地区河川流域,,0.5–3 m,external point-grid sampling
+13104:66,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+13104:86,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+13104:112,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+13104:161,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+13104:183,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:371,river_flooding,浸水予想区域,0.005,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:372,river_flooding,浸水予想区域,0.005,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_003:9,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:15,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:18,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:44,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:45,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:49,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:50,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:51,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:95,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:97,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_003:0,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+175,river_flooding,浸水予想区域,0.026,城南地区河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:316,river_flooding,浸水予想区域,0.016,城南地区河川流域,,0–0.5 m,external point-grid sampling
+207,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+208,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:106,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_001:36,river_flooding,浸水予想区域,0.0,城南地区河川流域,,0,external point-grid sampling
+official_export_002:377,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+136,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:171,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:21,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:24,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+27,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:25,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:22,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:23,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+official_export_002:20,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+103,river_flooding,浸水予想区域,,残堀川流域,,No data,external point-grid sampling
+131075100105,river_flooding,浸水予想区域,0.57,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100004,river_flooding,浸水予想区域,1.03,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100050,river_flooding,浸水予想区域,0.56,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100116,river_flooding,浸水予想区域,0.51,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100103,river_flooding,浸水予想区域,0.7,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100122,river_flooding,浸水予想区域,0.46,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.19,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.12,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.45,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.44,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.56,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.45,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.83,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.01,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.14,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.14,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.11,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.05,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.52,江東内部河川流域,,0.5–3 m,external point-grid sampling
+official_export_003:62,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.16,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.14,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.11,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.18,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.17,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.03,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.76,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.1,江東内部河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:333,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.19,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.28,江東内部河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:166,river_flooding,浸水予想区域,0.28,江東内部河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:335,river_flooding,浸水予想区域,0.12,江東内部河川流域,,0–0.5 m,external point-grid sampling
+official_export_002:336,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+official_export_002:334,river_flooding,浸水予想区域,0.11,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.24,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.13,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.1,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.21,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.09,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.4,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.24,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.19,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.38,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.15,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,1.0,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.9,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.37,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,1.24,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.84,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.36,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.73,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,1.11,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.06,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.26,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.04,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+official_export_001:193,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+official_export_002:337,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+official_export_003:33,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+131075100002,river_flooding,浸水予想区域,0.49,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100064,river_flooding,浸水予想区域,0.02,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100072,river_flooding,浸水予想区域,1.39,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100079,river_flooding,浸水予想区域,0.02,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100101,river_flooding,浸水予想区域,0.02,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100109,river_flooding,浸水予想区域,0.26,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100111,river_flooding,浸水予想区域,0.45,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100114,river_flooding,浸水予想区域,1.39,江東内部河川流域,,0.5–3 m,external point-grid sampling
+131075100117,river_flooding,浸水予想区域,0.02,江東内部河川流域,,0–0.5 m,external point-grid sampling
+131075100156,river_flooding,浸水予想区域,0.45,江東内部河川流域,,0–0.5 m,external point-grid sampling
+198,river_flooding,浸水予想区域,0.0,江東内部河川流域,,0,external point-grid sampling
+official_export_001:100,river_flooding,浸水予想区域,1.26,江東内部河川流域,,0.5–3 m,external point-grid sampling
+42,river_flooding,浸水予想区域,0.02,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+43,river_flooding,浸水予想区域,0.04,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_001:65,river_flooding,浸水予想区域,0.03,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_001:66,river_flooding,浸水予想区域,0.02,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+188,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+142,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+141,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_002:146,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_002:109,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+official_export_002:163,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_002:164,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+224,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+126,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+127,river_flooding,浸水予想区域,0.09,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+184,river_flooding,浸水予想区域,0.11,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+215,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+216,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_003:22,river_flooding,浸水予想区域,0.05,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_003:27,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_003:43,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+official_export_003:57,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+official_export_003:60,river_flooding,浸水予想区域,0.01,浅川圏域_大栗川及び三沢川流域,,0–0.5 m,external point-grid sampling
+223,river_flooding,浸水予想区域,0.0,浅川圏域_大栗川及び三沢川流域,,0,external point-grid sampling
+official_export_002:281,river_flooding,浸水予想区域,0.08,石神井川及び白子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:241,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:242,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+89,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+122,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+239,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:240,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:304,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:293,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:294,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:290,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:292,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_003:45,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+121,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+179,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_003:26,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_003:37,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:252,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:253,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:291,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_003:32,river_flooding,浸水予想区域,0.0,石神井川及び白子川流域,,0,external point-grid sampling
+official_export_002:287,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:384,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:153,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:81,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:100,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:192,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:182,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:103,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:115,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:297,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:422,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:116,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:460,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:118,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:114,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:117,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:119,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:116,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:117,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:118,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:120,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:121,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:122,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:123,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:359,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:139,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:112,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:99,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:423,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_002:197,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:53,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:396,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:473,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:305,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:59,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:271,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:200,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:199,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:179,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:415,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:365,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:231,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+34,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:456,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:225,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:185,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:199,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:214,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:132,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:215,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:56,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:11,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:433,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:167,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:108,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:91,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:5,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:6,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:88,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:89,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:90,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:197,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:124,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:2,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:71,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:93,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:159,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:147,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:20,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:120,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:144,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:207,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:153,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:123,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:3,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:184,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:198,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:50,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:4,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:70,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:158,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:178,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:230,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_002:167,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:193,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:60,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:201,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:11,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:200,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:202,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:203,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:209,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:186,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:190,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:211,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:169,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:201,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:195,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:205,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:192,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:177,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:170,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:465,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:136,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:154,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:33,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:43,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:210,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_002:269,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:270,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:273,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:176,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:188,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:295,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:57,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:168,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:127,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:165,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:213,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:58,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:114,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:125,river_flooding,浸水予想区域,0.057999998,神田川流域,,0–0.5 m,external point-grid sampling
+13104:194,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:388,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:43,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:244,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:351,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:347,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:301,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:303,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:353,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:352,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:348,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:419,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:39,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:406,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:408,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:390,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:407,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:411,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:420,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:421,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:50,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:350,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:101,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:103,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:18,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:414,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+155,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_002:272,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:119,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+156,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:124,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:463,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:355,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:5,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:462,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:250,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+196,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:102,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:5,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:459,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:387,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:62,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:74,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:73,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:75,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:61,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:329,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:313,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:83,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:18,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:26,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:27,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:266,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:454,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:52,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:24,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:279,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:382,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:280,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:383,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:174,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:397,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:379,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:91,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:40,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:1,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:42,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:41,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:312,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:90,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:311,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:132,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:44,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:45,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:107,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:85,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:88,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:86,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:87,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:89,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+165,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:140,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:376,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:43,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:139,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100003,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:362,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:73,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:326,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:115,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:394,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:145,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:9,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+241,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:114,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:31,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:32,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100059,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:274,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:144,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:363,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:113,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:112,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:148,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+160,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100066,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:104,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:275,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:46,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+206,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:60,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:42,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+164,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+159,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:108,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:205,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:195,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:8,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:196,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:22,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100053,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:23,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:6,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:7,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:109,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:72,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:21,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:76,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:58,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_001:56,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:105,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:126,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100046,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100110,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100187,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:125,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:284,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:285,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:286,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:124,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100029,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:385,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:282,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:325,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+12,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+93,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+32,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+8,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+25,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+94,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+38,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+4,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+27,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+35,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+49,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+5,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+98,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+17,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1000000002,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+7,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+9,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000004,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:208,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:210,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1000000001,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+10,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1000000004,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+36,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+96,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+97,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+11,river_flooding,浸水予想区域,0.028000001,神田川流域,,0–0.5 m,external point-grid sampling
+13,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000003,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+95,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+14,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+21,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+31,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+41,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+43,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+44,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+51,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+19,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+40,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+46,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+89,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000006,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+88,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+91,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+92,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000002,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:374,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+45,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+50,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+90,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000005,river_flooding,浸水予想区域,0.112000003,神田川流域,,0–0.5 m,external point-grid sampling
+official_export_002:424,river_flooding,浸水予想区域,0.112000003,神田川流域,,0–0.5 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:69,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:338,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:16,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:344,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:343,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:341,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:340,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:339,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:342,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:479,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:278,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.006,神田川流域,,0–0.5 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:206,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:235,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:483,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:143,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:142,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:34,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:428,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:412,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131156000000.0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:324,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:398,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:212,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:92,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+10,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:375,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:19,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:70,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:71,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:72,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:69,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:85,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:88,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:86,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:87,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:83,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+214,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:137,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:481,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:14,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:15,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+154,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:130,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:183,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:298,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:299,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:5,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:50,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:0,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:1,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:9,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:10,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:12,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:13,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:14,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:15,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:16,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:17,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:18,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:19,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:22,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:23,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:24,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:25,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:27,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:28,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:29,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:30,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:31,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:32,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:33,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:34,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:35,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:36,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:37,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:38,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:39,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:40,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:41,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:42,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:44,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:45,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:46,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:48,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:49,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:51,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:52,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:53,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:54,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:55,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:62,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:63,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:64,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:65,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:67,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:69,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:72,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:74,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:75,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:76,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:77,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:78,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:79,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:80,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:81,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:82,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:83,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:84,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:87,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:94,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:95,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:96,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:97,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:98,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:99,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:100,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:101,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:102,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:103,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:104,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:105,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:106,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:107,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:109,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:110,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:111,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:113,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:115,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:116,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:117,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:118,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:119,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:121,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:122,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:126,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:130,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:133,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:134,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:137,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:138,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:139,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:140,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:141,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:142,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:143,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:145,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:146,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:150,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:151,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:152,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:155,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:156,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:157,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:158,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:160,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:162,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:163,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:164,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:166,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:171,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:172,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:173,river_flooding,浸水予想区域,2.0,神田川流域,,0.5–3 m,external point-grid sampling
+13104:174,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:175,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:179,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:181,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:182,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:187,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:189,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:196,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:197,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:202,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:203,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:204,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:206,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:208,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:212,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:216,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:217,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:218,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:219,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:220,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:221,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:222,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:223,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:224,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:226,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+13104:227,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:19,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:204,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:47,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:69,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:75,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:4,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:120,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:121,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:122,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:123,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:125,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:6,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:51,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:72,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:102,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:175,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:314,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:328,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:354,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:358,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_002:380,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:409,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:410,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:461,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:464,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:8,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:12,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:23,river_flooding,浸水予想区域,1.0,神田川流域,,0.5–3 m,external point-grid sampling
+official_export_003:40,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:70,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:71,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+3,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+157,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+158,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+161,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+162,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+163,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+166,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+167,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+168,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+169,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+170,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+242,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100027,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100039,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100047,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100052,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100067,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100134,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100147,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100162,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100163,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100168,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100171,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100174,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100178,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100181,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+131067100182,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:59,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:74,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:77,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:107,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:110,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:29,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:30,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:147,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:283,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:357,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:2,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:14,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:16,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:42,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+195,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+3,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+1000000003,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+2000000001,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:172,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:209,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_001:141,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:156,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_003:46,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+211,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+212,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:82,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:84,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+official_export_002:395,river_flooding,浸水予想区域,0.0,神田川流域,,0,external point-grid sampling
+200,river_flooding,浸水予想区域,1.3,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+33,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+29,river_flooding,浸水予想区域,0.06,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+16,river_flooding,浸水予想区域,0.06,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+130,river_flooding,浸水予想区域,0.04,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+40,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+41,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+49,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+144,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+22,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+229,river_flooding,浸水予想区域,0.1,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+35,river_flooding,浸水予想区域,0.1,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+53,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+104,river_flooding,浸水予想区域,0.15,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+99,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+27,river_flooding,浸水予想区域,0.04,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+145,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+92,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:451,river_flooding,浸水予想区域,0.11,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:453,river_flooding,浸水予想区域,0.11,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+143,river_flooding,浸水予想区域,1.97,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+137,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+136,river_flooding,浸水予想区域,0.05,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+54,river_flooding,浸水予想区域,1.11,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+132,river_flooding,浸水予想区域,0.03,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+133,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+12,river_flooding,浸水予想区域,0.14,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+230,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+24,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+36,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+45,river_flooding,浸水予想区域,0.03,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+2,river_flooding,浸水予想区域,0.03,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+49,river_flooding,浸水予想区域,0.63,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+39,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+14,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+15,river_flooding,浸水予想区域,0.13,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+95,river_flooding,浸水予想区域,0.13,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+20,river_flooding,浸水予想区域,1.97,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+32,river_flooding,浸水予想区域,1.97,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+146,river_flooding,浸水予想区域,1.97,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+34,river_flooding,浸水予想区域,0.09,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+144,river_flooding,浸水予想区域,0.1,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+26,river_flooding,浸水予想区域,0.05,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+28,river_flooding,浸水予想区域,0.03,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+31,river_flooding,浸水予想区域,12.91,秋川及び平井川流域,,5 m以上,external point-grid sampling
+43,river_flooding,浸水予想区域,0.08,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+52,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+140,river_flooding,浸水予想区域,0.51,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+141,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+91,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+142,river_flooding,浸水予想区域,0.28,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+50,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_001:64,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:162,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:373,river_flooding,浸水予想区域,0.03,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:254,river_flooding,浸水予想区域,0.02,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:429,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+226,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+227,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+228,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+3,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+37,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+47,river_flooding,浸水予想区域,0.11,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_002:445,river_flooding,浸水予想区域,0.17,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+official_export_003:28,river_flooding,浸水予想区域,0.01,秋川及び平井川流域,,0–0.5 m,external point-grid sampling
+203,river_flooding,浸水予想区域,1.03,秋川及び平井川流域,,0.5–3 m,external point-grid sampling
+official_export_002:302,river_flooding,浸水予想区域,0.003,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:47,river_flooding,浸水予想区域,0.009,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:474,river_flooding,浸水予想区域,0.039,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+209,river_flooding,浸水予想区域,0.025,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+199,river_flooding,浸水予想区域,0.034,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:110,river_flooding,浸水予想区域,0.06,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:237,river_flooding,浸水予想区域,0.01,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:238,river_flooding,浸水予想区域,0.017,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:236,river_flooding,浸水予想区域,0.017,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:318,river_flooding,浸水予想区域,0.276,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:413,river_flooding,浸水予想区域,0.009,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:165,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+106,river_flooding,浸水予想区域,1.1215,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+official_export_002:221,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+128,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:233,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:36,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:218,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:220,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:219,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:227,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:226,river_flooding,浸水予想区域,0.1576,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:230,river_flooding,浸水予想区域,0.0297,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:234,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:232,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:229,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:482,river_flooding,浸水予想区域,1.2441,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+official_export_002:368,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100081,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100078,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100053,river_flooding,浸水予想区域,0.0448,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:265,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:10,river_flooding,浸水予想区域,0.0039,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100013,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:9,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:154,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100080,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100075,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100057,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100059,river_flooding,浸水予想区域,0.2752,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100076,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100079,river_flooding,浸水予想区域,0.3667,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.5312,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0127,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.5851,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0801,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0096,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132101000000.0,river_flooding,浸水予想区域,0.0889,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132144100020,river_flooding,浸水予想区域,0.2256,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+192,river_flooding,浸水予想区域,0.0622,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+20,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+113,river_flooding,浸水予想区域,0.006,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+114,river_flooding,浸水予想区域,0.008,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_003:13,river_flooding,浸水予想区域,0.005,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+115,river_flooding,浸水予想区域,0.007,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+117,river_flooding,浸水予想区域,0.03,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:89,river_flooding,浸水予想区域,0.004,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:251,river_flooding,浸水予想区域,0.119,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:317,river_flooding,浸水予想区域,0.276,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:319,river_flooding,浸水予想区域,0.016,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:320,river_flooding,浸水予想区域,0.276,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_003:45,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_003:61,river_flooding,浸水予想区域,0.019,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_003:26,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:214,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:215,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:216,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:217,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:225,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:228,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:231,river_flooding,浸水予想区域,0.0393,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+220,river_flooding,浸水予想区域,0.9227,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132080100004,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100007,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100008,river_flooding,浸水予想区域,0.2067,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100009,river_flooding,浸水予想区域,0.2067,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100010,river_flooding,浸水予想区域,0.2067,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100011,river_flooding,浸水予想区域,0.2067,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100012,river_flooding,浸水予想区域,0.2067,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100014,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100015,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100019,river_flooding,浸水予想区域,0.9744,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132080100022,river_flooding,浸水予想区域,0.0845,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100023,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100024,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100026,river_flooding,浸水予想区域,0.0096,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100027,river_flooding,浸水予想区域,0.0096,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100054,river_flooding,浸水予想区域,0.0096,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100055,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100058,river_flooding,浸水予想区域,0.0845,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100061,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100062,river_flooding,浸水予想区域,0.4173,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100063,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100064,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100065,river_flooding,浸水予想区域,0.0845,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132080100069,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132080100074,river_flooding,浸水予想区域,1.3413,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132080100082,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:8,river_flooding,浸水予想区域,0.4647,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:12,river_flooding,浸水予想区域,0.08,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:13,river_flooding,浸水予想区域,0.0628,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_002:155,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_003:36,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:168,river_flooding,浸水予想区域,3.434,野川_仙川_入間川_谷沢川及び丸子川流域,,3–5 m,external point-grid sampling
+official_export_002:169,river_flooding,浸水予想区域,3.434,野川_仙川_入間川_谷沢川及び丸子川流域,,3–5 m,external point-grid sampling
+202,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100002,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100003,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100004,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100006,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100007,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100009,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100010,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100011,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100012,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100013,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100014,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100015,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100016,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100017,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100018,river_flooding,浸水予想区域,0.2374,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132144100019,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100021,river_flooding,浸水予想区域,0.5748,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132144100022,river_flooding,浸水予想区域,0.5748,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132144100023,river_flooding,浸水予想区域,0.0892,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132144100024,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100025,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100026,river_flooding,浸水予想区域,0.5748,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132144100027,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100028,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100030,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100032,river_flooding,浸水予想区域,0.5748,野川_仙川_入間川_谷沢川及び丸子川流域,,0.5–3 m,external point-grid sampling
+132144100033,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100034,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100035,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100036,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100037,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100038,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100039,river_flooding,浸水予想区域,0.3131,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+132144100040,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100041,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+132144100042,river_flooding,浸水予想区域,0.3131,野川_仙川_入間川_谷沢川及び丸子川流域,,0–0.5 m,external point-grid sampling
+official_export_003:51,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_003:67,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+23,river_flooding,浸水予想区域,0.0,野川_仙川_入間川_谷沢川及び丸子川流域,,0,external point-grid sampling
+official_export_002:384,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:11,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:153,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:12,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:192,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:35,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:14,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:63,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:103,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:99,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:423,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.1,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:101,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.04,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:138,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:305,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:59,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:271,river_flooding,浸水予想区域,0.04,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.03,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:200,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.02,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:199,river_flooding,浸水予想区域,0.04,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.07,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:179,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.17,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131024000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:106,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:19,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:58,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:67,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:60,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:63,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:64,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:65,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:68,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:126,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:415,river_flooding,浸水予想区域,0.45,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:365,river_flooding,浸水予想区域,0.32,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:8,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:191,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:135,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:26,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:180,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:7,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:228,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:288,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:289,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+240,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:91,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:40,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:1,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:42,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:41,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:312,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:90,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:311,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:132,river_flooding,浸水予想区域,0.03,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:44,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:45,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:107,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:85,river_flooding,浸水予想区域,0.07,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:88,river_flooding,浸水予想区域,0.07,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:86,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:87,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:89,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+165,river_flooding,浸水予想区域,0.43,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:140,river_flooding,浸水予想区域,0.68,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+official_export_002:376,river_flooding,浸水予想区域,0.68,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+official_export_002:43,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:139,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+35,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+164,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+159,river_flooding,浸水予想区域,0.83,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+244,river_flooding,浸水予想区域,0.06,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+243,river_flooding,浸水予想区域,0.07,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100029,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:385,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:282,river_flooding,浸水予想区域,0.68,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+official_export_002:367,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:28,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100075,river_flooding,浸水予想区域,0.87,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+official_export_002:243,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:325,river_flooding,浸水予想区域,0.12,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100097,river_flooding,浸水予想区域,0.13,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100068,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100120,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100149,river_flooding,浸水予想区域,0.02,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:99,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:277,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:276,river_flooding,浸水予想区域,0.65,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+131075100050,river_flooding,浸水予想区域,0.44,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100075,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100069,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100014,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100066,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100057,river_flooding,浸水予想区域,0.13,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100067,river_flooding,浸水予想区域,0.46,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:327,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.13,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.34,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.28,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.04,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.1,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.17,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.37,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131083000000.0,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:211,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+176,river_flooding,浸水予想区域,0.19,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+214,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+154,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:13,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:34,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:80,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:130,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:181,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:360,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:3,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:4,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:50,river_flooding,浸水予想区域,0.02,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:138,river_flooding,浸水予想区域,0.22,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:127,river_flooding,浸水予想区域,0.22,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:61,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:62,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:66,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:21,river_flooding,浸水予想区域,0.05,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:47,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:59,river_flooding,浸水予想区域,0.02,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:61,river_flooding,浸水予想区域,0.01,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:68,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:73,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+13104:85,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:128,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:129,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:131,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:148,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:149,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+13104:217,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:73,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+3,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+157,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+158,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+161,river_flooding,浸水予想区域,0.19,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+162,river_flooding,浸水予想区域,0.19,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100060,river_flooding,浸水予想区域,1.07,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+131067100132,river_flooding,浸水予想区域,1.07,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+131067100134,river_flooding,浸水予想区域,0.35,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100147,river_flooding,浸水予想区域,0.35,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100162,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100163,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100168,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100171,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100174,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100178,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131067100181,river_flooding,浸水予想区域,0.42,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_001:59,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_001:74,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_002:357,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:2,river_flooding,浸水予想区域,0.37,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_003:42,river_flooding,浸水予想区域,0.84,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+official_export_003:59,river_flooding,浸水予想区域,0.59,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+171,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+172,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+173,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+174,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+197,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100001,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100003,river_flooding,浸水予想区域,0.33,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100006,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100007,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100008,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100010,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100011,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100012,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100016,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100017,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100047,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100048,river_flooding,浸水予想区域,0.64,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+131075100049,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100052,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100053,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100054,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100055,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100056,river_flooding,浸水予想区域,0.29,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100058,river_flooding,浸水予想区域,0.35,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100059,river_flooding,浸水予想区域,0.33,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100061,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100062,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100063,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100065,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100070,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100071,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100073,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100074,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100076,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100077,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100078,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100080,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100081,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100082,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100083,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100084,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100085,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100086,river_flooding,浸水予想区域,0.34,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100087,river_flooding,浸水予想区域,0.34,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100088,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100089,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100090,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100091,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100092,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100095,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100096,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100098,river_flooding,浸水予想区域,0.64,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+131075100099,river_flooding,浸水予想区域,0.33,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100100,river_flooding,浸水予想区域,0.47,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100104,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100106,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100107,river_flooding,浸水予想区域,0.24,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100108,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100110,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100112,river_flooding,浸水予想区域,0.33,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100113,river_flooding,浸水予想区域,0.11,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100115,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100118,river_flooding,浸水予想区域,0.15,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100119,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100121,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100123,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100124,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100125,river_flooding,浸水予想区域,0.3,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100150,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100151,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100152,river_flooding,浸水予想区域,0.08,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100153,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100154,river_flooding,浸水予想区域,0.35,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+131075100155,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131075100157,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+official_export_003:65,river_flooding,浸水予想区域,0.36,隅田川及び新河岸川流域,,0–0.5 m,external point-grid sampling
+official_export_002:170,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+177,river_flooding,浸水予想区域,2.21,隅田川及び新河岸川流域,,0.5–3 m,external point-grid sampling
+178,river_flooding,浸水予想区域,0.0,隅田川及び新河岸川流域,,0,external point-grid sampling
+131,river_flooding,浸水予想区域,0.03,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+19,river_flooding,浸水予想区域,0.11,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+129,river_flooding,浸水予想区域,0.01,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+20,river_flooding,浸水予想区域,0.14,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_001:26,river_flooding,浸水予想区域,0.03,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_001:25,river_flooding,浸水予想区域,0.01,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_001:24,river_flooding,浸水予想区域,0.01,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+132,river_flooding,浸水予想区域,0.07,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:56,river_flooding,浸水予想区域,0.0,霞川及び多摩川上流圏域,,0,external point-grid sampling
+official_export_002:96,river_flooding,浸水予想区域,0.0,霞川及び多摩川上流圏域,,0,external point-grid sampling
+official_export_002:93,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:91,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:92,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:94,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:97,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:95,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:193,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:192,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:191,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:194,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+217,river_flooding,浸水予想区域,0.02,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+218,river_flooding,浸水予想区域,0.03,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_002:90,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+official_export_003:63,river_flooding,浸水予想区域,0.05,霞川及び多摩川上流圏域,,0–0.5 m,external point-grid sampling
+189,river_flooding,浸水予想区域,0.0101,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100041,river_flooding,浸水予想区域,0.0101,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+221,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100008,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_001:78,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100042,river_flooding,浸水予想区域,0.43,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100006,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100034,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100013,river_flooding,浸水予想区域,0.05,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100016,river_flooding,浸水予想区域,0.11,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.72,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.33,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.2,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.3,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,1.15,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:190,river_flooding,浸水予想区域,0.51,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+official_export_002:187,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.78,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+official_export_002:188,river_flooding,浸水予想区域,0.78,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.2,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.2,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+1.32209E+11,river_flooding,浸水予想区域,0.83,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+108,river_flooding,浸水予想区域,0.08,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+137,river_flooding,浸水予想区域,0.46,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+137,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.46,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.91,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+139,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.65,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+official_export_002:440,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:440,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:439,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:439,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:442,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:442,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:443,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:443,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:438,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:438,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,1.22,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132000000000.0,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+103,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:240,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:240,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:304,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100001,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100002,river_flooding,浸水予想区域,0.1,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100003,river_flooding,浸水予想区域,0.32,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100003,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100007,river_flooding,浸水予想区域,0.14,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100009,river_flooding,浸水予想区域,0.51,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132136100010,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100011,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100012,river_flooding,浸水予想区域,0.0527,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100014,river_flooding,浸水予想区域,0.02,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100015,river_flooding,浸水予想区域,0.51,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132136100017,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100018,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100019,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100020,river_flooding,浸水予想区域,0.04,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100021,river_flooding,浸水予想区域,0.1246,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100022,river_flooding,浸水予想区域,0.1157,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100023,river_flooding,浸水予想区域,0.0123,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100024,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100025,river_flooding,浸水予想区域,0.01,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100026,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100027,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100028,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100029,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100030,river_flooding,浸水予想区域,0.65,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132136100031,river_flooding,浸水予想区域,0.35,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100031,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100032,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100033,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100035,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100036,river_flooding,浸水予想区域,0.0174,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+132136100037,river_flooding,浸水予想区域,0.51,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132136100038,river_flooding,浸水予想区域,0.65,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+132136100039,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+132136100040,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:189,river_flooding,浸水予想区域,0.35,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0–0.5 m,external point-grid sampling
+110,river_flooding,浸水予想区域,1.63,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,0.5–3 m,external point-grid sampling
+official_export_002:441,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:441,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:444,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+official_export_002:444,river_flooding,浸水予想区域,,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,,No data,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.702,区部,南海トラフ巨大地震_ケース1,0.5–3 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.368,区部,南海トラフ巨大地震_ケース1,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.7436,区部,南海トラフ巨大地震_ケース1,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.586,区部,南海トラフ巨大地震_ケース1,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.7832,区部,南海トラフ巨大地震_ケース2,0.5–3 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.4425,区部,南海トラフ巨大地震_ケース2,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.7547,区部,南海トラフ巨大地震_ケース2,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.5821,区部,南海トラフ巨大地震_ケース2,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.3912,区部,南海トラフ巨大地震_ケース5,0–0.5 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.1753,区部,南海トラフ巨大地震_ケース5,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.4622,区部,南海トラフ巨大地震_ケース5,0–0.5 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.3022,区部,南海トラフ巨大地震_ケース5,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.7043,区部,南海トラフ巨大地震_ケース6,0.5–3 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.3693,区部,南海トラフ巨大地震_ケース6,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.699,区部,南海トラフ巨大地震_ケース6,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.5258,区部,南海トラフ巨大地震_ケース6,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.5364,区部,南海トラフ巨大地震_ケース8,0.5–3 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.2453,区部,南海トラフ巨大地震_ケース8,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.636,区部,南海トラフ巨大地震_ケース8,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.4931,区部,南海トラフ巨大地震_ケース8,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.7832,区部,南海トラフ巨大地震_全5ケース最大値,0.5–3 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.4425,区部,南海トラフ巨大地震_全5ケース最大値,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.7547,区部,南海トラフ巨大地震_全5ケース最大値,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.586,区部,南海トラフ巨大地震_全5ケース最大値,0.5–3 m,external point-grid sampling
+131024000000.0,tsunami,津波浸水想定,0.4785,区部,大正関東地震,0–0.5 m,external point-grid sampling
+131083000000.0,tsunami,津波浸水想定,0.2253,区部,大正関東地震,0–0.5 m,external point-grid sampling
+official_export_003:50,tsunami,津波浸水想定,0.5513,区部,大正関東地震,0.5–3 m,external point-grid sampling
+official_export_002:436,tsunami,津波浸水想定,1.3379,区部,大正関東地震,0.5–3 m,external point-grid sampling
+official_export_002:130,tsunami,津波浸水想定,2.911,新島・式根島,南海トラフ巨大地震_ケース1,0.5–3 m,external point-grid sampling
+official_export_002:131,tsunami,津波浸水想定,2.911,新島・式根島,南海トラフ巨大地震_ケース1,0.5–3 m,external point-grid sampling
+official_export_002:177,tsunami,津波浸水想定,0.3013,新島・式根島,南海トラフ巨大地震_ケース1,0–0.5 m,external point-grid sampling
+official_export_002:416,tsunami,津波浸水想定,7.7926,新島・式根島,南海トラフ巨大地震_ケース1,5 m以上,external point-grid sampling
+official_export_002:130,tsunami,津波浸水想定,2.9234,新島・式根島,南海トラフ巨大地震_ケース6,0.5–3 m,external point-grid sampling
+official_export_002:131,tsunami,津波浸水想定,2.9234,新島・式根島,南海トラフ巨大地震_ケース6,0.5–3 m,external point-grid sampling
+official_export_002:177,tsunami,津波浸水想定,0.3221,新島・式根島,南海トラフ巨大地震_ケース6,0–0.5 m,external point-grid sampling
+official_export_002:416,tsunami,津波浸水想定,7.8013,新島・式根島,南海トラフ巨大地震_ケース6,5 m以上,external point-grid sampling
+official_export_002:130,tsunami,津波浸水想定,3.2351,新島・式根島,南海トラフ巨大地震_ケース8,3–5 m,external point-grid sampling
+official_export_002:131,tsunami,津波浸水想定,3.2351,新島・式根島,南海トラフ巨大地震_ケース8,3–5 m,external point-grid sampling
+official_export_002:177,tsunami,津波浸水想定,0.5607,新島・式根島,南海トラフ巨大地震_ケース8,0.5–3 m,external point-grid sampling
+official_export_002:416,tsunami,津波浸水想定,8.1251,新島・式根島,南海トラフ巨大地震_ケース8,5 m以上,external point-grid sampling

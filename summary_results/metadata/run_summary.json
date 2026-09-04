@@ -1,0 +1,19 @@
+{
+  "source": "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_heritage_hazards.gpkg",
+  "source_size_bytes": 12510273536,
+  "all_records": 4423,
+  "main_non_movable_records": 2866,
+  "movable_records": 1557,
+  "records_with_analysis_location": 1453,
+  "analysis_location_count": 1725,
+  "seismic_scenarios": [
+    "都心南部直下地震",
+    "都心東部直下地震",
+    "都心西部直下地震",
+    "大正関東地震",
+    "南海トラフ巨大地震"
+  ],
+  "water_point_grid_max_distance_m": 25.0,
+  "skip_point_water": false,
+  "risk_type_rows": 4449
+}
