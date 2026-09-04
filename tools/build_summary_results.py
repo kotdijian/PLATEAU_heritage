@@ -13,8 +13,9 @@ Primary output:
     cache/
     metadata/
 
-A companion renderer, render_summary_maps.py, creates overview/detail maps
-from the same source GPKG and these generated tables.
+A companion renderer, render_summary_maps.py, creates overview maps from
+the same source GPKG and these generated tables. This builder never writes
+or removes files under summary_results/figures/.
 """
 
 from __future__ import annotations
@@ -62,6 +63,9 @@ DESIGNATION_STATUS_MAP = {
 
 WATER_RISK_TYPES = {"river_flooding", "high_tide", "tsunami"}
 POINT_GRID_MAX_DISTANCE_M = 25.0
+A31A_PREFIX = "hazard_inundation_a31a_"
+A31A_DEPTH_ORDER = ["0–0.5 m", "0.5–3 m", "3–5 m", "5 m以上"]
+A31A_DEPTH_RANK = {label: i + 1 for i, label in enumerate(A31A_DEPTH_ORDER)}
 
 
 def qident(name: str) -> str:
@@ -388,32 +392,108 @@ def nearest_grid_join(
     return pd.DataFrame(joined[["record_id", value_col, "distance_m"]])
 
 
-def external_inundation_risks(source: Path, locations: gpd.GeoDataFrame, contents: pd.DataFrame) -> pd.DataFrame:
+def external_inundation_risks(
+    source: Path,
+    locations: gpd.GeoDataFrame,
+    contents: pd.DataFrame,
+) -> pd.DataFrame:
+
     rows = []
-    layers = contents[contents["table_name"].str.startswith("hazard_inundation_", na=False)]
+
+    names = contents["table_name"].fillna("").astype(str)
+
+    layers = contents[
+        names.str.startswith("hazard_inundation_")
+        & ~names.str.startswith(A31A_PREFIX)
+    ]
+
     for _, info in layers.iterrows():
+
         layer = info["table_name"]
-        targets = subset_locations_for_extent(locations, info)
+
+        targets = subset_locations_for_extent(
+            locations,
+            info,
+        )
+
         if targets.empty:
             continue
-        print(f"[inundation-point] {layer}: targets={len(targets):,}")
-        hz = read_point_hazard_near_targets(source, layer, targets, ["area", "inundation_depth_m"])
-        joined = nearest_grid_join(targets, hz, "inundation_depth_m")
+
+        print(
+            f"[inundation-point] {layer}: "
+            f"targets={len(targets):,}"
+        )
+
+        hz = read_point_hazard_near_targets(
+            source,
+            layer,
+            targets,
+            ["area", "inundation_depth_m"],
+        )
+
+        joined = nearest_grid_join(
+            targets,
+            hz,
+            "inundation_depth_m",
+        )
+
         if joined.empty:
             continue
+
         joined["risk_type"] = "river_flooding"
         joined["risk_type_ja"] = "浸水予想区域"
         joined["depth_m"] = joined["inundation_depth_m"]
-        joined["hazard_source"] = layer.replace("hazard_inundation_", "")
-        joined["scenario"] = ""
-        joined["risk_class"] = joined["depth_m"].map(classify_depth)
-        joined["risk_basis"] = "external point-grid sampling"
-        rows.append(joined[["record_id", "risk_type", "risk_type_ja", "depth_m", "hazard_source", "scenario", "risk_class", "risk_basis"]])
-        del hz, joined
-    return pd.concat(rows, ignore_index=True) if rows else pd.DataFrame(
-        columns=["record_id", "risk_type", "risk_type_ja", "depth_m", "hazard_source", "scenario", "risk_class", "risk_basis"]
-    )
 
+        joined["hazard_source"] = layer.replace(
+            "hazard_inundation_",
+            "",
+        )
+
+        joined["scenario"] = ""
+
+        joined["risk_class"] = (
+            joined["depth_m"].map(classify_depth)
+        )
+
+        joined["risk_basis"] = (
+            "external point-grid sampling"
+        )
+
+        rows.append(
+            joined[
+                [
+                    "record_id",
+                    "risk_type",
+                    "risk_type_ja",
+                    "depth_m",
+                    "hazard_source",
+                    "scenario",
+                    "risk_class",
+                    "risk_basis",
+                ]
+            ]
+        )
+
+        del hz, joined
+
+    if rows:
+        return pd.concat(
+            rows,
+            ignore_index=True,
+        )
+
+    return pd.DataFrame(
+        columns=[
+            "record_id",
+            "risk_type",
+            "risk_type_ja",
+            "depth_m",
+            "hazard_source",
+            "scenario",
+            "risk_class",
+            "risk_basis",
+        ]
+    )
 
 def external_storm_surge_risks(source: Path, locations: gpd.GeoDataFrame) -> pd.DataFrame:
     print("[storm-surge-point] hazard_storm_surge_depth")
@@ -581,6 +661,430 @@ def write_water_tables(best: pd.DataFrame, external_all: pd.DataFrame, meta: pd.
             )
 
 
+
+def a31a_flood_results(
+    source: Path,
+    locations: gpd.GeoDataFrame,
+    meta: pd.DataFrame,
+    contents: pd.DataFrame,
+    tables: Path,
+    metadata_dir: Path,
+) -> pd.DataFrame:
+    """
+    Aggregate A31a polygon classes.
+
+    A31a stores published depth classes, not a single measured
+    numeric depth. Therefore no representative depth_m is invented.
+    """
+
+    def write_depth_crosstab(
+        df: pd.DataFrame,
+        rows: list[str],
+        out_path: Path,
+    ) -> None:
+
+        if df.empty:
+            pd.DataFrame().to_csv(
+                out_path,
+                index=False,
+                encoding="utf-8-sig",
+            )
+            return
+
+        tab = pd.crosstab(
+            index=[df[c] for c in rows],
+            columns=df["depth_class"],
+            dropna=False,
+        )
+
+        for c in A31A_DEPTH_ORDER:
+            if c not in tab.columns:
+                tab[c] = 0
+
+        tab = tab[A31A_DEPTH_ORDER]
+        tab["Total"] = tab.sum(axis=1)
+
+        tab.reset_index().to_csv(
+            out_path,
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+    names = (
+        contents["table_name"]
+        .fillna("")
+        .astype(str)
+    )
+
+    layer_rows = contents[
+        names.str.startswith(A31A_PREFIX)
+    ].copy()
+
+    empty_cols = [
+        "record_id",
+        "municipality_code",
+        "municipality_name",
+        "designation_level",
+        "designation_status",
+        "heritage_type_major",
+        "heritage_type_detail_norm",
+        "entity_class",
+        "name",
+        "river",
+        "risk_type",
+        "risk_type_ja",
+        "hazard_source",
+        "scenario",
+        "depth_class",
+        "depth_rank",
+        "depth_class_native",
+        "depth_min_m",
+        "depth_max_m",
+        "risk_basis",
+    ]
+
+    report = {
+        "source": str(source),
+        "layers": {},
+    }
+
+    all_parts = []
+
+    if layer_rows.empty:
+        print("[A31a] no A31a polygon layers found")
+
+    for _, info in layer_rows.iterrows():
+
+        layer = str(info["table_name"])
+        river = layer[len(A31A_PREFIX):]
+
+        targets = subset_locations_for_extent(
+            locations,
+            info,
+        )
+
+        if targets.empty:
+            continue
+
+        print(
+            f"[A31a] {river}: "
+            f"targets={len(targets):,}"
+        )
+
+        hz = pyogrio.read_dataframe(
+            source,
+            layer=layer,
+            columns=[
+                "depth_rank_code",
+                "depth_class_native",
+                "depth_min_m",
+                "depth_max_m",
+                "depth_class_summary",
+                "scenario",
+                "river_name",
+            ],
+        )
+
+        hz = ensure_wgs84(hz)
+
+        hz = hz[
+            hz["depth_class_summary"]
+            .isin(A31A_DEPTH_ORDER)
+        ].copy()
+
+        joined = spatial_join_polygons(
+            targets,
+            hz,
+            [
+                "depth_rank_code",
+                "depth_class_native",
+                "depth_min_m",
+                "depth_max_m",
+                "depth_class_summary",
+                "scenario",
+                "river_name",
+            ],
+        )
+
+        if joined.empty:
+
+            report["layers"][layer] = {
+                "river": river,
+                "polygon_count": int(len(hz)),
+                "matched_record_count": 0,
+                "depth_class_counts": {
+                    c: 0
+                    for c in A31A_DEPTH_ORDER
+                },
+            }
+
+            continue
+
+        rank_native = pd.to_numeric(
+            joined["depth_rank_code"],
+            errors="coerce",
+        )
+
+        rank_summary = (
+            joined["depth_class_summary"]
+            .map(A31A_DEPTH_RANK)
+        )
+
+        joined["depth_rank"] = (
+            rank_native
+            .fillna(rank_summary)
+            .fillna(0)
+            .astype(int)
+        )
+
+        # 同一recordに複数地点・複数polygonが重なる場合は
+        # 最も深い公表階級を採用する。
+        joined = (
+            joined
+            .sort_values(
+                ["record_id", "depth_rank"]
+            )
+            .drop_duplicates(
+                "record_id",
+                keep="last",
+            )
+        )
+
+        rec = meta.merge(
+            joined[
+                [
+                    "record_id",
+                    "depth_rank",
+                    "depth_class_native",
+                    "depth_min_m",
+                    "depth_max_m",
+                    "depth_class_summary",
+                    "scenario",
+                ]
+            ],
+            on="record_id",
+            how="inner",
+        )
+
+        rec["river"] = river
+
+        rec["risk_type"] = (
+            "river_flooding"
+        )
+
+        rec["risk_type_ja"] = (
+            "洪水浸水想定区域"
+        )
+
+        rec["hazard_source"] = (
+            f"A31a {river}"
+        )
+
+        rec["scenario"] = (
+            rec["scenario"]
+            .fillna("")
+            .replace("", "想定最大規模")
+        )
+
+        rec["depth_class"] = (
+            rec["depth_class_summary"]
+        )
+
+        rec["risk_basis"] = (
+            "A31a polygon intersection"
+        )
+
+        rec = rec[
+            [
+                "record_id",
+                "municipality_code",
+                "municipality_name",
+                "designation_level",
+                "designation_status",
+                "heritage_type_major",
+                "heritage_type_detail_norm",
+                "entity_class",
+                "name",
+                "river",
+                "risk_type",
+                "risk_type_ja",
+                "hazard_source",
+                "scenario",
+                "depth_class",
+                "depth_rank",
+                "depth_class_native",
+                "depth_min_m",
+                "depth_max_m",
+                "risk_basis",
+            ]
+        ]
+
+        prefix = (
+            f"inundation_a31a_{slug(river)}"
+        )
+
+        rec.to_csv(
+            tables / f"{prefix}_records.csv",
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        write_depth_crosstab(
+            rec,
+            [
+                "municipality_code",
+                "municipality_name",
+            ],
+            tables
+            / f"{prefix}_municipality.csv",
+        )
+
+        write_depth_crosstab(
+            rec,
+            ["designation_level"],
+            tables
+            / f"{prefix}_designation_level.csv",
+        )
+
+        write_depth_crosstab(
+            rec,
+            ["designation_status"],
+            tables
+            / f"{prefix}_designation_status.csv",
+        )
+
+        write_depth_crosstab(
+            rec,
+            ["heritage_type_major"],
+            tables
+            / f"{prefix}_cultural_type.csv",
+        )
+
+        counts = (
+            rec["depth_class"]
+            .value_counts()
+            .reindex(
+                A31A_DEPTH_ORDER,
+                fill_value=0,
+            )
+        )
+
+        print(
+            f"[A31a] {river}: "
+            f"matched records="
+            f"{rec['record_id'].nunique():,}"
+        )
+
+        for depth_class, count in counts.items():
+            print(
+                f"    {depth_class}: "
+                f"{int(count):,}"
+            )
+
+        report["layers"][layer] = {
+            "river": river,
+            "polygon_count": int(len(hz)),
+            "matched_record_count":
+                int(rec["record_id"].nunique()),
+            "depth_class_counts": {
+                c: int(counts[c])
+                for c in A31A_DEPTH_ORDER
+            },
+        }
+
+        all_parts.append(rec)
+
+        del hz, joined, rec
+
+    if all_parts:
+
+        all_records = pd.concat(
+            all_parts,
+            ignore_index=True,
+        )
+
+        all_records.to_csv(
+            tables
+            / "a31a_flooding_all_records.csv",
+            index=False,
+            encoding="utf-8-sig",
+        )
+
+        write_depth_crosstab(
+            all_records,
+            [
+                "river",
+                "municipality_code",
+                "municipality_name",
+            ],
+            tables
+            / "a31a_flooding_by_river_municipality.csv",
+        )
+
+        write_depth_crosstab(
+            all_records,
+            [
+                "river",
+                "designation_level",
+            ],
+            tables
+            / "a31a_flooding_by_river_designation_level.csv",
+        )
+
+        write_depth_crosstab(
+            all_records,
+            [
+                "river",
+                "designation_status",
+            ],
+            tables
+            / "a31a_flooding_by_river_designation_status.csv",
+        )
+
+        write_depth_crosstab(
+            all_records,
+            [
+                "river",
+                "heritage_type_major",
+            ],
+            tables
+            / "a31a_flooding_by_river_cultural_type.csv",
+        )
+
+    else:
+
+        all_records = pd.DataFrame(
+            columns=empty_cols
+        )
+
+    report["combined_rows"] = (
+        int(len(all_records))
+    )
+
+    report["unique_records"] = (
+        int(
+            all_records["record_id"]
+            .nunique()
+        )
+        if not all_records.empty
+        else 0
+    )
+
+    (
+        metadata_dir
+        / "a31a_aggregation.json"
+    ).write_text(
+        json.dumps(
+            report,
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+    return all_records
+
 def landslide_presence(source: Path, locations: gpd.GeoDataFrame, native: pd.DataFrame) -> pd.DataFrame:
     native_ids = set(native.loc[native["risk_type"] == "landslide", "record_id"].astype(str))
     external_ids: set[str] = set()
@@ -600,6 +1104,7 @@ def build_risk_presence(
     seismic: pd.DataFrame,
     fire: pd.DataFrame,
     water: pd.DataFrame,
+    a31a: pd.DataFrame,
     landslide: pd.DataFrame,
     tables: Path,
 ) -> pd.DataFrame:
@@ -613,6 +1118,9 @@ def build_risk_presence(
     if not water.empty:
         for rid, rtype in water[["record_id", "risk_type"]].drop_duplicates().itertuples(index=False):
             rows.append((rid, rtype))
+    if not a31a.empty:
+        for rid in a31a["record_id"].dropna().astype(str).unique():
+            rows.append((rid, "river_flooding"))
     if not landslide.empty:
         rows.extend(list(landslide[["record_id", "risk_type"]].itertuples(index=False, name=None)))
 
@@ -715,6 +1223,17 @@ def main() -> None:
     native.to_csv(tables / "plateau_building_risk_records.csv", index=False, encoding="utf-8-sig")
 
     contents = gpkg_contents(source)
+
+    print("\n=== A31a FLOOD POLYGON ASSIGNMENT ===")
+    a31a = a31a_flood_results(
+        source,
+        locations,
+        meta,
+        contents,
+        tables,
+        metadata_dir,
+    )
+
     external_parts = []
 
     print("\n=== STORM SURGE POINT ASSIGNMENT ===")
@@ -738,7 +1257,7 @@ def main() -> None:
     landslide = landslide_presence(source, locations, native)
 
     print("\n=== RISK-TYPE CROSS TABLES ===")
-    risk_long = build_risk_presence(meta, seismic, fire, best_water, landslide, tables)
+    risk_long = build_risk_presence(meta, seismic, fire, best_water, a31a, landslide, tables)
 
     run = {
         "source": str(source),
@@ -751,6 +1270,7 @@ def main() -> None:
         "seismic_scenarios": SCENARIOS,
         "water_point_grid_max_distance_m": POINT_GRID_MAX_DISTANCE_M,
         "skip_point_water": bool(args.skip_point_water),
+        "a31a_flood_records": int(a31a["record_id"].nunique()) if not a31a.empty else 0,
         "risk_type_rows": int(len(risk_long)),
     }
     (metadata_dir / "run_summary.json").write_text(json.dumps(run, ensure_ascii=False, indent=2), encoding="utf-8")
