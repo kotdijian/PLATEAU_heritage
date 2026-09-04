@@ -15,6 +15,11 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 from shapely.geometry import box
 
+try:
+    import contextily as ctx
+except Exception:
+    ctx = None
+
 
 ADMIN_LAYER_CANDIDATES = [
     "admin_boundary_n03_2024",
@@ -24,6 +29,17 @@ POINT_LAYER_CANDIDATES = [
     "heritage_points",
     "heritage_source_points",
 ]
+FOOTPRINT_LAYER_CANDIDATES = [
+    "heritage_buildings_footprint",
+    "heritage_buildings_footprints",
+]
+
+DETAIL_CENTERS = {
+    "東京駅": (35.68126, 139.76671),
+    "東京都立上野高校": (35.7186246, 139.7698412),
+    "JR両国駅": (35.6957371, 139.7936379),
+    "東京メトロ田原町駅": (35.70984, 139.79076),
+}
 ADMIN_NAME_COL_CANDIDATES = [
     "N03_004", "N03_003", "N03_002", "city_name", "name", "municipality"
 ]
@@ -75,13 +91,19 @@ def sanitize_filename(name: str) -> str:
     return name.strip("_") or "unnamed"
 
 
-def resolve_output_dir(base_outdir: Path, city: list[str] | None, center) -> Path:
-    """Route outputs into detail or municipality-specific city folders."""
+def resolve_output_dir(
+    base_outdir: Path,
+    city: list[str] | None,
+    center,
+    label: str | None = None,
+) -> Path:
+    """Route outputs into municipality folders or detail point folders."""
     if city:
         folder = "_".join(sanitize_filename(x) for x in city)
         return base_outdir / "city" / folder
     if center:
-        return base_outdir / "detail"
+        folder = sanitize_filename(label or "center")
+        return base_outdir / "detail" / folder / "inundation"
     return base_outdir / "overview"
 
 
@@ -131,6 +153,17 @@ def get_admin(gpkg: Path) -> gpd.GeoDataFrame:
 
 def get_points(gpkg: Path) -> gpd.GeoDataFrame:
     name = find_layer(gpkg, POINT_LAYER_CANDIDATES, contains=["heritage", "point"])
+    gdf = gpd.read_file(gpkg, layer=name)
+    if gdf.crs is None:
+        gdf = gdf.set_crs(4326, allow_override=True)
+    return gdf.to_crs(4326)
+
+
+def get_footprints(gpkg: Path) -> gpd.GeoDataFrame:
+    try:
+        name = find_layer(gpkg, FOOTPRINT_LAYER_CANDIDATES, contains=["heritage", "footprint"])
+    except RuntimeError:
+        return gpd.GeoDataFrame(geometry=[], crs="EPSG:4326")
     gdf = gpd.read_file(gpkg, layer=name)
     if gdf.crs is None:
         gdf = gdf.set_crs(4326, allow_override=True)
@@ -349,7 +382,6 @@ def load_hazard(gpkg: Path, layer_name: str, bbox):
     if hz.empty:
         return hz
 
-    # A31a polygon source: categorical summary classes are authoritative.
     if "depth_class_summary" in hz.columns:
         cats = hz["depth_class_summary"].map(normalize_depth_class)
         valid = cats.isin(DEPTH_ORDER) & (cats != "0")
@@ -359,7 +391,6 @@ def load_hazard(gpkg: Path, layer_name: str, bbox):
         hz["depth_cat"] = cats.loc[valid].to_numpy()
         return hz
 
-    # A31a fallback if summary class is unavailable.
     if "depth_rank_code" in hz.columns:
         ranks = pd.to_numeric(hz["depth_rank_code"], errors="coerce")
         valid = np.isfinite(ranks.to_numpy(dtype=float)) & (ranks.to_numpy(dtype=float) > 0)
@@ -369,7 +400,6 @@ def load_hazard(gpkg: Path, layer_name: str, bbox):
         hz["depth_cat"] = a31a_rank_category(ranks.loc[valid])
         return hz
 
-    # Tokyo point-grid source. NULL/NaN rows are NoData and must be dropped.
     depth_col = find_depth_column(hz)
     depth = pd.to_numeric(hz[depth_col], errors="coerce")
     finite = np.isfinite(depth.to_numpy(dtype=float))
@@ -379,8 +409,6 @@ def load_hazard(gpkg: Path, layer_name: str, bbox):
         return hz
 
     hz["depth_cat"] = depth_category(depth)
-
-    # Empty categories are defensive only; finite values should all classify.
     hz = hz[hz["depth_cat"].isin(DEPTH_ORDER)].copy()
     return hz
 
@@ -398,8 +426,6 @@ def _axis_grid_spacing(values: np.ndarray) -> float | None:
     if values.size < 2:
         return None
 
-    # Geographic raster centers are very close to a regular grid. Rounding at
-    # 1e-6 degree removes coordinate jitter while retaining metre-scale cells.
     unique = np.unique(np.round(values, 6))
     if unique.size < 2:
         return None
@@ -409,8 +435,6 @@ def _axis_grid_spacing(values: np.ndarray) -> float | None:
     if diffs.size == 0:
         return None
 
-    # Missing cells create integer multiples of the base spacing. The lower
-    # cluster is therefore the stable estimate of the native cell spacing.
     q35 = float(np.quantile(diffs, 0.35))
     small = diffs[diffs <= q35 * 1.6]
     if small.size == 0:
@@ -589,12 +613,47 @@ def title_from_layer(layer_name: str) -> str:
     return layer_name.replace("hazard_inundation_", "")
 
 
+def add_gsi_basemap(ax, zoom: int = 16) -> None:
+    if ctx is None:
+        return
+    try:
+        source = "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png"
+        ctx.add_basemap(
+            ax,
+            crs="EPSG:4326",
+            source=source,
+            attribution=False,
+            zoom=zoom,
+            reset_extent=True,
+        )
+    except Exception:
+        pass
+
+
+def plot_footprints(ax, footprints: gpd.GeoDataFrame) -> None:
+    if footprints is None or footprints.empty:
+        return
+    footprints.plot(
+        ax=ax,
+        facecolor="#555555",
+        edgecolor="black",
+        linewidth=0.35,
+        alpha=0.78,
+        zorder=8,
+    )
+
+
 def draw_common(
     ax,
     admin_clip: gpd.GeoDataFrame,
     city_gdf: gpd.GeoDataFrame | None,
     bbox,
+    zoom: int = 16,
 ):
+    ax.set_xlim(bbox[0], bbox[2])
+    ax.set_ylim(bbox[1], bbox[3])
+    add_gsi_basemap(ax, zoom=zoom)
+
     if not admin_clip.empty:
         admin_clip.boundary.plot(
             ax=ax,
@@ -609,8 +668,6 @@ def draw_common(
             edgecolor="0.25",
             zorder=5,
         )
-    ax.set_xlim(bbox[0], bbox[2])
-    ax.set_ylim(bbox[1], bbox[3])
     ax.set_xlabel("Longitude")
     ax.set_ylabel("Latitude")
     ax.set_aspect("equal", adjustable="box")
@@ -648,6 +705,13 @@ def add_legend(
                 markersize=5,
             )
         )
+    handles.append(
+        Line2D(
+            [], [], marker="s", linestyle="",
+            markerfacecolor="#555555", markeredgecolor="black",
+            label="文化財 building footprint", markersize=6,
+        )
+    )
     ax.legend(
         handles=handles,
         title=title,
@@ -665,9 +729,11 @@ def plot_single(
     admin_clip,
     city_gdf,
     points,
+    footprints,
     layer_name: str,
     display_label: str,
     file_label: str,
+    zoom: int = 16,
 ):
     hz = load_hazard(gpkg, layer_name, bbox)
     risk = positive_risk_features(hz)
@@ -679,7 +745,8 @@ def plot_single(
     plot_hazard_surface(ax, hz, alpha=0.88, zorder=2)
 
     show_in, show_out = plot_points_inout(ax, points, hz)
-    draw_common(ax, admin_clip, city_gdf, bbox)
+    plot_footprints(ax, footprints)
+    draw_common(ax, admin_clip, city_gdf, bbox, zoom=zoom)
     ax.set_title(f"{display_label}：{title_from_layer(layer_name)}")
     add_legend(ax, show_in, show_out)
 
@@ -702,9 +769,11 @@ def plot_combined(
     admin_clip,
     city_gdf,
     points,
+    footprints,
     layer_names: list[str],
     display_label: str,
     file_label: str,
+    zoom: int = 16,
 ):
     hazard_frames = []
     for layer_name in layer_names:
@@ -747,7 +816,8 @@ def plot_combined(
     else:
         show_in = show_out = False
 
-    draw_common(ax, admin_clip, city_gdf, bbox)
+    plot_footprints(ax, footprints)
+    draw_common(ax, admin_clip, city_gdf, bbox, zoom=zoom)
     ax.set_title(f"{display_label}：浸水予想区域（重複表示）")
     add_legend(ax, show_in, show_out)
 
@@ -768,47 +838,117 @@ def parse_args():
     p.add_argument(
         "--outdir",
         default=DEFAULT_OUTDIR,
-        help=(
-            "Base output directory. City mode writes to "
-            "<outdir>/city/<municipality-folder>/."
-        ),
+        help="Base output directory (default: summary_results/figures)",
     )
-    p.add_argument(
+    mode = p.add_mutually_exclusive_group()
+    mode.add_argument(
         "--city",
         nargs="+",
         help="City / ward / municipality name(s) to define the map extent",
     )
-    p.add_argument(
+    mode.add_argument(
         "--center",
         nargs=2,
         type=float,
         metavar=("LAT", "LON"),
         help="Center point as latitude longitude",
     )
-    p.add_argument("--zoom", type=int, help="Approximate zoom level for center mode")
-    p.add_argument("--radius-km", type=float, help="Radius in km for center mode")
+    mode.add_argument(
+        "--detail-defaults",
+        action="store_true",
+        help="Render the four canonical Summary Results detail centers",
+    )
+    p.add_argument("--label", help="Display/output label for --center mode")
+    p.add_argument("--zoom", type=int, default=16, help="Basemap zoom for center mode (default: 16)")
+    p.add_argument("--radius-km", type=float, default=0.8, help="Radius in km for center mode (default: 0.8)")
     p.add_argument(
         "--hazard",
         default="auto",
         help='Inundation layer selector: auto | all | "流域名" | full layer name',
     )
     group = p.add_mutually_exclusive_group()
-    group.add_argument(
-        "--combine",
-        action="store_true",
-        help="Combine matching hazard layers into one map",
-    )
-    group.add_argument(
-        "--separate",
-        action="store_true",
-        help="Render one map per matching hazard layer",
-    )
-    p.add_argument(
-        "--list-hazards",
-        action="store_true",
-        help="List available hazard layers and exit",
-    )
+    group.add_argument("--combine", action="store_true", help="Combine matching hazard layers into one map")
+    group.add_argument("--separate", action="store_true", help="Render one map per matching hazard layer")
+    p.add_argument("--list-hazards", action="store_true", help="List available hazard layers and exit")
     return p.parse_args()
+
+
+def render_request(
+    gpkg: Path,
+    base_outdir: Path,
+    admin: gpd.GeoDataFrame,
+    points: gpd.GeoDataFrame,
+    footprints: gpd.GeoDataFrame,
+    *,
+    city: list[str] | None = None,
+    center: tuple[float, float] | None = None,
+    label: str | None = None,
+    hazard: str = "auto",
+    combine: bool = False,
+    separate: bool = False,
+    radius_km: float = 0.8,
+    zoom: int = 16,
+) -> list[Path]:
+    all_hazard_layers = get_hazard_layers(gpkg)
+
+    if city:
+        bbox, city_gdf = bbox_from_city(admin, city)
+        display_label = "・".join(city)
+        file_label = "_".join(city)
+        target_geometry = city_gdf.union_all()
+        outdir = resolve_output_dir(base_outdir, city, None, display_label)
+        points_clip = points[points.intersects(target_geometry)].copy()
+        footprints_clip = footprints[footprints.intersects(target_geometry)].copy() if not footprints.empty else footprints
+    else:
+        if center is None:
+            raise ValueError("center is required when city is not specified")
+        lat, lon = center
+        bbox = bbox_from_center(lat, lon, radius_km=radius_km, zoom=zoom)
+        city_gdf = None
+        target_geometry = box(*bbox)
+        display_label = label or f"center {lat:.5f}, {lon:.5f}"
+        file_label = label or f"center_{lat:.5f}_{lon:.5f}"
+        outdir = resolve_output_dir(base_outdir, None, center, display_label)
+        points_clip = clip_layers_to_bbox(points, bbox)
+        footprints_clip = clip_layers_to_bbox(footprints, bbox) if not footprints.empty else footprints
+
+    admin_clip = clip_layers_to_bbox(admin, bbox)
+    candidates = all_hazard_layers if hazard == "auto" else resolve_hazard_layers(gpkg, hazard)
+    if city:
+        selected_layers = auto_select_hazards_for_geometry(gpkg, bbox, target_geometry, candidates)
+    else:
+        selected_layers = auto_select_hazards(gpkg, bbox, candidates)
+
+    if not selected_layers:
+        print(f"[SKIP] {display_label}: no inundation layers intersect the specified extent")
+        return []
+
+    mode_separate = separate or not combine
+    print(f"Base extent: {display_label}")
+    print(f"Output directory: {outdir}")
+    print(f"Selected hazard layers: {len(selected_layers)}")
+    for layer_name in selected_layers:
+        print(f"  - {layer_name}")
+
+    outputs = []
+    if mode_separate:
+        for layer_name in selected_layers:
+            result = plot_single(
+                gpkg, outdir, bbox, admin_clip, city_gdf,
+                points_clip, footprints_clip, layer_name,
+                display_label, file_label, zoom=zoom,
+            )
+            if result is not None:
+                outputs.append(result)
+    else:
+        result = plot_combined(
+            gpkg, outdir, bbox, admin_clip, city_gdf,
+            points_clip, footprints_clip, selected_layers,
+            display_label, file_label, zoom=zoom,
+        )
+        if result is not None:
+            outputs.append(result)
+    return outputs
 
 
 def main():
@@ -817,106 +957,47 @@ def main():
 
     gpkg = Path(args.gpkg).expanduser().resolve()
     base_outdir = Path(args.outdir).expanduser().resolve()
-
     if not gpkg.exists():
         raise SystemExit(f"GPKG not found: {gpkg}")
 
     all_hazard_layers = get_hazard_layers(gpkg)
-
     if args.list_hazards:
         for name in all_hazard_layers:
             print(name)
         return
 
-    if not args.city and not args.center:
-        raise SystemExit("Specify either --city ... or --center LAT LON")
-
-    if args.city and args.center:
-        raise SystemExit("Use either --city or --center, not both")
+    if not args.city and not args.center and not args.detail_defaults:
+        raise SystemExit("Specify --city, --center LAT LON, or --detail-defaults")
 
     admin = get_admin(gpkg)
     points = get_points(gpkg)
+    footprints = get_footprints(gpkg)
+
+    if args.detail_defaults:
+        for label, center in DETAIL_CENTERS.items():
+            render_request(
+                gpkg, base_outdir, admin, points, footprints,
+                center=center, label=label, hazard=args.hazard,
+                combine=args.combine, separate=args.separate,
+                radius_km=args.radius_km, zoom=args.zoom,
+            )
+        return
 
     if args.city:
-        bbox, city_gdf = bbox_from_city(admin, args.city)
-        display_label = "・".join(args.city)
-        file_label = "_".join(args.city)
-        target_geometry = city_gdf.union_all()
+        render_request(
+            gpkg, base_outdir, admin, points, footprints,
+            city=args.city, hazard=args.hazard,
+            combine=args.combine, separate=args.separate,
+            radius_km=args.radius_km, zoom=args.zoom,
+        )
     else:
         lat, lon = args.center
-        bbox = bbox_from_center(
-            lat,
-            lon,
-            radius_km=args.radius_km,
+        render_request(
+            gpkg, base_outdir, admin, points, footprints,
+            center=(lat, lon), label=args.label,
+            hazard=args.hazard, combine=args.combine,
+            separate=args.separate, radius_km=args.radius_km,
             zoom=args.zoom,
-        )
-        city_gdf = None
-        target_geometry = box(*bbox)
-        display_label = f"center {lat:.5f}, {lon:.5f}"
-        file_label = f"center_{lat:.5f}_{lon:.5f}"
-
-    outdir = resolve_output_dir(base_outdir, args.city, args.center)
-
-    admin_clip = clip_layers_to_bbox(admin, bbox)
-    if args.city:
-        points_clip = points[points.intersects(target_geometry)].copy()
-    else:
-        points_clip = clip_layers_to_bbox(points, bbox)
-
-    if args.hazard == "auto":
-        candidates = all_hazard_layers
-    else:
-        candidates = resolve_hazard_layers(gpkg, args.hazard)
-
-    if args.city:
-        selected_layers = auto_select_hazards_for_geometry(
-            gpkg,
-            bbox,
-            target_geometry,
-            candidates,
-        )
-    else:
-        selected_layers = auto_select_hazards(
-            gpkg,
-            bbox,
-            candidates,
-        )
-
-    if not selected_layers:
-        raise SystemExit("No inundation layers intersect the specified extent.")
-
-    mode_separate = args.separate or not args.combine
-
-    print(f"Base extent: {display_label}")
-    print(f"Output directory: {outdir}")
-    print(f"Selected hazard layers: {len(selected_layers)}")
-    for layer_name in selected_layers:
-        print(f"  - {layer_name}")
-
-    if mode_separate:
-        for layer_name in selected_layers:
-            plot_single(
-                gpkg,
-                outdir,
-                bbox,
-                admin_clip,
-                city_gdf,
-                points_clip,
-                layer_name,
-                display_label,
-                file_label,
-            )
-    else:
-        plot_combined(
-            gpkg,
-            outdir,
-            bbox,
-            admin_clip,
-            city_gdf,
-            points_clip,
-            selected_layers,
-            display_label,
-            file_label,
         )
 
 
