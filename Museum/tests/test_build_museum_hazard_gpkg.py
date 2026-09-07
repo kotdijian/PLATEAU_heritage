@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
+from shapely.geometry import Point, Polygon
 
 from Museum.build_museum_hazard_gpkg import (
     LINK_FIELDS,
@@ -16,6 +17,7 @@ from Museum.build_museum_hazard_gpkg import (
     choose_facility_type,
     default_output_path,
     load_museum_data,
+    load_osm_spatial_evidence,
     load_facility_spaces,
     match_buildings,
     museum_address_key,
@@ -171,6 +173,64 @@ class ManifestTests(unittest.TestCase):
 
 
 class MatchingTests(unittest.TestCase):
+    def test_unique_osm_node_confirms_building(self):
+        museum = facility("mo", "名称不一致")
+        target = building("bo", name="別名")
+        target.geometry = Polygon([(139, 35), (140, 35), (140, 36), (139, 36)])
+        evidence = {
+            "mo": {
+                "museum_id": "mo", "municipality_code": "13101",
+                "geometry": Point(139.5, 35.5), "geometry_kind": "point",
+                "method": "osm_node_in_building", "osm_type": "node",
+                "osm_id": "123", "osm_url": "https://www.openstreetmap.org/node/123",
+                "osm_object_role": "facility_feature",
+            }
+        }
+        links, states = match_buildings([target], [museum], evidence)
+        self.assertEqual(links[0]["match_status"], "confirmed")
+        self.assertEqual(links[0]["osm_unique_spatial_match"], 1)
+        self.assertIn("osm_node_in_building", links[0]["match_methods"])
+        self.assertEqual(states["bo"]["status"], "confirmed")
+
+    def test_osm_polygon_intersecting_multiple_buildings_requires_review(self):
+        museum = facility("mo", "名称不一致")
+        targets = [building("bo1", name="別名1"), building("bo2", name="別名2")]
+        targets[0].geometry = Polygon([(0, 0), (1, 0), (1, 1), (0, 1)])
+        targets[1].geometry = Polygon([(1, 0), (2, 0), (2, 1), (1, 1)])
+        evidence = {
+            "mo": {
+                "museum_id": "mo", "municipality_code": "13101",
+                "geometry": Polygon([(0.5, 0), (1.5, 0), (1.5, 1), (0.5, 1)]),
+                "geometry_kind": "polygon", "method": "osm_geometry_overlap",
+                "osm_type": "way", "osm_id": "456",
+                "osm_url": "https://www.openstreetmap.org/way/456",
+                "osm_object_role": "facility_feature",
+            }
+        }
+        links, states = match_buildings(targets, [museum], evidence)
+        self.assertEqual(len(links), 2)
+        self.assertTrue(all(row["match_status"] == "needs_review" for row in links))
+        self.assertTrue(all(row["osm_unique_spatial_match"] == 0 for row in links))
+
+    def test_osm_loader_excludes_coordinate_conflict(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            directory = Path(temp_dir)
+            audit = directory / "audit.csv"
+            audit.write_text(
+                "museum_id,municipality_code,plateau_match_scope,osm_status,"
+                "selected_osm_type,selected_osm_id,selected_osm_url,"
+                "selected_latitude,selected_longitude,selected_object_role,coordinate_conflict\n"
+                "safe,13101,candidate_discovery,high_confidence_unique,node,1,url,35.5,139.5,facility_feature,false\n"
+                "conflict,13101,candidate_discovery,high_confidence_unique,node,2,url,35.5,139.5,facility_feature,true\n",
+                encoding="utf-8",
+            )
+            evidence, counts = load_osm_spatial_evidence(
+                audit, directory / "missing_geometry.json"
+            )
+        self.assertEqual(set(evidence), {"safe"})
+        self.assertEqual(counts["high_confidence_discovery"], 2)
+        self.assertEqual(counts["coordinate_conflict_excluded"], 1)
+
     def test_unique_precise_point_confirms_building(self):
         class CoveringGeometry:
             def covers(self, point):

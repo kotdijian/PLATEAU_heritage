@@ -27,7 +27,8 @@ import geopandas as gpd
 import pandas as pd
 from lxml import etree
 from pyproj import Geod
-from shapely.geometry import Point
+from shapely.geometry import LineString, Point, Polygon
+from shapely.ops import polygonize, unary_union
 
 # Prefer the checked-out PLATEAU_heritage code when this script is executed as
 # ``python Museum/build_museum_hazard_gpkg.py``. The path is derived from this
@@ -53,8 +54,12 @@ except ImportError:  # Report a precise requirement after parsing the CLI.
 ROOT = SCRIPT_DIR
 DEFAULT_MUSEUM_DATA = ROOT / "source" / "data"
 DEFAULT_PLATEAU_DIR = ROOT.parent / ".cache" / "plateau"
+DEFAULT_OSM_AUDIT = DEFAULT_MUSEUM_DATA / "museum_osm_audit.csv"
+DEFAULT_OSM_GEOMETRY_CACHE = (
+    ROOT / "source" / "cache" / "osm" / "tokyo_museum_shortlist_geometry.json"
+)
 GEOD = Geod(ellps="GRS80")
-TOOL_VERSION = "0.3.1"
+TOOL_VERSION = "0.4.0"
 
 SPACE_FIELDS = [
     "space_id", "museum_id", "space_type", "space_name", "presence_status",
@@ -139,6 +144,8 @@ LINK_FIELDS = [
     "link_id", "museum_id", "building_gml_id", "building_id", "building_role",
     "match_status", "match_methods", "exact_name", "exact_address",
     "site_address_match", "point_in_building", "unique_precise_point_match",
+    "osm_spatial_match", "osm_unique_spatial_match", "osm_type", "osm_id",
+    "osm_url", "osm_object_role",
     "detailed_usage_match", "candidate_building_count",
     "manual_override", "review_required", "matched_at", "source_gml",
 ]
@@ -875,6 +882,123 @@ def load_museum_data(data_dir: Path) -> tuple[list[dict[str, Any]], list[dict[st
     return facilities, source_records
 
 
+def _osm_coordinates(values: Any) -> list[tuple[float, float]]:
+    if not isinstance(values, list):
+        return []
+    coordinates = []
+    for value in values:
+        if not isinstance(value, dict):
+            continue
+        try:
+            coordinates.append((float(value["lon"]), float(value["lat"])))
+        except (KeyError, TypeError, ValueError):
+            continue
+    return coordinates
+
+
+def _osm_ring(values: Any) -> Polygon | None:
+    coordinates = _osm_coordinates(values)
+    if len(coordinates) < 4 or coordinates[0] != coordinates[-1]:
+        return None
+    try:
+        polygon = Polygon(coordinates)
+        if not polygon.is_valid:
+            polygon = polygon.buffer(0)
+        return polygon if not polygon.is_empty else None
+    except Exception:
+        return None
+
+
+def osm_element_geometry(element: dict[str, Any]):
+    """Convert cached Overpass way/relation geometry to an EPSG:4326 shape."""
+    osm_type = text(element.get("type"))
+    if osm_type == "way":
+        return _osm_ring(element.get("geometry"))
+    if osm_type != "relation":
+        return None
+    outer_lines, inner_lines = [], []
+    for member in element.get("members", []):
+        if not isinstance(member, dict):
+            continue
+        coordinates = _osm_coordinates(member.get("geometry"))
+        if len(coordinates) < 2:
+            continue
+        line = LineString(coordinates)
+        (inner_lines if text(member.get("role")) == "inner" else outer_lines).append(line)
+    outers = list(polygonize(outer_lines))
+    inners = list(polygonize(inner_lines))
+    if not outers:
+        return None
+    geometry = unary_union(outers)
+    if inners:
+        geometry = geometry.difference(unary_union(inners))
+    return geometry if not geometry.is_empty else None
+
+
+def load_osm_spatial_evidence(
+    audit_path: Path, geometry_cache_path: Path
+) -> tuple[dict[str, dict[str, Any]], dict[str, int]]:
+    """Load only safe OSM evidence for facilities not already confirmed by PLATEAU."""
+    if not audit_path.is_file():
+        return {}, {"audit_missing": 1}
+    geometry_elements: dict[tuple[str, str], dict[str, Any]] = {}
+    if geometry_cache_path.is_file():
+        wrapper = json.loads(geometry_cache_path.read_text(encoding="utf-8"))
+        geometry_elements = {
+            (text(row.get("type")), text(row.get("id"))): row
+            for row in wrapper.get("elements", []) if isinstance(row, dict)
+        }
+
+    evidence: dict[str, dict[str, Any]] = {}
+    counts: Counter[str] = Counter()
+    for row in read_csv_rows(audit_path):
+        if row.get("plateau_match_scope") != "candidate_discovery":
+            continue
+        if row.get("osm_status") != "high_confidence_unique":
+            continue
+        counts["high_confidence_discovery"] += 1
+        if row.get("coordinate_conflict") == "true":
+            counts["coordinate_conflict_excluded"] += 1
+            continue
+        museum_id = text(row.get("museum_id"))
+        osm_type = text(row.get("selected_osm_type"))
+        osm_id = text(row.get("selected_osm_id"))
+        geometry = None
+        method = ""
+        if osm_type == "node":
+            try:
+                geometry = Point(
+                    float(row["selected_longitude"]), float(row["selected_latitude"])
+                )
+                method = "osm_node_in_building"
+            except (KeyError, TypeError, ValueError):
+                counts["invalid_point_excluded"] += 1
+                continue
+        elif osm_type in {"way", "relation"}:
+            geometry = osm_element_geometry(geometry_elements.get((osm_type, osm_id), {}))
+            method = "osm_geometry_overlap"
+            if geometry is None:
+                counts["missing_geometry_excluded"] += 1
+                continue
+        else:
+            counts["unsupported_object_excluded"] += 1
+            continue
+        evidence[museum_id] = {
+            "museum_id": museum_id,
+            "municipality_code": text(row.get("municipality_code")),
+            "geometry": geometry,
+            "geometry_kind": "point" if osm_type == "node" else "polygon",
+            "method": method,
+            "osm_type": osm_type,
+            "osm_id": osm_id,
+            "osm_url": text(row.get("selected_osm_url")),
+            "osm_object_role": text(row.get("selected_object_role")),
+        }
+        counts["usable"] += 1
+        counts[f"usable_{osm_type}"] += 1
+    return evidence, dict(counts)
+
+
 def city_names_from_facilities(facilities: list[dict[str, Any]]) -> dict[str, str]:
     return {
         text(row["municipality_code"]): text(row["municipality_name"])
@@ -1111,7 +1235,12 @@ def index_facilities(facilities: list[dict[str, Any]]):
     return by_city_name, by_city_address, by_city_site_address, by_city_point
 
 
-def match_buildings(buildings, facilities: list[dict[str, Any]]):
+def match_buildings(
+    buildings, facilities: list[dict[str, Any]],
+    osm_evidence: dict[str, dict[str, Any]] | None = None,
+):
+    osm_evidence = osm_evidence or {}
+    facilities_by_museum_id = {row["museum_id"]: row for row in facilities}
     by_city_name, by_city_address, by_city_site_address, by_city_point = index_facilities(
         facilities
     )
@@ -1123,6 +1252,11 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
     # point is accepted only when it selects exactly one PLATEAU Building.
     point_hits_by_building: dict[str, list[dict[str, Any]]] = defaultdict(list)
     point_building_counts: Counter[str] = Counter()
+    osm_hits_by_building: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    osm_building_counts: Counter[str] = Counter()
+    osm_by_city: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for evidence in osm_evidence.values():
+        osm_by_city[evidence["municipality_code"]].append(evidence)
     building_cities: dict[str, tuple[str, str]] = {}
     for building in buildings:
         city, city_method = building_matching_city(building, municipality_codes)
@@ -1135,6 +1269,19 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 if geometry.covers(point):
                     point_hits_by_building[building.gml_id].append(facility)
                     point_building_counts[facility["museum_id"]] += 1
+            except Exception:
+                continue
+        for evidence in osm_by_city.get(city, []):
+            try:
+                osm_geometry = evidence["geometry"]
+                if evidence["geometry_kind"] == "point":
+                    hit = geometry.covers(osm_geometry)
+                else:
+                    intersection = geometry.intersection(osm_geometry)
+                    hit = not intersection.is_empty and intersection.area > 0
+                if hit:
+                    osm_hits_by_building[building.gml_id].append(evidence)
+                    osm_building_counts[evidence["museum_id"]] += 1
             except Exception:
                 continue
 
@@ -1153,10 +1300,16 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
             by_city_site_address.get((city, site_address_key), []) if site_address_key else []
         )
         point_hits = point_hits_by_building.get(building.gml_id, [])
+        osm_hits = osm_hits_by_building.get(building.gml_id, [])
         facilities_by_id = {
             row["museum_id"]: row
             for row in [*name_hits, *address_hits, *site_address_hits, *point_hits]
         }
+        facilities_by_id.update({
+            evidence["museum_id"]: facilities_by_museum_id[evidence["museum_id"]]
+            for evidence in osm_hits
+            if evidence["museum_id"] in facilities_by_museum_id
+        })
 
         confirmed_ids: list[str] = []
         review_ids: list[str] = []
@@ -1170,12 +1323,19 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 and point_building_counts[facility_id] == 1
                 and facility.get("location_coordinate_use") == "building_candidate"
             )
+            osm_hit = next(
+                (row for row in osm_hits if row["museum_id"] == facility_id), None
+            )
+            unique_osm_spatial = bool(
+                osm_hit and osm_building_counts[facility_id] == 1
+            )
             # Address plus an exact museum/zoo detailed-use code is accepted only
             # when the source address identifies one facility. Shared addresses
             # remain reviewable because campuses and complexes can contain several.
             confirmed = (
                 exact_name
                 or unique_precise_point
+                or unique_osm_spatial
                 or (exact_address and strong_usage and len(address_hits) == 1)
             )
             match_status = "confirmed" if confirmed else "needs_review"
@@ -1190,6 +1350,10 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 methods.append("point_in_building")
             if unique_precise_point:
                 methods.append("unique_precise_point_in_building")
+            if osm_hit:
+                methods.append(osm_hit["method"])
+            if unique_osm_spatial:
+                methods.append("osm_unique_spatial_match")
             if strong_usage:
                 methods.append("detailed_usage_exact_museum")
             if tokyo_culture_usage:
@@ -1207,6 +1371,12 @@ def match_buildings(buildings, facilities: list[dict[str, Any]]):
                 "site_address_match": int(site_address),
                 "point_in_building": int(point_in_building),
                 "unique_precise_point_match": int(unique_precise_point),
+                "osm_spatial_match": int(bool(osm_hit)),
+                "osm_unique_spatial_match": int(unique_osm_spatial),
+                "osm_type": osm_hit["osm_type"] if osm_hit else "",
+                "osm_id": osm_hit["osm_id"] if osm_hit else "",
+                "osm_url": osm_hit["osm_url"] if osm_hit else "",
+                "osm_object_role": osm_hit["osm_object_role"] if osm_hit else "",
                 "detailed_usage_match": int(strong_usage or tokyo_culture_usage),
                 "candidate_building_count": 0,
                 "manual_override": 0,
@@ -1778,6 +1948,18 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--museum-data-dir", type=Path, default=DEFAULT_MUSEUM_DATA,
                         help="Directory containing Museum manifest CSV outputs")
+    parser.add_argument(
+        "--osm-audit", type=Path, default=DEFAULT_OSM_AUDIT,
+        help="v0.1.2 museum_osm_audit.csv used for conservative spatial matching",
+    )
+    parser.add_argument(
+        "--osm-geometry-cache", type=Path, default=DEFAULT_OSM_GEOMETRY_CACHE,
+        help="v0.1.2 shortlist geometry cache for OSM way/relation matching",
+    )
+    parser.add_argument(
+        "--no-osm", action="store_true",
+        help="Disable OSM spatial evidence even when the audit file exists",
+    )
     parser.add_argument("--output", type=Path, default=None,
                         help="Output GPKG; default is <source> with _museum_hazards")
     parser.add_argument("--overwrite", action="store_true", help="Replace output GPKG if it exists")
@@ -1890,7 +2072,22 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
     )
     print(f"PLATEAU Buildings scanned: {len(buildings)}", flush=True)
 
-    links, building_status = match_buildings(buildings, facilities)
+    osm_evidence: dict[str, dict[str, Any]] = {}
+    osm_evidence_counts: dict[str, int] = {"disabled": 1}
+    if not args.no_osm:
+        osm_evidence, osm_evidence_counts = load_osm_spatial_evidence(
+            args.osm_audit.expanduser().resolve(),
+            args.osm_geometry_cache.expanduser().resolve(),
+        )
+        print(
+            "OSM spatial evidence: "
+            f"{osm_evidence_counts.get('high_confidence_discovery', 0)} discovery / "
+            f"{osm_evidence_counts.get('usable', 0)} usable / "
+            f"{osm_evidence_counts.get('coordinate_conflict_excluded', 0)} conflicts excluded",
+            flush=True,
+        )
+
+    links, building_status = match_buildings(buildings, facilities, osm_evidence)
     confirmed, candidates = building_frames(buildings, facilities, links, building_status)
     cities_with_files = {plateau_file.city_code for plateau_file in plateau_files}
     facilities_out, unresolved = facility_status_rows(facilities, links, cities_with_files)
@@ -1945,6 +2142,15 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             for row in facilities_out
         ),
         "museum_facility_points": len(facility_points),
+        "osm_spatial_evidence_counts": osm_evidence_counts,
+        "osm_spatial_confirmed_facilities": len({
+            link["museum_id"] for link in links
+            if link.get("osm_unique_spatial_match")
+        }),
+        "osm_spatial_candidate_facilities": len({
+            link["museum_id"] for link in links
+            if link.get("osm_spatial_match") and not link.get("osm_unique_spatial_match")
+        }),
         "plateau_files": len(plateau_files),
         "plateau_duplicate_audit": duplicate_audit,
         "plateau_buildings_scanned": len(buildings),

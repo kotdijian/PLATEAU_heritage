@@ -222,6 +222,22 @@ OSM施設位置を意味します。施設名を借用した周辺POIだけで�
 一方、ABR座標から2kmを超えて離れる場合です。OSM・ABRのどちらかを自動採用せず、
 座標不一致の確認対象として残します。
 
+### PLATEAU footprintへの接続
+
+Museum builder v0.4.0は、この監査結果のうち`candidate_discovery`、
+`high_confidence_unique`、`coordinate_conflict=false`をすべて満たす施設だけを読み込みます。
+OSM nodeが一つのPLATEAU Buildingに入る場合、またはway/relationの実geometryが一棟だけと
+正面積で重なる場合に限って確定します。複数棟に重なる施設は自動確定せず、
+`museum_building_links`と`museum_building_candidates`へ要確認候補として残します。
+
+```bash
+python Museum/build_museum_hazard_gpkg.py \
+  "/path/to/13_heritage_hazards.gpkg" \
+  --plateau-local-dir .cache/plateau \
+  --exclude-unresolved-duplicates \
+  --output "/path/to/13_museum_hazards_osm.gpkg"
+```
+
 OSMデータはODbLです。出力にはOSM object URL、取得データのSHA-256、取得日時を
 保持します。成果物を配布するときはOpenStreetMapとcontributorsへの帰属表示、
 ODbLの明示、および派生データベースに対するライセンス条件の確認が必要です。

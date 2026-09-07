@@ -78,13 +78,72 @@ def _base_meta_cols(meta):
     return [c for c in wanted if c in meta.columns]
 
 
+LIQUEFACTION_CLASS_ORDER = ["PL=0", "0<PL≤5", "5<PL≤15", "PL>15", "No data"]
+
+
+def _liq_slug(text):
+    text = re.sub(r"[\\/:*?\"<>|\s]+", "_", str(text)).strip("_")
+    return text or "liquefaction"
+
+
+def _write_liquefaction_municipality_crosstab(rec, scenario, tables):
+    """Write the canonical municipality × PL-class crosstab for one scenario.
+
+    Contract:
+      municipality_code, municipality_name,
+      PL=0, 0<PL≤5, 5<PL≤15, PL>15, No data, Total
+
+    Total excludes No data. Municipalities whose valid Total is zero are omitted.
+    """
+    wanted = ["municipality_code", "municipality_name", "record_id", "risk_class"]
+    missing = [c for c in wanted if c not in rec.columns]
+    if missing:
+        raise RuntimeError(f"liquefaction crosstab missing columns: {missing}")
+
+    tmp = rec[wanted].copy()
+    tmp["municipality_code"] = (
+        tmp["municipality_code"].fillna("").astype(str)
+        .str.replace(r"\\.0$", "", regex=True).str.zfill(5)
+    )
+    tmp["municipality_name"] = tmp["municipality_name"].fillna("不明").astype(str)
+    tmp["risk_class"] = tmp["risk_class"].fillna("No data").astype(str)
+    tmp = tmp.drop_duplicates("record_id")
+
+    tab = (
+        tmp.groupby(["municipality_code", "municipality_name", "risk_class"], dropna=False, observed=True)
+        .size().unstack("risk_class", fill_value=0).reset_index()
+    )
+    for c in LIQUEFACTION_CLASS_ORDER:
+        if c not in tab.columns:
+            tab[c] = 0
+    tab = tab[["municipality_code", "municipality_name", *LIQUEFACTION_CLASS_ORDER]]
+    valid_cols = [c for c in LIQUEFACTION_CLASS_ORDER if c != "No data"]
+    tab["Total"] = tab[valid_cols].sum(axis=1)
+    tab = tab[tab["Total"] > 0].copy()
+    tab = tab.sort_values(["municipality_code", "municipality_name"], kind="stable")
+
+    out = tables / f"liquefaction_{_liq_slug(scenario)}_municipality.csv"
+    tab.to_csv(out, index=False, encoding="utf-8-sig")
+    return out
+
+
 def build_liquefaction_records(source, locations, meta, contents, tables):
+    """Build complete liquefaction records and canonical crosstabs.
+
+    Unlike the old implementation, the population for every scenario is the
+    full non-movable cultural-property metadata table. A left join makes
+    unassigned records explicit as risk_class='No data'. Crosstabs are written
+    here, upstream of report generation; the HTML finalizer must never pivot
+    the record-level CSV.
+    """
     feature = contents[contents["data_type"].astype(str) == "features"]
     rows = feature[
         feature["table_name"].fillna("").astype(str).str.startswith("hazard_liquefaction")
     ]
-    parts = []
+    observed_parts = []
+    scenarios = set()
     meta_cols = _base_meta_cols(meta)
+    base_meta = meta[meta_cols].drop_duplicates("record_id").copy()
 
     if rows.empty:
         print("[liquefaction] WARNING: no hazard_liquefaction* feature layers")
@@ -101,15 +160,12 @@ def build_liquefaction_records(source, locations, meta, contents, tables):
             continue
         hz = hz.copy()
         hz["_pl"] = pd.to_numeric(hz[value_col], errors="coerce")
-        hz = hz[hz["_pl"].notna()].copy()
-        if hz.empty:
-            continue
 
         if "scenario" not in hz.columns:
-            scenario = layer.replace("hazard_liquefaction_250m_", "").replace("hazard_liquefaction_", "")
-            if scenario in ("", "250m", layer):
-                scenario = "液状化"
-            hz["scenario"] = scenario
+            fallback = layer.replace("hazard_liquefaction_250m_", "").replace("hazard_liquefaction_", "")
+            if fallback in ("", "250m", layer):
+                fallback = "液状化"
+            hz["scenario"] = fallback
         else:
             hz["scenario"] = hz["scenario"].fillna("").astype(str).str.strip()
             fallback = layer.replace("hazard_liquefaction_250m_", "").replace("hazard_liquefaction_", "")
@@ -117,28 +173,80 @@ def build_liquefaction_records(source, locations, meta, contents, tables):
                 fallback = "液状化"
             hz.loc[hz["scenario"] == "", "scenario"] = fallback
 
-        joined = _join(locations, hz, ["scenario", "_pl"])
+        scenarios.update(x for x in hz["scenario"].dropna().astype(str).str.strip().unique() if x)
+        hz_valid = hz[hz["_pl"].notna()].copy()
+        if hz_valid.empty:
+            continue
+
+        joined = _join(locations, hz_valid, ["scenario", "_pl"])
         if joined.empty:
             continue
-        agg = joined.groupby(["record_id", "scenario"], as_index=False)["_pl"].max().rename(columns={"_pl": "risk_value"})
-        rec = meta[meta_cols].drop_duplicates("record_id").merge(agg, on="record_id", how="inner")
+        agg = (
+            joined.groupby(["record_id", "scenario"], as_index=False)["_pl"].max()
+            .rename(columns={"_pl": "risk_value"})
+        )
+        agg["hazard_source"] = layer
+        observed_parts.append(agg)
+
+    if observed_parts:
+        observed = pd.concat(observed_parts, ignore_index=True)
+        observed["risk_value"] = pd.to_numeric(observed["risk_value"], errors="coerce")
+        observed = (
+            observed.sort_values(["record_id", "scenario", "risk_value"])
+            .drop_duplicates(["record_id", "scenario"], keep="last")
+        )
+        scenarios.update(x for x in observed["scenario"].dropna().astype(str).str.strip().unique() if x)
+    else:
+        observed = pd.DataFrame(columns=["record_id", "scenario", "risk_value", "hazard_source"])
+
+    all_parts = []
+    for scenario in sorted(scenarios):
+        obs = observed[observed["scenario"].astype(str) == str(scenario)][
+            ["record_id", "risk_value", "hazard_source"]
+        ].copy()
+        rec = base_meta.merge(obs, on="record_id", how="left")
+        rec["scenario"] = scenario
         rec["risk_type"] = "liquefaction"
         rec["risk_type_ja"] = "液状化"
         rec["risk_class"] = rec["risk_value"].map(_liq_class)
-        rec["hazard_source"] = layer
-        rec["risk_basis"] = "liquefaction mesh polygon intersection"
-        parts.append(rec)
+        rec["hazard_source"] = rec["hazard_source"].fillna("")
+        rec["risk_basis"] = np.where(
+            rec["risk_value"].notna(),
+            "liquefaction mesh polygon intersection",
+            "No data",
+        )
 
-    all_records = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
-    if not all_records.empty:
-        all_records = all_records.sort_values(["record_id", "scenario", "risk_value"]).drop_duplicates(["record_id", "scenario"], keep="last")
-    risk_records = all_records[pd.to_numeric(all_records.get("risk_value", pd.Series(dtype=float)), errors="coerce") > LIQUEFACTION_RISK_MIN_PL].copy() if not all_records.empty else all_records.copy()
+        rec.to_csv(
+            tables / f"liquefaction_{_liq_slug(scenario)}_records.csv",
+            index=False,
+            encoding="utf-8-sig",
+        )
+        out_tab = _write_liquefaction_municipality_crosstab(rec, scenario, tables)
+        print(f"[liquefaction] wrote crosstab: {out_tab.name}")
+        all_parts.append(rec)
+
+    if all_parts:
+        all_records = pd.concat(all_parts, ignore_index=True)
+    else:
+        all_records = pd.DataFrame(columns=[
+            *meta_cols, "risk_value", "hazard_source", "scenario",
+            "risk_type", "risk_type_ja", "risk_class", "risk_basis",
+        ])
+
+    risk_records = all_records[
+        pd.to_numeric(all_records.get("risk_value", pd.Series(dtype=float)), errors="coerce")
+        > LIQUEFACTION_RISK_MIN_PL
+    ].copy() if not all_records.empty else all_records.copy()
 
     all_records.to_csv(tables / "liquefaction_all_scenarios_records.csv", index=False, encoding="utf-8-sig")
     risk_records.to_csv(tables / "liquefaction_risk_records.csv", index=False, encoding="utf-8-sig")
-    print(f"[liquefaction] assigned={all_records['record_id'].nunique() if not all_records.empty else 0:,}; risk(PL>0)={risk_records['record_id'].nunique() if not risk_records.empty else 0:,}")
-    return all_records, risk_records
 
+    evaluated_pairs = int(all_records["risk_value"].notna().sum()) if not all_records.empty else 0
+    print(
+        f"[liquefaction] scenarios={len(scenarios):,}; evaluated record×scenario={evaluated_pairs:,}; "
+        f"risk(PL>0) records={risk_records['record_id'].nunique() if not risk_records.empty else 0:,}"
+    )
+    return all_records, risk_records
 
 def build_landslide_records(source, locations, meta, native, contents, tables):
     meta_cols = _base_meta_cols(meta)

@@ -1,6 +1,8 @@
 # Museum × PLATEAU 災害リスクGPKG生成ツール
 
-`build_museum_hazard_gpkg.py` v0.3.1は、MuseumソースmanifestとPLATEAU CityGMLの建築物を照合し、既存のHeritage災害リスクGeoPackageを複製した上で、博物館向けの空間レイヤ・正規化テーブル・災害リスクを追加します。`museum_location_enrichment.csv`の受理済み住所・座標を照合用overlayとして優先し、原manifest住所は`source_manifest_address`に保存します。博物館の所在階・収蔵庫階は建物階数と分離して保持し、浸水深との対応表を生成します。
+`build_museum_hazard_gpkg.py` v0.4.0は、MuseumソースmanifestとPLATEAU CityGMLの建築物を照合し、既存のHeritage災害リスクGeoPackageを複製した上で、博物館向けの空間レイヤ・正規化テーブル・災害リスクを追加します。`museum_location_enrichment.csv`の受理済み住所・座標を照合用overlayとして優先し、原manifest住所は`source_manifest_address`に保存します。博物館の所在階・収蔵庫階は建物階数と分離して保持し、浸水深との対応表を生成します。
+
+v0.4.0ではOSMパイロットv0.1.2の高確度純増候補をPLATEAU footprint照合へ接続します。nodeが一棟だけに包含される場合、またはway/relationの実geometryが一棟だけと正面積で重なる場合だけ自動確定します。複数棟との重なりは候補として保持し、座標競合施設は自動照合から除外します。
 
 ソースGPKGは読み取り専用として扱い、直接変更しません。出力先を明示しない場合、`13_heritage_hazards.gpkg` と同じディレクトリに `13_museum_hazards.gpkg` を作成します。
 
@@ -181,6 +183,12 @@ Museum GPKGが既にある場合は`--museum-gpkg`で指定します。既存確
 `audit_only`、未確定施設は`candidate_discovery`として出力されます。詳しい出力列、
 offline再実行、判定条件は[source README](source/README.md#openstreetmap照合パイロット)
 を参照してください。
+
+OSM照合後に`build_museum_hazard_gpkg.py`を再実行すると、既定で
+`Museum/source/data/museum_osm_audit.csv`とshortlist geometry cacheを読み込みます。
+OSMを使用しない再現比較には`--no-osm`を指定します。summaryの
+`osm_spatial_evidence_counts`、`osm_spatial_confirmed_facilities`、
+`osm_spatial_candidate_facilities`で純増効果を監査できます。
 
 住所正規化では全角・半角、丁目・番・号、ハイフンを統一し、先頭の`東京都`の有無を吸収します。ビル名・階数を除いた敷地住所は候補抽出にだけ使い、自動確定には使いません。数字を含まない休館注記等は住所として扱いません。
 
