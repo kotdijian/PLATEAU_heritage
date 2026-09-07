@@ -1,3 +1,5 @@
-﻿layer_name,hazard_type,status,note
-hazard_fire_spread_mesh250,fire,alternate_representation,town layer is canonical summary source
-hazard_region_risk,region_risk,available_not_aggregated,composite regional-risk dataset
+﻿layer_name,issue
+hazard_region_risk,unexpected_hazard_layer
+hazard_landslide_prevention_a46_polygon,unexpected_hazard_layer
+hazard_steep_slope_a47_polygon,unexpected_hazard_layer
+hazard_source_manifest,unexpected_hazard_layer

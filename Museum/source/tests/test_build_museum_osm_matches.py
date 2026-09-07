@@ -10,6 +10,7 @@ from Museum.source.scripts.build_museum_osm_matches import (
     audit_facility,
     build_candidate,
     confirmed_museum_ids,
+    element_has_full_geometry,
     fetch_overpass,
     fetch_shortlist_geometry,
     group_candidates,
@@ -153,6 +154,18 @@ class MuseumOsmMatchTests(unittest.TestCase):
         self.assertIn("way(id:20);", query)
         self.assertIn("rel(id:30);", query)
         self.assertNotIn("node(id:1)", query)
+        self.assertIn("out body geom;", query)
+        self.assertNotIn("center", query)
+
+    def test_center_only_object_is_not_full_geometry(self):
+        self.assertFalse(element_has_full_geometry({
+            "type": "way", "id": 20,
+            "center": {"lat": 35.0, "lon": 139.0},
+        }))
+        self.assertTrue(element_has_full_geometry({
+            "type": "way", "id": 20,
+            "geometry": [{"lat": 35.0, "lon": 139.0}],
+        }))
 
     def test_confirmed_ids_are_read_without_spatial_dependencies(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -202,6 +215,22 @@ class MuseumOsmMatchTests(unittest.TestCase):
             self.assertIn(("way", "20"), rows)
             self.assertEqual(mode, "cache")
             self.assertEqual(len(digest), 64)
+
+    def test_center_only_geometry_cache_is_rejected_offline(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "geometry.json"
+            path.write_text(json.dumps({
+                "requested_objects": [{"type": "way", "id": "20"}],
+                "elements": [{
+                    "type": "way", "id": 20,
+                    "center": {"lat": 35.0, "lon": 139.0},
+                }],
+            }), encoding="utf-8")
+            with self.assertRaisesRegex(RuntimeError, "missing requested full geometry"):
+                fetch_shortlist_geometry(
+                    "https://invalid.example", path, [("way", "20")],
+                    refresh=False, offline=True, timeout=1, user_agent="test",
+                )
 
 
 if __name__ == "__main__":

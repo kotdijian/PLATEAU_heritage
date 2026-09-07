@@ -1,0 +1,17 @@
+﻿record_id,name,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,value,value_class,hazard_type,scenario,hazard_key,layer_name
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,3,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_town
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,4,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_mesh250
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,,,high_tide,高潮,high_tide｜高潮,hazard_storm_surge_depth
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,,,high_tide,高潮,high_tide｜高潮,hazard_storm_surge_duration
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,,,high_tide,高潮,high_tide｜高潮,hazard_storm_surge_house_collapse
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,13.817,5<PL≤15,liquefaction,多摩東部直下地震,liquefaction｜多摩東部直下地震,hazard_liquefaction_250m_多摩東部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,14.058,5<PL≤15,liquefaction,大正関東地震,liquefaction｜大正関東地震,hazard_liquefaction_250m_大正関東地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,20.512,PL>15,liquefaction,都心南部直下地震,liquefaction｜都心南部直下地震,hazard_liquefaction_250m_都心南部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,4.68,,seismic,南海トラフ巨大地震,seismic｜南海トラフ巨大地震,hazard_seismic_50m_南海トラフ巨大地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,5.493,,seismic,多摩東部直下地震,seismic｜多摩東部直下地震,hazard_seismic_50m_多摩東部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,5.096,,seismic,多摩西部直下地震,seismic｜多摩西部直下地震,hazard_seismic_50m_多摩西部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,5.511,,seismic,大正関東地震,seismic｜大正関東地震,hazard_seismic_50m_大正関東地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,4.416,,seismic,立川断層帯地震,seismic｜立川断層帯地震,hazard_seismic_50m_立川断層帯地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,5.764,,seismic,都心南部直下地震,seismic｜都心南部直下地震,hazard_seismic_50m_都心南部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,6.003,,seismic,都心東部直下地震,seismic｜都心東部直下地震,hazard_seismic_50m_都心東部直下地震
+official_export_003:39,善養寺影向のマツ,江戸川区,,,,,point,5.983,,seismic,都心西部直下地震,seismic｜都心西部直下地震,hazard_seismic_50m_都心西部直下地震

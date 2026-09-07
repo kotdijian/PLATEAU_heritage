@@ -1,0 +1,16 @@
+﻿record_id,name,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,value,value_class,hazard_type,scenario,hazard_key,layer_name
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,3,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_town
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,2,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_mesh250
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,0.018,0<PL≤5,liquefaction,南海トラフ巨大地震,liquefaction｜南海トラフ巨大地震,hazard_liquefaction_250m_南海トラフ巨大地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,10.93,5<PL≤15,liquefaction,多摩東部直下地震,liquefaction｜多摩東部直下地震,hazard_liquefaction_250m_多摩東部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.57,5<PL≤15,liquefaction,大正関東地震,liquefaction｜大正関東地震,hazard_liquefaction_250m_大正関東地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,0.865,0<PL≤5,liquefaction,立川断層帯地震,liquefaction｜立川断層帯地震,hazard_liquefaction_250m_立川断層帯地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,9.68,5<PL≤15,liquefaction,都心南部直下地震,liquefaction｜都心南部直下地震,hazard_liquefaction_250m_都心南部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,4.922,,seismic,南海トラフ巨大地震,seismic｜南海トラフ巨大地震,hazard_seismic_50m_南海トラフ巨大地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.914,,seismic,多摩東部直下地震,seismic｜多摩東部直下地震,hazard_seismic_50m_多摩東部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.792,,seismic,多摩西部直下地震,seismic｜多摩西部直下地震,hazard_seismic_50m_多摩西部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.492,,seismic,大正関東地震,seismic｜大正関東地震,hazard_seismic_50m_大正関東地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.515,,seismic,立川断層帯地震,seismic｜立川断層帯地震,hazard_seismic_50m_立川断層帯地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.803,,seismic,都心南部直下地震,seismic｜都心南部直下地震,hazard_seismic_50m_都心南部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.732,,seismic,都心東部直下地震,seismic｜都心東部直下地震,hazard_seismic_50m_都心東部直下地震
+110,清瀬市下宿の「ふせぎ」行事,清瀬市,,,,,point,5.826,,seismic,都心西部直下地震,seismic｜都心西部直下地震,hazard_seismic_50m_都心西部直下地震

@@ -165,12 +165,13 @@ point-in-buildingでは、ABRの自治体一致と詳細粒度を検証した座
 
 ### OSM照合パイロット（PLATEAU照合前の補助工程）
 
-OpenStreetMapを候補・監査根拠として試験する独立ツールv0.1.1を
+OpenStreetMapを候補・監査根拠として試験する独立ツールv0.1.2を
 `Museum/source/scripts/build_museum_osm_matches.py`に置いています。東京都内の対象
 OSM objectを一括取得してローカル照合しますが、既存のPLATEAU建物確定結果や
 GPKGを変更しません。施設本体と駐輪場・入口等を分離し、同一施設を表す
 node/way/relationを候補グループへ統合した上で、高確度way/relationのgeometryだけを
-追加取得します。
+追加取得します。centerだけの旧cacheは完全なgeometryとして扱わず、自動的に検出して
+再取得し、要求・返却・実取得・欠落件数をsummaryへ記録します。
 
 ```bash
 python Museum/source/scripts/build_museum_osm_matches.py

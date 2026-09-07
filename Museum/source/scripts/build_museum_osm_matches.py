@@ -44,7 +44,7 @@ DEFAULT_GEOMETRY_CACHE_PATH = (
 )
 DEFAULT_ALIASES = SOURCE_ROOT / "config" / "name_aliases.csv"
 DEFAULT_ENDPOINT = "https://overpass-api.de/api/interpreter"
-TOOL_VERSION = "0.1.1"
+TOOL_VERSION = "0.1.2"
 
 OVERPASS_QUERY = r"""
 [out:json][timeout:300];
@@ -373,8 +373,27 @@ def geometry_query(object_keys: list[tuple[str, str]]) -> str:
         "(",
         *["  " + selector for selector in selectors],
         ");",
-        "out geom tags center;",
+        "out body geom;",
     ])
+
+
+def element_has_full_geometry(element: dict[str, object]) -> bool:
+    """Return True only for geometry usable in the next spatial stage."""
+    osm_type = clean(element.get("type"))
+    if osm_type == "way":
+        return bool(element.get("geometry"))
+    if osm_type == "relation":
+        members = element.get("members")
+        return bool(
+            isinstance(members, list)
+            and any(
+                isinstance(member, dict) and bool(member.get("geometry"))
+                for member in members
+            )
+        )
+    if osm_type == "node":
+        return element.get("lat") is not None and element.get("lon") is not None
+    return False
 
 
 def fetch_shortlist_geometry(
@@ -384,6 +403,7 @@ def fetch_shortlist_geometry(
     requested = sorted(set(object_keys))
     if not requested:
         return {}, "", "not_required"
+    repaired_invalid_cache = False
     if cache_path.is_file() and not refresh:
         wrapper = json.loads(cache_path.read_text(encoding="utf-8"))
         cached_requested = {
@@ -396,13 +416,17 @@ def fetch_shortlist_geometry(
                 (clean(row.get("type")), clean(row.get("id"))): row
                 for row in elements if isinstance(row, dict)
             }
-            digest = hashlib.sha256(
-                json.dumps(wrapper, ensure_ascii=False, sort_keys=True).encode()
-            ).hexdigest()
-            return result, digest, "cache"
+            usable = {
+                key: row for key, row in result.items()
+                if element_has_full_geometry(row)
+            }
+            if set(requested).issubset(usable):
+                digest = hashlib.sha256(cache_path.read_bytes()).hexdigest()
+                return result, digest, "cache"
+            repaired_invalid_cache = True
         if offline:
             raise RuntimeError(
-                "OSM geometry cache does not cover the current shortlist: "
+                "OSM geometry cache is missing requested full geometry: "
                 + str(cache_path)
             )
     elif offline:
@@ -434,15 +458,18 @@ def fetch_shortlist_geometry(
             {"type": kind, "id": value} for kind, value in requested
         ],
         "elements": list(collected.values()),
+        "full_geometry_object_count": sum(
+            element_has_full_geometry(row) for row in collected.values()
+        ),
     }
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(
         json.dumps(wrapper, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    digest = hashlib.sha256(
-        json.dumps(wrapper, ensure_ascii=False, sort_keys=True).encode()
-    ).hexdigest()
-    return collected, digest, "network"
+    digest = hashlib.sha256(cache_path.read_bytes()).hexdigest()
+    return collected, digest, (
+        "network_repair" if repaired_invalid_cache else "network"
+    )
 
 
 def build_candidate(
@@ -706,11 +733,15 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--user-agent",
         default=(
-            "PLATEAU-heritage-museum-osm-pilot/0.1.1 "
+            "PLATEAU-heritage-museum-osm-pilot/0.1.2 "
             "(+https://github.com/kotdijian/PLATEAU_heritage)"
         ),
     )
     parser.add_argument("--refresh", action="store_true")
+    parser.add_argument(
+        "--refresh-geometry", action="store_true",
+        help="Refresh only the shortlisted way/relation geometry cache",
+    )
     parser.add_argument("--offline", action="store_true")
     parser.add_argument(
         "--skip-geometry", action="store_true",
@@ -780,12 +811,17 @@ def run(args: argparse.Namespace) -> dict[str, object]:
     if not args.skip_geometry:
         geometry_elements, geometry_digest, geometry_fetch_mode = fetch_shortlist_geometry(
             args.endpoint, geometry_cache_path, sorted(shortlist_geometry_keys),
-            refresh=args.refresh, offline=args.offline, timeout=args.timeout,
+            refresh=args.refresh or args.refresh_geometry, offline=args.offline,
+            timeout=args.timeout,
             user_agent=args.user_agent,
         )
+    usable_geometry_elements = {
+        key: element for key, element in geometry_elements.items()
+        if element_has_full_geometry(element)
+    }
     for row in candidate_rows:
         key = (clean(row["osm_type"]), clean(row["osm_id"]))
-        if key in geometry_elements:
+        if key in usable_geometry_elements:
             row["geometry_available"] = "true"
 
     write_csv(output_dir / "museum_osm_candidates.csv", candidate_rows, CANDIDATE_FIELDS)
@@ -827,7 +863,16 @@ def run(args: argparse.Namespace) -> dict[str, object]:
             row.get("coordinate_conflict") == "true" for row in audit_rows
         ),
         "geometry_shortlist_objects": len(shortlist_geometry_keys),
-        "geometry_retrieved_objects": len(geometry_elements),
+        "geometry_returned_objects": len(geometry_elements),
+        "geometry_retrieved_objects": len(usable_geometry_elements),
+        "geometry_missing_objects": len(
+            shortlist_geometry_keys - set(usable_geometry_elements)
+        ),
+        "geometry_missing_object_samples": [
+            f"{kind}/{value}" for kind, value in sorted(
+                shortlist_geometry_keys - set(usable_geometry_elements)
+            )[:20]
+        ],
         "geometry_fetch_mode": geometry_fetch_mode,
         "geometry_cache": str(geometry_cache_path),
         "geometry_data_sha256": geometry_digest,

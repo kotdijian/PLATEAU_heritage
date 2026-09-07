@@ -143,7 +143,7 @@ python Museum/source/scripts/build_museum_locations.py \
 
 ## OpenStreetMap照合パイロット
 
-`scripts/build_museum_osm_matches.py` v0.1.1は、東京都内の博物館・美術館・資料館・
+`scripts/build_museum_osm_matches.py` v0.1.2は、東京都内の博物館・美術館・資料館・
 動物園・水族館等をOverpass APIから一括取得し、canonical 245施設とローカルで
 照合します。この段階ではOSMを候補・監査根拠としてのみ使用し、canonical一覧、
 所在地overlay、PLATEAU建物リンク、GPKGを変更しません。
@@ -162,9 +162,16 @@ python Museum/source/scripts/build_museum_osm_matches.py
 
 初回取得結果は`Museum/source/cache/osm/tokyo_museum.json`へ保存されます。
 高確度グループに含まれるway/relationのgeometryは、追加の小規模Overpass queryで
-取得して`tokyo_museum_shortlist_geometry.json`へ保存します。v0.1.0の東京都全域
-cacheはそのまま再利用できるため、v0.1.1の初回実行ではshortlist geometryだけが
-ネットワーク取得されます。
+取得して`tokyo_museum_shortlist_geometry.json`へ保存します。v0.1.2は、v0.1.1で
+生成されたcenterのみのcacheを完全なway/relation geometryとは認めず、自動検出して
+shortlist geometryだけを再取得します。東京都全域の`tokyo_museum.json`はそのまま
+再利用されます。
+
+shortlist geometryだけを明示的に再取得する場合は次を使います。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py --refresh-geometry
+```
 
 両方のcacheを作成した後は、ネットワークなしで再現実行できます。
 
@@ -202,7 +209,7 @@ python Museum/source/scripts/build_museum_osm_matches.py \
 |---|---|
 | `museum_osm_candidates.csv` | 候補リンク、object role、候補group、座標、名称・自治体・距離・公式URL、Wikidata、OSM source、geometry有無 |
 | `museum_osm_audit.csv` | canonical施設ごとの候補group数、選択object、ABR座標競合。全245施設を1行ずつ記録 |
-| `museum_osm_summary.json` | 取得モード、OSM件数、照合件数、監査・候補探索別KPI |
+| `museum_osm_summary.json` | 取得モード、OSM件数、照合件数、監査・候補探索別KPI、geometry要求・返却・実取得・欠落件数 |
 
 `high_confidence_unique`は、正規化名称が完全一致し、かつ自治体、公式URLまたは
 既存の検証済み座標との距離が施設を支持するOSM施設グループが一つだけの場合です。
