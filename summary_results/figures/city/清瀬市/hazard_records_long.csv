@@ -1,0 +1,27 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+108,seismic,都心南部直下地震,5.768,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+110,seismic,都心南部直下地震,5.803,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+108,seismic,都心東部直下地震,5.787,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+110,seismic,都心東部直下地震,5.732,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+108,seismic,都心西部直下地震,5.847,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+110,seismic,都心西部直下地震,5.826,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+108,seismic,多摩東部直下地震,5.9614,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+110,seismic,多摩東部直下地震,5.9144,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+108,seismic,多摩西部直下地震,5.8,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+110,seismic,多摩西部直下地震,5.792,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+108,seismic,立川断層帯地震,5.659,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+110,seismic,立川断層帯地震,5.515,6弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+108,seismic,大正関東地震,5.474,5強,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,大正関東地震,想定震度｜大正関東地震
+110,seismic,大正関東地震,5.492,5強,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,大正関東地震,想定震度｜大正関東地震
+108,seismic,南海トラフ巨大地震,4.925,5弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+110,seismic,南海トラフ巨大地震,4.922,5弱,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+108,fire,延焼危険度,4.0,,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+110,fire,延焼危険度,3.0,,,,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+110,liquefaction,南海トラフ巨大地震,0.0175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+110,liquefaction,多摩東部直下地震,10.93,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+110,liquefaction,大正関東地震,5.57,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,液状化,大正関東地震,液状化｜大正関東地震
+110,liquefaction,立川断層帯地震,0.865,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,液状化,立川断層帯地震,液状化｜立川断層帯地震
+110,liquefaction,都心南部直下地震,9.68,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,液状化,都心南部直下地震,液状化｜都心南部直下地震
+108,river_flooding,L2（想定最大規模）,0.01,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+108,river_flooding,,0.08,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,河川浸水,河川浸水,河川浸水｜河川浸水
+110,river_flooding,,1.63,0.5–3 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,河川浸水,河川浸水,河川浸水｜河川浸水

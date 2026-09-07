@@ -1,0 +1,16 @@
+﻿record_id,name,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,value,value_class,hazard_type,scenario,hazard_key,layer_name
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,3,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_town
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,3,,fire,延焼危険度,fire｜延焼危険度,hazard_fire_spread_mesh250
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,0.287,0<PL≤5,liquefaction,南海トラフ巨大地震,liquefaction｜南海トラフ巨大地震,hazard_liquefaction_250m_南海トラフ巨大地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,3.323,0<PL≤5,liquefaction,多摩東部直下地震,liquefaction｜多摩東部直下地震,hazard_liquefaction_250m_多摩東部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,2.588,0<PL≤5,liquefaction,大正関東地震,liquefaction｜大正関東地震,hazard_liquefaction_250m_大正関東地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,0.252,0<PL≤5,liquefaction,立川断層帯地震,liquefaction｜立川断層帯地震,hazard_liquefaction_250m_立川断層帯地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,3.313,0<PL≤5,liquefaction,都心南部直下地震,liquefaction｜都心南部直下地震,hazard_liquefaction_250m_都心南部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,4.927,,seismic,南海トラフ巨大地震,seismic｜南海トラフ巨大地震,hazard_seismic_50m_南海トラフ巨大地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.997,,seismic,多摩東部直下地震,seismic｜多摩東部直下地震,hazard_seismic_50m_多摩東部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.678,,seismic,多摩西部直下地震,seismic｜多摩西部直下地震,hazard_seismic_50m_多摩西部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.645,,seismic,大正関東地震,seismic｜大正関東地震,hazard_seismic_50m_大正関東地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.346,,seismic,立川断層帯地震,seismic｜立川断層帯地震,hazard_seismic_50m_立川断層帯地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.964,,seismic,都心南部直下地震,seismic｜都心南部直下地震,hazard_seismic_50m_都心南部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.856,,seismic,都心東部直下地震,seismic｜都心東部直下地震,hazard_seismic_50m_都心東部直下地震
+69,出山遺跡出土注口土器,三鷹市,,,,,movable,5.857,,seismic,都心西部直下地震,seismic｜都心西部直下地震,hazard_seismic_50m_都心西部直下地震

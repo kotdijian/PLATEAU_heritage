@@ -1,0 +1,47 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+239,seismic,都心南部直下地震,5.853,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+132101000000.0,seismic,都心南部直下地震,5.89,6弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:168,seismic,都心南部直下地震,5.841,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:169,seismic,都心南部直下地震,5.841,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+239,seismic,都心東部直下地震,5.945,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+132101000000.0,seismic,都心東部直下地震,5.911,6弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:168,seismic,都心東部直下地震,5.789,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:169,seismic,都心東部直下地震,5.789,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+239,seismic,都心西部直下地震,5.929,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+132101000000.0,seismic,都心西部直下地震,5.943,6弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:168,seismic,都心西部直下地震,5.864,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:169,seismic,都心西部直下地震,5.864,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+239,seismic,多摩東部直下地震,6.0704,6強以上,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+132101000000.0,seismic,多摩東部直下地震,6.0898,6強以上,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:168,seismic,多摩東部直下地震,6.0254,6強以上,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:169,seismic,多摩東部直下地震,6.0254,6強以上,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+239,seismic,多摩西部直下地震,5.788,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+132101000000.0,seismic,多摩西部直下地震,5.888,6弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:168,seismic,多摩西部直下地震,5.812,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:169,seismic,多摩西部直下地震,5.812,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+239,seismic,立川断層帯地震,5.755,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+132101000000.0,seismic,立川断層帯地震,6.248,6強以上,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:168,seismic,立川断層帯地震,5.679,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:169,seismic,立川断層帯地震,5.679,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+239,seismic,大正関東地震,5.669,6弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+132101000000.0,seismic,大正関東地震,5.696,6弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:168,seismic,大正関東地震,5.634,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:169,seismic,大正関東地震,5.634,6弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,大正関東地震,想定震度｜大正関東地震
+239,seismic,南海トラフ巨大地震,4.995,5弱,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+132101000000.0,seismic,南海トラフ巨大地震,4.997,5弱,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:168,seismic,南海トラフ巨大地震,4.936,5弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:169,seismic,南海トラフ巨大地震,4.936,5弱,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+239,fire,延焼危険度,3.0,,,,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+132101000000.0,fire,延焼危険度,5.0,,,,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:168,fire,延焼危険度,4.0,,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:169,fire,延焼危険度,4.0,,,,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+132101000000.0,liquefaction,多摩東部直下地震,2.408,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+132101000000.0,liquefaction,大正関東地震,0.669,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),液状化,大正関東地震,液状化｜大正関東地震
+132101000000.0,liquefaction,都心南部直下地震,1.427,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),液状化,都心南部直下地震,液状化｜都心南部直下地震
+132101000000.0,river_flooding,L2（想定最大規模）,0.09,0.5m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+132101000000.0,river_flooding,L2（想定最大規模）,0.53,0.5m以上3m未満,多摩川水系野川・仙川・入間川・谷沢川・丸子川,PLATEAU building risk,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+132101000000.0,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),河川浸水,河川浸水,河川浸水｜河川浸水
+239,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+132101000000.0,river_flooding,,0.5312,0.5–3 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:168,river_flooding,,3.434,3–5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:169,river_flooding,,3.434,3–5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),河川浸水,河川浸水,河川浸水｜河川浸水

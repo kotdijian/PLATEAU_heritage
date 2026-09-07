@@ -1,0 +1,62 @@
+{
+  "tool_version": "0.2.5",
+  "generated_at": "2026-09-06T16:34:45+00:00",
+  "canonical_facilities": 245,
+  "verified_address_count": 221,
+  "verified_address_rate": 0.9020408163265307,
+  "verified_coordinate_count": 221,
+  "verified_coordinate_rate": 0.9020408163265307,
+  "location_needs_review_count": 24,
+  "target_over_60_count": 148,
+  "target_over_90_count": 221,
+  "address_over_60_percent": true,
+  "address_over_90_percent": true,
+  "accepted_source_counts": {
+    "cultural_heritage_online": 11,
+    "existing_manifest": 116,
+    "facility_official_page": 82,
+    "verified_override": 12
+  },
+  "structured_candidate_count": 63,
+  "source_manifest": [
+    {
+      "source_id": "cultural_heritage_online",
+      "list_pages": [
+        {
+          "page": "1",
+          "url": "https://online.bunka.go.jp/museums/search?prefecture_cd=13",
+          "mode": "cache",
+          "sha256": "b733fca94e302e27d156d944abff744578b28ba1dd488b8ca22f60840eb55111",
+          "detail_links": "20"
+        },
+        {
+          "page": "2",
+          "url": "https://online.bunka.go.jp/museums/search/page:2",
+          "mode": "cache",
+          "sha256": "669f1c782fb7e3dc00876d7f923ef8925501e1110844acc801efb2d6be2e3221",
+          "detail_links": "20"
+        },
+        {
+          "page": "3",
+          "url": "https://online.bunka.go.jp/museums/search/page:3",
+          "mode": "cache",
+          "sha256": "e70c1c8fa3837f7485e4fbf6f99e237844e127f1be452b06ea1e7a6fb37864be",
+          "detail_links": "20"
+        },
+        {
+          "page": "4",
+          "url": "https://online.bunka.go.jp/museums/search/page:4",
+          "mode": "cache",
+          "sha256": "802850eb2af13ba2542e2d571283667f8a75e3a3499d1cfe260bb751c7b199b6",
+          "detail_links": "19"
+        }
+      ],
+      "reported_record_count": 79,
+      "detail_url_count": 79,
+      "candidate_count": 63,
+      "errors": [
+        "structured_source_incomplete: reported=79, parsed=63"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_003:37,seismic,都心南部直下地震,5.823,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:37,seismic,都心東部直下地震,5.881,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:37,seismic,都心西部直下地震,5.932,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:37,seismic,多摩東部直下地震,6.0658,6強以上,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:37,seismic,多摩西部直下地震,5.809,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:37,seismic,立川断層帯地震,5.984,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:37,seismic,大正関東地震,5.669,6弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:37,seismic,南海トラフ巨大地震,4.995,5弱,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:37,fire,延焼危険度,4.0,,,,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:37,liquefaction,多摩東部直下地震,0.555,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:37,liquefaction,大正関東地震,0.345,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:37,liquefaction,立川断層帯地震,0.105,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_003:37,liquefaction,都心南部直下地震,0.445,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:37,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,河川浸水,河川浸水,河川浸水｜河川浸水

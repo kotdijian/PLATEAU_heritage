@@ -1,102 +1,68 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 """
-render_city_hazard_focus.py
+Render municipality-focused non-inundation hazard maps from a heritage hazard GPKG.
 
-用途:
-- 浸水区域を除く全災害レイヤを対象にする
-- city mode: 自治体単位の災害図を作成する
-- center mode: 任意中心座標の detail 災害図を作成する
-- 対象範囲内に該当ハザード地物が存在しない場合は画像出力をスキップする
+Main additions in this revision
+-------------------------------
+- Includes liquefaction as an independent hazard.
+- Checks for unexpected hazard types / scenarios and writes a catalog CSV.
+- Outputs not only PNG maps but also:
+  1) a long-format list of cultural-property hazard hits inside each city extent
+  2) a cross-tab CSV by heritage type x hazard type/scenario
+  3) a TOTAL-row cross-tab
+- Skips image output when a city extent contains no affected cultural property
+  for that hazard/scenario.
 
-想定入力:
-- 13_heritage_hazards.gpkg / 13_heritage_hazards_a31a.gpkg など
-- 行政界レイヤ: admin_boundary_n03_2024
-- 文化財 point レイヤ: heritage_buildings_point / heritage_points / heritage_source_points など
-- 文化財 footprint レイヤ: heritage_buildings_footprint / heritage_buildings_footprints など
+This tool intentionally excludes inundation/flood-area maps because those are
+handled by tools/render_inundation_map.py.
 
-出力:
-- city mode:   summary_results/figures/city/<自治体名>/
-- center mode: summary_results/figures/detail/<地点名>/hazard/
+CLI examples
+------------
+python tools/render_city_hazard_focus.py /path/to/13_heritage_hazards.gpkg --cities 国分寺 国立
+
+Outputs
+-------
+summary_results/figures/city/<CITY>/
+  ├── images/*.png
+  ├── hazard_records_long.csv
+  ├── hazard_counts_by_heritage_type.csv
+  ├── hazard_counts_total.csv
+  ├── hazard_catalog.csv
+  └── hazard_catalog_unexpected.csv
 """
 
 from __future__ import annotations
 
 import argparse
-import math
 import re
-import sys
+from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable, Optional
 
 import geopandas as gpd
-import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import pyogrio
-from matplotlib.cm import ScalarMappable
-from matplotlib.colors import BoundaryNorm, Normalize
+import matplotlib
+import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import Patch
-from mpl_toolkits.axes_grid1.inset_locator import inset_axes
-from shapely.geometry import box
-
-try:
-    import contextily as ctx
-except Exception:
-    ctx = None
-
-
-SEISMIC_LABELS = ["5弱未満", "5弱", "5強", "6弱", "6強以上"]
-SEISMIC_BOUNDS = [-10, 4.5, 5.0, 5.5, 6.0, 10]
-SEISMIC_COLORS = ["#F0F921", "#F89640", "#CC4778", "#9C179E", "#0D0887"]
-
-# Canonical Summary Results detail centers: (lat, lon)
-DETAIL_CENTERS = {
-    "東京駅": (35.68126, 139.76671),
-    "東京都立上野高校": (35.7186246, 139.7698412),
-    "JR両国駅": (35.6957371, 139.7936379),
-    "東京メトロ田原町駅": (35.70984, 139.79076),
-}
-
-
-# -----------------------------
-# basic helpers
-# -----------------------------
-
-def eprint(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
-
-
-def sanitize_filename(name: str) -> str:
-    name = str(name).strip()
-    name = re.sub(r"[\\/:*?\"<>|]+", "_", name)
-    name = re.sub(r"\s+", "_", name)
-    return name or "unnamed"
-
-
-def normalize_name(text: str) -> str:
-    """Normalize municipality labels for matching user input to N03 names."""
-    if text is None:
-        return ""
-    s = str(text).strip()
-    s = re.sub(r"^(東京都|北海道|(?:京都|大阪)府|.{2,4}県)", "", s)
-    s = re.sub(r"(市|区|町|村)$", "", s)
-    return s
 
 
 def configure_fonts() -> None:
-    import matplotlib
-    import matplotlib.font_manager as fm
-
+    try:
+        import matplotlib.font_manager as fm
+    except Exception:
+        return
     preferred = [
         "Hiragino Sans",
         "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        "YuGothic",
+        "Noto Sans CJK JP",
+        "Noto Sans JP",
         "IPAexGothic",
         "IPAGothic",
-        "Noto Sans CJK JP",
-        "Yu Gothic",
-        "MS Gothic",
+        "TakaoGothic",
     ]
     installed = {f.name for f in fm.fontManager.ttflist}
     for name in preferred:
@@ -106,796 +72,604 @@ def configure_fonts() -> None:
     matplotlib.rcParams["axes.unicode_minus"] = False
 
 
-def list_layer_names(path: Path) -> list[str]:
-    """Return only layer names from pyogrio.list_layers() across return formats."""
-    info = pyogrio.list_layers(path)
-
-    if hasattr(info, "columns") and "name" in info.columns:
-        return info["name"].astype(str).tolist()
-
-    result = []
-    for row in info:
-        if isinstance(row, str):
-            result.append(row)
-            continue
-        try:
-            if len(row) >= 1:
-                result.append(str(row[0]))
-                continue
-        except TypeError:
-            pass
-        result.append(str(row))
-    return result
+def list_layers(path: Path | str) -> list[str]:
+    arr = pyogrio.list_layers(path)
+    if isinstance(arr, np.ndarray):
+        if arr.ndim == 2 and arr.shape[1] >= 1:
+            return [str(x[0]) for x in arr.tolist()]
+        return [str(x) for x in arr.tolist()]
+    out = []
+    for row in arr:
+        if isinstance(row, (list, tuple)) and row:
+            out.append(str(row[0]))
+        else:
+            out.append(str(row))
+    return out
 
 
-def find_layer(
-    path: Path,
-    candidates: Optional[Iterable[str]] = None,
-    contains: Optional[Iterable[str]] = None,
-) -> str:
-    layers = list_layer_names(path)
+def find_layer(path: Path | str, candidates: list[str] | None = None, contains: list[str] | None = None) -> str:
+    layers = list_layers(path)
+    candidates = candidates or []
+    contains = contains or []
 
-    if candidates:
-        for cand in candidates:
-            if cand in layers:
-                return cand
-
+    for c in candidates:
+        if c in layers:
+            return c
     if contains:
-        for layer in layers:
-            lname = layer.lower()
-            if all(token.lower() in lname for token in contains):
-                return layer
-
+        for name in layers:
+            lo = name.lower()
+            if all(k.lower() in lo for k in contains):
+                return name
     raise RuntimeError(
-        f"Layer not found. candidates={list(candidates or [])}, "
-        f"contains={list(contains or [])}, layers={layers[:25]}..."
+        f"Layer not found. candidates={candidates}, contains={contains}, layers_sample={layers[:25]}"
     )
 
 
-def ensure_wgs84(gdf: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+def read_layer(path: Path | str, layer: str) -> gpd.GeoDataFrame:
+    gdf = pyogrio.read_dataframe(path, layer=layer)
     if gdf.empty:
-        if gdf.crs is None:
-            gdf = gdf.set_crs(4326, allow_override=True)
-        elif gdf.crs.to_epsg() != 4326:
-            gdf = gdf.to_crs(4326)
         return gdf
-
     if gdf.crs is None:
-        return gdf.set_crs(4326, allow_override=True)
-    if gdf.crs.to_epsg() != 4326:
-        return gdf.to_crs(4326)
+        gdf = gdf.set_crs(4326, allow_override=True)
+    elif gdf.crs.to_epsg() != 4326:
+        gdf = gdf.to_crs(4326)
     return gdf
 
 
-def read_layer_bbox(path: Path, layer: str, bbox4326, columns=None) -> gpd.GeoDataFrame:
-    gdf = pyogrio.read_dataframe(path, layer=layer, bbox=bbox4326, columns=columns)
-    if "geometry" not in gdf.columns:
-        raise RuntimeError(f"Layer has no geometry column: {layer}")
-    return ensure_wgs84(gdf)
-
-
-def add_gsi_basemap(ax, crs="EPSG:4326", zoom=14):
-    if ctx is None:
-        return
-    try:
-        source = "https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png"
-        ctx.add_basemap(ax, crs=crs, source=source, attribution=False, zoom=zoom)
-    except Exception:
-        pass
-
-
-def bbox_from_center(lat: float, lon: float, radius_km: float = 0.8):
-    """Return a WGS84 bbox around a center point."""
-    dlat = radius_km / 111.32
-    dlon = radius_km / (111.32 * max(math.cos(math.radians(lat)), 0.1))
-    return (lon - dlon, lat - dlat, lon + dlon, lat + dlat)
-
-
-# -----------------------------
-# layer loading
-# -----------------------------
-
-def load_admin(path: Path) -> gpd.GeoDataFrame:
+def load_admin(path: Path | str) -> gpd.GeoDataFrame:
     layer = find_layer(path, candidates=["admin_boundary_n03_2024"], contains=["admin", "boundary"])
-    gdf = pyogrio.read_dataframe(path, layer=layer)
-    return ensure_wgs84(gdf)
+    gdf = read_layer(path, layer)
+    rename = {}
+    for col in gdf.columns:
+        s = str(col)
+        if s.startswith("N03_004"):
+            rename[col] = "city_name"
+        elif s.startswith("N03_007"):
+            rename[col] = "admin_code"
+    if rename:
+        gdf = gdf.rename(columns=rename)
+    if "city_name" not in gdf.columns:
+        for c in gdf.columns:
+            if "name" in str(c).lower():
+                gdf = gdf.rename(columns={c: "city_name"})
+                break
+    if "city_name" not in gdf.columns:
+        raise RuntimeError(f"Admin layer lacks city_name: {list(gdf.columns)}")
+    return gdf
 
 
-def resolve_city(admin: gpd.GeoDataFrame, city_name: str) -> gpd.GeoDataFrame:
-    query_name = normalize_name(city_name)
-
-    candidate_cols = [c for c in admin.columns if re.search(r"(N03_004|city|市区町村|name)", str(c), re.I)]
-    if not candidate_cols:
-        candidate_cols = [c for c in admin.columns if c != "geometry"]
-
-    for col in candidate_cols:
-        s = admin[col].fillna("").astype(str)
-        mask = s.map(normalize_name) == query_name
-        hit = admin.loc[mask].copy()
-        if not hit.empty:
-            return hit
-
-    raise RuntimeError(f"City not found in admin boundary layer: {city_name}")
-
-
-def load_points(path: Path, bbox4326) -> gpd.GeoDataFrame:
-    candidates = [
-        "heritage_buildings_point",
-        "heritage_points",
-        "heritage_source_points",
-        "heritage_point_features",
-    ]
-    for cand in candidates:
+def load_points(path: Path | str) -> gpd.GeoDataFrame:
+    candidates = ["heritage_source_points", "heritage_points", "heritage_buildings_point"]
+    last_err = None
+    for c in candidates:
         try:
-            return read_layer_bbox(path, cand, bbox4326)
-        except Exception:
-            pass
-
-    layers = list_layer_names(path)
-    for layer in layers:
-        low = layer.lower()
-        if "heritage" in low and "point" in low:
-            try:
-                return read_layer_bbox(path, layer, bbox4326)
-            except Exception:
-                continue
-
-    return gpd.GeoDataFrame(geometry=[], crs="EPSG:4326")
-
-
-def load_footprints(path: Path, bbox4326) -> gpd.GeoDataFrame:
-    candidates = [
-        "heritage_buildings_footprint",
-        "heritage_buildings_footprints",
-    ]
-    for cand in candidates:
-        try:
-            return read_layer_bbox(path, cand, bbox4326)
-        except Exception:
-            pass
-
-    layers = list_layer_names(path)
-    for layer in layers:
-        low = layer.lower()
-        if "heritage" in low and "footprint" in low:
-            try:
-                return read_layer_bbox(path, layer, bbox4326)
-            except Exception:
-                continue
-
-    return gpd.GeoDataFrame(geometry=[], crs="EPSG:4326")
-
-
-# -----------------------------
-# hazard discovery
-# -----------------------------
-
-def discover_hazard_layers(path: Path) -> list[str]:
-    layers = list_layer_names(path)
-    keep = []
-    for layer in layers:
-        low = layer.lower()
-        if not low.startswith("hazard_"):
-            continue
-        if low.startswith("hazard_inundation"):
-            continue
-        if low in {"hazard_source_manifest", "hazard_metadata"}:
-            continue
-        if low.endswith("_manifest") or low.endswith("_metadata"):
-            continue
-        keep.append(layer)
-    return sorted(keep)
-
-
-def infer_numeric_column(layer_name: str, gdf: gpd.GeoDataFrame) -> Optional[str]:
-    cols = list(gdf.columns)
-
-    preferred_map = [
-        "seismic_intensity",
-        "liquefaction_pl",
-        "subsidence_m",
-        "T360mm_焼失棟数",
-        "fire_spread_rank",
-        "region_risk_rank",
-        "rank",
-        "class",
-        "value",
-        "depth",
-        "height",
-        "arrival",
-    ]
-    for p in preferred_map:
-        if p in cols:
-            return p
-
-    for col in cols:
-        if col == "geometry":
-            continue
-        try:
-            if gdf[col].dtype.kind in "ifu":
-                return col
-        except Exception:
-            continue
-    return None
-
-
-def is_area_like(gdf: gpd.GeoDataFrame) -> bool:
-    if gdf.empty:
-        return True
-    geom_types = {str(gt) for gt in gdf.geom_type.dropna().unique().tolist()}
-    return any(gt in geom_types for gt in ["Polygon", "MultiPolygon", "LineString", "MultiLineString"])
-
-
-def classify_points_by_hazard(points: gpd.GeoDataFrame, hazard: gpd.GeoDataFrame) -> tuple[gpd.GeoDataFrame, gpd.GeoDataFrame]:
-    if points.empty or hazard.empty:
-        return points.copy(), points.iloc[0:0].copy()
-
-    try:
-        union_geom = hazard.unary_union
-        inside = points[points.intersects(union_geom)].copy()
-        outside = points[~points.intersects(union_geom)].copy()
-        return outside, inside
-    except Exception:
-        return points.copy(), points.iloc[0:0].copy()
-
-
-# -----------------------------
-# plotting
-# -----------------------------
-
-def is_seismic_layer(hazard_name: str) -> bool:
-    return "seismic" in hazard_name.lower()
-
-
-def add_seismic_legend(ax) -> None:
-    handles = [
-        Patch(facecolor=color, edgecolor="none", label=label)
-        for color, label in zip(SEISMIC_COLORS, SEISMIC_LABELS)
-    ]
-    leg = ax.legend(
-        handles=handles,
-        title="想定震度",
-        loc="upper right",
-        fontsize=8,
-        title_fontsize=9,
-        frameon=True,
-    )
-    ax.add_artist(leg)
-
-
-def add_compact_numeric_colorbar(ax, values, cmap_name: str, label: str) -> None:
-    vals = np.asarray(values, dtype=float)
-    vals = vals[np.isfinite(vals)]
-    if vals.size == 0:
-        return
-
-    vmin = float(np.nanmin(vals))
-    vmax = float(np.nanmax(vals))
-    if math.isclose(vmin, vmax):
-        span = max(abs(vmin) * 0.01, 0.5)
-        vmin -= span
-        vmax += span
-
-    cax = inset_axes(
-        ax,
-        width="2.7%",
-        height="30%",
-        loc="upper right",
-        borderpad=1.2,
-    )
-    sm = ScalarMappable(norm=Normalize(vmin=vmin, vmax=vmax), cmap=cmap_name)
-    sm.set_array([])
-    cb = ax.figure.colorbar(sm, cax=cax)
-    cb.ax.tick_params(labelsize=7)
-    cb.set_label(label, fontsize=8)
-
-
-def plot_hazard_surface(
-    ax,
-    hazard_name: str,
-    hazard: gpd.GeoDataFrame,
-    numeric_col: Optional[str],
-) -> None:
-    if hazard.empty:
-        return
-
-    if numeric_col and numeric_col in hazard.columns:
-        numeric = gpd.pd.to_numeric(hazard[numeric_col], errors="coerce")
-
-        if is_seismic_layer(hazard_name):
-            cmap = plt.matplotlib.colors.ListedColormap(SEISMIC_COLORS)
-            norm = BoundaryNorm(SEISMIC_BOUNDS, cmap.N)
-            hazard.assign(_plot_value=numeric).plot(
-                ax=ax,
-                column="_plot_value",
-                cmap=cmap,
-                norm=norm,
-                linewidth=0,
-                edgecolor="none",
-                alpha=0.58,
-                legend=False,
-                zorder=3,
-            )
-            add_seismic_legend(ax)
-            return
-
-        cmap_name = "plasma_r" if "liquefaction" in hazard_name.lower() else "viridis"
-        hazard.assign(_plot_value=numeric).plot(
-            ax=ax,
-            column="_plot_value",
-            cmap=cmap_name,
-            linewidth=0,
-            edgecolor="none",
-            alpha=0.55,
-            legend=False,
-            zorder=3,
-        )
-        add_compact_numeric_colorbar(
-            ax,
-            numeric.to_numpy(),
-            cmap_name,
-            numeric_col,
-        )
-        return
-
-    if is_area_like(hazard):
-        hazard.plot(
-            ax=ax,
-            color="#69b3a2",
-            edgecolor="#2f6f62",
-            linewidth=0.4,
-            alpha=0.45,
-            zorder=3,
-        )
+            gdf = read_layer(path, c)
+            if not gdf.empty:
+                break
+        except Exception as e:
+            last_err = e
     else:
-        hazard.plot(
-            ax=ax,
-            color="#2f6f62",
-            markersize=12,
-            alpha=0.75,
-            zorder=3,
-        )
+        raise RuntimeError(f"No heritage point layer found. candidates={candidates}; last_err={last_err}")
+
+    for col in [
+        "record_id", "name", "municipality_name", "designation_level",
+        "designation_status", "heritage_type_major",
+        "heritage_type_detail_norm", "entity_class",
+    ]:
+        if col not in gdf.columns:
+            gdf[col] = ""
+    gdf["record_id"] = gdf["record_id"].astype(str)
+    return gdf
 
 
-def add_heritage_legend(ax, seismic_legend_present: bool = False) -> None:
-    handles = [
-        Line2D(
-            [0], [0],
-            marker="o", linestyle="",
-            color="#8f8f8f",
-            markersize=6,
-            label="文化財 point（領域外）",
-        ),
-        Line2D(
-            [0], [0],
-            marker="o", linestyle="",
-            color="#d7301f",
-            markersize=6,
-            label="文化財 point（領域内）",
-        ),
-        Line2D(
-            [0], [0],
-            marker="s", linestyle="",
-            markerfacecolor="#6f6f6f",
-            markeredgecolor="#2b2b2b",
-            markersize=7,
-            label="文化財 building footprint",
-        ),
-    ]
-    ax.legend(
-        handles=handles,
-        loc="lower left",
-        fontsize=8,
-        frameon=True,
-    )
-
-
-def plot_city_hazard(
-    out_png: Path,
-    city_name: str,
-    hazard_name: str,
-    hazard: gpd.GeoDataFrame,
-    admin_city: gpd.GeoDataFrame,
-    points: gpd.GeoDataFrame,
-    footprints: gpd.GeoDataFrame,
-    numeric_col: Optional[str],
-    subtitle: Optional[str] = None,
-    zoom: int = 14,
-) -> None:
-    # Keep the map axes stable. No GeoPandas auto colorbar is allowed to resize it.
-    fig, ax = plt.subplots(figsize=(9.0, 7.4))
-
-    minx, miny, maxx, maxy = admin_city.total_bounds
-    dx = maxx - minx
-    dy = maxy - miny
-    pad_x = max(dx * 0.08, 0.003)
-    pad_y = max(dy * 0.08, 0.003)
-    plot_bounds = (minx - pad_x, miny - pad_y, maxx + pad_x, maxy + pad_y)
-
-    ax.set_xlim(plot_bounds[0], plot_bounds[2])
-    ax.set_ylim(plot_bounds[1], plot_bounds[3])
-
-    add_gsi_basemap(ax, crs="EPSG:4326", zoom=zoom)
-
-    plot_hazard_surface(ax, hazard_name, hazard, numeric_col)
-
-    # points: outside first, footprints above points, inside points highlighted last
-    points_out, points_in = classify_points_by_hazard(points, hazard)
-
-    if not points_out.empty:
-        points_out.plot(
-            ax=ax,
-            color="#8f8f8f",
-            markersize=12,
-            alpha=0.85,
-            zorder=4,
-        )
-
-    if not footprints.empty:
-        footprints.plot(
-            ax=ax,
-            facecolor="#6f6f6f",
-            edgecolor="#2b2b2b",
-            linewidth=0.35,
-            alpha=0.85,
-            zorder=5,
-        )
-
-    if not points_in.empty:
-        points_in.plot(
-            ax=ax,
-            color="#d7301f",
-            markersize=16,
-            alpha=0.95,
-            zorder=6,
-        )
-
-    # city boundary on top
-    admin_city.boundary.plot(
-        ax=ax,
-        color="black",
-        linewidth=1.35,
-        zorder=7,
-    )
-
-    title = f"{city_name}｜{hazard_name}"
-    if subtitle:
-        title += f"\n{subtitle}"
-    ax.set_title(title, fontsize=13, pad=9)
-
-    add_heritage_legend(ax, seismic_legend_present=is_seismic_layer(hazard_name))
-
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    ax.set_xticks([])
-    ax.set_yticks([])
-    ax.set_aspect("equal", adjustable="box")
-
-    # Fixed margins prevent colorbar/legend from creating the tall blank canvas
-    # seen with GeoPandas legend=True.
-    fig.subplots_adjust(left=0.035, right=0.985, bottom=0.04, top=0.90)
-
-    out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_png, dpi=220, bbox_inches="tight", pad_inches=0.08)
-    plt.close(fig)
-
-
-def plot_center_hazard(
-    out_png: Path,
-    label: str,
-    hazard_name: str,
-    hazard: gpd.GeoDataFrame,
-    bbox,
-    admin_clip: gpd.GeoDataFrame,
-    points: gpd.GeoDataFrame,
-    footprints: gpd.GeoDataFrame,
-    numeric_col: Optional[str],
-    subtitle: Optional[str] = None,
-    zoom: int = 16,
-) -> None:
-    """Render a non-inundation hazard around an arbitrary detail center."""
-    fig, ax = plt.subplots(figsize=(9.0, 7.4))
-    ax.set_xlim(bbox[0], bbox[2])
-    ax.set_ylim(bbox[1], bbox[3])
-
-    add_gsi_basemap(ax, crs="EPSG:4326", zoom=zoom)
-    plot_hazard_surface(ax, hazard_name, hazard, numeric_col)
-
-    points_out, points_in = classify_points_by_hazard(points, hazard)
-    if not points_out.empty:
-        points_out.plot(
-            ax=ax, color="#8f8f8f", markersize=12, alpha=0.85, zorder=4
-        )
-    if not footprints.empty:
-        footprints.plot(
-            ax=ax,
-            facecolor="#6f6f6f",
-            edgecolor="#2b2b2b",
-            linewidth=0.35,
-            alpha=0.85,
-            zorder=5,
-        )
-    if not points_in.empty:
-        points_in.plot(
-            ax=ax, color="#d7301f", markersize=16, alpha=0.95, zorder=6
-        )
-    if not admin_clip.empty:
-        admin_clip.boundary.plot(
-            ax=ax, color="#555555", linewidth=0.7, alpha=0.9, zorder=7
-        )
-
-    title = f"{label}｜{hazard_name}"
-    if subtitle:
-        title += f"\n{subtitle}"
-    ax.set_title(title, fontsize=13, pad=9)
-    add_heritage_legend(ax, seismic_legend_present=is_seismic_layer(hazard_name))
-
-    ax.set_xlabel("")
-    ax.set_ylabel("")
-    ax.set_xticks([])
-    ax.set_yticks([])
-    ax.set_aspect("equal", adjustable="box")
-    fig.subplots_adjust(left=0.035, right=0.985, bottom=0.04, top=0.90)
-
-    out_png.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_png, dpi=220, bbox_inches="tight", pad_inches=0.08)
-    plt.close(fig)
-
-
-def process_center(
-    path: Path,
-    label: str,
-    lat: float,
-    lon: float,
-    out_root: Path,
-    radius_km: float = 0.8,
-    zoom: int = 16,
-) -> tuple[int, int]:
-    bbox = bbox_from_center(lat, lon, radius_km)
-    rect = box(*bbox)
-
-    admin = load_admin(path)
-    admin_clip = admin[admin.intersects(rect)].copy()
-    points = load_points(path, bbox)
-    footprints = load_footprints(path, bbox)
-    if not points.empty:
-        points = points[points.intersects(rect)].copy()
-    if not footprints.empty:
-        footprints = footprints[footprints.intersects(rect)].copy()
-
-    hazard_layers = discover_hazard_layers(path)
-    detail_dir = out_root / sanitize_filename(label) / "hazard"
-    detail_dir.mkdir(parents=True, exist_ok=True)
-
-    generated = 0
-    skipped = 0
-    print(f"\n=== {label} ({lat:.7f}, {lon:.7f}) ===")
-    print(f"hazard layers discovered: {len(hazard_layers)}")
-
-    for layer in hazard_layers:
+def load_footprints(path: Path | str) -> gpd.GeoDataFrame:
+    for c in ["heritage_buildings_footprint_riskwide", "heritage_buildings_footprint", "heritage_buildings_footprints"]:
         try:
-            hz = read_layer_bbox(path, layer, bbox)
-        except Exception as e:
-            print(f"  SKIP read error: {layer} -> {e}")
-            skipped += 1
-            continue
-        if not hz.empty:
-            hz = hz[hz.intersects(rect)].copy()
-        if hz.empty:
-            skipped += 1
-            continue
-
-        if "scenario" in hz.columns:
-            scenarios = [
-                x for x in hz["scenario"].dropna().astype(str).unique().tolist()
-                if x.strip()
-            ]
-            if len(scenarios) > 1:
-                for scenario in sorted(scenarios):
-                    sub = hz[hz["scenario"].astype(str) == scenario].copy()
-                    if sub.empty:
-                        continue
-                    numeric_col = infer_numeric_column(layer, sub)
-                    hz_name = layer.replace("hazard_", "")
-                    out_png = detail_dir / (
-                        f"{sanitize_filename(hz_name)}__{sanitize_filename(scenario)}.png"
-                    )
-                    plot_center_hazard(
-                        out_png, label, hz_name, sub, bbox, admin_clip,
-                        points, footprints, numeric_col,
-                        subtitle=f"scenario: {scenario}", zoom=zoom,
-                    )
-                    print(f"  OK {out_png.name}")
-                    generated += 1
-                continue
-
-        numeric_col = infer_numeric_column(layer, hz)
-        hz_name = layer.replace("hazard_", "")
-        out_png = detail_dir / f"{sanitize_filename(hz_name)}.png"
-        plot_center_hazard(
-            out_png, label, hz_name, hz, bbox, admin_clip,
-            points, footprints, numeric_col, subtitle=None, zoom=zoom,
-        )
-        print(f"  OK {out_png.name}")
-        generated += 1
-
-    return generated, skipped
-
-
-# -----------------------------
-# execution
-# -----------------------------
-
-def process_city(path: Path, city_name: str, out_root: Path) -> tuple[int, int]:
-    admin = load_admin(path)
-    admin_city = resolve_city(admin, city_name)
-    admin_city = admin_city.dissolve().reset_index(drop=True)
-    admin_city = ensure_wgs84(admin_city)
-
-    bbox = tuple(admin_city.total_bounds)
-
-    points = load_points(path, bbox)
-    footprints = load_footprints(path, bbox)
-
-    # clip heritage layers to city polygon if possible
-    try:
-        if not points.empty:
-            points = gpd.clip(points, admin_city)
-    except Exception:
-        pass
-
-    try:
-        if not footprints.empty:
-            footprints = gpd.clip(footprints, admin_city)
-    except Exception:
-        pass
-
-    hazard_layers = discover_hazard_layers(path)
-    city_dir = out_root / sanitize_filename(city_name)
-    city_dir.mkdir(parents=True, exist_ok=True)
-
-    generated = 0
-    skipped = 0
-
-    print(f"\n=== {city_name} ===")
-    print(f"hazard layers discovered: {len(hazard_layers)}")
-
-    for layer in hazard_layers:
-        try:
-            hz = read_layer_bbox(path, layer, bbox)
-        except Exception as e:
-            print(f"  SKIP read error: {layer} -> {e}")
-            skipped += 1
-            continue
-
-        # optional city clip
-        try:
-            if not hz.empty:
-                hz = gpd.clip(hz, admin_city)
+            gdf = read_layer(path, c)
+            if not gdf.empty:
+                return gdf
         except Exception:
             pass
+    return gpd.GeoDataFrame(geometry=[], crs=4326)
 
-        if hz.empty:
-            print(f"  SKIP empty in city extent: {layer}")
-            skipped += 1
+
+@dataclass
+class HazardSpec:
+    hazard_type: str
+    scenario: str
+    layer_name: str
+    display_name: str
+    source_kind: str
+
+
+def slug(text: str) -> str:
+    s = str(text).strip()
+    s = re.sub(r"\s+", "_", s)
+    s = s.replace("/", "_").replace("\\", "_").replace(":", "_")
+    s = re.sub(r"[^\w\-\u3040-\u30ff\u3400-\u9fff]+", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_")
+    return s or "unknown"
+
+
+def classify_hazard_layers(path: Path | str) -> tuple[list[HazardSpec], list[dict]]:
+    layers = list_layers(path)
+    specs: list[HazardSpec] = []
+    unexpected: list[dict] = []
+
+    for layer in layers:
+        if not layer.startswith("hazard_"):
+            continue
+        if layer.startswith("hazard_inundation_"):
             continue
 
-        # split by scenario if scenario column exists with >1 value
-        if "scenario" in hz.columns:
-            scenarios = [x for x in hz["scenario"].dropna().astype(str).unique().tolist() if x.strip()]
-            if len(scenarios) > 1:
-                for scenario in sorted(scenarios):
-                    sub = hz[hz["scenario"].astype(str) == scenario].copy()
-                    if sub.empty:
-                        continue
-                    numeric_col = infer_numeric_column(layer, sub)
-                    hz_name = layer.replace("hazard_", "")
-                    out_png = city_dir / f"{sanitize_filename(hz_name)}__{sanitize_filename(scenario)}.png"
-                    plot_city_hazard(
-                        out_png=out_png,
-                        city_name=city_name,
-                        hazard_name=hz_name,
-                        hazard=sub,
-                        admin_city=admin_city,
-                        points=points,
-                        footprints=footprints,
-                        numeric_col=numeric_col,
-                        subtitle=f"scenario: {scenario}",
-                    )
-                    print(f"  OK {out_png.name}")
-                    generated += 1
-                continue
+        if layer.startswith("hazard_seismic_"):
+            sc = layer[len("hazard_seismic_"):]
+            if sc.startswith("50m_"):
+                sc = sc[len("50m_"):]
+            specs.append(HazardSpec("seismic", sc, layer, f"想定震度｜{sc}", "layer"))
+        elif layer.startswith("hazard_fire"):
+            specs.append(HazardSpec("fire", "延焼危険度", layer, "延焼危険度", "layer"))
+        elif layer.startswith("hazard_liquefaction"):
+            specs.append(HazardSpec("liquefaction", "__from_column__", layer, "液状化危険度", "scenario_column"))
+        elif layer.startswith("hazard_storm_surge") or layer.startswith("hazard_high_tide"):
+            specs.append(HazardSpec("high_tide", "高潮", layer, "高潮", "layer"))
+        elif layer.startswith("hazard_tsunami_"):
+            sc = layer[len("hazard_tsunami_"):]
+            specs.append(HazardSpec("tsunami", sc, layer, f"津波｜{sc}", "layer"))
+        elif layer in {"hazard_sediment_warning_a33_polygon", "hazard_sabo_designated_a52_polygon"}:
+            sc = {
+                "hazard_sediment_warning_a33_polygon": "土砂災害警戒区域",
+                "hazard_sabo_designated_a52_polygon": "砂防指定地",
+            }[layer]
+            specs.append(HazardSpec("landslide", sc, layer, f"土砂災害｜{sc}", "layer"))
+        else:
+            unexpected.append({"layer_name": layer, "issue": "unexpected_hazard_layer"})
 
-        numeric_col = infer_numeric_column(layer, hz)
-        hz_name = layer.replace("hazard_", "")
-        out_png = city_dir / f"{sanitize_filename(hz_name)}.png"
-        plot_city_hazard(
-            out_png=out_png,
-            city_name=city_name,
-            hazard_name=hz_name,
-            hazard=hz,
-            admin_city=admin_city,
-            points=points,
-            footprints=footprints,
-            numeric_col=numeric_col,
-            subtitle=None,
+    expanded: list[HazardSpec] = []
+    for spec in specs:
+        if spec.hazard_type != "liquefaction" or spec.source_kind != "scenario_column":
+            expanded.append(spec)
+            continue
+        try:
+            hz = read_layer(path, spec.layer_name)
+            if "scenario" in hz.columns:
+                uniq = sorted([x for x in hz["scenario"].fillna("").astype(str).str.strip().unique().tolist() if x])
+                if uniq:
+                    for sc in uniq:
+                        expanded.append(HazardSpec("liquefaction", sc, spec.layer_name, f"液状化｜{sc}", "scenario_value"))
+                else:
+                    unexpected.append({"layer_name": spec.layer_name, "issue": "liquefaction_scenario_empty"})
+                    expanded.append(HazardSpec("liquefaction", "液状化", spec.layer_name, "液状化危険度", "layer"))
+            else:
+                expanded.append(HazardSpec("liquefaction", "液状化", spec.layer_name, "液状化危険度", "layer"))
+        except Exception as e:
+            unexpected.append({"layer_name": spec.layer_name, "issue": f"liquefaction_read_error: {e}"})
+
+    return expanded, unexpected
+
+
+def numeric_candidates(gdf: gpd.GeoDataFrame) -> list[str]:
+    out = []
+    for c in gdf.columns:
+        if c == "geometry":
+            continue
+        vals = pd.to_numeric(gdf[c], errors="coerce")
+        if vals.notna().any():
+            out.append(c)
+    return out
+
+
+def detect_seismic_value_column(gdf: gpd.GeoDataFrame) -> str:
+    for c in ["seismic_intensity", "max_jma", "intensity", "震度"]:
+        if c in gdf.columns:
+            return c
+    nums = numeric_candidates(gdf)
+    if nums:
+        return nums[0]
+    raise RuntimeError(f"Seismic value column not found. columns={list(gdf.columns)}")
+
+
+def detect_fire_value_column(gdf: gpd.GeoDataFrame) -> str:
+    for c in ["fire_rank", "fire_class", "T360mm_火災危険度", "T360mm_延焼危険度"]:
+        if c in gdf.columns:
+            return c
+    best = None
+    best_len = None
+    for c in numeric_candidates(gdf):
+        vals = pd.to_numeric(gdf[c], errors="coerce").dropna()
+        if vals.empty:
+            continue
+        uniq = sorted(set(vals.astype(int).tolist()))
+        if max(uniq) <= 10:
+            if best is None or len(uniq) < best_len:
+                best = c
+                best_len = len(uniq)
+    if best:
+        return best
+    nums = numeric_candidates(gdf)
+    if nums:
+        return nums[0]
+    raise RuntimeError(f"Fire value column not found. columns={list(gdf.columns)}")
+
+
+def detect_liquefaction_value_column(gdf: gpd.GeoDataFrame) -> str:
+    for c in ["liquefaction_pl", "PLcorrected", "Plcorrecte", "PL値", "pl", "PL"]:
+        if c in gdf.columns:
+            return c
+    for c in gdf.columns:
+        if c == "geometry":
+            continue
+        if "pl" in str(c).lower():
+            vals = pd.to_numeric(gdf[c], errors="coerce")
+            if vals.notna().any():
+                return c
+    nums = numeric_candidates(gdf)
+    if nums:
+        return nums[0]
+    raise RuntimeError(f"Liquefaction value column not found. columns={list(gdf.columns)}")
+
+
+def pad_bounds(bounds, ratio: float = 0.08):
+    minx, miny, maxx, maxy = bounds
+    dx = max(maxx - minx, 0.01) * ratio
+    dy = max(maxy - miny, 0.01) * ratio
+    return (minx - dx, miny - dy, maxx + dx, maxy + dy)
+
+
+def clip_to_bbox(gdf: gpd.GeoDataFrame, bbox):
+    if gdf.empty:
+        return gdf
+    minx, miny, maxx, maxy = bbox
+    return gdf.cx[minx:maxx, miny:maxy]
+
+
+def select_city(admin: gpd.GeoDataFrame, city: str) -> gpd.GeoDataFrame:
+    g = admin.loc[admin["city_name"].fillna("").astype(str).str.contains(city, regex=False)].copy()
+    if g.empty:
+        sample = sorted(admin["city_name"].fillna("").astype(str).unique().tolist())[:30]
+        raise RuntimeError(f"City not found: {city}. sample={sample}")
+    return g
+
+
+def list_city_names(path: Path | str) -> list[str]:
+    admin = load_admin(path)
+    names = (
+        admin["city_name"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+    )
+    return sorted({x for x in names if x})
+
+def spatial_hits(points: gpd.GeoDataFrame, hazard: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    if points.empty or hazard.empty:
+        return points.iloc[0:0].copy()
+    cols = [c for c in hazard.columns if c != "geometry"]
+    return gpd.sjoin(points, hazard[cols + ["geometry"]], how="inner", predicate="intersects")
+
+
+def format_value(x) -> str:
+    if pd.isna(x):
+        return ""
+    if isinstance(x, (int, np.integer)):
+        return str(int(x))
+    if isinstance(x, (float, np.floating)):
+        if abs(x - round(x)) < 1e-9:
+            return str(int(round(x)))
+        return f"{x:.3f}".rstrip("0").rstrip(".")
+    return str(x)
+
+
+def class_liquefaction(x) -> str:
+    if pd.isna(x):
+        return ""
+    x = float(x)
+    if x <= 0:
+        return "PL=0"
+    if x <= 5:
+        return "0<PL≤5"
+    if x <= 15:
+        return "5<PL≤15"
+    return "PL>15"
+
+
+def build_records_long(hits: gpd.GeoDataFrame, hazard_type: str, scenario: str, layer_name: str, value_col: str | None, class_func=None) -> pd.DataFrame:
+    cols = [
+        "record_id", "name", "municipality_name", "designation_level",
+        "designation_status", "heritage_type_major",
+        "heritage_type_detail_norm", "entity_class",
+    ]
+    if hits.empty:
+        return pd.DataFrame(columns=cols + ["hazard_type", "scenario", "hazard_key", "layer_name", "value", "value_class"])
+
+    for c in cols:
+        if c not in hits.columns:
+            hits[c] = ""
+
+    if value_col and value_col in hits.columns:
+        tmp = hits[cols + [value_col]].copy()
+        tmp[value_col] = pd.to_numeric(tmp[value_col], errors="coerce")
+        tmp = tmp.sort_values(value_col).drop_duplicates(["record_id"], keep="last")
+        out = tmp[cols].copy()
+        out["value"] = tmp[value_col].map(format_value)
+        out["value_class"] = tmp[value_col].map(class_func) if class_func else ""
+    else:
+        out = hits[cols].drop_duplicates(["record_id"]).copy()
+        out["value"] = ""
+        out["value_class"] = ""
+
+    out["hazard_type"] = hazard_type
+    out["scenario"] = scenario
+    out["hazard_key"] = f"{hazard_type}｜{scenario}"
+    out["layer_name"] = layer_name
+    return out.reset_index(drop=True)
+
+
+def evaluate_hazard_for_city(path: Path | str, spec: HazardSpec, city_points: gpd.GeoDataFrame, city_bbox):
+    hz = read_layer(path, spec.layer_name)
+    if hz.empty:
+        return hz, city_points.iloc[0:0].copy(), pd.DataFrame(), ""
+
+    value_col = ""
+    if spec.hazard_type == "liquefaction":
+        if "scenario" in hz.columns and spec.source_kind == "scenario_value":
+            hz = hz[hz["scenario"].fillna("").astype(str).str.strip() == spec.scenario].copy()
+        value_col = detect_liquefaction_value_column(hz)
+        hz[value_col] = pd.to_numeric(hz[value_col], errors="coerce")
+        hz = hz[hz[value_col].notna()].copy()
+        hz = hz[hz[value_col] > 0].copy()
+    elif spec.hazard_type == "seismic":
+        value_col = detect_seismic_value_column(hz)
+        hz[value_col] = pd.to_numeric(hz[value_col], errors="coerce")
+        hz = hz[hz[value_col].notna()].copy()
+    elif spec.hazard_type == "fire":
+        value_col = detect_fire_value_column(hz)
+        hz[value_col] = pd.to_numeric(hz[value_col], errors="coerce")
+        hz = hz[hz[value_col].notna()].copy()
+        hz = hz[hz[value_col] > 0].copy()
+
+    hz_clip = clip_to_bbox(hz, city_bbox)
+    if hz_clip.empty:
+        return hz_clip, city_points.iloc[0:0].copy(), pd.DataFrame(), value_col
+
+    hits = spatial_hits(city_points, hz_clip)
+    if hits.empty:
+        return hz_clip, city_points.iloc[0:0].copy(), pd.DataFrame(), value_col
+
+    class_func = class_liquefaction if spec.hazard_type == "liquefaction" else None
+    records = build_records_long(hits, spec.hazard_type, spec.scenario, spec.layer_name, value_col or None, class_func)
+    risk_ids = set(records["record_id"].astype(str))
+    risk_points = city_points[city_points["record_id"].astype(str).isin(risk_ids)].copy()
+    return hz_clip, risk_points, records, value_col
+
+
+def set_extent(ax, bbox):
+    minx, miny, maxx, maxy = bbox
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
+    ax.set_aspect("equal")
+    ax.set_xticks([])
+    ax.set_yticks([])
+
+
+def make_legend(ax):
+    handles = [
+        Line2D([0], [0], marker="o", linestyle="", color="red", markersize=7, label="リスク該当文化財"),
+        Line2D([0], [0], marker="o", linestyle="", color="black", markersize=5, label="その他の文化財"),
+    ]
+    ax.legend(handles=handles, loc="best", fontsize=8, title="文化財", title_fontsize=9)
+
+
+def plot_hazard(out_png: Path, title: str, bbox, admin_clip, footprints, all_points, risk_points, hz_clip, spec: HazardSpec, value_col: str, dpi: int = 200):
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(8.2, 8.2))
+
+    if not hz_clip.empty:
+        if spec.hazard_type == "seismic" and value_col in hz_clip.columns:
+            hz_clip.plot(ax=ax, column=value_col, cmap="plasma_r", linewidth=0, alpha=0.95, legend=True, zorder=1)
+        elif spec.hazard_type == "liquefaction" and value_col in hz_clip.columns:
+            hz_clip.plot(ax=ax, column=value_col, cmap="Blues", linewidth=0, alpha=0.95, legend=True, zorder=1)
+        elif spec.hazard_type == "fire" and value_col in hz_clip.columns:
+            hz_clip.plot(ax=ax, column=value_col, cmap="Reds", linewidth=0, alpha=0.95, legend=True, zorder=1)
+        elif spec.hazard_type in {"high_tide", "tsunami"}:
+            hz_clip.plot(ax=ax, color="#7db7ff", edgecolor="#4c4c4c", linewidth=0.2, alpha=0.55, zorder=1)
+        elif spec.hazard_type == "landslide":
+            hz_clip.plot(ax=ax, color="#f4c27a", edgecolor="#4c4c4c", linewidth=0.2, alpha=0.55, zorder=1)
+        else:
+            hz_clip.plot(ax=ax, color="#cccccc", edgecolor="#666666", linewidth=0.2, alpha=0.55, zorder=1)
+
+    if not admin_clip.empty:
+        admin_clip.boundary.plot(ax=ax, color="#666666", linewidth=0.8, zorder=5)
+
+    risk_ids = set(risk_points["record_id"].astype(str))
+    other_points = all_points[~all_points["record_id"].astype(str).isin(risk_ids)].copy()
+
+    if not other_points.empty:
+        other_points.plot(ax=ax, color="black", markersize=8, alpha=0.65, zorder=10)
+
+    if not footprints.empty:
+        footprints.plot(
+            ax=ax,
+            facecolor="#5e5e5e",
+            edgecolor="#3a3a3a",
+            linewidth=0.3,
+            alpha=0.55,
+            zorder=12,
         )
-        print(f"  OK {out_png.name}")
-        generated += 1
 
-    return generated, skipped
+    if not risk_points.empty:
+        risk_points.plot(ax=ax, color="red", markersize=16, alpha=0.95, zorder=20)
+
+    set_extent(ax, bbox)
+    ax.set_title(title, fontsize=12)
+    make_legend(ax)
+    fig.tight_layout()
+    fig.savefig(out_png, dpi=dpi, bbox_inches="tight")
+    plt.close(fig)
 
 
-def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(
-        description="Render non-inundation hazard focus maps for municipalities or detail centers."
-    )
-    p.add_argument("gpkg", help="Input GPKG path")
-    mode = p.add_mutually_exclusive_group(required=True)
-    mode.add_argument("--cities", nargs="+", help="City names, e.g. 国分寺 国立")
-    mode.add_argument(
-        "--center", nargs=2, type=float, metavar=("LAT", "LON"),
-        help="Detail center as latitude longitude",
-    )
-    mode.add_argument(
-        "--detail-defaults", action="store_true",
-        help="Render the four canonical Summary Results detail centers",
-    )
-    p.add_argument("--label", help="Display/output label for --center mode")
-    p.add_argument("--radius-km", type=float, default=0.8, help="Detail radius in km (default: 0.8)")
-    p.add_argument("--zoom", type=int, default=16, help="GSI basemap zoom for detail mode (default: 16)")
-    p.add_argument(
-        "--outdir",
-        default=None,
-        help=(
-            "Output root. Defaults to summary_results/figures/city for city mode "
-            "and summary_results/figures/detail for center modes."
-        ),
-    )
-    return p
+def write_city_tables(city_dir: Path, long_df: pd.DataFrame):
+    long_df.to_csv(city_dir / "hazard_records_spatial_legacy.csv", index=False, encoding="utf-8-sig")
 
+    if long_df.empty:
+        pd.DataFrame(columns=["heritage_type_major"]).to_csv(city_dir / "hazard_counts_by_heritage_type.csv", index=False, encoding="utf-8-sig")
+        pd.DataFrame(columns=["metric"]).to_csv(city_dir / "hazard_counts_total.csv", index=False, encoding="utf-8-sig")
+        return
+
+    base = long_df.copy()
+    base["heritage_type_major"] = base["heritage_type_major"].fillna("").replace("", "未分類")
+    base["hazard_key"] = base["hazard_key"].fillna("").replace("", "unknown")
+
+    pivot = (
+        base.drop_duplicates(["record_id", "heritage_type_major", "hazard_key"])
+        .pivot_table(
+            index="heritage_type_major",
+            columns="hazard_key",
+            values="record_id",
+            aggfunc="nunique",
+            fill_value=0,
+        )
+        .reset_index()
+    )
+
+    total_row = (
+        base.drop_duplicates(["record_id", "hazard_key"])
+        .groupby("hazard_key")["record_id"]
+        .nunique()
+        .to_frame()
+        .T
+    )
+    total_row.insert(0, "heritage_type_major", "TOTAL")
+    pivot = pd.concat([pivot, total_row], ignore_index=True)
+    pivot.to_csv(city_dir / "hazard_counts_by_heritage_type.csv", index=False, encoding="utf-8-sig")
+
+    total = (
+        base.drop_duplicates(["record_id", "hazard_key"])
+        .groupby("hazard_key")["record_id"]
+        .nunique()
+        .to_frame()
+        .T
+        .reset_index(drop=True)
+    )
+    total.insert(0, "metric", "TOTAL_RECORDS_WITH_RISK")
+    total.to_csv(city_dir / "hazard_counts_total.csv", index=False, encoding="utf-8-sig")
+
+
+def write_catalog(city_dir: Path, specs: list[HazardSpec], unexpected: list[dict]):
+    cat = pd.DataFrame([
+        {
+            "hazard_type": s.hazard_type,
+            "scenario": s.scenario,
+            "layer_name": s.layer_name,
+            "display_name": s.display_name,
+            "source_kind": s.source_kind,
+        }
+        for s in specs
+    ]).sort_values(["hazard_type", "scenario", "layer_name"])
+    cat.to_csv(city_dir / "hazard_catalog.csv", index=False, encoding="utf-8-sig")
+    pd.DataFrame(unexpected).to_csv(city_dir / "hazard_catalog_unexpected.csv", index=False, encoding="utf-8-sig")
+
+
+def process_city(path: Path | str, city: str, out_root: Path, dpi: int = 200):
+    admin = load_admin(path)
+    points = load_points(path)
+    footprints = load_footprints(path)
+    specs, unexpected = classify_hazard_layers(path)
+
+    city_admin = select_city(admin, city)
+
+    # Resolve abbreviated input against N03; all output uses the official municipality name.
+    official_names = [
+        str(v).strip()
+        for v in city_admin["city_name"].dropna().tolist()
+        if str(v).strip()
+    ]
+    official_names = list(dict.fromkeys(official_names))
+    if len(official_names) != 1:
+        raise RuntimeError(
+            f"Ambiguous official municipality name for {city}: {official_names}"
+        )
+    official_name = official_names[0]
+    city_union = city_admin.union_all()
+    bbox = pad_bounds(city_union.bounds, 0.08)
+
+    city_points = points[points.intersects(city_union)].copy()
+    city_foot = footprints[footprints.intersects(city_union)].copy()
+    admin_clip = clip_to_bbox(city_admin, bbox)
+
+    city_dir = out_root / official_name
+    images_dir = city_dir / "images"
+    city_dir.mkdir(parents=True, exist_ok=True)
+    images_dir.mkdir(parents=True, exist_ok=True)
+
+    long_parts = []
+    img_count = 0
+    skip_count = 0
+
+    print(f"[city] {official_name} points={len(city_points):,} footprints={len(city_foot):,}")
+
+    for spec in specs:
+        hz_clip, risk_points, records, value_col = evaluate_hazard_for_city(path, spec, city_points, bbox)
+        long_parts.append(records)
+
+        if records.empty:
+            skip_count += 1
+            print(f"  - skip {spec.display_name}")
+            continue
+
+        title = f"{official_name}｜{spec.display_name}"
+        out_png = images_dir / f"{slug(spec.hazard_type)}__{slug(spec.scenario)}.png"
+        plot_hazard(out_png, title, bbox, admin_clip, city_foot, city_points, risk_points, hz_clip, spec, value_col, dpi=dpi)
+        img_count += 1
+        print(f"  - write {out_png.name} records={len(records):,}")
+
+    long_df = pd.concat(long_parts, ignore_index=True) if long_parts else pd.DataFrame()
+    if not long_df.empty:
+        long_df = long_df.sort_values(["hazard_type", "scenario", "record_id"]).reset_index(drop=True)
+
+    write_city_tables(city_dir, long_df)
+    write_catalog(city_dir, specs, unexpected)
+
+    if unexpected:
+        print("  unexpected hazard entries:")
+        for row in unexpected[:10]:
+            print(f"    * {row.get('layer_name')} / {row.get('issue')}")
+        if len(unexpected) > 10:
+            print(f"    ... and {len(unexpected)-10} more")
+
+    print(f"  done: images={img_count} skipped={skip_count} records={len(long_df):,}")
+
+
+def parse_args(argv=None):
+    p = argparse.ArgumentParser(description="Render municipality hazard-focus maps and CSV tables.")
+    p.add_argument("gpkg")
+    group = p.add_mutually_exclusive_group(required=True)
+    group.add_argument("--cities", nargs="+", help="Target municipalities, e.g. 国分寺 国立")
+    group.add_argument("--all", action="store_true", help="Process all municipalities in the admin layer")
+    p.add_argument("--out-root", default="summary_results/figures/city")
+    p.add_argument("--dpi", type=int, default=200)
+    return p.parse_args(argv)
 
 def main(argv=None):
-    args = build_parser().parse_args(argv)
     configure_fonts()
+    args = parse_args(argv)
 
-    gpkg = Path(args.gpkg).expanduser().resolve()
-    if not gpkg.is_file():
-        raise SystemExit(f"Input GPKG not found: {gpkg}")
+    gpkg = Path(args.gpkg)
+    out_root = Path(args.out_root)
 
-    total_generated = 0
-    total_skipped = 0
-
-    if args.cities:
-        out_root = Path(args.outdir or "summary_results/figures/city").expanduser().resolve()
-        for city in args.cities:
-            gen, skip = process_city(gpkg, city, out_root)
-            total_generated += gen
-            total_skipped += skip
-    elif args.center:
-        out_root = Path(args.outdir or "summary_results/figures/detail").expanduser().resolve()
-        lat, lon = args.center
-        label = args.label or f"center_{lat:.5f}_{lon:.5f}"
-        gen, skip = process_center(
-            gpkg, label, lat, lon, out_root,
-            radius_km=args.radius_km, zoom=args.zoom,
-        )
-        total_generated += gen
-        total_skipped += skip
+    if args.all:
+        cities = list_city_names(gpkg)
+        print(f"[all] municipalities={len(cities):,}")
     else:
-        out_root = Path(args.outdir or "summary_results/figures/detail").expanduser().resolve()
-        for label, (lat, lon) in DETAIL_CENTERS.items():
-            gen, skip = process_center(
-                gpkg, label, lat, lon, out_root,
-                radius_km=args.radius_km, zoom=args.zoom,
-            )
-            total_generated += gen
-            total_skipped += skip
+        cities = args.cities
 
-    print("\nDONE")
-    print(f"generated: {total_generated}")
-    print(f"skipped  : {total_skipped}")
-    print(f"output   : {out_root}")
+    total = 0
+    for city in cities:
+        process_city(gpkg, city, out_root, dpi=args.dpi)
+        total += 1
+
+    print("\nSUCCESS")
+    print(f"  cities   : {total}")
 
 
 if __name__ == "__main__":

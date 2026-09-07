@@ -1,0 +1,100 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+21,seismic,都心南部直下地震,5.715,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+22,seismic,都心南部直下地震,5.076,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+23,seismic,都心南部直下地震,6.016,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+186,seismic,都心南部直下地震,5.839,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+187,seismic,都心南部直下地震,6.046,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:361,seismic,都心南部直下地震,5.811,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:58,seismic,都心南部直下地震,5.855,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:66,seismic,都心南部直下地震,5.861,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:68,seismic,都心南部直下地震,5.942,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+21,seismic,都心東部直下地震,5.786,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+22,seismic,都心東部直下地震,5.111,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+23,seismic,都心東部直下地震,5.825,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+186,seismic,都心東部直下地震,5.699,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+187,seismic,都心東部直下地震,5.867,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:361,seismic,都心東部直下地震,5.704,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:58,seismic,都心東部直下地震,5.706,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:66,seismic,都心東部直下地震,5.686,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:68,seismic,都心東部直下地震,5.777,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+21,seismic,都心西部直下地震,5.768,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+22,seismic,都心西部直下地震,5.125,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+23,seismic,都心西部直下地震,5.865,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+186,seismic,都心西部直下地震,5.717,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+187,seismic,都心西部直下地震,5.909,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:361,seismic,都心西部直下地震,5.77,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:58,seismic,都心西部直下地震,5.741,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:66,seismic,都心西部直下地震,5.746,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:68,seismic,都心西部直下地震,5.796,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+21,seismic,多摩東部直下地震,5.8714,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+22,seismic,多摩東部直下地震,5.6892,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+23,seismic,多摩東部直下地震,6.0852,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+186,seismic,多摩東部直下地震,5.9298,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+187,seismic,多摩東部直下地震,6.1174,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:361,seismic,多摩東部直下地震,5.9496,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:58,seismic,多摩東部直下地震,5.9366,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:66,seismic,多摩東部直下地震,5.922,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:68,seismic,多摩東部直下地震,6.0438,6強以上,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+21,seismic,多摩西部直下地震,5.999,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+22,seismic,多摩西部直下地震,5.697,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+23,seismic,多摩西部直下地震,5.983,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+186,seismic,多摩西部直下地震,5.843,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+187,seismic,多摩西部直下地震,5.789,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:361,seismic,多摩西部直下地震,5.809,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:58,seismic,多摩西部直下地震,5.847,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:66,seismic,多摩西部直下地震,5.851,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:68,seismic,多摩西部直下地震,5.904,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+21,seismic,立川断層帯地震,6.12,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+22,seismic,立川断層帯地震,5.301,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+23,seismic,立川断層帯地震,6.085,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+186,seismic,立川断層帯地震,6.006,6強以上,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+187,seismic,立川断層帯地震,5.626,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:361,seismic,立川断層帯地震,5.911,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:58,seismic,立川断層帯地震,5.993,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:66,seismic,立川断層帯地震,5.975,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:68,seismic,立川断層帯地震,6.129,6強以上,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+21,seismic,大正関東地震,5.547,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+22,seismic,大正関東地震,5.231,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,大正関東地震,想定震度｜大正関東地震
+23,seismic,大正関東地震,5.835,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,大正関東地震,想定震度｜大正関東地震
+186,seismic,大正関東地震,5.657,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,大正関東地震,想定震度｜大正関東地震
+187,seismic,大正関東地震,5.736,6弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:361,seismic,大正関東地震,5.626,6弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:58,seismic,大正関東地震,5.642,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:66,seismic,大正関東地震,5.655,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:68,seismic,大正関東地震,5.722,6弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,大正関東地震,想定震度｜大正関東地震
+21,seismic,南海トラフ巨大地震,4.929,5弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+22,seismic,南海トラフ巨大地震,4.982,5弱,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+23,seismic,南海トラフ巨大地震,5.084,5強,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+186,seismic,南海トラフ巨大地震,4.972,5弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+187,seismic,南海トラフ巨大地震,4.994,5弱,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:361,seismic,南海トラフ巨大地震,4.944,5弱,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:58,seismic,南海トラフ巨大地震,4.962,5弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:66,seismic,南海トラフ巨大地震,4.968,5弱,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:68,seismic,南海トラフ巨大地震,5.033,5強,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+21,fire,延焼危険度,5.0,,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+22,fire,延焼危険度,2.0,,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+23,fire,延焼危険度,5.0,,,,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+186,fire,延焼危険度,3.0,,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+187,fire,延焼危険度,3.0,,,,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:361,fire,延焼危険度,2.0,,,,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:58,fire,延焼危険度,2.0,,,,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:66,fire,延焼危険度,4.0,,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:68,fire,延焼危険度,3.0,,,,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+187,liquefaction,南海トラフ巨大地震,0.5676,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+187,liquefaction,多摩東部直下地震,9.7608,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+187,liquefaction,大正関東地震,7.0452,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,液状化,大正関東地震,液状化｜大正関東地震
+187,liquefaction,立川断層帯地震,2.4552,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,液状化,立川断層帯地震,液状化｜立川断層帯地震
+187,liquefaction,都心南部直下地震,9.4068,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+23,liquefaction,南海トラフ巨大地震,0.0048,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+23,liquefaction,多摩東部直下地震,1.0232,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+23,liquefaction,大正関東地震,0.7312,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,液状化,大正関東地震,液状化｜大正関東地震
+23,liquefaction,立川断層帯地震,0.4284,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,液状化,立川断層帯地震,液状化｜立川断層帯地震
+23,liquefaction,都心南部直下地震,0.9776,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+22,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+22,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+21,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+22,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,河川浸水,河川浸水,河川浸水｜河川浸水
+23,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,河川浸水,河川浸水,河川浸水｜河川浸水
+23,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,河川浸水,想定最大規模,河川浸水｜想定最大規模
+187,river_flooding,想定最大規模,5.0,3–5 m,A31a 多摩川,A31a polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,河川浸水,想定最大規模,河川浸水｜想定最大規模
+22,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

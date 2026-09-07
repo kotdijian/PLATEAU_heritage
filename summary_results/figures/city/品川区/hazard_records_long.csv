@@ -1,0 +1,194 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+4,seismic,都心南部直下地震,6.083,6強以上,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:39,seismic,都心南部直下地震,6.11,6強以上,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:128,seismic,都心南部直下地震,6.102,6強以上,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:157,seismic,都心南部直下地震,5.926,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:178,seismic,都心南部直下地震,6.134,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:207,seismic,都心南部直下地震,6.149,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:255,seismic,都心南部直下地震,6.107,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:371,seismic,都心南部直下地震,6.032,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:372,seismic,都心南部直下地震,6.032,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:392,seismic,都心南部直下地震,6.127,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:9,seismic,都心南部直下地震,6.073,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:15,seismic,都心南部直下地震,6.132,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:18,seismic,都心南部直下地震,6.102,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:44,seismic,都心南部直下地震,6.132,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+4,seismic,都心東部直下地震,5.974,6弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:39,seismic,都心東部直下地震,6.031,6強以上,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:128,seismic,都心東部直下地震,5.956,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:157,seismic,都心東部直下地震,5.923,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:178,seismic,都心東部直下地震,6.098,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:207,seismic,都心東部直下地震,6.124,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:255,seismic,都心東部直下地震,5.966,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:371,seismic,都心東部直下地震,6.018,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:372,seismic,都心東部直下地震,6.018,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:392,seismic,都心東部直下地震,6.087,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:9,seismic,都心東部直下地震,6.009,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:15,seismic,都心東部直下地震,6.128,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:18,seismic,都心東部直下地震,5.923,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:44,seismic,都心東部直下地震,6.128,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+4,seismic,都心西部直下地震,5.98,6弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:39,seismic,都心西部直下地震,6.051,6強以上,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:128,seismic,都心西部直下地震,6.024,6強以上,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:157,seismic,都心西部直下地震,5.892,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:178,seismic,都心西部直下地震,6.116,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:207,seismic,都心西部直下地震,6.105,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:255,seismic,都心西部直下地震,6.03,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:371,seismic,都心西部直下地震,6.053,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:372,seismic,都心西部直下地震,6.053,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:392,seismic,都心西部直下地震,6.059,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:9,seismic,都心西部直下地震,5.912,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:15,seismic,都心西部直下地震,6.112,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:18,seismic,都心西部直下地震,5.972,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:44,seismic,都心西部直下地震,6.112,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+4,seismic,多摩東部直下地震,5.8444,6弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:39,seismic,多摩東部直下地震,5.876,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:128,seismic,多摩東部直下地震,5.909,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:157,seismic,多摩東部直下地震,5.809,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:178,seismic,多摩東部直下地震,6.0024,6強以上,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:207,seismic,多摩東部直下地震,5.995,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:255,seismic,多摩東部直下地震,5.8652,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:371,seismic,多摩東部直下地震,5.906,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:372,seismic,多摩東部直下地震,5.906,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:392,seismic,多摩東部直下地震,5.9674,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:9,seismic,多摩東部直下地震,5.9216,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:15,seismic,多摩東部直下地震,6.0062,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:18,seismic,多摩東部直下地震,5.8274,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:44,seismic,多摩東部直下地震,6.0062,6強以上,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+4,seismic,多摩西部直下地震,5.496,5強,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:39,seismic,多摩西部直下地震,5.553,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:128,seismic,多摩西部直下地震,5.531,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:157,seismic,多摩西部直下地震,5.354,5強,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:178,seismic,多摩西部直下地震,5.528,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:207,seismic,多摩西部直下地震,5.589,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:255,seismic,多摩西部直下地震,5.546,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:371,seismic,多摩西部直下地震,5.458,5強,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:372,seismic,多摩西部直下地震,5.458,5強,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:392,seismic,多摩西部直下地震,5.439,5強,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:9,seismic,多摩西部直下地震,5.306,5強,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:15,seismic,多摩西部直下地震,5.58,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:18,seismic,多摩西部直下地震,5.523,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:44,seismic,多摩西部直下地震,5.58,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+4,seismic,立川断層帯地震,4.898,5弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:39,seismic,立川断層帯地震,4.886,5弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:128,seismic,立川断層帯地震,4.967,5弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:157,seismic,立川断層帯地震,4.716,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:178,seismic,立川断層帯地震,4.987,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:207,seismic,立川断層帯地震,4.967,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:255,seismic,立川断層帯地震,4.96,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:371,seismic,立川断層帯地震,4.899,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:372,seismic,立川断層帯地震,4.899,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:392,seismic,立川断層帯地震,4.965,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:9,seismic,立川断層帯地震,4.825,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:15,seismic,立川断層帯地震,4.964,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:18,seismic,立川断層帯地震,4.885,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:44,seismic,立川断層帯地震,4.964,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+4,seismic,大正関東地震,5.822,6弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:39,seismic,大正関東地震,5.863,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:128,seismic,大正関東地震,5.785,6弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:157,seismic,大正関東地震,5.736,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:178,seismic,大正関東地震,5.925,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:207,seismic,大正関東地震,5.931,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:255,seismic,大正関東地震,5.773,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:371,seismic,大正関東地震,5.809,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:372,seismic,大正関東地震,5.809,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:392,seismic,大正関東地震,5.913,6弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:9,seismic,大正関東地震,5.926,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:15,seismic,大正関東地震,5.943,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:18,seismic,大正関東地震,5.75,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:44,seismic,大正関東地震,5.943,6弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,大正関東地震,想定震度｜大正関東地震
+4,seismic,南海トラフ巨大地震,4.831,5弱,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:39,seismic,南海トラフ巨大地震,4.865,5弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:128,seismic,南海トラフ巨大地震,4.863,5弱,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:157,seismic,南海トラフ巨大地震,4.764,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:178,seismic,南海トラフ巨大地震,4.89,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:207,seismic,南海トラフ巨大地震,4.901,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:255,seismic,南海トラフ巨大地震,4.853,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:371,seismic,南海トラフ巨大地震,4.849,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:372,seismic,南海トラフ巨大地震,4.849,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:392,seismic,南海トラフ巨大地震,4.886,5弱,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:9,seismic,南海トラフ巨大地震,4.845,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:15,seismic,南海トラフ巨大地震,4.901,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:18,seismic,南海トラフ巨大地震,4.829,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:44,seismic,南海トラフ巨大地震,4.901,5弱,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+4,fire,延焼危険度,5.0,,,,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:39,fire,延焼危険度,3.0,,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:128,fire,延焼危険度,4.0,,,,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:157,fire,延焼危険度,4.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:178,fire,延焼危険度,7.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:207,fire,延焼危険度,3.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:255,fire,延焼危険度,2.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:371,fire,延焼危険度,4.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:372,fire,延焼危険度,4.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:392,fire,延焼危険度,5.0,,,,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:9,fire,延焼危険度,5.0,,,,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:15,fire,延焼危険度,3.0,,,,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:18,fire,延焼危険度,2.0,,,,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:44,fire,延焼危険度,3.0,,,,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+4,liquefaction,南海トラフ巨大地震,0.116923077,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+4,liquefaction,多摩東部直下地震,3.768461538,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+4,liquefaction,大正関東地震,2.807692308,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),液状化,大正関東地震,液状化｜大正関東地震
+4,liquefaction,立川断層帯地震,0.032307692,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),液状化,立川断層帯地震,液状化｜立川断層帯地震
+4,liquefaction,都心南部直下地震,3.176153846,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:128,liquefaction,南海トラフ巨大地震,0.376666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:128,liquefaction,多摩東部直下地震,13.24,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:128,liquefaction,大正関東地震,12.12,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:128,liquefaction,都心南部直下地震,15.32,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:39,liquefaction,南海トラフ巨大地震,0.66,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:39,liquefaction,多摩東部直下地震,13.24,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:39,liquefaction,大正関東地震,13.24,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:39,liquefaction,都心南部直下地震,15.32,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:157,liquefaction,南海トラフ巨大地震,0.33,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:157,liquefaction,多摩東部直下地震,7.1292,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:157,liquefaction,大正関東地震,6.4912,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:157,liquefaction,立川断層帯地震,0.032,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:157,liquefaction,都心南部直下地震,8.3748,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:178,liquefaction,南海トラフ巨大地震,0.03,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:178,liquefaction,多摩東部直下地震,0.19,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:178,liquefaction,大正関東地震,0.18,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:178,liquefaction,都心南部直下地震,0.2,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:371,liquefaction,南海トラフ巨大地震,0.203846154,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:371,liquefaction,多摩東部直下地震,4.674615385,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:371,liquefaction,大正関東地震,4.216923077,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:371,liquefaction,都心南部直下地震,5.313846154,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:372,liquefaction,南海トラフ巨大地震,0.203846154,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:372,liquefaction,多摩東部直下地震,4.674615385,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:372,liquefaction,大正関東地震,4.216923077,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:372,liquefaction,都心南部直下地震,5.313846154,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:15,liquefaction,南海トラフ巨大地震,0.145714286,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:15,liquefaction,多摩東部直下地震,7.712857143,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:15,liquefaction,大正関東地震,7.522857143,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:15,liquefaction,都心南部直下地震,8.144285714,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:44,liquefaction,南海トラフ巨大地震,0.145714286,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:44,liquefaction,多摩東部直下地震,7.712857143,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:44,liquefaction,大正関東地震,7.522857143,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:44,liquefaction,都心南部直下地震,8.144285714,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:9,liquefaction,南海トラフ巨大地震,0.246428571,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:9,liquefaction,多摩東部直下地震,6.782142857,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:9,liquefaction,大正関東地震,6.882142857,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:9,liquefaction,都心南部直下地震,8.102142857,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:255,river_flooding,L2（想定最大規模）,0.021,0.5m未満,城南地区河川流域,PLATEAU building risk,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+4,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_001:128,river_flooding,L2（想定最大規模）,0.05,0.5m未満,城南地区河川流域,PLATEAU building risk,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:178,river_flooding,L2（想定最大規模）,0.05,0.5m未満,城南地区河川流域,PLATEAU building risk,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:157,river_flooding,L2（想定最大規模）,0.29,0.5m未満,古川水系渋谷川・古川・目黒川水系目黒川・呑川水系呑川・立会川水系立会川・内川水系内川,PLATEAU building risk,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:157,river_flooding,L2（想定最大規模）,0.289,0.5m未満,城南地区河川流域,PLATEAU building risk,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:157,high_tide,PLATEAU建築物リスク,0.22,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:39,river_flooding,L2（想定最大規模）,0.004,0.5m未満,城南地区河川流域,PLATEAU building risk,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+4,river_flooding,L2（想定最大規模）,0.013,0.5m未満,神田川流域,PLATEAU building risk,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:157,high_tide,,0.22,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,高潮,高潮,高潮｜高潮
+official_export_001:39,river_flooding,,0.004,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+4,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:157,river_flooding,,0.289,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:128,river_flooding,,0.05,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:178,river_flooding,,0.05,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:207,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:255,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,十四世喜多六平太記念能楽堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:392,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:371,river_flooding,,0.005,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:372,river_flooding,,0.005,0–0.5 m,城南地区河川流域,external point-grid sampling,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:9,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:15,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:18,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:44,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,河川浸水,河川浸水,河川浸水｜河川浸水
+4,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),河川浸水,河川浸水,河川浸水｜河川浸水

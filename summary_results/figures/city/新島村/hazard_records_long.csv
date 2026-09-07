@@ -1,0 +1,45 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_002:49,seismic,大正関東地震,4.965,5弱,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:130,seismic,大正関東地震,4.965,5弱,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:131,seismic,大正関東地震,4.965,5弱,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:177,seismic,大正関東地震,5.014,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:224,seismic,大正関東地震,4.937,5弱,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:416,seismic,大正関東地震,4.959,5弱,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:49,seismic,南海トラフ巨大地震,5.302,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:130,seismic,南海トラフ巨大地震,5.301,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:131,seismic,南海トラフ巨大地震,5.301,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:177,seismic,南海トラフ巨大地震,5.304,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:224,seismic,南海トラフ巨大地震,5.302,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:416,seismic,南海トラフ巨大地震,5.306,5強,,,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:416,liquefaction,南海トラフ巨大地震,14.37,5<PL≤15,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:416,liquefaction,大正関東地震,0.06,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:416,liquefaction,都心南部直下地震,0.01,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:130,tsunami,PLATEAU建築物リスク,2.89,2m以上5m未満,南海トラフケース１（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:131,tsunami,PLATEAU建築物リスク,2.89,2m以上5m未満,南海トラフケース１（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:130,tsunami,PLATEAU建築物リスク,2.902,2m以上5m未満,南海トラフケース６（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:131,tsunami,PLATEAU建築物リスク,2.902,2m以上5m未満,南海トラフケース６（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:130,tsunami,PLATEAU建築物リスク,3.211,2m以上5m未満,南海トラフケース８（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:131,tsunami,PLATEAU建築物リスク,3.211,2m以上5m未満,南海トラフケース８（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:130,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:131,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:177,tsunami,PLATEAU建築物リスク,0.301,0.3ｍ以上1m未満,南海トラフケース１（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:177,tsunami,PLATEAU建築物リスク,0.322,0.3ｍ以上1m未満,南海トラフケース６（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:177,tsunami,PLATEAU建築物リスク,0.561,0.3ｍ以上1m未満,南海トラフケース８（島しょ部）,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,PLATEAU建築物リスク,津波｜PLATEAU建築物リスク
+official_export_002:49,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:224,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:130,tsunami,南海トラフ巨大地震_ケース1,2.911,0.5–3 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+official_export_002:131,tsunami,南海トラフ巨大地震_ケース1,2.911,0.5–3 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+official_export_002:177,tsunami,南海トラフ巨大地震_ケース1,0.3013,0–0.5 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+official_export_002:416,tsunami,南海トラフ巨大地震_ケース1,7.7926,5 m以上,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+official_export_002:130,tsunami,南海トラフ巨大地震_ケース6,2.9234,0.5–3 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+official_export_002:131,tsunami,南海トラフ巨大地震_ケース6,2.9234,0.5–3 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+official_export_002:177,tsunami,南海トラフ巨大地震_ケース6,0.3221,0–0.5 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+official_export_002:416,tsunami,南海トラフ巨大地震_ケース6,7.8013,5 m以上,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+official_export_002:130,tsunami,南海トラフ巨大地震_ケース8,3.2351,3–5 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+official_export_002:131,tsunami,南海トラフ巨大地震_ケース8,3.2351,3–5 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+official_export_002:177,tsunami,南海トラフ巨大地震_ケース8,0.5607,0.5–3 m,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+official_export_002:416,tsunami,南海トラフ巨大地震_ケース8,8.1251,5 m以上,新島・式根島,external point-grid sampling,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+official_export_002:49,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:130,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:131,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:224,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

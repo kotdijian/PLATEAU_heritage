@@ -1,0 +1,135 @@
+﻿record_id,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,scenario,risk_value,risk_class,hazard_source,risk_basis,risk_type,risk_type_ja
+official_export_001:114,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_001:115,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+205,13103,港区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,旧細川邸のシイ,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_001:54,13103,港区,National,Designated,有形文化財,建造物,building_direct,慶応義塾図書館,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_001:55,13103,港区,National,Designated,有形文化財,建造物,building_direct,慶応義塾三田演説館,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:222,13103,港区,National,Registered,有形文化財,建造物,building_direct,国際文化会館本館,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+13104:158,13104,新宿区,Unknown,Unknown,未判定,未細分,point,紅皿の墓,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+13104:58,13104,新宿区,Unknown,Unknown,未判定,未細分,point,薬王院の梵鐘,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+13104:58,13104,新宿区,Unknown,Unknown,未判定,未細分,point,薬王院の梵鐘,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+13104:74,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大聖院文書,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:50,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)主屋,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:50,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_003:70,13105,文京区,National,Designated,記念物,天然記念物,point,弥生二丁目遺跡,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+4,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+96,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+96,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+117,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,等々力渓谷三号横穴,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+14,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+14,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+215,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+216,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+129,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,天寧寺境域,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+129,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,天寧寺境域,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+19,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,馬場家御師住宅,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+19,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,馬場家御師住宅,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_001:26,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺本堂,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:191,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)主屋,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:194,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)洋館,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:90,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園稲荷社,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:91,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園渓梅庵,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:92,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園山魚楼,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:94,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園大浴場,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:96,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園枕流亭,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:96,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園枕流亭,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:97,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園渡廊下,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_003:63,13205,青梅市,National,Designated,記念物,天然記念物,point,御岳の神代ケヤキ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_003:63,13205,青梅市,National,Designated,記念物,天然記念物,point,御岳の神代ケヤキ,砂防指定地,,砂防指定地,hazard_sabo_designated_a52_polygon,polygon intersection,landslide,土砂災害
+22,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+22,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+132080100063,13208,調布市,Municipal,Designated,民俗文化財,有形民俗文化財(民俗),point,百万遍供養塔,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:10,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:10,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+188,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+132152100013,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮本殿附棟札,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+132152100013,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮本殿附棟札,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+132152100014,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮拝殿,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+132152100014,13215,国立市,Municipal,Designated,有形文化財,未細分,building_direct,谷保天満宮拝殿,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+1.32209E+11,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+1.32209E+11,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+140,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+140,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+142,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+142,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:109,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:146,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:146,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:163,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:164,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+225,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+28,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+28,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+102,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+104,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+104,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+144,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+144,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+145,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+145,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+145,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+151,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+226,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+227,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+229,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+229,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+32,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+32,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+32,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+35,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+35,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+37,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+39,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+39,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+39,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+42,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+42,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+43,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+43,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+45,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+45,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+47,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+49,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+49,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+49,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+52,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+52,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+53,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+53,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+91,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+92,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_003:28,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+203,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_001:64,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:162,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:254,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:254,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:254,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:254,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,砂防指定地,,砂防指定地,hazard_sabo_designated_a52_polygon,polygon intersection,landslide,土砂災害
+official_export_002:373,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:373,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:373,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:429,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+official_export_002:429,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_003:6,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:130,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:130,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:131,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:131,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:224,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:224,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+official_export_002:49,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+official_export_002:49,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+237,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+237,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,landslide,土砂災害
+237,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害
+238,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,landslide,土砂災害
+238,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,landslide,土砂災害

@@ -1,0 +1,12 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+103,seismic,都心南部直下地震,5.533,6弱,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+103,seismic,都心東部直下地震,5.75,6弱,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+103,seismic,都心西部直下地震,5.883,6弱,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+103,seismic,多摩東部直下地震,6.116,6強以上,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+103,seismic,多摩西部直下地震,5.937,6弱,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+103,seismic,立川断層帯地震,6.41,6強以上,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+103,seismic,大正関東地震,5.567,6弱,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,大正関東地震,想定震度｜大正関東地震
+103,seismic,南海トラフ巨大地震,5.009,5強,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+103,fire,延焼危険度,3.0,,,,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+103,river_flooding,,,No data,残堀川流域,external point-grid sampling,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),河川浸水,河川浸水,河川浸水｜河川浸水
+103,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13223,武蔵村山市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,村山大島紬 (板締絹絣織),河川浸水,河川浸水,河川浸水｜河川浸水

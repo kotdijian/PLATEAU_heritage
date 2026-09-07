@@ -1,0 +1,365 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+10,seismic,都心南部直下地震,5.752,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+211,seismic,都心南部直下地震,5.747,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+212,seismic,都心南部直下地震,5.754,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+11,seismic,都心南部直下地震,5.747,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+12,seismic,都心南部直下地震,5.648,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+13,seismic,都心南部直下地震,6.08,6強以上,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+14,seismic,都心南部直下地震,5.715,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+15,seismic,都心南部直下地震,5.018,5強,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+16,seismic,都心南部直下地震,5.174,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+17,seismic,都心南部直下地震,5.813,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+18,seismic,都心南部直下地震,5.044,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:69,seismic,都心南部直下地震,5.854,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:70,seismic,都心南部直下地震,5.763,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:71,seismic,都心南部直下地震,5.763,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:72,seismic,都心南部直下地震,5.763,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:92,seismic,都心南部直下地震,5.756,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:19,seismic,都心南部直下地震,5.815,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:82,seismic,都心南部直下地震,5.76,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:83,seismic,都心南部直下地震,5.613,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:84,seismic,都心南部直下地震,5.754,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:85,seismic,都心南部直下地震,5.769,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:86,seismic,都心南部直下地震,5.616,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:87,seismic,都心南部直下地震,5.755,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:88,seismic,都心南部直下地震,5.757,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:170,seismic,都心南部直下地震,5.99,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:211,seismic,都心南部直下地震,5.945,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:241,seismic,都心南部直下地震,5.786,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:242,seismic,都心南部直下地震,5.786,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:281,seismic,都心南部直下地震,5.816,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:375,seismic,都心南部直下地震,5.815,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+10,seismic,都心東部直下地震,5.948,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+211,seismic,都心東部直下地震,5.936,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+212,seismic,都心東部直下地震,5.954,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+11,seismic,都心東部直下地震,5.946,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+12,seismic,都心東部直下地震,5.728,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+13,seismic,都心東部直下地震,5.98,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+14,seismic,都心東部直下地震,5.786,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+15,seismic,都心東部直下地震,5.189,5強,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+16,seismic,都心東部直下地震,5.235,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+17,seismic,都心東部直下地震,5.804,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+18,seismic,都心東部直下地震,5.046,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:69,seismic,都心東部直下地震,6.108,6強以上,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:70,seismic,都心東部直下地震,6.017,6強以上,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:71,seismic,都心東部直下地震,6.017,6強以上,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:72,seismic,都心東部直下地震,6.017,6強以上,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:92,seismic,都心東部直下地震,5.969,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:19,seismic,都心東部直下地震,6.011,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:82,seismic,都心東部直下地震,5.968,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:83,seismic,都心東部直下地震,5.803,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:84,seismic,都心東部直下地震,5.972,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:85,seismic,都心東部直下地震,5.975,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:86,seismic,都心東部直下地震,5.806,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:87,seismic,都心東部直下地震,5.956,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:88,seismic,都心東部直下地震,5.948,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:170,seismic,都心東部直下地震,6.088,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:211,seismic,都心東部直下地震,6.123,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:241,seismic,都心東部直下地震,6.081,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:242,seismic,都心東部直下地震,6.081,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:281,seismic,都心東部直下地震,6.091,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:375,seismic,都心東部直下地震,6.011,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+10,seismic,都心西部直下地震,5.874,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+211,seismic,都心西部直下地震,5.814,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+212,seismic,都心西部直下地震,5.823,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+11,seismic,都心西部直下地震,5.908,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+12,seismic,都心西部直下地震,5.712,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+13,seismic,都心西部直下地震,6.014,6強以上,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+14,seismic,都心西部直下地震,5.768,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+15,seismic,都心西部直下地震,5.218,5強,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+16,seismic,都心西部直下地震,5.292,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+17,seismic,都心西部直下地震,5.85,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+18,seismic,都心西部直下地震,5.217,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:69,seismic,都心西部直下地震,5.974,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:70,seismic,都心西部直下地震,5.88,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:71,seismic,都心西部直下地震,5.88,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:72,seismic,都心西部直下地震,5.88,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:92,seismic,都心西部直下地震,5.832,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:19,seismic,都心西部直下地震,5.888,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:82,seismic,都心西部直下地震,5.86,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:83,seismic,都心西部直下地震,5.714,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:84,seismic,都心西部直下地震,5.854,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:85,seismic,都心西部直下地震,5.875,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:86,seismic,都心西部直下地震,5.713,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:87,seismic,都心西部直下地震,5.843,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:88,seismic,都心西部直下地震,5.849,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:170,seismic,都心西部直下地震,6.057,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:211,seismic,都心西部直下地震,6.049,6強以上,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:241,seismic,都心西部直下地震,5.99,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:242,seismic,都心西部直下地震,5.99,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:281,seismic,都心西部直下地震,5.984,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:375,seismic,都心西部直下地震,5.888,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+10,seismic,多摩東部直下地震,5.938,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+211,seismic,多摩東部直下地震,5.8178,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+212,seismic,多摩東部直下地震,5.8304,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+11,seismic,多摩東部直下地震,5.9068,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+12,seismic,多摩東部直下地震,5.8484,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+13,seismic,多摩東部直下地震,6.0202,6強以上,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+14,seismic,多摩東部直下地震,5.8412,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+15,seismic,多摩東部直下地震,5.7038,6弱,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+16,seismic,多摩東部直下地震,5.8072,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+17,seismic,多摩東部直下地震,5.8366,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+18,seismic,多摩東部直下地震,5.6034,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:69,seismic,多摩東部直下地震,5.9094,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:70,seismic,多摩東部直下地震,5.82,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:71,seismic,多摩東部直下地震,5.82,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:72,seismic,多摩東部直下地震,5.82,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:92,seismic,多摩東部直下地震,5.833,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:19,seismic,多摩東部直下地震,5.8812,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:82,seismic,多摩東部直下地震,5.8394,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:83,seismic,多摩東部直下地震,5.7138,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:84,seismic,多摩東部直下地震,5.83,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:85,seismic,多摩東部直下地震,5.8616,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:86,seismic,多摩東部直下地震,5.7232,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:87,seismic,多摩東部直下地震,5.8278,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:88,seismic,多摩東部直下地震,5.8526,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:170,seismic,多摩東部直下地震,5.9422,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:211,seismic,多摩東部直下地震,5.9518,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:241,seismic,多摩東部直下地震,5.9,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:242,seismic,多摩東部直下地震,5.9,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:281,seismic,多摩東部直下地震,5.9058,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:375,seismic,多摩東部直下地震,5.8812,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+10,seismic,多摩西部直下地震,5.435,5強,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+211,seismic,多摩西部直下地震,5.302,5強,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+212,seismic,多摩西部直下地震,5.325,5強,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+11,seismic,多摩西部直下地震,5.387,5強,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+12,seismic,多摩西部直下地震,5.846,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+13,seismic,多摩西部直下地震,5.714,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+14,seismic,多摩西部直下地震,5.707,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+15,seismic,多摩西部直下地震,5.708,6弱,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+16,seismic,多摩西部直下地震,5.832,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+17,seismic,多摩西部直下地震,5.414,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+18,seismic,多摩西部直下地震,5.666,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:69,seismic,多摩西部直下地震,5.428,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:70,seismic,多摩西部直下地震,5.334,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:71,seismic,多摩西部直下地震,5.334,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:72,seismic,多摩西部直下地震,5.334,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:92,seismic,多摩西部直下地震,5.329,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:19,seismic,多摩西部直下地震,5.37,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:82,seismic,多摩西部直下地震,5.337,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:83,seismic,多摩西部直下地震,5.213,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:84,seismic,多摩西部直下地震,5.327,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:85,seismic,多摩西部直下地震,5.362,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:86,seismic,多摩西部直下地震,5.21,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:87,seismic,多摩西部直下地震,5.319,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:88,seismic,多摩西部直下地震,5.348,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:170,seismic,多摩西部直下地震,5.397,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:211,seismic,多摩西部直下地震,5.411,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:241,seismic,多摩西部直下地震,5.39,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:242,seismic,多摩西部直下地震,5.39,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:281,seismic,多摩西部直下地震,5.401,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:375,seismic,多摩西部直下地震,5.37,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+10,seismic,立川断層帯地震,4.949,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+211,seismic,立川断層帯地震,4.74,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+212,seismic,立川断層帯地震,4.756,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+11,seismic,立川断層帯地震,4.884,5弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+12,seismic,立川断層帯地震,6.048,6強以上,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+13,seismic,立川断層帯地震,5.255,5強,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+14,seismic,立川断層帯地震,5.406,5強,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+15,seismic,立川断層帯地震,5.86,6弱,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+16,seismic,立川断層帯地震,5.873,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+17,seismic,立川断層帯地震,4.919,5弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+18,seismic,立川断層帯地震,5.921,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:69,seismic,立川断層帯地震,4.904,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:70,seismic,立川断層帯地震,4.796,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:71,seismic,立川断層帯地震,4.796,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:72,seismic,立川断層帯地震,4.796,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:92,seismic,立川断層帯地震,4.774,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:19,seismic,立川断層帯地震,4.815,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:82,seismic,立川断層帯地震,4.798,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:83,seismic,立川断層帯地震,4.635,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:84,seismic,立川断層帯地震,4.794,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:85,seismic,立川断層帯地震,4.82,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:86,seismic,立川断層帯地震,4.651,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:87,seismic,立川断層帯地震,4.776,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:88,seismic,立川断層帯地震,4.795,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:170,seismic,立川断層帯地震,4.78,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:211,seismic,立川断層帯地震,4.768,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:241,seismic,立川断層帯地震,4.845,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:242,seismic,立川断層帯地震,4.845,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:281,seismic,立川断層帯地震,4.876,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:375,seismic,立川断層帯地震,4.815,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+10,seismic,大正関東地震,5.565,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,大正関東地震,想定震度｜大正関東地震
+211,seismic,大正関東地震,5.495,5強,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,大正関東地震,想定震度｜大正関東地震
+212,seismic,大正関東地震,5.502,6弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,大正関東地震,想定震度｜大正関東地震
+11,seismic,大正関東地震,5.526,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,大正関東地震,想定震度｜大正関東地震
+12,seismic,大正関東地震,5.492,5強,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,大正関東地震,想定震度｜大正関東地震
+13,seismic,大正関東地震,5.778,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,大正関東地震,想定震度｜大正関東地震
+14,seismic,大正関東地震,5.547,6弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,大正関東地震,想定震度｜大正関東地震
+15,seismic,大正関東地震,5.149,5強,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,大正関東地震,想定震度｜大正関東地震
+16,seismic,大正関東地震,5.364,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,大正関東地震,想定震度｜大正関東地震
+17,seismic,大正関東地震,5.546,6弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+18,seismic,大正関東地震,5.077,5強,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:69,seismic,大正関東地震,5.562,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:70,seismic,大正関東地震,5.473,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:71,seismic,大正関東地震,5.473,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:72,seismic,大正関東地震,5.473,5強,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:92,seismic,大正関東地震,5.505,6弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:19,seismic,大正関東地震,5.563,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:82,seismic,大正関東地震,5.545,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:83,seismic,大正関東地震,5.413,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:84,seismic,大正関東地震,5.531,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:85,seismic,大正関東地震,5.568,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:86,seismic,大正関東地震,5.424,5強,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:87,seismic,大正関東地震,5.532,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:88,seismic,大正関東地震,5.559,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:170,seismic,大正関東地震,5.605,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:211,seismic,大正関東地震,5.635,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:241,seismic,大正関東地震,5.558,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:242,seismic,大正関東地震,5.558,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:281,seismic,大正関東地震,5.564,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:375,seismic,大正関東地震,5.563,6弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,大正関東地震,想定震度｜大正関東地震
+10,seismic,南海トラフ巨大地震,4.896,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+211,seismic,南海トラフ巨大地震,4.78,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+212,seismic,南海トラフ巨大地震,4.802,5弱,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+11,seismic,南海トラフ巨大地震,4.882,5弱,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+12,seismic,南海トラフ巨大地震,4.936,5弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+13,seismic,南海トラフ巨大地震,4.995,5弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+14,seismic,南海トラフ巨大地震,4.993,5弱,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+15,seismic,南海トラフ巨大地震,4.758,5弱,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+16,seismic,南海トラフ巨大地震,4.928,5弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+17,seismic,南海トラフ巨大地震,4.809,5弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+18,seismic,南海トラフ巨大地震,4.785,5弱,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:69,seismic,南海トラフ巨大地震,4.887,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:70,seismic,南海トラフ巨大地震,4.788,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:71,seismic,南海トラフ巨大地震,4.788,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:72,seismic,南海トラフ巨大地震,4.788,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:92,seismic,南海トラフ巨大地震,4.795,5弱,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:19,seismic,南海トラフ巨大地震,4.847,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:82,seismic,南海トラフ巨大地震,4.804,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:83,seismic,南海トラフ巨大地震,4.697,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:84,seismic,南海トラフ巨大地震,4.791,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:85,seismic,南海トラフ巨大地震,4.828,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:86,seismic,南海トラフ巨大地震,4.7,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:87,seismic,南海トラフ巨大地震,4.791,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:88,seismic,南海トラフ巨大地震,4.819,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:170,seismic,南海トラフ巨大地震,4.919,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:211,seismic,南海トラフ巨大地震,4.935,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:241,seismic,南海トラフ巨大地震,4.86,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:242,seismic,南海トラフ巨大地震,4.86,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:281,seismic,南海トラフ巨大地震,4.881,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:375,seismic,南海トラフ巨大地震,4.847,5弱,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+10,fire,延焼危険度,4.0,,,,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+211,fire,延焼危険度,4.0,,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+212,fire,延焼危険度,4.0,,,,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+11,fire,延焼危険度,4.0,,,,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+12,fire,延焼危険度,5.0,,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+13,fire,延焼危険度,4.0,,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+14,fire,延焼危険度,4.0,,,,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+15,fire,延焼危険度,2.0,,,,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+16,fire,延焼危険度,3.0,,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+17,fire,延焼危険度,6.0,,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+18,fire,延焼危険度,3.0,,,,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:69,fire,延焼危険度,4.0,,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:70,fire,延焼危険度,4.0,,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:71,fire,延焼危険度,4.0,,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:72,fire,延焼危険度,4.0,,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:92,fire,延焼危険度,4.0,,,,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:19,fire,延焼危険度,4.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:82,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:83,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:84,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:85,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:86,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:87,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:88,fire,延焼危険度,1.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:170,fire,延焼危険度,5.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:211,fire,延焼危険度,3.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:241,fire,延焼危険度,4.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:242,fire,延焼危険度,4.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:281,fire,延焼危険度,4.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:375,fire,延焼危険度,4.0,,,,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+10,liquefaction,南海トラフ巨大地震,0.3275,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+10,liquefaction,多摩東部直下地震,12.9225,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+10,liquefaction,大正関東地震,9.6275,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),液状化,大正関東地震,液状化｜大正関東地震
+10,liquefaction,都心南部直下地震,12.73,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),液状化,都心南部直下地震,液状化｜都心南部直下地震
+12,liquefaction,南海トラフ巨大地震,0.067142857,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+12,liquefaction,多摩東部直下地震,2.930714286,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+12,liquefaction,大正関東地震,1.842142857,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,液状化,大正関東地震,液状化｜大正関東地震
+12,liquefaction,都心南部直下地震,2.487857143,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,液状化,都心南部直下地震,液状化｜都心南部直下地震
+211,liquefaction,南海トラフ巨大地震,1.025555556,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+211,liquefaction,多摩東部直下地震,6.507777778,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+211,liquefaction,大正関東地震,5.471111111,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,液状化,大正関東地震,液状化｜大正関東地震
+211,liquefaction,立川断層帯地震,0.033333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,液状化,立川断層帯地震,液状化｜立川断層帯地震
+211,liquefaction,都心南部直下地震,6.341111111,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,液状化,都心南部直下地震,液状化｜都心南部直下地震
+212,liquefaction,南海トラフ巨大地震,1.025555556,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+212,liquefaction,多摩東部直下地震,6.507777778,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+212,liquefaction,大正関東地震,5.471111111,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,液状化,大正関東地震,液状化｜大正関東地震
+212,liquefaction,立川断層帯地震,0.033333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,液状化,立川断層帯地震,液状化｜立川断層帯地震
+212,liquefaction,都心南部直下地震,6.341111111,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:92,liquefaction,南海トラフ巨大地震,1.025555556,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:92,liquefaction,多摩東部直下地震,6.507777778,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:92,liquefaction,大正関東地震,5.471111111,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:92,liquefaction,立川断層帯地震,0.033333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_001:92,liquefaction,都心南部直下地震,6.341111111,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:170,liquefaction,南海トラフ巨大地震,3.24,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:170,liquefaction,多摩東部直下地震,16.28,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:170,liquefaction,大正関東地震,13.2,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:170,liquefaction,都心南部直下地震,16.88,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:19,liquefaction,南海トラフ巨大地震,1.025555556,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:19,liquefaction,多摩東部直下地震,6.507777778,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:19,liquefaction,大正関東地震,5.471111111,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:19,liquefaction,立川断層帯地震,0.033333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:19,liquefaction,都心南部直下地震,6.341111111,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:375,liquefaction,南海トラフ巨大地震,1.025555556,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:375,liquefaction,多摩東部直下地震,6.507777778,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:375,liquefaction,大正関東地震,5.471111111,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:375,liquefaction,立川断層帯地震,0.033333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:375,liquefaction,都心南部直下地震,6.341111111,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:83,liquefaction,多摩東部直下地震,0.455,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:83,liquefaction,大正関東地震,0.2775,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:83,liquefaction,都心南部直下地震,0.4075,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:85,liquefaction,多摩東部直下地震,0.455,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:85,liquefaction,大正関東地震,0.2775,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:85,liquefaction,都心南部直下地震,0.4075,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:86,liquefaction,多摩東部直下地震,0.455,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:86,liquefaction,大正関東地震,0.2775,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:86,liquefaction,都心南部直下地震,0.4075,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:88,liquefaction,多摩東部直下地震,0.455,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:88,liquefaction,大正関東地震,0.2775,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:88,liquefaction,都心南部直下地震,0.4075,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:375,river_flooding,L2（想定最大規模）,0.03,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+12,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:211,river_flooding,L2（想定最大規模）,0.01,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:281,river_flooding,L2（想定最大規模）,0.084,0.5m未満,石神井川・白子川流域,PLATEAU building risk,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+17,river_flooding,L2（想定最大規模）,0.075,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+15,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+16,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+11,river_flooding,L2（想定最大規模）,0.028,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:92,river_flooding,L2（想定最大規模）,0.033,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:19,river_flooding,L2（想定最大規模）,0.03,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+10,river_flooding,L2（想定最大規模）,0.006,0.5m未満,神田川流域,PLATEAU building risk,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+14,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+14,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:281,river_flooding,,0.08,0–0.5 m,石神井川及び白子川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:241,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:242,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+12,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,河川浸水,河川浸水,河川浸水｜河川浸水
+17,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+10,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),河川浸水,河川浸水,河川浸水｜河川浸水
+11,river_flooding,,0.028000001,0–0.5 m,神田川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,河川浸水,河川浸水,河川浸水｜河川浸水
+13,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,河川浸水,河川浸水,河川浸水｜河川浸水
+14,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:92,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:375,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:19,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:70,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:71,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:72,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:69,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:85,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院西一号館(旧中等科教場),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:88,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:86,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:87,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:83,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,河川浸水,河川浸水,河川浸水｜河川浸水
+211,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,河川浸水,河川浸水,河川浸水｜河川浸水
+212,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:82,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:84,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,河川浸水,河川浸水,河川浸水｜河川浸水
+16,river_flooding,,0.06,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,河川浸水,河川浸水,河川浸水｜河川浸水
+12,river_flooding,,0.14,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,河川浸水,河川浸水,河川浸水｜河川浸水
+14,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,河川浸水,河川浸水,河川浸水｜河川浸水
+15,river_flooding,,0.13,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13116,豊島区,Municipal,Designated,記念物,史跡,point,池袋富士塚,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:211,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:170,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+14,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,雑司が谷鬼子母神御会式万燈練供養,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

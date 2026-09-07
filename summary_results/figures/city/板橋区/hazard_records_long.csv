@@ -1,0 +1,42 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+121,seismic,都心南部直下地震,5.817,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+177,seismic,都心南部直下地震,6.246,6強以上,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+178,seismic,都心南部直下地震,5.804,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+121,seismic,都心東部直下地震,5.794,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+177,seismic,都心東部直下地震,6.158,6強以上,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+178,seismic,都心東部直下地震,5.738,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+121,seismic,都心西部直下地震,5.892,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+177,seismic,都心西部直下地震,6.242,6強以上,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+178,seismic,都心西部直下地震,5.787,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+121,seismic,多摩東部直下地震,5.9232,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+177,seismic,多摩東部直下地震,6.2566,6強以上,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+178,seismic,多摩東部直下地震,5.8722,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+121,seismic,多摩西部直下地震,5.296,5強,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+177,seismic,多摩西部直下地震,5.954,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+178,seismic,多摩西部直下地震,5.475,5強,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+121,seismic,立川断層帯地震,4.76,5弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+177,seismic,立川断層帯地震,5.547,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+178,seismic,立川断層帯地震,4.93,5弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+121,seismic,大正関東地震,5.441,5強,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+177,seismic,大正関東地震,5.943,6弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,大正関東地震,想定震度｜大正関東地震
+178,seismic,大正関東地震,5.47,5強,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,大正関東地震,想定震度｜大正関東地震
+121,seismic,南海トラフ巨大地震,4.83,5弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+177,seismic,南海トラフ巨大地震,5.368,5強,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+178,seismic,南海トラフ巨大地震,4.869,5弱,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+121,fire,延焼危険度,3.0,,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+177,fire,延焼危険度,2.0,,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+178,fire,延焼危険度,4.0,,,,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+121,liquefaction,南海トラフ巨大地震,0.056,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+121,liquefaction,多摩東部直下地震,14.31,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+121,liquefaction,大正関東地震,8.37,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,液状化,大正関東地震,液状化｜大正関東地震
+121,liquefaction,都心南部直下地震,12.568,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+177,liquefaction,南海トラフ巨大地震,4.944,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+177,liquefaction,多摩東部直下地震,13.182,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+177,liquefaction,大正関東地震,10.9148,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,液状化,大正関東地震,液状化｜大正関東地震
+177,liquefaction,立川断層帯地震,0.5192,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,液状化,立川断層帯地震,液状化｜立川断層帯地震
+177,liquefaction,都心南部直下地震,13.1076,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,液状化,都心南部直下地震,液状化｜都心南部直下地震
+177,high_tide,,1.44,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,高潮,高潮,高潮｜高潮
+121,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+177,river_flooding,,2.21,0.5–3 m,隅田川及び新河岸川流域,external point-grid sampling,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,河川浸水,河川浸水,河川浸水｜河川浸水
+178,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13119,板橋区,Unknown,Unknown,未判定,未細分,point,松月院大堂,河川浸水,河川浸水,河川浸水｜河川浸水
+177,river_flooding,想定最大規模,10.0,5 m以上,A31a 荒川,A31a polygon intersection,13119,板橋区,Unknown,Unknown,未判定,未細分,point,徳丸ケ原,河川浸水,想定最大規模,河川浸水｜想定最大規模

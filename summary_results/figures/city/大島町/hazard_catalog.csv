@@ -1,0 +1,4 @@
+﻿risk_type,risk_type_ja,scenario,hazard_key,affected_record_count
+landslide,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域,1
+seismic,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震,7
+seismic,想定震度,大正関東地震,想定震度｜大正関東地震,7

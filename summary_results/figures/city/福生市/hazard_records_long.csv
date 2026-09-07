@@ -1,0 +1,164 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+27,seismic,都心南部直下地震,5.674,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:20,seismic,都心南部直下地震,5.234,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:21,seismic,都心南部直下地震,5.238,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:22,seismic,都心南部直下地震,5.238,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:23,seismic,都心南部直下地震,5.238,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:24,seismic,都心南部直下地震,5.238,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:25,seismic,都心南部直下地震,5.24,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:184,seismic,都心南部直下地震,5.126,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:185,seismic,都心南部直下地震,5.126,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:186,seismic,都心南部直下地震,5.123,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:306,seismic,都心南部直下地震,5.086,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:307,seismic,都心南部直下地震,5.086,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:308,seismic,都心南部直下地震,5.08,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:309,seismic,都心南部直下地震,5.087,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:310,seismic,都心南部直下地震,5.087,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+27,seismic,都心東部直下地震,5.781,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:20,seismic,都心東部直下地震,5.343,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:21,seismic,都心東部直下地震,5.341,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:22,seismic,都心東部直下地震,5.341,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:23,seismic,都心東部直下地震,5.341,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:24,seismic,都心東部直下地震,5.341,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:25,seismic,都心東部直下地震,5.341,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:184,seismic,都心東部直下地震,5.314,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:185,seismic,都心東部直下地震,5.314,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:186,seismic,都心東部直下地震,5.312,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:306,seismic,都心東部直下地震,5.325,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:307,seismic,都心東部直下地震,5.325,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:308,seismic,都心東部直下地震,5.349,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:309,seismic,都心東部直下地震,5.352,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:310,seismic,都心東部直下地震,5.352,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+27,seismic,都心西部直下地震,5.721,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:20,seismic,都心西部直下地震,5.405,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:21,seismic,都心西部直下地震,5.416,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:22,seismic,都心西部直下地震,5.416,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:23,seismic,都心西部直下地震,5.416,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:24,seismic,都心西部直下地震,5.416,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:25,seismic,都心西部直下地震,5.416,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:184,seismic,都心西部直下地震,5.392,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:185,seismic,都心西部直下地震,5.392,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:186,seismic,都心西部直下地震,5.389,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:306,seismic,都心西部直下地震,5.384,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:307,seismic,都心西部直下地震,5.384,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:308,seismic,都心西部直下地震,5.398,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:309,seismic,都心西部直下地震,5.401,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:310,seismic,都心西部直下地震,5.401,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+27,seismic,多摩東部直下地震,5.7936,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:20,seismic,多摩東部直下地震,5.7048,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:21,seismic,多摩東部直下地震,5.719,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:22,seismic,多摩東部直下地震,5.719,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:23,seismic,多摩東部直下地震,5.719,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:24,seismic,多摩東部直下地震,5.719,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:25,seismic,多摩東部直下地震,5.7176,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:184,seismic,多摩東部直下地震,5.8242,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:185,seismic,多摩東部直下地震,5.8242,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:186,seismic,多摩東部直下地震,5.837,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:306,seismic,多摩東部直下地震,5.806,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:307,seismic,多摩東部直下地震,5.806,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:308,seismic,多摩東部直下地震,5.8412,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:309,seismic,多摩東部直下地震,5.817,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:310,seismic,多摩東部直下地震,5.817,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+27,seismic,多摩西部直下地震,5.785,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:20,seismic,多摩西部直下地震,5.801,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:21,seismic,多摩西部直下地震,5.792,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:22,seismic,多摩西部直下地震,5.792,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:23,seismic,多摩西部直下地震,5.792,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:24,seismic,多摩西部直下地震,5.792,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:25,seismic,多摩西部直下地震,5.799,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:184,seismic,多摩西部直下地震,5.796,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:185,seismic,多摩西部直下地震,5.796,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:186,seismic,多摩西部直下地震,5.796,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:306,seismic,多摩西部直下地震,5.781,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:307,seismic,多摩西部直下地震,5.781,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:308,seismic,多摩西部直下地震,5.793,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:309,seismic,多摩西部直下地震,5.793,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:310,seismic,多摩西部直下地震,5.793,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+27,seismic,立川断層帯地震,6.092,6強以上,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:20,seismic,立川断層帯地震,5.944,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:21,seismic,立川断層帯地震,5.959,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:22,seismic,立川断層帯地震,5.959,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:23,seismic,立川断層帯地震,5.959,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:24,seismic,立川断層帯地震,5.959,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:25,seismic,立川断層帯地震,5.956,6弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:184,seismic,立川断層帯地震,6.077,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:185,seismic,立川断層帯地震,6.077,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:186,seismic,立川断層帯地震,6.091,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:306,seismic,立川断層帯地震,6.116,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:307,seismic,立川断層帯地震,6.116,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:308,seismic,立川断層帯地震,6.171,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:309,seismic,立川断層帯地震,6.155,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:310,seismic,立川断層帯地震,6.155,6強以上,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+27,seismic,大正関東地震,5.536,6弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:20,seismic,大正関東地震,5.334,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:21,seismic,大正関東地震,5.338,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:22,seismic,大正関東地震,5.338,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:23,seismic,大正関東地震,5.338,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:24,seismic,大正関東地震,5.338,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:25,seismic,大正関東地震,5.342,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:184,seismic,大正関東地震,5.315,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:185,seismic,大正関東地震,5.315,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:186,seismic,大正関東地震,5.313,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:306,seismic,大正関東地震,5.295,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:307,seismic,大正関東地震,5.295,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:308,seismic,大正関東地震,5.3,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:309,seismic,大正関東地震,5.306,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:310,seismic,大正関東地震,5.306,5強,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+27,seismic,南海トラフ巨大地震,4.847,5弱,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:20,seismic,南海トラフ巨大地震,4.858,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:21,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:22,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:23,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:24,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:25,seismic,南海トラフ巨大地震,4.858,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:184,seismic,南海トラフ巨大地震,4.85,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:185,seismic,南海トラフ巨大地震,4.85,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:186,seismic,南海トラフ巨大地震,4.849,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:306,seismic,南海トラフ巨大地震,4.847,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:307,seismic,南海トラフ巨大地震,4.847,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:308,seismic,南海トラフ巨大地震,4.856,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:309,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:310,seismic,南海トラフ巨大地震,4.857,5弱,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+27,fire,延焼危険度,5.0,,,,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:20,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:21,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:22,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:23,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:24,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:25,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:184,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:185,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:186,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:306,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:307,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:308,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:309,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造雑蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:310,fire,延焼危険度,4.0,,,,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造前蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+27,liquefaction,南海トラフ巨大地震,0.116923077,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+27,liquefaction,多摩東部直下地震,3.768461538,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+27,liquefaction,大正関東地震,2.807692308,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+27,liquefaction,立川断層帯地震,0.032307692,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,液状化,立川断層帯地震,液状化｜立川断層帯地震
+27,liquefaction,都心南部直下地震,3.176153846,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+27,river_flooding,L2（想定最大規模）,0.04,0.5m未満,秋川・平井川流域,PLATEAU building risk,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:22,river_flooding,L2（想定最大規模）,0.96,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:23,river_flooding,L2（想定最大規模）,1.16,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:20,river_flooding,L2（想定最大規模）,0.9,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:21,river_flooding,L2（想定最大規模）,1.16,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:24,river_flooding,L2（想定最大規模）,1.16,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+27,river_flooding,L2（想定最大規模）,0.013,0.5m未満,神田川流域,PLATEAU building risk,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:25,river_flooding,L2（想定最大規模）,0.77,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:21,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:24,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+27,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:25,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:22,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:23,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:20,river_flooding,,,No data,残堀川流域,external point-grid sampling,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+27,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+27,river_flooding,,0.04,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:20,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:21,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:22,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:23,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:24,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:25,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模

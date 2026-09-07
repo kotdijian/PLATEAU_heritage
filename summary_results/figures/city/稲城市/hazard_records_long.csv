@@ -1,0 +1,12 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+224,seismic,都心南部直下地震,5.784,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+224,seismic,都心東部直下地震,5.691,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+224,seismic,都心西部直下地震,5.852,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+224,seismic,多摩東部直下地震,5.9648,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+224,seismic,多摩西部直下地震,5.604,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+224,seismic,立川断層帯地震,5.484,5強,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+224,seismic,大正関東地震,5.765,6弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,大正関東地震,想定震度｜大正関東地震
+224,seismic,南海トラフ巨大地震,4.966,5弱,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+224,fire,延焼危険度,2.0,,,,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+224,river_flooding,L2（想定最大規模）,0.01,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+224,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,河川浸水,河川浸水,河川浸水｜河川浸水

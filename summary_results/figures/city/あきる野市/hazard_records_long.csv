@@ -1,0 +1,734 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+29,seismic,都心南部直下地震,5.174,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+104,seismic,都心南部直下地震,5.03,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+143,seismic,都心南部直下地震,5.201,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+144,seismic,都心南部直下地震,5.239,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+145,seismic,都心南部直下地震,4.965,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+147,seismic,都心南部直下地震,5.277,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+193,seismic,都心南部直下地震,5.211,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+226,seismic,都心南部直下地震,4.965,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+227,seismic,都心南部直下地震,4.965,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+228,seismic,都心南部直下地震,4.866,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+229,seismic,都心南部直下地震,5.043,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+230,seismic,都心南部直下地震,5.069,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+31,seismic,都心南部直下地震,5.715,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+32,seismic,都心南部直下地震,5.66,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+33,seismic,都心南部直下地震,4.941,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+34,seismic,都心南部直下地震,5.908,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+35,seismic,都心南部直下地震,6.209,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+36,seismic,都心南部直下地震,5.737,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+37,seismic,都心南部直下地震,4.965,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+38,seismic,都心南部直下地震,5.771,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+39,seismic,都心南部直下地震,5.956,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+40,seismic,都心南部直下地震,6.087,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+41,seismic,都心南部直下地震,5.843,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+42,seismic,都心南部直下地震,5.681,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+43,seismic,都心南部直下地震,5.836,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+44,seismic,都心南部直下地震,5.836,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+45,seismic,都心南部直下地震,5.689,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+46,seismic,都心南部直下地震,5.786,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+47,seismic,都心南部直下地震,5.019,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+48,seismic,都心南部直下地震,5.327,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+49,seismic,都心南部直下地震,5.679,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+50,seismic,都心南部直下地震,5.689,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+51,seismic,都心南部直下地震,5.836,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+52,seismic,都心南部直下地震,5.104,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+53,seismic,都心南部直下地震,5.069,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+54,seismic,都心南部直下地震,5.16,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+88,seismic,都心南部直下地震,5.715,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+89,seismic,都心南部直下地震,6.063,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+90,seismic,都心南部直下地震,5.689,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+91,seismic,都心南部直下地震,5.715,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+92,seismic,都心南部直下地震,5.715,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+99,seismic,都心南部直下地震,5.174,5強,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+146,seismic,都心南部直下地震,4.854,5弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+149,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+150,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+151,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+153,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:445,seismic,都心南部直下地震,5.244,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:446,seismic,都心南部直下地震,5.244,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:447,seismic,都心南部直下地震,5.259,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:448,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:449,seismic,都心南部直下地震,5.244,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:450,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:451,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:452,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:453,seismic,都心南部直下地震,5.257,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:54,seismic,都心南部直下地震,5.176,5強,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+29,seismic,都心東部直下地震,5.235,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+104,seismic,都心東部直下地震,5.016,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+143,seismic,都心東部直下地震,5.379,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+144,seismic,都心東部直下地震,5.267,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+145,seismic,都心東部直下地震,4.955,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+147,seismic,都心東部直下地震,5.463,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+193,seismic,都心東部直下地震,5.382,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+226,seismic,都心東部直下地震,4.955,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+227,seismic,都心東部直下地震,4.955,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+228,seismic,都心東部直下地震,4.932,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+229,seismic,都心東部直下地震,5.092,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+230,seismic,都心東部直下地震,5.211,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+31,seismic,都心東部直下地震,5.786,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+32,seismic,都心東部直下地震,5.757,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+33,seismic,都心東部直下地震,5.018,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+34,seismic,都心東部直下地震,5.919,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+35,seismic,都心東部直下地震,6.43,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+36,seismic,都心東部直下地震,5.966,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+37,seismic,都心東部直下地震,4.955,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+38,seismic,都心東部直下地震,5.955,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+39,seismic,都心東部直下地震,5.959,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+40,seismic,都心東部直下地震,5.92,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+41,seismic,都心東部直下地震,5.845,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+42,seismic,都心東部直下地震,5.511,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+43,seismic,都心東部直下地震,5.859,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+44,seismic,都心東部直下地震,5.859,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+45,seismic,都心東部直下地震,5.731,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+46,seismic,都心東部直下地震,5.897,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+47,seismic,都心東部直下地震,5.019,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+48,seismic,都心東部直下地震,5.329,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+49,seismic,都心東部直下地震,5.798,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+50,seismic,都心東部直下地震,5.731,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+51,seismic,都心東部直下地震,5.859,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+52,seismic,都心東部直下地震,5.194,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+53,seismic,都心東部直下地震,5.114,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+54,seismic,都心東部直下地震,5.351,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+88,seismic,都心東部直下地震,5.745,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+89,seismic,都心東部直下地震,6.071,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+90,seismic,都心東部直下地震,5.731,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+91,seismic,都心東部直下地震,5.745,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+92,seismic,都心東部直下地震,5.745,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+99,seismic,都心東部直下地震,5.312,5強,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+146,seismic,都心東部直下地震,4.923,5弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+149,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+150,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+151,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+153,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:445,seismic,都心東部直下地震,5.392,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:446,seismic,都心東部直下地震,5.392,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:447,seismic,都心東部直下地震,5.403,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:448,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:449,seismic,都心東部直下地震,5.392,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:450,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:451,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:452,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:453,seismic,都心東部直下地震,5.398,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:54,seismic,都心東部直下地震,5.246,5強,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+29,seismic,都心西部直下地震,5.292,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+104,seismic,都心西部直下地震,5.052,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+143,seismic,都心西部直下地震,5.431,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+144,seismic,都心西部直下地震,5.348,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+145,seismic,都心西部直下地震,4.993,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+147,seismic,都心西部直下地震,5.515,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+193,seismic,都心西部直下地震,5.441,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+226,seismic,都心西部直下地震,4.993,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+227,seismic,都心西部直下地震,4.993,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+228,seismic,都心西部直下地震,4.955,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+229,seismic,都心西部直下地震,5.095,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+230,seismic,都心西部直下地震,5.293,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+31,seismic,都心西部直下地震,5.768,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+32,seismic,都心西部直下地震,5.734,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+33,seismic,都心西部直下地震,5.079,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+34,seismic,都心西部直下地震,5.908,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+35,seismic,都心西部直下地震,6.282,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+36,seismic,都心西部直下地震,5.912,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+37,seismic,都心西部直下地震,4.993,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+38,seismic,都心西部直下地震,5.822,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+39,seismic,都心西部直下地震,5.869,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+40,seismic,都心西部直下地震,6.008,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+41,seismic,都心西部直下地震,5.868,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+42,seismic,都心西部直下地震,5.498,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+43,seismic,都心西部直下地震,5.91,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+44,seismic,都心西部直下地震,5.91,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+45,seismic,都心西部直下地震,5.781,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+46,seismic,都心西部直下地震,5.838,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+47,seismic,都心西部直下地震,5.108,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+48,seismic,都心西部直下地震,5.423,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+49,seismic,都心西部直下地震,5.752,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+50,seismic,都心西部直下地震,5.781,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+51,seismic,都心西部直下地震,5.91,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+52,seismic,都心西部直下地震,5.222,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+53,seismic,都心西部直下地震,5.123,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+54,seismic,都心西部直下地震,5.43,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+88,seismic,都心西部直下地震,5.826,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+89,seismic,都心西部直下地震,6.121,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+90,seismic,都心西部直下地震,5.781,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+91,seismic,都心西部直下地震,5.826,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+92,seismic,都心西部直下地震,5.826,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+99,seismic,都心西部直下地震,5.43,5強,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+146,seismic,都心西部直下地震,4.95,5弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+149,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+150,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+151,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+153,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:445,seismic,都心西部直下地震,5.455,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:446,seismic,都心西部直下地震,5.455,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:447,seismic,都心西部直下地震,5.475,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:448,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:449,seismic,都心西部直下地震,5.455,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:450,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:451,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:452,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:453,seismic,都心西部直下地震,5.47,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:54,seismic,都心西部直下地震,5.309,5強,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+29,seismic,多摩東部直下地震,5.8072,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+104,seismic,多摩東部直下地震,5.5604,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+143,seismic,多摩東部直下地震,5.7906,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+144,seismic,多摩東部直下地震,5.8538,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+145,seismic,多摩東部直下地震,5.5824,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+147,seismic,多摩東部直下地震,5.8714,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+193,seismic,多摩東部直下地震,5.8272,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+226,seismic,多摩東部直下地震,5.5824,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+227,seismic,多摩東部直下地震,5.5824,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+228,seismic,多摩東部直下地震,5.6218,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+229,seismic,多摩東部直下地震,5.683,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+230,seismic,多摩東部直下地震,5.7112,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+31,seismic,多摩東部直下地震,5.8412,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+32,seismic,多摩東部直下地震,5.8082,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+33,seismic,多摩東部直下地震,5.6378,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+34,seismic,多摩東部直下地震,5.893,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+35,seismic,多摩東部直下地震,6.1498,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+36,seismic,多摩東部直下地震,5.9096,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+37,seismic,多摩東部直下地震,5.5824,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+38,seismic,多摩東部直下地震,5.9456,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+39,seismic,多摩東部直下地震,5.8682,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+40,seismic,多摩東部直下地震,5.8722,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+41,seismic,多摩東部直下地震,5.878,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+42,seismic,多摩東部直下地震,5.994,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+43,seismic,多摩東部直下地震,5.929,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+44,seismic,多摩東部直下地震,5.9108,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+45,seismic,多摩東部直下地震,5.7714,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+46,seismic,多摩東部直下地震,5.9182,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+47,seismic,多摩東部直下地震,5.7142,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+48,seismic,多摩東部直下地震,5.8654,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+49,seismic,多摩東部直下地震,5.8162,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+50,seismic,多摩東部直下地震,5.9332,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+51,seismic,多摩東部直下地震,5.9108,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+52,seismic,多摩東部直下地震,5.7244,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+53,seismic,多摩東部直下地震,5.7238,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+54,seismic,多摩東部直下地震,5.7198,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+88,seismic,多摩東部直下地震,5.7614,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+89,seismic,多摩東部直下地震,5.9866,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+90,seismic,多摩東部直下地震,5.7714,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+91,seismic,多摩東部直下地震,5.8028,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+92,seismic,多摩東部直下地震,5.7614,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+99,seismic,多摩東部直下地震,5.9146,6弱,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+146,seismic,多摩東部直下地震,5.6116,6弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+149,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+150,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+151,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+153,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:445,seismic,多摩東部直下地震,5.8244,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:446,seismic,多摩東部直下地震,5.8244,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:447,seismic,多摩東部直下地震,5.826,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:448,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:449,seismic,多摩東部直下地震,5.8244,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:450,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:451,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:452,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:453,seismic,多摩東部直下地震,5.8282,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:54,seismic,多摩東部直下地震,5.829,6弱,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+29,seismic,多摩西部直下地震,5.832,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+104,seismic,多摩西部直下地震,5.76,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+143,seismic,多摩西部直下地震,5.952,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+144,seismic,多摩西部直下地震,5.879,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+145,seismic,多摩西部直下地震,5.556,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+147,seismic,多摩西部直下地震,5.999,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+193,seismic,多摩西部直下地震,5.919,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+226,seismic,多摩西部直下地震,5.556,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+227,seismic,多摩西部直下地震,5.556,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+228,seismic,多摩西部直下地震,5.63,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+229,seismic,多摩西部直下地震,5.674,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+230,seismic,多摩西部直下地震,5.658,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+31,seismic,多摩西部直下地震,5.575,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+32,seismic,多摩西部直下地震,5.622,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+33,seismic,多摩西部直下地震,5.599,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+34,seismic,多摩西部直下地震,5.772,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+35,seismic,多摩西部直下地震,5.675,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+36,seismic,多摩西部直下地震,5.658,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+37,seismic,多摩西部直下地震,5.556,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+38,seismic,多摩西部直下地震,5.429,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+39,seismic,多摩西部直下地震,5.711,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+40,seismic,多摩西部直下地震,5.7,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+41,seismic,多摩西部直下地震,5.7,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+42,seismic,多摩西部直下地震,5.963,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+43,seismic,多摩西部直下地震,5.876,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+44,seismic,多摩西部直下地震,5.473,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+45,seismic,多摩西部直下地震,5.605,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+46,seismic,多摩西部直下地震,5.44,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+47,seismic,多摩西部直下地震,5.605,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+48,seismic,多摩西部直下地震,5.976,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+49,seismic,多摩西部直下地震,5.697,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+50,seismic,多摩西部直下地震,5.844,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+51,seismic,多摩西部直下地震,5.473,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+52,seismic,多摩西部直下地震,5.728,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+53,seismic,多摩西部直下地震,5.695,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+54,seismic,多摩西部直下地震,5.829,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+88,seismic,多摩西部直下地震,5.353,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+89,seismic,多摩西部直下地震,5.537,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+90,seismic,多摩西部直下地震,5.312,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+91,seismic,多摩西部直下地震,5.763,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+92,seismic,多摩西部直下地震,5.677,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+99,seismic,多摩西部直下地震,5.766,6弱,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+146,seismic,多摩西部直下地震,5.622,6弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+149,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+150,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+151,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+153,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:445,seismic,多摩西部直下地震,5.942,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:446,seismic,多摩西部直下地震,5.942,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:447,seismic,多摩西部直下地震,5.95,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:448,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:449,seismic,多摩西部直下地震,5.942,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:450,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:451,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:452,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:453,seismic,多摩西部直下地震,5.943,6弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:54,seismic,多摩西部直下地震,5.746,6弱,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+29,seismic,立川断層帯地震,5.873,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+104,seismic,立川断層帯地震,5.336,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+143,seismic,立川断層帯地震,6.113,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+144,seismic,立川断層帯地震,6.099,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+145,seismic,立川断層帯地震,5.245,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+147,seismic,立川断層帯地震,6.12,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+193,seismic,立川断層帯地震,6.01,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+226,seismic,立川断層帯地震,5.245,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+227,seismic,立川断層帯地震,5.245,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+228,seismic,立川断層帯地震,5.418,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+229,seismic,立川断層帯地震,5.307,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+230,seismic,立川断層帯地震,5.947,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+31,seismic,立川断層帯地震,5.291,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+32,seismic,立川断層帯地震,5.429,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+33,seismic,立川断層帯地震,5.636,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+34,seismic,立川断層帯地震,6.13,6強以上,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+35,seismic,立川断層帯地震,5.307,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+36,seismic,立川断層帯地震,5.947,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+37,seismic,立川断層帯地震,5.245,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+38,seismic,立川断層帯地震,5.23,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+39,seismic,立川断層帯地震,5.45,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+40,seismic,立川断層帯地震,5.3,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+41,seismic,立川断層帯地震,5.3,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+42,seismic,立川断層帯地震,6.047,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+43,seismic,立川断層帯地震,6.016,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+44,seismic,立川断層帯地震,5.022,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+45,seismic,立川断層帯地震,5.566,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+46,seismic,立川断層帯地震,5.11,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+47,seismic,立川断層帯地震,5.566,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+48,seismic,立川断層帯地震,6.337,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+49,seismic,立川断層帯地震,5.419,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+50,seismic,立川断層帯地震,6.064,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+51,seismic,立川断層帯地震,5.022,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+52,seismic,立川断層帯地震,5.776,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+53,seismic,立川断層帯地震,5.339,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+54,seismic,立川断層帯地震,6.017,6強以上,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+88,seismic,立川断層帯地震,4.824,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+89,seismic,立川断層帯地震,5.11,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+90,seismic,立川断層帯地震,4.872,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+91,seismic,立川断層帯地震,5.577,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+92,seismic,立川断層帯地震,5.423,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+99,seismic,立川断層帯地震,6.052,6強以上,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+146,seismic,立川断層帯地震,5.429,5強,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+149,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+150,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+151,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+153,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:445,seismic,立川断層帯地震,6.145,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:446,seismic,立川断層帯地震,6.145,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:447,seismic,立川断層帯地震,6.157,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:448,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:449,seismic,立川断層帯地震,6.145,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:450,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:451,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:452,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:453,seismic,立川断層帯地震,6.163,6強以上,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:54,seismic,立川断層帯地震,5.889,6弱,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+29,seismic,大正関東地震,5.364,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,大正関東地震,想定震度｜大正関東地震
+104,seismic,大正関東地震,5.167,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,大正関東地震,想定震度｜大正関東地震
+143,seismic,大正関東地震,5.413,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,大正関東地震,想定震度｜大正関東地震
+144,seismic,大正関東地震,5.346,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+145,seismic,大正関東地震,5.073,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,大正関東地震,想定震度｜大正関東地震
+147,seismic,大正関東地震,5.461,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+193,seismic,大正関東地震,5.379,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+226,seismic,大正関東地震,5.073,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,大正関東地震,想定震度｜大正関東地震
+227,seismic,大正関東地震,5.073,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,大正関東地震,想定震度｜大正関東地震
+228,seismic,大正関東地震,5.001,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,大正関東地震,想定震度｜大正関東地震
+229,seismic,大正関東地震,5.187,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,大正関東地震,想定震度｜大正関東地震
+230,seismic,大正関東地震,5.309,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,大正関東地震,想定震度｜大正関東地震
+30,seismic,大正関東地震,3.065,5弱未満,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,大正関東地震,想定震度｜大正関東地震
+31,seismic,大正関東地震,5.547,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,大正関東地震,想定震度｜大正関東地震
+32,seismic,大正関東地震,5.512,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,大正関東地震,想定震度｜大正関東地震
+33,seismic,大正関東地震,5.138,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,大正関東地震,想定震度｜大正関東地震
+34,seismic,大正関東地震,5.662,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,大正関東地震,想定震度｜大正関東地震
+35,seismic,大正関東地震,5.988,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,大正関東地震,想定震度｜大正関東地震
+36,seismic,大正関東地震,5.519,6弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,大正関東地震,想定震度｜大正関東地震
+37,seismic,大正関東地震,5.073,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,大正関東地震,想定震度｜大正関東地震
+38,seismic,大正関東地震,5.616,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,大正関東地震,想定震度｜大正関東地震
+39,seismic,大正関東地震,5.78,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,大正関東地震,想定震度｜大正関東地震
+40,seismic,大正関東地震,5.748,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+41,seismic,大正関東地震,5.598,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+42,seismic,大正関東地震,5.613,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,大正関東地震,想定震度｜大正関東地震
+43,seismic,大正関東地震,5.723,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,大正関東地震,想定震度｜大正関東地震
+44,seismic,大正関東地震,5.618,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,大正関東地震,想定震度｜大正関東地震
+45,seismic,大正関東地震,5.514,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,大正関東地震,想定震度｜大正関東地震
+46,seismic,大正関東地震,5.647,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,大正関東地震,想定震度｜大正関東地震
+47,seismic,大正関東地震,5.072,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,大正関東地震,想定震度｜大正関東地震
+48,seismic,大正関東地震,5.416,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,大正関東地震,想定震度｜大正関東地震
+49,seismic,大正関東地震,5.537,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+50,seismic,大正関東地震,5.514,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+51,seismic,大正関東地震,5.618,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,大正関東地震,想定震度｜大正関東地震
+52,seismic,大正関東地震,5.273,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+53,seismic,大正関東地震,5.204,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+54,seismic,大正関東地震,5.328,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+88,seismic,大正関東地震,5.489,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,大正関東地震,想定震度｜大正関東地震
+89,seismic,大正関東地震,5.647,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,大正関東地震,想定震度｜大正関東地震
+90,seismic,大正関東地震,5.514,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,大正関東地震,想定震度｜大正関東地震
+91,seismic,大正関東地震,5.817,6弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,大正関東地震,想定震度｜大正関東地震
+92,seismic,大正関東地震,5.489,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,大正関東地震,想定震度｜大正関東地震
+99,seismic,大正関東地震,5.326,5強,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,大正関東地震,想定震度｜大正関東地震
+100,seismic,大正関東地震,3.585,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,五日市の市神様,想定震度,大正関東地震,想定震度｜大正関東地震
+101,seismic,大正関東地震,3.585,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,二宮神社の算額絵馬,想定震度,大正関東地震,想定震度｜大正関東地震
+102,seismic,大正関東地震,2.947,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,想定震度,大正関東地震,想定震度｜大正関東地震
+111,seismic,大正関東地震,3.378,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,草花ばやし,想定震度,大正関東地震,想定震度｜大正関東地震
+146,seismic,大正関東地震,4.99,5弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,大正関東地震,想定震度｜大正関東地震
+148,seismic,大正関東地震,4.69,5弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅見世蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+149,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+150,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+151,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+152,seismic,大正関東地震,3.577,5弱未満,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅旧米蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+153,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:445,seismic,大正関東地震,5.423,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:446,seismic,大正関東地震,5.423,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:447,seismic,大正関東地震,5.43,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:448,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:449,seismic,大正関東地震,5.423,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:450,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:451,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:452,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:453,seismic,大正関東地震,5.428,5強,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:54,seismic,大正関東地震,5.355,5強,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,大正関東地震,想定震度｜大正関東地震
+29,seismic,南海トラフ巨大地震,4.928,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+104,seismic,南海トラフ巨大地震,5.005,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+143,seismic,南海トラフ巨大地震,4.884,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+144,seismic,南海トラフ巨大地震,4.982,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+145,seismic,南海トラフ巨大地震,4.97,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+147,seismic,南海トラフ巨大地震,4.929,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+193,seismic,南海トラフ巨大地震,4.875,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+226,seismic,南海トラフ巨大地震,4.97,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+227,seismic,南海トラフ巨大地震,4.97,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+228,seismic,南海トラフ巨大地震,4.962,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+229,seismic,南海トラフ巨大地震,4.873,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+230,seismic,南海トラフ巨大地震,4.849,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+30,seismic,南海トラフ巨大地震,3.911,5弱未満,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+31,seismic,南海トラフ巨大地震,4.994,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+32,seismic,南海トラフ巨大地震,4.959,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+33,seismic,南海トラフ巨大地震,4.803,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+34,seismic,南海トラフ巨大地震,4.886,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+35,seismic,南海トラフ巨大地震,5.333,5強,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+36,seismic,南海トラフ巨大地震,4.856,5弱,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+37,seismic,南海トラフ巨大地震,4.97,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+38,seismic,南海トラフ巨大地震,4.908,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+39,seismic,南海トラフ巨大地震,4.964,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+40,seismic,南海トラフ巨大地震,4.982,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+41,seismic,南海トラフ巨大地震,4.982,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+42,seismic,南海トラフ巨大地震,4.963,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+43,seismic,南海トラフ巨大地震,5.004,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+44,seismic,南海トラフ巨大地震,4.847,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+45,seismic,南海トラフ巨大地震,4.842,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+46,seismic,南海トラフ巨大地震,4.878,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+47,seismic,南海トラフ巨大地震,4.842,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+48,seismic,南海トラフ巨大地震,4.885,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+49,seismic,南海トラフ巨大地震,4.982,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+50,seismic,南海トラフ巨大地震,4.911,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+51,seismic,南海トラフ巨大地震,4.847,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+52,seismic,南海トラフ巨大地震,4.906,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+53,seismic,南海トラフ巨大地震,4.974,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+54,seismic,南海トラフ巨大地震,4.866,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+88,seismic,南海トラフ巨大地震,4.762,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+89,seismic,南海トラフ巨大地震,4.991,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+90,seismic,南海トラフ巨大地震,4.766,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+91,seismic,南海トラフ巨大地震,5.359,5強,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+92,seismic,南海トラフ巨大地震,4.965,5弱,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+99,seismic,南海トラフ巨大地震,4.892,5弱,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+100,seismic,南海トラフ巨大地震,4.265,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,五日市の市神様,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+101,seismic,南海トラフ巨大地震,4.265,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,二宮神社の算額絵馬,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+102,seismic,南海トラフ巨大地震,3.454,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+111,seismic,南海トラフ巨大地震,3.89,5弱未満,,,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,草花ばやし,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+146,seismic,南海トラフ巨大地震,4.959,5弱,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+148,seismic,南海トラフ巨大地震,5.235,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅見世蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+149,seismic,南海トラフ巨大地震,5.228,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+150,seismic,南海トラフ巨大地震,5.223,5強,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+151,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+152,seismic,南海トラフ巨大地震,4.299,5弱未満,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅旧米蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+153,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:445,seismic,南海トラフ巨大地震,4.896,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:446,seismic,南海トラフ巨大地震,4.896,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:447,seismic,南海トラフ巨大地震,4.903,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:448,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:449,seismic,南海トラフ巨大地震,4.896,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:450,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:451,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:452,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:453,seismic,南海トラフ巨大地震,4.899,5弱,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:54,seismic,南海トラフ巨大地震,4.868,5弱,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+29,fire,延焼危険度,3.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+104,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+143,fire,延焼危険度,3.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+144,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+145,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+147,fire,延焼危険度,5.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+193,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+226,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+227,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+228,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+229,fire,延焼危険度,2.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+230,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+31,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+32,fire,延焼危険度,5.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+33,fire,延焼危険度,3.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+34,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+35,fire,延焼危険度,6.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+36,fire,延焼危険度,4.0,,,,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+37,fire,延焼危険度,2.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+38,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+39,fire,延焼危険度,3.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+40,fire,延焼危険度,6.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+41,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+42,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+43,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+44,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+45,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+46,fire,延焼危険度,6.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+47,fire,延焼危険度,3.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+48,fire,延焼危険度,3.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+49,fire,延焼危険度,6.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+50,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+51,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+52,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+53,fire,延焼危険度,3.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+54,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+88,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+89,fire,延焼危険度,6.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+90,fire,延焼危険度,5.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+91,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+92,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+99,fire,延焼危険度,4.0,,,,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+146,fire,延焼危険度,2.0,,,,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+149,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+150,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+151,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+153,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:445,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:446,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:447,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:448,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:449,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅西蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:450,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅前の蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:451,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:452,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅味噌蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:453,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:54,fire,延焼危険度,3.0,,,,13228,あきる野市,National,Designated,記念物,天然記念物,point,西秋留石器時代住居跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+143,liquefaction,多摩東部直下地震,0.4075,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+143,liquefaction,大正関東地震,0.1275,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,液状化,大正関東地震,液状化｜大正関東地震
+143,liquefaction,立川断層帯地震,0.2125,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,液状化,立川断層帯地震,液状化｜立川断層帯地震
+35,liquefaction,南海トラフ巨大地震,1.3764,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+35,liquefaction,多摩東部直下地震,5.8836,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+35,liquefaction,大正関東地震,5.106,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,液状化,大正関東地震,液状化｜大正関東地震
+35,liquefaction,都心南部直下地震,6.1524,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,液状化,都心南部直下地震,液状化｜都心南部直下地震
+38,liquefaction,南海トラフ巨大地震,0.140769231,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+38,liquefaction,多摩東部直下地震,2.062307692,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+38,liquefaction,大正関東地震,1.09,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,液状化,大正関東地震,液状化｜大正関東地震
+38,liquefaction,立川断層帯地震,0.033846154,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,液状化,立川断層帯地震,液状化｜立川断層帯地震
+38,liquefaction,都心南部直下地震,1.462307692,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+39,liquefaction,多摩東部直下地震,10.19130435,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+39,liquefaction,大正関東地震,9.584782609,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,液状化,大正関東地震,液状化｜大正関東地震
+39,liquefaction,都心南部直下地震,10.82652174,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,液状化,都心南部直下地震,液状化｜都心南部直下地震
+40,liquefaction,南海トラフ巨大地震,0.366666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+40,liquefaction,多摩東部直下地震,6.898888889,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+40,liquefaction,大正関東地震,6.147777778,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+40,liquefaction,都心南部直下地震,7.815555556,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+41,liquefaction,南海トラフ巨大地震,0.29,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+41,liquefaction,多摩東部直下地震,13.24,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+41,liquefaction,大正関東地震,9.68,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+41,liquefaction,都心南部直下地震,13.24,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+43,liquefaction,多摩東部直下地震,1.8625,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+43,liquefaction,大正関東地震,0.224166667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,液状化,大正関東地震,液状化｜大正関東地震
+45,liquefaction,南海トラフ巨大地震,0.04,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+45,liquefaction,多摩東部直下地震,2.568571429,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+45,liquefaction,大正関東地震,0.778571429,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,液状化,大正関東地震,液状化｜大正関東地震
+45,liquefaction,都心南部直下地震,2.081428571,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+46,liquefaction,南海トラフ巨大地震,0.66,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+46,liquefaction,多摩東部直下地震,8.48,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+46,liquefaction,大正関東地震,6.6,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,液状化,大正関東地震,液状化｜大正関東地震
+46,liquefaction,立川断層帯地震,0.42,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,液状化,立川断層帯地震,液状化｜立川断層帯地震
+46,liquefaction,都心南部直下地震,7.49,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+48,liquefaction,多摩東部直下地震,1.621333333,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+48,liquefaction,大正関東地震,0.382666667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),液状化,大正関東地震,液状化｜大正関東地震
+48,liquefaction,立川断層帯地震,1.257333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),液状化,立川断層帯地震,液状化｜立川断層帯地震
+48,liquefaction,都心南部直下地震,0.066666667,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺中門(朱雀門),液状化,都心南部直下地震,液状化｜都心南部直下地震
+50,liquefaction,南海トラフ巨大地震,0.04,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+50,liquefaction,多摩東部直下地震,2.568571429,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+50,liquefaction,大正関東地震,0.778571429,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+50,liquefaction,都心南部直下地震,2.081428571,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+54,liquefaction,多摩東部直下地震,1.868125,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+54,liquefaction,大正関東地震,1.104375,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+54,liquefaction,立川断層帯地震,1.76625,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,液状化,立川断層帯地震,液状化｜立川断層帯地震
+54,liquefaction,都心南部直下地震,0.6975,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+89,liquefaction,南海トラフ巨大地震,0.66,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+89,liquefaction,多摩東部直下地震,8.48,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+89,liquefaction,大正関東地震,6.6,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,液状化,大正関東地震,液状化｜大正関東地震
+89,liquefaction,立川断層帯地震,0.42,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,液状化,立川断層帯地震,液状化｜立川断層帯地震
+89,liquefaction,都心南部直下地震,7.49,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,液状化,都心南部直下地震,液状化｜都心南部直下地震
+90,liquefaction,南海トラフ巨大地震,0.04,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+90,liquefaction,多摩東部直下地震,2.568571429,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+90,liquefaction,大正関東地震,0.778571429,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,液状化,大正関東地震,液状化｜大正関東地震
+90,liquefaction,都心南部直下地震,2.081428571,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,液状化,都心南部直下地震,液状化｜都心南部直下地震
+43,river_flooding,L2（想定最大規模）,0.058,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+43,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+31,river_flooding,L2（想定最大規模）,12.91,10m以上20m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+99,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+145,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+145,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+145,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+35,river_flooding,L2（想定最大規模）,1.09,0.5m以上3m未満,隅田川・新河岸川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+35,high_tide,PLATEAU建築物リスク,0.98,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+54,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+33,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+144,river_flooding,L2（想定最大規模）,0.11,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+50,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+34,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+39,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+39,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+39,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+40,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+41,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+46,river_flooding,L2（想定最大規模）,0.025,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+89,river_flooding,L2（想定最大規模）,0.025,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+52,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+52,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+53,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+53,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+91,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+91,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+40,river_flooding,L2（想定最大規模）,0.171,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+40,river_flooding,L2（想定最大規模）,0.171,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+49,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+49,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+144,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+39,river_flooding,L2（想定最大規模）,0.011,0.5m未満,城南地区河川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+29,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+143,river_flooding,L2（想定最大規模）,1.98,0.5m以上3m未満,多摩川水系秋川・北秋川・養沢川・平井川・氷沢川・鯉川・玉の内川・北大久野川,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+143,river_flooding,L2（想定最大規模）,1.98,0.5m以上3m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+92,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+92,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+43,river_flooding,L2（想定最大規模）,0.071,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+44,river_flooding,L2（想定最大規模）,0.071,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+51,river_flooding,L2（想定最大規模）,0.071,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+42,river_flooding,L2（想定最大規模）,0.02,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+42,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+230,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+36,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+32,river_flooding,L2（想定最大規模）,1.97,0.5m以上3m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+146,river_flooding,L2（想定最大規模）,1.97,0.5m以上3m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+32,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+146,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+32,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+146,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+35,river_flooding,L2（想定最大規模）,0.052,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+49,river_flooding,L2（想定最大規模）,0.052,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+40,river_flooding,L2（想定最大規模）,0.063,0.5m未満,城南地区河川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+104,river_flooding,L2（想定最大規模）,0.16,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+104,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+32,river_flooding,L2（想定最大規模）,0.002,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+43,river_flooding,L2（想定最大規模）,0.08,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+45,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+45,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+41,river_flooding,L2（想定最大規模）,0.011,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+34,river_flooding,L2（想定最大規模）,0.294,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+229,river_flooding,L2（想定最大規模）,0.1,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+35,river_flooding,L2（想定最大規模）,0.1,0.5m未満,秋川・平井川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+229,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+35,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+49,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+36,river_flooding,L2（想定最大規模）,0.013,0.5m未満,神田川流域,PLATEAU building risk,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+35,high_tide,,0.77,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,高潮,高潮,高潮｜高潮
+39,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,河川浸水,河川浸水,河川浸水｜河川浸水
+40,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+42,river_flooding,,0.02,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,河川浸水,河川浸水,河川浸水｜河川浸水
+43,river_flooding,,0.04,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+89,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,河川浸水,河川浸水,河川浸水｜河川浸水
+34,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,河川浸水,河川浸水,河川浸水｜河川浸水
+32,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,河川浸水,河川浸水,河川浸水｜河川浸水
+38,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺山門,河川浸水,河川浸水,河川浸水｜河川浸水
+35,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,河川浸水,河川浸水｜河川浸水
+49,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+36,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,河川浸水,河川浸水｜河川浸水
+31,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,河川浸水,河川浸水,河川浸水｜河川浸水
+41,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+43,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+44,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,真照寺の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+51,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社宮殿,河川浸水,河川浸水,河川浸水｜河川浸水
+40,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+46,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺観音堂,河川浸水,河川浸水,河川浸水｜河川浸水
+89,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,大悲願寺井戸枠,河川浸水,河川浸水,河川浸水｜河川浸水
+88,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,瑞雲寺板碑,河川浸水,河川浸水,河川浸水｜河川浸水
+91,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,河川浸水,河川浸水,河川浸水｜河川浸水
+92,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,河川浸水,河川浸水,河川浸水｜河川浸水
+45,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+50,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+90,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,ところ芋の碑,河川浸水,河川浸水,河川浸水｜河川浸水
+33,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,六枚屏風岩,河川浸水,河川浸水,河川浸水｜河川浸水
+29,river_flooding,,0.06,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,河川浸水,河川浸水,河川浸水｜河川浸水
+40,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,三島神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+41,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,武多摩神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+49,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+144,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+229,river_flooding,,0.1,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,河川浸水,河川浸水｜河川浸水
+35,river_flooding,,0.1,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,河川浸水,河川浸水｜河川浸水
+53,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+104,river_flooding,,0.15,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,河川浸水,河川浸水,河川浸水｜河川浸水
+99,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,河川浸水,河川浸水,河川浸水｜河川浸水
+145,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,河川浸水,河川浸水,河川浸水｜河川浸水
+92,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:451,river_flooding,,0.11,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅見世蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:453,river_flooding,,0.11,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅門,河川浸水,河川浸水,河川浸水｜河川浸水
+143,river_flooding,,1.97,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,河川浸水,河川浸水,河川浸水｜河川浸水
+54,river_flooding,,1.11,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,森山神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+230,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,河川浸水,河川浸水｜河川浸水
+36,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,河川浸水,河川浸水,河川浸水｜河川浸水
+45,river_flooding,,0.03,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+39,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,河川浸水,河川浸水,河川浸水｜河川浸水
+32,river_flooding,,1.97,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,河川浸水,河川浸水,河川浸水｜河川浸水
+146,river_flooding,,1.97,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),河川浸水,河川浸水,河川浸水｜河川浸水
+34,river_flooding,,0.09,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,慈勝寺のモッコク,河川浸水,河川浸水,河川浸水｜河川浸水
+31,river_flooding,,12.91,5 m以上,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,河川浸水,河川浸水,河川浸水｜河川浸水
+43,river_flooding,,0.08,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,河川浸水,河川浸水,河川浸水｜河川浸水
+52,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+91,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,河川浸水,河川浸水,河川浸水｜河川浸水
+50,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,二宮神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+226,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,河川浸水,河川浸水,河川浸水｜河川浸水
+227,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,河川浸水,河川浸水,河川浸水｜河川浸水
+228,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,河川浸水,河川浸水,河川浸水｜河川浸水
+37,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,河川浸水,河川浸水,河川浸水｜河川浸水
+47,river_flooding,,0.11,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:445,river_flooding,,0.17,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,河川浸水,河川浸水,河川浸水｜河川浸水
+35,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,河川浸水,河川浸水｜河川浸水
+35,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,河川浸水,想定最大規模,河川浸水｜想定最大規模
+104,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+144,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+145,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+226,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+227,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+229,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+32,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+35,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+37,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,広徳寺総門,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+39,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,開光院本堂・庫裏,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+42,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,八雲神社の五輪塔,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+43,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,花蔵院の山門,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+45,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,福徳寺の山門,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+47,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,大悲願寺楼門(仁王門),土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+49,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,旧市倉家住宅,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+52,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,雨武主神社本殿,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+53,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,有形文化財,未細分,building_direct,子生神社本殿,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+102,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+146,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+151,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

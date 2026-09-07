@@ -1,6 +1,12 @@
-# build_museum_manifest.py
+# Museumソース収集・所在地Collector
 
 `build_museum_manifest.py` は、東京都内の博物館・資料館・美術館・動物園・水族館等について、複数の公開名簿から候補レコードを収集し、名称と自治体コードを正規化したうえで、重複照合用のManifestを生成するスクリプトです。
+
+`scripts/build_museum_locations.py` v0.2.5は、245件のcanonical施設について、PLATEAU照合より先に所在地の特定率を高めるための標準Collectorです。既存Manifest、確認済みoverride、文化遺産オンライン、追加の公式一覧CSV、施設公式ページを優先順位付きで統合し、原データを変更せず`data/museum_location_enrichment.csv`へoverlayとして保存します。自動受理できない候補は`data/museum_location_review.csv`へ分離します。v0.2.5ではABR v2の配列内`result`と、ABR v3のGeoJSON FeatureCollectionの両方を展開し、自治体コードと座標値域を検証してから座標を採用します。
+
+所在地抽出では、住所の直後に連結されたTEL・FAX、交通案内、バリアフリー案内、建物の設計・施工情報等を除去し、`国立市…`のように都道府県名が省略された公式表記へ`東京都`を補います。阿拉伯数字のみならず、`青海二丁目地先`のような正式住所も受理します。際限なく抽出できない不正値や本文混入値は自動採用せず、候補と出典URLをreview出力に残します。照合は`正規化名称 + 5桁自治体コード`の完全一致に限定し、あいまい一致は行いません。同順位の出典が異なる住所を示した場合は自動採用しません。施設別の確認済み所在地と公式所在地ページは`config/location_source_overrides.csv`で明示できます。
+
+従来の`scripts/enrich_museum_locations.py`はHTML抽出・ABR接続の互換部品として残しますが、単独実行は標準フローから廃止します。
 
 文化庁「全国の博物館」の登録博物館・指定施設を中核データとし、博物館関係団体、自治体、地域ミュージアムネットワーク等を追加ソースとして扱います。令和6年度社会教育調査における東京都の210施設は規模の参照値であり、出力件数を210へ一致させる処理は行いません。
 
@@ -27,16 +33,26 @@ Museum/source/
 ├── config/
 │   ├── sources.json
 │   ├── tokyo_municipalities.csv
-│   └── name_aliases.csv
+│   ├── name_aliases.csv
+│   ├── location_source_overrides.csv
+│   └── location_source_records.example.csv
 ├── scripts/
-│   └── build_museum_manifest.py
+│   ├── build_museum_manifest.py
+│   ├── build_museum_locations.py
+│   └── enrich_museum_locations.py       # 内部互換部品
 ├── tests/
-│   └── test_build_museum_manifest.py
+│   ├── test_build_museum_manifest.py
+│   ├── test_build_museum_locations.py
+│   └── test_enrich_museum_locations.py
 ├── cache/                         # 取得HTML。Git管理対象外
 └── data/
     ├── museum_sources_manifest.csv
     ├── museum_candidates.csv
     ├── museum_reconciliation.csv
+    ├── museum_location_enrichment.csv
+    ├── museum_location_review.csv
+    ├── museum_location_candidates.csv
+    ├── museum_location_summary.json
     ├── summary.json
     └── MUSEUM_DATA_MANIFEST.md
 ```
@@ -69,6 +85,61 @@ python Museum/source/scripts/build_museum_manifest.py
 ```
 
 既定では、キャッシュが存在する情報源はキャッシュを使用し、存在しない情報源だけをネットワークから取得します。出力は `Museum/source/data/` に作成されます。
+
+## 所在地Collector（標準フロー）
+
+Manifest生成後に実行します。
+
+```bash
+python Museum/source/scripts/build_museum_locations.py
+```
+
+Collectorは次の順で所在地候補を評価します。
+
+| 優先度 | 出典 | 採用条件 |
+|---:|---|---|
+| 120 | `location_source_overrides.csv` | 人が公式ページを確認済み |
+| 110 | 既存canonical Manifest | 中核・追加ソースが保持する既存住所 |
+| 100 | canonical施設の公式ページ | 施設名・自治体を支持する単一住所 |
+| 90 | `--location-source-csv` | 追加した公的・公式一覧との完全一致 |
+| 80 | 文化遺産オンライン | 施設詳細の名称＋自治体コード完全一致 |
+
+文化遺産オンラインは東京都の施設一覧と各施設詳細ページを構造化ソースとして取得します。未解決施設だけに公式ページ探索を実行するため、245件すべてを一律に検索する方式ではありません。公式HTMLは既定では保存せず、利用条件上保存可能と確認した場合だけ`--cache-official-pages`を指定します。文化遺産オンラインの一覧・詳細は再現性確保のため専用cacheへ保存します。
+
+日本博物館協会、文化庁、自治体等から別途取得した公式一覧CSVを追加する場合は、`config/location_source_records.example.csv`を複製して実データへ置換し、次のように指定します。オプションは複数回指定できます。
+
+```bash
+python Museum/source/scripts/build_museum_locations.py \
+  --location-source-csv /path/to/japan_museum_association_tokyo.csv \
+  --location-source-csv /path/to/municipal_official_museums.csv
+```
+
+必須列は`facility_name,address`です。`municipality_code`が空の場合のみ、住所に含まれる東京都区市町村名から5桁コードを保守的に補います。`source_id`、`source_url`、`source_authority`、`priority`等も保持できます。
+
+現在のローカル入力だけを使う安全な基準値は、所在地確定121/245件（49.4%）です。外部取得による改善目標は、60%超の148件以上を最低基準、90%超の221件以上を理想基準とします。実行ごとに`museum_location_summary.json`へ件数、率、出典別採用件数、目標到達可否を記録します。
+
+主なオプションは次のとおりです。
+
+| オプション | 内容 |
+|---|---|
+| `--refresh` | 文化遺産オンラインのcacheを再取得する |
+| `--offline` | 構造化ソースをcacheだけで処理する |
+| `--location-source-csv PATH` | 追加の公式所在地一覧を読み込む（複数指定可） |
+| `--skip-cultural-online` | 文化遺産オンラインを使用しない |
+| `--skip-official-fallback` | 残件の施設公式ページ探索を行わない |
+| `--cache-official-pages` | 利用条件確認済みの場合だけ公式ページHTMLを保存する |
+| `--abr-api-base URL` | 受理住所をデジタル庁ABR互換APIで座標化する（`ABR_GEOCODER_URL`でも指定可） |
+
+出力は次の4ファイルです。
+
+| ファイル | 内容 |
+|---|---|
+| `museum_location_enrichment.csv` | 確定所在地。GPKG生成ツールが直接読むoverlay |
+| `museum_location_review.csv` | 未解決または住所競合で要確認の施設 |
+| `museum_location_candidates.csv` | 採用・不採用・未照合を含む候補監査表 |
+| `museum_location_summary.json` | KPI、出典別件数、取得状態 |
+
+所在地確定後、博物館機能・展示室・収蔵庫の所在階は`config/facility_spaces.csv`へ別途記録します。これは建物自体の地上・地下階数とは異なる施設内空間情報です。複数階は用途・連続階範囲ごとに複数行とし、未調査の収蔵庫を「なし」と推定しません。GPKG生成時に`museum_facility_spaces`と`museum_space_hazard_assessment`へ変換されます。
 
 ## コマンドラインオプション
 
@@ -153,7 +224,7 @@ alias,canonical_name,reason
 | `bunkyo` | 文の京ミュージアムネットワーク加入施設 |
 | `minato` | 港区ミュージアムネットワーク加盟館 |
 
-文化遺産オンライン、日本博物館協会など、安定した一括取得方法をまだ確定していない情報源は `manifest_only` として登録しています。
+文化遺産オンラインは施設Manifest側では`manifest_only`ですが、所在地Collectorが東京都一覧と施設詳細を直接取得します。日本博物館協会など、安定した一括取得方法をまだ確定していない情報源は`manifest_only`のままとし、入手した公式一覧を`--location-source-csv`で追加できます。
 
 ## 名称正規化
 

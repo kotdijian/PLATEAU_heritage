@@ -1,0 +1,369 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+5,seismic,都心南部直下地震,6.143,6強以上,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+96,seismic,都心南部直下地震,5.948,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+97,seismic,都心南部直下地震,5.705,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:15,seismic,都心南部直下地震,6.19,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:44,seismic,都心南部直下地震,6.156,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:45,seismic,都心南部直下地震,6.156,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:46,seismic,都心南部直下地震,6.156,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:47,seismic,都心南部直下地震,6.156,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:48,seismic,都心南部直下地震,6.156,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:49,seismic,都心南部直下地震,6.162,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:50,seismic,都心南部直下地震,6.177,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:51,seismic,都心南部直下地震,6.177,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:94,seismic,都心南部直下地震,6.168,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:95,seismic,都心南部直下地震,6.168,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:96,seismic,都心南部直下地震,6.168,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:97,seismic,都心南部直下地震,6.175,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:4,seismic,都心南部直下地震,6.082,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:80,seismic,都心南部直下地震,6.083,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:159,seismic,都心南部直下地震,5.99,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:161,seismic,都心南部直下地震,6.033,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:330,seismic,都心南部直下地震,6.047,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:331,seismic,都心南部直下地震,6.071,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:332,seismic,都心南部直下地震,6.069,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:346,seismic,都心南部直下地震,6.113,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:349,seismic,都心南部直下地震,6.172,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:466,seismic,都心南部直下地震,6.064,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:467,seismic,都心南部直下地震,6.064,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:468,seismic,都心南部直下地震,6.064,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:469,seismic,都心南部直下地震,6.077,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:470,seismic,都心南部直下地震,6.07,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:471,seismic,都心南部直下地震,6.077,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:472,seismic,都心南部直下地震,6.07,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:0,seismic,都心南部直下地震,6.085,6強以上,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+5,seismic,都心東部直下地震,5.968,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+96,seismic,都心東部直下地震,5.834,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+97,seismic,都心東部直下地震,5.798,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:15,seismic,都心東部直下地震,6.081,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:44,seismic,都心東部直下地震,6.034,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:45,seismic,都心東部直下地震,6.034,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:46,seismic,都心東部直下地震,6.034,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:47,seismic,都心東部直下地震,6.034,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:48,seismic,都心東部直下地震,6.034,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:49,seismic,都心東部直下地震,6.036,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:50,seismic,都心東部直下地震,6.046,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:51,seismic,都心東部直下地震,6.046,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:94,seismic,都心東部直下地震,6.04,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:95,seismic,都心東部直下地震,6.042,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:96,seismic,都心東部直下地震,6.042,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:97,seismic,都心東部直下地震,6.043,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:4,seismic,都心東部直下地震,6.019,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:80,seismic,都心東部直下地震,5.918,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:159,seismic,都心東部直下地震,5.899,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:161,seismic,都心東部直下地震,5.986,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:330,seismic,都心東部直下地震,6.128,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:331,seismic,都心東部直下地震,6.112,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:332,seismic,都心東部直下地震,6.131,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:346,seismic,都心東部直下地震,6.01,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:349,seismic,都心東部直下地震,6.041,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:466,seismic,都心東部直下地震,5.973,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:467,seismic,都心東部直下地震,5.973,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:468,seismic,都心東部直下地震,5.973,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:469,seismic,都心東部直下地震,6.002,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:470,seismic,都心東部直下地震,5.987,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:471,seismic,都心東部直下地震,6.002,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:472,seismic,都心東部直下地震,5.987,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:0,seismic,都心東部直下地震,5.917,6弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+5,seismic,都心西部直下地震,6.054,6強以上,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+96,seismic,都心西部直下地震,5.887,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+97,seismic,都心西部直下地震,5.811,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:15,seismic,都心西部直下地震,6.252,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:44,seismic,都心西部直下地震,6.093,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:45,seismic,都心西部直下地震,6.093,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:46,seismic,都心西部直下地震,6.093,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:47,seismic,都心西部直下地震,6.093,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:48,seismic,都心西部直下地震,6.093,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:49,seismic,都心西部直下地震,6.102,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:50,seismic,都心西部直下地震,6.111,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:51,seismic,都心西部直下地震,6.111,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:94,seismic,都心西部直下地震,6.097,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:95,seismic,都心西部直下地震,6.102,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:96,seismic,都心西部直下地震,6.102,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:97,seismic,都心西部直下地震,6.105,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:4,seismic,都心西部直下地震,6.105,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:80,seismic,都心西部直下地震,6.002,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:159,seismic,都心西部直下地震,5.998,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:161,seismic,都心西部直下地震,6.121,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:330,seismic,都心西部直下地震,6.083,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:331,seismic,都心西部直下地震,6.081,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:332,seismic,都心西部直下地震,6.086,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:346,seismic,都心西部直下地震,6.045,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:349,seismic,都心西部直下地震,6.088,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:466,seismic,都心西部直下地震,6.053,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:467,seismic,都心西部直下地震,6.053,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:468,seismic,都心西部直下地震,6.053,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:469,seismic,都心西部直下地震,6.074,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:470,seismic,都心西部直下地震,6.063,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:471,seismic,都心西部直下地震,6.074,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:472,seismic,都心西部直下地震,6.063,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:0,seismic,都心西部直下地震,6.004,6強以上,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+5,seismic,多摩東部直下地震,6.1436,6強以上,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+96,seismic,多摩東部直下地震,5.878,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+97,seismic,多摩東部直下地震,5.878,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:15,seismic,多摩東部直下地震,6.0602,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:44,seismic,多摩東部直下地震,6.0226,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:45,seismic,多摩東部直下地震,6.0226,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:46,seismic,多摩東部直下地震,6.0226,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:47,seismic,多摩東部直下地震,6.0226,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:48,seismic,多摩東部直下地震,6.0226,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:49,seismic,多摩東部直下地震,6.0292,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:50,seismic,多摩東部直下地震,6.0292,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:51,seismic,多摩東部直下地震,6.0292,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:94,seismic,多摩東部直下地震,6.0268,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:95,seismic,多摩東部直下地震,6.0256,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:96,seismic,多摩東部直下地震,6.0256,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:97,seismic,多摩東部直下地震,6.0286,6強以上,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:4,seismic,多摩東部直下地震,5.9378,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:80,seismic,多摩東部直下地震,5.8662,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:159,seismic,多摩東部直下地震,5.8286,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:161,seismic,多摩東部直下地震,5.963,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:330,seismic,多摩東部直下地震,5.9588,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:331,seismic,多摩東部直下地震,5.9442,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:332,seismic,多摩東部直下地震,5.9546,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:346,seismic,多摩東部直下地震,5.9968,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:349,seismic,多摩東部直下地震,6.0344,6強以上,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:466,seismic,多摩東部直下地震,5.8862,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:467,seismic,多摩東部直下地震,5.8862,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:468,seismic,多摩東部直下地震,5.8862,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:469,seismic,多摩東部直下地震,5.9078,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:470,seismic,多摩東部直下地震,5.897,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:471,seismic,多摩東部直下地震,5.9078,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:472,seismic,多摩東部直下地震,5.897,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:0,seismic,多摩東部直下地震,5.8668,6弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+5,seismic,多摩西部直下地震,5.574,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+96,seismic,多摩西部直下地震,5.395,5強,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+97,seismic,多摩西部直下地震,5.368,5強,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:15,seismic,多摩西部直下地震,5.711,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:44,seismic,多摩西部直下地震,5.702,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:45,seismic,多摩西部直下地震,5.702,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:46,seismic,多摩西部直下地震,5.702,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:47,seismic,多摩西部直下地震,5.702,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:48,seismic,多摩西部直下地震,5.702,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:49,seismic,多摩西部直下地震,5.708,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:50,seismic,多摩西部直下地震,5.71,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:51,seismic,多摩西部直下地震,5.71,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:94,seismic,多摩西部直下地震,5.707,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:95,seismic,多摩西部直下地震,5.705,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:96,seismic,多摩西部直下地震,5.705,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:97,seismic,多摩西部直下地震,5.71,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:4,seismic,多摩西部直下地震,5.647,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:80,seismic,多摩西部直下地震,5.517,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:159,seismic,多摩西部直下地震,5.507,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:161,seismic,多摩西部直下地震,5.539,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:330,seismic,多摩西部直下地震,5.45,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:331,seismic,多摩西部直下地震,5.447,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:332,seismic,多摩西部直下地震,5.452,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:346,seismic,多摩西部直下地震,5.678,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:349,seismic,多摩西部直下地震,5.718,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:466,seismic,多摩西部直下地震,5.618,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:467,seismic,多摩西部直下地震,5.618,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:468,seismic,多摩西部直下地震,5.618,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:469,seismic,多摩西部直下地震,5.643,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:470,seismic,多摩西部直下地震,5.63,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:471,seismic,多摩西部直下地震,5.643,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:472,seismic,多摩西部直下地震,5.63,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:0,seismic,多摩西部直下地震,5.521,6弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+5,seismic,立川断層帯地震,5.274,5強,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+96,seismic,立川断層帯地震,4.911,5弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+97,seismic,立川断層帯地震,4.911,5弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:15,seismic,立川断層帯地震,5.273,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:44,seismic,立川断層帯地震,5.123,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:45,seismic,立川断層帯地震,5.123,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:46,seismic,立川断層帯地震,5.123,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:47,seismic,立川断層帯地震,5.123,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:48,seismic,立川断層帯地震,5.123,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:49,seismic,立川断層帯地震,5.128,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:50,seismic,立川断層帯地震,5.136,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:51,seismic,立川断層帯地震,5.136,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:94,seismic,立川断層帯地震,5.131,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:95,seismic,立川断層帯地震,5.13,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:96,seismic,立川断層帯地震,5.13,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:97,seismic,立川断層帯地震,5.135,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:4,seismic,立川断層帯地震,5.101,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:80,seismic,立川断層帯地震,4.947,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:159,seismic,立川断層帯地震,4.936,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:161,seismic,立川断層帯地震,5.181,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:330,seismic,立川断層帯地震,5.12,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:331,seismic,立川断層帯地震,5.111,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:332,seismic,立川断層帯地震,5.11,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:346,seismic,立川断層帯地震,5.087,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:349,seismic,立川断層帯地震,5.141,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:466,seismic,立川断層帯地震,5.076,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:467,seismic,立川断層帯地震,5.076,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:468,seismic,立川断層帯地震,5.076,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:469,seismic,立川断層帯地震,5.108,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:470,seismic,立川断層帯地震,5.092,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:471,seismic,立川断層帯地震,5.108,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:472,seismic,立川断層帯地震,5.092,5強,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:0,seismic,立川断層帯地震,4.949,5弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+5,seismic,大正関東地震,5.802,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,大正関東地震,想定震度｜大正関東地震
+96,seismic,大正関東地震,5.633,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,大正関東地震,想定震度｜大正関東地震
+97,seismic,大正関東地震,5.527,6弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:15,seismic,大正関東地震,5.989,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:44,seismic,大正関東地震,5.769,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:45,seismic,大正関東地震,5.769,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:46,seismic,大正関東地震,5.769,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:47,seismic,大正関東地震,5.769,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:48,seismic,大正関東地震,5.769,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:49,seismic,大正関東地震,5.77,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:50,seismic,大正関東地震,5.773,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:51,seismic,大正関東地震,5.773,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:94,seismic,大正関東地震,5.773,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:95,seismic,大正関東地震,5.772,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:96,seismic,大正関東地震,5.772,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:97,seismic,大正関東地震,5.773,6弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:4,seismic,大正関東地震,5.832,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:80,seismic,大正関東地震,5.743,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:159,seismic,大正関東地震,5.732,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:161,seismic,大正関東地震,5.911,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:330,seismic,大正関東地震,5.87,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:331,seismic,大正関東地震,5.876,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:332,seismic,大正関東地震,5.891,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:346,seismic,大正関東地震,5.735,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:349,seismic,大正関東地震,5.778,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:466,seismic,大正関東地震,5.774,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:467,seismic,大正関東地震,5.774,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:468,seismic,大正関東地震,5.774,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:469,seismic,大正関東地震,5.797,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:470,seismic,大正関東地震,5.786,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:471,seismic,大正関東地震,5.797,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:472,seismic,大正関東地震,5.786,6弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:0,seismic,大正関東地震,5.747,6弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,大正関東地震,想定震度｜大正関東地震
+5,seismic,南海トラフ巨大地震,4.905,5弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+96,seismic,南海トラフ巨大地震,4.869,5弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+97,seismic,南海トラフ巨大地震,4.869,5弱,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:15,seismic,南海トラフ巨大地震,5.044,5強,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:44,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:45,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:46,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:47,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:48,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:49,seismic,南海トラフ巨大地震,4.96,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:50,seismic,南海トラフ巨大地震,4.963,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:51,seismic,南海トラフ巨大地震,4.963,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:94,seismic,南海トラフ巨大地震,4.959,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:95,seismic,南海トラフ巨大地震,4.961,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:96,seismic,南海トラフ巨大地震,4.961,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:97,seismic,南海トラフ巨大地震,4.959,5弱,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:4,seismic,南海トラフ巨大地震,4.962,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:80,seismic,南海トラフ巨大地震,4.843,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:159,seismic,南海トラフ巨大地震,4.823,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:161,seismic,南海トラフ巨大地震,4.934,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:330,seismic,南海トラフ巨大地震,4.909,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:331,seismic,南海トラフ巨大地震,4.905,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:332,seismic,南海トラフ巨大地震,4.914,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:346,seismic,南海トラフ巨大地震,4.919,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:349,seismic,南海トラフ巨大地震,4.958,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:466,seismic,南海トラフ巨大地震,4.939,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:467,seismic,南海トラフ巨大地震,4.939,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:468,seismic,南海トラフ巨大地震,4.939,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:469,seismic,南海トラフ巨大地震,4.964,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:470,seismic,南海トラフ巨大地震,4.951,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:471,seismic,南海トラフ巨大地震,4.964,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:472,seismic,南海トラフ巨大地震,4.951,5弱,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:0,seismic,南海トラフ巨大地震,4.844,5弱,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+5,fire,延焼危険度,5.0,,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+96,fire,延焼危険度,3.0,,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+97,fire,延焼危険度,3.0,,,,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:15,fire,延焼危険度,4.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:44,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:45,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:46,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:47,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:48,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:49,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:50,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:51,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:94,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:95,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:96,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:97,fire,延焼危険度,2.0,,,,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:4,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:80,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:159,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:161,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:330,fire,延焼危険度,5.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:331,fire,延焼危険度,3.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:332,fire,延焼危険度,5.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:346,fire,延焼危険度,3.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:349,fire,延焼危険度,2.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:466,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:467,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:468,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:469,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:470,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:471,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:472,fire,延焼危険度,4.0,,,,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:0,fire,延焼危険度,4.0,,,,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+5,liquefaction,南海トラフ巨大地震,0.366666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+5,liquefaction,多摩東部直下地震,6.898888889,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+5,liquefaction,大正関東地震,6.147777778,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,液状化,大正関東地震,液状化｜大正関東地震
+5,liquefaction,都心南部直下地震,7.815555556,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+96,liquefaction,南海トラフ巨大地震,0.0425,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+96,liquefaction,多摩東部直下地震,1.5875,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+96,liquefaction,大正関東地震,1.4825,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,液状化,大正関東地震,液状化｜大正関東地震
+96,liquefaction,都心南部直下地震,1.7275,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:4,liquefaction,南海トラフ巨大地震,0.34,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:4,liquefaction,多摩東部直下地震,4.301666667,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:4,liquefaction,大正関東地震,3.868333333,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:4,liquefaction,都心南部直下地震,4.785,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:80,liquefaction,南海トラフ巨大地震,0.66,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:80,liquefaction,多摩東部直下地震,11.7025,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:80,liquefaction,大正関東地震,10.91375,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:80,liquefaction,立川断層帯地震,0.09125,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:80,liquefaction,都心南部直下地震,13.09875,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:0,liquefaction,南海トラフ巨大地震,0.366666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:0,liquefaction,多摩東部直下地震,6.898888889,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:0,liquefaction,大正関東地震,6.147777778,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:0,liquefaction,都心南部直下地震,7.815555556,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:466,river_flooding,L2（想定最大規模）,0.011,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:468,river_flooding,L2（想定最大規模）,0.013,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:467,river_flooding,L2（想定最大規模）,0.013,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:470,river_flooding,L2（想定最大規模）,0.007,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:80,river_flooding,L2（想定最大規模）,0.019,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:4,river_flooding,L2（想定最大規模）,0.009,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:332,river_flooding,L2（想定最大規模）,0.348,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:472,river_flooding,L2（想定最大規模）,0.033,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+5,river_flooding,L1（計画規模）,0.94,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+5,river_flooding,L2（想定最大規模）,2.2,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+96,river_flooding,L2（想定最大規模）,0.003,0.5m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+96,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+5,river_flooding,L2（想定最大規模）,0.554,0.5m以上3m未満,城南地区河川流域,PLATEAU building risk,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:80,river_flooding,,0.019,0–0.5 m,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:159,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,河川浸水,河川浸水,河川浸水｜河川浸水
+5,river_flooding,,0.55400002,0.5–3 m,城南地区河川流域,external point-grid sampling,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,河川浸水,河川浸水｜河川浸水
+96,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:15,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,円融寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:94,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:96,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:44,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:46,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:47,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:48,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:349,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:346,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:4,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:161,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:331,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学七〇周年記念講堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:330,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:332,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:472,river_flooding,,0.033,0–0.5 m,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:469,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺書院,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:471,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:466,river_flooding,,0.011,0–0.5 m,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:470,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:467,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:468,river_flooding,,0.013,0–0.5 m,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:45,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:49,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:50,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:51,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,旧前田家本邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:95,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:97,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:0,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,河川浸水,河川浸水,河川浸水｜河川浸水
+5,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,河川浸水,河川浸水｜河川浸水
+96,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,河川浸水,河川浸水,河川浸水｜河川浸水
+97,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,河川浸水,河川浸水,河川浸水｜河川浸水
+5,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,河川浸水,想定最大規模,河川浸水｜想定最大規模
+96,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

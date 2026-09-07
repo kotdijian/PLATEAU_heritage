@@ -1,0 +1,209 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+195,seismic,都心南部直下地震,5.666,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+1000000001,seismic,都心南部直下地震,5.78,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+1000000002,seismic,都心南部直下地震,5.813,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+1000000003,seismic,都心南部直下地震,5.607,6弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+1000000004,seismic,都心南部直下地震,5.752,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000001,seismic,都心南部直下地震,5.722,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000002,seismic,都心南部直下地震,5.752,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000003,seismic,都心南部直下地震,5.742,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000004,seismic,都心南部直下地震,5.788,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000005,seismic,都心南部直下地震,5.919,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+2000000006,seismic,都心南部直下地震,5.634,6弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:172,seismic,都心南部直下地震,5.722,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:208,seismic,都心南部直下地震,5.792,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:209,seismic,都心南部直下地震,5.781,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:210,seismic,都心南部直下地震,5.788,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:374,seismic,都心南部直下地震,5.752,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:424,seismic,都心南部直下地震,5.919,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+195,seismic,都心東部直下地震,5.755,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+1000000001,seismic,都心東部直下地震,5.834,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+1000000002,seismic,都心東部直下地震,5.804,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+1000000003,seismic,都心東部直下地震,5.678,6弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+1000000004,seismic,都心東部直下地震,5.852,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000001,seismic,都心東部直下地震,5.829,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000002,seismic,都心東部直下地震,5.796,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000003,seismic,都心東部直下地震,5.808,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000004,seismic,都心東部直下地震,5.856,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000005,seismic,都心東部直下地震,6.131,6強以上,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+2000000006,seismic,都心東部直下地震,5.704,6弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:172,seismic,都心東部直下地震,5.829,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:208,seismic,都心東部直下地震,5.868,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:209,seismic,都心東部直下地震,5.843,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:210,seismic,都心東部直下地震,5.856,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:374,seismic,都心東部直下地震,5.796,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:424,seismic,都心東部直下地震,6.131,6強以上,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+195,seismic,都心西部直下地震,5.752,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+1000000001,seismic,都心西部直下地震,5.878,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+1000000002,seismic,都心西部直下地震,5.85,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+1000000003,seismic,都心西部直下地震,5.68,6弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+1000000004,seismic,都心西部直下地震,5.874,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000001,seismic,都心西部直下地震,5.827,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000002,seismic,都心西部直下地震,5.847,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000003,seismic,都心西部直下地震,5.815,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000004,seismic,都心西部直下地震,5.857,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000005,seismic,都心西部直下地震,5.955,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+2000000006,seismic,都心西部直下地震,5.668,6弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:172,seismic,都心西部直下地震,5.827,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:208,seismic,都心西部直下地震,5.86,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:209,seismic,都心西部直下地震,5.852,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:210,seismic,都心西部直下地震,5.857,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:374,seismic,都心西部直下地震,5.847,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:424,seismic,都心西部直下地震,5.955,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+195,seismic,多摩東部直下地震,5.8472,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+1000000001,seismic,多摩東部直下地震,5.8766,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+1000000002,seismic,多摩東部直下地震,5.8366,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+1000000003,seismic,多摩東部直下地震,5.7766,6弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+1000000004,seismic,多摩東部直下地震,5.938,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000001,seismic,多摩東部直下地震,5.9168,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000002,seismic,多摩東部直下地震,5.845,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000003,seismic,多摩東部直下地震,5.8618,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000004,seismic,多摩東部直下地震,5.8944,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000005,seismic,多摩東部直下地震,6.059,6強以上,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+2000000006,seismic,多摩東部直下地震,5.7534,6弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:172,seismic,多摩東部直下地震,5.9168,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:208,seismic,多摩東部直下地震,5.8998,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:209,seismic,多摩東部直下地震,5.8878,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:210,seismic,多摩東部直下地震,5.8944,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:374,seismic,多摩東部直下地震,5.845,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:424,seismic,多摩東部直下地震,6.059,6強以上,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+195,seismic,多摩西部直下地震,5.345,5強,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+1000000001,seismic,多摩西部直下地震,5.401,5強,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+1000000002,seismic,多摩西部直下地震,5.414,5強,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+1000000003,seismic,多摩西部直下地震,5.276,5強,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+1000000004,seismic,多摩西部直下地震,5.435,5強,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000001,seismic,多摩西部直下地震,5.413,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000002,seismic,多摩西部直下地震,5.398,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000003,seismic,多摩西部直下地震,5.376,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000004,seismic,多摩西部直下地震,5.412,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000005,seismic,多摩西部直下地震,5.57,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+2000000006,seismic,多摩西部直下地震,5.258,5強,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:172,seismic,多摩西部直下地震,5.413,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:208,seismic,多摩西部直下地震,5.42,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:209,seismic,多摩西部直下地震,5.403,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:210,seismic,多摩西部直下地震,5.412,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:374,seismic,多摩西部直下地震,5.398,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:424,seismic,多摩西部直下地震,5.57,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+195,seismic,立川断層帯地震,4.869,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+1000000001,seismic,立川断層帯地震,4.931,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+1000000002,seismic,立川断層帯地震,4.919,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+1000000003,seismic,立川断層帯地震,4.793,5弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+1000000004,seismic,立川断層帯地震,4.949,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000001,seismic,立川断層帯地震,4.936,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000002,seismic,立川断層帯地震,4.909,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000003,seismic,立川断層帯地震,4.909,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000004,seismic,立川断層帯地震,4.936,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000005,seismic,立川断層帯地震,5.356,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+2000000006,seismic,立川断層帯地震,4.869,5弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:172,seismic,立川断層帯地震,4.936,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:208,seismic,立川断層帯地震,4.937,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:209,seismic,立川断層帯地震,4.934,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:210,seismic,立川断層帯地震,4.936,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:374,seismic,立川断層帯地震,4.909,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:424,seismic,立川断層帯地震,5.356,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+195,seismic,大正関東地震,5.496,5強,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,大正関東地震,想定震度｜大正関東地震
+1000000001,seismic,大正関東地震,5.556,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,大正関東地震,想定震度｜大正関東地震
+1000000002,seismic,大正関東地震,5.546,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,大正関東地震,想定震度｜大正関東地震
+1000000003,seismic,大正関東地震,5.43,5強,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,大正関東地震,想定震度｜大正関東地震
+1000000004,seismic,大正関東地震,5.565,6弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000001,seismic,大正関東地震,5.554,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000002,seismic,大正関東地震,5.562,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000003,seismic,大正関東地震,5.542,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000004,seismic,大正関東地震,5.556,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000005,seismic,大正関東地震,5.731,6弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,大正関東地震,想定震度｜大正関東地震
+2000000006,seismic,大正関東地震,5.489,5強,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:172,seismic,大正関東地震,5.554,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:208,seismic,大正関東地震,5.564,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:209,seismic,大正関東地震,5.547,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:210,seismic,大正関東地震,5.556,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:374,seismic,大正関東地震,5.562,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:424,seismic,大正関東地震,5.731,6弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,大正関東地震,想定震度｜大正関東地震
+195,seismic,南海トラフ巨大地震,4.79,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+1000000001,seismic,南海トラフ巨大地震,4.811,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+1000000002,seismic,南海トラフ巨大地震,4.809,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+1000000003,seismic,南海トラフ巨大地震,4.735,5弱,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+1000000004,seismic,南海トラフ巨大地震,4.896,5弱,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000001,seismic,南海トラフ巨大地震,4.872,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000002,seismic,南海トラフ巨大地震,4.808,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000003,seismic,南海トラフ巨大地震,4.804,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000004,seismic,南海トラフ巨大地震,4.821,5弱,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000005,seismic,南海トラフ巨大地震,5.061,5強,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+2000000006,seismic,南海トラフ巨大地震,4.744,5弱,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:172,seismic,南海トラフ巨大地震,4.872,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:208,seismic,南海トラフ巨大地震,4.825,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:209,seismic,南海トラフ巨大地震,4.815,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:210,seismic,南海トラフ巨大地震,4.821,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:374,seismic,南海トラフ巨大地震,4.808,5弱,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:424,seismic,南海トラフ巨大地震,5.061,5強,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+195,fire,延焼危険度,5.0,,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1000000001,fire,延焼危険度,6.0,,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1000000002,fire,延焼危険度,6.0,,,,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1000000003,fire,延焼危険度,5.0,,,,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1000000004,fire,延焼危険度,4.0,,,,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000001,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000002,fire,延焼危険度,6.0,,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000003,fire,延焼危険度,6.0,,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000004,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000005,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+2000000006,fire,延焼危険度,4.0,,,,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:172,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:208,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:209,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:210,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:374,fire,延焼危険度,6.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:424,fire,延焼危険度,4.0,,,,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1000000001,liquefaction,南海トラフ巨大地震,0.115714286,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+1000000001,liquefaction,多摩東部直下地震,5.237142857,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+1000000001,liquefaction,大正関東地震,3.115714286,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,液状化,大正関東地震,液状化｜大正関東地震
+1000000001,liquefaction,都心南部直下地震,4.627142857,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+1000000003,liquefaction,多摩東部直下地震,3.351111111,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+1000000003,liquefaction,大正関東地震,2.258888889,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,液状化,大正関東地震,液状化｜大正関東地震
+1000000003,liquefaction,都心南部直下地震,2.777777778,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,液状化,都心南部直下地震,液状化｜都心南部直下地震
+195,liquefaction,多摩東部直下地震,3.351111111,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+195,liquefaction,大正関東地震,2.258888889,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,液状化,大正関東地震,液状化｜大正関東地震
+195,liquefaction,都心南部直下地震,2.777777778,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,液状化,都心南部直下地震,液状化｜都心南部直下地震
+2000000002,liquefaction,多摩東部直下地震,2.38,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+2000000002,liquefaction,大正関東地震,0.135,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,液状化,大正関東地震,液状化｜大正関東地震
+2000000002,liquefaction,都心南部直下地震,1.75,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+2000000004,liquefaction,多摩東部直下地震,3.092,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+2000000004,liquefaction,大正関東地震,1.49,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,液状化,大正関東地震,液状化｜大正関東地震
+2000000004,liquefaction,都心南部直下地震,2.596,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:208,liquefaction,多摩東部直下地震,5.896363636,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:208,liquefaction,大正関東地震,1.636363636,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:208,liquefaction,都心南部直下地震,4.34,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:209,liquefaction,多摩東部直下地震,3.092,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:209,liquefaction,大正関東地震,1.49,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:209,liquefaction,都心南部直下地震,2.596,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:210,liquefaction,多摩東部直下地震,3.092,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:210,liquefaction,大正関東地震,1.49,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:210,liquefaction,都心南部直下地震,2.596,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:374,liquefaction,多摩東部直下地震,2.38,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:374,liquefaction,大正関東地震,0.135,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:374,liquefaction,都心南部直下地震,1.75,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+2000000002,river_flooding,L2（想定最大規模）,0.027,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:374,river_flooding,L2（想定最大規模）,0.027,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1000000001,river_flooding,L2（想定最大規模）,0.034,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1000000002,river_flooding,L2（想定最大規模）,0.075,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+2000000004,river_flooding,L2（想定最大規模）,0.076,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:208,river_flooding,L2（想定最大規模）,0.006,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+2000000003,river_flooding,L2（想定最大規模）,0.004,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+2000000005,river_flooding,L2（想定最大規模）,0.112,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:424,river_flooding,L2（想定最大規模）,0.112,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1000000004,river_flooding,L2（想定最大規模）,0.006,0.5m未満,神田川流域,PLATEAU building risk,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1000000002,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000004,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,未細分,building_direct,功運寺庫裏・鐘楼・山門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:208,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺庫裏,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:210,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,河川浸水,河川浸水,河川浸水｜河川浸水
+1000000001,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,河川浸水,河川浸水,河川浸水｜河川浸水
+1000000004,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000003,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000006,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,Municipal,Designated,有形文化財,未細分,building_direct,旧豊多摩監獄表門,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000002,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:374,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000005,river_flooding,,0.112000003,0–0.5 m,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,未細分,building_direct,三岸家住宅アトリエ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:424,river_flooding,,0.112000003,0–0.5 m,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,河川浸水,河川浸水,河川浸水｜河川浸水
+195,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,河川浸水,河川浸水,河川浸水｜河川浸水
+1000000003,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,河川浸水,河川浸水,河川浸水｜河川浸水
+2000000001,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:172,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,旧野方配水塔,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:209,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺山門,河川浸水,河川浸水,河川浸水｜河川浸水

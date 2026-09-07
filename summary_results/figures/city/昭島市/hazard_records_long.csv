@@ -1,0 +1,55 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+24,seismic,都心南部直下地震,5.195,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+134,seismic,都心南部直下地震,5.327,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+219,seismic,都心南部直下地震,5.308,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:377,seismic,都心南部直下地震,5.473,5強,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+24,seismic,都心東部直下地震,5.213,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+134,seismic,都心東部直下地震,5.329,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+219,seismic,都心東部直下地震,5.323,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:377,seismic,都心東部直下地震,5.527,6弱,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+24,seismic,都心西部直下地震,5.3,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+134,seismic,都心西部直下地震,5.423,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+219,seismic,都心西部直下地震,5.421,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:377,seismic,都心西部直下地震,5.571,6弱,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+24,seismic,多摩東部直下地震,5.7112,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+134,seismic,多摩東部直下地震,5.8654,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+219,seismic,多摩東部直下地震,5.8674,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:377,seismic,多摩東部直下地震,5.9122,6弱,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+24,seismic,多摩西部直下地震,5.869,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+134,seismic,多摩西部直下地震,5.976,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+219,seismic,多摩西部直下地震,5.979,6弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:377,seismic,多摩西部直下地震,5.989,6弱,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+24,seismic,立川断層帯地震,6.151,6強以上,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+134,seismic,立川断層帯地震,6.337,6強以上,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+219,seismic,立川断層帯地震,6.367,6強以上,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:377,seismic,立川断層帯地震,6.358,6強以上,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+24,seismic,大正関東地震,5.309,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,大正関東地震,想定震度｜大正関東地震
+134,seismic,大正関東地震,5.416,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,大正関東地震,想定震度｜大正関東地震
+219,seismic,大正関東地震,5.42,5強,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:377,seismic,大正関東地震,5.448,5強,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+24,seismic,南海トラフ巨大地震,4.849,5弱,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+134,seismic,南海トラフ巨大地震,4.885,5弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+219,seismic,南海トラフ巨大地震,4.882,5弱,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:377,seismic,南海トラフ巨大地震,4.921,5弱,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+24,fire,延焼危険度,4.0,,,,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+134,fire,延焼危険度,3.0,,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+219,fire,延焼危険度,3.0,,,,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:377,fire,延焼危険度,3.0,,,,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+134,liquefaction,多摩東部直下地震,1.621333333,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+134,liquefaction,大正関東地震,0.382666667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,液状化,大正関東地震,液状化｜大正関東地震
+134,liquefaction,立川断層帯地震,1.257333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,液状化,立川断層帯地震,液状化｜立川断層帯地震
+134,liquefaction,都心南部直下地震,0.066666667,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,液状化,都心南部直下地震,液状化｜都心南部直下地震
+219,liquefaction,多摩東部直下地震,1.621333333,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+219,liquefaction,大正関東地震,0.382666667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,液状化,大正関東地震,液状化｜大正関東地震
+219,liquefaction,立川断層帯地震,1.257333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,液状化,立川断層帯地震,液状化｜立川断層帯地震
+219,liquefaction,都心南部直下地震,0.066666667,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:377,liquefaction,多摩東部直下地震,6.453333333,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:377,liquefaction,大正関東地震,2.71,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:377,liquefaction,立川断層帯地震,4.642222222,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:377,liquefaction,都心南部直下地震,2.927777778,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:377,river_flooding,L1（計画規模）,0.27,0.5m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+official_export_002:377,river_flooding,L2（想定最大規模）,1.13,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+24,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:377,river_flooding,,,No data,残堀川流域,external point-grid sampling,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+24,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:377,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,河川浸水,想定最大規模,河川浸水｜想定最大規模

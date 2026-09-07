@@ -1,0 +1,125 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+140,seismic,都心南部直下地震,5.147,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+141,seismic,都心南部直下地震,5.79,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+142,seismic,都心南部直下地震,5.677,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+223,seismic,都心南部直下地震,5.686,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:109,seismic,都心南部直下地震,5.638,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:146,seismic,都心南部直下地震,5.633,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:163,seismic,都心南部直下地震,5.899,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:164,seismic,都心南部直下地震,5.899,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+140,seismic,都心東部直下地震,5.292,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+141,seismic,都心東部直下地震,5.539,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+142,seismic,都心東部直下地震,5.592,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+223,seismic,都心東部直下地震,5.695,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:109,seismic,都心東部直下地震,5.592,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:146,seismic,都心東部直下地震,5.586,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:163,seismic,都心東部直下地震,5.632,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:164,seismic,都心東部直下地震,5.632,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+140,seismic,都心西部直下地震,5.288,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+141,seismic,都心西部直下地震,5.698,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+142,seismic,都心西部直下地震,5.784,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+223,seismic,都心西部直下地震,5.876,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:109,seismic,都心西部直下地震,5.689,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:146,seismic,都心西部直下地震,5.686,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:163,seismic,都心西部直下地震,5.756,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:164,seismic,都心西部直下地震,5.756,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+140,seismic,多摩東部直下地震,5.822,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+141,seismic,多摩東部直下地震,5.8892,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+142,seismic,多摩東部直下地震,6.076,6強以上,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+223,seismic,多摩東部直下地震,5.936,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:109,seismic,多摩東部直下地震,5.8362,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:146,seismic,多摩東部直下地震,5.8286,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:163,seismic,多摩東部直下地震,5.972,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:164,seismic,多摩東部直下地震,5.972,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+140,seismic,多摩西部直下地震,5.864,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+141,seismic,多摩西部直下地震,5.747,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+142,seismic,多摩西部直下地震,5.816,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+223,seismic,多摩西部直下地震,5.743,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:109,seismic,多摩西部直下地震,5.704,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:146,seismic,多摩西部直下地震,5.697,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:163,seismic,多摩西部直下地震,5.76,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:164,seismic,多摩西部直下地震,5.76,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+140,seismic,立川断層帯地震,5.876,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+141,seismic,立川断層帯地震,5.844,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+142,seismic,立川断層帯地震,5.979,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+223,seismic,立川断層帯地震,5.786,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:109,seismic,立川断層帯地震,5.655,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:146,seismic,立川断層帯地震,5.65,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:163,seismic,立川断層帯地震,5.904,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:164,seismic,立川断層帯地震,5.904,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+140,seismic,大正関東地震,5.364,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,大正関東地震,想定震度｜大正関東地震
+141,seismic,大正関東地震,5.652,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,大正関東地震,想定震度｜大正関東地震
+142,seismic,大正関東地震,5.715,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+223,seismic,大正関東地震,5.82,6弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:109,seismic,大正関東地震,5.738,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:146,seismic,大正関東地震,5.733,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:163,seismic,大正関東地震,5.732,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:164,seismic,大正関東地震,5.732,6弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,大正関東地震,想定震度｜大正関東地震
+140,seismic,南海トラフ巨大地震,4.898,5弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+141,seismic,南海トラフ巨大地震,4.954,5弱,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+142,seismic,南海トラフ巨大地震,5.013,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+223,seismic,南海トラフ巨大地震,5.038,5強,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:109,seismic,南海トラフ巨大地震,4.973,5弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:146,seismic,南海トラフ巨大地震,4.971,5弱,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:163,seismic,南海トラフ巨大地震,5.004,5強,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:164,seismic,南海トラフ巨大地震,5.004,5強,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+140,fire,延焼危険度,3.0,,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+141,fire,延焼危険度,3.0,,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+142,fire,延焼危険度,2.0,,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+223,fire,延焼危険度,1.0,,,,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:109,fire,延焼危険度,2.0,,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:146,fire,延焼危険度,2.0,,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:163,fire,延焼危険度,4.0,,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:164,fire,延焼危険度,4.0,,,,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+142,liquefaction,多摩東部直下地震,2.3425,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+142,liquefaction,大正関東地震,0.9725,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,液状化,大正関東地震,液状化｜大正関東地震
+142,liquefaction,立川断層帯地震,1.965,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+142,liquefaction,都心南部直下地震,0.4325,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:109,liquefaction,南海トラフ巨大地震,0.288125,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:109,liquefaction,多摩東部直下地震,7.32125,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:109,liquefaction,大正関東地震,6.669375,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:109,liquefaction,立川断層帯地震,1.145,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:109,liquefaction,都心南部直下地震,6.10625,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:146,liquefaction,南海トラフ巨大地震,0.288125,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:146,liquefaction,多摩東部直下地震,7.32125,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:146,liquefaction,大正関東地震,6.669375,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:146,liquefaction,立川断層帯地震,1.145,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:146,liquefaction,都心南部直下地震,6.10625,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:163,liquefaction,南海トラフ巨大地震,0.037777778,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:163,liquefaction,多摩東部直下地震,3.796666667,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:163,liquefaction,大正関東地震,2.131111111,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:163,liquefaction,立川断層帯地震,0.521111111,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:163,liquefaction,都心南部直下地震,3.534444444,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:164,liquefaction,南海トラフ巨大地震,0.037777778,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:164,liquefaction,多摩東部直下地震,3.796666667,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:164,liquefaction,大正関東地震,2.131111111,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:164,liquefaction,立川断層帯地震,0.521111111,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:164,liquefaction,都心南部直下地震,3.534444444,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:146,river_flooding,L2（想定最大規模）,0.01,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:146,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+141,river_flooding,L2（想定最大規模）,0.01,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+141,river_flooding,L2（想定最大規模）,0.03,0.5m未満,秋川・平井川流域,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+142,river_flooding,L2（想定最大規模）,0.0,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:109,river_flooding,L2（想定最大規模）,0.0,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:109,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+142,river_flooding,L2（想定最大規模）,0.29,0.5m未満,秋川・平井川流域,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+142,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:163,river_flooding,L2（想定最大規模）,0.01,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:164,river_flooding,L2（想定最大規模）,0.01,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:163,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:164,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+140,river_flooding,L2（想定最大規模）,0.48,0.5m未満,秋川・平井川流域,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+140,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+142,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+141,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:146,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:109,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,川井家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:163,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:164,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,河川浸水,河川浸水,河川浸水｜河川浸水
+223,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,平久保のシイ,河川浸水,河川浸水,河川浸水｜河川浸水
+140,river_flooding,,0.51,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,河川浸水,河川浸水,河川浸水｜河川浸水
+141,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,霞ノ関南木戸柵跡,河川浸水,河川浸水,河川浸水｜河川浸水
+142,river_flooding,,0.28,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+140,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,稲荷塚古墳,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+142,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13224,多摩市,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩ニュータウンNo.57遺跡,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:146,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧川井家住宅土蔵,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

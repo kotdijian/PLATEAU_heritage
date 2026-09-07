@@ -1,0 +1,19 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+192,seismic,都心南部直下地震,5.712,6弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+192,seismic,都心東部直下地震,5.629,6弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+192,seismic,都心西部直下地震,5.621,6弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+192,seismic,多摩東部直下地震,5.981,6弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+192,seismic,多摩西部直下地震,5.386,5強,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+192,seismic,立川断層帯地震,5.05,5強,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+192,seismic,大正関東地震,5.595,6弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,大正関東地震,想定震度｜大正関東地震
+192,seismic,南海トラフ巨大地震,4.824,5弱,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+192,fire,延焼危険度,4.0,,,,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+192,liquefaction,南海トラフ巨大地震,0.38,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+192,liquefaction,多摩東部直下地震,14.25,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+192,liquefaction,大正関東地震,9.65,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,液状化,大正関東地震,液状化｜大正関東地震
+192,liquefaction,都心南部直下地震,10.91,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+192,river_flooding,L1（計画規模）,1.07,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+192,river_flooding,L2（想定最大規模）,1.31,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+192,river_flooding,L2（想定最大規模）,0.062,0.5m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+192,river_flooding,,0.0622,0–0.5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,河川浸水,河川浸水,河川浸水｜河川浸水
+192,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13219,狛江市,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川碑跡,河川浸水,想定最大規模,河川浸水｜想定最大規模

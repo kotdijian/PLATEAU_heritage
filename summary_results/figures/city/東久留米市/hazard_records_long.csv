@@ -1,0 +1,125 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+137,seismic,都心南部直下地震,5.677,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+138,seismic,都心南部直下地震,5.262,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+139,seismic,都心南部直下地震,5.637,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+132000000000.0,seismic,都心南部直下地震,5.779,6弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:438,seismic,都心南部直下地震,5.671,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:439,seismic,都心南部直下地震,5.608,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:440,seismic,都心南部直下地震,5.671,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:441,seismic,都心南部直下地震,5.608,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:442,seismic,都心南部直下地震,5.608,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:443,seismic,都心南部直下地震,5.608,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:444,seismic,都心南部直下地震,5.608,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+137,seismic,都心東部直下地震,5.864,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+138,seismic,都心東部直下地震,5.401,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+139,seismic,都心東部直下地震,5.828,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+132000000000.0,seismic,都心東部直下地震,5.99,6弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:438,seismic,都心東部直下地震,5.79,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:439,seismic,都心東部直下地震,5.729,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:440,seismic,都心東部直下地震,5.79,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:441,seismic,都心東部直下地震,5.729,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:442,seismic,都心東部直下地震,5.729,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:443,seismic,都心東部直下地震,5.729,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:444,seismic,都心東部直下地震,5.729,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+137,seismic,都心西部直下地震,6.006,6強以上,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+138,seismic,都心西部直下地震,5.481,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+139,seismic,都心西部直下地震,5.953,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+132000000000.0,seismic,都心西部直下地震,6.045,6強以上,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:438,seismic,都心西部直下地震,5.883,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:439,seismic,都心西部直下地震,5.825,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:440,seismic,都心西部直下地震,5.883,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:441,seismic,都心西部直下地震,5.825,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:442,seismic,都心西部直下地震,5.825,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:443,seismic,都心西部直下地震,5.825,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:444,seismic,都心西部直下地震,5.825,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+137,seismic,多摩東部直下地震,6.1396,6強以上,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+138,seismic,多摩東部直下地震,5.819,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+139,seismic,多摩東部直下地震,6.1164,6強以上,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+132000000000.0,seismic,多摩東部直下地震,6.2232,6強以上,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:438,seismic,多摩東部直下地震,6.0714,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:439,seismic,多摩東部直下地震,6.0092,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:440,seismic,多摩東部直下地震,6.0714,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:441,seismic,多摩東部直下地震,6.0092,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:442,seismic,多摩東部直下地震,6.0092,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:443,seismic,多摩東部直下地震,6.0092,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:444,seismic,多摩東部直下地震,6.0092,6強以上,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+137,seismic,多摩西部直下地震,5.856,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+138,seismic,多摩西部直下地震,5.944,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+139,seismic,多摩西部直下地震,5.761,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+132000000000.0,seismic,多摩西部直下地震,5.868,6弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:438,seismic,多摩西部直下地震,5.818,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:439,seismic,多摩西部直下地震,5.76,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:440,seismic,多摩西部直下地震,5.818,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:441,seismic,多摩西部直下地震,5.76,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:442,seismic,多摩西部直下地震,5.76,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:443,seismic,多摩西部直下地震,5.76,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:444,seismic,多摩西部直下地震,5.76,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+137,seismic,立川断層帯地震,6.13,6強以上,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+138,seismic,立川断層帯地震,6.166,6強以上,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+139,seismic,立川断層帯地震,5.73,6弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+132000000000.0,seismic,立川断層帯地震,5.911,6弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:438,seismic,立川断層帯地震,5.905,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:439,seismic,立川断層帯地震,5.839,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:440,seismic,立川断層帯地震,5.905,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:441,seismic,立川断層帯地震,5.839,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:442,seismic,立川断層帯地震,5.839,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:443,seismic,立川断層帯地震,5.839,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:444,seismic,立川断層帯地震,5.839,6弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+137,seismic,大正関東地震,5.489,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+138,seismic,大正関東地震,5.425,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+139,seismic,大正関東地震,5.421,5強,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,大正関東地震,想定震度｜大正関東地震
+132000000000.0,seismic,大正関東地震,5.609,6弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:438,seismic,大正関東地震,5.451,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:439,seismic,大正関東地震,5.388,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:440,seismic,大正関東地震,5.451,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:441,seismic,大正関東地震,5.388,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:442,seismic,大正関東地震,5.388,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:443,seismic,大正関東地震,5.388,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:444,seismic,大正関東地震,5.388,5強,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,大正関東地震,想定震度｜大正関東地震
+137,seismic,南海トラフ巨大地震,4.947,5弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+138,seismic,南海トラフ巨大地震,4.9,5弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+139,seismic,南海トラフ巨大地震,4.891,5弱,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+132000000000.0,seismic,南海トラフ巨大地震,4.994,5弱,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:438,seismic,南海トラフ巨大地震,4.894,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:439,seismic,南海トラフ巨大地震,4.856,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:440,seismic,南海トラフ巨大地震,4.894,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:441,seismic,南海トラフ巨大地震,4.856,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:442,seismic,南海トラフ巨大地震,4.856,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:443,seismic,南海トラフ巨大地震,4.856,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:444,seismic,南海トラフ巨大地震,4.856,5弱,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+137,fire,延焼危険度,4.0,,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+138,fire,延焼危険度,3.0,,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+139,fire,延焼危険度,4.0,,,,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+132000000000.0,fire,延焼危険度,5.0,,,,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:438,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:439,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:440,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:441,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:442,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:443,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:444,fire,延焼危険度,3.0,,,,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+132000000000.0,liquefaction,南海トラフ巨大地震,0.599090909,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+132000000000.0,liquefaction,多摩東部直下地震,14.31,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+132000000000.0,liquefaction,大正関東地震,6.99,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,液状化,大正関東地震,液状化｜大正関東地震
+132000000000.0,liquefaction,立川断層帯地震,2.812727273,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,液状化,立川断層帯地震,液状化｜立川断層帯地震
+132000000000.0,liquefaction,都心南部直下地震,9.68,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,液状化,都心南部直下地震,液状化｜都心南部直下地震
+139,liquefaction,多摩東部直下地震,3.663333333,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+139,liquefaction,大正関東地震,0.21,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,液状化,大正関東地震,液状化｜大正関東地震
+139,liquefaction,立川断層帯地震,0.213333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,液状化,立川断層帯地震,液状化｜立川断層帯地震
+139,liquefaction,都心南部直下地震,0.276666667,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,液状化,都心南部直下地震,液状化｜都心南部直下地震
+132000000000.0,river_flooding,L2（想定最大規模）,0.01,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+137,river_flooding,L2（想定最大規模）,0.48,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+132000000000.0,river_flooding,L2（想定最大規模）,0.01,0.5m未満,荒川水系黒目川・落合川・柳瀬川・空堀川・奈良橋川,PLATEAU building risk,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+139,river_flooding,L2（想定最大規模）,0.01,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+137,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+137,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+132000000000.0,river_flooding,,0.1,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,河川浸水,河川浸水,河川浸水｜河川浸水
+137,river_flooding,,0.46,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+139,river_flooding,,0.01,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:440,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:439,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:442,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅土蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:443,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅離れ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:438,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:441,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅中雀門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:444,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅薬医門,河川浸水,河川浸水,河川浸水｜河川浸水

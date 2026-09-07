@@ -1,0 +1,29 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+176,seismic,都心南部直下地震,6.083,6強以上,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+214,seismic,都心南部直下地震,5.804,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+176,seismic,都心東部直下地震,6.273,6強以上,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+214,seismic,都心東部直下地震,5.991,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+176,seismic,都心西部直下地震,6.19,6強以上,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+214,seismic,都心西部直下地震,5.831,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+176,seismic,多摩東部直下地震,6.019,6強以上,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+214,seismic,多摩東部直下地震,5.7848,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+176,seismic,多摩西部直下地震,5.527,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+214,seismic,多摩西部直下地震,5.27,5強,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+176,seismic,立川断層帯地震,5.012,5強,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+214,seismic,立川断層帯地震,4.626,5弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+176,seismic,大正関東地震,5.787,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,大正関東地震,想定震度｜大正関東地震
+214,seismic,大正関東地震,5.503,6弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,大正関東地震,想定震度｜大正関東地震
+176,seismic,南海トラフ巨大地震,5.172,5強,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+214,seismic,南海トラフ巨大地震,4.855,5弱,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+176,fire,延焼危険度,5.0,,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+214,fire,延焼危険度,5.0,,,,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+176,liquefaction,南海トラフ巨大地震,2.406,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+176,liquefaction,多摩東部直下地震,8.9948,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+176,liquefaction,大正関東地震,7.6668,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,液状化,大正関東地震,液状化｜大正関東地震
+176,liquefaction,立川断層帯地震,0.0204,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,液状化,立川断層帯地震,液状化｜立川断層帯地震
+176,liquefaction,都心南部直下地震,9.4088,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+176,high_tide,,0.03,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,高潮,高潮,高潮｜高潮
+214,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,河川浸水,河川浸水,河川浸水｜河川浸水
+176,river_flooding,,0.19,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,河川浸水,河川浸水,河川浸水｜河川浸水
+214,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,河川浸水,河川浸水,河川浸水｜河川浸水
+176,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,河川浸水,想定最大規模,河川浸水｜想定最大規模

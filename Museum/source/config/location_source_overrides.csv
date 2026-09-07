@@ -1,0 +1,14 @@
+museum_id,facility_name,location_url,source_authority,address,postal_code,latitude,longitude,notes
+,大名時計博物館,https://t-navi.city.taito.lg.jp/spot/1078,taito_city_official_tourism,,,,,公式URL欠損施設の所在地確認先
+,昭和女子大学光葉博物館,https://museum.swu.ac.jp/about/facilities.html,facility_official,東京都世田谷区太子堂1-7-57 7号館1階,154-8533,,,公式施設案内で所在地を確認
+,共立女子大学博物館,https://www.kyoritsu-wu.ac.jp/muse/access/,facility_official,東京都千代田区一ツ橋2-6-1 共立女子学園2号館B1F,101-0003,,,公式アクセスページで所在地を確認
+,くにたち郷土文化館,https://kuzaidan.or.jp/province/access/,public_facility_official,東京都国立市谷保6231,186-0011,,,公式アクセスページで所在地を確認
+,靖國神社遊就館,https://museum.net.city.chiyoda.lg.jp/list/shisetsu/20.php,chiyoda_city_official_museum_network,東京都千代田区九段北3-1-1,102-8246,,,千代田区公式参加館ページで所在地を確認
+MUS-13a3749db7b4,府中市美術館,https://www.city.fuchu.tokyo.jp/shisetu/komyunite/gekijo/bijyutukan.html,fuchu_city_official,東京都府中市浅間町1丁目3番地（都立府中の森公園内）,183-0001,,,府中市公式施設案内で所在地を確認 2026-09-06
+MUS-2da88e2469af,草間彌生美術館,https://yayoikusamamuseum.jp/access/,facility_official,東京都新宿区弁天町107,162-0851,,,施設公式交通案内で所在地を確認 2026-09-06
+MUS-3541571d7c2c,荏原 畠山記念館,https://www.hatakeyama-museum.org/guide/access/,facility_official,東京都港区白金台2-20-12,108-0071,,,施設公式交通案内で所在地を確認 2026-09-06
+MUS-a05dd0225aa2,切手の博物館,https://kitte-museum.jp/guide/access/,facility_official,東京都豊島区目白1-4-23,,,,施設公式アクセスページで所在地を確認 2026-09-06
+MUS-a44cfd6cc5c2,皇居三の丸尚蔵館,https://shozokan.nich.go.jp/visit/access,national_institution_official,東京都千代田区千代田1-8 皇居東御苑内,100-0001,,,国立施設公式交通アクセスで所在地を確認 2026-09-06
+MUS-ac49a46ba464,東京オペラシティアートギャラリー,https://www.operacity.jp/ag/access/,facility_official,東京都新宿区西新宿3-20-2,163-1403,,,施設公式アクセスページで所在地を確認 2026-09-06
+MUS-b2f65beb4419,古賀政男音楽博物館,https://www.koga.or.jp/access/,facility_official,東京都渋谷区上原三丁目6-12,151-0064,,,施設公式アクセスページで所在地を確認 2026-09-06
+MUS-beb0e8f2c733,世田谷区立世田谷美術館,https://www.setagayaartmuseum.or.jp/guide/access/,public_facility_official,東京都世田谷区砧公園1-2,157-0075,,,施設公式交通案内で所在地を確認 2026-09-06

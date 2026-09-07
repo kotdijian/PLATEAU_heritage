@@ -33,16 +33,20 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 import pyogrio
+from municipality_table_normalizer import finalize_municipality_tables
+from complete_risk_summary import build_complete_risk_summary
 
 
 SCENARIOS = [
     "都心南部直下地震",
     "都心東部直下地震",
     "都心西部直下地震",
+    "多摩東部直下地震",
+    "多摩西部直下地震",
+    "立川断層帯地震",
     "大正関東地震",
     "南海トラフ巨大地震",
 ]
-
 DESIGNATION_LEVEL_MAP = {
     "national": "National",
     "prefectural": "Tokyo Metropolitan",
@@ -682,7 +686,7 @@ def a31a_flood_results(
         rows: list[str],
         out_path: Path,
     ) -> None:
-
+        # Observed-only crosstab; never expand code/name to a Cartesian product.
         if df.empty:
             pd.DataFrame().to_csv(
                 out_path,
@@ -691,20 +695,44 @@ def a31a_flood_results(
             )
             return
 
-        tab = pd.crosstab(
-            index=[df[c] for c in rows],
-            columns=df["depth_class"],
-            dropna=False,
+        group_cols = list(rows) + ["depth_class"]
+        tab = (
+            df.groupby(
+                group_cols,
+                dropna=False,
+                observed=True,
+            )
+            .size()
+            .unstack("depth_class", fill_value=0)
+            .reset_index()
         )
 
         for c in A31A_DEPTH_ORDER:
             if c not in tab.columns:
                 tab[c] = 0
 
-        tab = tab[A31A_DEPTH_ORDER]
-        tab["Total"] = tab.sum(axis=1)
+        tab = tab[list(rows) + A31A_DEPTH_ORDER]
+        tab["Total"] = tab[A31A_DEPTH_ORDER].sum(axis=1)
 
-        tab.reset_index().to_csv(
+        if "municipality_code" in tab.columns:
+            tab["municipality_code"] = (
+                tab["municipality_code"]
+                .fillna("")
+                .astype(str)
+                .str.replace(r"\.0$", "", regex=True)
+                .str.zfill(5)
+            )
+            leading = [
+                c for c in rows
+                if c not in {"municipality_code", "municipality_name"}
+            ]
+            sort_cols = leading + [
+                c for c in ["municipality_code", "municipality_name"]
+                if c in tab.columns
+            ]
+            tab = tab.sort_values(sort_cols, kind="stable")
+
+        tab.to_csv(
             out_path,
             index=False,
             encoding="utf-8-sig",
@@ -1257,7 +1285,25 @@ def main() -> None:
     landslide = landslide_presence(source, locations, native)
 
     print("\n=== RISK-TYPE CROSS TABLES ===")
-    risk_long = build_risk_presence(meta, seismic, fire, best_water, a31a, landslide, tables)
+    risk_long = build_complete_risk_summary(
+        source=source,
+        locations=locations,
+        meta=meta,
+        seismic=seismic,
+        fire=fire,
+        native=native,
+        external=external,
+        a31a=a31a,
+        contents=contents,
+        tables=tables,
+        metadata_dir=metadata_dir,
+    )
+    # MUNICIPALITY_TABLE_NORMALIZATION_V4
+    finalize_municipality_tables(
+        tables=tables,
+        meta=meta,
+        metadata_dir=metadata_dir,
+    )
 
     run = {
         "source": str(source),

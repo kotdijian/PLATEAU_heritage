@@ -1,0 +1,67 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+1.32209E+11,seismic,都心南部直下地震,5.772,6弱,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:187,seismic,都心南部直下地震,5.719,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:188,seismic,都心南部直下地震,5.447,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:189,seismic,都心南部直下地震,5.719,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:190,seismic,都心南部直下地震,5.447,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+1.32209E+11,seismic,都心東部直下地震,5.856,6弱,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:187,seismic,都心東部直下地震,5.861,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:188,seismic,都心東部直下地震,5.598,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:189,seismic,都心東部直下地震,5.861,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:190,seismic,都心東部直下地震,5.598,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+1.32209E+11,seismic,都心西部直下地震,6.002,6強以上,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:187,seismic,都心西部直下地震,5.989,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:188,seismic,都心西部直下地震,5.726,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:189,seismic,都心西部直下地震,5.989,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:190,seismic,都心西部直下地震,5.726,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+1.32209E+11,seismic,多摩東部直下地震,6.2218,6強以上,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:187,seismic,多摩東部直下地震,6.1774,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:188,seismic,多摩東部直下地震,5.9048,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:189,seismic,多摩東部直下地震,6.1774,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:190,seismic,多摩東部直下地震,5.9048,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+1.32209E+11,seismic,多摩西部直下地震,6.016,6強以上,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:187,seismic,多摩西部直下地震,6.007,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:188,seismic,多摩西部直下地震,5.751,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:189,seismic,多摩西部直下地震,6.007,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:190,seismic,多摩西部直下地震,5.751,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+1.32209E+11,seismic,立川断層帯地震,6.569,6強以上,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:187,seismic,立川断層帯地震,6.043,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:188,seismic,立川断層帯地震,5.805,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:189,seismic,立川断層帯地震,6.043,6強以上,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:190,seismic,立川断層帯地震,5.805,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+1.32209E+11,seismic,大正関東地震,5.677,6弱,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:187,seismic,大正関東地震,5.634,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:188,seismic,大正関東地震,5.361,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:189,seismic,大正関東地震,5.634,6弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:190,seismic,大正関東地震,5.361,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,大正関東地震,想定震度｜大正関東地震
+1.32209E+11,seismic,南海トラフ巨大地震,5.148,5強,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:187,seismic,南海トラフ巨大地震,5.005,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:188,seismic,南海トラフ巨大地震,4.833,5弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:189,seismic,南海トラフ巨大地震,5.005,5強,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:190,seismic,南海トラフ巨大地震,4.833,5弱,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+1.32209E+11,fire,延焼危険度,4.0,,,,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:187,fire,延焼危険度,3.0,,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:188,fire,延焼危険度,3.0,,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:189,fire,延焼危険度,3.0,,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:190,fire,延焼危険度,3.0,,,,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+1.32209E+11,liquefaction,南海トラフ巨大地震,0.04375,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+1.32209E+11,liquefaction,多摩東部直下地震,4.225714286,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+1.32209E+11,liquefaction,大正関東地震,2.108333333,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),液状化,大正関東地震,液状化｜大正関東地震
+1.32209E+11,liquefaction,立川断層帯地震,3.3276,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),液状化,立川断層帯地震,液状化｜立川断層帯地震
+1.32209E+11,liquefaction,都心南部直下地震,2.3036,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:187,liquefaction,多摩東部直下地震,0.011578947,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:188,liquefaction,多摩東部直下地震,0.011578947,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:189,liquefaction,多摩東部直下地震,0.011578947,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:190,liquefaction,多摩東部直下地震,0.011578947,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+1.32209E+11,river_flooding,L2（想定最大規模）,0.01,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1.32209E+11,river_flooding,L2（想定最大規模）,0.1,0.5m未満,荒川水系黒目川・落合川・柳瀬川・空堀川・奈良橋川,PLATEAU building risk,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:188,river_flooding,L2（想定最大規模）,0.78,0.5m以上3m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1.32209E+11,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:190,river_flooding,L2（想定最大規模）,0.44,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:187,river_flooding,L2（想定最大規模）,0.01,0.5m未満,黒目川・落合川・柳瀬川・空堀川・奈良橋川流域,PLATEAU building risk,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+1.32209E+11,river_flooding,,0.1,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:190,river_flooding,,0.51,0.5–3 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:187,river_flooding,,0.1,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:188,river_flooding,,0.78,0.5–3 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅主屋兼アトリエ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:189,river_flooding,,0.35,0–0.5 m,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅中門,河川浸水,河川浸水,河川浸水｜河川浸水
+1.32209E+11,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13220,東大和市,Tokyo Metropolitan,Unknown,有形文化財,建造物,building_direct,豊鹿島神社本殿(附棟札),土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

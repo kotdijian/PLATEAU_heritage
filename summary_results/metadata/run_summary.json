@@ -10,11 +10,14 @@
     "都心南部直下地震",
     "都心東部直下地震",
     "都心西部直下地震",
+    "多摩東部直下地震",
+    "多摩西部直下地震",
+    "立川断層帯地震",
     "大正関東地震",
     "南海トラフ巨大地震"
   ],
   "water_point_grid_max_distance_m": 25.0,
   "skip_point_water": false,
   "a31a_flood_records": 241,
-  "risk_type_rows": 4464
+  "risk_type_rows": 5151
 }

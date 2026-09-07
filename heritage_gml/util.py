@@ -36,7 +36,10 @@ def compact_address(value: Any) -> str:
     stable equality/grouping key, not a geocoder or fuzzy address matcher.
     """
     s = norm_text(value).replace("ヶ", "ケ")
-    s = re.sub(r"[‐‑‒–—―ー−ｰ]", "-", s)
+    # Preserve the Japanese prolonged sound mark in words such as 東京ドーム.
+    # Treat it as an address separator only when it appears between digits.
+    s = re.sub(r"(?<=\d)ー(?=\d)", "-", s)
+    s = re.sub(r"[‐‑‒–—―−ｰ]", "-", s)
     s = re.sub(r"\s+", "", s)
     s = s.replace("丁目", "-").replace("番地", "-").replace("番", "-").replace("号", "")
     s = re.sub(r"[・･,，.。_/／()（）\[\]「」『』]", "", s)

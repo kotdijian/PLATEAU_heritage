@@ -1,0 +1,1124 @@
+{
+  "municipality_count": 55,
+  "municipality_csv_count": 69,
+  "files_with_code_added": 36,
+  "invalid_pair_rows_removed": 12100,
+  "files": [
+    {
+      "file": "a31a_flooding_all_records.csv",
+      "rows_before": 241,
+      "rows_after": 241,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "a31a_flooding_by_river_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "a31a_flooding_by_river_designation_level.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "a31a_flooding_by_river_designation_status.csv",
+      "rows_before": 6,
+      "rows_after": 6,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "a31a_flooding_by_river_municipality.csv",
+      "rows_before": 22,
+      "rows_after": 22,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "choropleth_unmapped_municipalities.csv",
+      "rows_before": 6,
+      "rows_after": 6,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "cultural_property_source_files.csv",
+      "rows_before": 115,
+      "rows_after": 115,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "fire_spread_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "fire_spread_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "fire_spread_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "fire_spread_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "fire_spread_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "hazard_catalog.csv",
+      "rows_before": 240,
+      "rows_after": 240,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "hazard_catalog_unexpected.csv",
+      "rows_before": 2,
+      "rows_after": 2,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "hazard_source_manifest.csv",
+      "rows_before": 240,
+      "rows_after": 240,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "high_tide_depth_all_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "high_tide_depth_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "high_tide_depth_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "high_tide_depth_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "high_tide_depth_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_a31a_多摩川_cultural_type.csv",
+      "rows_before": 3,
+      "rows_after": 3,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_多摩川_designation_level.csv",
+      "rows_before": 3,
+      "rows_after": 3,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_多摩川_designation_status.csv",
+      "rows_before": 2,
+      "rows_after": 2,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_多摩川_municipality.csv",
+      "rows_before": 10,
+      "rows_after": 10,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_a31a_多摩川_records.csv",
+      "rows_before": 45,
+      "rows_after": 45,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_a31a_荒川_cultural_type.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_荒川_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_荒川_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "inundation_a31a_荒川_municipality.csv",
+      "rows_before": 12,
+      "rows_after": 12,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_a31a_荒川_records.csv",
+      "rows_before": 196,
+      "rows_after": 196,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_中川_綾瀬川圏域_municipality.csv",
+      "rows_before": 3,
+      "rows_after": 3,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_城南地区河川流域_municipality.csv",
+      "rows_before": 9,
+      "rows_after": 9,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_残堀川流域_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_江東内部河川流域_municipality.csv",
+      "rows_before": 3,
+      "rows_after": 3,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_浅川圏域_大栗川及び三沢川流域_municipality.csv",
+      "rows_before": 5,
+      "rows_after": 5,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_石神井川及び白子川流域_municipality.csv",
+      "rows_before": 9,
+      "rows_after": 9,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_神田川流域_municipality.csv",
+      "rows_before": 21,
+      "rows_after": 21,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_秋川及び平井川流域_municipality.csv",
+      "rows_before": 15,
+      "rows_after": 15,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_野川_仙川_入間川_谷沢川及び丸子川流域_municipality.csv",
+      "rows_before": 10,
+      "rows_after": 10,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_隅田川及び新河岸川流域_municipality.csv",
+      "rows_before": 12,
+      "rows_after": 12,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_霞川及び多摩川上流圏域_municipality.csv",
+      "rows_before": 1,
+      "rows_after": 1,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "inundation_黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域_municipality.csv",
+      "rows_before": 6,
+      "rows_after": 6,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "landslide_risk_records.csv",
+      "rows_before": 134,
+      "rows_after": 134,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "liquefaction_all_scenarios_records.csv",
+      "rows_before": 4348,
+      "rows_after": 4348,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "liquefaction_risk_records.csv",
+      "rows_before": 2693,
+      "rows_after": 2693,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "movable_cultural_properties.csv",
+      "rows_before": 1557,
+      "rows_after": 1554,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "municipality_cultural_type_detail.csv",
+      "rows_before": 3136,
+      "rows_after": 111,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 3025,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "municipality_cultural_type_major.csv",
+      "rows_before": 3136,
+      "rows_after": 111,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 3025,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "municipality_designation_level.csv",
+      "rows_before": 3136,
+      "rows_after": 111,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 3025,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "municipality_designation_status.csv",
+      "rows_before": 3136,
+      "rows_after": 111,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 3025,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "municipality_record_counts.csv",
+      "rows_before": 56,
+      "rows_after": 56,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "plateau_building_risk_records.csv",
+      "rows_before": 1029,
+      "rows_after": 1029,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "record_risk_scenarios.csv",
+      "rows_before": 18237,
+      "rows_after": 18237,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "record_risk_types.csv",
+      "rows_before": 5151,
+      "rows_after": 5151,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "risk_scenario_by_heritage_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "risk_scenario_by_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "risk_type_by_cultural_type.csv",
+      "rows_before": 6,
+      "rows_after": 6,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "risk_type_by_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "risk_type_by_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "risk_type_by_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "river_flooding_depth_all_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "river_flooding_depth_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "river_flooding_depth_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "river_flooding_depth_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "river_flooding_depth_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_all_scenarios_records.csv",
+      "rows_before": 14944,
+      "rows_after": 14944,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_南海トラフ巨大地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_南海トラフ巨大地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_南海トラフ巨大地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_南海トラフ巨大地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_南海トラフ巨大地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_多摩東部直下地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩東部直下地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩東部直下地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩東部直下地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_多摩東部直下地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_多摩西部直下地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩西部直下地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩西部直下地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_多摩西部直下地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_多摩西部直下地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_大正関東地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_大正関東地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_大正関東地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_大正関東地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_大正関東地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_立川断層帯地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_立川断層帯地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_立川断層帯地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_立川断層帯地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_立川断層帯地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心南部直下地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心南部直下地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心南部直下地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心南部直下地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心南部直下地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心東部直下地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心東部直下地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心東部直下地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心東部直下地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心東部直下地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心西部直下地震_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心西部直下地震_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心西部直下地震_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "seismic_都心西部直下地震_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "seismic_都心西部直下地震_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "source_datasets.csv",
+      "rows_before": 14,
+      "rows_after": 14,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "tsunami_depth_all_records.csv",
+      "rows_before": 1868,
+      "rows_after": 1868,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_depth_cultural_type.csv",
+      "rows_before": 7,
+      "rows_after": 7,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "tsunami_depth_designation_level.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "tsunami_depth_designation_status.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    },
+    {
+      "file": "tsunami_depth_municipality.csv",
+      "rows_before": 55,
+      "rows_after": 55,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_ケース1_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_ケース2_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_ケース5_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_ケース6_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_ケース8_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_南海トラフ巨大地震_全5ケース最大値_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_区部_大正関東地震_municipality.csv",
+      "rows_before": 4,
+      "rows_after": 4,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_新島・式根島_南海トラフ巨大地震_ケース1_municipality.csv",
+      "rows_before": 1,
+      "rows_after": 1,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_新島・式根島_南海トラフ巨大地震_ケース6_municipality.csv",
+      "rows_before": 1,
+      "rows_after": 1,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "tsunami_新島・式根島_南海トラフ巨大地震_ケース8_municipality.csv",
+      "rows_before": 1,
+      "rows_after": 1,
+      "municipality_code_added": true,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "water_risk_best_available_records.csv",
+      "rows_before": 1487,
+      "rows_after": 1487,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "normalized"
+    },
+    {
+      "file": "water_risk_external_point_assignments.csv",
+      "rows_before": 1860,
+      "rows_after": 1860,
+      "municipality_code_added": false,
+      "invalid_pair_rows_removed": 0,
+      "zero_total_artifact_rows_removed": 0,
+      "status": "skipped"
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+154,seismic,都心南部直下地震,6.107,6強以上,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:11,seismic,都心南部直下地震,5.769,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:12,seismic,都心南部直下地震,5.769,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:13,seismic,都心南部直下地震,6.175,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:14,seismic,都心南部直下地震,5.755,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:34,seismic,都心南部直下地震,6.161,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:35,seismic,都心南部直下地震,5.766,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:63,seismic,都心南部直下地震,5.839,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:80,seismic,都心南部直下地震,5.957,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:103,seismic,都心南部直下地震,6.111,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:114,seismic,都心南部直下地震,5.91,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:115,seismic,都心南部直下地震,5.91,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:116,seismic,都心南部直下地震,5.91,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:117,seismic,都心南部直下地震,5.797,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:118,seismic,都心南部直下地震,5.797,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:130,seismic,都心南部直下地震,6.024,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:192,seismic,都心南部直下地震,6.267,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:81,seismic,都心南部直下地震,5.97,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:100,seismic,都心南部直下地震,5.852,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:116,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:117,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:118,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:119,seismic,都心南部直下地震,5.783,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:120,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:121,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:122,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:123,seismic,都心南部直下地震,5.728,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:153,seismic,都心南部直下地震,5.853,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:181,seismic,都心南部直下地震,5.85,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:182,seismic,都心南部直下地震,5.726,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:183,seismic,都心南部直下地震,5.718,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:287,seismic,都心南部直下地震,5.95,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:297,seismic,都心南部直下地震,5.913,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:298,seismic,都心南部直下地震,5.913,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:299,seismic,都心南部直下地震,5.913,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:359,seismic,都心南部直下地震,5.756,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:360,seismic,都心南部直下地震,5.947,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:384,seismic,都心南部直下地震,6.121,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:422,seismic,都心南部直下地震,5.862,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:460,seismic,都心南部直下地震,5.875,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:3,seismic,都心南部直下地震,5.862,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:4,seismic,都心南部直下地震,5.82,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:5,seismic,都心南部直下地震,5.732,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:50,seismic,都心南部直下地震,5.781,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+154,seismic,都心東部直下地震,6.224,6強以上,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:11,seismic,都心東部直下地震,5.849,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:12,seismic,都心東部直下地震,5.849,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:13,seismic,都心東部直下地震,6.169,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:14,seismic,都心東部直下地震,5.856,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:34,seismic,都心東部直下地震,6.157,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:35,seismic,都心東部直下地震,5.865,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:63,seismic,都心東部直下地震,5.899,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:80,seismic,都心東部直下地震,5.947,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:103,seismic,都心東部直下地震,6.152,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:114,seismic,都心東部直下地震,6.064,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:115,seismic,都心東部直下地震,6.064,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:116,seismic,都心東部直下地震,6.064,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:117,seismic,都心東部直下地震,5.952,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:118,seismic,都心東部直下地震,5.952,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:130,seismic,都心東部直下地震,6.032,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:192,seismic,都心東部直下地震,6.276,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:81,seismic,都心東部直下地震,6.072,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:100,seismic,都心東部直下地震,5.999,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:116,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:117,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:118,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:119,seismic,都心東部直下地震,5.927,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:120,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:121,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:122,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:123,seismic,都心東部直下地震,5.871,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:153,seismic,都心東部直下地震,5.959,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:181,seismic,都心東部直下地震,5.808,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:182,seismic,都心東部直下地震,5.823,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:183,seismic,都心東部直下地震,5.816,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:287,seismic,都心東部直下地震,6.052,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:297,seismic,都心東部直下地震,6.057,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:298,seismic,都心東部直下地震,6.057,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:299,seismic,都心東部直下地震,6.057,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:359,seismic,都心東部直下地震,5.901,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:360,seismic,都心東部直下地震,6.001,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:384,seismic,都心東部直下地震,6.181,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:422,seismic,都心東部直下地震,5.991,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:460,seismic,都心東部直下地震,6.005,6強以上,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:3,seismic,都心東部直下地震,5.911,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:4,seismic,都心東部直下地震,5.895,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:5,seismic,都心東部直下地震,5.791,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:50,seismic,都心東部直下地震,5.883,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+154,seismic,都心西部直下地震,6.004,6強以上,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:11,seismic,都心西部直下地震,5.722,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:12,seismic,都心西部直下地震,5.722,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:13,seismic,都心西部直下地震,6.02,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:14,seismic,都心西部直下地震,5.712,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:34,seismic,都心西部直下地震,6.001,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:35,seismic,都心西部直下地震,5.721,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:63,seismic,都心西部直下地震,5.76,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:80,seismic,都心西部直下地震,5.791,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:103,seismic,都心西部直下地震,5.942,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:114,seismic,都心西部直下地震,5.926,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:115,seismic,都心西部直下地震,5.926,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:116,seismic,都心西部直下地震,5.926,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:117,seismic,都心西部直下地震,5.815,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:118,seismic,都心西部直下地震,5.815,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:130,seismic,都心西部直下地震,5.888,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:192,seismic,都心西部直下地震,6.113,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:81,seismic,都心西部直下地震,5.929,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:100,seismic,都心西部直下地震,5.868,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:116,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:117,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:118,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:119,seismic,都心西部直下地震,5.802,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:120,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:121,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:122,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:123,seismic,都心西部直下地震,5.747,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:153,seismic,都心西部直下地震,5.825,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:181,seismic,都心西部直下地震,5.719,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:182,seismic,都心西部直下地震,5.679,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:183,seismic,都心西部直下地震,5.673,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:287,seismic,都心西部直下地震,5.864,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:297,seismic,都心西部直下地震,5.919,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:298,seismic,都心西部直下地震,5.919,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:299,seismic,都心西部直下地震,5.919,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:359,seismic,都心西部直下地震,5.771,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:360,seismic,都心西部直下地震,5.866,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:384,seismic,都心西部直下地震,5.964,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:422,seismic,都心西部直下地震,5.829,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:460,seismic,都心西部直下地震,5.86,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:3,seismic,都心西部直下地震,5.759,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:4,seismic,都心西部直下地震,5.761,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:5,seismic,都心西部直下地震,5.684,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:50,seismic,都心西部直下地震,5.676,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+154,seismic,多摩東部直下地震,6.014,6強以上,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:11,seismic,多摩東部直下地震,5.757,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:12,seismic,多摩東部直下地震,5.757,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:13,seismic,多摩東部直下地震,6.0322,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:14,seismic,多摩東部直下地震,5.762,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:34,seismic,多摩東部直下地震,6.0208,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:35,seismic,多摩東部直下地震,5.7676,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:63,seismic,多摩東部直下地震,5.793,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:80,seismic,多摩東部直下地震,5.8268,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:103,seismic,多摩東部直下地震,5.9028,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:114,seismic,多摩東部直下地震,5.9036,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:115,seismic,多摩東部直下地震,5.9036,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:116,seismic,多摩東部直下地震,5.9036,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:117,seismic,多摩東部直下地震,5.7918,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:118,seismic,多摩東部直下地震,5.7918,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:130,seismic,多摩東部直下地震,5.8824,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:192,seismic,多摩東部直下地震,6.049,6強以上,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:81,seismic,多摩東部直下地震,5.9602,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:100,seismic,多摩東部直下地震,5.9024,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:116,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:117,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:118,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:119,seismic,多摩東部直下地震,5.7758,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:120,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:121,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:122,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:123,seismic,多摩東部直下地震,5.7256,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:153,seismic,多摩東部直下地震,5.8648,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:181,seismic,多摩東部直下地震,5.6666,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:182,seismic,多摩東部直下地震,5.7362,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:183,seismic,多摩東部直下地震,5.7312,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:287,seismic,多摩東部直下地震,5.849,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:297,seismic,多摩東部直下地震,5.9132,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:298,seismic,多摩東部直下地震,5.9132,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:299,seismic,多摩東部直下地震,5.9132,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:359,seismic,多摩東部直下地震,5.7452,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:360,seismic,多摩東部直下地震,5.8952,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:384,seismic,多摩東部直下地震,5.9498,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:422,seismic,多摩東部直下地震,5.8498,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:460,seismic,多摩東部直下地震,5.8608,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:3,seismic,多摩東部直下地震,5.8012,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:4,seismic,多摩東部直下地震,5.7876,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:5,seismic,多摩東部直下地震,5.743,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:50,seismic,多摩東部直下地震,5.659,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+154,seismic,多摩西部直下地震,5.943,6弱,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:11,seismic,多摩西部直下地震,5.315,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:12,seismic,多摩西部直下地震,5.315,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:13,seismic,多摩西部直下地震,5.701,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:14,seismic,多摩西部直下地震,5.315,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:34,seismic,多摩西部直下地震,5.684,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:35,seismic,多摩西部直下地震,5.324,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:63,seismic,多摩西部直下地震,5.374,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:80,seismic,多摩西部直下地震,5.461,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:103,seismic,多摩西部直下地震,5.551,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:114,seismic,多摩西部直下地震,5.477,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:115,seismic,多摩西部直下地震,5.477,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:116,seismic,多摩西部直下地震,5.477,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:117,seismic,多摩西部直下地震,5.358,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:118,seismic,多摩西部直下地震,5.358,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:130,seismic,多摩西部直下地震,5.544,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:192,seismic,多摩西部直下地震,5.738,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:81,seismic,多摩西部直下地震,5.546,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:100,seismic,多摩西部直下地震,5.459,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:116,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:117,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:118,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:119,seismic,多摩西部直下地震,5.339,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:120,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:121,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:122,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:123,seismic,多摩西部直下地震,5.283,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:153,seismic,多摩西部直下地震,5.418,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:181,seismic,多摩西部直下地震,5.328,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:182,seismic,多摩西部直下地震,5.287,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:183,seismic,多摩西部直下地震,5.281,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:287,seismic,多摩西部直下地震,5.455,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:297,seismic,多摩西部直下地震,5.478,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:298,seismic,多摩西部直下地震,5.478,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:299,seismic,多摩西部直下地震,5.478,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:359,seismic,多摩西部直下地震,5.31,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:360,seismic,多摩西部直下地震,5.548,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:384,seismic,多摩西部直下地震,5.589,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:422,seismic,多摩西部直下地震,5.427,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:460,seismic,多摩西部直下地震,5.431,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:3,seismic,多摩西部直下地震,5.402,5強,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:4,seismic,多摩西部直下地震,5.378,5強,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:5,seismic,多摩西部直下地震,5.315,5強,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:50,seismic,多摩西部直下地震,5.249,5強,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+154,seismic,立川断層帯地震,6.163,6強以上,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:11,seismic,立川断層帯地震,4.595,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:12,seismic,立川断層帯地震,4.595,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:13,seismic,立川断層帯地震,4.89,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:14,seismic,立川断層帯地震,4.604,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:34,seismic,立川断層帯地震,4.868,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:35,seismic,立川断層帯地震,4.613,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:63,seismic,立川断層帯地震,4.618,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:80,seismic,立川断層帯地震,4.607,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:103,seismic,立川断層帯地震,4.8,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:114,seismic,立川断層帯地震,4.72,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:115,seismic,立川断層帯地震,4.72,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:116,seismic,立川断層帯地震,4.72,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:117,seismic,立川断層帯地震,4.594,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:118,seismic,立川断層帯地震,4.594,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:130,seismic,立川断層帯地震,4.717,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:192,seismic,立川断層帯地震,4.965,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:81,seismic,立川断層帯地震,4.83,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:100,seismic,立川断層帯地震,4.766,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:116,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:117,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:118,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:119,seismic,立川断層帯地震,4.591,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:120,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:121,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:122,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:123,seismic,立川断層帯地震,4.534,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:153,seismic,立川断層帯地震,4.718,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:181,seismic,立川断層帯地震,4.489,5弱未満,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:182,seismic,立川断層帯地震,4.574,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:183,seismic,立川断層帯地震,4.568,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:287,seismic,立川断層帯地震,4.661,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:297,seismic,立川断層帯地震,4.722,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:298,seismic,立川断層帯地震,4.722,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:299,seismic,立川断層帯地震,4.722,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:359,seismic,立川断層帯地震,4.541,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:360,seismic,立川断層帯地震,4.74,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:384,seismic,立川断層帯地震,4.845,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:422,seismic,立川断層帯地震,4.642,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:460,seismic,立川断層帯地震,4.659,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:3,seismic,立川断層帯地震,4.642,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:4,seismic,立川断層帯地震,4.636,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:5,seismic,立川断層帯地震,4.57,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:50,seismic,立川断層帯地震,4.465,5弱未満,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+154,seismic,大正関東地震,5.829,6弱,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:11,seismic,大正関東地震,5.537,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:12,seismic,大正関東地震,5.537,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:13,seismic,大正関東地震,5.847,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:14,seismic,大正関東地震,5.535,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:34,seismic,大正関東地震,5.832,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:35,seismic,大正関東地震,5.543,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:63,seismic,大正関東地震,5.571,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:80,seismic,大正関東地震,5.633,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:103,seismic,大正関東地震,5.783,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:114,seismic,大正関東地震,5.703,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:115,seismic,大正関東地震,5.703,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:116,seismic,大正関東地震,5.703,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:117,seismic,大正関東地震,5.593,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:118,seismic,大正関東地震,5.593,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:130,seismic,大正関東地震,5.71,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:192,seismic,大正関東地震,5.927,6弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:81,seismic,大正関東地震,5.75,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:100,seismic,大正関東地震,5.66,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:116,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:117,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:118,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:119,seismic,大正関東地震,5.567,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:120,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:121,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:122,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:123,seismic,大正関東地震,5.518,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:153,seismic,大正関東地震,5.623,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:181,seismic,大正関東地震,5.498,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:182,seismic,大正関東地震,5.523,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:183,seismic,大正関東地震,5.52,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:287,seismic,大正関東地震,5.703,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:297,seismic,大正関東地震,5.711,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:298,seismic,大正関東地震,5.711,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:299,seismic,大正関東地震,5.711,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:359,seismic,大正関東地震,5.537,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:360,seismic,大正関東地震,5.668,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:384,seismic,大正関東地震,5.808,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:422,seismic,大正関東地震,5.645,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:460,seismic,大正関東地震,5.652,6弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:3,seismic,大正関東地震,5.592,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:4,seismic,大正関東地震,5.563,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:5,seismic,大正関東地震,5.493,5強,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:50,seismic,大正関東地震,5.533,6弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,大正関東地震,想定震度｜大正関東地震
+154,seismic,南海トラフ巨大地震,5.099,5強,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:11,seismic,南海トラフ巨大地震,4.788,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:12,seismic,南海トラフ巨大地震,4.788,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:13,seismic,南海トラフ巨大地震,5.06,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:14,seismic,南海トラフ巨大地震,4.796,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:34,seismic,南海トラフ巨大地震,5.041,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:35,seismic,南海トラフ巨大地震,4.798,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:63,seismic,南海トラフ巨大地震,4.805,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:80,seismic,南海トラフ巨大地震,4.784,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:103,seismic,南海トラフ巨大地震,4.97,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:114,seismic,南海トラフ巨大地震,5.007,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:115,seismic,南海トラフ巨大地震,5.007,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:116,seismic,南海トラフ巨大地震,5.007,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:117,seismic,南海トラフ巨大地震,4.881,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:118,seismic,南海トラフ巨大地震,4.881,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:130,seismic,南海トラフ巨大地震,4.872,5弱,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:192,seismic,南海トラフ巨大地震,5.132,5強,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:81,seismic,南海トラフ巨大地震,5.035,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:100,seismic,南海トラフ巨大地震,4.985,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:116,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:117,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:118,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:119,seismic,南海トラフ巨大地震,4.883,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:120,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:121,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:122,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:123,seismic,南海トラフ巨大地震,4.827,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:153,seismic,南海トラフ巨大地震,4.911,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:181,seismic,南海トラフ巨大地震,4.683,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:182,seismic,南海トラフ巨大地震,4.772,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:183,seismic,南海トラフ巨大地震,4.768,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:287,seismic,南海トラフ巨大地震,4.968,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:297,seismic,南海トラフ巨大地震,5.019,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:298,seismic,南海トラフ巨大地震,5.019,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:299,seismic,南海トラフ巨大地震,5.019,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:359,seismic,南海トラフ巨大地震,4.841,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:360,seismic,南海トラフ巨大地震,4.886,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:384,seismic,南海トラフ巨大地震,5.027,5強,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:422,seismic,南海トラフ巨大地震,4.954,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:460,seismic,南海トラフ巨大地震,4.968,5弱,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:3,seismic,南海トラフ巨大地震,4.835,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:4,seismic,南海トラフ巨大地震,4.808,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:5,seismic,南海トラフ巨大地震,4.748,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:50,seismic,南海トラフ巨大地震,4.728,5弱,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+154,fire,延焼危険度,3.0,,,,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:11,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:12,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:13,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:14,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:34,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:35,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:63,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:80,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:103,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:114,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:115,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:116,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:117,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:118,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:130,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:192,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:81,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:100,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:116,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:117,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:118,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:119,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:120,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:121,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:122,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:123,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:153,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:181,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:182,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:183,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:287,fire,延焼危険度,3.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:297,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:298,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:299,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:359,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:360,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:384,fire,延焼危険度,2.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:422,fire,延焼危険度,3.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:460,fire,延焼危険度,3.0,,,,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:3,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:4,fire,延焼危険度,1.0,,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:5,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:50,fire,延焼危険度,2.0,,,,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+154,liquefaction,南海トラフ巨大地震,0.2072,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+154,liquefaction,多摩東部直下地震,2.6936,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+154,liquefaction,大正関東地震,2.1292,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,液状化,大正関東地震,液状化｜大正関東地震
+154,liquefaction,都心南部直下地震,3.6392,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:103,liquefaction,南海トラフ巨大地震,0.322,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:103,liquefaction,多摩東部直下地震,6.5392,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:103,liquefaction,大正関東地震,5.846,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:103,liquefaction,都心南部直下地震,7.9636,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:11,liquefaction,南海トラフ巨大地震,0.628,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:11,liquefaction,多摩東部直下地震,5.954,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:11,liquefaction,大正関東地震,4.992,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:11,liquefaction,都心南部直下地震,5.996,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:12,liquefaction,南海トラフ巨大地震,0.628,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:12,liquefaction,多摩東部直下地震,5.954,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:12,liquefaction,大正関東地震,4.992,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:12,liquefaction,都心南部直下地震,5.996,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:13,liquefaction,南海トラフ巨大地震,0.178421053,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:13,liquefaction,多摩東部直下地震,6.724210526,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:13,liquefaction,大正関東地震,5.804210526,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:13,liquefaction,都心南部直下地震,7.801578947,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:130,liquefaction,南海トラフ巨大地震,0.2372,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:130,liquefaction,多摩東部直下地震,11.18,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:130,liquefaction,大正関東地震,9.9564,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:130,liquefaction,都心南部直下地震,13.154,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:14,liquefaction,南海トラフ巨大地震,0.245,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:14,liquefaction,多摩東部直下地震,5.06,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:14,liquefaction,大正関東地震,4.18,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:14,liquefaction,都心南部直下地震,5.06,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:192,liquefaction,南海トラフ巨大地震,0.672,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:192,liquefaction,多摩東部直下地震,3.5876,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:192,liquefaction,大正関東地震,3.274,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:192,liquefaction,都心南部直下地震,4.1524,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:34,liquefaction,南海トラフ巨大地震,0.178421053,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:34,liquefaction,多摩東部直下地震,6.724210526,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:34,liquefaction,大正関東地震,5.804210526,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:34,liquefaction,都心南部直下地震,7.801578947,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:35,liquefaction,南海トラフ巨大地震,0.245,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:35,liquefaction,多摩東部直下地震,5.06,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:35,liquefaction,大正関東地震,4.18,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:35,liquefaction,都心南部直下地震,5.06,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:63,liquefaction,南海トラフ巨大地震,0.49,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:63,liquefaction,多摩東部直下地震,5.695,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:63,liquefaction,大正関東地震,4.835,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:63,liquefaction,都心南部直下地震,5.845,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:100,liquefaction,南海トラフ巨大地震,1.21,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:100,liquefaction,多摩東部直下地震,14.14916667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:100,liquefaction,大正関東地震,10.8,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:100,liquefaction,立川断層帯地震,0.01375,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:100,liquefaction,都心南部直下地震,13.27541667,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:116,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:116,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:116,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:116,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:117,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:117,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:117,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:117,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:118,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:118,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:118,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:118,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:119,liquefaction,南海トラフ巨大地震,0.836666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:119,liquefaction,多摩東部直下地震,5.303333333,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:119,liquefaction,大正関東地震,4.276666667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:119,liquefaction,都心南部直下地震,5.36,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:120,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:120,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:120,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:120,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:121,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:121,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:121,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:121,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:122,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:122,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:122,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:122,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:123,liquefaction,南海トラフ巨大地震,3.563333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:123,liquefaction,多摩東部直下地震,14.44666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:123,liquefaction,大正関東地震,11.16,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:123,liquefaction,都心南部直下地震,14.70333333,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:153,liquefaction,南海トラフ巨大地震,0.522,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:153,liquefaction,多摩東部直下地震,7.0145,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:153,liquefaction,大正関東地震,5.8,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:153,liquefaction,都心南部直下地震,6.9565,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:181,liquefaction,南海トラフ巨大地震,0.98,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:181,liquefaction,多摩東部直下地震,17.0025,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:181,liquefaction,大正関東地震,15.145,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:181,liquefaction,都心南部直下地震,19.515,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:287,liquefaction,南海トラフ巨大地震,0.342,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:287,liquefaction,多摩東部直下地震,7.2544,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:287,liquefaction,大正関東地震,6.0844,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:287,liquefaction,都心南部直下地震,8.1912,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:297,liquefaction,南海トラフ巨大地震,0.237368421,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:297,liquefaction,多摩東部直下地震,6.426315789,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:297,liquefaction,大正関東地震,4.946842105,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:297,liquefaction,都心南部直下地震,6.322105263,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:298,liquefaction,南海トラフ巨大地震,0.237368421,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:298,liquefaction,多摩東部直下地震,6.426315789,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:298,liquefaction,大正関東地震,4.946842105,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:298,liquefaction,都心南部直下地震,6.322105263,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:299,liquefaction,南海トラフ巨大地震,0.237368421,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:299,liquefaction,多摩東部直下地震,6.426315789,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:299,liquefaction,大正関東地震,4.946842105,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:299,liquefaction,都心南部直下地震,6.322105263,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:359,liquefaction,南海トラフ巨大地震,0.836666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:359,liquefaction,多摩東部直下地震,5.303333333,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:359,liquefaction,大正関東地震,4.276666667,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:359,liquefaction,都心南部直下地震,5.36,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:384,liquefaction,南海トラフ巨大地震,2.3404,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:384,liquefaction,多摩東部直下地震,16.802,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:384,liquefaction,大正関東地震,14.922,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:384,liquefaction,都心南部直下地震,18.6504,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:422,liquefaction,南海トラフ巨大地震,1.712,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:422,liquefaction,多摩東部直下地震,6.8304,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:422,liquefaction,大正関東地震,5.9192,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:422,liquefaction,都心南部直下地震,6.9272,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:460,liquefaction,南海トラフ巨大地震,0.6052,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:460,liquefaction,多摩東部直下地震,6.408,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:460,liquefaction,大正関東地震,4.7108,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:460,liquefaction,都心南部直下地震,6.6956,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:81,liquefaction,南海トラフ巨大地震,0.2788,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:81,liquefaction,多摩東部直下地震,2.8484,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:81,liquefaction,大正関東地震,2.1744,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:81,liquefaction,都心南部直下地震,2.8608,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:4,liquefaction,南海トラフ巨大地震,0.49,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:4,liquefaction,多摩東部直下地震,5.59375,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:4,liquefaction,大正関東地震,4.71125,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:4,liquefaction,都心南部直下地震,5.73875,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:5,liquefaction,多摩東部直下地震,3.313076923,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:5,liquefaction,大正関東地震,2.171538462,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:5,liquefaction,都心南部直下地震,3.279230769,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:50,liquefaction,南海トラフ巨大地震,0.0764,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:50,liquefaction,多摩東部直下地震,5.5276,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:50,liquefaction,大正関東地震,4.4288,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:50,liquefaction,都心南部直下地震,6.516,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:100,river_flooding,L2（想定最大規模）,0.117,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:100,river_flooding,L2（想定最大規模）,0.117,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:100,high_tide,PLATEAU建築物リスク,0.18,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:114,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_001:115,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:182,river_flooding,L2（想定最大規模）,0.028,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:103,river_flooding,L2（想定最大規模）,0.149,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:103,river_flooding,L2（想定最大規模）,0.149,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:103,river_flooding,L2（想定最大規模）,0.1,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:103,high_tide,PLATEAU建築物リスク,0.02,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:81,river_flooding,L2（想定最大規模）,0.26,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:81,river_flooding,L2（想定最大規模）,0.26,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:81,high_tide,PLATEAU建築物リスク,0.8,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:192,river_flooding,L2（想定最大規模）,0.73,0.5m以上3m未満,隅田川・新河岸川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:192,high_tide,PLATEAU建築物リスク,0.16,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:287,river_flooding,L2（想定最大規模）,0.022,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:297,river_flooding,L2（想定最大規模）,0.057,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:359,river_flooding,L2（想定最大規模）,0.014,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:116,river_flooding,L2（想定最大規模）,0.006,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:118,river_flooding,L2（想定最大規模）,0.045,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:460,river_flooding,L2（想定最大規模）,0.285,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:384,river_flooding,L2（想定最大規模）,0.186,0.5m未満,神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:384,river_flooding,L2（想定最大規模）,0.219,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:384,river_flooding,L2（想定最大規模）,0.83,0.5m以上3m未満,隅田川・新河岸川流域,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:384,high_tide,PLATEAU建築物リスク,0.5,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:192,high_tide,,0.14,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,高潮,高潮,高潮｜高潮
+official_export_002:100,high_tide,,0.18,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,高潮,高潮,高潮｜高潮
+official_export_002:384,high_tide,,0.51,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,高潮,高潮,高潮｜高潮
+official_export_002:81,high_tide,,0.45,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,高潮,高潮,高潮｜高潮
+official_export_003:50,high_tide,,0.35,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,高潮,高潮,高潮｜高潮
+official_export_002:287,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:384,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:153,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:81,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:100,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:192,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:182,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:103,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:115,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:297,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:422,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:116,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:460,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:118,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:114,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:117,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:119,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社東門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:116,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:117,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:118,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社拝殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:120,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社幣殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:121,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社宝庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:122,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:123,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社瑞垣,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:359,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線御茶ノ水橋梁,河川浸水,河川浸水,河川浸水｜河川浸水
+154,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:130,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:183,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧山口萬吉邸門及び塀,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:298,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅正門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:299,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,高畠家住宅塀及び石垣,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:5,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:50,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:384,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:11,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:153,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧九段会館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:12,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:192,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:35,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:14,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:63,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:103,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,河川浸水,河川浸水｜河川浸水
+154,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:13,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:34,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:80,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:130,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:181,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,旧文部省庁舎,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:360,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄丸ノ内線四ツ谷跨線橋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:3,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:4,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:50,river_flooding,,0.02,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:50,tsunami,南海トラフ巨大地震_ケース1,0.7436,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+official_export_003:50,tsunami,南海トラフ巨大地震_ケース2,0.7547,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_ケース2,津波｜南海トラフ巨大地震_ケース2
+official_export_003:50,tsunami,南海トラフ巨大地震_ケース5,0.4622,0–0.5 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_ケース5,津波｜南海トラフ巨大地震_ケース5
+official_export_003:50,tsunami,南海トラフ巨大地震_ケース6,0.699,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+official_export_003:50,tsunami,南海トラフ巨大地震_ケース8,0.636,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+official_export_003:50,tsunami,南海トラフ巨大地震_全5ケース最大値,0.7547,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,南海トラフ巨大地震_全5ケース最大値,津波｜南海トラフ巨大地震_全5ケース最大値
+official_export_003:50,tsunami,大正関東地震,0.5513,0.5–3 m,区部,external point-grid sampling,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,津波,大正関東地震,津波｜大正関東地震
+official_export_001:103,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_001:192,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:287,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,太洋ビルディング(丸石ビルディング),河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:384,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:460,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,河川浸水,想定最大規模,河川浸水｜想定最大規模

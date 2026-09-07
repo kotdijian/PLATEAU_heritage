@@ -1,0 +1,45 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+28,seismic,都心南部直下地震,4.856,5弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+225,seismic,都心南部直下地震,5.097,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:431,seismic,都心南部直下地震,5.097,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:432,seismic,都心南部直下地震,5.097,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+28,seismic,都心東部直下地震,4.982,5弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+225,seismic,都心東部直下地震,5.248,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:431,seismic,都心東部直下地震,5.248,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:432,seismic,都心東部直下地震,5.248,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+28,seismic,都心西部直下地震,4.909,5弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+225,seismic,都心西部直下地震,5.399,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:431,seismic,都心西部直下地震,5.399,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:432,seismic,都心西部直下地震,5.399,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+28,seismic,多摩東部直下地震,5.5182,6弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+225,seismic,多摩東部直下地震,5.7964,6弱,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:431,seismic,多摩東部直下地震,5.7964,6弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:432,seismic,多摩東部直下地震,5.7964,6弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+28,seismic,多摩西部直下地震,5.669,6弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+225,seismic,多摩西部直下地震,5.843,6弱,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:431,seismic,多摩西部直下地震,5.843,6弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:432,seismic,多摩西部直下地震,5.843,6弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+28,seismic,立川断層帯地震,5.328,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+225,seismic,立川断層帯地震,6.196,6強以上,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:431,seismic,立川断層帯地震,6.196,6強以上,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:432,seismic,立川断層帯地震,6.196,6強以上,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+28,seismic,大正関東地震,5.007,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+225,seismic,大正関東地震,5.252,5強,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:431,seismic,大正関東地震,5.252,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:432,seismic,大正関東地震,5.252,5強,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,大正関東地震,想定震度｜大正関東地震
+28,seismic,南海トラフ巨大地震,4.98,5弱,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+225,seismic,南海トラフ巨大地震,4.868,5弱,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:431,seismic,南海トラフ巨大地震,4.868,5弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:432,seismic,南海トラフ巨大地震,4.868,5弱,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+28,fire,延焼危険度,2.0,,,,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+225,fire,延焼危険度,3.0,,,,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:431,fire,延焼危険度,3.0,,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:432,fire,延焼危険度,3.0,,,,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:431,river_flooding,L2（想定最大規模）,0.22,0.5m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+28,river_flooding,L2（想定最大規模）,0.2,0.5m未満,多摩川水系秋川・北秋川・養沢川・平井川・氷沢川・鯉川・玉の内川・北大久野川,PLATEAU building risk,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+28,river_flooding,L2（想定最大規模）,0.04,0.5m未満,秋川・平井川流域,PLATEAU building risk,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+28,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:432,river_flooding,L2（想定最大規模）,0.32,0.5m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+28,river_flooding,,0.03,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,河川浸水,河川浸水,河川浸水｜河川浸水
+28,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+225,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

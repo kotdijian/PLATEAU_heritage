@@ -1,22 +1,21 @@
 ﻿record_id,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,seismic_intensity,scenario,seismic_class
 154,13101,千代田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,将門塚,5.829,大正関東地震,6弱
-official_export_001:11,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,5.537,大正関東地震,6弱
-official_export_001:12,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,5.537,大正関東地震,6弱
-official_export_001:13,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,5.847,大正関東地震,6弱
-official_export_001:14,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,5.535,大正関東地震,6弱
-official_export_001:34,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,5.832,大正関東地震,6弱
-official_export_001:35,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,5.543,大正関東地震,6弱
-official_export_001:63,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,5.571,大正関東地震,6弱
-official_export_001:80,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,5.633,大正関東地震,6弱
 official_export_001:103,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,東京駅丸ノ内本屋,5.783,大正関東地震,6弱
+official_export_001:11,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,5.537,大正関東地震,6弱
 official_export_001:114,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,5.703,大正関東地震,6弱
 official_export_001:115,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,5.703,大正関東地震,6弱
 official_export_001:116,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,5.703,大正関東地震,6弱
 official_export_001:117,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,5.593,大正関東地震,6弱
 official_export_001:118,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,日本ハリストス正教会教団,5.593,大正関東地震,6弱
+official_export_001:12,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城清水門,5.537,大正関東地震,6弱
+official_export_001:13,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,5.847,大正関東地震,6弱
 official_export_001:130,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,法務省旧本館,5.71,大正関東地震,6弱
+official_export_001:14,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,5.535,大正関東地震,6弱
 official_export_001:192,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,明治生命保険相互会社本社本館,5.927,大正関東地震,6弱
-official_export_002:81,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,5.75,大正関東地震,6弱
+official_export_001:34,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城外桜田門,5.832,大正関東地震,6弱
+official_export_001:35,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧江戸城田安門,5.543,大正関東地震,6弱
+official_export_001:63,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,旧近衛師団司令部庁舎,5.571,大正関東地震,6弱
+official_export_001:80,13101,千代田区,National,Designated,有形文化財,建造物,building_direct,水準原点,5.633,大正関東地震,6弱
 official_export_002:100,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,カトリック神田教会聖堂,5.66,大正関東地震,6弱
 official_export_002:116,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社神饌所,5.518,大正関東地震,6弱
 official_export_002:117,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,神田神社西門,5.518,大正関東地震,6弱
@@ -39,23 +38,22 @@ official_export_002:360,13101,千代田区,National,Registered,有形文化財,�
 official_export_002:384,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,日本工業倶楽部会館,5.808,大正関東地震,6弱
 official_export_002:422,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,松本家住宅主屋,5.645,大正関東地震,6弱
 official_export_002:460,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,山本歯科医院,5.652,大正関東地震,6弱
+official_export_002:81,13101,千代田区,National,Registered,有形文化財,建造物,building_direct,学士会館,5.75,大正関東地震,6弱
 official_export_003:3,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡,5.592,大正関東地震,6弱
 official_export_003:4,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城跡のヒカリゴケ生育地,5.563,大正関東地震,6弱
 official_export_003:5,13101,千代田区,National,Designated,記念物,天然記念物,point,江戸城外堀跡,5.493,大正関東地震,5強
 official_export_003:50,13101,千代田区,National,Designated,記念物,天然記念物,point,常盤橋門跡,5.533,大正関東地震,6弱
-93,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,5.492,大正関東地震,5強
 131024000000.0,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,6.003,大正関東地震,6強以上
+93,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,5.492,大正関東地震,5強
 official_export_001:10,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,6.133,大正関東地震,6強以上
-official_export_001:20,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,5.721,大正関東地震,6弱
-official_export_001:53,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,6.143,大正関東地震,6強以上
-official_export_001:99,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,5.615,大正関東地震,6弱
 official_export_001:101,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,5.613,大正関東地震,6弱
 official_export_001:112,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,5.619,大正関東地震,6弱
 official_export_001:113,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,5.584,大正関東地震,6弱
 official_export_001:138,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,5.706,大正関東地震,6弱
 official_export_001:139,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,5.614,大正関東地震,6弱
-official_export_002:53,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,5.902,大正関東地震,6弱
-official_export_002:59,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,5.502,大正関東地震,6弱
+official_export_001:20,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,5.721,大正関東地震,6弱
+official_export_001:53,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,6.143,大正関東地震,6強以上
+official_export_001:99,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,5.615,大正関東地震,6弱
 official_export_002:138,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,5.705,大正関東地震,6弱
 official_export_002:179,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),5.527,大正関東地震,6弱
 official_export_002:197,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,5.596,大正関東地震,6弱
@@ -66,9 +64,15 @@ official_export_002:305,13102,中央区,National,Registered,有形文化財,建�
 official_export_002:396,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,5.989,大正関東地震,6弱
 official_export_002:423,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,5.564,大正関東地震,6弱
 official_export_002:473,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,6.061,大正関東地震,6強以上
+official_export_002:53,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,5.902,大正関東地震,6弱
+official_export_002:59,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,5.502,大正関東地震,6弱
 official_export_003:20,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,5.772,大正関東地震,6弱
 205,13103,港区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,旧細川邸のシイ,5.946,大正関東地震,6弱
 245,13103,港区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,芝東照宮のイチョウ,5.558,大正関東地震,6弱
+official_export_001:106,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧東宮御所(迎賓館赤坂離宮),5.673,大正関東地震,6弱
+official_export_001:127,13103,港区,National,Designated,有形文化財,建造物,building_direct,武家屋敷門,5.706,大正関東地震,6弱
+official_export_001:142,13103,港区,National,Designated,有形文化財,建造物,building_direct,明治学院インブリー館,5.937,大正関東地震,6弱
+official_export_001:194,13103,港区,National,Designated,有形文化財,建造物,building_direct,有章院(徳川家継)霊廟二天門,5.664,大正関東地震,6弱
 official_export_001:27,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,5.784,大正関東地震,6弱
 official_export_001:28,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,5.787,大正関東地震,6弱
 official_export_001:29,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧朝香宮邸,5.784,大正関東地震,6弱
@@ -79,20 +83,6 @@ official_export_001:55,13103,港区,National,Designated,有形文化財,建造�
 official_export_001:82,13103,港区,National,Designated,有形文化財,建造物,building_direct,瑞聖寺大雄宝殿,5.913,大正関東地震,6弱
 official_export_001:93,13103,港区,National,Designated,有形文化財,建造物,building_direct,増上寺三解脱門,5.716,大正関東地震,6弱
 official_export_001:98,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧台徳院霊廟惣門,5.636,大正関東地震,6弱
-official_export_001:106,13103,港区,National,Designated,有形文化財,建造物,building_direct,旧東宮御所(迎賓館赤坂離宮),5.673,大正関東地震,6弱
-official_export_001:127,13103,港区,National,Designated,有形文化財,建造物,building_direct,武家屋敷門,5.706,大正関東地震,6弱
-official_export_001:142,13103,港区,National,Designated,有形文化財,建造物,building_direct,明治学院インブリー館,5.937,大正関東地震,6弱
-official_export_001:194,13103,港区,National,Designated,有形文化財,建造物,building_direct,有章院(徳川家継)霊廟二天門,5.664,大正関東地震,6弱
-official_export_002:58,13103,港区,National,Registered,有形文化財,建造物,building_direct,大倉集古館陳列館,5.506,大正関東地震,6弱
-official_export_002:60,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮表門,5.569,大正関東地震,6弱
-official_export_002:61,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室葵,5.569,大正関東地震,6弱
-official_export_002:62,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室桂,5.569,大正関東地震,6弱
-official_export_002:63,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室守貧庵,5.569,大正関東地震,6弱
-official_export_002:64,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室如庵写,5.569,大正関東地震,6弱
-official_export_002:65,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室山吹,5.569,大正関東地震,6弱
-official_export_002:66,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮中門,5.569,大正関東地震,6弱
-official_export_002:67,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮不老門,5.569,大正関東地震,6弱
-official_export_002:68,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮塀,5.569,大正関東地震,6弱
 official_export_002:126,13103,港区,National,Registered,有形文化財,建造物,building_direct,菊池寛実記念智美術館別館,5.734,大正関東地震,6弱
 official_export_002:198,13103,港区,National,Registered,有形文化財,建造物,building_direct,キリスト友会フレンズセンター,5.822,大正関東地震,6弱
 official_export_002:213,13103,港区,National,Registered,有形文化財,建造物,building_direct,廣度院表門及び練塀,5.681,大正関東地震,6弱
@@ -110,6 +100,16 @@ official_export_002:426,13103,港区,National,Registered,有形文化財,建造�
 official_export_002:427,13103,港区,National,Registered,有形文化財,建造物,building_direct,三菱電機高輪荘洋館,5.855,大正関東地震,6弱
 official_export_002:435,13103,港区,National,Registered,有形文化財,建造物,building_direct,妙定院上土蔵,5.58,大正関東地震,6弱
 official_export_002:436,13103,港区,National,Registered,有形文化財,建造物,building_direct,妙定院熊野堂,5.58,大正関東地震,6弱
+official_export_002:58,13103,港区,National,Registered,有形文化財,建造物,building_direct,大倉集古館陳列館,5.506,大正関東地震,6弱
+official_export_002:60,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮表門,5.569,大正関東地震,6弱
+official_export_002:61,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室葵,5.569,大正関東地震,6弱
+official_export_002:62,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室桂,5.569,大正関東地震,6弱
+official_export_002:63,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室守貧庵,5.569,大正関東地震,6弱
+official_export_002:64,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室如庵写,5.569,大正関東地震,6弱
+official_export_002:65,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮茶室山吹,5.569,大正関東地震,6弱
+official_export_002:66,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮中門,5.569,大正関東地震,6弱
+official_export_002:67,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮不老門,5.569,大正関東地震,6弱
+official_export_002:68,13103,港区,National,Registered,有形文化財,建造物,building_direct,大橋茶寮塀,5.569,大正関東地震,6弱
 official_export_003:1,13103,港区,National,Designated,記念物,天然記念物,point,浅野長矩墓および赤穂義士墓,5.941,大正関東地震,6弱
 official_export_003:11,13103,港区,National,Designated,記念物,天然記念物,point,荻生徂徠墓,5.883,大正関東地震,6弱
 official_export_003:17,13103,港区,National,Designated,記念物,天然記念物,point,旧芝離宮庭園,6.097,大正関東地震,6強以上
@@ -121,104 +121,7 @@ official_export_003:41,13103,港区,National,Designated,記念物,天然記念�
 official_export_003:49,13103,港区,National,Designated,記念物,天然記念物,point,東禅寺,5.9,大正関東地震,6弱
 13104:0,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の銅鳥居,5.551,大正関東地震,6弱
 13104:1,13104,新宿区,Unknown,Unknown,未判定,未細分,point,早稲田大学 坪内博士記念演劇博物館,5.581,大正関東地震,6弱
-13104:2,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の山門「甘露門」,5.595,大正関東地震,6弱
-13104:3,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の山門,5.627,大正関東地震,6弱
-13104:4,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の本殿・幣殿・拝殿,5.393,大正関東地震,5強
-13104:5,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院本堂,5.5,大正関東地震,6弱
-13104:6,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院七面堂,5.5,大正関東地震,6弱
-13104:7,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺本堂,5.788,大正関東地震,6弱
-13104:8,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺山門,5.615,大正関東地震,6弱
-13104:9,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筑土八幡神社の石造鳥居,5.556,大正関東地震,6弱
 13104:10,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西迎寺の阿弥陀如来座像,5.616,大正関東地震,6弱
-13104:11,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井出世不動尊像,5.576,大正関東地震,6弱
-13104:12,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の唐獅子像,5.671,大正関東地震,6弱
-13104:13,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の三日月不動像,5.658,大正関東地震,6弱
-13104:14,13104,新宿区,Unknown,Unknown,未判定,未細分,point,熊野神社の水鉢,5.556,大正関東地震,6弱
-13104:15,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の金剛力士石像,5.5,大正関東地震,6弱
-13104:16,13104,新宿区,Unknown,Unknown,未判定,未細分,point,誓閑寺の梵鐘,5.527,大正関東地震,6弱
-13104:17,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善国寺の毘沙門天像,5.551,大正関東地震,6弱
-13104:18,13104,新宿区,Unknown,Unknown,未判定,未細分,point,経王寺の大黒天像,5.564,大正関東地震,6弱
-13104:19,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法善寺の七面明神像,5.628,大正関東地震,6弱
-13104:20,13104,新宿区,Unknown,Unknown,未判定,未細分,point,布袋像の水鉢,5.549,大正関東地震,6弱
-13104:21,13104,新宿区,Unknown,Unknown,未判定,未細分,point,須賀神社の三十六歌仙絵,5.65,大正関東地震,6弱
-13104:22,13104,新宿区,Unknown,Unknown,未判定,未細分,point,馬水槽,5.648,大正関東地震,6弱
-13104:23,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺の時の鐘,5.593,大正関東地震,6弱
-13104:24,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺のやぐら時計,5.593,大正関東地震,6弱
-13104:25,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大隈重信銅像,5.581,大正関東地震,6弱
-13104:26,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長善寺(笹寺)のめのう観音像,5.734,大正関東地震,6弱
-13104:27,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鬼王神社の水鉢,5.558,大正関東地震,6弱
-13104:28,13104,新宿区,Unknown,Unknown,未判定,未細分,point,聖徳太子画像,5.697,大正関東地震,6弱
-13104:29,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の観無量寿経曼荼羅,5.658,大正関東地震,6弱
-13104:30,13104,新宿区,Unknown,Unknown,未判定,未細分,point,七人役者図絵馬,5.556,大正関東地震,6弱
-13104:31,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(専福寺),5.628,大正関東地震,6弱
-13104:32,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来立像,5.573,大正関東地震,6弱
-13104:33,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造地蔵菩薩坐像,5.511,大正関東地震,6弱
-13104:34,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(光照寺),5.511,大正関東地震,6弱
-13104:35,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法然上人画像,5.511,大正関東地震,6弱
-13104:36,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西光庵の観無量寿経曼荼羅,5.697,大正関東地震,6弱
-13104:37,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天瑞元堤像 谷文晁筆,5.51,大正関東地震,6弱
-13104:38,13104,新宿区,Unknown,Unknown,未判定,未細分,point,謙堂文益像 谷文晁筆,5.51,大正関東地震,6弱
-13104:39,13104,新宿区,Unknown,Unknown,未判定,未細分,point,八大龍王図 谷文晁筆,5.51,大正関東地震,6弱
-13104:40,13104,新宿区,Unknown,Unknown,未判定,未細分,point,十大弟子図 谷文晁筆,5.51,大正関東地震,6弱
-13104:41,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造大日如来坐像,5.628,大正関東地震,6弱
-13104:42,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造地蔵菩薩半跏像,5.628,大正関東地震,6弱
-13104:43,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺の加藤文麗筆絵画作品,5.506,大正関東地震,6弱
-13104:44,13104,新宿区,Unknown,Unknown,未判定,未細分,point,谷文晁の絵,5.507,大正関東地震,6弱
-13104:45,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の鰐口,5.507,大正関東地震,6弱
-13104:46,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の軍配団扇,5.551,大正関東地震,6弱
-13104:47,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の高僧先達連座画像,5.763,大正関東地震,6弱
-13104:48,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造十一面観音坐像,5.511,大正関東地震,6弱
-13104:49,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の梵鐘,5.5,大正関東地震,6弱
-13104:50,13104,新宿区,Unknown,Unknown,未判定,未細分,point,宝泉寺の梵鐘,5.461,大正関東地震,5強
-13104:51,13104,新宿区,Unknown,Unknown,未判定,未細分,point,銅造地蔵菩薩半跏像,5.527,大正関東地震,6弱
-13104:52,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の梵鐘,5.661,大正関東地震,6弱
-13104:53,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西迎寺の梵鐘,5.616,大正関東地震,6弱
-13104:54,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の梵鐘,5.564,大正関東地震,6弱
-13104:55,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善慶寺の梵鐘,5.601,大正関東地震,6弱
-13104:56,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法雲寺の梵鐘,5.714,大正関東地震,6弱
-13104:57,13104,新宿区,Unknown,Unknown,未判定,未細分,point,圓照寺の梵鐘,5.566,大正関東地震,6弱
-13104:58,13104,新宿区,Unknown,Unknown,未判定,未細分,point,薬王院の梵鐘,5.451,大正関東地震,5強
-13104:59,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西應寺の梵鐘,5.781,大正関東地震,6弱
-13104:60,13104,新宿区,Unknown,Unknown,未判定,未細分,point,光照寺の涅槃図,5.511,大正関東地震,6弱
-13104:61,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長安寺の六地蔵塔,5.834,大正関東地震,6弱
-13104:62,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺墓地出土品,5.658,大正関東地震,6弱
-13104:63,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小銅鐸,5.697,大正関東地震,6弱
-13104:64,13104,新宿区,Unknown,Unknown,未判定,未細分,point,隆起線文系土器,5.697,大正関東地震,6弱
-13104:65,13104,新宿区,Unknown,Unknown,未判定,未細分,point,下落合横穴墓出土品,5.697,大正関東地震,6弱
-13104:66,13104,新宿区,Unknown,Unknown,未判定,未細分,point,一行院墓地出土品,5.846,大正関東地震,6弱
-13104:67,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中村家文書,5.697,大正関東地震,6弱
-13104:68,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の歴代宗主銘,5.763,大正関東地震,6弱
-13104:69,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院文書,5.5,大正関東地震,6弱
-13104:70,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社文書,5.393,大正関東地震,5強
-13104:71,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長厳寺文書,5.591,大正関東地震,6弱
-13104:72,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺文書,5.51,大正関東地震,6弱
-13104:73,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺文書,5.763,大正関東地震,6弱
-13104:74,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大聖院文書,5.627,大正関東地震,6弱
-13104:75,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法身寺文書,5.653,大正関東地震,6弱
-13104:76,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旭地蔵,5.661,大正関東地震,6弱
-13104:77,13104,新宿区,Unknown,Unknown,未判定,未細分,point,子供合埋碑,5.661,大正関東地震,6弱
-13104:78,13104,新宿区,Unknown,Unknown,未判定,未細分,point,式三番奉納額,5.556,大正関東地震,6弱
-13104:79,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧鈴法寺江戸番所資料,5.653,大正関東地震,6弱
-13104:80,13104,新宿区,Unknown,Unknown,未判定,未細分,point,空印の石手水鉢,5.697,大正関東地震,6弱
-13104:81,13104,新宿区,Unknown,Unknown,未判定,未細分,point,堀部武庸加功遺跡之碑,5.616,大正関東地震,6弱
-13104:82,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の日蓮聖人六百遠忌供養塔,5.627,大正関東地震,6弱
-13104:83,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の切支丹灯籠,5.658,大正関東地震,6弱
-13104:84,13104,新宿区,Unknown,Unknown,未判定,未細分,point,諸国旅人供養碑,5.511,大正関東地震,6弱
-13104:85,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部半蔵の槍,5.743,大正関東地震,6弱
-13104:86,13104,新宿区,Unknown,Unknown,未判定,未細分,point,駿馬塚の碑,5.666,大正関東地震,6弱
-13104:87,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月桂寺の切支丹灯籠,5.66,大正関東地震,6弱
-13104:88,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造七面明神半跏像及び宮殿,5.5,大正関東地震,6弱
-13104:89,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造妙見菩薩立像及び宮殿,5.5,大正関東地震,6弱
-13104:90,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造諏訪大明神坐像及び宮殿,5.5,大正関東地震,6弱
-13104:91,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の几号水準点(水鉢台座),5.549,大正関東地震,6弱
-13104:92,13104,新宿区,Unknown,Unknown,未判定,未細分,point,美術工芸品保存桐箱製作(保持者 大坂重雄),,大正関東地震,No data
-13104:93,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自証院の阿弥陀三尊種子板碑,5.596,大正関東地震,6弱
-13104:94,13104,新宿区,Unknown,Unknown,未判定,未細分,point,来迎寺の庚申塔,5.617,大正関東地震,6弱
-13104:95,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の奪衣婆像,5.661,大正関東地震,6弱
-13104:96,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の備射祭絵馬,5.541,大正関東地震,6弱
-13104:97,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の分木,5.541,大正関東地震,6弱
-13104:98,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自性院の私年号板碑,5.608,大正関東地震,6弱
-13104:99,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の庚申塔,5.507,大正関東地震,6弱
 13104:100,13104,新宿区,Unknown,Unknown,未判定,未細分,point,狛犬型庚申塔,5.544,大正関東地震,6弱
 13104:101,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の閻魔像,5.658,大正関東地震,6弱
 13104:102,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の奪衣婆像,5.658,大正関東地震,6弱
@@ -229,6 +132,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:107,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筑土八幡神社の庚申塔,5.556,大正関東地震,6弱
 13104:108,13104,新宿区,Unknown,Unknown,未判定,未細分,point,尺八「放下着」一式ならびに普化尺八伝授関連資料,5.653,大正関東地震,6弱
 13104:109,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善国寺の石虎,5.551,大正関東地震,6弱
+13104:11,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井出世不動尊像,5.576,大正関東地震,6弱
 13104:110,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の狛犬,5.541,大正関東地震,6弱
 13104:111,13104,新宿区,Unknown,Unknown,未判定,未細分,point,巴講睦の獅子頭,5.697,大正関東地震,6弱
 13104:112,13104,新宿区,Unknown,Unknown,未判定,未細分,point,一行院の板碑,5.846,大正関東地震,6弱
@@ -239,6 +143,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:117,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧源兵衛村の庚申塔,5.552,大正関東地震,6弱
 13104:118,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の題目塔,5.627,大正関東地震,6弱
 13104:119,13104,新宿区,Unknown,Unknown,未判定,未細分,point,熊野神社の狛犬,5.556,大正関東地震,6弱
+13104:12,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の唐獅子像,5.671,大正関東地震,6弱
 13104:120,13104,新宿区,Unknown,Unknown,未判定,未細分,point,高田馬場の流鏑馬,5.549,大正関東地震,6弱
 13104:121,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の備射祭,5.541,大正関東地震,6弱
 13104:122,13104,新宿区,Unknown,Unknown,未判定,未細分,point,葛谷御霊神社の備謝祭,5.534,大正関東地震,6弱
@@ -249,6 +154,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:127,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鉄砲組百人隊行列,5.611,大正関東地震,6弱
 13104:128,13104,新宿区,Unknown,Unknown,未判定,未細分,point,高松喜六の墓,5.747,大正関東地震,6弱
 13104:129,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部半蔵の墓,5.743,大正関東地震,6弱
+13104:13,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の三日月不動像,5.658,大正関東地震,6弱
 13104:130,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小泉八雲旧居跡,5.715,大正関東地震,6弱
 13104:131,13104,新宿区,Unknown,Unknown,未判定,未細分,point,塙保己一の墓,5.747,大正関東地震,6弱
 13104:132,13104,新宿区,Unknown,Unknown,未判定,未細分,point,山県大弐の墓,5.625,大正関東地震,6弱
@@ -259,6 +165,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:137,13104,新宿区,Unknown,Unknown,未判定,未細分,point,田村虎蔵旧居跡,5.514,大正関東地震,6弱
 13104:138,13104,新宿区,Unknown,Unknown,未判定,未細分,point,恋川春町の墓,5.661,大正関東地震,6弱
 13104:139,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月岡芳年の墓,5.628,大正関東地震,6弱
+13104:14,13104,新宿区,Unknown,Unknown,未判定,未細分,point,熊野神社の水鉢,5.556,大正関東地震,6弱
 13104:140,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄瑠璃坂の仇討跡,5.518,大正関東地震,6弱
 13104:141,13104,新宿区,Unknown,Unknown,未判定,未細分,point,国産飛行機発祥の地,5.473,大正関東地震,5強
 13104:142,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大久保の犬御用屋敷跡,5.635,大正関東地震,6弱
@@ -269,6 +176,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:147,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永井荷風旧居跡,5.586,大正関東地震,6弱
 13104:148,13104,新宿区,Unknown,Unknown,未判定,未細分,point,岡崎三郎信康供養塔,5.743,大正関東地震,6弱
 13104:149,13104,新宿区,Unknown,Unknown,未判定,未細分,point,榊原鍵吉の墓,5.781,大正関東地震,6弱
+13104:15,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の金剛力士石像,5.5,大正関東地震,6弱
 13104:150,13104,新宿区,Unknown,Unknown,未判定,未細分,point,平秩東作の墓,5.601,大正関東地震,6弱
 13104:151,13104,新宿区,Unknown,Unknown,未判定,未細分,point,二葉亭四迷旧居跡,5.638,大正関東地震,6弱
 13104:152,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大和田建樹終焉の地,5.653,大正関東地震,6弱
@@ -279,6 +187,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:157,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小泉八雲終焉の地,5.634,大正関東地震,6弱
 13104:158,13104,新宿区,Unknown,Unknown,未判定,未細分,point,紅皿の墓,5.627,大正関東地震,6弱
 13104:159,13104,新宿区,Unknown,Unknown,未判定,未細分,point,坪内逍遙旧居跡(文芸協会演劇研究所跡),5.592,大正関東地震,6弱
+13104:16,13104,新宿区,Unknown,Unknown,未判定,未細分,point,誓閑寺の梵鐘,5.527,大正関東地震,6弱
 13104:160,13104,新宿区,Unknown,Unknown,未判定,未細分,point,佐伯祐三アトリエの地,5.59,大正関東地震,6弱
 13104:161,13104,新宿区,Unknown,Unknown,未判定,未細分,point,滝沢馬琴終焉の地,5.679,大正関東地震,6弱
 13104:162,13104,新宿区,Unknown,Unknown,未判定,未細分,point,柳田國男旧居跡,5.69,大正関東地震,6弱
@@ -289,6 +198,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:167,13104,新宿区,Unknown,Unknown,未判定,未細分,point,女人芸術社跡(長谷川時雨・三上於菟吉旧居跡),5.56,大正関東地震,6弱
 13104:168,13104,新宿区,Unknown,Unknown,未判定,未細分,point,内村鑑三終焉の地(今井館聖書講堂跡),5.676,大正関東地震,6弱
 13104:169,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鈴木三重吉終焉の地(「赤い鳥」社跡),5.674,大正関東地震,6弱
+13104:17,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善国寺の毘沙門天像,5.551,大正関東地震,6弱
 13104:170,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鏑木清方旧居跡,5.582,大正関東地震,6弱
 13104:171,13104,新宿区,Unknown,Unknown,未判定,未細分,point,辰野金吾の墓,5.626,大正関東地震,6弱
 13104:172,13104,新宿区,Unknown,Unknown,未判定,未細分,point,牛込城跡,5.511,大正関東地震,6弱
@@ -299,6 +209,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:177,13104,新宿区,Unknown,Unknown,未判定,未細分,point,泉鏡花旧居跡,5.547,大正関東地震,6弱
 13104:178,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林芙美子終焉の地,5.395,大正関東地震,5強
 13104:179,13104,新宿区,Unknown,Unknown,未判定,未細分,point,塚本明毅の墓碑,5.661,大正関東地震,6弱
+13104:18,13104,新宿区,Unknown,Unknown,未判定,未細分,point,経王寺の大黒天像,5.564,大正関東地震,6弱
 13104:180,13104,新宿区,Unknown,Unknown,未判定,未細分,point,萩原宗固の墓,5.617,大正関東地震,6弱
 13104:181,13104,新宿区,Unknown,Unknown,未判定,未細分,point,吉川湊一の墓,5.613,大正関東地震,6弱
 13104:182,13104,新宿区,Unknown,Unknown,未判定,未細分,point,東京府仮小学第三校跡,5.557,大正関東地震,6弱
@@ -309,6 +220,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:187,13104,新宿区,Unknown,Unknown,未判定,未細分,point,六桜社跡,5.556,大正関東地震,6弱
 13104:188,13104,新宿区,Unknown,Unknown,未判定,未細分,point,佐々木活字店,5.503,大正関東地震,6弱
 13104:189,13104,新宿区,Unknown,Unknown,未判定,未細分,point,近衛篤麿公記念碑,5.506,大正関東地震,6弱
+13104:19,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法善寺の七面明神像,5.628,大正関東地震,6弱
 13104:190,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の二宮尊徳像,5.671,大正関東地震,6弱
 13104:191,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長谷川平蔵埋葬の地,5.624,大正関東地震,6弱
 13104:192,13104,新宿区,Unknown,Unknown,未判定,未細分,point,神楽坂の東八拳,5.623,大正関東地震,6弱
@@ -319,6 +231,8 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:197,13104,新宿区,Unknown,Unknown,未判定,未細分,point,彰忠碑,5.577,大正関東地震,6弱
 13104:198,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太平洋戦争本土初空襲の地跡,5.534,大正関東地震,6弱
 13104:199,13104,新宿区,Unknown,Unknown,未判定,未細分,point,名曲喫茶らんぶる,5.599,大正関東地震,6弱
+13104:2,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の山門「甘露門」,5.595,大正関東地震,6弱
+13104:20,13104,新宿区,Unknown,Unknown,未判定,未細分,point,布袋像の水鉢,5.549,大正関東地震,6弱
 13104:200,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西落合耕地整理記念碑,5.534,大正関東地震,6弱
 13104:201,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧淀橋浄水場蝶型弁,5.509,大正関東地震,6弱
 13104:202,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧淀橋浄水場六角堂,5.556,大正関東地震,6弱
@@ -329,6 +243,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:207,13104,新宿区,Unknown,Unknown,未判定,未細分,point,喜久井町 戦災者供養観音像,5.603,大正関東地震,6弱
 13104:208,13104,新宿区,Unknown,Unknown,未判定,未細分,point,白糸塚,5.661,大正関東地震,6弱
 13104:209,13104,新宿区,Unknown,Unknown,未判定,未細分,point,獅子吼会の山門,5.56,大正関東地震,6弱
+13104:21,13104,新宿区,Unknown,Unknown,未判定,未細分,point,須賀神社の三十六歌仙絵,5.65,大正関東地震,6弱
 13104:210,13104,新宿区,Unknown,Unknown,未判定,未細分,point,田島森碑,5.554,大正関東地震,6弱
 13104:211,13104,新宿区,Unknown,Unknown,未判定,未細分,point,忠魂碑,5.671,大正関東地震,6弱
 13104:212,13104,新宿区,Unknown,Unknown,未判定,未細分,point,祭馬碑,5.562,大正関東地震,6弱
@@ -339,6 +254,7 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:217,13104,新宿区,Unknown,Unknown,未判定,未細分,point,東京若葉キリスト教会,5.643,大正関東地震,6弱
 13104:218,13104,新宿区,Unknown,Unknown,未判定,未細分,point,稲荷鬼王神社の節分祭,5.558,大正関東地震,6弱
 13104:219,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の節分祭,5.541,大正関東地震,6弱
+13104:22,13104,新宿区,Unknown,Unknown,未判定,未細分,point,馬水槽,5.648,大正関東地震,6弱
 13104:220,13104,新宿区,Unknown,Unknown,未判定,未細分,point,花園神社の節分祭,5.671,大正関東地震,6弱
 13104:221,13104,新宿区,Unknown,Unknown,未判定,未細分,point,氷川神社の節分祭,5.377,大正関東地震,5強
 13104:222,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鎧神社の節分祭,5.544,大正関東地震,6弱
@@ -349,15 +265,98 @@ official_export_003:49,13103,港区,National,Designated,記念物,天然記念�
 13104:227,13104,新宿区,Unknown,Unknown,未判定,未細分,point,放生寺の水掛け地蔵と大震火災死亡群霊塔,5.5,大正関東地震,6弱
 13104:228,13104,新宿区,Unknown,Unknown,未判定,未細分,point,文学座アトリエ,5.844,大正関東地震,6弱
 13104:229,13104,新宿区,Unknown,Unknown,未判定,未細分,point,新宿園跡,,大正関東地震,No data
+13104:23,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺の時の鐘,5.593,大正関東地震,6弱
 13104:230,13104,新宿区,Unknown,Unknown,未判定,未細分,point,弘文学院跡,5.473,大正関東地震,5強
 13104:231,13104,新宿区,Unknown,Unknown,未判定,未細分,point,ムーラン・ルージュ新宿座跡,5.62,大正関東地震,6弱
+13104:24,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天龍寺のやぐら時計,5.593,大正関東地震,6弱
+13104:25,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大隈重信銅像,5.581,大正関東地震,6弱
+13104:26,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長善寺(笹寺)のめのう観音像,5.734,大正関東地震,6弱
+13104:27,13104,新宿区,Unknown,Unknown,未判定,未細分,point,鬼王神社の水鉢,5.558,大正関東地震,6弱
+13104:28,13104,新宿区,Unknown,Unknown,未判定,未細分,point,聖徳太子画像,5.697,大正関東地震,6弱
+13104:29,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の観無量寿経曼荼羅,5.658,大正関東地震,6弱
+13104:3,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の山門,5.627,大正関東地震,6弱
+13104:30,13104,新宿区,Unknown,Unknown,未判定,未細分,point,七人役者図絵馬,5.556,大正関東地震,6弱
+13104:31,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(専福寺),5.628,大正関東地震,6弱
+13104:32,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造阿弥陀如来立像,5.573,大正関東地震,6弱
+13104:33,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造地蔵菩薩坐像,5.511,大正関東地震,6弱
+13104:34,13104,新宿区,Unknown,Unknown,未判定,未細分,point,阿弥陀三尊来迎図(光照寺),5.511,大正関東地震,6弱
+13104:35,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法然上人画像,5.511,大正関東地震,6弱
+13104:36,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西光庵の観無量寿経曼荼羅,5.697,大正関東地震,6弱
+13104:37,13104,新宿区,Unknown,Unknown,未判定,未細分,point,天瑞元堤像 谷文晁筆,5.51,大正関東地震,6弱
+13104:38,13104,新宿区,Unknown,Unknown,未判定,未細分,point,謙堂文益像 谷文晁筆,5.51,大正関東地震,6弱
+13104:39,13104,新宿区,Unknown,Unknown,未判定,未細分,point,八大龍王図 谷文晁筆,5.51,大正関東地震,6弱
+13104:4,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の本殿・幣殿・拝殿,5.393,大正関東地震,5強
+13104:40,13104,新宿区,Unknown,Unknown,未判定,未細分,point,十大弟子図 谷文晁筆,5.51,大正関東地震,6弱
+13104:41,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造大日如来坐像,5.628,大正関東地震,6弱
+13104:42,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永福寺の銅造地蔵菩薩半跏像,5.628,大正関東地震,6弱
+13104:43,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺の加藤文麗筆絵画作品,5.506,大正関東地震,6弱
+13104:44,13104,新宿区,Unknown,Unknown,未判定,未細分,point,谷文晁の絵,5.507,大正関東地震,6弱
+13104:45,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の鰐口,5.507,大正関東地震,6弱
+13104:46,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の軍配団扇,5.551,大正関東地震,6弱
+13104:47,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の高僧先達連座画像,5.763,大正関東地震,6弱
+13104:48,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造十一面観音坐像,5.511,大正関東地震,6弱
+13104:49,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院の梵鐘,5.5,大正関東地震,6弱
+13104:5,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院本堂,5.5,大正関東地震,6弱
+13104:50,13104,新宿区,Unknown,Unknown,未判定,未細分,point,宝泉寺の梵鐘,5.461,大正関東地震,5強
+13104:51,13104,新宿区,Unknown,Unknown,未判定,未細分,point,銅造地蔵菩薩半跏像,5.527,大正関東地震,6弱
+13104:52,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の梵鐘,5.661,大正関東地震,6弱
+13104:53,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西迎寺の梵鐘,5.616,大正関東地震,6弱
+13104:54,13104,新宿区,Unknown,Unknown,未判定,未細分,point,浄栄寺の梵鐘,5.564,大正関東地震,6弱
+13104:55,13104,新宿区,Unknown,Unknown,未判定,未細分,point,善慶寺の梵鐘,5.601,大正関東地震,6弱
+13104:56,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法雲寺の梵鐘,5.714,大正関東地震,6弱
+13104:57,13104,新宿区,Unknown,Unknown,未判定,未細分,point,圓照寺の梵鐘,5.566,大正関東地震,6弱
+13104:58,13104,新宿区,Unknown,Unknown,未判定,未細分,point,薬王院の梵鐘,5.451,大正関東地震,5強
+13104:59,13104,新宿区,Unknown,Unknown,未判定,未細分,point,西應寺の梵鐘,5.781,大正関東地震,6弱
+13104:6,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院七面堂,5.5,大正関東地震,6弱
+13104:60,13104,新宿区,Unknown,Unknown,未判定,未細分,point,光照寺の涅槃図,5.511,大正関東地震,6弱
+13104:61,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長安寺の六地蔵塔,5.834,大正関東地震,6弱
+13104:62,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺墓地出土品,5.658,大正関東地震,6弱
+13104:63,13104,新宿区,Unknown,Unknown,未判定,未細分,point,小銅鐸,5.697,大正関東地震,6弱
+13104:64,13104,新宿区,Unknown,Unknown,未判定,未細分,point,隆起線文系土器,5.697,大正関東地震,6弱
+13104:65,13104,新宿区,Unknown,Unknown,未判定,未細分,point,下落合横穴墓出土品,5.697,大正関東地震,6弱
+13104:66,13104,新宿区,Unknown,Unknown,未判定,未細分,point,一行院墓地出土品,5.846,大正関東地震,6弱
+13104:67,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中村家文書,5.697,大正関東地震,6弱
+13104:68,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺の歴代宗主銘,5.763,大正関東地震,6弱
+13104:69,13104,新宿区,Unknown,Unknown,未判定,未細分,point,亮朝院文書,5.5,大正関東地震,6弱
+13104:7,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺本堂,5.788,大正関東地震,6弱
+13104:70,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社文書,5.393,大正関東地震,5強
+13104:71,13104,新宿区,Unknown,Unknown,未判定,未細分,point,長厳寺文書,5.591,大正関東地震,6弱
+13104:72,13104,新宿区,Unknown,Unknown,未判定,未細分,point,済松寺文書,5.51,大正関東地震,6弱
+13104:73,13104,新宿区,Unknown,Unknown,未判定,未細分,point,林光寺文書,5.763,大正関東地震,6弱
+13104:74,13104,新宿区,Unknown,Unknown,未判定,未細分,point,大聖院文書,5.627,大正関東地震,6弱
+13104:75,13104,新宿区,Unknown,Unknown,未判定,未細分,point,法身寺文書,5.653,大正関東地震,6弱
+13104:76,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旭地蔵,5.661,大正関東地震,6弱
+13104:77,13104,新宿区,Unknown,Unknown,未判定,未細分,point,子供合埋碑,5.661,大正関東地震,6弱
+13104:78,13104,新宿区,Unknown,Unknown,未判定,未細分,point,式三番奉納額,5.556,大正関東地震,6弱
+13104:79,13104,新宿区,Unknown,Unknown,未判定,未細分,point,旧鈴法寺江戸番所資料,5.653,大正関東地震,6弱
+13104:8,13104,新宿区,Unknown,Unknown,未判定,未細分,point,永心寺山門,5.615,大正関東地震,6弱
+13104:80,13104,新宿区,Unknown,Unknown,未判定,未細分,point,空印の石手水鉢,5.697,大正関東地震,6弱
+13104:81,13104,新宿区,Unknown,Unknown,未判定,未細分,point,堀部武庸加功遺跡之碑,5.616,大正関東地震,6弱
+13104:82,13104,新宿区,Unknown,Unknown,未判定,未細分,point,幸国寺の日蓮聖人六百遠忌供養塔,5.627,大正関東地震,6弱
+13104:83,13104,新宿区,Unknown,Unknown,未判定,未細分,point,太宗寺の切支丹灯籠,5.658,大正関東地震,6弱
+13104:84,13104,新宿区,Unknown,Unknown,未判定,未細分,point,諸国旅人供養碑,5.511,大正関東地震,6弱
+13104:85,13104,新宿区,Unknown,Unknown,未判定,未細分,point,服部半蔵の槍,5.743,大正関東地震,6弱
+13104:86,13104,新宿区,Unknown,Unknown,未判定,未細分,point,駿馬塚の碑,5.666,大正関東地震,6弱
+13104:87,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月桂寺の切支丹灯籠,5.66,大正関東地震,6弱
+13104:88,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造七面明神半跏像及び宮殿,5.5,大正関東地震,6弱
+13104:89,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造妙見菩薩立像及び宮殿,5.5,大正関東地震,6弱
+13104:9,13104,新宿区,Unknown,Unknown,未判定,未細分,point,筑土八幡神社の石造鳥居,5.556,大正関東地震,6弱
+13104:90,13104,新宿区,Unknown,Unknown,未判定,未細分,point,木造諏訪大明神坐像及び宮殿,5.5,大正関東地震,6弱
+13104:91,13104,新宿区,Unknown,Unknown,未判定,未細分,point,市谷亀岡八幡宮の几号水準点(水鉢台座),5.549,大正関東地震,6弱
+13104:92,13104,新宿区,Unknown,Unknown,未判定,未細分,point,美術工芸品保存桐箱製作(保持者 大坂重雄),,大正関東地震,No data
+13104:93,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自証院の阿弥陀三尊種子板碑,5.596,大正関東地震,6弱
+13104:94,13104,新宿区,Unknown,Unknown,未判定,未細分,point,来迎寺の庚申塔,5.617,大正関東地震,6弱
+13104:95,13104,新宿区,Unknown,Unknown,未判定,未細分,point,正受院の奪衣婆像,5.661,大正関東地震,6弱
+13104:96,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の備射祭絵馬,5.541,大正関東地震,6弱
+13104:97,13104,新宿区,Unknown,Unknown,未判定,未細分,point,中井御霊神社の分木,5.541,大正関東地震,6弱
+13104:98,13104,新宿区,Unknown,Unknown,未判定,未細分,point,自性院の私年号板碑,5.608,大正関東地震,6弱
+13104:99,13104,新宿区,Unknown,Unknown,未判定,未細分,point,月見岡八幡神社の庚申塔,5.507,大正関東地震,6弱
 official_export_001:19,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,学習院旧正門,5.539,大正関東地震,6弱
+official_export_001:197,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,早稲田大学大隈記念講堂,5.565,大正関東地震,6弱
 official_export_001:43,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,旧馬場家牛込邸,5.524,大正関東地震,6弱
 official_export_001:79,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,新宿御苑旧洋館御休所,5.655,大正関東地震,6弱
 official_export_001:84,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,聖徳記念絵画館,5.688,大正関東地震,6弱
-official_export_001:197,13104,新宿区,National,Designated,有形文化財,建造物,building_direct,早稲田大学大隈記念講堂,5.565,大正関東地震,6弱
 official_export_002:11,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,5.553,大正関東地震,6弱
-official_export_002:33,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,一水寮,5.556,大正関東地震,6弱
 official_export_002:158,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,旧島津家住宅アトリエ,5.41,大正関東地震,5強
 official_export_002:167,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,旧常盤家本館(石合家住宅主屋),5.523,大正関東地震,6弱
 official_export_002:201,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,栗原家住宅稲荷社及び石鳥居,5.555,大正関東地震,6弱
@@ -368,6 +367,7 @@ official_export_002:269,13104,新宿区,National,Registered,有形文化財,建�
 official_export_002:270,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,新潮社本館,5.624,大正関東地震,6弱
 official_export_002:273,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,鈴木家住宅主屋,5.597,大正関東地震,6弱
 official_export_002:295,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,高橋建築事務所社屋,5.627,大正関東地震,6弱
+official_export_002:33,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,一水寮,5.556,大正関東地震,6弱
 official_export_002:388,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,日本バプテストキリスト教目白ヶ丘教会礼拝堂,5.526,大正関東地震,6弱
 official_export_002:433,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,宮城道雄記念館検校の間,5.518,大正関東地震,6弱
 official_export_002:456,13104,新宿区,National,Registered,有形文化財,建造物,building_direct,安与ビル,5.638,大正関東地震,6弱
@@ -376,17 +376,11 @@ official_export_003:47,13104,新宿区,National,Designated,記念物,天然記�
 official_export_003:69,13104,新宿区,National,Designated,記念物,天然記念物,point,山鹿素行墓,5.609,大正関東地震,6弱
 official_export_003:75,13104,新宿区,National,Designated,記念物,天然記念物,point,林氏墓地,5.554,大正関東地震,6弱
 1,13105,文京区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,湯島天満宮表鳥居,5.616,大正関東地震,6弱
-2,13105,文京区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,求道会館,5.567,大正関東地震,6弱
 155,13105,文京区,Tokyo Metropolitan,Designated,記念物,旧跡,point,藤田東湖護母致命の処,5.694,大正関東地震,6弱
 156,13105,文京区,Tokyo Metropolitan,Designated,記念物,旧跡,point,森?外遺跡,5.613,大正関東地震,6弱
 196,13105,文京区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田楠雄邸庭園,5.415,大正関東地震,5強
+2,13105,文京区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,求道会館,5.567,大正関東地震,6弱
 240,13105,文京区,Tokyo Metropolitan,Designated,記念物,史跡,point,原氏墓所,5.505,大正関東地震,6弱
-official_export_001:4,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,5.657,大正関東地震,6弱
-official_export_001:5,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,5.645,大正関東地震,6弱
-official_export_001:18,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧加賀屋敷御守殿門(赤門),5.466,大正関東地震,5強
-official_export_001:61,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺月光殿(旧日光院客殿),5.5,大正関東地震,6弱
-official_export_001:62,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺本堂,5.497,大正関東地震,5強
-official_export_001:83,13105,文京区,National,Designated,有形文化財,建造物,building_direct,スカイハウス(旧菊竹清訓自邸),5.677,大正関東地震,6弱
 official_export_001:102,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧東京医学校本館,5.473,大正関東地震,5強
 official_export_001:119,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,5.617,大正関東地震,6弱
 official_export_001:120,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,5.617,大正関東地震,6弱
@@ -395,27 +389,23 @@ official_export_001:122,13105,文京区,National,Designated,有形文化財,建�
 official_export_001:123,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,5.652,大正関東地震,6弱
 official_export_001:124,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,5.614,大正関東地震,6弱
 official_export_001:125,13105,文京区,National,Designated,有形文化財,建造物,building_direct,根津神社,5.652,大正関東地震,6弱
-official_export_002:5,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅倉庫,5.413,大正関東地震,5強
-official_export_002:6,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅門,5.413,大正関東地震,5強
-official_export_002:18,13105,文京区,National,Registered,有形文化財,建造物,building_direct,池田家住宅主屋,5.598,大正関東地震,6弱
-official_export_002:26,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五蔵,5.638,大正関東地震,6弱
-official_export_002:27,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五主屋,5.638,大正関東地震,6弱
-official_export_002:39,13105,文京区,National,Registered,有形文化財,建造物,building_direct,今井家住宅蔵,5.578,大正関東地震,6弱
-official_export_002:50,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)主屋,5.609,大正関東地震,6弱
-official_export_002:51,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)門,5.609,大正関東地震,6弱
-official_export_002:52,13105,文京区,National,Registered,有形文化財,建造物,building_direct,エチソウビル,5.585,大正関東地震,6弱
-official_export_002:72,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学表門,5.599,大正関東地震,6弱
-official_export_002:73,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学講堂,5.619,大正関東地震,6弱
-official_export_002:74,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学附属幼稚園園舎,5.639,大正関東地震,6弱
-official_export_002:75,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学本館,5.619,大正関東地震,6弱
+official_export_001:18,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧加賀屋敷御守殿門(赤門),5.466,大正関東地震,5強
+official_export_001:4,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,5.657,大正関東地震,6弱
+official_export_001:5,13105,文京区,National,Designated,有形文化財,建造物,building_direct,旧磯野家住宅,5.645,大正関東地震,6弱
+official_export_001:61,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺月光殿(旧日光院客殿),5.5,大正関東地震,6弱
+official_export_001:62,13105,文京区,National,Designated,有形文化財,建造物,building_direct,護国寺本堂,5.497,大正関東地震,5強
+official_export_001:83,13105,文京区,National,Designated,有形文化財,建造物,building_direct,スカイハウス(旧菊竹清訓自邸),5.677,大正関東地震,6弱
 official_export_002:101,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅主屋,5.581,大正関東地震,6弱
 official_export_002:102,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅門及び塀,5.581,大正関東地震,6弱
 official_export_002:103,13105,文京区,National,Registered,有形文化財,建造物,building_direct,金澤家住宅洋館,5.581,大正関東地震,6弱
 official_export_002:174,13105,文京区,National,Registered,有形文化財,建造物,building_direct,旧弘田家住宅主屋,5.441,大正関東地震,5強
 official_export_002:175,13105,文京区,National,Registered,有形文化財,建造物,building_direct,旧弘田家住宅門柱及び塀,5.441,大正関東地震,5強
+official_export_002:18,13105,文京区,National,Registered,有形文化財,建造物,building_direct,池田家住宅主屋,5.598,大正関東地震,6弱
 official_export_002:244,13105,文京区,National,Registered,有形文化財,建造物,building_direct,さかえビル,5.486,大正関東地震,5強
 official_export_002:250,13105,文京区,National,Registered,有形文化財,建造物,building_direct,島薗家住宅主屋,5.392,大正関東地震,5強
+official_export_002:26,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五蔵,5.638,大正関東地震,6弱
 official_export_002:266,13105,文京区,National,Registered,有形文化財,建造物,building_direct,進開屋,5.638,大正関東地震,6弱
+official_export_002:27,13105,文京区,National,Registered,有形文化財,建造物,building_direct,伊勢五主屋,5.638,大正関東地震,6弱
 official_export_002:272,13105,文京区,National,Registered,有形文化財,建造物,building_direct,新町館(三宅家住宅),5.398,大正関東地震,5強
 official_export_002:279,13105,文京区,National,Registered,有形文化財,建造物,building_direct,瀬川家住宅(旧古市家住宅)蔵,5.577,大正関東地震,6弱
 official_export_002:280,13105,文京区,National,Registered,有形文化財,建造物,building_direct,瀬川家住宅(旧古市家住宅)主屋,5.577,大正関東地震,6弱
@@ -441,6 +431,7 @@ official_export_002:380,13105,文京区,National,Registered,有形文化財,建�
 official_export_002:382,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団本郷中央教会,5.652,大正関東地震,6弱
 official_export_002:383,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本基督教団弓町本郷教会,5.594,大正関東地震,6弱
 official_export_002:387,13105,文京区,National,Registered,有形文化財,建造物,building_direct,日本聖公会東京教区東京諸聖徒教会礼拝堂,5.635,大正関東地震,6弱
+official_export_002:39,13105,文京区,National,Registered,有形文化財,建造物,building_direct,今井家住宅蔵,5.578,大正関東地震,6弱
 official_export_002:390,13105,文京区,National,Registered,有形文化財,建造物,building_direct,橋本家住宅,5.589,大正関東地震,6弱
 official_export_002:397,13105,文京区,National,Registered,有形文化財,建造物,building_direct,はん亭,5.773,大正関東地震,6弱
 official_export_002:406,13105,文京区,National,Registered,有形文化財,建造物,building_direct,平野家住宅蔵,5.582,大正関東地震,6弱
@@ -459,7 +450,15 @@ official_export_002:461,13105,文京区,National,Registered,有形文化財,建�
 official_export_002:462,13105,文京区,National,Registered,有形文化財,建造物,building_direct,山脇家住宅主屋,5.406,大正関東地震,5強
 official_export_002:463,13105,文京区,National,Registered,有形文化財,建造物,building_direct,弥生正緑館(渋谷家住宅洋館)主屋,5.668,大正関東地震,6弱
 official_export_002:464,13105,文京区,National,Registered,有形文化財,建造物,building_direct,弥生正緑館(渋谷家住宅洋館)庭門,5.668,大正関東地震,6弱
-official_export_003:8,13105,文京区,National,Designated,記念物,天然記念物,point,大塚先儒墓所,5.523,大正関東地震,6弱
+official_export_002:5,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅倉庫,5.413,大正関東地震,5強
+official_export_002:50,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)主屋,5.609,大正関東地震,6弱
+official_export_002:51,13105,文京区,National,Registered,有形文化財,建造物,building_direct,梅村家住宅(旧山崎家住宅)門,5.609,大正関東地震,6弱
+official_export_002:52,13105,文京区,National,Registered,有形文化財,建造物,building_direct,エチソウビル,5.585,大正関東地震,6弱
+official_export_002:6,13105,文京区,National,Registered,有形文化財,建造物,building_direct,芦葉家住宅門,5.413,大正関東地震,5強
+official_export_002:72,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学表門,5.599,大正関東地震,6弱
+official_export_002:73,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学講堂,5.619,大正関東地震,6弱
+official_export_002:74,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学附属幼稚園園舎,5.639,大正関東地震,6弱
+official_export_002:75,13105,文京区,National,Registered,有形文化財,建造物,building_direct,お茶の水女子大学本館,5.619,大正関東地震,6弱
 official_export_003:12,13105,文京区,National,Designated,記念物,天然記念物,point,懐徳館庭園(旧加賀藩主前田氏本郷本邸庭園),5.463,大正関東地震,5強
 official_export_003:23,13105,文京区,National,Designated,記念物,天然記念物,point,小石川後楽園,5.672,大正関東地震,6弱
 official_export_003:24,13105,文京区,National,Designated,記念物,天然記念物,point,小石川植物園(御薬園跡及び養生所跡),5.884,大正関東地震,6弱
@@ -467,27 +466,7 @@ official_export_003:40,13105,文京区,National,Designated,記念物,天然記�
 official_export_003:70,13105,文京区,National,Designated,記念物,天然記念物,point,弥生二丁目遺跡,5.661,大正関東地震,6弱
 official_export_003:71,13105,文京区,National,Designated,記念物,天然記念物,point,湯島聖堂,5.626,大正関東地震,6弱
 official_export_003:73,13105,文京区,National,Designated,記念物,天然記念物,point,六義園,5.487,大正関東地震,5強
-3,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,浅草寺六角堂,5.623,大正関東地震,6弱
-94,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,西仏板碑,5.719,大正関東地震,6弱
-157,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,戸田茂睡墓,5.623,大正関東地震,6弱
-158,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,六地蔵石燈籠,5.623,大正関東地震,6弱
-159,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川庄右衛門及び同清右衛門墓,5.857,大正関東地震,6弱
-160,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,大久保主水墓,5.534,大正関東地震,6弱
-161,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,谷文晁墓,5.727,大正関東地震,6弱
-162,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,幡随院長兵衛墓,5.727,大正関東地震,6弱
-163,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,慈海僧正墓,5.553,大正関東地震,6弱
-164,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛飾北斎墓,5.694,大正関東地震,6弱
-165,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田宗?墓,5.637,大正関東地震,6弱
-166,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,了翁禅師塔碑,5.553,大正関東地震,6弱
-167,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,天海僧正毛髪塔,5.405,大正関東地震,5強
-168,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,樋口定伊墓,5.759,大正関東地震,6弱
-169,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山岡鉄舟墓,5.498,大正関東地震,5強
-170,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,三遊亭円朝墓,5.498,大正関東地震,5強
-206,13106,台東区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,玉林寺のシイ,5.606,大正関東地震,6弱
-241,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,太宰春台墓,5.758,大正関東地震,6弱
-242,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,浄厳律師墓,5.759,大正関東地震,6弱
-243,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,子規庵,5.435,大正関東地震,5強
-244,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,中村不折旧宅(書道博物館),5.44,大正関東地震,5強
+official_export_003:8,13105,文京区,National,Designated,記念物,天然記念物,point,大塚先儒墓所,5.523,大正関東地震,6弱
 131067100003,13106,台東区,Municipal,Designated,民俗文化財,有形民俗文化財,point,旧吉田屋酒店,5.558,大正関東地震,6弱
 131067100027,13106,台東区,Municipal,Other,記念物,史跡,point,狩野芳崖墓 附 狩野芳崖翁碑,5.524,大正関東地震,6弱
 131067100029,13106,台東区,Municipal,Other,有形文化財,建造物,building_direct,石造宝篋印塔,5.954,大正関東地震,6弱
@@ -519,31 +498,29 @@ official_export_003:73,13105,文京区,National,Designated,記念物,天然記�
 131067100181,13106,台東区,Municipal,Other,民俗文化財,有形民俗文化財,point,吉徳これくしょん(雛人形),5.718,大正関東地震,6弱
 131067100182,13106,台東区,Municipal,Other,記念物,史跡,point,渋沢栄一家墓所,5.525,大正関東地震,6弱
 131067100187,13106,台東区,Municipal,Other,記念物,史跡,point,徳川家光薨去に伴う殉死者の墓,5.504,大正関東地震,6弱
+157,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,戸田茂睡墓,5.623,大正関東地震,6弱
+158,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,六地蔵石燈籠,5.623,大正関東地震,6弱
+159,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,玉川庄右衛門及び同清右衛門墓,5.857,大正関東地震,6弱
+160,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,大久保主水墓,5.534,大正関東地震,6弱
+161,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,谷文晁墓,5.727,大正関東地震,6弱
+162,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,幡随院長兵衛墓,5.727,大正関東地震,6弱
+163,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,慈海僧正墓,5.553,大正関東地震,6弱
+164,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛飾北斎墓,5.694,大正関東地震,6弱
+165,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田宗?墓,5.637,大正関東地震,6弱
+166,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,了翁禅師塔碑,5.553,大正関東地震,6弱
+167,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,天海僧正毛髪塔,5.405,大正関東地震,5強
+168,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,樋口定伊墓,5.759,大正関東地震,6弱
+169,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山岡鉄舟墓,5.498,大正関東地震,5強
+170,13106,台東区,Tokyo Metropolitan,Designated,記念物,旧跡,point,三遊亭円朝墓,5.498,大正関東地震,5強
+206,13106,台東区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,玉林寺のシイ,5.606,大正関東地震,6弱
+241,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,太宰春台墓,5.758,大正関東地震,6弱
+242,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,浄厳律師墓,5.759,大正関東地震,6弱
+243,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,子規庵,5.435,大正関東地震,5強
+244,13106,台東区,Tokyo Metropolitan,Designated,記念物,史跡,point,中村不折旧宅(書道博物館),5.44,大正関東地震,5強
+3,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,浅草寺六角堂,5.623,大正関東地震,6弱
+94,13106,台東区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,西仏板碑,5.719,大正関東地震,6弱
 official_export_001:0,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,5.629,大正関東地震,6弱
 official_export_001:1,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草神社,5.629,大正関東地震,6弱
-official_export_001:6,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.588,大正関東地震,6弱
-official_export_001:7,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.588,大正関東地震,6弱
-official_export_001:8,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.575,大正関東地震,6弱
-official_export_001:9,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧因州池田屋敷表門,5.494,大正関東地震,5強
-official_export_001:21,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺旧本坊表門(黒門),5.483,大正関東地震,5強
-official_export_001:22,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺清水堂,5.502,大正関東地震,6弱
-official_export_001:23,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧寛永寺五重塔,5.436,大正関東地震,5強
-official_export_001:42,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京科学博物館本館,5.472,大正関東地震,5強
-official_export_001:56,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟奥院,5.545,大正関東地震,6弱
-official_export_001:58,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,5.526,大正関東地震,6弱
-official_export_001:59,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,5.528,大正関東地震,6弱
-official_export_001:60,13106,台東区,National,Designated,有形文化財,建造物,building_direct,国立西洋美術館本館,5.455,大正関東地震,5強
-official_export_001:73,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧十輪院宝蔵,5.51,大正関東地震,6弱
-official_export_001:74,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟奥院,5.543,大正関東地震,6弱
-official_export_001:76,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,5.542,大正関東地震,6弱
-official_export_001:77,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,5.542,大正関東地震,6弱
-official_export_001:85,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
-official_export_001:86,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
-official_export_001:87,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
-official_export_001:88,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
-official_export_001:89,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
-official_export_001:90,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.698,大正関東地震,6弱
-official_export_001:91,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺二天門,5.627,大正関東地震,6弱
 official_export_001:104,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京音楽学校奏楽堂,5.491,大正関東地震,5強
 official_export_001:105,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京帝室博物館本館,5.511,大正関東地震,6弱
 official_export_001:107,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,5.435,大正関東地震,5強
@@ -551,18 +528,29 @@ official_export_001:108,13106,台東区,National,Designated,有形文化財,建�
 official_export_001:109,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,5.435,大正関東地震,5強
 official_export_001:110,13106,台東区,National,Designated,有形文化財,建造物,building_direct,東照宮社殿,5.534,大正関東地震,6弱
 official_export_001:126,13106,台東区,National,Designated,有形文化財,建造物,building_direct,表慶館,5.503,大正関東地震,6弱
-official_export_002:28,13106,台東区,National,Registered,有形文化財,建造物,building_direct,伊勢屋店舗兼主屋,6.077,大正関東地震,6強以上
-official_export_002:29,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅裏門,5.797,大正関東地震,6弱
-official_export_002:30,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅表門,5.509,大正関東地震,6弱
-official_export_002:31,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅蔵,5.797,大正関東地震,6弱
-official_export_002:32,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅主屋,5.797,大正関東地震,6弱
-official_export_002:40,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館北棟,5.658,大正関東地震,6弱
-official_export_002:41,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館玄関棟,5.671,大正関東地震,6弱
-official_export_002:42,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館南棟,5.658,大正関東地震,6弱
-official_export_002:43,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店北奥座敷,5.777,大正関東地震,6弱
-official_export_002:44,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店西奥座敷,5.777,大正関東地震,6弱
-official_export_002:45,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店東奥座敷,5.777,大正関東地震,6弱
-official_export_002:46,13106,台東区,National,Registered,有形文化財,建造物,building_direct,岩田家住宅和館,5.78,大正関東地震,6弱
+official_export_001:21,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺旧本坊表門(黒門),5.483,大正関東地震,5強
+official_export_001:22,13106,台東区,National,Designated,有形文化財,建造物,building_direct,寛永寺清水堂,5.502,大正関東地震,6弱
+official_export_001:23,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧寛永寺五重塔,5.436,大正関東地震,5強
+official_export_001:42,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧東京科学博物館本館,5.472,大正関東地震,5強
+official_export_001:56,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟奥院,5.545,大正関東地震,6弱
+official_export_001:58,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,5.526,大正関東地震,6弱
+official_export_001:59,13106,台東区,National,Designated,有形文化財,建造物,building_direct,厳有院霊廟勅額門及び水盤舎,5.528,大正関東地震,6弱
+official_export_001:6,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.588,大正関東地震,6弱
+official_export_001:60,13106,台東区,National,Designated,有形文化財,建造物,building_direct,国立西洋美術館本館,5.455,大正関東地震,5強
+official_export_001:7,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.588,大正関東地震,6弱
+official_export_001:73,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧十輪院宝蔵,5.51,大正関東地震,6弱
+official_export_001:74,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟奥院,5.543,大正関東地震,6弱
+official_export_001:76,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,5.542,大正関東地震,6弱
+official_export_001:77,13106,台東区,National,Designated,有形文化財,建造物,building_direct,常憲院霊廟勅額門及び水盤舎,5.542,大正関東地震,6弱
+official_export_001:8,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧岩崎家住宅(東京都台東区池之端一丁目),5.575,大正関東地震,6弱
+official_export_001:85,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
+official_export_001:86,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
+official_export_001:87,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
+official_export_001:88,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
+official_export_001:89,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.719,大正関東地震,6弱
+official_export_001:9,13106,台東区,National,Designated,有形文化財,建造物,building_direct,旧因州池田屋敷表門,5.494,大正関東地震,5強
+official_export_001:90,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺伝法院,5.698,大正関東地震,6弱
+official_export_001:91,13106,台東区,National,Designated,有形文化財,建造物,building_direct,浅草寺二天門,5.627,大正関東地震,6弱
 official_export_002:107,13106,台東区,National,Registered,有形文化財,建造物,building_direct,神谷バー本館,5.749,大正関東地震,6弱
 official_export_002:112,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺葵の間,5.55,大正関東地震,6弱
 official_export_002:113,13106,台東区,National,Registered,有形文化財,建造物,building_direct,寛永寺護国院庫裏,5.492,大正関東地震,5強
@@ -583,13 +571,18 @@ official_export_002:205,13106,台東区,National,Registered,有形文化財,建�
 official_export_002:243,13106,台東区,National,Registered,有形文化財,建造物,building_direct,西徳寺本堂,5.985,大正関東地震,6弱
 official_export_002:274,13106,台東区,National,Registered,有形文化財,建造物,building_direct,すぺーす小倉屋蔵,5.545,大正関東地震,6弱
 official_export_002:275,13106,台東区,National,Registered,有形文化財,建造物,building_direct,すぺーす小倉屋店舗,5.545,大正関東地震,6弱
+official_export_002:28,13106,台東区,National,Registered,有形文化財,建造物,building_direct,伊勢屋店舗兼主屋,6.077,大正関東地震,6強以上
 official_export_002:282,13106,台東区,National,Registered,有形文化財,建造物,building_direct,タイガービルヂング,6.007,大正関東地震,6強以上
 official_export_002:283,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館東屋,5.519,大正関東地震,6弱
 official_export_002:284,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館アトリエ棟,5.519,大正関東地震,6弱
 official_export_002:285,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館旧アトリエ,5.527,大正関東地震,6弱
 official_export_002:286,13106,台東区,National,Registered,有形文化財,建造物,building_direct,台東区立朝倉彫塑館住居,5.527,大正関東地震,6弱
+official_export_002:29,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅裏門,5.797,大正関東地震,6弱
+official_export_002:30,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅表門,5.509,大正関東地震,6弱
+official_export_002:31,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅蔵,5.797,大正関東地震,6弱
 official_export_002:311,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松表門及び塀,5.702,大正関東地震,6弱
 official_export_002:312,13106,台東区,National,Registered,有形文化財,建造物,building_direct,茶寮一松店舗及び住居,5.777,大正関東地震,6弱
+official_export_002:32,13106,台東区,National,Registered,有形文化財,建造物,building_direct,市田家住宅主屋,5.797,大正関東地震,6弱
 official_export_002:325,13106,台東区,National,Registered,有形文化財,建造物,building_direct,燕湯,5.535,大正関東地震,6弱
 official_export_002:326,13106,台東区,National,Registered,有形文化財,建造物,building_direct,手焼せんべい嵯峨の家店舗,5.558,大正関東地震,6弱
 official_export_002:357,13106,台東区,National,Registered,有形文化財,建造物,building_direct,東京地下鉄銀座線浅草駅四番出入口上家,5.779,大正関東地震,6弱
@@ -599,19 +592,20 @@ official_export_002:367,13106,台東区,National,Registered,有形文化財,建�
 official_export_002:376,13106,台東区,National,Registered,有形文化財,建造物,building_direct,難波商店店舗兼主屋,5.764,大正関東地震,6弱
 official_export_002:385,13106,台東区,National,Registered,有形文化財,建造物,building_direct,日本聖公会浅草聖ヨハネ教会,5.616,大正関東地震,6弱
 official_export_002:394,13106,台東区,National,Registered,有形文化財,建造物,building_direct,花重店舗,5.575,大正関東地震,6弱
-official_export_003:2,13106,台東区,National,Designated,記念物,天然記念物,point,伊能忠敬墓,5.709,大正関東地震,6弱
+official_export_002:40,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館北棟,5.658,大正関東地震,6弱
+official_export_002:41,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館玄関棟,5.671,大正関東地震,6弱
+official_export_002:42,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半別館南棟,5.658,大正関東地震,6弱
+official_export_002:43,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店北奥座敷,5.777,大正関東地震,6弱
+official_export_002:44,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店西奥座敷,5.777,大正関東地震,6弱
+official_export_002:45,13106,台東区,National,Registered,有形文化財,建造物,building_direct,今半本店東奥座敷,5.777,大正関東地震,6弱
+official_export_002:46,13106,台東区,National,Registered,有形文化財,建造物,building_direct,岩田家住宅和館,5.78,大正関東地震,6弱
 official_export_003:14,13106,台東区,National,Designated,記念物,天然記念物,point,蒲生君平墓,5.633,大正関東地震,6弱
 official_export_003:16,13106,台東区,National,Designated,記念物,天然記念物,point,旧朝倉文夫氏庭園,5.519,大正関東地震,6弱
+official_export_003:2,13106,台東区,National,Designated,記念物,天然記念物,point,伊能忠敬墓,5.709,大正関東地震,6弱
 official_export_003:42,13106,台東区,National,Designated,記念物,天然記念物,point,高橋至時墓,5.709,大正関東地震,6弱
 official_export_003:48,13106,台東区,National,Designated,記念物,天然記念物,point,伝法院庭園,,大正関東地震,No data
 official_export_003:59,13106,台東区,National,Designated,記念物,天然記念物,point,平賀源内墓,5.97,大正関東地震,6弱
 official_export_003:72,13106,台東区,National,Designated,記念物,天然記念物,point,横山大観旧宅及び庭園,5.82,大正関東地震,6弱
-95,13107,墨田区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,石造明暦大火横死者等供養塔,5.546,大正関東地震,6弱
-171,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,赤穂浪士元禄義挙の跡,6.008,大正関東地震,6強以上
-172,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,加藤千蔭墓,5.92,大正関東地震,6弱
-173,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京伝墓,5.92,大正関東地震,6弱
-174,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京山墓,5.92,大正関東地震,6弱
-197,13107,墨田区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田庭園,5.721,大正関東地震,6弱
 131075100001,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,牛嶋神社石造鳥居,5.737,大正関東地震,6弱
 131075100002,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,白髭神社石造鳥居,5.907,大正関東地震,6弱
 131075100003,13107,墨田区,Municipal,Unknown,有形文化財,建造物,building_direct,多聞寺山門,5.902,大正関東地震,6弱
@@ -716,13 +710,19 @@ official_export_003:72,13106,台東区,National,Designated,記念物,天然記�
 131075100155,13107,墨田区,Municipal,Unknown,記念物,史跡,point,回向院相撲関係石碑群(力塚),5.927,大正関東地震,6弱
 131075100156,13107,墨田区,Municipal,Unknown,記念物,天然記念物,point,飛木稲荷神社のイチョウ,6.264,大正関東地震,6強以上
 131075100157,13107,墨田区,Municipal,Unknown,記念物,名勝,point,墨堤の桜,5.812,大正関東地震,6弱
-official_export_002:99,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,割烹美家古向島本店店舗,5.822,大正関東地震,6弱
+171,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,赤穂浪士元禄義挙の跡,6.008,大正関東地震,6強以上
+172,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,加藤千蔭墓,5.92,大正関東地震,6弱
+173,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京伝墓,5.92,大正関東地震,6弱
+174,13107,墨田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,磐瀬京山墓,5.92,大正関東地震,6弱
+197,13107,墨田区,Tokyo Metropolitan,Designated,記念物,名勝,point,旧安田庭園,5.721,大正関東地震,6弱
+95,13107,墨田区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,石造明暦大火横死者等供養塔,5.546,大正関東地震,6弱
 official_export_002:276,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校校舎,5.999,大正関東地震,6弱
 official_export_002:277,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,墨田区立言問小学校講堂,5.996,大正関東地震,6弱
 official_export_002:327,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,照田家住宅主屋,5.968,大正関東地震,6弱
+official_export_002:99,13107,墨田区,National,Registered,有形文化財,建造物,building_direct,割烹美家古向島本店店舗,5.822,大正関東地震,6弱
 official_export_003:65,13107,墨田区,National,Designated,記念物,天然記念物,point,向島百花園,5.881,大正関東地震,6弱
-198,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,5.91,大正関東地震,6弱
 131083000000.0,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,6.154,大正関東地震,6強以上
+198,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,5.91,大正関東地震,6弱
 official_export_001:100,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),5.894,大正関東地震,6弱
 official_export_001:193,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,5.972,大正関東地震,6弱
 official_export_002:166,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,5.958,大正関東地震,6弱
@@ -733,8 +733,8 @@ official_export_002:336,13108,江東区,National,Registered,有形文化財,建�
 official_export_002:337,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,5.972,大正関東地震,6弱
 official_export_003:62,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,6.082,大正関東地震,6強以上
 4,13109,品川区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧島津公爵家袖ヶ崎本邸洋館(清泉女子大学本館),5.822,大正関東地震,6弱
-official_export_001:39,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,5.863,大正関東地震,6弱
 official_export_001:128,13109,品川区,National,Designated,有形文化財,建造物,building_direct,宝篋印塔,5.785,大正関東地震,6弱
+official_export_001:39,13109,品川区,National,Designated,有形文化財,建造物,building_direct,旧島津家本邸,5.863,大正関東地震,6弱
 official_export_002:157,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧品川警察署品川橋交通待機所,5.736,大正関東地震,6弱
 official_export_002:178,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旧三井文庫第二書庫,5.925,大正関東地震,6弱
 official_export_002:207,13109,品川区,National,Registered,有形文化財,建造物,building_direct,小池家住宅主屋,5.931,大正関東地震,6弱
@@ -742,10 +742,10 @@ official_export_002:255,13109,品川区,National,Registered,有形文化財,建�
 official_export_002:371,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅主屋,5.809,大正関東地震,6弱
 official_export_002:372,13109,品川区,National,Registered,有形文化財,建造物,building_direct,長濱家住宅門,5.809,大正関東地震,6弱
 official_export_002:392,13109,品川区,National,Registered,有形文化財,建造物,building_direct,旗岡八幡神社絵馬殿,5.913,大正関東地震,6弱
-official_export_003:9,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,5.926,大正関東地震,6弱
 official_export_003:15,13109,品川区,National,Designated,記念物,天然記念物,point,加茂真淵墓,5.943,大正関東地震,6弱
 official_export_003:18,13109,品川区,National,Designated,記念物,天然記念物,point,旧白金御料地,5.75,大正関東地震,6弱
 official_export_003:44,13109,品川区,National,Designated,記念物,天然記念物,point,沢庵墓,5.943,大正関東地震,6弱
+official_export_003:9,13109,品川区,National,Designated,記念物,天然記念物,point,大森貝塚,5.926,大正関東地震,6弱
 5,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,滝泉寺前不動堂,5.802,大正関東地震,6弱
 96,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,大円寺石仏群,5.633,大正関東地震,6弱
 97,13110,目黒区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,文化4年永代橋崩落横死者供養塔及び石碑,5.527,大正関東地震,6弱
@@ -762,8 +762,6 @@ official_export_001:94,13110,目黒区,National,Designated,有形文化財,建�
 official_export_001:95,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,5.772,大正関東地震,6弱
 official_export_001:96,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,5.772,大正関東地震,6弱
 official_export_001:97,13110,目黒区,National,Designated,有形文化財,建造物,building_direct,尊經閣文庫,5.773,大正関東地震,6弱
-official_export_002:4,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,5.832,大正関東地震,6弱
-official_export_002:80,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,5.743,大正関東地震,6弱
 official_export_002:159,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧砂堀医院,5.732,大正関東地震,6弱
 official_export_002:161,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,旧園田家住宅スタジオ,5.911,大正関東地震,6弱
 official_export_002:330,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学大岡山西一号館(旧分析化学実験室),5.87,大正関東地震,6弱
@@ -771,6 +769,7 @@ official_export_002:331,13110,目黒区,National,Registered,有形文化財,建�
 official_export_002:332,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京工業大学本館,5.891,大正関東地震,6弱
 official_export_002:346,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学教養学部旧第一高等学校本館(時計台),5.735,大正関東地震,6弱
 official_export_002:349,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,東京大学先端科学技術研究センター十三号館(旧東京帝国大学航空研究所本館),5.778,大正関東地震,6弱
+official_export_002:4,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,浅田家住宅主屋,5.832,大正関東地震,6弱
 official_export_002:466,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺表門,5.774,大正関東地震,6弱
 official_export_002:467,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂,5.774,大正関東地震,6弱
 official_export_002:468,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺地蔵堂門,5.774,大正関東地震,6弱
@@ -778,19 +777,14 @@ official_export_002:469,13110,目黒区,National,Registered,有形文化財,建�
 official_export_002:470,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺鐘楼,5.786,大正関東地震,6弱
 official_export_002:471,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺本堂,5.797,大正関東地震,6弱
 official_export_002:472,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,祐天寺水屋,5.786,大正関東地震,6弱
+official_export_002:80,13110,目黒区,National,Registered,有形文化財,建造物,building_direct,海福寺本堂,5.743,大正関東地震,6弱
 official_export_003:0,13110,目黒区,National,Designated,記念物,天然記念物,point,青木昆陽墓,5.747,大正関東地震,6弱
 112,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,奥絵師狩野家墓所,6.203,大正関東地震,6強以上
 113,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,宝?山古墳,5.984,大正関東地震,6弱
 114,13111,大田区,Tokyo Metropolitan,Designated,記念物,史跡,point,多摩川台古墳群,5.962,大正関東地震,6弱
 175,13111,大田区,Tokyo Metropolitan,Designated,記念物,旧跡,point,日蓮上人入滅の旧跡,6.015,大正関東地震,6強以上
-official_export_001:3,13111,大田区,National,Designated,有形文化財,建造物,building_direct,池上本門寺宝塔,6.015,大正関東地震,6強以上
 official_export_001:131,13111,大田区,National,Designated,有形文化財,建造物,building_direct,本門寺五重塔,6.023,大正関東地震,6強以上
-official_export_002:35,13111,大田区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,6.048,大正関東地震,6強以上
-official_export_002:47,13111,大田区,National,Registered,有形文化財,建造物,building_direct,位田家住宅主屋,6.012,大正関東地震,6強以上
-official_export_002:77,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社社務所,5.894,大正関東地震,6弱
-official_export_002:78,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社水行堂,5.894,大正関東地震,6弱
-official_export_002:79,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社末社一山神社祖霊社,5.872,大正関東地震,6弱
-official_export_002:98,13111,大田区,National,Registered,有形文化財,建造物,building_direct,数江家住宅主屋,5.874,大正関東地震,6弱
+official_export_001:3,13111,大田区,National,Designated,有形文化財,建造物,building_direct,池上本門寺宝塔,6.015,大正関東地震,6強以上
 official_export_002:111,13111,大田区,National,Registered,有形文化財,建造物,building_direct,河原家住宅主屋,6.014,大正関東地震,6強以上
 official_export_002:149,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸主屋及び中門,6.3,大正関東地震,6強以上
 official_export_002:150,13111,大田区,National,Registered,有形文化財,建造物,building_direct,旧川端龍子邸画室,6.049,大正関東地震,6強以上
@@ -807,17 +801,22 @@ official_export_002:296,13111,大田区,National,Registered,有形文化財,建�
 official_export_002:302,13111,大田区,National,Registered,有形文化財,建造物,building_direct,竹中家住宅主屋,6.012,大正関東地震,6強以上
 official_export_002:315,13111,大田区,National,Registered,有形文化財,建造物,building_direct,塚﨑家住宅主屋,6.03,大正関東地震,6強以上
 official_export_002:316,13111,大田区,National,Registered,有形文化財,建造物,building_direct,塚﨑家住宅門及び塀,6.03,大正関東地震,6強以上
+official_export_002:35,13111,大田区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,6.048,大正関東地震,6強以上
 official_export_002:366,13111,大田区,National,Registered,有形文化財,建造物,building_direct,鳥海家住宅主屋,6.202,大正関東地震,6強以上
 official_export_002:430,13111,大田区,National,Registered,有形文化財,建造物,building_direct,三橋家住宅主屋,5.88,大正関東地震,6弱
 official_export_002:437,13111,大田区,National,Registered,有形文化財,建造物,building_direct,妙福寺祖師堂(旧七面大明神堂),6.09,大正関東地震,6強以上
 official_export_002:455,13111,大田区,National,Registered,有形文化財,建造物,building_direct,守屋家住宅主屋,5.799,大正関東地震,6弱
 official_export_002:458,13111,大田区,National,Registered,有形文化財,建造物,building_direct,山﨑家住宅主屋,5.977,大正関東地震,6弱
+official_export_002:47,13111,大田区,National,Registered,有形文化財,建造物,building_direct,位田家住宅主屋,6.012,大正関東地震,6強以上
 official_export_002:474,13111,大田区,National,Registered,有形文化財,建造物,building_direct,吉川家住宅主屋,6.011,大正関東地震,6強以上
 official_export_002:477,13111,大田区,National,Registered,有形文化財,建造物,building_direct,萬屋酒店,5.918,大正関東地震,6弱
 official_export_002:478,13111,大田区,National,Registered,有形文化財,建造物,building_direct,龍子記念館,6.289,大正関東地震,6強以上
 official_export_002:480,13111,大田区,National,Registered,有形文化財,建造物,building_direct,私の家(清家清自邸),5.894,大正関東地震,6弱
+official_export_002:77,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社社務所,5.894,大正関東地震,6弱
+official_export_002:78,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社水行堂,5.894,大正関東地震,6弱
+official_export_002:79,13111,大田区,National,Registered,有形文化財,建造物,building_direct,御嶽神社末社一山神社祖霊社,5.872,大正関東地震,6弱
+official_export_002:98,13111,大田区,National,Registered,有形文化財,建造物,building_direct,数江家住宅主屋,5.874,大正関東地震,6弱
 official_export_003:13,13111,大田区,National,Designated,記念物,天然記念物,point,亀甲山古墳,5.981,大正関東地震,6弱
-6,13112,世田谷区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,武家屋敷門,5.927,大正関東地震,6弱
 115,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,野毛大塚古墳,6.042,大正関東地震,6強以上
 116,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,世田谷代官屋敷,5.961,大正関東地震,6弱
 117,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,史跡,point,等々力渓谷三号横穴,5.947,大正関東地震,6弱
@@ -827,15 +826,15 @@ official_export_003:13,13111,大田区,National,Designated,記念物,天然記�
 208,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,九品仏のイチョウ,5.793,大正関東地震,6弱
 209,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,善養寺のカヤ,5.886,大正関東地震,6弱
 210,13112,世田谷区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,桜小学校のオオアカガシ,5.978,大正関東地震,6弱
+6,13112,世田谷区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,武家屋敷門,5.927,大正関東地震,6弱
 official_export_001:16,13112,世田谷区,National,Designated,有形文化財,建造物,building_direct,大場家住宅(東京都世田谷区世田谷),5.961,大正関東地震,6弱
 official_export_001:17,13112,世田谷区,National,Designated,有形文化財,建造物,building_direct,大場家住宅(東京都世田谷区世田谷),5.961,大正関東地震,6弱
-official_export_002:17,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,池上家住宅主屋,5.767,大正関東地震,6弱
-official_export_002:89,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,樫尾俊雄発明記念館(旧樫尾家住宅主屋),6.011,大正関東地震,6強以上
 official_export_002:104,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅主屋,5.78,大正関東地震,6弱
 official_export_002:105,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅離れ,5.78,大正関東地震,6弱
 official_export_002:106,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,鎌田家住宅門及び塀,5.78,大正関東地震,6弱
 official_export_002:108,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,亀井家住宅主屋,5.694,大正関東地震,6弱
 official_export_002:110,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,河津家住宅主屋,6.002,大正関東地震,6強以上
+official_export_002:17,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,池上家住宅主屋,5.767,大正関東地震,6弱
 official_export_002:223,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,国士舘大講堂,5.747,大正関東地震,6弱
 official_export_002:236,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,五島美術館古経楼,6.186,大正関東地震,6強以上
 official_export_002:237,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,五島美術館冨士見亭,6.186,大正関東地震,6強以上
@@ -856,12 +855,10 @@ official_export_002:403,13112,世田谷区,National,Registered,有形文化財,�
 official_export_002:405,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,平田家住宅門及び塀,5.695,大正関東地震,6弱
 official_export_002:413,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,ブルーボックスハウス,6.049,大正関東地震,6強以上
 official_export_002:457,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,柳澤家住宅主屋,5.774,大正関東地震,6弱
+official_export_002:89,13112,世田谷区,National,Registered,有形文化財,建造物,building_direct,樫尾俊雄発明記念館(旧樫尾家住宅主屋),6.011,大正関東地震,6強以上
 official_export_003:45,13112,世田谷区,National,Designated,記念物,天然記念物,point,玉川上水,5.587,大正関東地震,6弱
 official_export_003:61,13112,世田谷区,National,Designated,記念物,天然記念物,point,細井広沢墓,5.937,大正関東地震,6弱
 105,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,5.651,大正関東地震,6弱
-official_export_001:2,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,5.79,大正関東地震,6弱
-official_export_001:32,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,5.79,大正関東地震,6弱
-official_export_001:36,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),5.789,大正関東地震,6弱
 official_export_001:143,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,5.682,大正関東地震,6弱
 official_export_001:167,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,5.682,大正関東地震,6弱
 official_export_001:179,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,5.74,大正関東地震,6弱
@@ -879,21 +876,24 @@ official_export_001:190,13113,渋谷区,National,Designated,有形文化財,建�
 official_export_001:191,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,5.74,大正関東地震,6弱
 official_export_001:195,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,5.808,大正関東地震,6弱
 official_export_001:196,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,5.777,大正関東地震,6弱
+official_export_001:2,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,5.79,大正関東地震,6弱
+official_export_001:32,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,5.79,大正関東地震,6弱
+official_export_001:36,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),5.789,大正関東地震,6弱
 official_export_002:2,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,5.824,大正関東地震,6弱
-official_export_002:3,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,5.828,大正関東地震,6弱
-official_export_002:76,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,5.82,大正関東地震,6弱
 official_export_002:249,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,5.792,大正関東地震,6弱
 official_export_002:257,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,5.737,大正関東地震,6弱
 official_export_002:258,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,5.741,大正関東地震,6弱
 official_export_002:259,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,5.741,大正関東地震,6弱
+official_export_002:3,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,5.828,大正関東地震,6弱
 official_export_002:434,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),5.824,大正関東地震,6弱
 official_export_002:475,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,5.657,大正関東地震,6弱
 official_export_002:476,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,5.657,大正関東地震,6弱
-195,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,5.496,大正関東地震,5強
+official_export_002:76,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,5.82,大正関東地震,6弱
 1000000001,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,新井白石墓,5.556,大正関東地震,6弱
 1000000002,13114,中野区,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴木九郎長者墓,5.546,大正関東地震,6弱
 1000000003,13114,中野区,National,Designated,記念物,名勝,point,哲学堂公園,5.43,大正関東地震,5強
 1000000004,13114,中野区,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財,point,江古田の獅子舞,5.565,大正関東地震,6弱
+195,13114,中野区,Tokyo Metropolitan,Designated,記念物,名勝,point,哲学堂公園,5.496,大正関東地震,5強
 2000000001,13114,中野区,National,Registered,有形文化財,未細分,building_direct,旧野方配水塔,5.554,大正関東地震,6弱
 2000000002,13114,中野区,National,Registered,有形文化財,未細分,building_direct,中村家住宅洋館,5.562,大正関東地震,6弱
 2000000003,13114,中野区,National,Registered,有形文化財,未細分,building_direct,細井家住宅主屋,5.542,大正関東地震,6弱
@@ -906,17 +906,15 @@ official_export_002:209,13114,中野区,National,Registered,有形文化財,建�
 official_export_002:210,13114,中野区,National,Registered,有形文化財,建造物,building_direct,功運寺鐘楼,5.556,大正関東地震,6弱
 official_export_002:374,13114,中野区,National,Registered,有形文化財,建造物,building_direct,中村家住宅洋館,5.562,大正関東地震,6弱
 official_export_002:424,13114,中野区,National,Registered,有形文化財,建造物,building_direct,三岸家住宅アトリエ,5.731,大正関東地震,6弱
+131156000000.0,13115,杉並区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,寛文四年銘聖観音庚申供養塔,5.907,大正関東地震,6弱
 7,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺祖師堂,5.707,大正関東地震,6弱
 8,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺書院(御成間),5.536,大正関東地震,6弱
 9,13115,杉並区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,妙法寺仁王門,5.556,大正関東地震,6弱
-131156000000.0,13115,杉並区,Municipal,Unknown,民俗文化財,有形民俗文化財,point,寛文四年銘聖観音庚申供養塔,5.907,大正関東地震,6弱
 official_export_001:141,13115,杉並区,National,Designated,有形文化財,建造物,building_direct,妙法寺鉄門,5.713,大正関東地震,6弱
-official_export_002:16,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,井草幼稚園園舎,5.687,大正関東地震,6弱
-official_export_002:34,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,5.61,大正関東地震,6弱
-official_export_002:69,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,岡田日帰上人記念講堂,5.789,大正関東地震,6弱
 official_export_002:142,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧大田黒家住宅蔵,6.012,大正関東地震,6強以上
 official_export_002:143,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧大田黒家住宅洋館,6.007,大正関東地震,6強以上
 official_export_002:156,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旧滋賀家住宅主屋,5.633,大正関東地震,6弱
+official_export_002:16,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,井草幼稚園園舎,5.687,大正関東地震,6弱
 official_export_002:206,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,幻戯山房(旧角川家住宅主屋),5.93,大正関東地震,6弱
 official_export_002:212,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,古宇田家住宅,5.651,大正関東地震,6弱
 official_export_002:235,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,小杉湯,5.611,大正関東地震,6弱
@@ -924,6 +922,7 @@ official_export_002:278,13115,杉並区,National,Registered,有形文化財,建�
 official_export_002:324,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,辻家住宅旧主屋,5.682,大正関東地震,6弱
 official_export_002:338,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学講堂・礼拝堂,5.714,大正関東地震,6弱
 official_export_002:339,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学17号館(ライシャワー館),5.784,大正関東地震,6弱
+official_export_002:34,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,5.61,大正関東地震,6弱
 official_export_002:340,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学14号館(安井記念館),5.775,大正関東地震,6弱
 official_export_002:341,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学16号館(外国人教師館),5.802,大正関東地震,6弱
 official_export_002:342,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,東京女子大学7号館(西校舎),5.747,大正関東地震,6弱
@@ -934,10 +933,9 @@ official_export_002:412,13115,杉並区,National,Registered,有形文化財,建�
 official_export_002:428,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,水口家住宅洋館,5.663,大正関東地震,6弱
 official_export_002:479,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,旅館西郊本館,5.699,大正関東地震,6弱
 official_export_002:483,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,渡邊家住宅主屋,6.026,大正関東地震,6強以上
+official_export_002:69,13115,杉並区,National,Registered,有形文化財,建造物,building_direct,岡田日帰上人記念講堂,5.789,大正関東地震,6弱
 official_export_003:46,13115,杉並区,National,Designated,記念物,天然記念物,point,荻外荘(近衞文麿旧宅),5.667,大正関東地震,6弱
 10,13116,豊島区,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧マッケーレブ邸(雑司が谷旧宣教師館),5.565,大正関東地震,6弱
-211,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,5.495,大正関東地震,5強
-212,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,5.502,大正関東地震,6弱
 11,13116,豊島区,Municipal,Designated,民俗文化財,有形民俗文化財,point,冨士元囃子用具一式(楽器9点、寿獅子、大黒舞用道具類11点,5.526,大正関東地震,6弱
 12,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,長崎獅子舞,5.492,大正関東地震,5強
 13,13116,豊島区,Municipal,Designated,民俗文化財,無形民俗文化財,point,冨士元囃子,5.778,大正関東地震,6弱
@@ -946,6 +944,8 @@ official_export_003:46,13115,杉並区,National,Designated,記念物,天然記�
 16,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,重林寺観音堂内厨子覆屋,5.364,大正関東地震,5強
 17,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,安田家住宅,5.546,大正関東地震,6弱
 18,13116,豊島区,Municipal,Registered,有形文化財,未細分,building_direct,渡辺弘行・隆根アトリエ,5.077,大正関東地震,5強
+211,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,鬼子母神大門ケヤキ並木,5.495,大正関東地震,5強
+212,13116,豊島区,Tokyo Metropolitan,Designated,記念物,天然記念物,point,雑司が谷鬼子母神のイチョウ,5.502,大正関東地震,6弱
 284,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,胎蔵界大日・観音・地蔵板碑(永享十二年在銘),,大正関東地震,No data
 285,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,彌陀一尊画像・夜念仏供養結衆板碑,,大正関東地震,No data
 286,13116,豊島区,Municipal,Registered,有形文化財,未細分,point,題目板碑(永和在銘),,大正関東地震,No data
@@ -1073,7 +1073,13 @@ official_export_001:70,13116,豊島区,National,Designated,有形文化財,建�
 official_export_001:71,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,5.473,大正関東地震,5強
 official_export_001:72,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,自由学園明日館,5.473,大正関東地震,5強
 official_export_001:92,13116,豊島区,National,Designated,有形文化財,建造物,building_direct,雑司ケ谷鬼子母神堂,5.505,大正関東地震,6弱
+official_export_002:170,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,5.605,大正関東地震,6弱
 official_export_002:19,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,砂金家長屋,5.563,大正関東地震,6弱
+official_export_002:211,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,5.635,大正関東地震,6弱
+official_export_002:241,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,5.558,大正関東地震,6弱
+official_export_002:242,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,5.558,大正関東地震,6弱
+official_export_002:281,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,5.564,大正関東地震,6弱
+official_export_002:375,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,5.563,大正関東地震,6弱
 official_export_002:82,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院北別館(旧図書館),5.545,大正関東地震,6弱
 official_export_002:83,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院厩舎,5.413,大正関東地震,5強
 official_export_002:84,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院正門,5.531,大正関東地震,6弱
@@ -1081,12 +1087,6 @@ official_export_002:85,13116,豊島区,National,Registered,有形文化財,建�
 official_export_002:86,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院乃木館(旧総寮部),5.424,大正関東地震,5強
 official_export_002:87,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院東別館(旧皇族寮),5.532,大正関東地震,6弱
 official_export_002:88,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,学習院南一号館(旧理科特別教場),5.559,大正関東地震,6弱
-official_export_002:170,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,旧丹羽家住宅蔵,5.605,大正関東地震,6弱
-official_export_002:211,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,高岩寺本堂,5.635,大正関東地震,6弱
-official_export_002:241,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院庫裏,5.558,大正関東地震,6弱
-official_export_002:242,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,金剛院本堂,5.558,大正関東地震,6弱
-official_export_002:281,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,ソルフェージスクール,5.564,大正関東地震,6弱
-official_export_002:375,13116,豊島区,National,Registered,有形文化財,建造物,building_direct,並木ハウス,5.563,大正関東地震,6弱
 176,13118,荒川区,Unknown,Unknown,未判定,未細分,point,彰義隊戦死者墓,5.787,大正関東地震,6弱
 214,13118,荒川区,Unknown,Unknown,未判定,未細分,point,延命院のシイ,5.503,大正関東地震,6弱
 121,13119,板橋区,Unknown,Unknown,未判定,未細分,point,茂呂遺跡,5.441,大正関東地震,5強
@@ -1097,13 +1097,12 @@ official_export_002:375,13116,豊島区,National,Registered,有形文化財,建�
 180,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,5.876,大正関東地震,6弱
 123,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,5.693,大正関東地震,6弱
 124,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,5.596,大正関東地震,6弱
+131229000000.0,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,,大正関東地震,No data
 181,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,5.837,大正関東地震,6弱
 182,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,5.958,大正関東地震,6弱
 183,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,5.684,大正関東地震,6弱
-131229000000.0,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,,大正関東地震,No data
 official_export_001:38,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,5.78,大正関東地震,6弱
 official_export_002:0,13122,葛飾区,National,Registered,有形文化財,建造物,building_direct,會田家住宅旧蔵,,大正関東地震,No data
-98,13123,江戸川区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,天明三年浅間山噴火横死者供養碑,5.581,大正関東地震,6弱
 125,13123,江戸川区,Tokyo Metropolitan,Designated,記念物,史跡,point,一之江名主屋敷,5.971,大正関東地震,6弱
 131237100001,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,下鎌田の富士講用具(追加指定),,大正関東地震,No data
 131237100002,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,上今井の富士講用具及び関係資料,,大正関東地震,No data
@@ -1344,6 +1343,7 @@ official_export_002:0,13122,葛飾区,National,Registered,有形文化財,建造
 131237100240,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,紙本着色十王図,,大正関東地震,No data
 131237100241,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,宇喜田十軒の地蔵講,,大正関東地震,No data
 131237100242,13123,江戸川区,Unknown,Unknown,未判定,未細分,point,葛西大師まいり(仲町地区),,大正関東地震,No data
+98,13123,江戸川区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,天明三年浅間山噴火横死者供養碑,5.581,大正関東地震,6弱
 official_export_003:39,13123,江戸川区,National,Designated,記念物,天然記念物,point,善養寺影向のマツ,5.511,大正関東地震,6弱
 126,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,5.921,大正関東地震,6弱
 127,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,6.049,大正関東地震,6強以上
@@ -1365,7 +1365,6 @@ official_export_003:26,13203,武蔵野市,National,Designated,記念物,天然�
 128,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,5.73,大正関東地震,6弱
 official_export_002:14,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,5.661,大正関東地震,6弱
 official_export_002:15,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,5.728,大正関東地震,6弱
-official_export_002:36,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,5.648,大正関東地震,6弱
 official_export_002:214,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,5.683,大正関東地震,6弱
 official_export_002:215,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,5.683,大正関東地震,6弱
 official_export_002:216,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,5.726,大正関東地震,6弱
@@ -1384,11 +1383,10 @@ official_export_002:231,13204,三鷹市,National,Registered,有形文化財,建�
 official_export_002:232,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,5.781,大正関東地震,6弱
 official_export_002:233,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,5.634,大正関東地震,6弱
 official_export_002:234,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,5.779,大正関東地震,6弱
+official_export_002:36,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,5.648,大正関東地震,6弱
 official_export_002:368,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,5.652,大正関東地震,6弱
 official_export_002:481,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,5.489,大正関東地震,5強
 official_export_002:482,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,5.633,大正関東地震,6弱
-19,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,馬場家御師住宅,5.578,大正関東地震,6弱
-20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,5.855,大正関東地震,6弱
 107,13205,青梅市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,旧稲葉家住宅,5.13,大正関東地震,5強
 129,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,天寧寺境域,4.97,大正関東地震,5弱
 130,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,海禅寺境域,5.243,大正関東地震,5強
@@ -1396,13 +1394,23 @@ official_export_002:482,13204,三鷹市,National,Registered,有形文化財,建�
 132,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,虎柏神社境域,5.547,大正関東地震,6弱
 133,13205,青梅市,Tokyo Metropolitan,Designated,記念物,史跡,point,青梅新町の大井戸,5.49,大正関東地震,5強
 185,13205,青梅市,Tokyo Metropolitan,Designated,記念物,旧跡,point,鈴法寺跡,5.096,大正関東地震,5強
+19,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,馬場家御師住宅,5.578,大正関東地震,6弱
+20,13205,青梅市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,虎柏神社本殿,5.855,大正関東地震,6弱
 200,13205,青梅市,Tokyo Metropolitan,Designated,記念物,名勝,point,奥御岳景園地,4.874,大正関東地震,5弱
 217,13205,青梅市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,安楽寺の大スギ,4.86,大正関東地震,5弱
 218,13205,青梅市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,塩船観音の大スギ,4.924,大正関東地震,5弱
+official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),5.285,大正関東地震,5強
 official_export_001:24,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺阿弥陀堂,4.92,大正関東地震,5弱
 official_export_001:25,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺仁王門,5.378,大正関東地震,5強
 official_export_001:26,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,観音寺本堂,4.924,大正関東地震,5弱
-official_export_001:140,13205,青梅市,National,Designated,有形文化財,建造物,building_direct,旧宮崎家住宅(旧所在 東京都青梅市成木),5.285,大正関東地震,5強
+official_export_002:176,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧ほていや玩具店店舗,5.205,大正関東地震,5強
+official_export_002:191,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)主屋,5.164,大正関東地震,5強
+official_export_002:192,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)土蔵,5.164,大正関東地震,5強
+official_export_002:193,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)長屋門,5.164,大正関東地震,5強
+official_export_002:194,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)洋館,5.164,大正関東地震,5強
+official_export_002:321,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅主屋,5.252,大正関東地震,5強
+official_export_002:322,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅塀,5.379,大正関東地震,5強
+official_export_002:323,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅門,5.379,大正関東地震,5強
 official_export_002:48,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,宇津木家住宅主屋,5.279,大正関東地震,5強
 official_export_002:54,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合旧織物加工工場,5.435,大正関東地震,5強
 official_export_002:55,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,青梅織物工業協同組合旧都立繊維試験場,5.317,大正関東地震,5強
@@ -1416,29 +1424,20 @@ official_export_002:94,13205,青梅市,National,Registered,有形文化財,建�
 official_export_002:95,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園帳場兼主屋,4.996,大正関東地震,5弱
 official_export_002:96,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園枕流亭,4.996,大正関東地震,5弱
 official_export_002:97,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,河鹿園渡廊下,4.996,大正関東地震,5弱
-official_export_002:176,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧ほていや玩具店店舗,5.205,大正関東地震,5強
-official_export_002:191,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)主屋,5.164,大正関東地震,5強
-official_export_002:192,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)土蔵,5.164,大正関東地震,5強
-official_export_002:193,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)長屋門,5.164,大正関東地震,5強
-official_export_002:194,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,旧吉川英治邸(草思堂)洋館,5.164,大正関東地震,5強
-official_export_002:321,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅主屋,5.252,大正関東地震,5強
-official_export_002:322,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅塀,5.379,大正関東地震,5強
-official_export_002:323,13205,青梅市,National,Registered,有形文化財,建造物,building_direct,津雲家住宅門,5.379,大正関東地震,5強
 official_export_003:63,13205,青梅市,National,Designated,記念物,天然記念物,point,御岳の神代ケヤキ,4.894,大正関東地震,5弱
+186,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,5.657,大正関東地震,6弱
+187,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,5.736,大正関東地震,6弱
 21,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,大国魂神社本殿,5.547,大正関東地震,6弱
 22,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧府中町役場庁舎,5.231,大正関東地震,5強
 23,13206,府中市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三岡家長屋門,5.835,大正関東地震,6弱
-186,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,府中高札場,5.657,大正関東地震,6弱
-187,13206,府中市,Tokyo Metropolitan,Designated,記念物,旧跡,point,川崎定孝墓,5.736,大正関東地震,6弱
 official_export_002:361,13206,府中市,National,Registered,有形文化財,建造物,building_direct,東京農工大学農学部本館,5.626,大正関東地震,6弱
 official_export_003:58,13206,府中市,National,Designated,記念物,天然記念物,point,馬場大門のケヤキ並木,5.642,大正関東地震,6弱
 official_export_003:66,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵国府跡,5.655,大正関東地震,6弱
 official_export_003:68,13206,府中市,National,Designated,記念物,天然記念物,point,武蔵府中熊野神社古墳,5.722,大正関東地震,6弱
-24,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),5.309,大正関東地震,5強
 134,13207,昭島市,Tokyo Metropolitan,Designated,記念物,史跡,point,大日堂境域及び日吉神社境域,5.416,大正関東地震,5強
 219,13207,昭島市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,拝島のフジ,5.42,大正関東地震,5強
+24,13207,昭島市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧三井家拝島別邸(啓明学園北泉寮),5.309,大正関東地震,5強
 official_export_002:377,13207,昭島市,National,Registered,有形文化財,建造物,building_direct,西川家旧別邸蔵,5.448,大正関東地震,5強
-220,13208,調布市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,佐須の禅寺丸古木,5.456,大正関東地震,5強
 132080100003,13208,調布市,National,Designated,記念物,史跡,point,下布田遺跡,5.742,大正関東地震,6弱
 132080100004,13208,調布市,National,Designated,記念物,史跡,point,深大寺城跡,5.687,大正関東地震,6弱
 132080100005,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,5.711,大正関東地震,6弱
@@ -1495,8 +1494,7 @@ official_export_002:377,13207,昭島市,National,Registered,有形文化財,建�
 132080100080,13208,調布市,Municipal,Designated,記念物,天然記念物,point,金子のイチョウ,5.738,大正関東地震,6弱
 132080100081,13208,調布市,Municipal,Designated,記念物,天然記念物,point,絵堂のヒイラギ,5.775,大正関東地震,6弱
 132080100082,13208,調布市,Municipal,Designated,有形文化財,歴史資料,point,黄檗版大般若波羅蜜多経,5.71,大正関東地震,6弱
-official_export_002:8,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅内蔵,5.594,大正関東地震,6弱
-official_export_002:9,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅旧蚕室,5.871,大正関東地震,6弱
+220,13208,調布市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,佐須の禅寺丸古木,5.456,大正関東地震,5強
 official_export_002:10,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅主屋,5.867,大正関東地震,6弱
 official_export_002:12,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅外蔵,5.596,大正関東地震,6弱
 official_export_002:13,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅中門及び塀,5.594,大正関東地震,6弱
@@ -1506,15 +1504,17 @@ official_export_002:180,13208,調布市,National,Registered,有形文化財,建�
 official_export_002:265,13208,調布市,National,Registered,有形文化財,建造物,building_direct,白百合女子大学めぐみ荘(旧菊池家住宅主屋),5.625,大正関東地震,6弱
 official_export_002:417,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅日本館,5.711,大正関東地震,6弱
 official_export_002:418,13208,調布市,National,Registered,有形文化財,建造物,building_direct,真木家住宅洋館,5.711,大正関東地震,6弱
+official_export_002:8,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅内蔵,5.594,大正関東地震,6弱
+official_export_002:9,13208,調布市,National,Registered,有形文化財,建造物,building_direct,新井家住宅旧蚕室,5.871,大正関東地震,6弱
 official_export_003:35,13208,調布市,National,Designated,記念物,天然記念物,point,下布田遺跡,5.743,大正関東地震,6弱
 official_export_003:36,13208,調布市,National,Designated,記念物,天然記念物,point,深大寺城跡,5.779,大正関東地震,6弱
-25,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,5.625,大正関東地震,6弱
 135,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,5.857,大正関東地震,6弱
 201,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),5.873,大正関東地震,6弱
+25,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,5.625,大正関東地震,6弱
 official_export_001:111,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),5.873,大正関東地震,6弱
 official_export_003:25,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,6.123,大正関東地震,6強以上
-239,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,5.669,大正関東地震,6弱
 132101000000.0,13210,小金井市,Unknown,Unknown,記念物,名勝,point,小金井(サクラ),5.696,大正関東地震,6弱
+239,13210,小金井市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧前川家住宅主屋,5.669,大正関東地震,6弱
 official_export_002:168,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸主屋,5.634,大正関東地震,6弱
 official_export_002:169,13210,小金井市,National,Registered,有形文化財,建造物,building_direct,旧中村研一邸茶室(花侵庵),5.634,大正関東地震,6弱
 132110100001,13211,小平市,National,Designated,記念物,史跡,point,鈴木遺跡,,大正関東地震,No data
@@ -1537,16 +1537,13 @@ official_export_002:169,13210,小金井市,National,Registered,有形文化財,�
 132110100024,13211,小平市,Unknown,Unknown,記念物,天然記念物,point,熊野宮のケヤキ,,大正関東地震,No data
 132110100025,13211,小平市,Unknown,Unknown,記念物,天然記念物,point,鈴木稲荷神社のケヤキ,,大正関東地震,No data
 official_export_003:37,13211,小平市,National,Designated,記念物,天然記念物,point,鈴木遺跡,5.669,大正関東地震,6弱
-26,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,5.346,大正関東地震,5強
 136,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,5.533,大正関東地震,6弱
 188,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,5.661,大正関東地震,6弱
+26,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,5.346,大正関東地震,5強
 official_export_001:65,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,5.74,大正関東地震,6弱
 official_export_001:66,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,5.721,大正関東地震,6弱
 official_export_002:171,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,5.487,大正関東地震,5強
 official_export_002:402,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,5.907,大正関東地震,6弱
-189,13213,東村山市,Tokyo Metropolitan,Designated,記念物,旧跡,point,久米川古戦場,5.487,大正関東地震,5強
-221,13213,東村山市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,梅岩寺のケヤキ,5.58,大正関東地震,6弱
-246,13213,東村山市,Tokyo Metropolitan,Designated,記念物,史跡,point,下宅部遺跡,,大正関東地震,No data
 132136100001,13213,東村山市,Municipal,Unknown,民俗文化財,有形民俗文化財,point,貞和の板碑,5.494,大正関東地震,5強
 132136100002,13213,東村山市,Municipal,Other,記念物,史跡,point,浅間塚 ・ 境塚,5.561,大正関東地震,6弱
 132136100003,13213,東村山市,Municipal,Unknown,記念物,天然記念物,point,万年橋のケヤキ,5.416,大正関東地震,5強
@@ -1589,8 +1586,10 @@ official_export_002:402,13212,日野市,National,Registered,有形文化財,建�
 132136100040,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,天然記念物,point,梅岩寺のケヤキ,5.582,大正関東地震,6弱
 132136100041,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,旧跡,point,久米川古戦場,5.487,大正関東地震,5強
 132136100042,13213,東村山市,Tokyo Metropolitan,Unknown,記念物,史跡,point,下宅部遺跡,4.988,大正関東地震,5弱
+189,13213,東村山市,Tokyo Metropolitan,Designated,記念物,旧跡,point,久米川古戦場,5.487,大正関東地震,5強
+221,13213,東村山市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,梅岩寺のケヤキ,5.58,大正関東地震,6弱
+246,13213,東村山市,Tokyo Metropolitan,Designated,記念物,史跡,point,下宅部遺跡,,大正関東地震,No data
 official_export_001:78,13213,東村山市,National,Designated,有形文化財,建造物,building_direct,正福寺地蔵堂,5.494,大正関東地震,5強
-202,13214,国分寺市,Tokyo Metropolitan,Designated,記念物,名勝,point,真姿の池湧水群,5.707,大正関東地震,6弱
 132144100002,13214,国分寺市,National,Designated,その他,その他,point,武蔵国分寺跡 附東山道武蔵路跡,5.751,大正関東地震,6弱
 132144100003,13214,国分寺市,National,Designated,その他,その他,point,武蔵多喜窪遺跡第一号住居跡出土品,5.712,大正関東地震,6弱
 132144100004,13214,国分寺市,National,Designated,その他,その他,point,殿ヶ谷戸庭園 (随冝園),5.566,大正関東地震,6弱
@@ -1631,13 +1630,11 @@ official_export_001:78,13213,東村山市,National,Designated,有形文化財,�
 132144100041,13214,国分寺市,Municipal,Designated,その他,その他,point,恋ヶ窪村分水,5.637,大正関東地震,6弱
 132144100042,13214,国分寺市,Municipal,Designated,その他,その他,point,本多八幡神社神輿,5.669,大正関東地震,6弱
 132144100043,13214,国分寺市,Municipal,Designated,その他,その他,point,中藤新田分水跡,5.511,大正関東地震,6弱
+202,13214,国分寺市,Tokyo Metropolitan,Designated,記念物,名勝,point,真姿の池湧水群,5.707,大正関東地震,6弱
 official_export_002:70,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅洋館,5.614,大正関東地震,6弱
 official_export_002:71,13214,国分寺市,National,Registered,有形文化財,建造物,building_direct,沖本家住宅和館,5.614,大正関東地震,6弱
 official_export_003:51,13214,国分寺市,National,Designated,記念物,天然記念物,point,殿ヶ谷戸庭園(随冝園),5.566,大正関東地震,6弱
 official_export_003:67,13214,国分寺市,National,Designated,記念物,天然記念物,point,武蔵国分寺跡 附東山道武蔵路跡,5.741,大正関東地震,6弱
-190,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴墓,5.497,大正関東地震,5強
-191,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,三田氏館跡,5.575,大正関東地震,6弱
-222,13215,国立市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,谷保天満宮社叢,5.688,大正関東地震,6弱
 132152100005,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学兼松講堂,5.549,大正関東地震,6弱
 132152100006,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学旧門衛所,5.554,大正関東地震,6弱
 132152100007,13215,国立市,National,Registered,有形文化財,未細分,building_direct,一橋大学東本館,5.528,大正関東地震,6弱
@@ -1714,20 +1711,23 @@ official_export_003:67,13214,国分寺市,National,Designated,記念物,天然�
 132152100119,13215,国立市,Municipal,Registered,有形文化財,未細分,point,清水の立場(茶屋跡),5.711,大正関東地震,6弱
 132152100120,13215,国立市,Municipal,Registered,有形文化財,未細分,point,圓成院跡(観音堂跡・稲荷社)及び矢澤家墓所,,大正関東地震,No data
 132152100122,13215,国立市,Municipal,Registered,有形文化財,未細分,point,薬師如来立像附棟札,,大正関東地震,No data
+190,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,伊藤単朴墓,5.497,大正関東地震,5強
+191,13215,国立市,Tokyo Metropolitan,Designated,記念物,旧跡,point,三田氏館跡,5.575,大正関東地震,6弱
+222,13215,国立市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,谷保天満宮社叢,5.688,大正関東地震,6弱
 official_export_002:300,13215,国立市,National,Registered,有形文化財,建造物,building_direct,滝乃川学園本館,5.541,大正関東地震,6弱
 official_export_002:399,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学兼松講堂,5.549,大正関東地震,6弱
 official_export_002:400,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学旧門衛所,5.554,大正関東地震,6弱
 official_export_002:401,13215,国立市,National,Registered,有形文化財,建造物,building_direct,一橋大学東本館,5.528,大正関東地震,6弱
 27,13218,福生市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,熊川神社本殿,5.536,大正関東地震,6弱
+official_export_002:184,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,5.315,大正関東地震,5強
+official_export_002:185,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,5.315,大正関東地震,5強
+official_export_002:186,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,5.313,大正関東地震,5強
 official_export_002:20,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造雑蔵,5.334,大正関東地震,5強
 official_export_002:21,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造新蔵,5.338,大正関東地震,5強
 official_export_002:22,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造長屋門,5.338,大正関東地震,5強
 official_export_002:23,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造文庫蔵,5.338,大正関東地震,5強
 official_export_002:24,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造本蔵,5.338,大正関東地震,5強
 official_export_002:25,13218,福生市,National,Registered,有形文化財,建造物,building_direct,石川酒造向蔵,5.342,大正関東地震,5強
-official_export_002:184,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅主屋,5.315,大正関東地震,5強
-official_export_002:185,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅西土蔵,5.315,大正関東地震,5強
-official_export_002:186,13218,福生市,National,Registered,有形文化財,建造物,building_direct,旧ヤマジュウ田村家住宅東土蔵,5.313,大正関東地震,5強
 official_export_002:306,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造石垣,5.295,大正関東地震,5強
 official_export_002:307,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造旧水車小屋及び脇蔵,5.295,大正関東地震,5強
 official_export_002:308,13218,福生市,National,Registered,有形文化財,建造物,building_direct,田村酒造酒造蔵,5.3,大正関東地震,5強
@@ -1741,10 +1741,10 @@ official_export_002:189,13220,東大和市,National,Registered,有形文化財,�
 official_export_002:190,13220,東大和市,National,Registered,有形文化財,建造物,building_direct,旧吉岡家住宅長屋門,5.361,大正関東地震,5強
 108,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,中里の富士塚,5.474,大正関東地震,5強
 110,13221,清瀬市,Tokyo Metropolitan,Designated,民俗文化財,無形民俗文化財(風俗慣習),point,清瀬市下宿の「ふせぎ」行事,5.492,大正関東地震,5強
+132000000000.0,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,5.609,大正関東地震,6弱
 137,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,新山遺跡,5.489,大正関東地震,5強
 138,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,下里本邑遺跡,5.425,大正関東地震,5強
 139,13222,東久留米市,Tokyo Metropolitan,Designated,記念物,史跡,point,久喜藩主・長瀞藩主 米津家墓所,5.421,大正関東地震,5強
-132000000000.0,13222,東久留米市,Municipal,Unknown,民俗文化財,無形民俗文化財,point,南沢獅子舞,5.609,大正関東地震,6弱
 official_export_002:438,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅穀蔵,5.451,大正関東地震,5強
 official_export_002:439,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅主屋,5.388,大正関東地震,5強
 official_export_002:440,13222,東久留米市,National,Registered,有形文化財,建造物,building_direct,村野家住宅新蔵,5.451,大正関東地震,5強
@@ -1762,22 +1762,36 @@ official_export_002:146,13224,多摩市,National,Registered,有形文化財,建�
 official_export_002:163,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房主屋兼作業場,5.732,大正関東地震,6弱
 official_export_002:164,13224,多摩市,National,Registered,有形文化財,建造物,building_direct,旧辻󠄀陶房登り窯,5.732,大正関東地震,6弱
 224,13225,稲城市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,高勝寺のカヤ,5.765,大正関東地震,6弱
-28,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,5.007,大正関東地震,5強
 225,13227,羽村市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,阿蘇神社のシイ,5.252,大正関東地震,5強
+28,13227,羽村市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,阿蘇神社本殿,5.007,大正関東地震,5強
 official_export_002:431,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅主屋,5.252,大正関東地震,5強
 official_export_002:432,13227,羽村市,National,Registered,有形文化財,建造物,building_direct,宮川家住宅納屋,5.252,大正関東地震,5強
-29,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,5.364,大正関東地震,5強
+100,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,五日市の市神様,3.585,大正関東地震,5弱未満
+101,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,二宮神社の算額絵馬,3.585,大正関東地震,5弱未満
+102,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,2.947,大正関東地震,5弱未満
 104,13228,あきる野市,Tokyo Metropolitan,Designated,無形文化財,工芸技術,point,軍道紙,5.167,大正関東地震,5強
+109,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,二宮ばやし,,大正関東地震,No data
+111,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,草花ばやし,3.378,大正関東地震,5弱未満
+119,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,西戸倉棒使い,,大正関東地震,No data
+120,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,伊奈本町囃子,,大正関東地震,No data
 143,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,瀬戸岡古墳群,5.413,大正関東地震,5強
 144,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,戸倉城跡,5.346,大正関東地震,5強
 145,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,広徳寺境域,5.073,大正関東地震,5強
+146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),4.99,大正関東地震,5弱
 147,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,史跡,point,前田耕地遺跡,5.461,大正関東地震,5強
+148,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅見世蔵,4.69,大正関東地震,5弱
+149,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,5.428,大正関東地震,5強
+150,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,5.428,大正関東地震,5強
+151,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,5.428,大正関東地震,5強
+152,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅旧米蔵,3.577,大正関東地震,5弱未満
+153,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,5.428,大正関東地震,5強
 193,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,二宮神社並びに城跡,5.379,大正関東地震,5強
 226,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のタラヨウ,5.073,大正関東地震,5強
 227,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,5.073,大正関東地震,5強
 228,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,5.001,大正関東地震,5強
 229,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,光厳寺のヤマザクラ,5.187,大正関東地震,5強
 230,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,地蔵院のカゴノキ,5.309,大正関東地震,5強
+29,13228,あきる野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,真照寺薬師堂,5.364,大正関東地震,5強
 30,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,広徳寺のカヤ,3.065,大正関東地震,5弱未満
 31,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,大岳鍾乳洞,5.547,大正関東地震,6弱
 32,13228,あきる野市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,南沢の鳥ノ巣石灰岩産地,5.512,大正関東地震,6弱
@@ -1809,20 +1823,6 @@ official_export_002:432,13227,羽村市,National,Registered,有形文化財,建�
 91,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,百番供養塔,5.817,大正関東地震,6弱
 92,13228,あきる野市,Municipal,Designated,有形文化財,未細分,point,御嶽神社の懸仏,5.489,大正関東地震,5強
 99,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,珠陽院の巳待供養塔,5.326,大正関東地震,5強
-100,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,五日市の市神様,3.585,大正関東地震,5弱未満
-101,13228,あきる野市,Municipal,Designated,民俗文化財,有形民俗文化財,point,二宮神社の算額絵馬,3.585,大正関東地震,5弱未満
-102,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,鹿島流引田獅子舞,2.947,大正関東地震,5弱未満
-109,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,二宮ばやし,,大正関東地震,No data
-111,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,草花ばやし,3.378,大正関東地震,5弱未満
-119,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,西戸倉棒使い,,大正関東地震,No data
-120,13228,あきる野市,Municipal,Designated,民俗文化財,無形民俗文化財,point,伊奈本町囃子,,大正関東地震,No data
-146,13228,あきる野市,Municipal,Designated,記念物,天然記念物,point,山抱きの大カシ(ウラジロガシ),4.99,大正関東地震,5弱
-148,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅見世蔵,4.69,大正関東地震,5弱
-149,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅前の蔵,5.428,大正関東地震,5強
-150,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅味噌蔵,5.428,大正関東地震,5強
-151,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅西蔵,5.428,大正関東地震,5強
-152,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅旧米蔵,3.577,大正関東地震,5弱未満
-153,13228,あきる野市,National,Registered,有形文化財,未細分,building_direct,森田家住宅御看経堂,5.428,大正関東地震,5強
 official_export_002:445,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅板塀,5.423,大正関東地震,5強
 official_export_002:446,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅御看経堂,5.423,大正関東地震,5強
 official_export_002:447,13228,あきる野市,National,Registered,有形文化財,建造物,building_direct,森田家住宅旧米蔵,5.43,大正関東地震,5強
@@ -1854,16 +1854,16 @@ official_export_002:429,13307,檜原村,National,Registered,有形文化財,建�
 234,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,野増大宮のシイ樹叢,5.485,大正関東地震,5強
 235,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,おたいね浦の岩脈と筆島,5.47,大正関東地震,5強
 236,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,春日神社のイヌマキ群叢,5.488,大正関東地震,5強
+official_export_003:31,13361,大島町,National,Designated,記念物,天然記念物,point,シイノキ山のシイノキ群叢,5.342,大正関東地震,5強
 official_export_003:6,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,5.731,大正関東地震,6弱
 official_export_003:7,13361,大島町,National,Designated,記念物,天然記念物,point,大島のサクラ株,5.645,大正関東地震,6弱
-official_export_003:31,13361,大島町,National,Designated,記念物,天然記念物,point,シイノキ山のシイノキ群叢,5.342,大正関東地震,5強
 official_export_002:7,13362,利島村,National,Registered,有形文化財,建造物,building_direct,阿豆佐和気命神社旧本殿,4.69,大正関東地震,5弱
-official_export_002:49,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,4.965,大正関東地震,5弱
 official_export_002:130,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅主屋,4.965,大正関東地震,5弱
 official_export_002:131,13363,新島村,National,Registered,有形文化財,建造物,building_direct,紀野家住宅釜屋形,4.965,大正関東地震,5弱
 official_export_002:177,13363,新島村,National,Registered,有形文化財,建造物,building_direct,旧前田家(キンデー)住宅釜屋形,5.014,大正関東地震,5強
 official_export_002:224,13363,新島村,National,Registered,有形文化財,建造物,building_direct,小久保家住宅主屋,4.937,大正関東地震,5弱
 official_export_002:416,13363,新島村,National,Registered,有形文化財,建造物,building_direct,前田家住宅外便所,4.959,大正関東地震,5弱
+official_export_002:49,13363,新島村,National,Registered,有形文化財,建造物,building_direct,梅田家(沖五郎)住宅石倉及び外便所,4.965,大正関東地震,5弱
 237,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,4.728,大正関東地震,5弱
 238,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,4.577,大正関東地震,5弱
 194,13401,八丈町,Unknown,Unknown,未判定,未細分,point,近藤守真墓,3.57,大正関東地震,5弱未満

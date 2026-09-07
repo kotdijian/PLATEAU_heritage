@@ -1,0 +1,53 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+25,seismic,都心南部直下地震,5.784,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+135,seismic,都心南部直下地震,5.63,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+201,seismic,都心南部直下地震,5.637,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:111,seismic,都心南部直下地震,5.637,6弱,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:25,seismic,都心南部直下地震,5.962,6弱,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+25,seismic,都心東部直下地震,5.97,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+135,seismic,都心東部直下地震,5.68,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+201,seismic,都心東部直下地震,5.707,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:111,seismic,都心東部直下地震,5.707,6弱,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:25,seismic,都心東部直下地震,5.834,6弱,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+25,seismic,都心西部直下地震,5.832,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+135,seismic,都心西部直下地震,5.621,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+201,seismic,都心西部直下地震,5.689,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:111,seismic,都心西部直下地震,5.689,6弱,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:25,seismic,都心西部直下地震,5.709,6弱,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+25,seismic,多摩東部直下地震,5.9516,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+135,seismic,多摩東部直下地震,6.018,6強以上,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+201,seismic,多摩東部直下地震,6.063,6強以上,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:111,seismic,多摩東部直下地震,6.063,6強以上,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:25,seismic,多摩東部直下地震,6.218,6強以上,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+25,seismic,多摩西部直下地震,5.441,5強,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+135,seismic,多摩西部直下地震,5.523,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+201,seismic,多摩西部直下地震,5.533,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:111,seismic,多摩西部直下地震,5.533,6弱,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:25,seismic,多摩西部直下地震,5.763,6弱,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+25,seismic,立川断層帯地震,5.247,5強,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+135,seismic,立川断層帯地震,5.274,5強,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+201,seismic,立川断層帯地震,5.456,5強,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:111,seismic,立川断層帯地震,5.456,5強,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:25,seismic,立川断層帯地震,5.475,5強,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+25,seismic,大正関東地震,5.625,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+135,seismic,大正関東地震,5.857,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+201,seismic,大正関東地震,5.873,6弱,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:111,seismic,大正関東地震,5.873,6弱,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:25,seismic,大正関東地震,6.123,6強以上,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+25,seismic,南海トラフ巨大地震,4.92,5弱,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+135,seismic,南海トラフ巨大地震,5.017,5強,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+201,seismic,南海トラフ巨大地震,5.02,5強,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:111,seismic,南海トラフ巨大地震,5.02,5強,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:25,seismic,南海トラフ巨大地震,5.169,5強,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+25,fire,延焼危険度,4.0,,,,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+135,fire,延焼危険度,3.0,,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,史跡,point,本町田遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+201,fire,延焼危険度,3.0,,,,13209,町田市,Tokyo Metropolitan,Designated,記念物,名勝,point,福王寺旧園地(薬師池公園),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:111,fire,延焼危険度,3.0,,,,13209,町田市,National,Designated,有形文化財,建造物,building_direct,旧永井家住宅(旧所在 東京都町田市小野路町),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:25,fire,延焼危険度,4.0,,,,13209,町田市,National,Designated,記念物,天然記念物,point,高ヶ坂石器時代遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+25,liquefaction,南海トラフ巨大地震,0.140769231,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+25,liquefaction,多摩東部直下地震,2.062307692,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+25,liquefaction,大正関東地震,1.09,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,液状化,大正関東地震,液状化｜大正関東地震
+25,liquefaction,立川断層帯地震,0.033846154,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,液状化,立川断層帯地震,液状化｜立川断層帯地震
+25,liquefaction,都心南部直下地震,1.462307692,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,液状化,都心南部直下地震,液状化｜都心南部直下地震
+25,river_flooding,L2（想定最大規模）,0.004,0.5m未満,神田川流域,PLATEAU building risk,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+25,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13209,町田市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,旧荻野家住宅,河川浸水,河川浸水,河川浸水｜河川浸水

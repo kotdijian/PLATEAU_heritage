@@ -1,0 +1,42 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_002:137,seismic,都心南部直下地震,5.871,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:165,seismic,都心南部直下地震,5.88,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:395,seismic,都心南部直下地震,5.797,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:26,seismic,都心南部直下地震,5.664,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:137,seismic,都心東部直下地震,5.895,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:165,seismic,都心東部直下地震,5.904,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:395,seismic,都心東部直下地震,5.856,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:26,seismic,都心東部直下地震,5.724,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:137,seismic,都心西部直下地震,5.865,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:165,seismic,都心西部直下地震,5.904,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:395,seismic,都心西部直下地震,5.833,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:26,seismic,都心西部直下地震,5.741,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:137,seismic,多摩東部直下地震,6.0124,6強以上,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:165,seismic,多摩東部直下地震,6.0926,6強以上,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:395,seismic,多摩東部直下地震,5.9584,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:26,seismic,多摩東部直下地震,5.8832,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:137,seismic,多摩西部直下地震,5.704,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:165,seismic,多摩西部直下地震,5.835,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:395,seismic,多摩西部直下地震,5.645,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:26,seismic,多摩西部直下地震,5.637,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:137,seismic,立川断層帯地震,5.583,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:165,seismic,立川断層帯地震,5.751,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:395,seismic,立川断層帯地震,5.49,5強,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:26,seismic,立川断層帯地震,5.588,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:137,seismic,大正関東地震,5.676,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:165,seismic,大正関東地震,5.653,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:395,seismic,大正関東地震,5.621,6弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:26,seismic,大正関東地震,5.504,6弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:137,seismic,南海トラフ巨大地震,4.969,5弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:165,seismic,南海トラフ巨大地震,4.998,5弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:395,seismic,南海トラフ巨大地震,4.94,5弱,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:26,seismic,南海トラフ巨大地震,4.883,5弱,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:137,fire,延焼危険度,6.0,,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:165,fire,延焼危険度,4.0,,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:395,fire,延焼危険度,4.0,,,,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:26,fire,延焼危険度,3.0,,,,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:26,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:137,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧赤星鉄馬邸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:395,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,濵家住宅西洋館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:165,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13203,武蔵野市,National,Registered,有形文化財,建造物,building_direct,旧東京市麻布区役所庁舎(日本獣医生命科学大学一号棟),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:26,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13203,武蔵野市,National,Designated,記念物,天然記念物,point,小金井(サクラ),河川浸水,河川浸水,河川浸水｜河川浸水

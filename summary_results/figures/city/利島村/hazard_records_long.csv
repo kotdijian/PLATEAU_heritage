@@ -1,0 +1,3 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_002:7,seismic,大正関東地震,4.69,5弱,,,13362,利島村,National,Registered,有形文化財,建造物,building_direct,阿豆佐和気命神社旧本殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:7,seismic,南海トラフ巨大地震,5.235,5強,,,13362,利島村,National,Registered,有形文化財,建造物,building_direct,阿豆佐和気命神社旧本殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震

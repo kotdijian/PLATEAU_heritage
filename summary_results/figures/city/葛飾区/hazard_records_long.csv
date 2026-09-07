@@ -1,0 +1,121 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+123,seismic,都心南部直下地震,5.979,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+124,seismic,都心南部直下地震,5.93,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+181,seismic,都心南部直下地震,6.153,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+182,seismic,都心南部直下地震,6.237,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+183,seismic,都心南部直下地震,6.042,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:38,seismic,都心南部直下地震,6.159,6強以上,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+123,seismic,都心東部直下地震,6.223,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+124,seismic,都心東部直下地震,6.049,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+181,seismic,都心東部直下地震,6.338,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+182,seismic,都心東部直下地震,6.495,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+183,seismic,都心東部直下地震,6.252,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:38,seismic,都心東部直下地震,6.246,6強以上,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+123,seismic,都心西部直下地震,6.225,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+124,seismic,都心西部直下地震,6.137,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+181,seismic,都心西部直下地震,6.373,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+182,seismic,都心西部直下地震,6.376,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+183,seismic,都心西部直下地震,6.225,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:38,seismic,都心西部直下地震,6.256,6強以上,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+123,seismic,多摩東部直下地震,5.9994,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+124,seismic,多摩東部直下地震,5.827,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+181,seismic,多摩東部直下地震,6.1126,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+182,seismic,多摩東部直下地震,6.1746,6強以上,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+183,seismic,多摩東部直下地震,5.9702,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:38,seismic,多摩東部直下地震,6.0918,6強以上,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+123,seismic,多摩西部直下地震,5.397,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+124,seismic,多摩西部直下地震,5.294,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+181,seismic,多摩西部直下地震,5.578,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+182,seismic,多摩西部直下地震,5.654,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+183,seismic,多摩西部直下地震,5.344,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:38,seismic,多摩西部直下地震,5.491,5強,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+123,seismic,立川断層帯地震,4.681,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+124,seismic,立川断層帯地震,4.603,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+181,seismic,立川断層帯地震,4.984,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+182,seismic,立川断層帯地震,5.091,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+183,seismic,立川断層帯地震,4.628,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:38,seismic,立川断層帯地震,4.936,5弱,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+123,seismic,大正関東地震,5.693,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+124,seismic,大正関東地震,5.596,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,大正関東地震,想定震度｜大正関東地震
+181,seismic,大正関東地震,5.837,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,大正関東地震,想定震度｜大正関東地震
+182,seismic,大正関東地震,5.958,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,大正関東地震,想定震度｜大正関東地震
+183,seismic,大正関東地震,5.684,6弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:38,seismic,大正関東地震,5.78,6弱,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,大正関東地震,想定震度｜大正関東地震
+123,seismic,南海トラフ巨大地震,4.958,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+124,seismic,南海トラフ巨大地震,4.907,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+181,seismic,南海トラフ巨大地震,5.169,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+182,seismic,南海トラフ巨大地震,5.305,5強,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+183,seismic,南海トラフ巨大地震,4.93,5弱,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:38,seismic,南海トラフ巨大地震,5.037,5強,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+123,fire,延焼危険度,3.0,,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+124,fire,延焼危険度,4.0,,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+181,fire,延焼危険度,4.0,,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+182,fire,延焼危険度,5.0,,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+183,fire,延焼危険度,3.0,,,,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:38,fire,延焼危険度,4.0,,,,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+123,liquefaction,南海トラフ巨大地震,1.4156,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+123,liquefaction,多摩東部直下地震,23.3376,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+123,liquefaction,大正関東地震,17.8424,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,液状化,大正関東地震,液状化｜大正関東地震
+123,liquefaction,都心南部直下地震,23.2072,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+124,liquefaction,南海トラフ巨大地震,1.2732,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+124,liquefaction,多摩東部直下地震,23.0836,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+124,liquefaction,大正関東地震,17.866,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,液状化,大正関東地震,液状化｜大正関東地震
+124,liquefaction,都心南部直下地震,24.8512,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,液状化,都心南部直下地震,液状化｜都心南部直下地震
+181,liquefaction,南海トラフ巨大地震,5.0232,5<PL≤15,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+181,liquefaction,多摩東部直下地震,18.5512,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+181,liquefaction,大正関東地震,15.9144,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,液状化,大正関東地震,液状化｜大正関東地震
+181,liquefaction,都心南部直下地震,18.8684,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+182,liquefaction,南海トラフ巨大地震,5.2628,5<PL≤15,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+182,liquefaction,多摩東部直下地震,17.5184,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+182,liquefaction,大正関東地震,15.4328,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,液状化,大正関東地震,液状化｜大正関東地震
+182,liquefaction,都心南部直下地震,18.1084,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+183,liquefaction,南海トラフ巨大地震,0.9992,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+183,liquefaction,多摩東部直下地震,24.7484,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+183,liquefaction,大正関東地震,18.2908,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,液状化,大正関東地震,液状化｜大正関東地震
+183,liquefaction,都心南部直下地震,26.6556,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:38,liquefaction,南海トラフ巨大地震,1.7144,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:38,liquefaction,多摩東部直下地震,6.1652,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:38,liquefaction,大正関東地震,5.3004,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:38,liquefaction,都心南部直下地震,6.338,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,液状化,都心南部直下地震,液状化｜都心南部直下地震
+181,river_flooding,L2（想定最大規模）,0.04,0.5m未満,中川・綾瀬川圏域,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+181,river_flooding,L1（計画規模）,1.33,0.5m以上3m未満,利根川水系中川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+181,river_flooding,L2（想定最大規模）,1.66,0.5m以上3m未満,利根川水系中川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+181,river_flooding,L1（計画規模）,3.52,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+181,river_flooding,L2（想定最大規模）,4.53,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+181,river_flooding,L1（計画規模）,0.77,0.5m以上3m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+181,river_flooding,L2（想定最大規模）,1.54,0.5m以上3m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+181,river_flooding,L2（想定最大規模）,0.46,0.5m未満,利根川水系綾瀬川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:38,river_flooding,L1（計画規模）,2.22,0.5m以上3m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+official_export_001:38,river_flooding,L2（想定最大規模）,3.3,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+124,river_flooding,L2（想定最大規模）,0.21,0.5m未満,中川・綾瀬川圏域,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+124,river_flooding,L1（計画規模）,1.0,0.5m以上3m未満,利根川水系中川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+124,river_flooding,L2（想定最大規模）,1.3,0.5m以上3m未満,利根川水系中川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+124,river_flooding,L1（計画規模）,3.13,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+124,river_flooding,L2（想定最大規模）,4.16,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+124,river_flooding,L1（計画規模）,0.48,0.5m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+124,river_flooding,L2（想定最大規模）,1.25,0.5m以上3m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+124,river_flooding,L2（想定最大規模）,0.06,0.5m未満,利根川水系綾瀬川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+183,river_flooding,L2（想定最大規模）,0.75,0.5m以上3m未満,中川・綾瀬川圏域,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+183,river_flooding,L2（想定最大規模）,1.0,0.5m以上3m未満,利根川水系中川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+183,river_flooding,L2（想定最大規模）,0.75,0.5m以上3m未満,利根川水系中川・綾瀬川・新中川・旧江戸川・毛長川・大場川・伝右川・垳川・新川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+183,river_flooding,L1（計画規模）,2.57,0.5m以上3m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+183,river_flooding,L2（想定最大規模）,3.22,3m以上5m未満,利根川水系利根川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+183,river_flooding,L1（計画規模）,1.96,0.5m以上3m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+183,river_flooding,L2（想定最大規模）,2.44,0.5m以上3m未満,利根川水系江戸川,PLATEAU building risk,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+123,high_tide,,1.89,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,高潮,高潮,高潮｜高潮
+124,high_tide,,3.24,3–5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,高潮,高潮,高潮｜高潮
+181,high_tide,,3.47,3–5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,高潮,高潮,高潮｜高潮
+182,high_tide,,3.71,3–5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,高潮,高潮,高潮｜高潮
+183,high_tide,,2.18,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,高潮,高潮,高潮｜高潮
+124,river_flooding,,0.21,0–0.5 m,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,河川浸水,河川浸水｜河川浸水
+181,river_flooding,,0.0,0,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,河川浸水,河川浸水｜河川浸水
+183,river_flooding,,0.75,0.5–3 m,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:38,river_flooding,,0.0,0,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,河川浸水,河川浸水,河川浸水｜河川浸水
+123,river_flooding,,0.0,0,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+182,river_flooding,,0.27,0–0.5 m,中川_綾瀬川圏域,external point-grid sampling,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,河川浸水,河川浸水,河川浸水｜河川浸水
+123,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,葛西城跡,河川浸水,想定最大規模,河川浸水｜想定最大規模
+124,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,史跡,point,立石,河川浸水,想定最大規模,河川浸水｜想定最大規模
+181,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,安積艮斎墓,河川浸水,想定最大規模,河川浸水｜想定最大規模
+182,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,葛西清重墓,河川浸水,想定最大規模,河川浸水｜想定最大規模
+183,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,Tokyo Metropolitan,Designated,記念物,旧跡,point,山田検校墓,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_001:38,river_flooding,想定最大規模,5.0,3–5 m,A31a 荒川,A31a polygon intersection,13122,葛飾区,National,Designated,有形文化財,建造物,building_direct,旧小菅刑務所庁舎,河川浸水,想定最大規模,河川浸水｜想定最大規模

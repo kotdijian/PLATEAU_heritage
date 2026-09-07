@@ -18,8 +18,8 @@
     "collector": "manifest_only",
     "url": "https://online.bunka.go.jp/",
     "scope": "全国の参加博物館・美術館等。東京都所在館を抽出対象とする",
-    "reference_count": "1096 nationwide participants (2026-09-04 display)",
-    "notes": "有力な追加ソース。参加館方式であり法的区分とは別。館一覧取得アダプターは次段で追加"
+    "reference_count": "79 Tokyo / 1096 nationwide participants (2026-09-06 display)",
+    "notes": "参加館方式であり法的区分とは別。build_museum_locations.pyが東京都一覧と施設詳細を所在地ソースとして取得"
   },
   {
     "source_id": "japan_museum_association",
@@ -190,4 +190,3 @@
     "notes": "規模の参照値。収集件数の完全一致要件ではなく個別施設差分の根拠にも用いない"
   }
 ]
-

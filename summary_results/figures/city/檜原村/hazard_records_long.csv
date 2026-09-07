@@ -1,0 +1,78 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+203,seismic,都心南部直下地震,4.779,5弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:64,seismic,都心南部直下地震,4.897,5弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:162,seismic,都心南部直下地震,5.1,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:254,seismic,都心南部直下地震,4.837,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:373,seismic,都心南部直下地震,4.836,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:429,seismic,都心南部直下地震,4.884,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+203,seismic,都心東部直下地震,4.527,5弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:64,seismic,都心東部直下地震,4.686,5弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:162,seismic,都心東部直下地震,4.753,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:254,seismic,都心東部直下地震,4.553,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:373,seismic,都心東部直下地震,4.553,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:429,seismic,都心東部直下地震,4.707,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+203,seismic,都心西部直下地震,4.581,5弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:64,seismic,都心西部直下地震,4.761,5弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:162,seismic,都心西部直下地震,4.859,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:254,seismic,都心西部直下地震,4.65,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:373,seismic,都心西部直下地震,4.644,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:429,seismic,都心西部直下地震,4.776,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+203,seismic,多摩東部直下地震,5.3268,5強,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:64,seismic,多摩東部直下地震,5.4198,5強,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:162,seismic,多摩東部直下地震,5.5572,6弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:254,seismic,多摩東部直下地震,5.3096,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:373,seismic,多摩東部直下地震,5.3076,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:429,seismic,多摩東部直下地震,5.4494,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+203,seismic,多摩西部直下地震,5.573,6弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:64,seismic,多摩西部直下地震,5.6,6弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:162,seismic,多摩西部直下地震,5.676,6弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:254,seismic,多摩西部直下地震,5.528,6弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:373,seismic,多摩西部直下地震,5.538,6弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:429,seismic,多摩西部直下地震,5.597,6弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+203,seismic,立川断層帯地震,4.64,5弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:64,seismic,立川断層帯地震,4.751,5弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:162,seismic,立川断層帯地震,4.814,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:254,seismic,立川断層帯地震,4.598,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:373,seismic,立川断層帯地震,4.601,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:429,seismic,立川断層帯地震,4.762,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+203,seismic,大正関東地震,4.902,5弱,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:64,seismic,大正関東地震,4.918,5弱,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:162,seismic,大正関東地震,5.149,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:254,seismic,大正関東地震,4.942,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:373,seismic,大正関東地震,4.942,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:429,seismic,大正関東地震,4.925,5弱,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+203,seismic,南海トラフ巨大地震,5.132,5強,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:64,seismic,南海トラフ巨大地震,5.078,5強,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:162,seismic,南海トラフ巨大地震,5.101,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:254,seismic,南海トラフ巨大地震,5.123,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:373,seismic,南海トラフ巨大地震,5.123,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:429,seismic,南海トラフ巨大地震,5.074,5強,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+203,fire,延焼危険度,2.0,,,,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:64,fire,延焼危険度,1.0,,,,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:162,fire,延焼危険度,2.0,,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:254,fire,延焼危険度,2.0,,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:373,fire,延焼危険度,2.0,,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:429,fire,延焼危険度,1.0,,,,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:162,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:162,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:429,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:429,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:254,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:254,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:254,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:373,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:373,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_002:373,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_001:64,river_flooding,L2（想定最大規模）,0.01,0.5m未満,秋川・平井川流域,PLATEAU building risk,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:64,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+official_export_001:64,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,National,Designated,有形文化財,建造物,building_direct,小林家住宅(東京都西多摩郡檜原村),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:162,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,旧高橋家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:373,river_flooding,,0.03,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:254,river_flooding,,0.02,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:429,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+203,river_flooding,,1.03,0.5–3 m,秋川及び平井川流域,external point-grid sampling,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,河川浸水,河川浸水,河川浸水｜河川浸水
+203,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13307,檜原村,Tokyo Metropolitan,Designated,記念物,名勝,point,三頭大滝,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:254,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:373,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,中村家住宅主屋,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:429,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,峯岸家住宅主屋,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+official_export_002:254,landslide,砂防指定地,,砂防指定地,hazard_sabo_designated_a52_polygon,polygon intersection,13307,檜原村,National,Registered,有形文化財,建造物,building_direct,蛇の湯温泉たから荘,土砂災害,砂防指定地,土砂災害｜砂防指定地

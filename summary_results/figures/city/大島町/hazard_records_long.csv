@@ -1,0 +1,16 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+233,seismic,大正関東地震,5.505,6弱,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,差木地の大クス,想定震度,大正関東地震,想定震度｜大正関東地震
+234,seismic,大正関東地震,5.485,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,野増大宮のシイ樹叢,想定震度,大正関東地震,想定震度｜大正関東地震
+235,seismic,大正関東地震,5.47,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,おたいね浦の岩脈と筆島,想定震度,大正関東地震,想定震度｜大正関東地震
+236,seismic,大正関東地震,5.488,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,春日神社のイヌマキ群叢,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:6,seismic,大正関東地震,5.731,6弱,,,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:7,seismic,大正関東地震,5.645,6弱,,,13361,大島町,National,Designated,記念物,天然記念物,point,大島のサクラ株,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:31,seismic,大正関東地震,5.342,5強,,,13361,大島町,National,Designated,記念物,天然記念物,point,シイノキ山のシイノキ群叢,想定震度,大正関東地震,想定震度｜大正関東地震
+233,seismic,南海トラフ巨大地震,5.271,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,差木地の大クス,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+234,seismic,南海トラフ巨大地震,5.34,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,野増大宮のシイ樹叢,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+235,seismic,南海トラフ巨大地震,5.227,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,おたいね浦の岩脈と筆島,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+236,seismic,南海トラフ巨大地震,5.256,5強,,,13361,大島町,Tokyo Metropolitan,Designated,記念物,天然記念物,point,春日神社のイヌマキ群叢,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:6,seismic,南海トラフ巨大地震,5.278,5強,,,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:7,seismic,南海トラフ巨大地震,5.274,5強,,,13361,大島町,National,Designated,記念物,天然記念物,point,大島のサクラ株,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:31,seismic,南海トラフ巨大地震,5.179,5強,,,13361,大島町,National,Designated,記念物,天然記念物,point,シイノキ山のシイノキ群叢,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:6,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13361,大島町,National,Designated,記念物,天然記念物,point,大島海浜植物群落,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

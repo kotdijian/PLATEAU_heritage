@@ -1,0 +1,28 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+122,seismic,都心南部直下地震,5.71,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+179,seismic,都心南部直下地震,5.78,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+122,seismic,都心東部直下地震,5.73,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+179,seismic,都心東部直下地震,5.844,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+122,seismic,都心西部直下地震,5.852,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+179,seismic,都心西部直下地震,5.912,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+122,seismic,多摩東部直下地震,5.8216,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+179,seismic,多摩東部直下地震,5.9092,6弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+122,seismic,多摩西部直下地震,5.329,5強,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+179,seismic,多摩西部直下地震,5.361,5強,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+122,seismic,立川断層帯地震,4.853,5弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+179,seismic,立川断層帯地震,4.899,5弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+122,seismic,大正関東地震,5.413,5強,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+179,seismic,大正関東地震,5.48,5強,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,大正関東地震,想定震度｜大正関東地震
+122,seismic,南海トラフ巨大地震,4.791,5弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+179,seismic,南海トラフ巨大地震,4.851,5弱,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+122,fire,延焼危険度,5.0,,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+179,fire,延焼危険度,4.0,,,,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+122,liquefaction,多摩東部直下地震,0.618888889,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+122,liquefaction,大正関東地震,0.225555556,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,液状化,大正関東地震,液状化｜大正関東地震
+122,liquefaction,都心南部直下地震,0.538888889,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+179,liquefaction,南海トラフ巨大地震,0.231666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+179,liquefaction,多摩東部直下地震,2.41,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+179,liquefaction,大正関東地震,1.818333333,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,液状化,大正関東地震,液状化｜大正関東地震
+179,liquefaction,都心南部直下地震,2.278333333,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+122,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13120,練馬区,Unknown,Unknown,未判定,未細分,point,尾崎遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+179,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13120,練馬区,Unknown,Unknown,未判定,未細分,point,池永道雲墓,河川浸水,河川浸水,河川浸水｜河川浸水

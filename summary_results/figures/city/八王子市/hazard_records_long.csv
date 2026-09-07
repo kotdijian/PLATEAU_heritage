@@ -1,0 +1,111 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+126,seismic,都心南部直下地震,5.827,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+127,seismic,都心南部直下地震,6.006,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+184,seismic,都心南部直下地震,5.638,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+215,seismic,都心南部直下地震,5.06,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+216,seismic,都心南部直下地震,5.06,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:22,seismic,都心南部直下地震,5.754,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:27,seismic,都心南部直下地震,5.376,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:43,seismic,都心南部直下地震,5.186,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:57,seismic,都心南部直下地震,5.036,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:60,seismic,都心南部直下地震,5.65,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+126,seismic,都心東部直下地震,5.677,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+127,seismic,都心東部直下地震,5.774,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+184,seismic,都心東部直下地震,5.605,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+215,seismic,都心東部直下地震,4.932,5弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+216,seismic,都心東部直下地震,4.932,5弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:22,seismic,都心東部直下地震,5.638,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:27,seismic,都心東部直下地震,5.155,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:43,seismic,都心東部直下地震,5.19,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:57,seismic,都心東部直下地震,4.873,5弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:60,seismic,都心東部直下地震,5.53,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+126,seismic,都心西部直下地震,5.728,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+127,seismic,都心西部直下地震,5.783,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+184,seismic,都心西部直下地震,5.572,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+215,seismic,都心西部直下地震,4.997,5弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+216,seismic,都心西部直下地震,4.997,5弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:22,seismic,都心西部直下地震,5.522,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:27,seismic,都心西部直下地震,5.185,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:43,seismic,都心西部直下地震,5.28,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:57,seismic,都心西部直下地震,4.902,5弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:60,seismic,都心西部直下地震,5.535,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+126,seismic,多摩東部直下地震,6.212,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+127,seismic,多摩東部直下地震,6.25,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+184,seismic,多摩東部直下地震,6.0058,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+215,seismic,多摩東部直下地震,5.7484,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+216,seismic,多摩東部直下地震,5.7484,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:22,seismic,多摩東部直下地震,6.0862,6強以上,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:27,seismic,多摩東部直下地震,5.855,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:43,seismic,多摩東部直下地震,5.633,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:57,seismic,多摩東部直下地震,5.5452,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:60,seismic,多摩東部直下地震,6.052,6強以上,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+126,seismic,多摩西部直下地震,5.843,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+127,seismic,多摩西部直下地震,5.986,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+184,seismic,多摩西部直下地震,5.886,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+215,seismic,多摩西部直下地震,5.615,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+216,seismic,多摩西部直下地震,5.615,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:22,seismic,多摩西部直下地震,5.918,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:27,seismic,多摩西部直下地震,5.814,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:43,seismic,多摩西部直下地震,5.803,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:57,seismic,多摩西部直下地震,5.618,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:60,seismic,多摩西部直下地震,5.794,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+126,seismic,立川断層帯地震,5.993,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+127,seismic,立川断層帯地震,6.129,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+184,seismic,立川断層帯地震,5.989,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+215,seismic,立川断層帯地震,5.004,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+216,seismic,立川断層帯地震,5.004,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:22,seismic,立川断層帯地震,5.879,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:27,seismic,立川断層帯地震,5.478,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:43,seismic,立川断層帯地震,5.972,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:57,seismic,立川断層帯地震,5.465,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:60,seismic,立川断層帯地震,5.847,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+126,seismic,大正関東地震,5.921,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+127,seismic,大正関東地震,6.049,6強以上,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,大正関東地震,想定震度｜大正関東地震
+184,seismic,大正関東地震,5.819,6弱,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,大正関東地震,想定震度｜大正関東地震
+215,seismic,大正関東地震,5.389,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,大正関東地震,想定震度｜大正関東地震
+216,seismic,大正関東地震,5.389,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:22,seismic,大正関東地震,5.959,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:27,seismic,大正関東地震,5.546,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:43,seismic,大正関東地震,5.298,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:57,seismic,大正関東地震,5.275,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:60,seismic,大正関東地震,5.751,6弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+126,seismic,南海トラフ巨大地震,5.189,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+127,seismic,南海トラフ巨大地震,5.31,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+184,seismic,南海トラフ巨大地震,5.08,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+215,seismic,南海トラフ巨大地震,5.014,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+216,seismic,南海トラフ巨大地震,5.014,5強,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:22,seismic,南海トラフ巨大地震,5.142,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:27,seismic,南海トラフ巨大地震,4.939,5弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:43,seismic,南海トラフ巨大地震,4.884,5弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:57,seismic,南海トラフ巨大地震,4.989,5弱,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:60,seismic,南海トラフ巨大地震,5.061,5強,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+126,fire,延焼危険度,3.0,,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+127,fire,延焼危険度,4.0,,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+184,fire,延焼危険度,4.0,,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+215,fire,延焼危険度,3.0,,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+216,fire,延焼危険度,3.0,,,,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:22,fire,延焼危険度,3.0,,,,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:27,fire,延焼危険度,2.0,,,,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:43,fire,延焼危険度,2.0,,,,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:57,fire,延焼危険度,3.0,,,,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:60,fire,延焼危険度,4.0,,,,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:27,liquefaction,多摩東部直下地震,0.537,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:27,liquefaction,大正関東地震,0.358,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:27,liquefaction,立川断層帯地震,0.061,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_003:27,liquefaction,都心南部直下地震,0.237,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:60,liquefaction,多摩東部直下地震,10.235,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:60,liquefaction,大正関東地震,4.32,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:60,liquefaction,立川断層帯地震,2.015,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_003:60,liquefaction,都心南部直下地震,3.2475,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+126,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,片倉城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+127,river_flooding,,0.09,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,Tokyo Metropolitan,Designated,記念物,史跡,point,広園寺境域,河川浸水,河川浸水,河川浸水｜河川浸水
+184,river_flooding,,0.11,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,Tokyo Metropolitan,Designated,記念物,旧跡,point,原胤敦墓,河川浸水,河川浸水,河川浸水｜河川浸水
+215,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,河川浸水,河川浸水,河川浸水｜河川浸水
+216,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:22,river_flooding,,0.05,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,National,Designated,記念物,天然記念物,point,椚田遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:27,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,National,Designated,記念物,天然記念物,point,小仏関跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:43,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,National,Designated,記念物,天然記念物,point,滝山城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:57,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,National,Designated,記念物,天然記念物,point,八王子城跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:60,river_flooding,,0.01,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13201,八王子市,National,Designated,記念物,天然記念物,point,船田石器時代遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+215,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山のスギ並木,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+216,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13201,八王子市,Tokyo Metropolitan,Designated,記念物,天然記念物,point,髙尾山の飯盛スギ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

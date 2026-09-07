@@ -1,0 +1,16 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+180,seismic,都心南部直下地震,6.347,6強以上,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+180,seismic,都心東部直下地震,6.322,6強以上,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+180,seismic,都心西部直下地震,6.313,6強以上,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+180,seismic,多摩東部直下地震,6.216,6強以上,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+180,seismic,多摩西部直下地震,5.822,6弱,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+180,seismic,立川断層帯地震,5.202,5強,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+180,seismic,大正関東地震,5.876,6弱,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,大正関東地震,想定震度｜大正関東地震
+180,seismic,南海トラフ巨大地震,5.342,5強,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+180,fire,延焼危険度,3.0,,,,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+180,liquefaction,南海トラフ巨大地震,4.9296,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+180,liquefaction,多摩東部直下地震,14.4808,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+180,liquefaction,大正関東地震,11.132,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,液状化,大正関東地震,液状化｜大正関東地震
+180,liquefaction,都心南部直下地震,15.64,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,液状化,都心南部直下地震,液状化｜都心南部直下地震
+180,river_flooding,,0.35,0–0.5 m,中川_綾瀬川圏域,external point-grid sampling,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,河川浸水,河川浸水,河川浸水｜河川浸水
+180,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13121,足立区,Unknown,Unknown,未判定,未細分,point,初代安藤広重墓及び記念碑,河川浸水,想定最大規模,河川浸水｜想定最大規模

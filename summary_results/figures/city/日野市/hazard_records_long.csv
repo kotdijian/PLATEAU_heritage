@@ -1,0 +1,93 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+26,seismic,都心南部直下地震,5.24,5強,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+136,seismic,都心南部直下地震,5.649,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+188,seismic,都心南部直下地震,5.623,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:65,seismic,都心南部直下地震,5.791,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:66,seismic,都心南部直下地震,5.779,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:171,seismic,都心南部直下地震,5.62,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:402,seismic,都心南部直下地震,6.014,6強以上,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+26,seismic,都心東部直下地震,5.283,5強,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+136,seismic,都心東部直下地震,5.507,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+188,seismic,都心東部直下地震,5.598,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:65,seismic,都心東部直下地震,5.649,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:66,seismic,都心東部直下地震,5.631,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:171,seismic,都心東部直下地震,5.487,5強,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:402,seismic,都心東部直下地震,5.83,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+26,seismic,都心西部直下地震,5.354,5強,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+136,seismic,都心西部直下地震,5.504,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+188,seismic,都心西部直下地震,5.474,5強,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:65,seismic,都心西部直下地震,5.579,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:66,seismic,都心西部直下地震,5.563,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:171,seismic,都心西部直下地震,5.475,5強,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:402,seismic,都心西部直下地震,5.764,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+26,seismic,多摩東部直下地震,5.8532,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+136,seismic,多摩東部直下地震,5.9846,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+188,seismic,多摩東部直下地震,6.0072,6強以上,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:65,seismic,多摩東部直下地震,6.0506,6強以上,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:66,seismic,多摩東部直下地震,6.0326,6強以上,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:171,seismic,多摩東部直下地震,5.9572,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:402,seismic,多摩東部直下地震,6.2562,6強以上,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+26,seismic,多摩西部直下地震,5.854,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+136,seismic,多摩西部直下地震,5.9,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+188,seismic,多摩西部直下地震,5.689,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:65,seismic,多摩西部直下地震,5.853,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:66,seismic,多摩西部直下地震,5.834,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:171,seismic,多摩西部直下地震,5.796,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:402,seismic,多摩西部直下地震,6.013,6強以上,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+26,seismic,立川断層帯地震,6.11,6強以上,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+136,seismic,立川断層帯地震,6.153,6強以上,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+188,seismic,立川断層帯地震,5.978,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:65,seismic,立川断層帯地震,6.267,6強以上,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:66,seismic,立川断層帯地震,6.25,6強以上,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:171,seismic,立川断層帯地震,6.195,6強以上,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:402,seismic,立川断層帯地震,6.443,6強以上,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+26,seismic,大正関東地震,5.346,5強,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,大正関東地震,想定震度｜大正関東地震
+136,seismic,大正関東地震,5.533,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,大正関東地震,想定震度｜大正関東地震
+188,seismic,大正関東地震,5.661,6弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:65,seismic,大正関東地震,5.74,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:66,seismic,大正関東地震,5.721,6弱,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:171,seismic,大正関東地震,5.487,5強,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:402,seismic,大正関東地震,5.907,6弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,大正関東地震,想定震度｜大正関東地震
+26,seismic,南海トラフ巨大地震,4.888,5弱,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+136,seismic,南海トラフ巨大地震,4.915,5弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+188,seismic,南海トラフ巨大地震,4.993,5弱,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:65,seismic,南海トラフ巨大地震,5.03,5強,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:66,seismic,南海トラフ巨大地震,5.018,5強,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:171,seismic,南海トラフ巨大地震,4.881,5弱,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:402,seismic,南海トラフ巨大地震,5.194,5強,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+26,fire,延焼危険度,4.0,,,,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+136,fire,延焼危険度,4.0,,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+188,fire,延焼危険度,5.0,,,,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:65,fire,延焼危険度,3.0,,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:66,fire,延焼危険度,3.0,,,,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:171,fire,延焼危険度,2.0,,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:402,fire,延焼危険度,3.0,,,,13212,日野市,National,Registered,有形文化財,建造物,building_direct,日野市立中央図書館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+136,liquefaction,多摩東部直下地震,3.27,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+136,liquefaction,大正関東地震,1.950909091,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,液状化,大正関東地震,液状化｜大正関東地震
+136,liquefaction,立川断層帯地震,3.078181818,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+136,liquefaction,都心南部直下地震,1.258181818,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+188,liquefaction,南海トラフ巨大地震,0.285,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+188,liquefaction,多摩東部直下地震,2.93,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+188,liquefaction,大正関東地震,2.255,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,液状化,大正関東地震,液状化｜大正関東地震
+188,liquefaction,立川断層帯地震,1.955,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,液状化,立川断層帯地震,液状化｜立川断層帯地震
+188,liquefaction,都心南部直下地震,2.22,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:171,liquefaction,多摩東部直下地震,5.4036,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:171,liquefaction,大正関東地震,2.1132,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:171,liquefaction,立川断層帯地震,3.2288,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:171,liquefaction,都心南部直下地震,3.2204,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+136,river_flooding,L2（想定最大規模）,0.11,0.5m未満,秋川・平井川流域,PLATEAU building risk,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+26,river_flooding,L2（想定最大規模）,0.06,0.5m未満,秋川・平井川流域,PLATEAU building risk,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:66,river_flooding,L2（想定最大規模）,0.02,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:65,river_flooding,L2（想定最大規模）,0.03,0.5m未満,浅川圏域・大栗川・三沢川流域,PLATEAU building risk,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+188,landslide,PLATEAU建築物リスク,,土砂災害特別警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+136,river_flooding,L2（想定最大規模）,0.23,0.5m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:171,river_flooding,L2（想定最大規模）,0.54,0.5m以上3m未満,多摩川水系多摩川・浅川・大栗川,PLATEAU building risk,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+136,river_flooding,,,No data,残堀川流域,external point-grid sampling,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:171,river_flooding,,,No data,残堀川流域,external point-grid sampling,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:65,river_flooding,,0.03,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺仁王門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:66,river_flooding,,0.02,0–0.5 m,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13212,日野市,National,Designated,有形文化財,建造物,building_direct,金剛寺不動堂,河川浸水,河川浸水,河川浸水｜河川浸水
+188,river_flooding,,0.0,0,浅川圏域_大栗川及び三沢川流域,external point-grid sampling,13212,日野市,Tokyo Metropolitan,Designated,記念物,旧跡,point,平山季重墓,河川浸水,河川浸水,河川浸水｜河川浸水
+136,river_flooding,,0.05,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,河川浸水,河川浸水,河川浸水｜河川浸水
+26,river_flooding,,0.05,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13212,日野市,Tokyo Metropolitan,Designated,有形文化財,建造物,building_direct,金剛寺旧五部権現社殿,河川浸水,河川浸水,河川浸水｜河川浸水
+136,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 多摩川,A31a polygon intersection,13212,日野市,Tokyo Metropolitan,Designated,記念物,史跡,point,日野宿脇本陣跡,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:171,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 多摩川,A31a polygon intersection,13212,日野市,National,Registered,有形文化財,建造物,building_direct,旧農林省蚕糸試験場日野桑園第一蚕室,河川浸水,想定最大規模,河川浸水｜想定最大規模

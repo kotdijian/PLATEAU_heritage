@@ -1,0 +1,198 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+198,seismic,都心南部直下地震,6.207,6強以上,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+131083000000.0,seismic,都心南部直下地震,6.578,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:100,seismic,都心南部直下地震,6.302,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:193,seismic,都心南部直下地震,6.368,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:166,seismic,都心南部直下地震,6.335,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:333,seismic,都心南部直下地震,6.332,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:334,seismic,都心南部直下地震,6.312,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:335,seismic,都心南部直下地震,6.324,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:336,seismic,都心南部直下地震,6.288,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:337,seismic,都心南部直下地震,6.368,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:62,seismic,都心南部直下地震,6.364,6強以上,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+198,seismic,都心東部直下地震,6.184,6強以上,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+131083000000.0,seismic,都心東部直下地震,6.446,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:100,seismic,都心東部直下地震,6.178,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:193,seismic,都心東部直下地震,6.273,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:166,seismic,都心東部直下地震,6.232,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:333,seismic,都心東部直下地震,6.236,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:334,seismic,都心東部直下地震,6.222,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:335,seismic,都心東部直下地震,6.233,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:336,seismic,都心東部直下地震,6.205,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:337,seismic,都心東部直下地震,6.273,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:62,seismic,都心東部直下地震,6.357,6強以上,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+198,seismic,都心西部直下地震,6.087,6強以上,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+131083000000.0,seismic,都心西部直下地震,6.379,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:100,seismic,都心西部直下地震,6.077,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:193,seismic,都心西部直下地震,6.146,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:166,seismic,都心西部直下地震,6.137,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:333,seismic,都心西部直下地震,6.106,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:334,seismic,都心西部直下地震,6.088,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:335,seismic,都心西部直下地震,6.099,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:336,seismic,都心西部直下地震,6.07,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:337,seismic,都心西部直下地震,6.146,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:62,seismic,都心西部直下地震,6.278,6強以上,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+198,seismic,多摩東部直下地震,5.9634,6弱,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+131083000000.0,seismic,多摩東部直下地震,6.218,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:100,seismic,多摩東部直下地震,5.95,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:193,seismic,多摩東部直下地震,5.9858,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:166,seismic,多摩東部直下地震,6.0054,6強以上,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:333,seismic,多摩東部直下地震,5.9636,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:334,seismic,多摩東部直下地震,5.9476,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:335,seismic,多摩東部直下地震,5.9588,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:336,seismic,多摩東部直下地震,5.9268,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:337,seismic,多摩東部直下地震,5.9858,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:62,seismic,多摩東部直下地震,6.152,6強以上,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+198,seismic,多摩西部直下地震,5.588,6弱,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+131083000000.0,seismic,多摩西部直下地震,5.885,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:100,seismic,多摩西部直下地震,5.592,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:193,seismic,多摩西部直下地震,5.698,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:166,seismic,多摩西部直下地震,5.667,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:333,seismic,多摩西部直下地震,5.667,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:334,seismic,多摩西部直下地震,5.653,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:335,seismic,多摩西部直下地震,5.665,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:336,seismic,多摩西部直下地震,5.633,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:337,seismic,多摩西部直下地震,5.698,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:62,seismic,多摩西部直下地震,5.789,6弱,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+198,seismic,立川断層帯地震,4.834,5弱,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+131083000000.0,seismic,立川断層帯地震,5.081,5強,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:100,seismic,立川断層帯地震,4.82,5弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:193,seismic,立川断層帯地震,4.898,5弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:166,seismic,立川断層帯地震,4.908,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:333,seismic,立川断層帯地震,4.879,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:334,seismic,立川断層帯地震,4.863,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:335,seismic,立川断層帯地震,4.877,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:336,seismic,立川断層帯地震,4.839,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:337,seismic,立川断層帯地震,4.898,5弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:62,seismic,立川断層帯地震,5.045,5強,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+198,seismic,大正関東地震,5.91,6弱,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,大正関東地震,想定震度｜大正関東地震
+131083000000.0,seismic,大正関東地震,6.154,6強以上,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:100,seismic,大正関東地震,5.894,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:193,seismic,大正関東地震,5.972,6弱,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:166,seismic,大正関東地震,5.958,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:333,seismic,大正関東地震,5.937,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:334,seismic,大正関東地震,5.925,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:335,seismic,大正関東地震,5.933,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:336,seismic,大正関東地震,5.916,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:337,seismic,大正関東地震,5.972,6弱,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:62,seismic,大正関東地震,6.082,6強以上,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,大正関東地震,想定震度｜大正関東地震
+198,seismic,南海トラフ巨大地震,5.115,5強,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+131083000000.0,seismic,南海トラフ巨大地震,5.404,5強,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:100,seismic,南海トラフ巨大地震,5.08,5強,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:193,seismic,南海トラフ巨大地震,5.17,5強,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:166,seismic,南海トラフ巨大地震,5.174,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:333,seismic,南海トラフ巨大地震,5.133,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:334,seismic,南海トラフ巨大地震,5.116,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:335,seismic,南海トラフ巨大地震,5.129,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:336,seismic,南海トラフ巨大地震,5.094,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:337,seismic,南海トラフ巨大地震,5.17,5強,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:62,seismic,南海トラフ巨大地震,5.314,5強,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+198,fire,延焼危険度,3.0,,,,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+131083000000.0,fire,延焼危険度,6.0,,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:100,fire,延焼危険度,3.0,,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:193,fire,延焼危険度,3.0,,,,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:166,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:333,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:334,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:335,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:336,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:337,fire,延焼危険度,3.0,,,,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:62,fire,延焼危険度,3.0,,,,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+131083000000.0,liquefaction,南海トラフ巨大地震,9.2308,5<PL≤15,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+131083000000.0,liquefaction,多摩東部直下地震,20.3964,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+131083000000.0,liquefaction,大正関東地震,20.5808,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,大正関東地震,液状化｜大正関東地震
+131083000000.0,liquefaction,立川断層帯地震,0.039583333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+131083000000.0,liquefaction,都心南部直下地震,22.622,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+198,liquefaction,南海トラフ巨大地震,1.4496,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+198,liquefaction,多摩東部直下地震,8.6224,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+198,liquefaction,大正関東地震,8.1668,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,液状化,大正関東地震,液状化｜大正関東地震
+198,liquefaction,都心南部直下地震,9.5928,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:100,liquefaction,南海トラフ巨大地震,1.3084,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:100,liquefaction,多摩東部直下地震,4.188,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:100,liquefaction,大正関東地震,4.0364,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:100,liquefaction,都心南部直下地震,4.7968,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:193,liquefaction,南海トラフ巨大地震,2.3316,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:193,liquefaction,多摩東部直下地震,8.0468,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:193,liquefaction,大正関東地震,7.972,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:193,liquefaction,都心南部直下地震,9.7088,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:166,liquefaction,南海トラフ巨大地震,4.8484,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:166,liquefaction,多摩東部直下地震,12.5344,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:166,liquefaction,大正関東地震,12.2944,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:166,liquefaction,都心南部直下地震,13.9064,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:333,liquefaction,南海トラフ巨大地震,2.446,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:333,liquefaction,多摩東部直下地震,6.6584,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:333,liquefaction,大正関東地震,6.57,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:333,liquefaction,都心南部直下地震,7.6052,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:334,liquefaction,南海トラフ巨大地震,2.446,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:334,liquefaction,多摩東部直下地震,6.6584,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:334,liquefaction,大正関東地震,6.57,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:334,liquefaction,都心南部直下地震,7.6052,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:335,liquefaction,南海トラフ巨大地震,2.8032,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:335,liquefaction,多摩東部直下地震,6.9648,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:335,liquefaction,大正関東地震,6.8356,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:335,liquefaction,都心南部直下地震,7.868,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:336,liquefaction,南海トラフ巨大地震,1.592,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:336,liquefaction,多摩東部直下地震,5.5372,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:336,liquefaction,大正関東地震,5.54,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:336,liquefaction,都心南部直下地震,6.9328,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:337,liquefaction,南海トラフ巨大地震,2.3316,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:337,liquefaction,多摩東部直下地震,8.0468,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:337,liquefaction,大正関東地震,7.972,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:337,liquefaction,都心南部直下地震,9.7088,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:62,liquefaction,南海トラフ巨大地震,3.154,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:62,liquefaction,多摩東部直下地震,8.4712,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:62,liquefaction,大正関東地震,8.204,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:62,liquefaction,都心南部直下地震,9.142,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+131083000000.0,river_flooding,L2（想定最大規模）,0.13,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+131083000000.0,high_tide,PLATEAU建築物リスク,1.84,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+131083000000.0,river_flooding,L2（想定最大規模）,0.16,0.5m未満,江東内部河川流域,PLATEAU building risk,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:336,river_flooding,L2（想定最大規模）,0.2,0.5m未満,江東内部河川流域,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:336,high_tide,PLATEAU建築物リスク,1.69,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_003:62,high_tide,PLATEAU建築物リスク,1.77,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:166,river_flooding,L2（想定最大規模）,0.28,0.5m未満,江東内部河川流域,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:166,high_tide,PLATEAU建築物リスク,2.22,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:335,river_flooding,L2（想定最大規模）,0.12,0.5m未満,江東内部河川流域,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:335,high_tide,PLATEAU建築物リスク,2.39,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:334,river_flooding,L2（想定最大規模）,0.11,0.5m未満,江東内部河川流域,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:334,high_tide,PLATEAU建築物リスク,2.24,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:193,high_tide,PLATEAU建築物リスク,1.44,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:337,high_tide,PLATEAU建築物リスク,1.44,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:333,high_tide,PLATEAU建築物リスク,1.82,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+131083000000.0,high_tide,,6.31,5 m以上,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,高潮,高潮,高潮｜高潮
+198,high_tide,,2.29,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,高潮,高潮,高潮｜高潮
+official_export_001:100,high_tide,,3.25,3–5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),高潮,高潮,高潮｜高潮
+official_export_001:193,high_tide,,1.17,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,高潮,高潮,高潮｜高潮
+official_export_002:166,high_tide,,2.22,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,高潮,高潮,高潮｜高潮
+official_export_002:333,high_tide,,1.92,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,高潮,高潮,高潮｜高潮
+official_export_002:334,high_tide,,2.24,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),高潮,高潮,高潮｜高潮
+official_export_002:335,high_tide,,2.39,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),高潮,高潮,高潮｜高潮
+official_export_002:336,high_tide,,1.69,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,高潮,高潮,高潮｜高潮
+official_export_002:337,high_tide,,1.17,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,高潮,高潮,高潮｜高潮
+official_export_003:62,high_tide,,1.77,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,高潮,高潮,高潮｜高潮
+131083000000.0,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:62,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:333,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:166,river_flooding,,0.28,0–0.5 m,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:335,river_flooding,,0.12,0–0.5 m,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:336,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:334,river_flooding,,0.11,0–0.5 m,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:193,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,明治丸,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:337,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学2号館,河川浸水,河川浸水,河川浸水｜河川浸水
+198,river_flooding,,0.0,0,江東内部河川流域,external point-grid sampling,13108,江東区,Tokyo Metropolitan,Designated,記念物,名勝,point,清澄庭園,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:100,river_flooding,,1.26,0.5–3 m,江東内部河川流域,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),河川浸水,河川浸水,河川浸水｜河川浸水
+131083000000.0,river_flooding,,0.13,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,河川浸水,河川浸水,河川浸水｜河川浸水
+131083000000.0,tsunami,南海トラフ巨大地震_ケース1,0.368,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+131083000000.0,tsunami,南海トラフ巨大地震_ケース2,0.4425,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_ケース2,津波｜南海トラフ巨大地震_ケース2
+131083000000.0,tsunami,南海トラフ巨大地震_ケース5,0.1753,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_ケース5,津波｜南海トラフ巨大地震_ケース5
+131083000000.0,tsunami,南海トラフ巨大地震_ケース6,0.3693,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+131083000000.0,tsunami,南海トラフ巨大地震_ケース8,0.2453,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+131083000000.0,tsunami,南海トラフ巨大地震_全5ケース最大値,0.4425,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,南海トラフ巨大地震_全5ケース最大値,津波｜南海トラフ巨大地震_全5ケース最大値
+131083000000.0,tsunami,大正関東地震,0.2253,0–0.5 m,区部,external point-grid sampling,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,津波,大正関東地震,津波｜大正関東地震
+131083000000.0,river_flooding,想定最大規模,10.0,5 m以上,A31a 荒川,A31a polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,清洲橋,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_001:100,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Designated,有形文化財,建造物,building_direct,旧弾正橋(八幡橋),河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:166,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,旧東京市深川食堂,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:333,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学1号館,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:334,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第一観測台),河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:335,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学旧天体観測所(第二観測台),河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:336,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Registered,有形文化財,建造物,building_direct,東京商船大学事務局管理棟,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_003:62,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13108,江東区,National,Designated,記念物,天然記念物,point,松平定信墓,河川浸水,想定最大規模,河川浸水｜想定最大規模

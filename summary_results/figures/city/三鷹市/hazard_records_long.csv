@@ -1,0 +1,354 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+106,seismic,都心南部直下地震,6.01,6強以上,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+128,seismic,都心南部直下地震,5.996,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:14,seismic,都心南部直下地震,5.919,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:15,seismic,都心南部直下地震,5.987,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:36,seismic,都心南部直下地震,5.822,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:214,seismic,都心南部直下地震,5.897,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:215,seismic,都心南部直下地震,5.897,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:216,seismic,都心南部直下地震,5.948,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:217,seismic,都心南部直下地震,5.898,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:218,seismic,都心南部直下地震,5.901,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:219,seismic,都心南部直下地震,5.904,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:220,seismic,都心南部直下地震,5.889,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:221,seismic,都心南部直下地震,5.976,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:225,seismic,都心南部直下地震,5.949,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:226,seismic,都心南部直下地震,6.097,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:227,seismic,都心南部直下地震,6.075,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:228,seismic,都心南部直下地震,6.074,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:229,seismic,都心南部直下地震,6.123,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:230,seismic,都心南部直下地震,6.092,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:231,seismic,都心南部直下地震,6.056,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:232,seismic,都心南部直下地震,6.102,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:233,seismic,都心南部直下地震,5.949,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:234,seismic,都心南部直下地震,6.085,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:368,seismic,都心南部直下地震,5.869,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:481,seismic,都心南部直下地震,5.736,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:482,seismic,都心南部直下地震,5.882,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+106,seismic,都心東部直下地震,5.895,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+128,seismic,都心東部直下地震,5.89,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:14,seismic,都心東部直下地震,5.868,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:15,seismic,都心東部直下地震,5.911,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:36,seismic,都心東部直下地震,5.796,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:214,seismic,都心東部直下地震,5.855,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:215,seismic,都心東部直下地震,5.855,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:216,seismic,都心東部直下地震,5.901,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:217,seismic,都心東部直下地震,5.855,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:218,seismic,都心東部直下地震,5.856,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:219,seismic,都心東部直下地震,5.858,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:220,seismic,都心東部直下地震,5.85,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:221,seismic,都心東部直下地震,5.874,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:225,seismic,都心東部直下地震,5.819,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:226,seismic,都心東部直下地震,5.977,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:227,seismic,都心東部直下地震,5.964,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:228,seismic,都心東部直下地震,5.96,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:229,seismic,都心東部直下地震,5.996,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:230,seismic,都心東部直下地震,5.973,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:231,seismic,都心東部直下地震,5.954,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:232,seismic,都心東部直下地震,5.975,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:233,seismic,都心東部直下地震,5.819,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:234,seismic,都心東部直下地震,5.97,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:368,seismic,都心東部直下地震,5.841,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:481,seismic,都心東部直下地震,5.677,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:482,seismic,都心東部直下地震,5.843,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+106,seismic,都心西部直下地震,5.904,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+128,seismic,都心西部直下地震,5.946,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:14,seismic,都心西部直下地震,5.881,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:15,seismic,都心西部直下地震,5.901,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:36,seismic,都心西部直下地震,5.879,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:214,seismic,都心西部直下地震,5.879,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:215,seismic,都心西部直下地震,5.879,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:216,seismic,都心西部直下地震,5.927,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:217,seismic,都心西部直下地震,5.878,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:218,seismic,都心西部直下地震,5.882,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:219,seismic,都心西部直下地震,5.882,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:220,seismic,都心西部直下地震,5.88,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:221,seismic,都心西部直下地震,5.945,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:225,seismic,都心西部直下地震,5.867,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:226,seismic,都心西部直下地震,6.016,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:227,seismic,都心西部直下地震,5.997,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:228,seismic,都心西部直下地震,5.988,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:229,seismic,都心西部直下地震,6.038,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:230,seismic,都心西部直下地震,6.008,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:231,seismic,都心西部直下地震,5.989,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:232,seismic,都心西部直下地震,6.011,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:233,seismic,都心西部直下地震,5.867,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:234,seismic,都心西部直下地震,6.006,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:368,seismic,都心西部直下地震,5.941,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:481,seismic,都心西部直下地震,5.648,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:482,seismic,都心西部直下地震,5.907,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+106,seismic,多摩東部直下地震,6.0818,6強以上,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+128,seismic,多摩東部直下地震,6.1488,6強以上,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:14,seismic,多摩東部直下地震,6.0374,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:15,seismic,多摩東部直下地震,6.0758,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:36,seismic,多摩東部直下地震,6.0546,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:214,seismic,多摩東部直下地震,6.076,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:215,seismic,多摩東部直下地震,6.076,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:216,seismic,多摩東部直下地震,6.1228,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:217,seismic,多摩東部直下地震,6.076,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:218,seismic,多摩東部直下地震,6.0784,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:219,seismic,多摩東部直下地震,6.0796,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:220,seismic,多摩東部直下地震,6.0694,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:221,seismic,多摩東部直下地震,6.1348,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:225,seismic,多摩東部直下地震,6.0584,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:226,seismic,多摩東部直下地震,6.206,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:227,seismic,多摩東部直下地震,6.19,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:228,seismic,多摩東部直下地震,6.1812,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:229,seismic,多摩東部直下地震,6.2234,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:230,seismic,多摩東部直下地震,6.199,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:231,seismic,多摩東部直下地震,6.183,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:232,seismic,多摩東部直下地震,6.1984,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:233,seismic,多摩東部直下地震,6.0584,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:234,seismic,多摩東部直下地震,6.1974,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:368,seismic,多摩東部直下地震,6.0756,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:481,seismic,多摩東部直下地震,5.8388,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:482,seismic,多摩東部直下地震,6.0654,6強以上,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+106,seismic,多摩西部直下地震,5.855,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+128,seismic,多摩西部直下地震,5.886,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:14,seismic,多摩西部直下地震,5.688,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:15,seismic,多摩西部直下地震,5.721,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:36,seismic,多摩西部直下地震,5.826,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:214,seismic,多摩西部直下地震,5.838,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:215,seismic,多摩西部直下地震,5.838,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:216,seismic,多摩西部直下地震,5.882,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:217,seismic,多摩西部直下地震,5.837,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:218,seismic,多摩西部直下地震,5.839,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:219,seismic,多摩西部直下地震,5.838,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:220,seismic,多摩西部直下地震,5.836,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:221,seismic,多摩西部直下地震,5.873,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:225,seismic,多摩西部直下地震,5.793,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:226,seismic,多摩西部直下地震,5.953,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:227,seismic,多摩西部直下地震,5.941,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:228,seismic,多摩西部直下地震,5.937,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:229,seismic,多摩西部直下地震,5.969,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:230,seismic,多摩西部直下地震,5.95,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:231,seismic,多摩西部直下地震,5.931,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:232,seismic,多摩西部直下地震,5.947,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:233,seismic,多摩西部直下地震,5.793,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:234,seismic,多摩西部直下地震,5.946,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:368,seismic,多摩西部直下地震,5.824,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:481,seismic,多摩西部直下地震,5.478,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:482,seismic,多摩西部直下地震,5.767,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+106,seismic,立川断層帯地震,5.745,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+128,seismic,立川断層帯地震,5.741,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:14,seismic,立川断層帯地震,5.571,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:15,seismic,立川断層帯地震,5.524,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:36,seismic,立川断層帯地震,5.739,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:214,seismic,立川断層帯地震,5.784,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:215,seismic,立川断層帯地震,5.784,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:216,seismic,立川断層帯地震,5.828,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:217,seismic,立川断層帯地震,5.782,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:218,seismic,立川断層帯地震,5.785,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:219,seismic,立川断層帯地震,5.784,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:220,seismic,立川断層帯地震,5.783,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:221,seismic,立川断層帯地震,5.734,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:225,seismic,立川断層帯地震,5.596,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:226,seismic,立川断層帯地震,5.764,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:227,seismic,立川断層帯地震,5.759,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:228,seismic,立川断層帯地震,5.754,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:229,seismic,立川断層帯地震,5.766,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:230,seismic,立川断層帯地震,5.758,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:231,seismic,立川断層帯地震,5.76,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:232,seismic,立川断層帯地震,5.746,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:233,seismic,立川断層帯地震,5.596,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:234,seismic,立川断層帯地震,5.76,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:368,seismic,立川断層帯地震,5.7,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:481,seismic,立川断層帯地震,5.256,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:482,seismic,立川断層帯地震,5.613,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+106,seismic,大正関東地震,5.729,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,大正関東地震,想定震度｜大正関東地震
+128,seismic,大正関東地震,5.73,6弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:14,seismic,大正関東地震,5.661,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:15,seismic,大正関東地震,5.728,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:36,seismic,大正関東地震,5.648,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:214,seismic,大正関東地震,5.683,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:215,seismic,大正関東地震,5.683,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:216,seismic,大正関東地震,5.726,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:217,seismic,大正関東地震,5.681,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:218,seismic,大正関東地震,5.683,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:219,seismic,大正関東地震,5.682,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:220,seismic,大正関東地震,5.679,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:221,seismic,大正関東地震,5.715,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:225,seismic,大正関東地震,5.634,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:226,seismic,大正関東地震,5.787,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:227,seismic,大正関東地震,5.774,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:228,seismic,大正関東地震,5.77,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:229,seismic,大正関東地震,5.8,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:230,seismic,大正関東地震,5.781,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:231,seismic,大正関東地震,5.766,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:232,seismic,大正関東地震,5.781,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:233,seismic,大正関東地震,5.634,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:234,seismic,大正関東地震,5.779,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:368,seismic,大正関東地震,5.652,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:481,seismic,大正関東地震,5.489,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:482,seismic,大正関東地震,5.633,6弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+106,seismic,南海トラフ巨大地震,4.978,5弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+128,seismic,南海トラフ巨大地震,4.987,5弱,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:14,seismic,南海トラフ巨大地震,4.95,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:15,seismic,南海トラフ巨大地震,4.975,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:36,seismic,南海トラフ巨大地震,4.946,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:214,seismic,南海トラフ巨大地震,4.944,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:215,seismic,南海トラフ巨大地震,4.944,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:216,seismic,南海トラフ巨大地震,4.987,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:217,seismic,南海トラフ巨大地震,4.945,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:218,seismic,南海トラフ巨大地震,4.944,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:219,seismic,南海トラフ巨大地震,4.945,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:220,seismic,南海トラフ巨大地震,4.943,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:221,seismic,南海トラフ巨大地震,4.976,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:225,seismic,南海トラフ巨大地震,4.912,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:226,seismic,南海トラフ巨大地震,5.061,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:227,seismic,南海トラフ巨大地震,5.04,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:228,seismic,南海トラフ巨大地震,5.036,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:229,seismic,南海トラフ巨大地震,5.084,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:230,seismic,南海トラフ巨大地震,5.052,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:231,seismic,南海トラフ巨大地震,5.031,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:232,seismic,南海トラフ巨大地震,5.054,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:233,seismic,南海トラフ巨大地震,4.912,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:234,seismic,南海トラフ巨大地震,5.049,5強,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:368,seismic,南海トラフ巨大地震,4.963,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:481,seismic,南海トラフ巨大地震,4.818,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:482,seismic,南海トラフ巨大地震,4.957,5弱,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+106,fire,延焼危険度,3.0,,,,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+128,fire,延焼危険度,3.0,,,,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:14,fire,延焼危険度,5.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:15,fire,延焼危険度,6.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:36,fire,延焼危険度,4.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:214,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:215,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:216,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:217,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:218,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:219,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:220,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:221,fire,延焼危険度,2.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:225,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:226,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:227,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:228,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:229,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:230,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:231,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:232,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:233,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:234,fire,延焼危険度,3.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:368,fire,延焼危険度,6.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:481,fire,延焼危険度,6.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:482,fire,延焼危険度,6.0,,,,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+106,liquefaction,南海トラフ巨大地震,0.371666667,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+106,liquefaction,多摩東部直下地震,4.546666667,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+106,liquefaction,大正関東地震,2.32,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,液状化,大正関東地震,液状化｜大正関東地震
+106,liquefaction,立川断層帯地震,1.091666667,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,液状化,立川断層帯地震,液状化｜立川断層帯地震
+106,liquefaction,都心南部直下地震,4.018333333,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,液状化,都心南部直下地震,液状化｜都心南部直下地震
+128,liquefaction,南海トラフ巨大地震,0.3,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+128,liquefaction,多摩東部直下地震,4.7,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+128,liquefaction,大正関東地震,2.08,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,液状化,大正関東地震,液状化｜大正関東地震
+128,liquefaction,立川断層帯地震,0.97,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,液状化,立川断層帯地震,液状化｜立川断層帯地震
+128,liquefaction,都心南部直下地震,3.73,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:14,liquefaction,南海トラフ巨大地震,0.304,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:14,liquefaction,多摩東部直下地震,4.596,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:14,liquefaction,大正関東地震,3.544,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:14,liquefaction,立川断層帯地震,0.964,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:14,liquefaction,都心南部直下地震,4.29,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:15,liquefaction,南海トラフ巨大地震,1.52,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:15,liquefaction,多摩東部直下地震,15.32,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:15,liquefaction,大正関東地震,12.12,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:15,liquefaction,立川断層帯地震,3.44,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:15,liquefaction,都心南部直下地震,15.118,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:216,liquefaction,南海トラフ巨大地震,0.196,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:216,liquefaction,多摩東部直下地震,2.756,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:216,liquefaction,大正関東地震,1.274,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:216,liquefaction,立川断層帯地震,0.696,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:216,liquefaction,都心南部直下地震,2.112,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:218,liquefaction,南海トラフ巨大地震,0.196,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:218,liquefaction,多摩東部直下地震,2.756,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:218,liquefaction,大正関東地震,1.274,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:218,liquefaction,立川断層帯地震,0.696,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:218,liquefaction,都心南部直下地震,2.112,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:219,liquefaction,南海トラフ巨大地震,0.196,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:219,liquefaction,多摩東部直下地震,2.756,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:219,liquefaction,大正関東地震,1.274,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:219,liquefaction,立川断層帯地震,0.696,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:219,liquefaction,都心南部直下地震,2.112,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:225,liquefaction,南海トラフ巨大地震,0.223333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:225,liquefaction,多摩東部直下地震,5.996666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:225,liquefaction,大正関東地震,3.29,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:225,liquefaction,立川断層帯地震,1.313333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:225,liquefaction,都心南部直下地震,5.26,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:226,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:226,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:226,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:226,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:226,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:227,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:227,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:227,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:227,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:227,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:228,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:228,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:228,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:228,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:228,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:229,liquefaction,南海トラフ巨大地震,0.13,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:229,liquefaction,多摩東部直下地震,8.75,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:229,liquefaction,大正関東地震,5.8825,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:229,liquefaction,立川断層帯地震,1.98,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:229,liquefaction,都心南部直下地震,8.1475,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:230,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:230,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:230,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:230,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:230,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:232,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:232,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:232,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:232,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:232,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:233,liquefaction,南海トラフ巨大地震,0.223333333,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:233,liquefaction,多摩東部直下地震,5.996666667,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:233,liquefaction,大正関東地震,3.29,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:233,liquefaction,立川断層帯地震,1.313333333,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:233,liquefaction,都心南部直下地震,5.26,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:234,liquefaction,南海トラフ巨大地震,0.175,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:234,liquefaction,多摩東部直下地震,8.885,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:234,liquefaction,大正関東地震,6.15,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:234,liquefaction,立川断層帯地震,2.715,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:234,liquefaction,都心南部直下地震,8.4,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:481,liquefaction,南海トラフ巨大地震,0.76,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:481,liquefaction,多摩東部直下地震,7.66,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:481,liquefaction,大正関東地震,6.06,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:481,liquefaction,立川断層帯地震,1.72,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:481,liquefaction,都心南部直下地震,7.66,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:230,river_flooding,L2（想定最大規模）,0.03,0.5m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:368,river_flooding,L2（想定最大規模）,0.01,0.5m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+106,river_flooding,L1（計画規模）,0.77,0.5m以上3m未満,多摩川水系野川・仙川・入間川・谷沢川・丸子川,PLATEAU building risk,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,河川浸水,L1（計画規模）,河川浸水｜L1（計画規模）
+106,river_flooding,L2（想定最大規模）,1.12,0.5m以上3m未満,多摩川水系野川・仙川・入間川・谷沢川・丸子川,PLATEAU building risk,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+106,river_flooding,L2（想定最大規模）,1.12,0.5m以上3m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:226,river_flooding,L2（想定最大規模）,0.16,0.5m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:482,river_flooding,L2（想定最大規模）,1.17,0.5m以上3m未満,多摩川水系野川・仙川・入間川・谷沢川・丸子川,PLATEAU building risk,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:482,river_flooding,L2（想定最大規模）,1.17,0.5m以上3m未満,野川・仙川・入間川・谷沢川・丸子川流域,PLATEAU building risk,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:481,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:14,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,淡島家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:15,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,安藤家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+106,river_flooding,,1.1215,0.5–3 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,武蔵野(野川流域)の水車経営農家,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:221,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学本館,河川浸水,河川浸水,河川浸水｜河川浸水
+128,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,Tokyo Metropolitan,Designated,記念物,史跡,point,出山横穴墓群第8号墓,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:233,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台門衛所,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:36,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,伊藤家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:218,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘書院,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:220,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学ディッフェンドルファー記念館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:219,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘待合,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:227,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台ゴーチェ子午環室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:226,river_flooding,,0.1576,0–0.5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台旧図庫及び倉庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:230,river_flooding,,0.0297,0–0.5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台大赤道儀室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:234,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台レプソルド子午儀室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:232,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台太陽分光写真儀室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:229,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一赤道儀室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:482,river_flooding,,1.2441,0.5–3 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,渡辺家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:368,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,中島家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:214,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘表門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:215,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:216,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘高風居,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:217,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国際基督教大学泰山荘車庫,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:225,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台表門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:228,river_flooding,,0.0,0,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第一子午線標室,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:231,river_flooding,,0.0393,0–0.5 m,野川_仙川_入間川_谷沢川及び丸子川流域,external point-grid sampling,13204,三鷹市,National,Registered,有形文化財,建造物,building_direct,国立天文台第二子午線標室,河川浸水,河川浸水,河川浸水｜河川浸水

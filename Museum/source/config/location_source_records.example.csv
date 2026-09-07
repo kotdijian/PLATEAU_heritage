@@ -1,0 +1,2 @@
+source_id,facility_name,municipality_code,municipality_name,address,postal_code,latitude,longitude,source_url,source_authority,priority,retrieved_at,content_sha256,notes
+japan_museum_association,○○博物館,13101,千代田区,東京都千代田区○○1-2-3,100-0000,,,https://example.jp/museum,japan_museum_association,90,,,公式一覧から転記した例。実データに置換して使用

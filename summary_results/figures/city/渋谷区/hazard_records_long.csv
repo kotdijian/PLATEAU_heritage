@@ -1,0 +1,331 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+105,seismic,都心南部直下地震,5.948,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:2,seismic,都心南部直下地震,6.175,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:32,seismic,都心南部直下地震,6.175,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:36,seismic,都心南部直下地震,6.151,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:143,seismic,都心南部直下地震,6.007,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:167,seismic,都心南部直下地震,6.007,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:179,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:180,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:181,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:182,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:183,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:184,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:185,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:186,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:187,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:188,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:189,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:190,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:191,seismic,都心南部直下地震,6.028,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:195,seismic,都心南部直下地震,6.142,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:196,seismic,都心南部直下地震,6.106,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:2,seismic,都心南部直下地震,6.197,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:3,seismic,都心南部直下地震,6.207,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:76,seismic,都心南部直下地震,6.236,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:249,seismic,都心南部直下地震,6.205,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:257,seismic,都心南部直下地震,6.125,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:258,seismic,都心南部直下地震,6.126,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:259,seismic,都心南部直下地震,6.126,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:434,seismic,都心南部直下地震,6.219,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:475,seismic,都心南部直下地震,5.969,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:476,seismic,都心南部直下地震,5.969,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+105,seismic,都心東部直下地震,5.899,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:2,seismic,都心東部直下地震,6.036,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:32,seismic,都心東部直下地震,6.036,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:36,seismic,都心東部直下地震,6.067,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:143,seismic,都心東部直下地震,5.908,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:167,seismic,都心東部直下地震,5.908,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:179,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:180,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:181,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:182,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:183,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:184,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:185,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:186,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:187,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:188,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:189,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:190,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:191,seismic,都心東部直下地震,5.976,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:195,seismic,都心東部直下地震,6.033,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:196,seismic,都心東部直下地震,6.011,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:2,seismic,都心東部直下地震,6.118,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:3,seismic,都心東部直下地震,6.123,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:76,seismic,都心東部直下地震,6.117,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:249,seismic,都心東部直下地震,6.084,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:257,seismic,都心東部直下地震,6.015,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:258,seismic,都心東部直下地震,6.015,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:259,seismic,都心東部直下地震,6.015,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:434,seismic,都心東部直下地震,6.133,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:475,seismic,都心東部直下地震,5.907,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:476,seismic,都心東部直下地震,5.907,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+105,seismic,都心西部直下地震,5.96,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:2,seismic,都心西部直下地震,6.026,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:32,seismic,都心西部直下地震,6.026,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:36,seismic,都心西部直下地震,5.966,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:143,seismic,都心西部直下地震,5.992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:167,seismic,都心西部直下地震,5.992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:179,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:180,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:181,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:182,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:183,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:184,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:185,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:186,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:187,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:188,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:189,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:190,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:191,seismic,都心西部直下地震,6.02,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:195,seismic,都心西部直下地震,6.073,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:196,seismic,都心西部直下地震,6.08,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:2,seismic,都心西部直下地震,6.116,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:3,seismic,都心西部直下地震,6.121,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:76,seismic,都心西部直下地震,6.054,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:249,seismic,都心西部直下地震,6.015,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:257,seismic,都心西部直下地震,5.919,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:258,seismic,都心西部直下地震,5.919,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:259,seismic,都心西部直下地震,5.919,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:434,seismic,都心西部直下地震,6.121,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:475,seismic,都心西部直下地震,5.959,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:476,seismic,都心西部直下地震,5.959,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+105,seismic,多摩東部直下地震,5.8788,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:2,seismic,多摩東部直下地震,5.9472,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:32,seismic,多摩東部直下地震,5.9472,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:36,seismic,多摩東部直下地震,5.879,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:143,seismic,多摩東部直下地震,5.9378,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:167,seismic,多摩東部直下地震,5.9378,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:179,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:180,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:181,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:182,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:183,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:184,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:185,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:186,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:187,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:188,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:189,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:190,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:191,seismic,多摩東部直下地震,5.9992,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:195,seismic,多摩東部直下地震,6.059,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:196,seismic,多摩東部直下地震,6.0264,6強以上,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:2,seismic,多摩東部直下地震,6.0518,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:3,seismic,多摩東部直下地震,6.0552,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:76,seismic,多摩東部直下地震,6.006,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:249,seismic,多摩東部直下地震,5.9446,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:257,seismic,多摩東部直下地震,5.815,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:258,seismic,多摩東部直下地震,5.8106,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:259,seismic,多摩東部直下地震,5.8106,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:434,seismic,多摩東部直下地震,6.0438,6強以上,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:475,seismic,多摩東部直下地震,5.9466,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:476,seismic,多摩東部直下地震,5.9466,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+105,seismic,多摩西部直下地震,5.563,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:2,seismic,多摩西部直下地震,5.669,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:32,seismic,多摩西部直下地震,5.669,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:36,seismic,多摩西部直下地震,5.624,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:143,seismic,多摩西部直下地震,5.607,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:167,seismic,多摩西部直下地震,5.607,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:179,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:180,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:181,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:182,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:183,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:184,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:185,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:186,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:187,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:188,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:189,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:190,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:191,seismic,多摩西部直下地震,5.668,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:195,seismic,多摩西部直下地震,5.72,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:196,seismic,多摩西部直下地震,5.695,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:2,seismic,多摩西部直下地震,5.757,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:3,seismic,多摩西部直下地震,5.764,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:76,seismic,多摩西部直下地震,5.731,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:249,seismic,多摩西部直下地震,5.673,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:257,seismic,多摩西部直下地震,5.569,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:258,seismic,多摩西部直下地震,5.569,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:259,seismic,多摩西部直下地震,5.569,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:434,seismic,多摩西部直下地震,5.767,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:475,seismic,多摩西部直下地震,5.601,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:476,seismic,多摩西部直下地震,5.601,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+105,seismic,立川断層帯地震,4.815,5弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:2,seismic,立川断層帯地震,5.087,5強,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:32,seismic,立川断層帯地震,5.087,5強,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:36,seismic,立川断層帯地震,4.957,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:143,seismic,立川断層帯地震,4.897,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:167,seismic,立川断層帯地震,4.897,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:179,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:180,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:181,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:182,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:183,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:184,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:185,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:186,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:187,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:188,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:189,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:190,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:191,seismic,立川断層帯地震,4.947,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:195,seismic,立川断層帯地震,5.065,5強,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:196,seismic,立川断層帯地震,5.024,5強,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:2,seismic,立川断層帯地震,5.126,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:3,seismic,立川断層帯地震,5.132,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:76,seismic,立川断層帯地震,5.114,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:249,seismic,立川断層帯地震,5.053,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:257,seismic,立川断層帯地震,4.909,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:258,seismic,立川断層帯地震,4.907,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:259,seismic,立川断層帯地震,4.907,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:434,seismic,立川断層帯地震,5.123,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:475,seismic,立川断層帯地震,4.892,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:476,seismic,立川断層帯地震,4.892,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+105,seismic,大正関東地震,5.651,6弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:2,seismic,大正関東地震,5.79,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:32,seismic,大正関東地震,5.79,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:36,seismic,大正関東地震,5.789,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:143,seismic,大正関東地震,5.682,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:167,seismic,大正関東地震,5.682,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:179,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:180,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:181,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:182,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:183,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:184,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:185,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:186,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:187,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:188,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:189,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:190,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:191,seismic,大正関東地震,5.74,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:195,seismic,大正関東地震,5.808,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:196,seismic,大正関東地震,5.777,6弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:2,seismic,大正関東地震,5.824,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:3,seismic,大正関東地震,5.828,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:76,seismic,大正関東地震,5.82,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:249,seismic,大正関東地震,5.792,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:257,seismic,大正関東地震,5.737,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:258,seismic,大正関東地震,5.741,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:259,seismic,大正関東地震,5.741,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:434,seismic,大正関東地震,5.824,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:475,seismic,大正関東地震,5.657,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:476,seismic,大正関東地震,5.657,6弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,大正関東地震,想定震度｜大正関東地震
+105,seismic,南海トラフ巨大地震,4.8,5弱,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:2,seismic,南海トラフ巨大地震,4.963,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:32,seismic,南海トラフ巨大地震,4.963,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:36,seismic,南海トラフ巨大地震,4.874,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:143,seismic,南海トラフ巨大地震,4.832,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:167,seismic,南海トラフ巨大地震,4.832,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:179,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:180,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:181,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:182,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:183,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:184,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:185,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:186,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:187,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:188,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:189,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:190,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:191,seismic,南海トラフ巨大地震,4.907,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:195,seismic,南海トラフ巨大地震,4.962,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:196,seismic,南海トラフ巨大地震,4.936,5弱,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:2,seismic,南海トラフ巨大地震,4.996,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:3,seismic,南海トラフ巨大地震,5.001,5強,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:76,seismic,南海トラフ巨大地震,4.999,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:249,seismic,南海トラフ巨大地震,4.948,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:257,seismic,南海トラフ巨大地震,4.826,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:258,seismic,南海トラフ巨大地震,4.823,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:259,seismic,南海トラフ巨大地震,4.823,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:434,seismic,南海トラフ巨大地震,4.995,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:475,seismic,南海トラフ巨大地震,4.858,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:476,seismic,南海トラフ巨大地震,4.858,5弱,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+105,fire,延焼危険度,2.0,,,,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:2,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:32,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:36,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:143,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:167,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:179,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:180,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:181,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:182,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:183,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:184,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:185,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:186,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:187,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:188,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:189,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:190,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:191,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:195,fire,延焼危険度,1.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:196,fire,延焼危険度,1.0,,,,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:2,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:3,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:76,fire,延焼危険度,4.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:249,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:257,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:258,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:259,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:434,fire,延焼危険度,2.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:475,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:476,fire,延焼危険度,3.0,,,,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:249,liquefaction,多摩東部直下地震,2.67,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:249,liquefaction,大正関東地震,2.17,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:249,liquefaction,都心南部直下地震,3.55,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:475,liquefaction,南海トラフ巨大地震,0.0225,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:475,liquefaction,多摩東部直下地震,11.2275,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:475,liquefaction,大正関東地震,7.68,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:475,liquefaction,都心南部直下地震,11.2275,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:476,liquefaction,南海トラフ巨大地震,0.0225,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:476,liquefaction,多摩東部直下地震,11.2275,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:476,liquefaction,大正関東地震,7.68,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:476,liquefaction,都心南部直下地震,11.2275,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:196,river_flooding,L2（想定最大規模）,0.89,0.5m以上3m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:76,river_flooding,L2（想定最大規模）,0.314,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:258,river_flooding,L2（想定最大規模）,0.016,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:259,river_flooding,L2（想定最大規模）,0.016,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:257,river_flooding,L2（想定最大規模）,0.019,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:249,river_flooding,L2（想定最大規模）,0.01,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+105,river_flooding,L2（想定最大規模）,0.002,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:475,river_flooding,L2（想定最大規模）,0.135,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:476,river_flooding,L2（想定最大規模）,0.135,0.5m未満,城南地区河川流域,PLATEAU building risk,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:249,river_flooding,,0.016,0–0.5 m,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,渋谷区立広尾小学校,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:76,river_flooding,,0.026,0–0.5 m,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,温故学会会館,河川浸水,河川浸水,河川浸水｜河川浸水
+105,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,Tokyo Metropolitan,Designated,民俗文化財,有形民俗文化財,point,千駄ケ谷の冨士塚,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:2,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:32,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧朝倉家住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:258,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:259,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺本堂応接部,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:257,river_flooding,,0.019,0–0.5 m,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,上宮寺鐘楼,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:196,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:143,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:167,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:475,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台敷舞台及び座敷,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:476,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,代々木能舞台舞台・橋掛・鏡の間,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:179,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:180,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:181,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:182,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:183,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:184,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:185,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:186,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:187,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:188,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:189,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:190,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:191,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,明治神宮宝物殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:195,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,代々木競技場,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:3,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院間島記念館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:2,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,青山学院ベリーホール,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:434,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Registered,有形文化財,建造物,building_direct,ミュージアム1999(旧千葉常五郎邸),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:36,river_flooding,,0.0,0,城南地区河川流域,external point-grid sampling,13113,渋谷区,National,Designated,有形文化財,建造物,building_direct,旧久邇宮邸(聖心女子大学),河川浸水,河川浸水,河川浸水｜河川浸水

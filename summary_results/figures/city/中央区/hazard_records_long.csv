@@ -1,0 +1,381 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+93,seismic,都心南部直下地震,5.648,6弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+131024000000.0,seismic,都心南部直下地震,6.262,6強以上,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:10,seismic,都心南部直下地震,6.477,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:20,seismic,都心南部直下地震,6.054,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:53,seismic,都心南部直下地震,6.395,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:99,seismic,都心南部直下地震,5.917,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:101,seismic,都心南部直下地震,5.92,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:112,seismic,都心南部直下地震,5.863,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:113,seismic,都心南部直下地震,5.834,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:138,seismic,都心南部直下地震,6.061,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_001:139,seismic,都心南部直下地震,5.855,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:53,seismic,都心南部直下地震,6.136,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:59,seismic,都心南部直下地震,5.82,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:138,seismic,都心南部直下地震,6.073,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:179,seismic,都心南部直下地震,5.841,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:197,seismic,都心南部直下地震,5.868,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:199,seismic,都心南部直下地震,5.819,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:200,seismic,都心南部直下地震,5.774,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:271,seismic,都心南部直下地震,6.004,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:305,seismic,都心南部直下地震,6.027,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:396,seismic,都心南部直下地震,6.246,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:423,seismic,都心南部直下地震,5.869,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:473,seismic,都心南部直下地震,6.324,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:20,seismic,都心南部直下地震,6.104,6強以上,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+93,seismic,都心東部直下地震,5.728,6弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+131024000000.0,seismic,都心東部直下地震,6.361,6強以上,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:10,seismic,都心東部直下地震,6.407,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:20,seismic,都心東部直下地震,6.049,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:53,seismic,都心東部直下地震,6.42,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:99,seismic,都心東部直下地震,5.985,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:101,seismic,都心東部直下地震,5.927,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:112,seismic,都心東部直下地震,5.966,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:113,seismic,都心東部直下地震,5.94,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:138,seismic,都心東部直下地震,6.012,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_001:139,seismic,都心東部直下地震,5.965,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:53,seismic,都心東部直下地震,6.235,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:59,seismic,都心東部直下地震,5.798,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:138,seismic,都心東部直下地震,6.024,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:179,seismic,都心東部直下地震,5.836,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:197,seismic,都心東部直下地震,5.96,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:199,seismic,都心東部直下地震,5.798,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:200,seismic,都心東部直下地震,5.752,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:271,seismic,都心東部直下地震,5.981,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:305,seismic,都心東部直下地震,6.098,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:396,seismic,都心東部直下地震,6.349,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:423,seismic,都心東部直下地震,5.9,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:473,seismic,都心東部直下地震,6.424,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:20,seismic,都心東部直下地震,6.126,6強以上,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+93,seismic,都心西部直下地震,5.712,6弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+131024000000.0,seismic,都心西部直下地震,6.199,6強以上,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:10,seismic,都心西部直下地震,6.29,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:20,seismic,都心西部直下地震,5.846,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:53,seismic,都心西部直下地震,6.326,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:99,seismic,都心西部直下地震,5.756,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:101,seismic,都心西部直下地震,5.752,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:112,seismic,都心西部直下地震,5.76,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:113,seismic,都心西部直下地震,5.723,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:138,seismic,都心西部直下地震,5.95,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_001:139,seismic,都心西部直下地震,5.755,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:53,seismic,都心西部直下地震,6.077,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:59,seismic,都心西部直下地震,5.659,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:138,seismic,都心西部直下地震,5.851,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:179,seismic,都心西部直下地震,5.69,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:197,seismic,都心西部直下地震,5.748,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:199,seismic,都心西部直下地震,5.679,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:200,seismic,都心西部直下地震,5.617,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:271,seismic,都心西部直下地震,5.841,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:305,seismic,都心西部直下地震,5.998,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:396,seismic,都心西部直下地震,6.191,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:423,seismic,都心西部直下地震,5.704,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:473,seismic,都心西部直下地震,6.248,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:20,seismic,都心西部直下地震,5.931,6弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+93,seismic,多摩東部直下地震,5.7916,6弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+131024000000.0,seismic,多摩東部直下地震,6.1232,6強以上,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:10,seismic,多摩東部直下地震,6.1706,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:20,seismic,多摩東部直下地震,5.6992,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:53,seismic,多摩東部直下地震,6.2034,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:99,seismic,多摩東部直下地震,5.6986,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:101,seismic,多摩東部直下地震,5.6166,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:112,seismic,多摩東部直下地震,5.7394,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:113,seismic,多摩東部直下地震,5.67,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:138,seismic,多摩東部直下地震,5.9298,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_001:139,seismic,多摩東部直下地震,5.7192,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:53,seismic,多摩東部直下地震,6.018,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:59,seismic,多摩東部直下地震,5.5412,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:138,seismic,多摩東部直下地震,5.7046,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:179,seismic,多摩東部直下地震,5.5806,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:197,seismic,多摩東部直下地震,5.6844,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:199,seismic,多摩東部直下地震,5.5774,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:200,seismic,多摩東部直下地震,5.5436,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:271,seismic,多摩東部直下地震,5.7188,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:305,seismic,多摩東部直下地震,5.9212,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:396,seismic,多摩東部直下地震,6.1212,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:423,seismic,多摩東部直下地震,5.6216,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:473,seismic,多摩東部直下地震,6.1686,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:20,seismic,多摩東部直下地震,5.794,6弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+93,seismic,多摩西部直下地震,5.303,5強,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+131024000000.0,seismic,多摩西部直下地震,5.749,6弱,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:10,seismic,多摩西部直下地震,5.848,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:20,seismic,多摩西部直下地震,5.432,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:53,seismic,多摩西部直下地震,5.855,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:99,seismic,多摩西部直下地震,5.326,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:101,seismic,多摩西部直下地震,5.342,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:112,seismic,多摩西部直下地震,5.344,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:113,seismic,多摩西部直下地震,5.279,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:138,seismic,多摩西部直下地震,5.598,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_001:139,seismic,多摩西部直下地震,5.334,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:53,seismic,多摩西部直下地震,5.633,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:59,seismic,多摩西部直下地震,5.192,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:138,seismic,多摩西部直下地震,5.429,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:179,seismic,多摩西部直下地震,5.245,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:197,seismic,多摩西部直下地震,5.307,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:199,seismic,多摩西部直下地震,5.291,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:200,seismic,多摩西部直下地震,5.262,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:271,seismic,多摩西部直下地震,5.38,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:305,seismic,多摩西部直下地震,5.492,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:396,seismic,多摩西部直下地震,5.744,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:423,seismic,多摩西部直下地震,5.287,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:473,seismic,多摩西部直下地震,5.806,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:20,seismic,多摩西部直下地震,5.539,6弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+93,seismic,立川断層帯地震,4.844,5弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+131024000000.0,seismic,立川断層帯地震,5.001,5強,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:10,seismic,立川断層帯地震,5.131,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:20,seismic,立川断層帯地震,4.597,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:53,seismic,立川断層帯地震,5.124,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:99,seismic,立川断層帯地震,4.543,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:101,seismic,立川断層帯地震,4.506,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:112,seismic,立川断層帯地震,4.564,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:113,seismic,立川断層帯地震,4.498,5弱未満,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:138,seismic,立川断層帯地震,4.809,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_001:139,seismic,立川断層帯地震,4.548,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:53,seismic,立川断層帯地震,4.852,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:59,seismic,立川断層帯地震,4.41,5弱未満,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:138,seismic,立川断層帯地震,4.594,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:179,seismic,立川断層帯地震,4.443,5弱未満,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:197,seismic,立川断層帯地震,4.531,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:199,seismic,立川断層帯地震,4.445,5弱未満,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:200,seismic,立川断層帯地震,4.405,5弱未満,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:271,seismic,立川断層帯地震,4.605,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:305,seismic,立川断層帯地震,4.777,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:396,seismic,立川断層帯地震,4.976,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:423,seismic,立川断層帯地震,4.494,5弱未満,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:473,seismic,立川断層帯地震,5.076,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:20,seismic,立川断層帯地震,4.723,5弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+93,seismic,大正関東地震,5.492,5強,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,大正関東地震,想定震度｜大正関東地震
+131024000000.0,seismic,大正関東地震,6.003,6強以上,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:10,seismic,大正関東地震,6.133,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:20,seismic,大正関東地震,5.721,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:53,seismic,大正関東地震,6.143,6強以上,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:99,seismic,大正関東地震,5.615,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:101,seismic,大正関東地震,5.613,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:112,seismic,大正関東地震,5.619,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:113,seismic,大正関東地震,5.584,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:138,seismic,大正関東地震,5.706,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_001:139,seismic,大正関東地震,5.614,6弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:53,seismic,大正関東地震,5.902,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:59,seismic,大正関東地震,5.502,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:138,seismic,大正関東地震,5.705,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:179,seismic,大正関東地震,5.527,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:197,seismic,大正関東地震,5.596,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:199,seismic,大正関東地震,5.543,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:200,seismic,大正関東地震,5.504,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:271,seismic,大正関東地震,5.681,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:305,seismic,大正関東地震,5.763,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:396,seismic,大正関東地震,5.989,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:423,seismic,大正関東地震,5.564,6弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:473,seismic,大正関東地震,6.061,6強以上,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:20,seismic,大正関東地震,5.772,6弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,大正関東地震,想定震度｜大正関東地震
+93,seismic,南海トラフ巨大地震,4.765,5弱,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+131024000000.0,seismic,南海トラフ巨大地震,5.303,5強,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:10,seismic,南海トラフ巨大地震,5.38,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:20,seismic,南海トラフ巨大地震,4.852,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:53,seismic,南海トラフ巨大地震,5.403,5強,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:99,seismic,南海トラフ巨大地震,4.765,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:101,seismic,南海トラフ巨大地震,4.771,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:112,seismic,南海トラフ巨大地震,4.832,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:113,seismic,南海トラフ巨大地震,4.757,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:138,seismic,南海トラフ巨大地震,4.891,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_001:139,seismic,南海トラフ巨大地震,4.816,5弱,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:53,seismic,南海トラフ巨大地震,5.165,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:59,seismic,南海トラフ巨大地震,4.656,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:138,seismic,南海トラフ巨大地震,4.888,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:179,seismic,南海トラフ巨大地震,4.669,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:197,seismic,南海トラフ巨大地震,4.819,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:199,seismic,南海トラフ巨大地震,4.689,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:200,seismic,南海トラフ巨大地震,4.636,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:271,seismic,南海トラフ巨大地震,4.821,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:305,seismic,南海トラフ巨大地震,5.049,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:396,seismic,南海トラフ巨大地震,5.298,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:423,seismic,南海トラフ巨大地震,4.699,5弱,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:473,seismic,南海トラフ巨大地震,5.358,5強,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:20,seismic,南海トラフ巨大地震,4.916,5弱,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+93,fire,延焼危険度,5.0,,,,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+131024000000.0,fire,延焼危険度,3.0,,,,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:10,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:20,fire,延焼危険度,3.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:53,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:99,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:101,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:112,fire,延焼危険度,1.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:113,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:138,fire,延焼危険度,3.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_001:139,fire,延焼危険度,2.0,,,,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:53,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:59,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:138,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:179,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:197,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:199,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:200,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:271,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:305,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:396,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:423,fire,延焼危険度,2.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:473,fire,延焼危険度,3.0,,,,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:20,fire,延焼危険度,1.0,,,,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+131024000000.0,liquefaction,南海トラフ巨大地震,3.4428,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+131024000000.0,liquefaction,多摩東部直下地震,17.2404,PL>15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+131024000000.0,liquefaction,大正関東地震,16.938,PL>15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,液状化,大正関東地震,液状化｜大正関東地震
+131024000000.0,liquefaction,立川断層帯地震,0.008,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,液状化,立川断層帯地震,液状化｜立川断層帯地震
+131024000000.0,liquefaction,都心南部直下地震,20.774,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,液状化,都心南部直下地震,液状化｜都心南部直下地震
+93,liquefaction,南海トラフ巨大地震,0.067142857,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+93,liquefaction,多摩東部直下地震,2.930714286,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+93,liquefaction,大正関東地震,1.842142857,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,液状化,大正関東地震,液状化｜大正関東地震
+93,liquefaction,都心南部直下地震,2.487857143,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:10,liquefaction,南海トラフ巨大地震,1.7344,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:10,liquefaction,多摩東部直下地震,3.59,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:10,liquefaction,大正関東地震,3.5536,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:10,liquefaction,都心南部直下地震,3.9612,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,永代橋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:101,liquefaction,南海トラフ巨大地震,0.2644,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:101,liquefaction,多摩東部直下地震,8.096,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:101,liquefaction,大正関東地震,8.1232,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:101,liquefaction,都心南部直下地震,10.7368,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:112,liquefaction,南海トラフ巨大地震,0.0764,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:112,liquefaction,多摩東部直下地震,5.5276,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:112,liquefaction,大正関東地震,4.4288,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:112,liquefaction,都心南部直下地震,6.516,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:113,liquefaction,南海トラフ巨大地震,0.0828,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:113,liquefaction,多摩東部直下地震,12.7936,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:113,liquefaction,大正関東地震,11.3888,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:113,liquefaction,都心南部直下地震,14.6836,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:139,liquefaction,南海トラフ巨大地震,0.4372,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:139,liquefaction,多摩東部直下地震,8.4492,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:139,liquefaction,大正関東地震,7.736,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:139,liquefaction,都心南部直下地震,9.2936,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:20,liquefaction,多摩東部直下地震,0.8292,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:20,liquefaction,大正関東地震,0.9264,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:20,liquefaction,都心南部直下地震,3.5292,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,勝鬨橋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:53,liquefaction,南海トラフ巨大地震,2.8096,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:53,liquefaction,多摩東部直下地震,9.2528,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:53,liquefaction,大正関東地震,8.8716,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:53,liquefaction,都心南部直下地震,10.0208,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,清洲橋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_001:99,liquefaction,南海トラフ巨大地震,0.2376,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_001:99,liquefaction,多摩東部直下地震,12.7184,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_001:99,liquefaction,大正関東地震,11.5008,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,液状化,大正関東地震,液状化｜大正関東地震
+official_export_001:99,liquefaction,都心南部直下地震,15.2636,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:138,liquefaction,南海トラフ巨大地震,0.5584,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:138,liquefaction,多摩東部直下地震,9.0728,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:138,liquefaction,大正関東地震,9.064,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:138,liquefaction,都心南部直下地震,11.5648,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:179,liquefaction,南海トラフ巨大地震,0.0056,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:179,liquefaction,多摩東部直下地震,5.48,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:179,liquefaction,大正関東地震,4.976,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:179,liquefaction,都心南部直下地震,7.27,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:197,liquefaction,南海トラフ巨大地震,0.8496,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:197,liquefaction,多摩東部直下地震,7.8204,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:197,liquefaction,大正関東地震,7.3656,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:197,liquefaction,都心南部直下地震,8.874,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:199,liquefaction,多摩東部直下地震,5.3716,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:199,liquefaction,大正関東地震,5.1148,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:199,liquefaction,都心南部直下地震,8.102,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:200,liquefaction,多摩東部直下地震,9.4428,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:200,liquefaction,大正関東地震,8.9104,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:200,liquefaction,都心南部直下地震,12.2848,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:271,liquefaction,南海トラフ巨大地震,0.086,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:271,liquefaction,多摩東部直下地震,9.4492,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:271,liquefaction,大正関東地震,9.0432,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:271,liquefaction,都心南部直下地震,12.2512,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:305,liquefaction,南海トラフ巨大地震,3.1956,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:305,liquefaction,多摩東部直下地震,14.25,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:305,liquefaction,大正関東地震,12.7448,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:305,liquefaction,都心南部直下地震,15.194,PL>15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:396,liquefaction,南海トラフ巨大地震,2.8652,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:396,liquefaction,多摩東部直下地震,8.1932,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:396,liquefaction,大正関東地震,7.5672,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:396,liquefaction,立川断層帯地震,0.0064,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:396,liquefaction,都心南部直下地震,8.8256,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:423,liquefaction,南海トラフ巨大地震,0.0344,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:423,liquefaction,多摩東部直下地震,8.8492,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:423,liquefaction,大正関東地震,8.0036,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:423,liquefaction,都心南部直下地震,11.3464,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:473,liquefaction,南海トラフ巨大地震,1.0784,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:473,liquefaction,多摩東部直下地震,7.434,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:473,liquefaction,大正関東地震,6.7568,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:473,liquefaction,都心南部直下地震,8.31,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:53,liquefaction,南海トラフ巨大地震,3.4428,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:53,liquefaction,多摩東部直下地震,13.9528,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:53,liquefaction,大正関東地震,12.9028,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:53,liquefaction,都心南部直下地震,14.9792,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:59,liquefaction,南海トラフ巨大地震,0.086,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:59,liquefaction,多摩東部直下地震,9.4492,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:59,liquefaction,大正関東地震,9.0432,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:59,liquefaction,都心南部直下地震,12.2512,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:20,liquefaction,南海トラフ巨大地震,0.1836,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:20,liquefaction,多摩東部直下地震,2.3672,0<PL≤5,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:20,liquefaction,大正関東地震,2.2788,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:20,liquefaction,都心南部直下地震,2.8832,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,液状化,都心南部直下地震,液状化｜都心南部直下地震
+131024000000.0,river_flooding,L2（想定最大規模）,0.32,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+131024000000.0,high_tide,PLATEAU建築物リスク,0.53,0.5m以上3m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:423,river_flooding,L2（想定最大規模）,0.02,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+131024000000.0,river_flooding,L2（想定最大規模）,0.274,0.5m未満,神田川流域,PLATEAU building risk,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+131024000000.0,river_flooding,L2（想定最大規模）,0.274,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:101,river_flooding,L2（想定最大規模）,0.01,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:101,high_tide,PLATEAU建築物リスク,0.03,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:112,river_flooding,L2（想定最大規模）,1.627,0.5m以上3m未満,神田川流域,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:112,river_flooding,L2（想定最大規模）,1.627,0.5m以上3m未満,荒川水系神田川流域,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:112,high_tide,PLATEAU建築物リスク,0.03,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:473,river_flooding,L2（想定最大規模）,0.017,0.5m未満,神田川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:271,river_flooding,L2（想定最大規模）,0.04,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:271,high_tide,PLATEAU建築物リスク,0.13,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:305,high_tide,PLATEAU建築物リスク,0.32,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_001:139,river_flooding,L2（想定最大規模）,0.031,0.5m未満,神田川流域,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:200,river_flooding,L2（想定最大規模）,0.06,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:99,river_flooding,L2（想定最大規模）,0.07,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_001:99,high_tide,PLATEAU建築物リスク,0.02,0.5m未満,東京都高潮浸水想定区域図（令和6年12月19日）,PLATEAU building risk,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,高潮,PLATEAU建築物リスク,高潮｜PLATEAU建築物リスク
+official_export_002:199,river_flooding,L2（想定最大規模）,0.04,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:396,river_flooding,L2（想定最大規模）,0.019,0.5m未満,神田川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:197,river_flooding,L2（想定最大規模）,0.214,0.5m未満,神田川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:197,river_flooding,L2（想定最大規模）,0.214,0.5m未満,荒川水系神田川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:179,river_flooding,L2（想定最大規模）,0.11,0.5m未満,隅田川・新河岸川流域,PLATEAU building risk,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+131024000000.0,high_tide,,0.78,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,高潮,高潮,高潮｜高潮
+official_export_002:305,high_tide,,0.38,0–0.5 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,高潮,高潮,高潮｜高潮
+official_export_003:20,high_tide,,1.65,0.5–3 m,東京都 高潮浸水想定区域図,external polygon point-in-area,13102,中央区,National,Designated,記念物,天然記念物,point,旧浜離宮庭園,高潮,高潮,高潮｜高潮
+131024000000.0,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:139,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三越日本橋本店,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:112,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本銀行本店本館,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:99,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:423,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:197,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:53,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:396,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:473,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:305,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:59,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:271,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:200,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:199,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:179,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),河川浸水,河川浸水,河川浸水｜河川浸水
+93,river_flooding,,0.0,0,神田川流域,external point-grid sampling,13102,中央区,Tokyo Metropolitan,Designated,有形文化財,歴史資料,point,一石橋迷子しらせ石標,河川浸水,河川浸水,河川浸水｜河川浸水
+131024000000.0,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:99,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:423,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,繭山龍泉堂店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:101,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,築地本願寺本堂,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:138,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧飯田家住宅店舗兼主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:305,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:59,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:271,river_flooding,,0.04,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:200,river_flooding,,0.0,0,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座ライオンビル,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:199,river_flooding,,0.04,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:179,river_flooding,,0.11,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_001:138,river_flooding,,0.22,0–0.5 m,隅田川及び新河岸川流域,external point-grid sampling,13102,中央区,National,Designated,有形文化財,建造物,building_direct,三井本館,河川浸水,河川浸水,河川浸水｜河川浸水
+131024000000.0,tsunami,南海トラフ巨大地震_ケース1,0.702,0.5–3 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_ケース1,津波｜南海トラフ巨大地震_ケース1
+131024000000.0,tsunami,南海トラフ巨大地震_ケース2,0.7832,0.5–3 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_ケース2,津波｜南海トラフ巨大地震_ケース2
+131024000000.0,tsunami,南海トラフ巨大地震_ケース5,0.3912,0–0.5 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_ケース5,津波｜南海トラフ巨大地震_ケース5
+131024000000.0,tsunami,南海トラフ巨大地震_ケース6,0.7043,0.5–3 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_ケース6,津波｜南海トラフ巨大地震_ケース6
+131024000000.0,tsunami,南海トラフ巨大地震_ケース8,0.5364,0.5–3 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_ケース8,津波｜南海トラフ巨大地震_ケース8
+131024000000.0,tsunami,南海トラフ巨大地震_全5ケース最大値,0.7832,0.5–3 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,南海トラフ巨大地震_全5ケース最大値,津波｜南海トラフ巨大地震_全5ケース最大値
+131024000000.0,tsunami,大正関東地震,0.4785,0–0.5 m,区部,external point-grid sampling,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,津波,大正関東地震,津波｜大正関東地震
+131024000000.0,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,Municipal,Designated,有形文化財,建造物,building_direct,明治屋京橋ビル,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_001:99,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,髙島屋東京店,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_001:113,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Designated,有形文化財,建造物,building_direct,日本橋,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:53,river_flooding,想定最大規模,0.5,0–0.5 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,江戸屋店舗兼住宅,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:59,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,大野屋總本店店舗,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:179,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,旧宮脇ビル(川崎ブランドデザインビルヂング),河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:197,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,喜代川店舗,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:199,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,銀座大野屋店舗兼主屋,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:271,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,新富町躍金楼店舗,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:305,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,玉置文治郎ビル,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:396,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,ハリオグラスビル,河川浸水,想定最大規模,河川浸水｜想定最大規模
+official_export_002:473,river_flooding,想定最大規模,3.0,0.5–3 m,A31a 荒川,A31a polygon intersection,13102,中央区,National,Registered,有形文化財,建造物,building_direct,よし梅芳町亭,河川浸水,想定最大規模,河川浸水｜想定最大規模

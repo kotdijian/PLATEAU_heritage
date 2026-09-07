@@ -25,6 +25,7 @@ from matplotlib.patches import Patch
 import numpy as np
 import pandas as pd
 import pyogrio
+from complete_risk_overview import plot_liquefaction_overviews as plot_complete_liquefaction_overviews, plot_landslide_overview as plot_complete_landslide_overview
 
 OVERVIEW_SCENARIOS = [
     "都心南部直下地震",
@@ -392,6 +393,271 @@ def plot_fire_overview(
     fig.savefig(out, dpi=200, bbox_inches="tight")
     plt.close(fig)
 
+
+
+def discover_liquefaction_layers(source: Path) -> list[str]:
+    """Discover liquefaction spatial layers without assuming one fixed table name."""
+    contents = gpkg_contents(source)
+    names = contents.loc[
+        contents["table_name"].astype(str).str.startswith("hazard_liquefaction", na=False),
+        "table_name",
+    ].astype(str).tolist()
+    return sorted(names)
+
+
+def liquefaction_value_column(hz: gpd.GeoDataFrame) -> str | None:
+    """Find a usable PL-value field."""
+    preferred = [
+        "liquefaction_pl",
+        "PLcorrected",
+        "Plcorrecte",
+        "PL値",
+        "pl",
+        "PL",
+    ]
+    for col in preferred:
+        if col in hz.columns:
+            values = pd.to_numeric(hz[col], errors="coerce")
+            if values.notna().any():
+                return col
+
+    for col in hz.columns:
+        if col == "geometry":
+            continue
+        if "pl" in str(col).lower():
+            values = pd.to_numeric(hz[col], errors="coerce")
+            if values.notna().any():
+                return col
+    return None
+
+
+def plot_one_liquefaction_overview(
+    hz: gpd.GeoDataFrame,
+    scenario: str,
+    points: gpd.GeoDataFrame,
+    out: Path,
+    admin: gpd.GeoDataFrame | None = None,
+) -> None:
+    bbox = REGION_BBOX["mainland"]
+    if hz.empty:
+        return
+
+    value_col = liquefaction_value_column(hz)
+    if value_col is None:
+        print(
+            f"[overview liquefaction] WARNING: PL value column not found: {scenario}; "
+            f"columns={list(hz.columns)}"
+        )
+        return
+
+    hz = hz.copy()
+    hz["_liquefaction_pl"] = pd.to_numeric(hz[value_col], errors="coerce")
+    hz = hz[hz["_liquefaction_pl"].notna()].copy()
+    if hz.empty:
+        print(f"[overview liquefaction] WARNING: no numeric PL values: {scenario}")
+        return
+
+    fig, ax = plt.subplots(figsize=(11, 8))
+    hz.plot(
+        column="_liquefaction_pl",
+        ax=ax,
+        cmap="plasma_r",
+        legend=True,
+        linewidth=0,
+        alpha=0.72,
+        zorder=1,
+        legend_kwds={"label": "液状化 PL 値"},
+    )
+
+    pts = points.cx[bbox[0]:bbox[2], bbox[1]:bbox[3]]
+    if not pts.empty:
+        pts.plot(ax=ax, color="black", markersize=4, alpha=0.75, zorder=25)
+
+    add_admin_overlay(ax, admin)
+    ax.set_xlim(bbox[0], bbox[2])
+    ax.set_ylim(bbox[1], bbox[3])
+    ax.set_title(f"東京都本土部：液状化 {scenario}")
+    ax.set_xlabel("Longitude")
+    ax.set_ylabel("Latitude")
+    fig.tight_layout()
+    fig.savefig(out, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+
+
+def plot_liquefaction_overviews(
+    source: Path,
+    points: gpd.GeoDataFrame,
+    outdir: Path,
+    admin: gpd.GeoDataFrame | None = None,
+) -> None:
+    """Render liquefaction PL meshes from any hazard_liquefaction* layer layout."""
+    bbox = REGION_BBOX["mainland"]
+    layers = discover_liquefaction_layers(source)
+
+    if not layers:
+        print("[overview liquefaction] WARNING: no hazard_liquefaction* layers found")
+        return
+
+    print("[overview liquefaction] layers:")
+    for layer in layers:
+        print(f"  - {layer}")
+
+    for layer in layers:
+        try:
+            hz = pyogrio.read_dataframe(source, layer=layer, bbox=bbox)
+        except Exception as exc:
+            print(f"[overview liquefaction] WARNING: read failed {layer}: {exc}")
+            continue
+
+        hz = ensure_wgs84(hz)
+        if hz.empty:
+            continue
+
+        if "scenario" in hz.columns:
+            scenario_values = hz["scenario"].dropna().astype(str).str.strip()
+            scenarios = sorted(x for x in scenario_values.unique().tolist() if x)
+            if scenarios:
+                for scenario in scenarios:
+                    sub = hz[hz["scenario"].astype(str).str.strip() == scenario].copy()
+                    safe = re.sub(r"[^0-9A-Za-z一-龠ぁ-んァ-ヶ_-]+", "_", scenario)
+                    out = outdir / f"liquefaction_{safe}_mainland.png"
+                    print(
+                        f"[overview liquefaction] {scenario} "
+                        f"({layer}, {len(sub):,} features)"
+                    )
+                    plot_one_liquefaction_overview(sub, scenario, points, out, admin)
+                continue
+
+        scenario = layer
+        for prefix in ("hazard_liquefaction_250m_", "hazard_liquefaction_"):
+            if scenario.startswith(prefix):
+                scenario = scenario[len(prefix):]
+                break
+        if scenario in {"250m", "", layer}:
+            scenario = layer.replace("hazard_", "")
+
+        safe = re.sub(r"[^0-9A-Za-z一-龠ぁ-んァ-ヶ_-]+", "_", scenario)
+        out = outdir / f"liquefaction_{safe}_mainland.png"
+        print(
+            f"[overview liquefaction] {scenario} "
+            f"({layer}, {len(hz):,} features)"
+        )
+        plot_one_liquefaction_overview(hz, scenario, points, out, admin)
+
+
+def plot_landslide_overview(
+    source: Path,
+    contents: pd.DataFrame,
+    points: gpd.GeoDataFrame,
+    out: Path,
+    tables_dir: Path,
+    admin: gpd.GeoDataFrame | None = None,
+) -> None:
+    """Render actual A33/A46/A47/A52 sediment/landslide hazard layers."""
+    bbox = REGION_BBOX["mainland"]
+    prefixes = [
+        ("hazard_sediment_warning_a33_", "土砂災害警戒区域", "#D73027"),
+        ("hazard_landslide_prevention_a46_", "地すべり防止区域", "#FC8D59"),
+        ("hazard_steep_slope_a47_", "急傾斜地崩壊危険区域", "#FEE08B"),
+        ("hazard_sabo_designated_a52_", "砂防指定地", "#91CF60"),
+    ]
+    available = contents["table_name"].astype(str).tolist()
+    drawn = []
+
+    fig, ax = plt.subplots(figsize=(11, 8))
+    for prefix, label, color in prefixes:
+        layers = [name for name in available if name.startswith(prefix)]
+        for layer in layers:
+            hz = pyogrio.read_dataframe(source, layer=layer, bbox=bbox)
+            hz = ensure_wgs84(hz)
+            if hz.empty:
+                continue
+            geom_types = set(hz.geom_type.dropna().astype(str))
+            if any("Polygon" in x for x in geom_types):
+                hz.plot(
+                    ax=ax, color=color, edgecolor=color,
+                    linewidth=0.35, alpha=0.42, zorder=2,
+                )
+            elif any("LineString" in x for x in geom_types):
+                hz.plot(
+                    ax=ax, color=color, linewidth=0.8,
+                    alpha=0.72, zorder=2,
+                )
+            else:
+                hz.plot(
+                    ax=ax, color=color, markersize=5,
+                    alpha=0.72, zorder=2,
+                )
+            drawn.append((label, color))
+
+    if not drawn:
+        plt.close(fig)
+        print("[overview landslide] WARNING: no hazard layers found")
+        return
+
+    pts = points.cx[bbox[0]:bbox[2], bbox[1]:bbox[3]].copy()
+    affected = set()
+    risk_path = tables_dir / "record_risk_types.csv"
+    if risk_path.exists():
+        risk = pd.read_csv(risk_path, dtype={"record_id": str})
+        if {"record_id", "risk_type"}.issubset(risk.columns):
+            affected = set(
+                risk.loc[
+                    risk["risk_type"].astype(str) == "landslide",
+                    "record_id",
+                ].astype(str)
+            )
+
+    if not pts.empty:
+        ids = pts["record_id"].astype(str)
+        outside = pts.loc[~ids.isin(affected)]
+        inside = pts.loc[ids.isin(affected)]
+        if not outside.empty:
+            outside.plot(
+                ax=ax, color="black", markersize=4,
+                alpha=0.60, zorder=25,
+            )
+        if not inside.empty:
+            inside.plot(
+                ax=ax, color="red", markersize=7,
+                alpha=0.90, zorder=26,
+            )
+
+    add_admin_overlay(ax, admin)
+    ax.set_xlim(bbox[0], bbox[2])
+    ax.set_ylim(bbox[1], bbox[3])
+    ax.set_title("東京都本土部：土砂災害関連区域")
+    ax.set_xlabel("Longitude")
+    ax.set_ylabel("Latitude")
+
+    handles = []
+    seen = set()
+    for label, color in drawn:
+        if label in seen:
+            continue
+        handles.append(Patch(
+            facecolor=color,
+            edgecolor=color,
+            alpha=0.55,
+            label=label,
+        ))
+        seen.add(label)
+    handles.extend([
+        Line2D(
+            [0], [0], marker="o", linestyle="",
+            color="red", markersize=6,
+            label="土砂災害リスク該当文化財",
+        ),
+        Line2D(
+            [0], [0], marker="o", linestyle="",
+            color="black", markersize=5,
+            label="その他の文化財",
+        ),
+    ])
+    ax.legend(handles=handles, loc="best", fontsize=8)
+    fig.tight_layout()
+    fig.savefig(out, dpi=200, bbox_inches="tight")
+    plt.close(fig)
 
 
 def a31a_depth_plot_values(hz: gpd.GeoDataFrame) -> pd.Series:
@@ -809,9 +1075,25 @@ def main():
             print(f"[overview seismic] {scenario} / {region}")
             plot_seismic_overview(source, layer, scenario, region, rep, overview / f"seismic_{scenario}_{region}.png", admin if region=="mainland" else None)
     plot_fire_overview(source, rep, overview / "fire_mainland.png", admin)
+    # COMPLETE_RISK_OVERVIEWS_V3
+    plot_complete_liquefaction_overviews(
+        source, rep, overview, tables, admin
+    )
+    plot_complete_landslide_overview(
+        source, rep, overview / "landslide_mainland.png", tables, admin
+    )
+    plot_liquefaction_overviews(source, rep, overview, admin)
     plot_inundation_overviews(source, contents, rep, overview, tables, admin)
     plot_storm_overview(source, rep, overview / "storm_surge_mainland.png", admin)
     plot_tsunami_overviews(source, contents, rep, overview, admin)
+    plot_landslide_overview(
+        source,
+        contents,
+        rep,
+        overview / "landslide_mainland.png",
+        tables,
+        admin,
+    )
 
     print("SUCCESS:", overview)
 

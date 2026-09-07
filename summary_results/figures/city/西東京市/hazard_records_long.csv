@@ -1,0 +1,134 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_002:240,seismic,都心南部直下地震,5.72,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:252,seismic,都心南部直下地震,5.789,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:253,seismic,都心南部直下地震,5.789,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:290,seismic,都心南部直下地震,5.811,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:291,seismic,都心南部直下地震,5.818,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:292,seismic,都心南部直下地震,5.818,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:293,seismic,都心南部直下地震,5.818,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:294,seismic,都心南部直下地震,5.815,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:304,seismic,都心南部直下地震,5.722,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:32,seismic,都心南部直下地震,5.754,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_002:240,seismic,都心東部直下地震,5.904,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:252,seismic,都心東部直下地震,5.988,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:253,seismic,都心東部直下地震,5.988,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:290,seismic,都心東部直下地震,5.973,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:291,seismic,都心東部直下地震,5.977,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:292,seismic,都心東部直下地震,5.977,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:293,seismic,都心東部直下地震,5.977,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:294,seismic,都心東部直下地震,5.975,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:304,seismic,都心東部直下地震,5.903,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:32,seismic,都心東部直下地震,5.92,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_002:240,seismic,都心西部直下地震,5.966,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:252,seismic,都心西部直下地震,5.978,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:253,seismic,都心西部直下地震,5.978,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:290,seismic,都心西部直下地震,6.027,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:291,seismic,都心西部直下地震,6.03,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:292,seismic,都心西部直下地震,6.03,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:293,seismic,都心西部直下地震,6.03,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:294,seismic,都心西部直下地震,6.026,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:304,seismic,都心西部直下地震,5.89,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:32,seismic,都心西部直下地震,5.86,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_002:240,seismic,多摩東部直下地震,6.1242,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:252,seismic,多摩東部直下地震,6.1258,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:253,seismic,多摩東部直下地震,6.1258,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:290,seismic,多摩東部直下地震,6.093,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:291,seismic,多摩東部直下地震,6.0898,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:292,seismic,多摩東部直下地震,6.0898,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:293,seismic,多摩東部直下地震,6.0898,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:294,seismic,多摩東部直下地震,6.091,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:304,seismic,多摩東部直下地震,6.0522,6強以上,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:32,seismic,多摩東部直下地震,6.0022,6強以上,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_002:240,seismic,多摩西部直下地震,5.704,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:252,seismic,多摩西部直下地震,5.777,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:253,seismic,多摩西部直下地震,5.777,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:290,seismic,多摩西部直下地震,5.73,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:291,seismic,多摩西部直下地震,5.732,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:292,seismic,多摩西部直下地震,5.732,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:293,seismic,多摩西部直下地震,5.732,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:294,seismic,多摩西部直下地震,5.734,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:304,seismic,多摩西部直下地震,5.68,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:32,seismic,多摩西部直下地震,5.638,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_002:240,seismic,立川断層帯地震,5.513,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:252,seismic,立川断層帯地震,5.503,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:253,seismic,立川断層帯地震,5.503,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:290,seismic,立川断層帯地震,5.518,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:291,seismic,立川断層帯地震,5.533,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:292,seismic,立川断層帯地震,5.533,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:293,seismic,立川断層帯地震,5.533,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:294,seismic,立川断層帯地震,5.527,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:304,seismic,立川断層帯地震,5.404,5強,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:32,seismic,立川断層帯地震,5.556,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_002:240,seismic,大正関東地震,5.529,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:252,seismic,大正関東地震,5.685,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:253,seismic,大正関東地震,5.685,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:290,seismic,大正関東地震,5.614,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:291,seismic,大正関東地震,5.616,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:292,seismic,大正関東地震,5.616,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:293,seismic,大正関東地震,5.616,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:294,seismic,大正関東地震,5.614,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:304,seismic,大正関東地震,5.577,6弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:32,seismic,大正関東地震,5.562,6弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_002:240,seismic,南海トラフ巨大地震,4.906,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:252,seismic,南海トラフ巨大地震,5.034,5強,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:253,seismic,南海トラフ巨大地震,5.034,5強,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:290,seismic,南海トラフ巨大地震,4.957,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:291,seismic,南海トラフ巨大地震,4.954,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:292,seismic,南海トラフ巨大地震,4.954,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:293,seismic,南海トラフ巨大地震,4.954,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:294,seismic,南海トラフ巨大地震,4.957,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:304,seismic,南海トラフ巨大地震,4.933,5弱,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:32,seismic,南海トラフ巨大地震,4.927,5弱,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_002:240,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:252,fire,延焼危険度,4.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:253,fire,延焼危険度,4.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:290,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:291,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:292,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:293,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:294,fire,延焼危険度,5.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:304,fire,延焼危険度,3.0,,,,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:32,fire,延焼危険度,3.0,,,,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_002:290,liquefaction,南海トラフ巨大地震,0.188,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:290,liquefaction,多摩東部直下地震,6.432,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:290,liquefaction,大正関東地震,3.734,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:290,liquefaction,立川断層帯地震,0.508,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:290,liquefaction,都心南部直下地震,5.018,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:291,liquefaction,南海トラフ巨大地震,0.188,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:291,liquefaction,多摩東部直下地震,6.432,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:291,liquefaction,大正関東地震,3.734,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:291,liquefaction,立川断層帯地震,0.508,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:291,liquefaction,都心南部直下地震,5.018,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:292,liquefaction,南海トラフ巨大地震,0.188,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:292,liquefaction,多摩東部直下地震,6.432,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:292,liquefaction,大正関東地震,3.734,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:292,liquefaction,立川断層帯地震,0.508,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:292,liquefaction,都心南部直下地震,5.018,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:293,liquefaction,南海トラフ巨大地震,0.188,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:293,liquefaction,多摩東部直下地震,6.432,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:293,liquefaction,大正関東地震,3.734,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:293,liquefaction,立川断層帯地震,0.508,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:293,liquefaction,都心南部直下地震,5.018,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:294,liquefaction,南海トラフ巨大地震,0.188,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_002:294,liquefaction,多摩東部直下地震,6.432,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_002:294,liquefaction,大正関東地震,3.734,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,液状化,大正関東地震,液状化｜大正関東地震
+official_export_002:294,liquefaction,立川断層帯地震,0.508,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_002:294,liquefaction,都心南部直下地震,5.018,5<PL≤15,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:32,liquefaction,南海トラフ巨大地震,0.011,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:32,liquefaction,多摩東部直下地震,5.092,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:32,liquefaction,大正関東地震,2.369,0<PL≤5,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:32,liquefaction,立川断層帯地震,0.494,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_003:32,liquefaction,都心南部直下地震,2.978,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_002:304,river_flooding,L2（想定最大規模）,0.029,0.5m未満,石神井川・白子川流域,PLATEAU building risk,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,河川浸水,L2（想定最大規模）,河川浸水｜L2（想定最大規模）
+official_export_002:240,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:304,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:293,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅土蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:294,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅納屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:290,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅衣装蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:292,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:252,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:253,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,下田家住宅文庫蔵,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:291,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,髙橋家住宅表門,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:32,river_flooding,,0.0,0,石神井川及び白子川流域,external point-grid sampling,13229,西東京市,National,Designated,記念物,天然記念物,point,下野谷遺跡,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:240,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,小宮家住宅主屋,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_002:304,river_flooding,,,No data,黒目川_落合川_柳瀬川_空堀川及び奈良橋川流域,external point-grid sampling,13229,西東京市,National,Registered,有形文化財,建造物,building_direct,田無神社参集殿,河川浸水,河川浸水,河川浸水｜河川浸水

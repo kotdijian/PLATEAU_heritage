@@ -1,0 +1,17 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+official_export_003:28,seismic,都心南部直下地震,5.021,5強,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,都心南部直下地震,想定震度｜都心南部直下地震
+official_export_003:28,seismic,都心東部直下地震,5.081,5強,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,都心東部直下地震,想定震度｜都心東部直下地震
+official_export_003:28,seismic,都心西部直下地震,5.141,5強,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,都心西部直下地震,想定震度｜都心西部直下地震
+official_export_003:28,seismic,多摩東部直下地震,5.837,6弱,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,多摩東部直下地震,想定震度｜多摩東部直下地震
+official_export_003:28,seismic,多摩西部直下地震,5.723,6弱,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,多摩西部直下地震,想定震度｜多摩西部直下地震
+official_export_003:28,seismic,立川断層帯地震,5.514,6弱,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,立川断層帯地震,想定震度｜立川断層帯地震
+official_export_003:28,seismic,大正関東地震,5.12,5強,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,大正関東地震,想定震度｜大正関東地震
+official_export_003:28,seismic,南海トラフ巨大地震,4.943,5弱,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+official_export_003:28,fire,延焼危険度,2.0,,,,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,延焼危険度,延焼危険度,延焼危険度｜延焼危険度
+official_export_003:28,liquefaction,南海トラフ巨大地震,1.52,0<PL≤5,hazard_liquefaction_250m_南海トラフ巨大地震,liquefaction mesh polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,液状化,南海トラフ巨大地震,液状化｜南海トラフ巨大地震
+official_export_003:28,liquefaction,多摩東部直下地震,14.31,5<PL≤15,hazard_liquefaction_250m_多摩東部直下地震,liquefaction mesh polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,液状化,多摩東部直下地震,液状化｜多摩東部直下地震
+official_export_003:28,liquefaction,大正関東地震,5.57,5<PL≤15,hazard_liquefaction_250m_大正関東地震,liquefaction mesh polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,液状化,大正関東地震,液状化｜大正関東地震
+official_export_003:28,liquefaction,立川断層帯地震,4.69,0<PL≤5,hazard_liquefaction_250m_立川断層帯地震,liquefaction mesh polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,液状化,立川断層帯地震,液状化｜立川断層帯地震
+official_export_003:28,liquefaction,都心南部直下地震,4.15,0<PL≤5,hazard_liquefaction_250m_都心南部直下地震,liquefaction mesh polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,液状化,都心南部直下地震,液状化｜都心南部直下地震
+official_export_003:28,river_flooding,,0.01,0–0.5 m,秋川及び平井川流域,external point-grid sampling,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,河川浸水,河川浸水,河川浸水｜河川浸水
+official_export_003:28,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13305,日の出町,National,Designated,記念物,天然記念物,point,幸神神社のシダレアカシデ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域

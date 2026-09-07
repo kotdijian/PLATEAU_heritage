@@ -1,0 +1,10 @@
+﻿record_id,risk_type,scenario,risk_value,risk_class,hazard_source,risk_basis,municipality_code,municipality_name,designation_level,designation_status,heritage_type_major,heritage_type_detail_norm,entity_class,name,risk_type_ja,scenario_label,hazard_key
+237,seismic,大正関東地震,4.728,5弱,,,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,想定震度,大正関東地震,想定震度｜大正関東地震
+238,seismic,大正関東地震,4.577,5弱,,,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,想定震度,大正関東地震,想定震度｜大正関東地震
+237,seismic,南海トラフ巨大地震,4.906,5弱,,,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+238,seismic,南海トラフ巨大地震,4.888,5弱,,,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,想定震度,南海トラフ巨大地震,想定震度｜南海トラフ巨大地震
+238,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+237,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,土石流,PLATEAU building risk,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+237,landslide,PLATEAU建築物リスク,,土砂災害警戒区域（指定済）,急傾斜地の崩落,PLATEAU building risk,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,土砂災害,PLATEAU建築物リスク,土砂災害｜PLATEAU建築物リスク
+237,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,堂山のシイ,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
+238,landslide,土砂災害警戒区域,,土砂災害警戒区域,hazard_sediment_warning_a33_polygon,polygon intersection,13381,三宅村,Tokyo Metropolitan,Designated,記念物,天然記念物,point,ビャクシン,土砂災害,土砂災害警戒区域,土砂災害｜土砂災害警戒区域
