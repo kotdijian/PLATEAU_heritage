@@ -1,4 +1,6 @@
 cache/
 __pycache__/
 *.pyc
-
+data/museum_osm_candidates.csv
+data/museum_osm_audit.csv
+data/museum_osm_summary.json

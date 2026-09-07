@@ -163,6 +163,24 @@ manifestで`needs_review`の4レコードは`museum_source_records`には保持�
 
 point-in-buildingでは、ABRの自治体一致と詳細粒度を検証した座標だけを建物確定に使います。町字・街区座標、複数棟に入る点、自治体不一致座標は自動確定しません。buffer、最近傍、あいまい名称一致も自動確定に用いません。
 
+### OSM照合パイロット（PLATEAU照合前の補助工程）
+
+OpenStreetMapを候補・監査根拠として試験する独立ツールv0.1.1を
+`Museum/source/scripts/build_museum_osm_matches.py`に置いています。東京都内の対象
+OSM objectを一括取得してローカル照合しますが、既存のPLATEAU建物確定結果や
+GPKGを変更しません。施設本体と駐輪場・入口等を分離し、同一施設を表す
+node/way/relationを候補グループへ統合した上で、高確度way/relationのgeometryだけを
+追加取得します。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py
+```
+
+Museum GPKGが既にある場合は`--museum-gpkg`で指定します。既存確定施設は
+`audit_only`、未確定施設は`candidate_discovery`として出力されます。詳しい出力列、
+offline再実行、判定条件は[source README](source/README.md#openstreetmap照合パイロット)
+を参照してください。
+
 住所正規化では全角・半角、丁目・番・号、ハイフンを統一し、先頭の`東京都`の有無を吸収します。ビル名・階数を除いた敷地住所は候補抽出にだけ使い、自動確定には使いません。数字を含まない休館注記等は住所として扱いません。
 
 `bldg:usage=422`は「文教厚生施設」という広い分類なので、それだけではMuseum候補にしません。全国標準の`uro:detailedUsage=422302/422305`は博物館・動物園を示す強い候補根拠ですが、ソース施設との一致なしに自動確定はしません。

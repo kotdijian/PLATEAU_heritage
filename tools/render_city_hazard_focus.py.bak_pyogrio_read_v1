@@ -105,78 +105,8 @@ def find_layer(path: Path | str, candidates: list[str] | None = None, contains: 
     )
 
 
-
-# PYOGRIO_SAFE_READ_V1
-def _flatten_pyogrio_columns(columns):
-    """Return a flat, ordered list[str] for pyogrio's columns= argument."""
-    if columns is None:
-        return None
-    if isinstance(columns, str):
-        return [columns]
-
-    out = []
-
-    def add(value):
-        if value is None:
-            return
-        if isinstance(value, str):
-            if value:
-                out.append(value)
-            return
-        if isinstance(value, (list, tuple, set)):
-            for item in value:
-                add(item)
-            return
-        out.append(str(value))
-
-    add(columns)
-    return list(dict.fromkeys(out))
-
-
-def _safe_pyogrio_read_dataframe(*args, **kwargs):
-    """Read with Arrow first to avoid the pandas non-Arrow constructor failure.
-
-    Also normalizes accidentally nested columns= specifications.  If pyarrow is
-    unavailable, the original pyogrio path is retained, but the known
-    ``'list' object has no attribute 'name'`` failure is re-raised with an
-    actionable message.
-    """
-    kwargs = dict(kwargs)
-
-    if "columns" in kwargs:
-        kwargs["columns"] = _flatten_pyogrio_columns(kwargs.get("columns"))
-
-    # Do not allow an existing caller flag to create duplicate use_arrow args.
-    kwargs.pop("use_arrow", None)
-
-    try:
-        import pyarrow  # noqa: F401
-    except (ImportError, ModuleNotFoundError):
-        try:
-            return pyogrio.read_dataframe(*args, **kwargs)
-        except AttributeError as exc:
-            if "'list' object has no attribute 'name'" in str(exc):
-                raise RuntimeError(
-                    "pyogrio non-Arrow read failed while constructing a pandas "
-                    "DataFrame. Install pyarrow in this venv with: "
-                    "pip install -U pyarrow, then rerun City focus."
-                ) from exc
-            raise
-
-    try:
-        return pyogrio.read_dataframe(*args, use_arrow=True, **kwargs)
-    except AttributeError as exc:
-        if "'list' object has no attribute 'name'" in str(exc):
-            raise RuntimeError(
-                "pyogrio/pandas failed while reading the layer even with Arrow. "
-                "Check pyogrio, pandas and pyarrow versions, and the failing "
-                "GeoPackage layer schema."
-            ) from exc
-        raise
-
-
 def read_layer(path: Path | str, layer: str) -> gpd.GeoDataFrame:
-    gdf = _safe_pyogrio_read_dataframe(path, layer=layer)
+    gdf = pyogrio.read_dataframe(path, layer=layer)
     if gdf.empty:
         return gdf
     if gdf.crs is None:

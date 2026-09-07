@@ -141,6 +141,84 @@ python Museum/source/scripts/build_museum_locations.py \
 
 所在地確定後、博物館機能・展示室・収蔵庫の所在階は`config/facility_spaces.csv`へ別途記録します。これは建物自体の地上・地下階数とは異なる施設内空間情報です。複数階は用途・連続階範囲ごとに複数行とし、未調査の収蔵庫を「なし」と推定しません。GPKG生成時に`museum_facility_spaces`と`museum_space_hazard_assessment`へ変換されます。
 
+## OpenStreetMap照合パイロット
+
+`scripts/build_museum_osm_matches.py` v0.1.1は、東京都内の博物館・美術館・資料館・
+動物園・水族館等をOverpass APIから一括取得し、canonical 245施設とローカルで
+照合します。この段階ではOSMを候補・監査根拠としてのみ使用し、canonical一覧、
+所在地overlay、PLATEAU建物リンク、GPKGを変更しません。
+
+施設そのものと、施設名を名称に含む入口・案内所・駐輪場・店舗等を区別します。
+また同じ施設を表すnode、way、relationは、Wikidata、公式サイト、完全名称と距離を
+用いて一つの候補グループへまとめます。高確度判定は個別object数ではなく、候補
+グループ数に対して行います。
+
+```bash
+cd /Users/noguchiatsushi/Documents/GitHub/PLATEAU_heritage
+source .venv/bin/activate
+
+python Museum/source/scripts/build_museum_osm_matches.py
+```
+
+初回取得結果は`Museum/source/cache/osm/tokyo_museum.json`へ保存されます。
+高確度グループに含まれるway/relationのgeometryは、追加の小規模Overpass queryで
+取得して`tokyo_museum_shortlist_geometry.json`へ保存します。v0.1.0の東京都全域
+cacheはそのまま再利用できるため、v0.1.1の初回実行ではshortlist geometryだけが
+ネットワーク取得されます。
+
+両方のcacheを作成した後は、ネットワークなしで再現実行できます。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py --offline
+```
+
+geometryをまだ取得せず、既存の東京都全域cacheだけで判定を検証する場合は次を使います。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py \
+  --offline \
+  --skip-geometry
+```
+
+Overpassから再取得する場合だけ`--refresh`を使用します。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py --refresh
+```
+
+既にMuseum GPKGを生成済みの場合は指定できます。`museum_building_links`の
+`confirmed`施設を`audit_only`、それ以外を`candidate_discovery`として区別します。
+OSM結果が既存のPLATEAU確定を上書きすることはありません。
+
+```bash
+python Museum/source/scripts/build_museum_osm_matches.py \
+  --museum-gpkg \
+  "/Users/noguchiatsushi/Library/CloudStorage/OneDrive-個人用/ArchaeoDataScience/PLATEAU_Heritage/13_museum_hazards.gpkg"
+```
+
+出力は次の3ファイルです。
+
+| ファイル | 内容 |
+|---|---|
+| `museum_osm_candidates.csv` | 候補リンク、object role、候補group、座標、名称・自治体・距離・公式URL、Wikidata、OSM source、geometry有無 |
+| `museum_osm_audit.csv` | canonical施設ごとの候補group数、選択object、ABR座標競合。全245施設を1行ずつ記録 |
+| `museum_osm_summary.json` | 取得モード、OSM件数、照合件数、監査・候補探索別KPI |
+
+`high_confidence_unique`は、正規化名称が完全一致し、かつ自治体、公式URLまたは
+既存の検証済み座標との距離が施設を支持するOSM施設グループが一つだけの場合です。
+この値もPLATEAU建物の確定ではなく、次段の建物候補生成に利用できる高確度な
+OSM施設位置を意味します。施設名を借用した周辺POIだけでは高確度にしません。
+候補グループが複数なら`multiple_high_confidence`、名称候補だけ
+なら`candidate_only`、候補なしは`no_candidate`です。
+
+`coordinate_conflict=true`は、完全名称と自治体または公式URLがOSM施設を支持する
+一方、ABR座標から2kmを超えて離れる場合です。OSM・ABRのどちらかを自動採用せず、
+座標不一致の確認対象として残します。
+
+OSMデータはODbLです。出力にはOSM object URL、取得データのSHA-256、取得日時を
+保持します。成果物を配布するときはOpenStreetMapとcontributorsへの帰属表示、
+ODbLの明示、および派生データベースに対するライセンス条件の確認が必要です。
+
 ## コマンドラインオプション
 
 | オプション | 既定値 | 内容 |
