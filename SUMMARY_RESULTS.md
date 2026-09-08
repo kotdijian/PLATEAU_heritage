@@ -1,142 +1,71 @@
-# Results Report
+# Summary Results
 
 ## 東京都文化財・PLATEAU・災害リスク統合分析
 
+**最終更新:** 2026-09-08  
+**最終レポート:** [`index.html`](./index.html)  
 **集約対象:** `13_heritage_hazards.gpkg`  
-**報告更新日:** 2026-09-05
+**機械可読サマリー:** [`summary_results/metadata/run_summary.json`](./summary_results/metadata/run_summary.json)
 
-本報告は、東京都内の文化財オープンデータを統合し、Project PLATEAU の建築物情報および各種災害関連データと空間的に対応付けた結果をまとめる。開発過程、実装履歴、バージョン履歴は扱わず、現在得られている集計値・地図成果・公開成果を記載する。
+本ファイルは、最終確定版 Results Report (`index.html`) と `summary_results/metadata/run_summary.json` を基準に、現行成果を簡潔に整理したサマリーである。開発途中のパッチ、旧版レポート、旧集計値は扱わない。詳細な地図、クロス集計、Detail Case、Municipality Case、Appendix、データソースは `index.html` を参照する。
 
 ---
 
-## 1. 成果の概要
+## 1. 現行成果の位置づけ
 
-現在の canonical GeoPackage は 11.677 GiB、258 レイヤ／テーブルからなり、A31a の荒川・多摩川レイヤを含む。
+現行成果は次の3層で管理する。
 
-| 項目 | 結果 |
+1. **`index.html`** — 最終確定版 Results Report。画像をHTML内に埋め込んだ静的レポートで、ブラウザ表示およびChromeからのPDF印刷を想定する。
+2. **`summary_results/metadata/run_summary.json`** — 現行集計処理の主要件数・設定を保持する機械可読サマリー。
+3. **`SUMMARY_RESULTS.md`** — 上記2成果を人間向けに要約する文書。
+
+最終レポートは実行時のCSV再読込を行わない静的構成とし、表示後に表値が変更されない。画像も埋め込み済みである。
+
+---
+
+## 2. 解析対象
+
+`run_summary.json` に記録されている現行集計値は以下のとおりである。
+
+| 項目 | 現行値 |
 |---|---:|
 | GeoPackage | `13_heritage_hazards.gpkg` |
-| ファイルサイズ | 12,537,577,472 bytes / 11.677 GiB |
-| レイヤ／テーブル数 | 258 |
-| A31a 荒川 | 収録 |
-| A31a 多摩川 | 収録 |
-| A31a source_license | 1 record |
-| SHA-256 | `baa5191389723a29131a257a708b481fa2c630439ba4abe44c5164dcefe92bb3` |
+| ファイルサイズ | 12,537,577,472 bytes（約11.677 GiB） |
+| 全文化財レコード | 4,423 |
+| 不動産文化財（主分析対象） | 2,866 |
+| 動産文化財 | 1,557 |
+| 解析位置を持つ不動産文化財 | 1,453 |
+| 解析位置 | 1,725 |
+| A31a 浸水想定区域との対応レコード | 241 |
+| 災害リスク類型付与行 | 5,151 |
+| point-grid 水害データの最大探索距離 | 25 m |
 
-文化財レコードは全 4,423 件で、このうち不動産文化財を主たる分析対象 2,866 件、動産文化財 1,557 件として分離した。解析に使用できる位置を持つ不動産文化財は 1,453 レコード、解析位置は 1,725 箇所である。
-
-| 文化財データ | 件数 | 全レコード比 |
-|---|---:|---:|
-| 全文化財レコード | 4,423 | 100.0% |
-| 不動産文化財（主分析対象） | 2,866 | 64.8% |
-| 動産文化財 | 1,557 | 35.2% |
-| 解析位置を持つ不動産文化財 | 1,453 | 不動産文化財の 50.7% |
-| 解析位置 | 1,725 | — |
-
-解析位置は、PLATEAU 建築物と対応した場合には建築物代表点を用い、それ以外では文化財レコード自身の point を用いる。このため、1文化財レコードが複数の建築物に対応する場合があり、解析位置数は解析対象レコード数より多い。
-
-参照: `summary_results/metadata/run_summary.json`
+解析位置数が解析対象レコード数を上回るのは、1件の文化財が複数のPLATEAU建築物等の解析位置に対応し得るためである。
 
 ---
 
-## 2. 文化財の地域分布
+## 3. 災害リスク統合結果
 
-不動産文化財 2,866 件は 56 区市町村に分布する。集計対象のうち、23区内が 2,096 件（73.1%）、市部が 735 件（25.6%）、町村・島嶼部が 35 件（1.2%）である。
-
-件数上位10自治体は以下のとおりである。
-
-| 順位 | 自治体 | 件数 | 構成比 |
-|---:|---|---:|---:|
-| 1 | 江東区 | 399 | 13.9% |
-| 2 | 新宿区 | 256 | 8.9% |
-| 3 | 江戸川区 | 242 | 8.4% |
-| 4 | 葛飾区 | 218 | 7.6% |
-| 5 | 豊島区 | 159 | 5.5% |
-| 6 | 台東区 | 139 | 4.8% |
-| 7 | あきる野市 | 133 | 4.6% |
-| 8 | 墨田区 | 115 | 4.0% |
-| 9 | 杉並区 | 103 | 3.6% |
-| 10 | 東久留米市 | 96 | 3.3% |
-
-上位10自治体で 1,860 件、全不動産文化財の 64.9% を占める。したがって、統合済みデータの分布は自治体間で均等ではなく、収録件数の多い地域に強く集中している。この差は文化財の実分布だけでなく、原データの公開範囲・粒度・記録単位の違いも含むため、自治体間の単純な文化財密度比較には注意が必要である。
-
-主要集計表:
-
-- `summary_results/tables/municipality_record_counts.csv`
-- `summary_results/tables/municipality_designation_level.csv`
-- `summary_results/tables/municipality_designation_status.csv`
-- `summary_results/tables/municipality_cultural_type_major.csv`
-- `summary_results/tables/municipality_cultural_type_detail.csv`
-- `summary_results/tables/movable_cultural_properties.csv`
-
----
-
-## 3. 災害リスクとの空間対応
-
-災害リスクは、PLATEAU 建築物に付与されたリスク情報と、文化財 point から取得できる外部ハザード情報を併用している。現在の集計では、災害リスク類型の付与行は合計 4,464 行である。1レコードに複数の災害種別が対応し得るため、この値はユニーク文化財数ではない。
+現行の災害リスク類型付与行は合計 **5,151行**である。1文化財レコードに複数の災害種別が対応し得るため、この値はユニーク文化財件数ではない。
 
 | 災害リスク類型 | 付与行数 |
 |---|---:|
 | 想定震度 | 1,452 |
 | 地震時延焼危険度 | 1,428 |
+| 液状化 | 687 |
 | 河川浸水 | 1,304 |
 | 高潮 | 190 |
 | 土砂災害 | 82 |
 | 津波 | 8 |
-| **合計** | **4,464** |
+| **合計** | **5,151** |
 
-### 3.1 想定震度
-
-定量集計では次の5シナリオを代表シナリオとして使用している。
-
-1. 都心南部直下地震
-2. 都心東部直下地震
-3. 都心西部直下地震
-4. 大正関東地震
-5. 南海トラフ巨大地震
-
-想定震度は `5弱未満 / 5弱 / 5強 / 6弱 / 6強以上` の5階級に正規化し、自治体、指定・登録レベル、指定／登録、文化財類型ごとのクロス集計を生成している。
-
-### 3.2 河川浸水
-
-東京都建設局の浸水予想区域図は point-grid として収録されている。文化財リスク付与では point-grid を面として扱わず、文化財解析位置から最大 25 m の範囲で対応するグリッド値を取得する。浸水深は `0 / 0–0.5 m / 0.5–3 m / 3–5 m / 5 m以上` に正規化する。
-
-現在の canonical GeoPackage には、これに加えて国土数値情報 A31a の荒川・多摩川（想定最大規模）が polygon として収録されている。A31a の深度階級は原データの rank を同じ4つの正の浸水深階級へ正規化して扱い、実測値・推定値としての厳密な深度値には変換しない。
-
-A31a との空間対応では、荒川 196 件、多摩川 45 件、計 241 件の文化財レコードが浸水想定区域に含まれた。深度階級別では `0–0.5 m` 42 件、`0.5–3 m` 141 件、`3–5 m` 47 件、`5 m以上` 11 件である。
-
-A31a の 241 件を既存の河川浸水件数へ単純加算することはしない。既存データとの重複を record 単位で除去した結果、226 件は既存の河川浸水判定と重複し、A31a により新たに 15 件が河川浸水リスクとして捕捉された。このため、河川浸水リスクのユニークレコード数は 1,289 件から **1,304 件**となった。
-
-### 3.3 高潮・津波
-
-高潮および津波についても同じ浸水深階級を用いる。高潮は浸水深を中心に、津波は地域・シナリオ別データから解析位置との対応を取得する。既存集計では高潮 190 行、津波 8 行のリスク付与が得られている。
-
-主要集計表:
-
-- `summary_results/tables/risk_type_by_municipality.csv`
-- `summary_results/tables/risk_type_by_designation_level.csv`
-- `summary_results/tables/risk_type_by_designation_status.csv`
-- `summary_results/tables/risk_type_by_cultural_type.csv`
-- `summary_results/tables/seismic_*`
-- `summary_results/tables/river_flooding_depth_*`
-- `summary_results/tables/high_tide_depth_*`
-- `summary_results/tables/tsunami_depth_*`
-- `summary_results/tables/water_risk_best_available_records.csv`
-- `summary_results/tables/water_risk_external_point_assignments.csv`
+主要なリスク類型集計は `summary_results/tables/risk_type_by_*.csv` に出力される。
 
 ---
 
-## 4. 地図成果
+## 4. 想定震度シナリオ
 
-### 4.1 Overview
-
-東京都全体の地図は次の3地域に分けて作成している。
-
-- 東京都本土部（島嶼部除く）
-- 伊豆諸島
-- 小笠原諸島
-
-Overview の想定震度図は8シナリオを対象とする。
+現行処理では次の **8シナリオ**を扱う。
 
 1. 都心南部直下地震
 2. 都心東部直下地震
@@ -147,107 +76,144 @@ Overview の想定震度図は8シナリオを対象とする。
 7. 大正関東地震
 8. 南海トラフ巨大地震
 
-このほか、地震時延焼危険度、河川・流域別浸水予想区域、高潮、津波、災害リスク付与済み文化財の類型別分布、災害リスク類型別 point 分布を作成している。
+最終レポートではシナリオ別の地図・集計を比較できるように構成している。
 
-出力先: `summary_results/figures/overview/`
+---
 
-Overview 地図は `tools/render_summary_maps.py` が担当する。
+## 5. ハザード集計の扱い
 
-### 4.2 Detail
+### 5.1 想定震度
 
-Detail は地理院タイル（淡色地図）を背景とし、中心から半径 0.8 km、zoom 16 を標準とする。
+想定震度は正規化した震度階級を用い、自治体等の単位でクロス集計する。
 
-| 地点 | 緯度 | 経度 |
-|---|---:|---:|
-| 東京駅 | 35.68126 | 139.76671 |
-| 東京都立上野高校 | 35.7186246 | 139.7698412 |
-| JR両国駅 | 35.6957371 | 139.7936379 |
-| 東京メトロ田原町駅 | 35.70984 | 139.79076 |
+### 5.2 地震時延焼危険度
 
-各地点では文化財 point、PLATEAU building footprint、ハザードを重ね合わせている。浸水以外は `tools/render_city_hazard_focus.py`、浸水は `tools/render_inundation_map.py` が担当する。
+PLATEAU建築物等に対応する地震時延焼危険度を文化財解析位置へ対応付け、独立したリスク類型として集計する。
+
+### 5.3 液状化
+
+液状化はPL値を基礎とし、最終レポートでは次の階級で扱う。
+
+- `PL=0`
+- `0<PL≤5`
+- `5<PL≤15`
+- `PL>15`
+- `No data`
+
+`PL>0` を液状化リスク付与の基準として扱い、`No data` は有効値とは分離する。
+
+### 5.4 河川浸水
+
+point-grid 型の水害データは、文化財解析位置から最大 **25 m** の探索距離で対応値を取得する。国土数値情報 A31a の荒川・多摩川はpolygonとして扱い、現行集計では計 **241レコード**が対応する。
+
+A31a の内訳は以下である。
+
+| 河川 | 対応レコード |
+|---|---:|
+| 荒川 | 196 |
+| 多摩川 | 45 |
+| **計** | **241** |
+
+### 5.5 高潮・津波
+
+高潮・津波は浸水深階級を用いて集計する。津波のAppendixでは、地域・シナリオに一致する正式なMunicipalityクロス集計が存在する場合のみその表を使用し、異なる地域・シナリオの汎用表を流用しない。
+
+### 5.6 土砂災害
+
+土砂災害は独立したハザードとして集計する。Appendixでは全ハザードを含む横持ち表ではなく、土砂災害に限定した自治体クロス集計を使用する。
+
+---
+
+## 6. クロス集計の確定ルール
+
+最終レポートのクロス集計は、次のルールを確定仕様とする。
+
+- **`Total = 有効なリスク階級・スコア列の合計`**
+- **`No data` は `Total` に含めない**
+- `No data > 0` の場合も、`Total - 有効値合計 = 0` を満たす
+- 有効値がなく `Total = 0` となる行は表示しない
+- 津波は地域×シナリオに一致する正式なクロス集計を使用する
+- 土砂災害は土砂災害専用のクロス集計を使用する
+
+このルールは、最終レポート作成時に静的HTML上の表へ適用されている。
+
+---
+
+## 7. 最終レポートの構成
+
+`index.html` は以下を中心に構成する。
+
+- 全体目次
+- 文化財・災害リスクのOverview
+- 想定震度
+- 地震時延焼危険度
+- 液状化
+- 河川浸水
+- 高潮
+- 津波
+- 土砂災害
+- Detail Case
+  - 東京駅
+  - 上野周辺
+  - 田原町周辺
+  - 両国周辺
+- Municipality Case
+  - 国分寺市
+  - 国立市
+- Appendix
+  - ハザード別・地域別・シナリオ別の地図とクロス集計
+  - データソース
+
+Appendixの地図＋クロス集計ページは、Chromeの印刷機能からPDF化した場合にも1ページ内に収まりやすい印刷用レイアウトを適用している。
+
+---
+
+## 8. 主な成果物
 
 ```text
-summary_results/figures/detail/
-├── 東京駅/
-│   ├── hazard/
-│   └── inundation/
-├── 東京都立上野高校/
-│   ├── hazard/
-│   └── inundation/
-├── JR両国駅/
-│   ├── hazard/
-│   └── inundation/
-└── 東京メトロ田原町駅/
-    ├── hazard/
-    └── inundation/
-```
-
-現行4地点の Detail 成果には、地震時延焼危険度、想定震度、液状化、高潮、津波等の対象範囲内ハザードが出力されている。浸水図については、東京都の point-grid を実グリッド間隔に基づくセルとして描画し、NoData を除外する。A31a は polygon のまま描画する。4地点の現行成果には A31a 荒川の浸水図が出力されている。
-
----
-
-## 5. 公開成果
-
-解析用完全版 `13_heritage_hazards.gpkg` は約12 GBであり、GitHub では直接配布しない。公開用には、文化財を中心とした軽量 GeoPackage と代表ハザード、GeoJSON を生成している。
-
-- `public_data/13_heritage_public.gpkg`
-- `public_data/hazard_map.gpkg`
-- `public_data/geojson/heritage_buildings_risk.geojson`
-- `public_data/geojson/heritage_buildings_footprint_risk.geojson`
-- `public_data/geojson/heritage_complexes.geojson`
-- `public_data/geojson/heritage_source_points.geojson`
-- `public_data/SOURCE_LICENSES.csv`
-
-完全版の同一性確認には以下を使用する。
-
-- `output/13_heritage_hazards.sha256`
-- `output/13_heritage_hazards_fileinfo.txt`
-
----
-
-## 6. 主な使用データ
-
-統合データには、文化財オープンデータと PLATEAU に加え、東京都および国土数値情報の災害関連データを含む。主なものは以下である。
-
-| 種別 | 主なデータ | 提供主体 |
-|---|---|---|
-| 3D都市モデル | Project PLATEAU 3D都市モデル | 国土交通省・各地方公共団体 |
-| 地域危険度 | 地震に関する地域危険度測定調査 | 東京都都市整備局 |
-| 火災 | 地震時における地域別延焼危険度測定 | 東京消防庁 |
-| 想定震度 | 令和4年度首都直下地震等による東京の被害想定 | 東京都総務局 |
-| 液状化 | 同上 | 東京都総務局 |
-| 河川浸水 | 浸水予想区域図 | 東京都建設局 |
-| 河川浸水 | 洪水浸水想定区域（河川単位）A31a 2025 | 国土交通省・国土数値情報 |
-| 高潮 | 高潮浸水想定区域図 | 東京都港湾局 |
-| 津波 | 令和4年度首都直下地震等による東京の被害想定 | 東京都総務局 |
-
-詳細な出典、ライセンス、利用条件、収録レイヤは GeoPackage 内の `source_license` / `hazard_source_manifest` および `summary_results/tables/source_datasets.csv` を参照する。
-
----
-
-## 7. 結果の解釈上の留意点
-
-1. **位置情報の有無** — 主分析対象 2,866 レコードのうち解析位置を持つのは 1,453 レコード（50.7%）であり、災害リスク空間分析は全文化財を網羅していない。
-2. **自治体間のデータ差** — 文化財件数の差には実分布だけでなく、自治体ごとのオープンデータ公開範囲、記録単位、分類粒度の差が含まれる。
-3. **point-grid の扱い** — 東京都浸水予想区域および一部津波データは point-grid であり、公開点を任意の polygon に変換して判定していない。文化財への付与は近傍グリッド値に基づく。
-4. **A31a の深度** — A31a は深度 rank を階級へ正規化しており、厳密な連続深度値として扱わない。
-5. **A31a と現行定量表** — canonical GeoPackage と Detail 地図には A31a が反映済みだが、現在追跡されている定量集計は A31a 統合前である。したがって本報告の河川浸水件数は A31a を含まない。
-
----
-
-## 8. 成果物一覧
-
-```text
-13_heritage_hazards.gpkg                # canonical 完全版（repo外）
-SUMMARY_RESULTS.md                       # 本報告
+index.html
+SUMMARY_RESULTS.md
 summary_results/
-├── metadata/run_summary.json
-├── tables/                              # 集計結果
-└── figures/
-    ├── overview/                        # 東京都全体図
-    ├── detail/                          # 4地点 Detail
-    └── city/                            # 市区町村別図
-public_data/                             # GitHub 公開用派生データ
-output/13_heritage_hazards.sha256
-output/13_heritage_hazards_fileinfo.txt
+├── figures/
+│   ├── overview/
+│   ├── detail/
+│   └── city/
+├── tables/
+└── metadata/
+    └── run_summary.json
 ```
+
+- `index.html`: 最終確定版・画像埋め込み済みResults Report
+- `summary_results/figures/overview/`: 東京都全体・地域別Overview
+- `summary_results/figures/detail/`: Detail Case画像
+- `summary_results/figures/city/`: Municipality Case等の自治体単位画像
+- `summary_results/tables/`: クロス集計・レコード集計
+- `summary_results/metadata/run_summary.json`: 実行結果の主要メタデータ
+
+解析用完全版 `13_heritage_hazards.gpkg` は約12.5 GBであり、GitHubリポジトリでは直接配布しない。
+
+---
+
+## 9. 主な実装
+
+現行処理の中心は以下である。
+
+- `tools/build_summary_results.py` — 集計成果生成
+- `tools/render_summary_maps.py` — Overview・ハザード地図生成
+- `tools/render_city_hazard_focus.py` — Detail / Municipality系ハザード表示
+- `tools/render_inundation_map.py` — 浸水系Detail表示
+- `complete_risk_summary.py` — 災害リスク統合集計
+- `complete_risk_overview.py` — 液状化・土砂災害等を含むOverview補完処理
+
+開発途中に使用した `apply_*patch.py`、`patch_*.py`、`fix_*.py` 等の一時スクリプトは、必要機能を本体へ統合したうえで削除している。
+
+---
+
+## 10. 参照
+
+- 最終レポート: [`index.html`](./index.html)
+- 実行サマリー: [`summary_results/metadata/run_summary.json`](./summary_results/metadata/run_summary.json)
+- 集計表: [`summary_results/tables/`](./summary_results/tables/)
+- リポジトリ: <https://github.com/kotdijian/PLATEAU_heritage>
+
+数値の再確認では、`SUMMARY_RESULTS.md` 単独ではなく、`run_summary.json` および対応する `summary_results/tables/` を一次的な集計成果として参照する。
