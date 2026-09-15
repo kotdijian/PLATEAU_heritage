@@ -28,7 +28,7 @@ import pandas as pd
 from lxml import etree
 from pyproj import Geod
 from shapely.geometry import LineString, Point, Polygon
-from shapely.ops import polygonize, unary_union
+from shapely.ops import nearest_points, polygonize, unary_union
 
 # Prefer the checked-out PLATEAU_heritage code when this script is executed as
 # ``python Museum/build_museum_hazard_gpkg.py``. The path is derived from this
@@ -58,8 +58,9 @@ DEFAULT_OSM_AUDIT = DEFAULT_MUSEUM_DATA / "museum_osm_audit.csv"
 DEFAULT_OSM_GEOMETRY_CACHE = (
     ROOT / "source" / "cache" / "osm" / "tokyo_museum_shortlist_geometry.json"
 )
+DEFAULT_MANUAL_OVERRIDES = ROOT / "source" / "config" / "museum_building_overrides.csv"
 GEOD = Geod(ellps="GRS80")
-TOOL_VERSION = "0.4.0"
+TOOL_VERSION = "0.5.0"
 
 SPACE_FIELDS = [
     "space_id", "museum_id", "space_type", "space_name", "presence_status",
@@ -152,6 +153,16 @@ LINK_FIELDS = [
 UNRESOLVED_FIELDS = [
     "museum_id", "museum_name", "municipality_code", "municipality_name",
     "reason", "candidate_count", "candidate_building_ids", "review_required",
+]
+REVIEW_QUEUE_FIELDS = [
+    "museum_id", "museum_name", "municipality_code", "municipality_name",
+    "review_category", "osm_status", "osm_type", "osm_id", "osm_url",
+    "osm_latitude", "osm_longitude", "coordinate_conflict",
+    "candidate_building_count", "review_priority", "review_required",
+]
+MANUAL_OVERRIDE_FIELDS = [
+    "museum_id", "building_gml_id", "action", "building_role", "notes",
+    "reviewer", "reviewed_at",
 ]
 
 
@@ -999,6 +1010,149 @@ def load_osm_spatial_evidence(
     return evidence, dict(counts)
 
 
+def geometry_distance_m(left, right) -> float:
+    if left.intersects(right):
+        return 0.0
+    a, b = nearest_points(left, right)
+    _, _, distance = GEOD.inv(float(a.x), float(a.y), float(b.x), float(b.y))
+    return float(distance)
+
+
+def build_manual_review_queue(
+    buildings, facilities: list[dict[str, Any]], links: list[dict[str, Any]],
+    audit_path: Path, *, candidate_limit: int = 12,
+) -> tuple[gpd.GeoDataFrame, list[dict[str, Any]]]:
+    """Prepare one coherent review queue for OSM review stages 1--4."""
+    if not audit_path.is_file():
+        return gpd.GeoDataFrame(columns=["geometry"], geometry="geometry", crs="EPSG:4326"), []
+    audit_rows = {row["museum_id"]: row for row in read_csv_rows(audit_path)}
+    facility_by_id = {row["museum_id"]: row for row in facilities}
+    confirmed_ids = {
+        row["museum_id"] for row in links if row["match_status"] == "confirmed"
+    }
+    osm_review_links: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for link in links:
+        if link.get("osm_spatial_match") and link["match_status"] != "confirmed":
+            osm_review_links[link["museum_id"]].append(link)
+    building_by_id = {row.gml_id: row for row in buildings}
+    buildings_by_city: dict[str, list[Any]] = defaultdict(list)
+    municipality_codes = municipality_name_to_code(facilities)
+    for building in buildings:
+        city, _ = building_matching_city(building, municipality_codes)
+        if getattr(building, "geometry", None) is not None:
+            buildings_by_city[city].append(building)
+
+    review_rows: list[dict[str, Any]] = []
+    queue_rows: list[dict[str, Any]] = []
+    priorities = {
+        "osm_multiple_buildings": 1,
+        "osm_no_footprint_hit": 2,
+        "coordinate_conflict": 3,
+        "osm_candidate_only": 4,
+    }
+    for museum_id, audit in sorted(audit_rows.items()):
+        if museum_id in confirmed_ids:
+            continue
+        status = text(audit.get("osm_status"))
+        conflict = text(audit.get("coordinate_conflict")) == "true"
+        if osm_review_links.get(museum_id):
+            category, radius_m = "osm_multiple_buildings", 100.0
+        elif conflict and status == "high_confidence_unique":
+            category, radius_m = "coordinate_conflict", 500.0
+        elif status == "high_confidence_unique":
+            category, radius_m = "osm_no_footprint_hit", 300.0
+        elif status == "candidate_only":
+            category, radius_m = "osm_candidate_only", 500.0
+        else:
+            continue
+        facility = facility_by_id.get(museum_id)
+        if not facility:
+            continue
+        seeds: list[Point] = []
+        for lon_key, lat_key in (("selected_longitude", "selected_latitude"),):
+            try:
+                seeds.append(Point(float(audit[lon_key]), float(audit[lat_key])))
+            except (KeyError, TypeError, ValueError):
+                pass
+        if conflict:
+            point = facility_point(facility)
+            if point is not None:
+                seeds.append(point)
+
+        candidates: dict[str, tuple[Any, float]] = {}
+        for link in osm_review_links.get(museum_id, []):
+            building = building_by_id.get(link["building_gml_id"])
+            if building is not None:
+                candidates[building.gml_id] = (building, 0.0)
+        for building in buildings_by_city.get(text(facility["municipality_code"]), []):
+            geometry = building.geometry
+            min_x, min_y, max_x, max_y = geometry.bounds
+            radius_degrees = radius_m / 90_000.0
+            if not any(
+                min_x - radius_degrees <= seed.x <= max_x + radius_degrees
+                and min_y - radius_degrees <= seed.y <= max_y + radius_degrees
+                for seed in seeds
+            ):
+                continue
+            distances = [geometry_distance_m(seed, geometry) for seed in seeds]
+            if not distances:
+                continue
+            distance = min(distances)
+            if distance <= radius_m:
+                previous = candidates.get(building.gml_id)
+                if previous is None or distance < previous[1]:
+                    candidates[building.gml_id] = (building, distance)
+        ranked = sorted(candidates.values(), key=lambda item: (item[1], item[0].gml_id))[
+            :candidate_limit
+        ]
+        queue_rows.append({
+            "museum_id": museum_id,
+            "museum_name": facility["canonical_name"],
+            "municipality_code": facility["municipality_code"],
+            "municipality_name": facility["municipality_name"],
+            "review_category": category,
+            "osm_status": status,
+            "osm_type": text(audit.get("selected_osm_type")),
+            "osm_id": text(audit.get("selected_osm_id")),
+            "osm_url": text(audit.get("selected_osm_url")),
+            "osm_latitude": text(audit.get("selected_latitude")),
+            "osm_longitude": text(audit.get("selected_longitude")),
+            "coordinate_conflict": int(conflict),
+            "candidate_building_count": len(ranked),
+            "review_priority": priorities[category],
+            "review_required": 1,
+        })
+        for rank, (building, distance) in enumerate(ranked, start=1):
+            usage = building_usage(building)
+            review_rows.append({
+                "review_id": f"{museum_id}|{building.gml_id}",
+                "museum_id": museum_id,
+                "museum_name": facility["canonical_name"],
+                "municipality_code": facility["municipality_code"],
+                "municipality_name": facility["municipality_name"],
+                "review_category": category,
+                "candidate_rank": rank,
+                "distance_m": round(distance, 2),
+                "building_gml_id": building.gml_id,
+                "building_name": text(building.name),
+                "building_address": text(building.address),
+                "usage_code": usage[0],
+                "usage_label": usage[1],
+                "detailed_usage_code": usage[3],
+                "detailed_usage_label": usage[4],
+                "osm_type": text(audit.get("selected_osm_type")),
+                "osm_id": text(audit.get("selected_osm_id")),
+                "osm_url": text(audit.get("selected_osm_url")),
+                "decision": "",
+                "geometry": building.geometry,
+            })
+    if not review_rows:
+        frame = gpd.GeoDataFrame(columns=["geometry"], geometry="geometry", crs="EPSG:4326")
+    else:
+        frame = gpd.GeoDataFrame(review_rows, geometry="geometry", crs="EPSG:4326")
+    return frame, queue_rows
+
+
 def city_names_from_facilities(facilities: list[dict[str, Any]]) -> dict[str, str]:
     return {
         text(row["municipality_code"]): text(row["municipality_name"])
@@ -1421,6 +1575,82 @@ def match_buildings(
     for link in links:
         link["candidate_building_count"] = counts[link["museum_id"]]
     return links, building_status
+
+
+def apply_manual_building_overrides(
+    buildings, facilities: list[dict[str, Any]], links: list[dict[str, Any]],
+    building_status: dict[str, dict[str, Any]], override_path: Path,
+) -> int:
+    """Promote explicitly reviewed museum/building pairs; never infer missing IDs."""
+    if not override_path.is_file():
+        return 0
+    building_by_id = {row.gml_id: row for row in buildings}
+    facility_ids = {row["museum_id"] for row in facilities}
+    link_by_pair = {(row["museum_id"], row["building_gml_id"]): row for row in links}
+    applied = 0
+    for override in read_csv_rows(override_path):
+        if text(override.get("action")) != "confirm":
+            continue
+        museum_id = text(override.get("museum_id"))
+        gml_id = text(override.get("building_gml_id"))
+        if museum_id not in facility_ids:
+            raise ValueError(f"Manual override has unknown museum_id: {museum_id}")
+        if gml_id not in building_by_id:
+            raise ValueError(f"Manual override has unavailable building_gml_id: {gml_id}")
+        building = building_by_id[gml_id]
+        link = link_by_pair.get((museum_id, gml_id))
+        if link is None:
+            link = {
+                "link_id": f"{museum_id}|{gml_id}", "museum_id": museum_id,
+                "building_gml_id": gml_id, "building_id": text(building.building_id),
+                "building_role": text(override.get("building_role")) or "primary",
+                "match_status": "confirmed", "match_methods": "manual_override",
+                "exact_name": 0, "exact_address": 0, "site_address_match": 0,
+                "point_in_building": 0, "unique_precise_point_match": 0,
+                "osm_spatial_match": 0, "osm_unique_spatial_match": 0,
+                "osm_type": "", "osm_id": "", "osm_url": "",
+                "osm_object_role": "", "detailed_usage_match": 0,
+                "candidate_building_count": 1, "manual_override": 1,
+                "review_required": 0,
+                "matched_at": text(override.get("reviewed_at")) or dt.datetime.now(
+                    dt.timezone.utc
+                ).isoformat(timespec="seconds"),
+                "source_gml": text(building.source_file),
+            }
+            links.append(link)
+            link_by_pair[(museum_id, gml_id)] = link
+        else:
+            link["match_status"] = "confirmed"
+            link["match_methods"] = joined([
+                *text(link.get("match_methods")).split(";"), "manual_override"
+            ])
+            link["building_role"] = text(override.get("building_role")) or "primary"
+            link["manual_override"] = 1
+            link["review_required"] = 0
+        state = building_status.get(gml_id)
+        if state is None:
+            city, city_method = building_matching_city(
+                building, municipality_name_to_code(facilities)
+            )
+            usage = building_usage(building)
+            state = {
+                "status": "confirmed", "source_city_code": text(building.city_code),
+                "matching_city_code": city, "matching_city_method": city_method,
+                "confirmed_ids": [], "review_ids": [], "candidate_methods": "",
+                "usage_code": usage[0], "usage_label": usage[1],
+                "usage_codespace": usage[2], "detailed_usage_code": usage[3],
+                "detailed_usage_label": usage[4], "detailed_usage_codespace": usage[5],
+            }
+            building_status[gml_id] = state
+        state["status"] = "confirmed"
+        if museum_id not in state["confirmed_ids"]:
+            state["confirmed_ids"].append(museum_id)
+        state["review_ids"] = [value for value in state["review_ids"] if value != museum_id]
+        applied += 1
+    counts = Counter(row["museum_id"] for row in links)
+    for link in links:
+        link["candidate_building_count"] = counts[link["museum_id"]]
+    return applied
 
 
 def footprint_area_m2(geometry) -> float | None:
@@ -1846,7 +2076,8 @@ def write_output(
     source_gpkg: Path, output_gpkg: Path, confirmed: gpd.GeoDataFrame,
     candidates: gpd.GeoDataFrame, facility_points: gpd.GeoDataFrame,
     facilities, source_records, facility_spaces, space_hazard_assessments,
-    links, unresolved, buildings, overwrite: bool,
+    links, unresolved, buildings, manual_review: gpd.GeoDataFrame,
+    review_queue: list[dict[str, Any]], overwrite: bool,
 ):
     if source_gpkg.resolve() == output_gpkg.resolve():
         raise ValueError("Output must differ from the source hazard GeoPackage")
@@ -1872,6 +2103,11 @@ def write_output(
             output_gpkg, layer="museum_facility_points", driver="GPKG",
             engine="pyogrio", mode="a",
         )
+    if not manual_review.empty:
+        manual_review.to_file(
+            output_gpkg, layer="museum_manual_review_buildings", driver="GPKG",
+            engine="pyogrio", mode="a",
+        )
 
     with sqlite3.connect(output_gpkg) as connection:
         write_attribute_table(connection, "museum_facilities", facilities)
@@ -1885,6 +2121,14 @@ def write_output(
         )
         write_attribute_table(connection, "museum_building_links", links, LINK_FIELDS)
         write_attribute_table(connection, "museum_unresolved", unresolved, UNRESOLVED_FIELDS)
+        write_attribute_table(
+            connection, "museum_manual_review_queue", review_queue,
+            REVIEW_QUEUE_FIELDS,
+        )
+        write_attribute_table(
+            connection, "museum_building_overrides_template", [],
+            MANUAL_OVERRIDE_FIELDS,
+        )
         risk_count = append_risk_rows(
             connection, buildings, set(confirmed.get("gml_id", [])) | set(candidates.get("gml_id", []))
         )
@@ -1959,6 +2203,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--no-osm", action="store_true",
         help="Disable OSM spatial evidence even when the audit file exists",
+    )
+    parser.add_argument(
+        "--review-candidate-limit", type=int, default=12,
+        help="Maximum nearby PLATEAU footprints retained per manual-review facility",
+    )
+    parser.add_argument(
+        "--manual-overrides", type=Path, default=DEFAULT_MANUAL_OVERRIDES,
+        help="Reviewed museum/building decisions exported by the review map",
     )
     parser.add_argument("--output", type=Path, default=None,
                         help="Output GPKG; default is <source> with _museum_hazards")
@@ -2088,6 +2340,14 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         )
 
     links, building_status = match_buildings(buildings, facilities, osm_evidence)
+    manual_override_count = apply_manual_building_overrides(
+        buildings, facilities, links, building_status,
+        args.manual_overrides.expanduser().resolve(),
+    )
+    manual_review, review_queue = build_manual_review_queue(
+        buildings, facilities, links, args.osm_audit.expanduser().resolve(),
+        candidate_limit=args.review_candidate_limit,
+    )
     confirmed, candidates = building_frames(buildings, facilities, links, building_status)
     cities_with_files = {plateau_file.city_code for plateau_file in plateau_files}
     facilities_out, unresolved = facility_status_rows(facilities, links, cities_with_files)
@@ -2151,6 +2411,12 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             link["museum_id"] for link in links
             if link.get("osm_spatial_match") and not link.get("osm_unique_spatial_match")
         }),
+        "manual_review_facilities": len(review_queue),
+        "manual_review_building_candidates": len(manual_review),
+        "manual_review_category_counts": dict(Counter(
+            row["review_category"] for row in review_queue
+        )),
+        "manual_building_overrides_applied": manual_override_count,
         "plateau_files": len(plateau_files),
         "plateau_duplicate_audit": duplicate_audit,
         "plateau_buildings_scanned": len(buildings),
@@ -2175,7 +2441,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         summary["new_disaster_risk_rows"] = write_output(
             source_gpkg, output_gpkg, confirmed, candidates, facility_points, facilities_out,
             source_records, facility_spaces, space_hazard_assessments,
-            links, unresolved, buildings, args.overwrite,
+            links, unresolved, buildings, manual_review, review_queue, args.overwrite,
         )
         summary_path = output_gpkg.with_suffix(".summary.json")
         summary_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

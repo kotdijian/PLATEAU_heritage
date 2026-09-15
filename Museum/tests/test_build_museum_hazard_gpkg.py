@@ -11,9 +11,11 @@ from shapely.geometry import Point, Polygon
 from Museum.build_museum_hazard_gpkg import (
     LINK_FIELDS,
     apply_location_enrichment,
+    apply_manual_building_overrides,
     assess_space_inundation,
     audit_gml_id_duplicates,
     build_space_hazard_assessments,
+    build_manual_review_queue,
     choose_facility_type,
     default_output_path,
     load_museum_data,
@@ -173,6 +175,50 @@ class ManifestTests(unittest.TestCase):
 
 
 class MatchingTests(unittest.TestCase):
+    def test_candidate_only_enters_manual_review_queue(self):
+        museum = facility("mr", "レビュー館")
+        museum["municipality_name"] = "千代田区"
+        target = building("br", name="周辺建物")
+        target.geometry = Polygon([
+            (139.499, 35.499), (139.501, 35.499),
+            (139.501, 35.501), (139.499, 35.501),
+        ])
+        with tempfile.TemporaryDirectory() as temp_dir:
+            audit = Path(temp_dir) / "audit.csv"
+            audit.write_text(
+                "museum_id,osm_status,selected_osm_type,selected_osm_id,"
+                "selected_osm_url,selected_latitude,selected_longitude,coordinate_conflict\n"
+                "mr,candidate_only,node,10,url,35.5,139.5,false\n",
+                encoding="utf-8",
+            )
+            frame, queue = build_manual_review_queue(
+                [target], [museum], [], audit
+            )
+        self.assertEqual(len(queue), 1)
+        self.assertEqual(queue[0]["review_category"], "osm_candidate_only")
+        self.assertEqual(len(frame), 1)
+        self.assertEqual(frame.iloc[0]["building_gml_id"], "br")
+
+    def test_manual_override_promotes_review_candidate(self):
+        museum = facility("mm", "手動館")
+        target = building("bm", name="別名称")
+        target.geometry = Polygon([(0, 0), (1, 0), (1, 1), (0, 1), (0, 0)])
+        links, states = match_buildings([target], [museum])
+        with tempfile.TemporaryDirectory() as temp_dir:
+            override = Path(temp_dir) / "override.csv"
+            override.write_text(
+                "museum_id,building_gml_id,action,building_role,notes,reviewer,reviewed_at\n"
+                "mm,bm,confirm,primary,visual check,tester,2026-09-08T00:00:00Z\n",
+                encoding="utf-8",
+            )
+            count = apply_manual_building_overrides(
+                [target], [museum], links, states, override
+            )
+        self.assertEqual(count, 1)
+        self.assertEqual(links[0]["match_status"], "confirmed")
+        self.assertEqual(links[0]["manual_override"], 1)
+        self.assertEqual(states["bm"]["status"], "confirmed")
+
     def test_unique_osm_node_confirms_building(self):
         museum = facility("mo", "名称不一致")
         target = building("bo", name="別名")
